@@ -11,6 +11,13 @@
     "txfee": 10000
   },
   {
+    "coin":"DRT",
+    "name":"domraider",
+    "fname": "DomRaider",
+    "etomic":"0x9bc5418ceded51db08467fc4b62f32c5d9ebda55",
+    "rpcport":80
+  },
+  {
     "coin": "FTC",
     "name": "feathercoin",
     "fname": "Feather Coin",
@@ -19,6 +26,13 @@
     "p2shtype": 5,
     "wiftype": 142,
     "txfee": 1000000
+  },
+  {
+    "coin": "PXT",
+    "name": "populous-xbrl-token",
+    "fname": "Populous XBRL Token",
+    "etomic": "0xc14830e53aa344e8c14603a91229a0b925b0b262",
+    "rpcport": 80
   },
   {
     "coin": "TUSD",
