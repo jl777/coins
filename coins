@@ -1,5 +1,15 @@
 [
   {
+    "coin": "SBTC",
+    "name": "superbitcoin",
+    "rpcport": 28282,
+    "pubtype": 0,
+    "p2shtype": 5,
+    "wiftype": 128,
+    "txfee": 10000,
+    "confpath": "USERHOME/.sbtc/sbtc.conf"
+  }
+  {
     "coin": "FJC",
     "name": "fujicoin",
     "rpcport": 3776,
