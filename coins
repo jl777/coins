@@ -1,5 +1,14 @@
 [
   {
+    "coin": "DYN",
+    "name": "dynamic",
+    "rpcport": 33350,
+    "pubtype": 30,
+    "p2shtype": 10,
+    "wiftype": 140,
+    "txfee": 10000
+  }
+  {
     "coin": "SBTC",
     "name": "superbitcoin",
     "rpcport": 28282,
