@@ -8,7 +8,7 @@
     "wiftype": 204,
     "txfee": 10000,
     "confpath": "USERHOME/.rapturecore/rapture.conf"
-  }
+  },
   {
     "coin": "RADIUS",
     "name": "radius",
@@ -18,7 +18,7 @@
     "wiftype": 15,
     "txfee": 10000,
     "confpath": "USERHOME/.radiuscore/radius.conf"
-  }
+  },
   {
     "coin": "SEQ",
     "name": "sequence",
@@ -28,7 +28,7 @@
     "p2shtype": 64,
     "wiftype": 170,
     "txfee": 10000
-  }
+  },
   {
     "coin": "DYN",
     "name": "dynamic",
@@ -37,7 +37,7 @@
     "p2shtype": 10,
     "wiftype": 140,
     "txfee": 10000
-  }
+  },
   {
     "coin": "SBTC",
     "name": "superbitcoin",
@@ -47,7 +47,7 @@
     "wiftype": 128,
     "txfee": 10000,
     "confpath": "USERHOME/.sbtc/sbtc.conf"
-  }
+  },
   {
     "coin": "FJC",
     "name": "fujicoin",
@@ -56,7 +56,7 @@
     "p2shtype": 16,
     "wiftype": 164,
     "txfee": 100000
-  }
+  },
   {
     "coin": "VRT",
     "name": "virtus",
