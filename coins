@@ -1,5 +1,15 @@
 [
   {
+    "coin": "RAP",
+    "name": "rapture",
+    "rpcport": 14476,
+    "pubtype": 60,
+    "p2shtype": 16,
+    "wiftype": 204,
+    "txfee": 10000,
+    "confpath": "USERHOME/.rapturecore/rapture.conf"
+  }
+  {
     "coin": "RADIUS",
     "name": "radius",
     "rpcport": 4089,
