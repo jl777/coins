@@ -69,10 +69,17 @@
     "txfee": 10000
   },
   {
+    "coin":"BTCL",
+    "name":"btclite",
+    "fname": "BTC Lite",
+    "etomic":"0x5acd19b9c91e596b1f062f18e3d02da7ed8d1e50",
+    "rpcport":80
+  },
+  {
     "coin":"DRT",
     "name":"domraider",
     "fname": "DomRaider",
-    "etomic":"0x9bc5418ceded51db08467fc4b62f32c5d9ebda55",
+    "etomic":"0x9af4f26941677c706cfecf6d3379ff01bb85d5ab",
     "rpcport":80
   },
   {
