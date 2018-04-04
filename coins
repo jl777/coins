@@ -1,5 +1,15 @@
 [
   {
+    "coin": "BUCK",
+    "name": "buck",
+    "rpcport": 5739,
+    "taddr": 28,
+    "pubtype": 184,
+    "p2shtype": 189,
+    "wiftype": 128,
+    "txfee": 10000
+  },
+  {
     "coin": "RAP",
     "name": "rapture",
     "rpcport": 14476,
