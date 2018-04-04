@@ -1,5 +1,15 @@
 [
   {
+    "coin":"DIN",
+    "name":"dinero",i
+    "rpcport":9998,
+    "pubtype":30,
+    "p2shtype":13,
+    "wiftype":204,
+    "txfee":10000,
+    "confpath":"${HOME#}/.dinerocore/dinero.conf"
+  },
+  {
     "coin": "BUCK",
     "name": "buck",
     "rpcport": 5739,
