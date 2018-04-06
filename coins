@@ -11,13 +11,24 @@
   },
   {
     "coin":"DIN",
-    "name":"dinero",i
+    "name":"dinero",
     "rpcport":9998,
     "pubtype":30,
     "p2shtype":13,
     "wiftype":204,
     "txfee":10000,
     "confpath":"USERHOME/.dinerocore/dinero.conf"
+  },
+  {
+    "coin": "BCBC",
+    "name": "bitcoin@cbc",
+    "fname": "Bitcoin@CBC",
+    "rpcport": 8340,
+    "pubtype": 0,
+    "p2shtype": 5,
+    "wiftype": 128,
+    "txfee": 10000,
+    "confpath":"USERHOME/.bitcoin@cbc/bitcoin.conf"
   },
   {
     "coin": "BUCK",
