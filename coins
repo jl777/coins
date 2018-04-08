@@ -1100,6 +1100,16 @@
     "txfee": 400000
   },
   {
+    "coin": "PGN",
+    "name": "pigeon",
+    "fname": "Pigeon",
+    "rpcport": 8756,
+    "pubtype": 55,
+    "p2shtype": 122,
+    "wiftype": 128,
+    "txfee": 10000
+  },
+  {
     "coin": "PURA",
     "name": "pura",
     "fname": "Pura",
