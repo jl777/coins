@@ -24,6 +24,17 @@
     "confpath":"USERHOME/.brofistcore/brofist.conf"
   },
   {
+    "coin":"PYRO",
+    "name":"pyro",
+    "fname": "Pyro",
+    "rpcport":9696,
+    "pubtype":55,
+    "p2shtype":10,
+    "wiftype":198,
+    "txfee":10000,
+    "confpath":"USERHOME/.pyrocore/pyro.conf"
+  },
+  {
     "coin":"GRLC",
     "name":"garlicoin",
     "rpcport":42068,
