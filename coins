@@ -190,10 +190,24 @@
     "rpcport":80
   },
   {
+    "coin":"CIX",
+    "name":"cryptonetix",
+    "fname": "Cryptonetix",
+    "etomic":"0x1175a66a5c3343Bbf06AA818BB482DdEc30858E0",
+    "rpcport":80
+  },
+  {
     "coin":"DRT",
     "name":"domraider",
     "fname": "DomRaider",
     "etomic":"0x9af4f26941677c706cfecf6d3379ff01bb85d5ab",
+    "rpcport":80
+  },
+  {
+    "coin":"RLTY",
+    "name":"smartrealty",
+    "fname": "SMARTRealty",
+    "etomic":"0xbe99b09709fc753b09bcf557a992f6605d5997b0",
     "rpcport":80
   },
   {
@@ -454,7 +468,7 @@
   {
     "coin": "MCO",
     "name": "monaco",
-    "fname": "Manaco",
+    "fname": "Monaco",
     "etomic": "0xB63B606Ac810a52cCa15e44bB630fd42D8d1d83d",
     "rpcport": 80
   },
@@ -1680,7 +1694,7 @@
     "pubtype": 38,
     "p2shtype": 5,
     "wiftype": 166,
-    "txfee": 100000
+    "txfee": 1000000
   },
   {
     "coin": "LTC",
