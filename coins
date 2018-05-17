@@ -1305,6 +1305,16 @@
     "txfee": 50000
   },
   {
+    "coin": "GLD",
+    "name": "goldcoin",
+    "fname": "GoldCoin",
+    "rpcport": 9332,
+    "pubtype": 32,
+    "p2shtype": 5,
+    "wiftype": 160,
+    "txfee": 100000
+  },
+  {
     "coin": "GLT",
     "name": "globaltoken",
     "fname": "GlobalToken",
