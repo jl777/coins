@@ -291,6 +291,13 @@
     "rpcport": 80
   },
   {
+    "coin": "BTK",
+    "name": "bitcointoken",
+    "fname": "BitcoinToken",
+    "etomic": "0xdb8646F5b487B5Dd979FAC618350e85018F557d4",
+    "rpcport": 80
+  },
+  {
     "coin": "DGD",
     "name": "digixdao",
     "fname": "DigixDAO",
@@ -302,6 +309,13 @@
     "name": "digipulse",
     "fname": "DigiPulse",
     "etomic": "0xf6cFe53d6FEbaEEA051f400ff5fc14F0cBBDacA1",
+    "rpcport": 80
+  },
+  {
+    "coin": "DRGN",
+    "name": "dragonchain",
+    "fname": "Dragonchain",
+    "etomic": "0x419c4db4b9e25d6db2ad9691ccb832c8d9fda05e",
     "rpcport": 80
   },
   {
@@ -1296,6 +1310,16 @@
     "p2shtype": 5,
     "wiftype": 151,
     "txfee": 50000
+  },
+  {
+    "coin": "GLD",
+    "name": "goldcoin",
+    "fname": "GoldCoin",
+    "rpcport": 9332,
+    "pubtype": 32,
+    "p2shtype": 5,
+    "wiftype": 160,
+    "txfee": 100000
   },
   {
     "coin": "GLT",
