@@ -361,13 +361,6 @@
     "rpcport": 80
   },
   {
-    "coin": "GNT",
-    "name": "golem",
-    "fname": "Golem",
-    "etomic": "0xa74476443119A942dE498590Fe1f2454d7D4aC0d",
-    "rpcport": 80
-  },
-  {
     "coin": "ETHOS",
     "name": "ethos",
     "fname": "Ethos",
@@ -554,6 +547,13 @@
     "name": "wings",
     "fname": "Wings",
     "etomic": "0x667088b212ce3d06a1b553a7221E1fD19000d9aF",
+    "rpcport": 80
+  },
+  {
+    "coin": "PRL",
+    "name": "oyster",
+    "fname": "Oyster",
+    "etomic": "0x1844b21593262668b7248d0f57a220caaba46ab9",
     "rpcport": 80
   },
   {
