@@ -155,6 +155,13 @@
     "txfee": 10000
   },
   {
+    "coin":"AE",
+    "name":"aeternity",
+    "fname": "Aeternity",
+    "etomic":"0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d",
+    "rpcport":80
+  },
+  {
     "coin":"ANN",
     "name":"agentnotneeded",
     "fname": "Agent Not Needed",
@@ -166,6 +173,13 @@
     "name":"btclite",
     "fname": "BTC Lite",
     "etomic":"0x5acd19b9c91e596b1f062f18e3d02da7ed8d1e50",
+    "rpcport":80
+  },
+  {
+    "coin":"BTM",
+    "name":"bytom",
+    "fname": "Bytom",
+    "etomic":"0xcB97e65F07DA24D46BcDD078EBebd7C6E6E3d750",
     "rpcport":80
   },
   {
