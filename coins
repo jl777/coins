@@ -333,6 +333,13 @@
     "rpcport": 80
   },
   {
+    "coin": "FLLW",
+    "name": "followcoin",
+    "fname": "FollowCoin",
+    "etomic": "0x0200412995f1bafef0d3f97c4e28ac2515ec1ece",
+    "rpcport": 80
+  },
+  {
     "coin": "HYD",
     "name": "hydra",
     "fname": "Hydra",
@@ -419,7 +426,7 @@
   {
     "coin": "BNT",
     "name": "bancor",
-    "fname": "Bancon",
+    "fname": "Bancor",
     "etomic": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C",
     "rpcport": 80
   },
@@ -806,6 +813,13 @@
     "name": "EOS",
     "fname": "EOS",
     "etomic": "0x86fa049857e0209aa7d9e616f7eb3b3b78ecfdb0",
+    "rpcport": 80
+  },
+  {
+    "coin": "ZIL",
+    "name": "zilliqa",
+    "fname": "Zilliqa",
+    "etomic": "0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27",
     "rpcport": 80
   },
   {
