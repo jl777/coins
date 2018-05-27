@@ -162,6 +162,13 @@
     "rpcport":80
   },
   {
+    "coin":"AION",
+    "name":"aion",
+    "fname": "Aion",
+    "etomic":"0x4CEdA7906a5Ed2179785Cd3A40A69ee8bc99C466",
+    "rpcport":80
+  },
+  {
     "coin":"ANN",
     "name":"agentnotneeded",
     "fname": "Agent Not Needed",
@@ -351,6 +358,13 @@
     "name": "followcoin",
     "fname": "FollowCoin",
     "etomic": "0x0200412995f1bafef0d3f97c4e28ac2515ec1ece",
+    "rpcport": 80
+  },
+  {
+    "coin": "FSN",
+    "name": "fusion",
+    "fname": "Fusion",
+    "etomic": "0xd0352a019e9ab9d757776f532377aaebd36fd541",
     "rpcport": 80
   },
   {
