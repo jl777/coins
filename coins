@@ -375,6 +375,13 @@
     "rpcport": 80
   },
   {
+    "coin": "IOST",
+    "name": "iostoken",
+    "fname": "IOST",
+    "etomic": "0xfa1a856cfa3409cfa145fa4e20eb270df3eb21ab",
+    "rpcport": 80
+  },
+  {
     "coin": "PPT",
     "name": "populous",
     "fname": "Populous",
@@ -533,6 +540,13 @@
     "name": "raiden-network-token",
     "fname": "Raiden Network Token",
     "etomic": "0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6",
+    "rpcport": 80
+  },
+  {
+    "coin": "WTC",
+    "name": "waltonchain",
+    "fname": "Waltonchain",
+    "etomic": "0xb7cb1c96db6b22b0d3d9536e0108d062bd488f74",
     "rpcport": 80
   },
   {
@@ -792,6 +806,13 @@
     "name": "xaurum",
     "fname": "Xarum",
     "etomic": "0x4DF812F6064def1e5e029f1ca858777CC98D2D81",
+    "rpcport": 80
+  },
+  {
+    "coin": "XOV",
+    "name": "xovbank",
+    "fname": "XOVBank",
+    "etomic": "0x153eD9CC1b792979d2Bde0BBF45CC2A7e436a5F9",
     "rpcport": 80
   },
   {
