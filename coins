@@ -86,6 +86,16 @@
     "txfee": 10000
   },
   {
+    "coin": "CMM",
+    "name": "commercium",
+    "fname": "Commercium",
+    "rpcport": 9657,
+    "pubtype": 28,
+    "p2shtype": 50,
+    "wiftype": 140,
+    "txfee": 10000
+  },
+  {
     "coin": "RAP",
     "name": "rapture",
     "rpcport": 14476,
