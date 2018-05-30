@@ -348,6 +348,7 @@
     "name": "digixdao",
     "fname": "DigixDAO",
     "etomic": "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A",
+    "decimals": 9,
     "rpcport": 80
   },
   {
@@ -678,6 +679,13 @@
     "name": "ripio-credit-network",
     "fname": "Ripco Credit Network",
     "etomic": "0xF970b8E36e23F7fC3FD752EeA86f8Be8D83375A6",
+    "rpcport": 80
+  },
+  {
+    "coin": "SANC",
+    "name": "sancoj",
+    "fname": "Sancoj",
+    "etomic": "0x03ec7bb59be036870ef696a2abf124f496d6735a",
     "rpcport": 80
   },
   {
