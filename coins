@@ -44,6 +44,17 @@
     "confpath":"USERHOME/.pyrocore/pyro.conf"
   },
   {
+    "coin":"XSN",
+    "name":"xsn",
+    "fname": "Stakenet",
+    "rpcport":51473,
+    "pubtype":76,
+    "p2shtype":16,
+    "wiftype":204,
+    "txfee":10000,
+    "confpath":"USERHOME/.xsncore/xsn.conf"
+  },
+  {
     "coin":"GRLC",
     "name":"garlicoin",
     "rpcport":42068,
