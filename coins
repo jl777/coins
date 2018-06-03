@@ -64,6 +64,16 @@
     "txfee":100000
   },
   {
+    "coin":"HXX",
+    "name":"hexxcoin",
+    "fname": "Hexx",
+    "rpcport":29200,
+    "pubtype":40,
+    "p2shtype":10,
+    "wiftype":210,
+    "txfee":100000
+  },
+  {
     "coin":"DIN",
     "name":"dinero",
     "rpcport":9998,
