@@ -33,6 +33,17 @@
     "confpath":"USERHOME/.brofistcore/brofist.conf"
   },
   {
+    "coin":"ATB",
+    "name":"atbcoin",
+    "fname": "ATBCoin",
+    "rpcport":8332,
+    "pubtype":23,
+    "p2shtype":83,
+    "wiftype":128,
+    "txfee":10000,
+    "confpath":"USERHOME/.ATBCoinWallet/atbcoin.conf"
+  },
+  {
     "coin":"PYRO",
     "name":"pyro",
     "fname": "Pyro",
