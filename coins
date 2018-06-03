@@ -64,6 +64,16 @@
     "txfee":100000
   },
   {
+    "coin":"HXX",
+    "name":"hexxcoin",
+    "fname": "Hexx",
+    "rpcport":29200,
+    "pubtype":40,
+    "p2shtype":10,
+    "wiftype":210,
+    "txfee":100000
+  },
+  {
     "coin":"DIN",
     "name":"dinero",
     "rpcport":9998,
@@ -273,6 +283,13 @@
     "name":"domraider",
     "fname": "DomRaider",
     "etomic":"0x9af4f26941677c706cfecf6d3379ff01bb85d5ab",
+    "rpcport":80
+  },
+  {
+    "coin":"ELF",
+    "name":"aelf",
+    "fname": "aelf",
+    "etomic":"0xbf2179859fc6D5BEE9Bf9158632Dc51678a4100e",
     "rpcport":80
   },
   {
