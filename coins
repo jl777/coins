@@ -2,6 +2,7 @@
   {
     "coin":"SPK",
     "name":"Sparks",
+    "fname": "Sparks",
     "rpcport":8892,
     "pubtype":38,
     "p2shtype":10,
@@ -11,6 +12,7 @@
   {
     "coin":"ORE",
     "name":"galactrum",
+    "fname": "Galactrum",
     "rpcport":6269,
     "pubtype":38,
     "p2shtype":16,
@@ -20,11 +22,13 @@
   {
     "coin":"EQL",
     "asset":"EQL",
+    "fname": "Equaliser",
     "rpcport":10306
   },
   {
     "coin":"PEW",
     "name":"brofist",
+    "fname": "Brofist",
     "rpcport":12454,
     "pubtype":55,
     "p2shtype":10,
@@ -68,6 +72,7 @@
   {
     "coin":"GRLC",
     "name":"garlicoin",
+    "fname": "Garlicoin",
     "rpcport":42068,
     "pubtype":38,
     "p2shtype":5,
@@ -87,6 +92,7 @@
   {
     "coin":"DIN",
     "name":"dinero",
+    "fname": "Dinero",
     "rpcport":9998,
     "pubtype":30,
     "p2shtype":13,
@@ -119,6 +125,7 @@
   {
     "coin": "BUCK",
     "name": "buck",
+    "fname": "Buck",
     "rpcport": 5739,
     "taddr": 28,
     "pubtype": 184,
@@ -138,6 +145,7 @@
   },
   {
     "coin": "RAP",
+    "fname": "Rapture",
     "name": "rapture",
     "rpcport": 14476,
     "pubtype": 60,
@@ -149,6 +157,7 @@
   {
     "coin": "RADIUS",
     "name": "radius",
+    "fname": "Radius",
     "rpcport": 4089,
     "pubtype": 60,
     "p2shtype": 16,
@@ -159,6 +168,7 @@
   {
     "coin": "SEQ",
     "name": "sequence",
+    "fname": "Sequence",
     "rpcport": 16663,
     "isPoS": 1,
     "pubtype": 63,
@@ -169,6 +179,7 @@
   {
     "coin": "DYN",
     "name": "dynamic",
+    "fname": "Dynamic",
     "rpcport": 33350,
     "pubtype": 30,
     "p2shtype": 10,
@@ -178,6 +189,7 @@
   {
     "coin": "SBTC",
     "name": "superbitcoin",
+    "fname": "Super Bitcoin",
     "rpcport": 28282,
     "pubtype": 0,
     "p2shtype": 5,
@@ -188,6 +200,7 @@
   {
     "coin": "FJC",
     "name": "fujicoin",
+    "fname": "FujiCoin",
     "rpcport": 3776,
     "pubtype": 36,
     "p2shtype": 16,
