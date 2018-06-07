@@ -1908,14 +1908,18 @@
   },
   {
     "coin": "REVS",
-    "active": 0,
     "asset": "REVS",
     "fname": "REVS",
     "rpcport": 10196
   },
   {
+    "coin": "VRSC",
+    "asset": "VRSC",
+    "fname": "VerusCoin",
+    "rpcport": 27486
+  },
+  {
     "coin": "JUMBLR",
-    "active": 0,
     "asset": "JUMBLR",
     "fname": "JUMBLR",
     "rpcport": 15106
