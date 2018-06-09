@@ -90,6 +90,16 @@
     "txfee":100000
   },
   {
+    "coin":"CRDS",
+    "name":"credits",
+    "fname": "Credits",
+    "rpcport":31050,
+    "pubtype":28,
+    "p2shtype":10,
+    "wiftype":140,
+    "txfee":10000
+  },
+  {
     "coin":"DIN",
     "name":"dinero",
     "fname": "Dinero",
