@@ -90,6 +90,16 @@
     "txfee":100000
   },
   {
+    "coin":"CRDS",
+    "name":"credits",
+    "fname": "Credits",
+    "rpcport":31050,
+    "pubtype":28,
+    "p2shtype":10,
+    "wiftype":140,
+    "txfee":10000
+  },
+  {
     "coin":"DIN",
     "name":"dinero",
     "fname": "Dinero",
@@ -268,6 +278,13 @@
     "rpcport":80
   },
   {
+    "coin":"GPN",
+    "name":"gpncoin",
+    "fname": "GPN Coin",
+    "etomic":"0xE2b407160AAd5540eAc0e80338b9a5085C60F25B",
+    "rpcport":80
+  },
+  {
     "coin":"LYS",
     "name":"lightyears",
     "fname": "Lightyears",
@@ -394,6 +411,13 @@
     "name": "omisego",
     "fname": "OmiseGo",
     "etomic": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
+    "rpcport": 80
+  },
+  {
+    "coin": "UCASH",
+    "name": "ucash",
+    "fname": "U.CASH",
+    "etomic": "0x92e52a1a235d9a103d970901066ce910aacefd37",
     "rpcport": 80
   },
   {
