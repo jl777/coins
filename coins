@@ -1242,6 +1242,16 @@
     "txfee": 1000
   },
   {
+    "coin": "MLM",
+    "name": "mktcoin",
+    "fname": "MktCoin",
+    "rpcport": 9276,
+    "pubtype": 110,
+    "p2shtype": 115,
+    "wiftype": 238,
+    "txfee": 10000
+  },
+  {
     "coin": "BAY",
     "name": "bitbay",
     "fname": "Bitbay",
