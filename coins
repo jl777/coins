@@ -1242,6 +1242,16 @@
     "txfee": 1000
   },
   {
+    "coin": "MLM",
+    "name": "mktcoin",
+    "fname": "MktCoin",
+    "rpcport": 9276,
+    "pubtype": 110,
+    "p2shtype": 115,
+    "wiftype": 238,
+    "txfee": 10000
+  },
+  {
     "coin": "BAY",
     "name": "bitbay",
     "fname": "Bitbay",
@@ -1784,16 +1794,6 @@
     "p2shtype": 85,
     "wiftype": 150,
     "txfee": 10000
-  },
-  {
-    "coin": "MOON",
-    "name": "Mooncoin",
-    "fname": "Mooncoin",
-    "rpcport": 44663,
-    "pubtype": 3,
-    "p2shtype": 22,
-    "wiftype": 131,
-    "txfee": 100000
   },
   {
     "coin": "EMC2",
