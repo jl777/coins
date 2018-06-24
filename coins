@@ -261,6 +261,13 @@
     "rpcport":80
   },
   {
+    "coin":"BOX",
+    "name":"beonbox",
+    "fname":"Beonbox",
+    "etomic":"0x01e579be97433f861340268521a7a2ab9829082c",
+    "rpcport":80
+  },
+  {
     "coin":"BTCL",
     "name":"btclite",
     "fname": "BTC Lite",
@@ -314,6 +321,13 @@
     "name":"peculium",
     "fname": "Peculium",
     "etomic":"0x3618516f45cd3c913f81f9987af41077932bc40d",
+    "rpcport":80
+  },
+  {
+    "coin":"QBIT",
+    "name":"qubitica",
+    "fname":"Qubitica",
+    "etomic":"0xcb5ea3c190d8f82deadf7ce5af855ddbf33e3962",
     "rpcport":80
   },
   {
