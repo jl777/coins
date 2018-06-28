@@ -261,6 +261,13 @@
     "rpcport":80
   },
   {
+    "coin":"BITSOKO",
+    "name":"bitsoko",
+    "fname":"Bitsoko",
+    "etomic":"0xb72627650f1149ea5e54834b2f468e5d430e67bf",
+    "rpcport":80
+  },
+  {
     "coin":"BOX",
     "name":"beonbox",
     "fname":"Beonbox",
@@ -300,6 +307,20 @@
     "name":"gpncoin",
     "fname": "GPN Coin",
     "etomic":"0xE2b407160AAd5540eAc0e80338b9a5085C60F25B",
+    "rpcport":80
+  },
+  {
+    "coin":"JOI",
+    "name":"jointedu",
+    "fname":"JointEDU",
+    "etomic":"0x58ded6994124b4fff298f1416aca3fc9cdba37b2",
+    "rpcport":80
+  },
+  {
+    "coin":"LIKE",
+    "name":"likecoin",
+    "fname":"LikeCoin",
+    "etomic":"0x02f61fd266da6e8b102d4121f5ce7b992640cf98",
     "rpcport":80
   },
   {
