@@ -26,6 +26,17 @@
     "rpcport":10306
   },
   {
+    "coin":"PAC",
+    "name":"paccoin",
+    "fname":"PACcoin",
+    "rpcport":7111,
+    "pubtype":55,
+    "p2shtype":10,
+    "wiftype":204,
+    "txfee":10000,
+    "confpath":"USERHOME/.paccoincore/paccoin.conf"
+  },
+  {
     "coin":"PEW",
     "name":"brofist",
     "fname": "Brofist",
