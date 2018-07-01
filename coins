@@ -70,6 +70,17 @@
     "confpath":"USERHOME/.ATBCoinWallet/atbcoin.conf"
   },
   {
+    "coin":"POLIS",
+    "name":"polis",
+    "fname":"Polis",
+    "rpcport":24127,
+    "pubtype":55,
+    "p2shtype":56,
+    "wiftype":60,
+    "txfee":10000,
+    "confpath":"USERHOME/.poliscore/polis.conf"
+  },
+  {
     "coin":"PYRO",
     "name":"pyro",
     "fname": "Pyro",
