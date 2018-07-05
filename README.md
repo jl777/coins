@@ -6,7 +6,7 @@ This repository is the coins database which is accssed by graphical applications
 
 When submitting a pull request to add coin to BarterDEX make sure you have completed this checklist:
 
-### 1. Coin info added to `coins` file
+### 1. Coin info added to `coins` file (Required)
 You need the following info in JSON format added to [coins](coins) file:
 
 ```shell
@@ -71,7 +71,7 @@ Ethereum protocol specific coin/project add request are the most simplest. `"coi
 `"etomic"` must be the ERC20 token/coin's smart contract address.
 
 
-### 2. Icon file
+### 2. Icon file (Required)
 - The icon file is required.
 - Icon must be a .png format file.
 - Dimentions of icon file is 82x82 pixels.
@@ -79,10 +79,44 @@ Ethereum protocol specific coin/project add request are the most simplest. `"coi
 - Icon file location is [icons](icons) directory.
 
 
-### 3. Explorer URL
+### 3. Explorer URL (Required)
 - Explorer file name must be coin's ticker name matching the `"coin"` value as specified in [coins](coins) file.
 - Explorer file name must not have any file extension. It is a file without any `.` extension.
 - Explorer file name must be all in **capital** letters.
 - It must have a valid JSON array with at least one Explorer URL in it. It's better if there are more than one explorer URLs in this JSON array. Example: `["http://example1.com/tx/","http://example2.com/tx/"]`.
 - The URL of Explorer must be pointing to the transactions URL. Check BTC file for an example: [explorers/BTC](explorers/BTC), which has `["https://www.blocktrail.com/BTC/tx/"]`. This explorers URL is used to show in graphical applications to link to the transactions like this [example link](https://www.blocktrail.com/BTC/tx/5268d045196e940ca8ba53b442c38a0f8c159002c912f8427239153dce984cc3). Make sure this URL ends with `/`.
+
+### 4. Electrum Servers (Optional)
+
+- Electrum file name must be coin's ticker name matching the `"coin"` value as specified in [coins](coins) file.
+- Electrum file name must not have any file extension. It is a file without any `.` extension.
+- Electrum file name must be all in **capital** letters.
+- It must be a valid JSON format as shown in the following example:
+
+```JSON
+[
+  {
+    "electrum1.example.com": 12345,
+    "contact": [
+      {"email": "electrum1_admin_email@example.com"},
+      {"matrix": "@electrum1_admin:matrix.org"},
+      {"skype": "example_username"},
+      {"twitter": "example_username"},
+      {"reddit": "example_username"},
+      {"github": "example_username"},
+      {"keybaseio": "example_username"}
+    ]
+  },
+  {
+    "electrum2.example.com": 12345,
+    "contact": [
+      {"email": "electrum2_admin_email@example.com"}
+    ]
+  }
+]
+```
+
+- At least minimum 2 or more Electrum servers information must be provided.
+- Contact information must be provided in case the server admin needs to be contact in urgent cases when required. It can be any contact information out of the examples provided. Or may be add your own service/contact information as suites you.
+- The address and port of electrum server are required. The address of electrum server can either be a DNS or an IP address.
 
