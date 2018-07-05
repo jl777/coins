@@ -70,4 +70,11 @@ Ethereum protocol specific coin/project add request are the most simplest. `"coi
 `"etomic"` must be the ERC20 token/coin's smart contract address.
 
 
+### 2. Icon file
+- The icon file is required.
+- Icon must be a .png format file.
+- Dimentions of icon file is 82x82 pixels.
+- Icon file name MUST be in **small letters**.
+- Icon file location is [icons](icons) directory.
+
 
