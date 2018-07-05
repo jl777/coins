@@ -1,1 +1,35 @@
-[{"electrum2.cipig.net": 10010},{"electrum1.cipig.net": 10010}]
+[
+  {
+    "electrum3.cipig.net": 10010,
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "matrix": "@cipig:matrix.org"
+      }
+    ]
+  },
+  {
+    "electrum2.cipig.net": 10010,
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "matrix": "@cipig:matrix.org"
+      }
+    ]
+  },
+  {
+    "electrum1.cipig.net": 10010,
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "matrix": "@cipig:matrix.org"
+      }
+    ]
+  }
+]
