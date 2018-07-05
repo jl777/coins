@@ -6,6 +6,20 @@ This repository is the coins database which is accssed by graphical applications
 
 When submitting a pull request to add coin to BarterDEX make sure you have completed this checklist:
 
+### 0. The coin must be tested with BarterDEX atomic swaps
+When submitting your coin add request please submit the three transctions (`bobdeposit`, `alicepayment` and `bobpayment`) URL which are produced by the atomic swap performed by `marketmaker` API. This means that before sumitting the further steps information to this coins database repo, you would have performaed an atomic swap, and the further steps explains the expected files/values to be submitted to this database repo.
+
+You can learn about performing an atomic swap from our documentation link https://docs.komodoplatform.com
+
+Or you can contact the team at coinintegration@komodoplatform.com to get help if required.
+
+Example:
+
+bobdeposit https://btc.example.org/tx/746179890c7cb6b10fe4fef1c835c51a648bba087d52903d9d889d84779b1b9b
+alicepayment https://kmd.example.net/tx/2aa3cdc0000936f8fb2a5285e852a57f128913edea4d562433975fe84f6e6a8c
+bobpayment https://btc.example.org/tx/f64ae4b56b43ab9017ccc767c16b9d9cdf438ed83de94ba0629f1213b5ecba72
+
+
 ### 1. Coin info added to `coins` file (Required)
 You need the following info in JSON format added to [coins](coins) file:
 
