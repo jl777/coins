@@ -372,6 +372,13 @@
     "rpcport":80
   },
   {
+    "coin":"MMX",
+    "name":"mechanix",
+    "fname":"Mechanix Token",
+    "etomic":"0xe7c33a0e04f2316bb321c4ad2976873d09538b56",
+    "rpcport":80
+  },
+  {
     "coin":"MYB",
     "name":"mybit-token",
     "fname": "MyBit Token",
@@ -404,6 +411,20 @@
     "name":"rivetz",
     "fname": "Rivetz",
     "etomic":"0x3d1ba9be9f66b8ee101911bc36d3fb562eac2244",
+    "rpcport":80
+  },
+  {
+    "coin":"SPANK",
+    "name":"spankchain",
+    "fname": "SpankChain",
+    "etomic":"0x42d6622dece394b54999fbd73d108123806f6a18",
+    "rpcport":80
+  },
+  {
+    "coin":"STRM41",
+    "name":"stream41",
+    "fname":"Stream41",
+    "etomic":"0xbad7a7f7ba71ce3659fe6dcad34af86b9de2a4b2",
     "rpcport":80
   },
   {
