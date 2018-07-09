@@ -82,6 +82,17 @@
     "confpath":"USERHOME/.ATBCoinWallet/atbcoin.conf"
   },
   {
+    "coin":"BTNX",
+    "name":"bitnexus",
+    "fname":"BitNexus",
+    "rpcport":9191,
+    "pubtype":25,
+    "p2shtype":10,
+    "wiftype":198,
+    "txfee":10000,
+    "confpath":"USERHOME/.bitcoinnodecore/bitnexus.conf"
+  },
+  {
     "coin":"POLIS",
     "name":"polis",
     "fname":"Polis",
