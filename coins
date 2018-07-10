@@ -418,6 +418,13 @@
     "rpcport":80
   },
   {
+    "coin":"POLY",
+    "name":"polymath-network",
+    "fname":"Polymath",
+    "etomic":"0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec",
+    "rpcport":80
+  },
+  {
     "coin":"PURC",
     "name":"peurcoin",
     "fname":"Peurcoin",
@@ -450,6 +457,13 @@
     "name":"stream41",
     "fname":"Stream41",
     "etomic":"0xbad7a7f7ba71ce3659fe6dcad34af86b9de2a4b2",
+    "rpcport":80
+  },
+  {
+    "coin":"SUB",
+    "name":"substratum",
+    "fname":"Substratum",
+    "etomic":"0x12480e24eb5bec1a9d4369cab6a80cad3c0a377a",
     "rpcport":80
   },
   {
