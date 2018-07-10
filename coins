@@ -397,6 +397,13 @@
     "rpcport":80
   },
   {
+    "coin":"NULS",
+    "name":"nuls",
+    "fname":"Nuls",
+    "etomic":"0xb91318f35bdb262e9423bc7c7c2a3a93dd93c92c",
+    "rpcport":80
+  },
+  {
     "coin":"OCC",
     "name":"originalcryptocoin",
     "fname": "Original Crypto Coin",
@@ -516,6 +523,13 @@
     "name": "trueusd",
     "fname": "TrueUSD",
     "etomic": "0x8dd5fbce2f6a956c3022ba3663759011dd51e73e",
+    "rpcport": 80
+  },
+  {
+    "coin": "WAX",
+    "name": "wax",
+    "fname": "WAX",
+    "etomic": "0x39Bb259F66E1C59d5ABEF88375979b4D20D98022",
     "rpcport": 80
   },
   {
