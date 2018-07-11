@@ -341,6 +341,13 @@
     "rpcport":80
   },
   {
+    "coin":"CS",
+    "name":"credits",
+    "fname":"Credits",
+    "etomic":"0x46b9ad944d1059450da1163511069c718f699d31",
+    "rpcport":80
+  },
+  {
     "coin":"DATA",
     "name":"streamr-datacoin",
     "fname":"Streamr DATAcoin",
@@ -380,6 +387,13 @@
     "name":"lightyears",
     "fname": "Lightyears",
     "etomic":"0xdd41fbd1ae95c5d9b198174a28e04be6b3d1aa27",
+    "rpcport":80
+  },
+  {
+    "coin":"MAN",
+    "name":"matrix-ai-network",
+    "fname":"Matrix AI Network",
+    "etomic":"0xe25bcec5d3801ce3a794079bf94adf1b8ccd802d",
     "rpcport":80
   },
   {
@@ -951,7 +965,7 @@
   {
     "coin": "AMB",
     "name": "amber",
-    "fname": "Amber",
+    "fname": "Ambrosus",
     "etomic": "0x4DC3643DbC642b72C158E7F3d2ff232df61cb6CE",
     "rpcport": 80
   },
