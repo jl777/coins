@@ -383,6 +383,13 @@
     "rpcport":80
   },
   {
+    "coin": "GTO",
+    "name": "gifto",
+    "fname": "Gifto",
+    "etomic":"0xc5bbae50781be1669306b9e001eff57a2957b09d",
+    "rpcport":80
+  },
+  {
     "coin":"JOI",
     "name":"jointedu",
     "fname":"JointEDU",
@@ -394,6 +401,13 @@
     "name":"likecoin",
     "fname":"LikeCoin",
     "etomic":"0x02f61fd266da6e8b102d4121f5ce7b992640cf98",
+    "rpcport":80
+  },
+  {
+    "coin":"LINK",
+    "name":"chainlink",
+    "fname":"ChainLink",
+    "etomic":"0x514910771af9ca656af840dff83e8264ecf986ca",
     "rpcport":80
   },
   {
@@ -492,6 +506,13 @@
     "name":"substratum",
     "fname":"Substratum",
     "etomic":"0x12480e24eb5bec1a9d4369cab6a80cad3c0a377a",
+    "rpcport":80
+  },
+  {
+    "coin":"THETA",
+    "name":"theta-token",
+    "fname":"Theta Token",
+    "etomic":"0x3883f5e181fccaF8410FA61e12b59BAd963fb645",
     "rpcport":80
   },
   {
@@ -1014,7 +1035,7 @@
   {
     "coin": "RCN",
     "name": "ripio-credit-network",
-    "fname": "Ripco Credit Network",
+    "fname": "Ripio Credit Network",
     "etomic": "0xF970b8E36e23F7fC3FD752EeA86f8Be8D83375A6",
     "rpcport": 80
   },
