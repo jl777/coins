@@ -12,6 +12,16 @@
     "rpcport":13109
   },
   {
+    "coin": "COLX",
+    "name": "ColossusXT",
+    "fname": "ColossusXT",
+    "rpcport": 51473,
+    "pubtype": 30,
+    "p2shtype": 13,
+    "wiftype": 212,
+    "txfee": 1000000000
+  },
+  {
     "coin":"SPK",
     "name":"Sparks",
     "fname": "Sparks",
