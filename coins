@@ -103,6 +103,17 @@
     "confpath":"USERHOME/.bitcoinnodecore/bitnexus.conf"
   },
   {
+    "coin":"DOPE",
+    "name":"dopecoin",
+    "fname":"DopeCoin",
+    "isPoS": 1,
+    "rpcport":40421,
+    "pubtype":30,
+    "p2shtype":5,
+    "wiftype":158,
+    "txfee":10000
+  },
+  {
     "coin":"POLIS",
     "name":"polis",
     "fname":"Polis",
@@ -398,6 +409,13 @@
     "fname": "GPN Coin",
     "etomic":"0xE2b407160AAd5540eAc0e80338b9a5085C60F25B",
     "rpcport":80
+  },
+  {
+    "coin": "GTC",
+    "name": "game",
+    "fname": "Game.com",
+    "etomic": "0xB70835D7822eBB9426B56543E391846C107bd32C",
+    "rpcport": 80
   },
   {
     "coin": "GTO",
