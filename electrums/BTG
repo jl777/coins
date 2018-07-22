@@ -1,1 +1,35 @@
-[{"94.130.224.11":10052},{"173.212.225.176":10052}]
+[
+  {
+    "electrum3.cipig.net": 10052,
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "matrix": "@cipig:matrix.org"
+      }
+    ]
+  },
+  {
+    "electrum2.cipig.net": 10052,
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "matrix": "@cipig:matrix.org"
+      }
+    ]
+  },
+  {
+    "electrum1.cipig.net": 10052,
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "matrix": "@cipig:matrix.org"
+      }
+    ]
+  }
+]

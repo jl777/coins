@@ -1,1 +1,35 @@
-[{"node1.komodo.rocks":50001},{"e-x.not.fyi":50001},{"helicarrier.bauerj.eu":50001},{"electrum.hsmiths.com":50001}]
+[
+  {
+    "electrum3.cipig.net": 10000,
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "matrix": "@cipig:matrix.org"
+      }
+    ]
+  },
+  {
+    "electrum2.cipig.net": 10000,
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "matrix": "@cipig:matrix.org"
+      }
+    ]
+  },
+  {
+    "electrum1.cipig.net": 10000,
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "matrix": "@cipig:matrix.org"
+      }
+    ]
+  }
+]
