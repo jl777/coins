@@ -103,6 +103,17 @@
     "confpath":"USERHOME/.bitcoinnodecore/bitnexus.conf"
   },
   {
+    "coin": "CHC",
+    "name": "chaincoin",
+    "fname": "ChainCoin",
+    "rpcport": 11995,
+    "pubtype": 28,
+    "p2shtype": 4,
+    "wiftype": 156,
+    "txfee": 10000,
+    "confpath": "USERHOME/.chaincoincore/chaincoin.conf"
+  },
+  {
     "coin":"DOPE",
     "name":"dopecoin",
     "fname":"DopeCoin",
@@ -748,6 +759,13 @@
     "name": "dai",
     "fname": "Dai",
     "etomic": "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359",
+    "rpcport": 80
+  },
+  {
+    "coin": "DDD",
+    "name": "scryinfo",
+    "fname": "Scry.info",
+    "etomic": "0x9F5F3CFD7a32700C93F971637407ff17b91c7342",
     "rpcport": 80
   },
   {
