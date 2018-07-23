@@ -103,6 +103,17 @@
     "confpath":"USERHOME/.bitcoinnodecore/bitnexus.conf"
   },
   {
+    "coin": "CHC",
+    "name": "chaincoin",
+    "fname": "ChainCoin",
+    "rpcport": 11995,
+    "pubtype": 28,
+    "p2shtype": 4,
+    "wiftype": 156,
+    "txfee": 10000,
+    "confpath": "USERHOME/.chaincoincore/chaincoin.conf"
+  },
+  {
     "coin":"DOPE",
     "name":"dopecoin",
     "fname":"DopeCoin",
