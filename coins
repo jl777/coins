@@ -345,6 +345,13 @@
     "rpcport":80
   },
   {
+    "coin": "BLZ",
+    "name": "bluzelle",
+    "fname": "Bluzelle",
+    "etomic": "0x5732046a883704404f284ce41ffadd5b007fd668",
+    "rpcport": 80
+  },
+  {
     "coin":"BOX",
     "name":"beonbox",
     "fname":"Beonbox",
@@ -595,6 +602,13 @@
     "fname": "Dentacoin",
     "etomic":"0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6",
     "rpcport":80
+  },
+  {
+    "coin": "ELY",
+    "name": "elysian",
+    "fname": "Elysian",
+    "etomic": "0xa95592dcffa3c080b4b40e459c5f5692f67db7f8",
+    "rpcport": 80
   },
   {
     "coin":"DROP",
@@ -929,6 +943,13 @@
     "name": "iconomi",
     "fname": "Iconomi",
     "etomic": "0x888666CA69E0f178DED6D75b5726Cee99A87D698",
+    "rpcport": 80
+  },
+  {
+    "coin": "LUPX",
+    "name": "lupecoin",
+    "fname": "Lupecoin",
+    "etomic": "0x49C67AE22c334D0123dD6DBDc44F5302e130a88b",
     "rpcport": 80
   },
   {
