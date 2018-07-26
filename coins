@@ -2239,8 +2239,8 @@
     "name": "bitcore",
     "fname": "Bitcore",
     "rpcport": 8556,
-    "pubtype": 0,
-    "p2shtype": 5,
+    "pubtype": 3,
+    "p2shtype": 125,
     "wiftype": 128,
     "txfee": 50000
   },
