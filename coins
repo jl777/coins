@@ -415,6 +415,13 @@
     "rpcport":80
   },
   {
+    "coin": "ETK",
+    "name": "energitoken",
+    "fname": "EnergiToken",
+    "etomic": "0x3c4a3ffd813a107febd57b2f01bc344264d90fde",
+    "rpcport": 80
+  },
+  {
     "coin": "FOOD",
     "name": "foodcoin",
     "fname": "FoodCoin",
@@ -457,6 +464,13 @@
     "rpcport":80
   },
   {
+    "coin": "KICK",
+    "name": "kickico",
+    "fname": "KickCoin",
+    "etomic": "0x27695e09149adc738a978e9a678f99e4c39e9eb9",
+    "rpcport": 80
+  },
+  {
     "coin":"LIKE",
     "name":"likecoin",
     "fname":"LikeCoin",
@@ -490,6 +504,13 @@
     "fname":"Mechanix Token",
     "etomic":"0xe7c33a0e04f2316bb321c4ad2976873d09538b56",
     "rpcport":80
+  },
+  {
+    "coin": "MRPH",
+    "name": "morpheusnetwork",
+    "fname": "Morpheus Network",
+    "etomic": "0x7b0c06043468469967dba22d1af33d77d44056c8",
+    "rpcport": 80
   },
   {
     "coin":"MYB",
@@ -532,6 +553,13 @@
     "fname": "Peculium",
     "etomic":"0x3618516f45cd3c913f81f9987af41077932bc40d",
     "rpcport":80
+  },
+  {
+    "coin": "PCNC",
+    "name": "pcncoin",
+    "fname": "PCN Coin",
+    "etomic": "0x090b60abc45e2af60eb058a4c7f25574a1c6ae4a",
+    "rpcport": 80
   },
   {
     "coin":"POLY",
