@@ -70,6 +70,17 @@
     "confpath":"USERHOME/.brofistcore/brofist.conf"
   },
   {
+    "coin": "SUN",
+    "name": "suncoin",
+    "fname": "SunCoin",
+    "rpcport": 10332,
+    "pubtype": 63,
+    "p2shtype": 16,
+    "wiftype": 204,
+    "txfee": 10000,
+    "confpath": "USERHOME/.suncoincore/suncoin.conf"
+  },
+  {
     "coin":"WAVI",
     "name":"wavi",
     "fname": "Wavi",
