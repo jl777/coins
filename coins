@@ -2580,7 +2580,7 @@
     "wiftype": 204,
     "txfee": 10000
   },
- {
+  {
     "coin": "IMG",
     "name": "ImageCoin",
     "fname": "ImageCoin",
@@ -2589,6 +2589,25 @@
     "p2shtype": 5,
     "wiftype": 204,
     "txfee": 10000
-  }
-  
+   },
+   {
+    "coin":"CALL",
+    "asset":"CALL",
+    "fname": "Capital",
+    "rpcport":19609
+   },
+   {
+    "coin": "OCALL",
+    "name": "capital",
+    "fname": "Old Capital",
+    "etomic": "0x2c02c801a3324b371ad285c64af372ff1e23f460",
+    "rpcport": 80
+   },
+   {
+    "coin": "CALLG",
+    "name": "capitalgas",
+    "fname": "Capital GAS",
+    "etomic": "0x6c28f85eb1dbc7651ce02f7af1f29890ad084b94",
+    "rpcport": 80
+   }  
 ]
