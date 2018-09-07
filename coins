@@ -1,5 +1,5 @@
 [
- {
+  {
     "coin":"CHAIN",
     "asset":"CHAIN",
     "fname": "Chainmakers",
@@ -10,6 +10,12 @@
     "asset":"GLXT",
     "fname": "GLX Token",
     "rpcport":13109
+  },
+  {
+    "coin": "CC",
+    "asset": "CCL",
+    "fname": "CoinCollect",
+    "rpcport": 20849
   },
   {
     "coin": "COLX",
