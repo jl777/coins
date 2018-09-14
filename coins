@@ -355,6 +355,13 @@
     "rpcport":80
   },
   {
+    "coin": "BFT",
+    "name": "bnktothefuture",
+    "fname": "BnkToTheFuture",
+    "etomic": "0x01ff50f8b7f74e4f00580d9596cd3d0d6d6e326f",
+    "rpcport": 80
+  },
+  {
     "coin":"BITSOKO",
     "name":"bitsoko",
     "fname":"Bitsoko",
@@ -647,6 +654,13 @@
     "fname":"Qubitica",
     "etomic":"0xcb5ea3c190d8f82deadf7ce5af855ddbf33e3962",
     "rpcport":80
+  },
+  {
+    "coin": "QKC",
+    "name": "quarkchain",
+    "fname": "QuarkChain",
+    "etomic": "0xea26c4ac16d4a5a106820bc8aee85fd0b7b2b664",
+    "rpcport": 80
   },
   {
     "coin":"RVT",
