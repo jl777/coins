@@ -1944,6 +1944,16 @@
     "txfee": 1000
   },
   {
+    "coin": "QMC",
+    "name": "qmc2",
+    "fname": "QMCoin",
+    "rpcport": 55777,
+    "pubtype": 58,
+    "p2shtype": 120,
+    "wiftype": 1,
+    "txfee": 10000
+  },
+  {
     "coin": "QTUM",
     "name": "qtum",
     "fname": "Qtum",
