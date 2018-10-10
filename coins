@@ -481,6 +481,13 @@
     "rpcport":80
   },
   {
+    "coin": "GROW",
+    "name": "grow",
+    "fname": "Grow",
+    "etomic": "0x11b57f39f5a42eff60144b333a4d7d58e40297a4",
+    "rpcport": 80
+  },
+  {
     "coin": "GTC",
     "name": "game",
     "fname": "Game.com",
@@ -682,13 +689,6 @@
     "fname": "Rivetz",
     "etomic":"0x3d1ba9be9f66b8ee101911bc36d3fb562eac2244",
     "rpcport":80
-  },
-  {
-    "coin": "SMX",
-    "name": "smokeexchange",
-    "fname": "Smoke Exchange Token",
-    "etomic": "0xf30ce9807e55bb1bbdf0417fed1e2e518bcc03bc",
-    "rpcport": 80
   },
   {
     "coin":"SPANK",
