@@ -2394,10 +2394,9 @@
   },
   {
     "coin": "MUE",
-    "name": "muecore",
+    "name": "monetaryunit",
     "fname": "MonetaryUnit",
-    "confpath": "USERHOME/.muecore/mue.conf",
-    "rpcport": 29683,
+    "rpcport": 19688,
     "pubtype": 16,
     "p2shtype": 76,
     "wiftype": 126,
