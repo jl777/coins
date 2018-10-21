@@ -404,6 +404,13 @@
     "rpcport":80
   },
   {
+    "coin": "BTO",
+    "name": "bottos",
+    "fname": "Bottos",
+    "etomic": "0x36905fc93280f52362a1cbab151f25dc46742fb5",
+    "rpcport": 80
+  },
+  {
     "coin":"CENNZ",
     "name":"centrality",
     "fname": "Centrality",
@@ -451,6 +458,13 @@
     "fname":"Enigma",
     "etomic":"0xf0ee6b27b759c9893ce4f094b49ad28fd15a23e4",
     "rpcport":80
+  },
+  {
+    "coin": "ETA",
+    "name": "etheera",
+    "fname": "Etheera",
+    "etomic": "0x9195e00402abe385f2d00a32af40b271f2e87925",
+    "rpcport": 80
   },
   {
     "coin": "ETK",
@@ -681,6 +695,13 @@
     "name": "quarkchain",
     "fname": "QuarkChain",
     "etomic": "0xea26c4ac16d4a5a106820bc8aee85fd0b7b2b664",
+    "rpcport": 80
+  },
+  {
+    "coin": "RUFF",
+    "name": "ruff",
+    "fname": "Ruff",
+    "etomic": "0xf278c1ca969095ffddded020290cf8b5c424ace2",
     "rpcport": 80
   },
   {
