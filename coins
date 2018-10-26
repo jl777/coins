@@ -60,6 +60,17 @@
     "rpcport":10306
   },
   {
+    "coin": "AYWA",
+    "name": "aywa",
+    "fname": "AYWA",
+    "rpcport": 2778,
+    "pubtype": 23,
+    "p2shtype": 83,
+    "wiftype": 150,
+    "txfee": 10000,
+    "confpath": "USERHOME/.aywacore/aywa.conf"
+  },
+  {
     "coin":"PAC",
     "name":"paccoin",
     "fname":"PACcoin",
