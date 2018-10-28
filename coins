@@ -540,6 +540,13 @@
     "rpcport": 80
   },
   {
+    "coin": "ITL",
+    "name": "italian-lira",
+    "fname": "Italian Lira",
+    "etomic": "0x122A86b5DFF2D085AfB49600b4cd7375D0d94A5f",
+    "rpcport": 80
+  },
+  {
     "coin":"JOI",
     "name":"jointedu",
     "fname":"JointEDU",
@@ -2539,7 +2546,6 @@
     "txfee": 1000
   },
   {
-    "active": 0,
     "coin": "ZEC",
     "name": "zcash",
     "fname": "Zcash",
@@ -2548,6 +2554,7 @@
     "pubtype": 184,
     "p2shtype": 189,
     "wiftype": 128,
+    "txversion": 3,
     "txfee": 10000
   },
   {
