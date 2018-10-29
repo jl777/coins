@@ -34,14 +34,15 @@
     "txfee": 1000000000
   },
   {
-    "coin":"SPK",
-    "name":"Sparks",
+    "coin": "SPK",
+    "name": "sparks",
     "fname": "Sparks",
-    "rpcport":8892,
-    "pubtype":38,
-    "p2shtype":10,
-    "wiftype":198,
-    "txfee":10000
+    "rpcport": 8892,
+    "pubtype": 38,
+    "p2shtype": 10,
+    "wiftype": 198,
+    "txfee": 10000,
+    "confpath": "USERHOME/.sparkscore/sparks.conf"
   },
   {
     "coin":"ORE",
