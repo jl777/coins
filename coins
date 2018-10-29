@@ -2372,8 +2372,9 @@
     "coin": "SYS",
     "name": "syscoin",
     "fname": "Syscoin",
+    "confpath": "USERHOME/.syscoincore/syscoin.conf",
     "rpcport": 8370,
-    "pubtype": 0,
+    "pubtype": 63,
     "p2shtype": 5,
     "wiftype": 128,
     "txfee": 10000
