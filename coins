@@ -5,7 +5,7 @@
     "fname": "KMDice",
     "rpcport":30177
   },
- {
+  {
     "coin":"CHAIN",
     "asset":"CHAIN",
     "fname": "Chainmakers",
@@ -22,6 +22,12 @@
     "asset": "CCL",
     "fname": "CoinCollect",
     "rpcport": 20849
+  },
+  {
+    "coin": "KOIN",
+    "asset": "KOIN",
+    "fname": "Koinon",
+    "rpcport": 10702
   },
   {
     "coin": "COLX",
