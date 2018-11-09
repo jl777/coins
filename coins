@@ -294,6 +294,17 @@
     "confpath":"USERHOME/.gincoincore/gincoin.conf"
   },
   {
+    "coin": "LUX",
+    "name": "lux",
+    "fname": "LUXCoin",
+    "rpcport": 9888,
+    "isPoS": 1,
+    "pubtype": 48,
+    "p2shtype": 63,
+    "wiftype": 155,
+    "txfee": 10000
+  },
+  {
     "coin": "RAP",
     "fname": "Rapture",
     "name": "rapture",
