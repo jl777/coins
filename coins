@@ -2774,5 +2774,15 @@
    "asset": "DION",
    "fname": "DionPay",
    "rpcport": 23895
-   }
+   },
+   {
+    "coin":"ABP", 
+    "name": "ABP Network", 
+    "active":1, 
+    "rpcport":5426,
+    "pubtype":30, 
+    "p2shtype":15, 
+    "wiftype":212, 
+    "txfee":10000
+    }
 ]
