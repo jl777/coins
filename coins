@@ -1922,6 +1922,18 @@
     "txfee": 10000
   },
   {
+    "coin": "BZC",
+    "name": "bitzec",
+    "fname": "Bitzec",
+    "rpcport": 8732,
+    "taddr": 28,
+    "pubtype": 184,
+    "p2shtype": 189,
+    "wiftype": 128,
+    "txversion": 4,
+    "txfee": 10000
+  },
+  {
     "coin": "XMCC",
     "name": "monoeci",
     "fname": "Monoeci",
