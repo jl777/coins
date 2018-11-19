@@ -608,6 +608,13 @@
     "rpcport":80
   },
   {
+    "coin": "KEA",
+    "name": "keacoin",
+    "fname": "KEA Coin",
+    "etomic": "0x390d6673c1fa9dbb8000db1ae89252b7d531ab75",
+    "rpcport": 80
+  },
+  {
     "coin": "KICK",
     "name": "kickico",
     "fname": "KickCoin",
@@ -634,7 +641,7 @@
     "fname": "Labtorum",
     "etomic": "0x1bd4e709a076fb71ea1014293a739f2b19ca565d",
     "rpcport": 80
-},
+  },
   {
     "coin":"LYS",
     "name":"lightyears",
@@ -1919,6 +1926,18 @@
     "p2shtype": 189,
     "wiftype": 128,
     "txversion": 3,
+    "txfee": 10000
+  },
+  {
+    "coin": "BZC",
+    "name": "bitzec",
+    "fname": "Bitzec",
+    "rpcport": 8732,
+    "taddr": 28,
+    "pubtype": 184,
+    "p2shtype": 189,
+    "wiftype": 128,
+    "txversion": 4,
     "txfee": 10000
   },
   {
