@@ -316,6 +316,17 @@
     "confpath": "USERHOME/.rapturecore/rapture.conf"
   },
   {
+    "coin": "SUDO",
+    "fname": "CryptoSudo",
+    "name": "sudo",
+    "rpcport": 3935,
+    "pubtype": 63,
+    "p2shtype": 13,
+    "wiftype": 39,
+    "txfee": 10000,
+    "confpath": "USERHOME/.sudocore/sudo.conf"
+  },
+  {
     "coin": "RADIUS",
     "name": "radius",
     "fname": "Radius",
