@@ -392,6 +392,16 @@
     "txfee": 10000
   },
   {
+    "coin": "X0Z",
+    "name": "zerozed",
+    "fname": "Zerozed",
+    "rpcport": 2600,
+    "pubtype": 28,
+    "p2shtype": 5,
+    "wiftype": 156,
+    "txfee": 100000
+  },
+  {
     "coin": "XBC",
     "name": "bitcoinplus",
     "fname": "Bitcoin Plus",
