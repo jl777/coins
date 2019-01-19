@@ -167,6 +167,18 @@
     "txfee":10000
   },
   {
+    "coin": "ECA",
+    "name": "electra",
+    "fname": "Electra",
+    "rpcport": 5788,
+    "pubtype": 33,
+    "p2shtype": 40,
+    "wiftype": 161,
+    "txfee": 10000,
+    "txversion": 7,
+    "confpath": "USERHOME/.electra/Electra.conf"
+  },
+  {
     "coin":"POLIS",
     "name":"polis",
     "fname":"Polis",
