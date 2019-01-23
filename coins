@@ -175,8 +175,7 @@
     "p2shtype": 40,
     "wiftype": 161,
     "txfee": 10000,
-    "txversion": 7,
-    "confpath": "USERHOME/.electra/Electra.conf"
+    "txversion": 7
   },
   {
     "coin":"POLIS",
@@ -2520,7 +2519,6 @@
     "coin": "STRAT",
     "name": "stratis",
     "fname": "Stratis",
-    "active": 0,
     "rpcport": 16174,
     "pubtype": 63,
     "p2shtype": 125,
@@ -2856,7 +2854,6 @@
    {
     "coin":"ABP", 
     "name": "ABP Network", 
-    "active":1, 
     "rpcport":5426,
     "pubtype":30, 
     "p2shtype":15, 
