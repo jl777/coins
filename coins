@@ -431,13 +431,6 @@
     "rpcport":80
   },
   {
-    "coin":"AION",
-    "name":"aion",
-    "fname": "Aion",
-    "etomic":"0x4CEdA7906a5Ed2179785Cd3A40A69ee8bc99C466",
-    "rpcport":80
-  },
-  {
     "coin":"ANN",
     "name":"agentnotneeded",
     "fname": "Agent Not Needed",
@@ -739,13 +732,6 @@
     "rpcport": 80
   },
   {
-    "coin":"NULS",
-    "name":"nuls",
-    "fname":"Nuls",
-    "etomic":"0xb91318f35bdb262e9423bc7c7c2a3a93dd93c92c",
-    "rpcport":80
-  },
-  {
     "coin":"OCC",
     "name":"originalcryptocoin",
     "fname": "Original Crypto Coin",
@@ -854,7 +840,7 @@
     "coin":"SUB",
     "name":"substratum",
     "fname":"Substratum",
-    "etomic":"0x12480e24eb5bec1a9d4369cab6a80cad3c0a377a",
+    "etomic":"0x8D75959f1E61EC2571aa72798237101F084DE63a",
     "rpcport":80
   },
   {
@@ -1048,14 +1034,6 @@
     "name": "ucash",
     "fname": "U.CASH",
     "etomic": "0x92e52a1a235d9a103d970901066ce910aacefd37",
-    "rpcport": 80
-  },
-  {
-    "coin": "ICX",
-    "name": "icon",
-    "fname": "ICON",
-    "etomic": "0xb5a5f22694352c15b00323844ad545abb2b11028",
-    "decimals": 18,
     "rpcport": 80
   },
   {
@@ -1844,16 +1822,6 @@
     "asset": "OOT",
     "fname": "Utrum",
     "rpcport": 12467
-  },
-  {
-    "coin": "PIVX",
-    "name": "pivx",
-    "fname": "PivX",
-    "rpcport": 51473,
-    "pubtype": 30,
-    "p2shtype": 13,
-    "wiftype": 212,
-    "txfee": 10000
   },
   {
     "coin": "HTML",
