@@ -501,13 +501,6 @@
     "rpcport": 80
   },
   {
-    "coin": "CMT",
-    "name": "cybermiles",
-    "fname": "CyberMiles",
-    "etomic": "0xf85feea2fdd81d51177f6b8f35f0e6734ce45f5f",
-    "rpcport": 80
-  },
-  {
     "coin":"CS",
     "name":"credits",
     "fname":"Credits",
@@ -788,11 +781,11 @@
     "rpcport":80
   },
   {
-    "coin":"QBIT",
-    "name":"qubitica",
-    "fname":"Qubitica",
-    "etomic":"0xcb5ea3c190d8f82deadf7ce5af855ddbf33e3962",
-    "rpcport":80
+    "coin": "QBIT",
+    "name": "qubitica",
+    "fname": "Qubitica",
+    "etomic": "0x1602af2C782cC03F9241992E243290Fccf73Bb13",
+    "rpcport": 80
   },
   {
     "coin": "QKC",
@@ -943,13 +936,6 @@
     "name": "storm",
     "fname": "Storm",
     "etomic": "0xd0a4b8946cb52f0661273bfbc6fd0e0c75fc6433",
-    "rpcport": 80
-  },
-  {
-    "coin": "TUSD",
-    "name": "trueusd",
-    "fname": "TrueUSD",
-    "etomic": "0x8dd5fbce2f6a956c3022ba3663759011dd51e73e",
     "rpcport": 80
   },
   {
@@ -1235,13 +1221,6 @@
     "rpcport": 80
   },
   {
-    "coin": "NAS",
-    "name": "nebulas-token",
-    "fname": "Nebulas",
-    "etomic": "0x5d65d971895edc438f465c17db6992698a52318d",
-    "rpcport": 80
-  },
-  {
     "coin": "PAY",
     "name": "tenx",
     "fname": "TenX",
@@ -1378,7 +1357,7 @@
     "coin": "MLN",
     "name": "melon",
     "fname": "Melon",
-    "etomic": "0xBEB9eF514a379B997e0798FDcC901Ee474B6D9A1",
+    "etomic": "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892",
     "rpcport": 80
   },
   {
@@ -1512,13 +1491,6 @@
     "name": "numeraire",
     "fname": "Numeraire",
     "etomic": "0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671",
-    "rpcport": 80
-  },
-  {
-    "coin": "NET",
-    "name": "nimiq",
-    "fname": "Nimiq",
-    "etomic": "0xcfb98637bcae43C13323EAa1731cED2B716962fD",
     "rpcport": 80
   },
   {
