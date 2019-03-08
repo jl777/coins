@@ -2810,5 +2810,14 @@
     "asset": "LUMBER",
     "fname": "Lumberscout",
     "rpcport": 26301
+   },
+   {
+		"coin": "GCH',
+    "name": "GalaxyCash", 
+		"rpcport": 5604,
+		"pubtype": 38,
+		"p2shtype": 99,
+		"wiftype": 89,
+		"txfee": 100,
    }
 ]
