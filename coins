@@ -2812,12 +2812,13 @@
     "rpcport": 26301
    },
    {
-    "coin": "GCH',
+    "coin": "GCH",
     "name": "GalaxyCash", 
     "rpcport": 4604,
     "pubtype": 38,
     "p2shtype": 99,
     "wiftype": 89,
     "txfee": 100,
+    "confpath": "USERHOME/.galaxycash/galaxycash.conf"
    }
 ]
