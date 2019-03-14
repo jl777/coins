@@ -3,19 +3,29 @@
     "coin":"KMDICE",
     "asset":"KMDICE",
     "fname": "KMDice",
-    "rpcport":30177
+    "rpcport":30177,
+    "mm2": 1
+  },
+  {
+    "coin":"ILN",
+    "asset":ÏLN",
+    "fname":"Ilien",
+    "rpcport": 12986,
+    "mm2": 1
   },
   {
     "coin":"CHAIN",
     "asset":"CHAIN",
     "fname": "Chainmakers",
-    "rpcport":15587
+    "rpcport":15587,
+    "mm2": 1
   },
   {
     "coin":"GLXT",
     "asset":"GLXT",
     "fname": "GLX Token",
-    "rpcport":13109
+    "rpcport":13109,
+    "mm2": 1
   },
   {
     "coin": "CC",
@@ -65,7 +75,8 @@
     "coin":"EQLI",
     "asset":"EQL",
     "fname": "Equaliser",
-    "rpcport":10306
+    "rpcport":10306,
+    "mm2": 1
   },
   {
     "coin": "AYWA",
@@ -1789,7 +1800,8 @@
     "coin": "OOT",
     "asset": "OOT",
     "fname": "Utrum",
-    "rpcport": 12467
+    "rpcport": 12467,
+    "mm2": 1
   },
   {
     "coin": "HTML",
@@ -2722,7 +2734,8 @@
     "coin": "COQUI",
     "asset": "COQUI",
     "fname": "Coqui Cash",
-    "rpcport": 14276
+    "rpcport": 14276,
+    "mm2": 1
   },
   {
     "coin": "KV",
