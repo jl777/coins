@@ -1590,21 +1590,24 @@
     "name": "JST",
     "fname": "JST (TESTCOIN)",
     "etomic": "0x996a8ae0304680f6a69b8a9d7c6e37d65ab5ab56",
-    "rpcport": 80
+    "rpcport": 80,
+    "mm2": 1
   },
   {
     "coin": "DEC8",
     "name": "DEC8",
     "fname": "DEC8 (TESTCOIN)",
     "etomic": "0x3ab100442484dc2414aa75b2952a0a6f03f8abfd",
-    "rpcport": 80
+    "rpcport": 80,
+    "mm2": 1
   },
   {
     "coin": "ETH",
     "name": "ethereum",
     "fname": "Ethereum",
     "etomic": "0x0000000000000000000000000000000000000000",
-    "rpcport": 80
+    "rpcport": 80,
+    "mm2": 1
   },
   {
     "coin": "ZIL",
@@ -1866,13 +1869,15 @@
     "coin": "PIZZA",
     "asset": "PIZZA",
     "fname": "PIZZA (TESTCOIN)",
-    "rpcport": 11116
+    "rpcport": 11116,
+    "mm2": 1
   },
   {
     "coin": "BEER",
     "asset": "BEER",
     "fname": "BEER (TESTCOIN)",
-    "rpcport": 8923
+    "rpcport": 8923,
+    "mm2": 1
   },
   {
     "coin": "GRS",
@@ -1939,7 +1944,8 @@
     "coin": "ETOMIC",
     "asset": "ETOMIC",
     "fname": "ETOMIC",
-    "rpcport": 10271
+    "rpcport": 10271,
+    "mm2": 1
   },
   {
     "coin": "AXO",
