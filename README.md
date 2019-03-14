@@ -26,7 +26,8 @@ You need the following info in JSON format added to [coins](coins) file:
   "pubtype": 48,
   "p2shtype": 5,
   "wiftype": 176,
-  "txfee": 100000
+  "txfee": 100000,
+  "mm2": 1
 }
 
 # Example 2
@@ -39,7 +40,8 @@ You need the following info in JSON format added to [coins](coins) file:
   "pubtype":55,
   "p2shtype":10,
   "wiftype":198,
-  "txfee":10000
+  "txfee":10000,
+  "mm1": 1
 }
 
 # Example 3
@@ -48,9 +50,14 @@ You need the following info in JSON format added to [coins](coins) file:
   "name": "augur",
   "fname": "Augur",
   "etomic": "0xE94327D07Fc17907b4DB788E5aDf2ed424adDff6",
-  "rpcport": 80
+  "rpcport": 80,
+  "mm2": 1
 }
 ```
+
+#### General parameters
+
+`"mm2"` add this param if coin is confirmed working with MM2 (successful swap is made). 
 
 #### Bitcoin Protocol specific JSON
 
