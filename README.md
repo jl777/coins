@@ -2,23 +2,16 @@
 NOTE: The filenames in each subdirectory needs to match the coin's symbol exactly, that is the unique field that things are indexed by. Also for icons, please use .png files
 
 ### About this repository
-This repository is the coins database which is accssed by graphical applications like [BarterDEX GUI](https://github.com/KomodoPlatform/BarterDEX). 
+This repository is the coins database which is accessed by graphical applications like [BarterDEX GUI](https://github.com/KomodoPlatform/BarterDEX). 
 
 When submitting a pull request to add coin to BarterDEX make sure you have completed this checklist:
 
 ### 0. The coin must be tested with BarterDEX atomic swaps
-When submitting your coin add request please submit the three transctions (`bobdeposit`, `alicepayment` and `bobpayment`) URL which are produced by the atomic swap performed by `marketmaker` API. This means that before sumitting the further steps information to this coins database repo, you would have performaed an atomic swap, and the further steps explains the expected files/values to be submitted to this database repo.
+When submitting your coin add request please post the 5 transactions URLs produced by successful swap in separate file inside [swaps dir](swaps), [example](swaps/BEER-ETOMIC.md). This means that before submitting the further steps information to this coins database repo, you would have performed an atomic swap, and the further steps explains the expected files/values to be submitted to this database repo.
 
 You can learn about performing an atomic swap from our documentation link https://docs.komodoplatform.com
 
 Or you can contact the team at coinintegration@komodoplatform.com to get help if required.
-
-Example:
-
-bobdeposit https://btc.example.org/tx/746179890c7cb6b10fe4fef1c835c51a648bba087d52903d9d889d84779b1b9b
-alicepayment https://kmd.example.net/tx/2aa3cdc0000936f8fb2a5285e852a57f128913edea4d562433975fe84f6e6a8c
-bobpayment https://btc.example.org/tx/f64ae4b56b43ab9017ccc767c16b9d9cdf438ed83de94ba0629f1213b5ecba72
-
 
 ### 1. Coin info added to `coins` file (Required)
 You need the following info in JSON format added to [coins](coins) file:
@@ -33,7 +26,8 @@ You need the following info in JSON format added to [coins](coins) file:
   "pubtype": 48,
   "p2shtype": 5,
   "wiftype": 176,
-  "txfee": 100000
+  "txfee": 100000,
+  "mm2": 1
 }
 
 # Example 2
@@ -46,7 +40,8 @@ You need the following info in JSON format added to [coins](coins) file:
   "pubtype":55,
   "p2shtype":10,
   "wiftype":198,
-  "txfee":10000
+  "txfee":10000,
+  "mm1": 1
 }
 
 # Example 3
@@ -55,9 +50,14 @@ You need the following info in JSON format added to [coins](coins) file:
   "name": "augur",
   "fname": "Augur",
   "etomic": "0xE94327D07Fc17907b4DB788E5aDf2ed424adDff6",
-  "rpcport": 80
+  "rpcport": 80,
+  "mm2": 1
 }
 ```
+
+#### General parameters
+
+`"mm2"` add this param if coin is confirmed working with MM2 (successful swap is made). 
 
 #### Bitcoin Protocol specific JSON
 
@@ -134,3 +134,40 @@ Ethereum protocol specific coin/project add request are the most simplest. `"coi
 - Contact information must be provided in case the server admin needs to be contact in urgent cases when required. It can be any contact information out of the examples provided. Or may be add your own service/contact information as suites you.
 - The address and port of electrum server are required. The address of electrum server can either be a DNS or an IP address.
 
+### 5. Ethereum info file (Required for ETH/ERC20)
+
+- File name must be coin's ticker name matching the `"coin"` value as specified in [coins](coins) file.
+- File name must not have any file extension. It is a file without any `.` extension.
+- File name must be all in **capital** letters.
+- It must be a valid JSON format as shown in the following example:
+
+```JSON
+{
+  "swap_contract_address":"0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+  "rpc_nodes": [
+      {
+        "url":"http://ethnode.com:8545",
+        "contact": [
+          {"email": "ethnode_admin_email@example.com"},
+          {"matrix": "@ethnode_admin:matrix.org"},
+          {"skype": "example_username"},
+          {"twitter": "example_username"},
+          {"reddit": "example_username"},
+          {"github": "example_username"},
+          {"keybaseio": "example_username"}
+        ]
+      },
+      {
+        "url":"http://ethnode2.com:8545",
+        "contact": [
+          {"email": "ethnode2_admin_email@example.com"}
+        ]
+      }
+  ]
+}
+```
+
+- Swap contract address must be the address of [etomic swap smart contract](https://github.com/artemii235/etomic-swap) deployed to ETH network, [example](https://etherscan.io/address/0x8500afc0bc5214728082163326c2ff0c73f4a871).
+- At least minimum 2 or more URLs of RPC nodes must be provided.
+- Contact information must be provided in case the server admin needs to be contacted in urgent cases. It can be any contact information out of the examples provided. Or may be add your own service/contact information as suites you.
+- The RPC node URL can either be a DNS or an IP address with port.
