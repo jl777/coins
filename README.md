@@ -46,6 +46,22 @@ You need the following info in JSON format added to [coins](coins) file:
 
 # Example 3
 {
+  "coin": "ZEC",
+  "name": "zcash",
+  "fname": "Zcash",
+  "rpcport": 8232,
+  "taddr": 28,
+  "pubtype": 184,
+  "p2shtype": 189,
+  "wiftype": 128,
+  "txversion": 4,
+  "txfee": 10000,
+  "overwintered": 1,
+  "mm2": 1
+},
+
+# Example 4
+{
   "coin": "REP",
   "name": "augur",
   "fname": "Augur",
@@ -74,6 +90,8 @@ You need the following info in JSON format added to [coins](coins) file:
 `"pubtype"`, `"p2shtype"`, and `"wiftype"` is the also very specific information about coin's parameters. This is specific to Bitcoin Protocol compatible coins only, and such information can be found in source code of the project. These parameters information can be expected in files like `src/init.cpp`, `src/base58.h`, and `src/chainparamsbase.h` if the project is following the **bitcoin** source code directory/files structure. If the parameters info is unclear then please have these confirmed by that coin/project's developers and make sure it's correct information.
 
 `"txfee"` is a value of default transactions fee, which must be specified in satoshies unit. BarterDEX uses this as the default transaction fee value when makes atomic swaps transactions.
+
+`"overwintered"` must be `1` if Overwinter upgrade was activated for the coin. Defaults to 1 for KMD and assetchains.
 
 
 #### Ethereum Protocol specific JSON
