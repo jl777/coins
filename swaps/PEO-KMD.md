@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/a98aff9e6aff48e046e3aa4472704aa173e8294edd1bba94314dfeb739e228ed)  
+[maker payment (PEO)](https://explorer.proeliocoin.com/transaction/d9c1ce00c0f567168d6f5257badd4643bfe62114cd7de9363cfee1f8aea0fe16)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/52e0ccd9d06fe02dbb17a027b2543ae3b1f7d384f1d5c32621220ffd43298733)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/e26d45dff7981294ca7c95e2187af8a6728125c9edcea357b59ad8143d458a19)  
+[maker payment spent (PEO)](https://explorer.proeliocoin.com/transaction/ddfab62ef11c7f5c44759b68a893274a134c0fea22dda8444bd704b5468f14d6)
