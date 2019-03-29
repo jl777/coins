@@ -1,27 +1,68 @@
 [
   {
+    "coin": "PEO",
+    "name": "proelio",
+    "fname": "Proelio",
+    "confpath": "USERHOME/.ProelioCore/proelio.conf",
+    "rpcport": 5655,
+    "pubtype": 56,
+    "p2shtype": 33,
+    "wiftype": 115,
+    "txfee": 10000,
+    "mm2": 1
+  },
+  {
+    "coin": "YCE",
+    "name": "myce",
+    "fname": "MYCE",
+    "rpcport": 23512,
+    "pubtype": 50,
+    "p2shtype": 85,
+    "wiftype": 153,
+    "txfee": 10000,
+    "txversion": 3,
+    "mm2": 1
+  },
+  {
     "coin":"KMDICE",
     "asset":"KMDICE",
     "fname": "KMDice",
-    "rpcport":30177
+    "rpcport":30177,
+    "mm2": 1
   },
- {
+  {
+    "coin": "ILN",
+    "asset": "ILN",
+    "fname": "Ilien",
+    "rpcport": 12986,
+    "mm2": 1
+  },
+  {
     "coin":"CHAIN",
     "asset":"CHAIN",
     "fname": "Chainmakers",
-    "rpcport":15587
+    "rpcport":15587,
+    "mm2": 1
   },
   {
     "coin":"GLXT",
     "asset":"GLXT",
     "fname": "GLX Token",
-    "rpcport":13109
+    "rpcport":13109,
+    "mm2": 1
   },
   {
     "coin": "CC",
     "asset": "CCL",
     "fname": "CoinCollect",
-    "rpcport": 20849
+    "rpcport": 20849,
+    "txversion": 4
+  },
+  {
+    "coin": "KOIN",
+    "asset": "KOIN",
+    "fname": "Koinon",
+    "rpcport": 10702
   },
   {
     "coin": "COLX",
@@ -34,14 +75,15 @@
     "txfee": 1000000000
   },
   {
-    "coin":"SPK",
-    "name":"Sparks",
+    "coin": "SPK",
+    "name": "sparks",
     "fname": "Sparks",
-    "rpcport":8892,
-    "pubtype":38,
-    "p2shtype":10,
-    "wiftype":198,
-    "txfee":10000
+    "rpcport": 8892,
+    "pubtype": 38,
+    "p2shtype": 10,
+    "wiftype": 198,
+    "txfee": 10000,
+    "confpath": "USERHOME/.sparkscore/sparks.conf"
   },
   {
     "coin":"ORE",
@@ -57,7 +99,19 @@
     "coin":"EQLI",
     "asset":"EQL",
     "fname": "Equaliser",
-    "rpcport":10306
+    "rpcport":10306,
+    "mm2": 1
+  },
+  {
+    "coin": "AYWA",
+    "name": "aywa",
+    "fname": "AYWA",
+    "rpcport": 2778,
+    "pubtype": 23,
+    "p2shtype": 83,
+    "wiftype": 150,
+    "txfee": 10000,
+    "confpath": "USERHOME/.aywacore/aywa.conf"
   },
   {
     "coin":"PAC",
@@ -148,6 +202,17 @@
     "txfee":10000
   },
   {
+    "coin": "ECA",
+    "name": "electra",
+    "fname": "Electra",
+    "rpcport": 5788,
+    "pubtype": 33,
+    "p2shtype": 40,
+    "wiftype": 161,
+    "txfee": 10000,
+    "txversion": 7
+  },
+  {
     "coin":"POLIS",
     "name":"polis",
     "fname":"Polis",
@@ -191,14 +256,14 @@
     "txfee":100000
   },
   {
-    "coin":"HXX",
-    "name":"hexxcoin",
-    "fname": "Hexx",
-    "rpcport":29200,
-    "pubtype":40,
-    "p2shtype":10,
-    "wiftype":210,
-    "txfee":100000
+    "coin": "GXX",
+    "name": "GravityCoin",
+    "fname": "GravityCoin",
+    "rpcport": 29200,
+    "pubtype": 40,
+    "p2shtype": 10,
+    "wiftype": 210,
+    "txfee": 100000
   },
   {
     "coin":"CRDS",
@@ -265,6 +330,28 @@
     "txfee": 10000
   },
   {
+    "coin": "GIN",
+    "name": "gincoin",
+    "fname": "GINcoin",
+    "rpcport": 10211,
+    "pubtype": 38,
+    "p2shtype": 10,
+    "wiftype": 198,
+    "txfee": 10000,
+    "confpath":"USERHOME/.gincoincore/gincoin.conf"
+  },
+  {
+    "coin": "LUX",
+    "name": "lux",
+    "fname": "LUXCoin",
+    "rpcport": 9888,
+    "isPoS": 1,
+    "pubtype": 48,
+    "p2shtype": 63,
+    "wiftype": 155,
+    "txfee": 10000
+  },
+  {
     "coin": "RAP",
     "fname": "Rapture",
     "name": "rapture",
@@ -274,6 +361,17 @@
     "wiftype": 204,
     "txfee": 10000,
     "confpath": "USERHOME/.rapturecore/rapture.conf"
+  },
+  {
+    "coin": "SUDO",
+    "fname": "CryptoSudo",
+    "name": "sudo",
+    "rpcport": 3935,
+    "pubtype": 63,
+    "p2shtype": 13,
+    "wiftype": 39,
+    "txfee": 10000,
+    "confpath": "USERHOME/.sudocore/sudo.conf"
   },
   {
     "coin": "RADIUS",
@@ -340,17 +438,31 @@
     "txfee": 10000
   },
   {
+    "coin": "X0Z",
+    "name": "zerozed",
+    "fname": "Zerozed",
+    "rpcport": 2600,
+    "pubtype": 28,
+    "p2shtype": 5,
+    "wiftype": 156,
+    "txfee": 100000
+  },
+  {
+    "coin": "XBC",
+    "name": "bitcoinplus",
+    "fname": "Bitcoin Plus",
+    "rpcport": 8885,
+    "isPoS": 1,
+    "pubtype": 25,
+    "p2shtype": 85,
+    "wiftype": 153,
+    "txfee": 100000
+  },
+  {
     "coin":"AE",
     "name":"aeternity",
     "fname": "Aeternity",
     "etomic":"0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d",
-    "rpcport":80
-  },
-  {
-    "coin":"AION",
-    "name":"aion",
-    "fname": "Aion",
-    "etomic":"0x4CEdA7906a5Ed2179785Cd3A40A69ee8bc99C466",
     "rpcport":80
   },
   {
@@ -403,13 +515,6 @@
     "rpcport":80
   },
   {
-    "coin":"BTM",
-    "name":"bytom",
-    "fname": "Bytom",
-    "etomic":"0xcB97e65F07DA24D46BcDD078EBebd7C6E6E3d750",
-    "rpcport":80
-  },
-  {
     "coin": "BTO",
     "name": "bottos",
     "fname": "Bottos",
@@ -424,10 +529,10 @@
     "rpcport":80
   },
   {
-    "coin": "CMT",
-    "name": "cybermiles",
-    "fname": "CyberMiles",
-    "etomic": "0xf85feea2fdd81d51177f6b8f35f0e6734ce45f5f",
+    "coin": "CLF",
+    "name": "cryptoleaf",
+    "fname": "CryptoLeaf",
+    "etomic": "0x07241118626a7bbb604be4b9ef8ef12e78fd0871",
     "rpcport": 80
   },
   {
@@ -529,11 +634,32 @@
     "rpcport": 80
   },
   {
+    "coin": "HTS",
+    "name": "hostingicos",
+    "fname": "Hostingicos",
+    "etomic": "0x20871ef4fc0b8c5ee4fb03f698c4f4f752dda6e5",
+    "rpcport": 80
+  },
+  {
+    "coin": "ITL",
+    "name": "italian-lira",
+    "fname": "Italian Lira",
+    "etomic": "0x122A86b5DFF2D085AfB49600b4cd7375D0d94A5f",
+    "rpcport": 80
+  },
+  {
     "coin":"JOI",
     "name":"jointedu",
     "fname":"JointEDU",
     "etomic":"0x58ded6994124b4fff298f1416aca3fc9cdba37b2",
     "rpcport":80
+  },
+  {
+    "coin": "KEA",
+    "name": "keacoin",
+    "fname": "KEA Coin",
+    "etomic": "0x390d6673c1fa9dbb8000db1ae89252b7d531ab75",
+    "rpcport": 80
   },
   {
     "coin": "KICK",
@@ -562,19 +688,12 @@
     "fname": "Labtorum",
     "etomic": "0x1bd4e709a076fb71ea1014293a739f2b19ca565d",
     "rpcport": 80
-},
+  },
   {
     "coin":"LYS",
     "name":"lightyears",
     "fname": "Lightyears",
     "etomic":"0xdd41fbd1ae95c5d9b198174a28e04be6b3d1aa27",
-    "rpcport":80
-  },
-  {
-    "coin":"MAN",
-    "name":"matrix-ai-network",
-    "fname":"Matrix AI Network",
-    "etomic":"0xe25bcec5d3801ce3a794079bf94adf1b8ccd802d",
     "rpcport":80
   },
   {
@@ -627,18 +746,18 @@
     "rpcport": 80
   },
   {
-    "coin":"NULS",
-    "name":"nuls",
-    "fname":"Nuls",
-    "etomic":"0xb91318f35bdb262e9423bc7c7c2a3a93dd93c92c",
-    "rpcport":80
-  },
-  {
     "coin":"OCC",
     "name":"originalcryptocoin",
     "fname": "Original Crypto Coin",
     "etomic":"0x0235fe624e044a05eed7a43e16e3083bc8a4287a",
     "rpcport":80
+  },
+  {
+    "coin": "OVAL",
+    "name": "oval",
+    "fname": "OVAL Token",
+    "etomic": "0x6b1700cc6bce603922cbbc5c45fdb77ee08a74d1",
+    "rpcport": 80
   },
   {
     "coin": "PAO",
@@ -690,11 +809,11 @@
     "rpcport":80
   },
   {
-    "coin":"QBIT",
-    "name":"qubitica",
-    "fname":"Qubitica",
-    "etomic":"0xcb5ea3c190d8f82deadf7ce5af855ddbf33e3962",
-    "rpcport":80
+    "coin": "QBIT",
+    "name": "qubitica",
+    "fname": "Qubitica",
+    "etomic": "0x1602af2C782cC03F9241992E243290Fccf73Bb13",
+    "rpcport": 80
   },
   {
     "coin": "QKC",
@@ -735,7 +854,7 @@
     "coin":"SUB",
     "name":"substratum",
     "fname":"Substratum",
-    "etomic":"0x12480e24eb5bec1a9d4369cab6a80cad3c0a377a",
+    "etomic":"0x8D75959f1E61EC2571aa72798237101F084DE63a",
     "rpcport":80
   },
   {
@@ -747,17 +866,24 @@
     "rpcport": 80
   },
   {
-    "coin":"THETA",
-    "name":"theta-token",
-    "fname":"Theta Token",
-    "etomic":"0x3883f5e181fccaF8410FA61e12b59BAd963fb645",
-    "rpcport":80
+    "coin": "TILE",
+    "name": "loomiatile",
+    "fname": "Loomia Tile",
+    "etomic": "0x25f735b108b4273fb0aceb87599ed8bba10065de",
+    "rpcport": 80
   },
   {
     "coin": "TRAT",
     "name": "tratok",
     "fname": "Tratok",
     "etomic": "0x0cbc9b02b8628ae08688b5cc8134dc09e36c443b",
+    "rpcport": 80
+  },
+  {
+    "coin": "TRET",
+    "name": "touristreview",
+    "fname": "Tourist Review",
+    "etomic": "0xc6d603a9df53d1542552058c382bf115aace70c7",
     "rpcport": 80
   },
   {
@@ -831,13 +957,6 @@
     "name": "storm",
     "fname": "Storm",
     "etomic": "0xd0a4b8946cb52f0661273bfbc6fd0e0c75fc6433",
-    "rpcport": 80
-  },
-  {
-    "coin": "TUSD",
-    "name": "trueusd",
-    "fname": "TrueUSD",
-    "etomic": "0x8dd5fbce2f6a956c3022ba3663759011dd51e73e",
     "rpcport": 80
   },
   {
@@ -915,14 +1034,6 @@
     "name": "ucash",
     "fname": "U.CASH",
     "etomic": "0x92e52a1a235d9a103d970901066ce910aacefd37",
-    "rpcport": 80
-  },
-  {
-    "coin": "ICX",
-    "name": "icon",
-    "fname": "ICON",
-    "etomic": "0xb5a5f22694352c15b00323844ad545abb2b11028",
-    "decimals": 18,
     "rpcport": 80
   },
   {
@@ -1131,13 +1242,6 @@
     "rpcport": 80
   },
   {
-    "coin": "NAS",
-    "name": "nebulas-token",
-    "fname": "Nebulas",
-    "etomic": "0x5d65d971895edc438f465c17db6992698a52318d",
-    "rpcport": 80
-  },
-  {
     "coin": "PAY",
     "name": "tenx",
     "fname": "TenX",
@@ -1274,7 +1378,7 @@
     "coin": "MLN",
     "name": "melon",
     "fname": "Melon",
-    "etomic": "0xBEB9eF514a379B997e0798FDcC901Ee474B6D9A1",
+    "etomic": "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892",
     "rpcport": 80
   },
   {
@@ -1411,13 +1515,6 @@
     "rpcport": 80
   },
   {
-    "coin": "NET",
-    "name": "nimiq",
-    "fname": "Nimiq",
-    "etomic": "0xcfb98637bcae43C13323EAa1731cED2B716962fD",
-    "rpcport": 80
-  },
-  {
     "coin": "TRST",
     "name": "trust",
     "fname": "Trust",
@@ -1450,13 +1547,6 @@
     "name": "swarm-city",
     "fname": "Swarm City",
     "etomic": "0xB9e7F8568e08d5659f5D29C4997173d84CdF2607",
-    "rpcport": 80
-  },
-  {
-    "coin": "VEN",
-    "name": "vechain",
-    "fname": "VeChain",
-    "etomic": "0xd850942ef8811f2a866692a623011bde52a462c1",
     "rpcport": 80
   },
   {
@@ -1521,28 +1611,24 @@
     "name": "JST",
     "fname": "JST (TESTCOIN)",
     "etomic": "0x996a8ae0304680f6a69b8a9d7c6e37d65ab5ab56",
-    "rpcport": 80
+    "rpcport": 80,
+    "mm2": 1
   },
   {
     "coin": "DEC8",
     "name": "DEC8",
     "fname": "DEC8 (TESTCOIN)",
     "etomic": "0x3ab100442484dc2414aa75b2952a0a6f03f8abfd",
-    "rpcport": 80
+    "rpcport": 80,
+    "mm2": 1
   },
   {
     "coin": "ETH",
     "name": "ethereum",
     "fname": "Ethereum",
     "etomic": "0x0000000000000000000000000000000000000000",
-    "rpcport": 80
-  },
-  {
-    "coin": "EOS",
-    "name": "EOS",
-    "fname": "EOS",
-    "etomic": "0x86fa049857e0209aa7d9e616f7eb3b3b78ecfdb0",
-    "rpcport": 80
+    "rpcport": 80,
+    "mm2": 1
   },
   {
     "coin": "ZIL",
@@ -1706,6 +1792,7 @@
     "pubtype": 40,
     "p2shtype": 45,
     "wiftype": 128,
+    "txversion": 4,
     "txfee": 10000
   },
   {
@@ -1723,17 +1810,8 @@
     "coin": "OOT",
     "asset": "OOT",
     "fname": "Utrum",
-    "rpcport": 12467
-  },
-  {
-    "coin": "PIVX",
-    "name": "pivx",
-    "fname": "PivX",
-    "rpcport": 51473,
-    "pubtype": 30,
-    "p2shtype": 13,
-    "wiftype": 212,
-    "txfee": 10000
+    "rpcport": 12467,
+    "mm2": 1
   },
   {
     "coin": "HTML",
@@ -1764,6 +1842,7 @@
     "pubtype": 179,
     "p2shtype": 184,
     "wiftype": 128,
+    "txversion": 4,
     "txfee": 1000
   },
   {
@@ -1812,13 +1891,29 @@
     "coin": "PIZZA",
     "asset": "PIZZA",
     "fname": "PIZZA (TESTCOIN)",
-    "rpcport": 11116
+    "rpcport": 11116,
+    "mm2": 1
   },
   {
     "coin": "BEER",
     "asset": "BEER",
     "fname": "BEER (TESTCOIN)",
-    "rpcport": 8923
+    "rpcport": 8923,
+    "mm2": 1
+  },
+  {
+    "coin": "RICK",
+    "asset": "RICK",
+    "fname": "RICK (TESTCOIN)",
+    "rpcport": 28223,
+    "mm2": 1
+  },
+  {
+    "coin": "MORTY",
+    "asset": "MORTY",
+    "fname": "MORTY (TESTCOIN)",
+    "rpcport": 63812,
+    "mm2": 1
   },
   {
     "coin": "GRS",
@@ -1839,7 +1934,19 @@
     "pubtype": 184,
     "p2shtype": 189,
     "wiftype": 128,
-    "txversion": 3,
+    "txversion": 4,
+    "txfee": 10000
+  },
+  {
+    "coin": "BZC",
+    "name": "bitzec",
+    "fname": "Bitzec",
+    "rpcport": 8732,
+    "taddr": 28,
+    "pubtype": 184,
+    "p2shtype": 189,
+    "wiftype": 128,
+    "txversion": 4,
     "txfee": 10000
   },
   {
@@ -1873,7 +1980,8 @@
     "coin": "ETOMIC",
     "asset": "ETOMIC",
     "fname": "ETOMIC",
-    "rpcport": 10271
+    "rpcport": 10271,
+    "mm2": 1
   },
   {
     "coin": "AXO",
@@ -2075,7 +2183,7 @@
   },
   {
     "coin": "IOP",
-    "name": "IoP",
+    "name": "iop",
     "fname": "IoP",
     "rpcport": 8337,
     "pubtype": 117,
@@ -2101,7 +2209,8 @@
     "pubtype": 60,
     "p2shtype": 85,
     "wiftype": 188,
-    "txfee": 10000
+    "txfee": 10000,
+    "mm2": 1
   },
   {
     "coin": "888",
@@ -2245,7 +2354,7 @@
     "pubtype": 95,
     "p2shtype": 36,
     "wiftype": 223,
-    "txfee": 1000000
+    "txfee": 2000000
   },
   {
     "coin": "FLO",
@@ -2354,8 +2463,9 @@
     "coin": "SYS",
     "name": "syscoin",
     "fname": "Syscoin",
+    "confpath": "USERHOME/.syscoincore/syscoin.conf",
     "rpcport": 8370,
-    "pubtype": 0,
+    "pubtype": 63,
     "p2shtype": 5,
     "wiftype": 128,
     "txfee": 10000
@@ -2385,7 +2495,6 @@
     "coin": "STRAT",
     "name": "stratis",
     "fname": "Stratis",
-    "active": 0,
     "rpcport": 16174,
     "pubtype": 63,
     "p2shtype": 125,
@@ -2492,6 +2601,7 @@
     "coin": "VRSC",
     "asset": "VRSC",
     "fname": "VerusCoin",
+    "txversion": 4,
     "rpcport": 27486
   },
   {
@@ -2528,7 +2638,6 @@
     "txfee": 1000
   },
   {
-    "active": 0,
     "coin": "ZEC",
     "name": "zcash",
     "fname": "Zcash",
@@ -2537,6 +2646,7 @@
     "pubtype": 184,
     "p2shtype": 189,
     "wiftype": 128,
+    "txversion": 4,
     "txfee": 10000
   },
   {
@@ -2649,7 +2759,8 @@
     "coin": "COQUI",
     "asset": "COQUI",
     "fname": "Coqui Cash",
-    "rpcport": 14276
+    "rpcport": 14276,
+    "mm2": 1
   },
   {
     "coin": "KV",
@@ -2700,26 +2811,6 @@
     "txfee": 10000
    },
    {
-    "coin":"CALL",
-    "asset":"CALL",
-    "fname": "Capital",
-    "rpcport":19609
-   },
-   {
-    "coin": "OCALL",
-    "name": "capital",
-    "fname": "Old Capital",
-    "etomic": "0x2c02c801a3324b371ad285c64af372ff1e23f460",
-    "rpcport": 80
-   },
-   {
-    "coin": "CALLG",
-    "name": "capitalgas",
-    "fname": "Capital GAS",
-    "etomic": "0x6c28f85eb1dbc7651ce02f7af1f29890ad084b94",
-    "rpcport": 80
-   },
-   {
    "coin": "MGNX",
    "asset": "MGNX",
    "fname": "MagnaX",
@@ -2730,5 +2821,48 @@
    "asset": "DION",
    "fname": "DionPay",
    "rpcport": 23895
+   },
+   {
+   "coin": "ZEX",
+   "asset": "ZEX",
+   "fname": "Zaddex",
+   "rpcport": 26477
+   },
+   {
+    "coin":"ABP", 
+    "name": "ABP Network", 
+    "rpcport":5426,
+    "pubtype":30, 
+    "p2shtype":15, 
+    "wiftype":212, 
+    "txfee":10000
+    },
+   {
+    "coin": "PUNGO",
+    "asset": "PGT",
+    "fname": "Pungo Token",
+    "rpcport": 46705
+   },
+   {
+    "coin": "PTX",
+    "asset": "PTX",
+    "fname": "PatentTX",
+    "rpcport": 61939
+   },
+   {
+    "coin": "LUMBER",
+    "asset": "LUMBER",
+    "fname": "Lumberscout",
+    "rpcport": 26301
+   },
+   {
+    "coin": "GCH",
+    "name": "GalaxyCash", 
+    "rpcport": 4604,
+    "pubtype": 38,
+    "p2shtype": 99,
+    "wiftype": 89,
+    "txfee": 100,
+    "confpath": "USERHOME/.galaxycash/galaxycash.conf"
    }
 ]
