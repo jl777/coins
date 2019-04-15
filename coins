@@ -2635,14 +2635,10 @@
   },
   {
     "coin": "HUSH",
-    "name": "hush",
+    "asset": "HUSH3",
     "fname": "Hush",
-    "rpcport": 8822,
-    "taddr": 28,
-    "pubtype": 184,
-    "p2shtype": 189,
-    "wiftype": 128,
-    "txfee": 1000
+    "rpcport": 18031,
+    "mm2": 1
   },
   {
     "coin": "ZEC",
