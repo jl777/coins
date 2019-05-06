@@ -1,5 +1,27 @@
 [
   {
+    "coin": "BTC",
+    "name": "bitcoin",
+    "fname": "Bitcoin",
+    "rpcport": 8332,
+    "pubtype": 0,
+    "p2shtype": 5,
+    "wiftype": 128,
+    "txfee": 20000,
+    "mm2": 1
+  },
+  {
+    "coin": "KMD",
+    "name": "komodo",
+    "fname": "Komodo",
+    "rpcport": 7771,
+    "pubtype": 60,
+    "p2shtype": 85,
+    "wiftype": 188,
+    "txfee": 1000,
+    "mm2": 1
+  },
+  {
     "coin": "PEO",
     "name": "proelio",
     "fname": "Proelio",
