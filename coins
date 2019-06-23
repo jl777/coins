@@ -1050,6 +1050,14 @@
     "rpcport": 80
   },
   {
+    "coin": "USDC",
+    "name": "usdc",
+    "fname": "USD Coin",
+    "etomic": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "rpcport": 80,
+    "mm2": 1
+  },
+  {
     "coin": "USDT",
     "name": "tether",
     "fname": "Tether",
