@@ -2532,12 +2532,12 @@
     "coin": "SYS",
     "name": "syscoin",
     "fname": "Syscoin",
-    "confpath": "USERHOME/.syscoincore/syscoin.conf",
     "rpcport": 8370,
     "pubtype": 63,
     "p2shtype": 5,
     "wiftype": 128,
-    "txfee": 10000
+    "txfee": 10000,
+    "mm2": 1
   },
   {
     "coin": "I0C",
