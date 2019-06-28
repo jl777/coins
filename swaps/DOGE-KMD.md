@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/e48e5ca80a74fe4e3ca41001de38b43f0e510f2d50e3dc1253a5628eb558beef)  
+[maker payment (DOGE)](https://blockchair.com/dogecoin/transaction/d0aef5055195bed183a71d90eb8be771c2d508fdffdc63054a7ac4e2fbfa2013)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/064e6d2c2751e4a1795d6545745267aa3f3a0007f06caa8f4089e704b7efa84d)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/a6771eadb207c27749901a1267614a36ccc3f2d6bd29b177e27e79b3e99c32a2)  
+[maker payment spent (DOGE)](https://blockchair.com/dogecoin/transaction/2366727e773b9a743708984b6a3759662c204d292a2c8db2fae689db818da9df)  
