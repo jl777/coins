@@ -128,7 +128,9 @@ Ethereum protocol specific coin/project add request are the most simplest. `"coi
 ```JSON
 [
   {
-    "electrum1.example.com": 12345,
+    "url": "nmc.bitcoins.sk:50002",
+    "protocol": "SSL",
+    "disable_cert_verification": true,
     "contact": [
       {"email": "electrum1_admin_email@example.com"},
       {"matrix": "@electrum1_admin:matrix.org"},
@@ -140,7 +142,9 @@ Ethereum protocol specific coin/project add request are the most simplest. `"coi
     ]
   },
   {
-    "electrum2.example.com": 12345,
+    "url": "electrum-nmc.le-space.de:50002",
+    "protocol": "SSL",
+    "disable_cert_verification": false,
     "contact": [
       {"email": "electrum2_admin_email@example.com"}
     ]
@@ -149,6 +153,7 @@ Ethereum protocol specific coin/project add request are the most simplest. `"coi
 ```
 
 - At least minimum 2 or more Electrum servers information must be provided.
+- Protocol can be "SSL" or "TCP".
 - Contact information must be provided in case the server admin needs to be contact in urgent cases when required. It can be any contact information out of the examples provided. Or may be add your own service/contact information as suites you.
 - The address and port of electrum server are required. The address of electrum server can either be a DNS or an IP address.
 
