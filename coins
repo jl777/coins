@@ -17,6 +17,8 @@
     "pubtype": 60,
     "p2shtype": 85,
     "wiftype": 188,
+    "txversion": 4,
+    "overwintered": 1,
     "txfee": 1000,
     "mm2": 1
   },
@@ -2679,8 +2681,9 @@
     "coin": "VRSC",
     "asset": "VRSC",
     "fname": "VerusCoin",
-    "txversion": 4,
     "rpcport": 27486,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1
   },
   {
@@ -2723,8 +2726,8 @@
     "p2shtype": 189,
     "wiftype": 128,
     "txversion": 4,
-    "txfee": 10000,
     "overwintered": 1,
+    "txfee": 10000,
     "mm2": 1
   },
   {
