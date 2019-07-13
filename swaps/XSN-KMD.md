@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/d0c8158f3f9d018e0e3bd7dd20fca3a2127822b5485c77978754a418c4f13276)  
+[maker payment (XSN)](https://xsnexplorer.io/transactions/cdcf7755bd2090969816c29c1a47c341ed4112c01eed2fc762ae34279ad59ba5)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/781e993fbd81f4de84a1cc86357b9a588f08c10d12c0fcf10d0eb1ef05d15326)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/e3f45d8c95bf41d3f96c7efc27020cc2b72912705675e4bf520e1598ee25f0a0)  
+[maker payment spent (XSN)](https://xsnexplorer.io/transactions/28cc21e2fcc64e645a7d6d4b9d99687df0b8454e216209843dc507672f2b149d)  
