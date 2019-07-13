@@ -1,11 +1,29 @@
 [
   {
-    "url": "fr1.vtconline.org:55001"
+    "url": "fr1.vtconline.org:55001",
+    "protocol": "TCP",
+    "contact": [
+      {
+        "github": "https://github.com/vertcoin-project/electrum-vtc/issues"
+      }
+    ]
   },
   {
-    "url": "uk1.vtconline.org:55001"
+    "url": "uk1.vtconline.org:55001",
+    "protocol": "TCP",
+    "contact": [
+      {
+        "github": "https://github.com/vertcoin-project/electrum-vtc/issues"
+      }
+    ]
   },
   {
-    "url": "vtc-cce-1.coinomi.net:5028"
+    "url": "vtc-cce-1.coinomi.net:5028",
+    "protocol": "TCP",
+    "contact": [
+      {
+        "github": "https://github.com/vertcoin-project/electrum-vtc/issues"
+      }
+    ]
   }
 ]
