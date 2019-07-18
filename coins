@@ -1060,6 +1060,14 @@
     "rpcport": 80
   },
   {
+    "coin": "TUSD",
+    "name": "tusd",
+    "fname": "TrueUSD",
+    "etomic": "0x0000000000085d4780B73119b644AE5ecd22b376",
+    "rpcport": 80,
+    "mm2": 1
+  },
+  {
     "coin": "USDC",
     "name": "usdc",
     "fname": "USD Coin",
