@@ -749,11 +749,12 @@
     "rpcport":80
   },
   {
-    "coin":"LINK",
-    "name":"chainlink",
-    "fname":"ChainLink",
-    "etomic":"0x514910771AF9Ca656af840dff83E8264EcF986CA",
-    "rpcport":80
+    "coin": "LINK",
+    "name": "chainlink",
+    "fname": "Chainlink",
+    "etomic": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+    "rpcport": 80,
+    "mm2": 1
   },
   {
     "coin": "LTR",
