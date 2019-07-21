@@ -100,7 +100,7 @@ Ethereum protocol specific coin/project add request are the most simplest. `"coi
 
 `"rpcport"` must remain default for all ERC20 token/coins. Make sure its only specified as `80`.
 
-`"etomic"` must be the ERC20 token/coin's smart contract address.
+`"etomic"` must be the ERC20 token/coin's [checksummed](https://coincodex.com/article/2078/ethereum-address-checksum-explained/) smart contract address.
 
 
 ### 2. Icon file (Required)
