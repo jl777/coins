@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/466c37caf9522b82d54a1a16ef3576232e5d3a86c44929e6bbe25680e7fbceaa)  
+[maker payment (DGB)](https://chainz.cryptoid.info/dgb/tx.dws?df456ef4371dc9072916b230131a675216c4b7011a410c82d4f0060d2b464b8d.htm)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/8414fb7dec24b1517ffb808375338dbd131d3eda7efd95019c7424af09de4214)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/27553e89d3945b58fce7ed70759d9d757caeaefc46edc8a75153e5d5412980d5)  
+[maker payment spent (DGB)](https://chainz.cryptoid.info/dgb/tx.dws?68c4d2c0babbd9228ed591e4f1504ccb773211a61570e2c881861005cd07eb13.htm)  

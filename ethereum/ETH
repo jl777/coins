@@ -1,0 +1,29 @@
+{
+    "swap_contract_address":"0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+    "rpc_nodes": [
+        {
+            "url":"http://195.201.0.6:8555",
+            "contact":{
+                "email":"ortgma@gmail.com"
+            }
+        },
+        {
+            "url":"http://eth1.cipig.net:8555",
+            "contact":{
+                "email":"cipi@komodoplatform.com"
+            }
+        },
+        {
+            "url":"http://eth2.cipig.net:8555",
+            "contact":{
+                "email":"cipi@komodoplatform.com"
+            }
+        },
+        {
+            "url":"http://eth3.cipig.net:8555",
+            "contact":{
+                "email":"cipi@komodoplatform.com"
+            }
+        }
+    ]
+}

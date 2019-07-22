@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/add9c8b4e6034d598074ae6aa0059afc837481713233059952a0c0727a92175b)  
+[maker payment (BCH)](https://blockchair.com/bitcoin-cash/transaction/0554f53291b79fe979013c702c330baa86fa5869fc387d9b952ac136241c569b)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/bad2283148fd45483cbe2d419f8bba8b5d8ebacc4cff7059320a400c704446d9)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/729f3273fdf59a250390f94d54d5b5443dbf9156420ed59747b5587b3140148b)  
+[maker payment spent (BCH)](https://blockchair.com/bitcoin-cash/transaction/c5cf2a80a3ceefbccdc7c9c0fb49c8f8dff69d2786542a57f305eb149ec60907)  

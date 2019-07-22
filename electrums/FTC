@@ -1,34 +1,33 @@
 [
   {
-    "electrum3.cipig.net": 10074,
+    "url": "electrumx-ch-1.feathercoin.ch:50001",
     "contact": [
       {
-        "email": "cipi@komodoplatform.com"
-      },
-      {
-        "matrix": "@cipig:matrix.org"
+        "github": "https://github.com/Feathercoin-Foundation/electrum-ftc/issues"
       }
     ]
   },
   {
-    "electrum2.cipig.net": 10074,
+    "url": "electrumx-de-2.feathercoin.ch:50001",
     "contact": [
       {
-        "email": "cipi@komodoplatform.com"
-      },
-      {
-        "matrix": "@cipig:matrix.org"
+        "github": "https://github.com/Feathercoin-Foundation/electrum-ftc/issues"
       }
     ]
   },
   {
-    "electrum1.cipig.net": 10074,
+    "url": "electrumx-gb-1.feathercoin.network:50001",
     "contact": [
       {
-        "email": "cipi@komodoplatform.com"
-      },
+        "github": "https://github.com/Feathercoin-Foundation/electrum-ftc/issues"
+      }
+    ]
+  },
+  {
+    "url": "electrumx-gb-2.feathercoin.network:50001",
+    "contact": [
       {
-        "matrix": "@cipig:matrix.org"
+        "github": "https://github.com/Feathercoin-Foundation/electrum-ftc/issues"
       }
     ]
   }

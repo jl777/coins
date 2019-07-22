@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/f4c6ab5c032ce6938e2b3efc28bccd85d771e1736406584499ea945fa2e51951)  
+[maker payment (VTC)](https://www.coinexplorer.net/VTC/transaction/d4a18415b2fa60ab587586a331a0226384721ba756504b180197381c8d69e7a7)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/d2478bcdedc9333d884e1084b4a229087e5c177ad38d059db747bcd29733eb80)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/d3b2f37cb49748bf2c674a26b332cc01550a5b8cabe4d270a92f980fcdce3007)  
+[maker payment spent (VTC)](https://www.coinexplorer.net/VTC/transaction/240200302adba1e690886499e76f2c00304400d5e27d1848b41d0781e5cb5f0c)  

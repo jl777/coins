@@ -1,34 +1,28 @@
 [
   {
-    "electrum3.cipig.net": 10071,
+    "url": "fr1.vtconline.org:55001",
+    "protocol": "TCP",
     "contact": [
       {
-        "email": "cipi@komodoplatform.com"
-      },
-      {
-        "matrix": "@cipig:matrix.org"
+        "github": "https://github.com/vertcoin-project/electrum-vtc/issues"
       }
     ]
   },
   {
-    "electrum2.cipig.net": 10071,
+    "url": "uk1.vtconline.org:55001",
+    "protocol": "TCP",
     "contact": [
       {
-        "email": "cipi@komodoplatform.com"
-      },
-      {
-        "matrix": "@cipig:matrix.org"
+        "github": "https://github.com/vertcoin-project/electrum-vtc/issues"
       }
     ]
   },
   {
-    "electrum1.cipig.net": 10071,
+    "url": "vtc-cce-1.coinomi.net:5028",
+    "protocol": "TCP",
     "contact": [
       {
-        "email": "cipi@komodoplatform.com"
-      },
-      {
-        "matrix": "@cipig:matrix.org"
+        "github": "https://github.com/vertcoin-project/electrum-vtc/issues"
       }
     ]
   }

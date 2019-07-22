@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/63de004396b7ed964d239645195cc96f5955ae6647b2517cd546ddd62937b6a9)  
+[maker payment (MONA)](https://mona.chainsight.info/tx/d9ec084a46e1a70fbae959048c6760af3d8bd984ca300df1236bdedc7f4f735c)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/3be7e933c9ca894e447d89545c051726ed6102c680eb295ccd61601d6e4e27af)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/a74964cb8f8e21fd7c885ffd9bf636eb1aec761cd75c8566d522c59e6ed71c95)  
+[maker payment spent (MONA)](https://mona.chainsight.info/tx/12381bead05d41280abb1b2ab348c372e476e4c528d57132363cc6e187956777)  
