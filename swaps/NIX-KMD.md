@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/aa11662cba4f63c3b9010228b753f77d24e3a4713b8a7468567d5118bc6c6b62)  
+[maker payment (NIX)](https://blockchain.nixplatform.io/tx/bda0051733d33b45eca329779c1bb696709bc40fdfdb7f411fe0236ed67b863a)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/b0355575ed91e7181bea6df54abc36641ee7feb5d66950fd7dd6b21d33d4c9fb)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/39d7452a0e58d53070f1c2afbaea42019ed90c69951d8266c6cdd40dcaa46f0f)  
+[maker payment spent (NIX)](https://blockchain.nixplatform.io/tx/f36076b948580c44aa91522d2ec047aef18f15a8fdf4c70c17fecdba4c808153)  
