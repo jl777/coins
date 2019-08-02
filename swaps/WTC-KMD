@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmd.explorer.dexstats.info/tx/de7d6052278bf642ca988bd623db4c770c32d5cdc69a9a66d63d80968ed99e09)  
+[maker payment (WTC)](https://etherscan.io/tx/0x9fb4e5275ea79d2662624396a5ba49df18c3a7f2a36db17e08e036027dd850ad)  
+[taker payment (KMD)](https://kmd.explorer.dexstats.info/tx/e5776b05aad321dcce343ec92686a2a14f8d44d4d219e7b3ad14bb0279240665)  
+[taker payment spent (KMD)](https://kmd.explorer.dexstats.info/tx/6712253b485f2adcaf71a7bf9ddaf2d8cd65d1bfbf14cb74c43adae4628c7330)  
+[maker payment spent (WTC)](https://etherscan.io/tx/0x68db1efe2357738d3315292ba50eed9e9fce5c2e85674710358ca2b1f8d04505)  
