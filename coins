@@ -144,12 +144,13 @@
   {
     "coin": "FLASH",
     "name": "flashcoin",
-    "fname": "Flash",
+    "fname": "Flashcoin",
     "rpcport": 9332,
     "pubtype": 68,
     "p2shtype": 130,
     "wiftype": 196,
-    "txfee": 10000,
+    "txfee": 10000000,
+    "decimals": 10,
     "mm2": 1
   },
   {
