@@ -2695,12 +2695,13 @@
   {
     "coin": "LBC",
     "name": "lbrycrd",
-    "fname": "Lbrycrd",
+    "fname": "LBRY Credits",
     "rpcport": 9245,
     "pubtype": 85,
     "p2shtype": 122,
     "wiftype": 28,
-    "txfee": 10000
+    "txfee": 10000,
+    "mm2": 1
   },
   {
     "coin": "SIB",
