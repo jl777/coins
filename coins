@@ -1029,12 +1029,13 @@
   {
     "coin": "FTC",
     "name": "feathercoin",
-    "fname": "Feather Coin",
+    "fname": "Feathercoin",
     "rpcport": 9337,
     "pubtype": 14,
     "p2shtype": 5,
     "wiftype": 142,
-    "txfee": 1000000
+    "txfee": 1000000,
+    "mm2": 1
   },
   {
     "coin": "PXT",
@@ -2695,12 +2696,13 @@
   {
     "coin": "LBC",
     "name": "lbrycrd",
-    "fname": "Lbrycrd",
+    "fname": "LBRY Credits",
     "rpcport": 9245,
     "pubtype": 85,
     "p2shtype": 122,
     "wiftype": 28,
-    "txfee": 10000
+    "txfee": 10000,
+    "mm2": 1
   },
   {
     "coin": "SIB",
