@@ -2200,7 +2200,7 @@
   },
   {
     "coin": "BLK",
-    "name": "lore",
+    "name": "blackmore",
     "fname": "Blackcoin",
     "isPoS": 1,
     "rpcport": 15715,
@@ -2683,7 +2683,8 @@
     "pubtype": 3,
     "p2shtype": 125,
     "wiftype": 128,
-    "txfee": 50000
+    "txfee": 50000,
+    "mm2": 1
   },
   {
     "coin": "XRE",
