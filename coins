@@ -97,17 +97,24 @@
     "nSPV":"5.9.102.210, 5.9.253.195, 5.9.253.196, 5.9.253.197, 5.9.253.198, 5.9.253.199, 5.9.253.200, 5.9.253.201, 5.9.253.202, 5.9.253.203"
   },
   {
-    "coin":"CHAIN",
-    "asset":"CHAIN",
+    "coin": "CHAIN",
+    "asset": "CHAIN",
     "fname": "Chainmakers",
-    "rpcport":15587,
+    "rpcport": 15587,
     "mm2": 1
   },
   {
-    "coin":"GLXT",
-    "asset":"GLXT",
+    "coin": "DP",
+    "asset": "DP",
+    "fname": "DigitalPrice",
+    "rpcport": 28388,
+    "mm2": 1
+  },
+  {
+    "coin": "GLXT",
+    "asset": "GLXT",
     "fname": "GLX Token",
-    "rpcport":13109,
+    "rpcport": 13109,
     "mm2": 1
   },
   {
@@ -432,7 +439,8 @@
     "pubtype": 48,
     "p2shtype": 63,
     "wiftype": 155,
-    "txfee": 10000
+    "txfee": 10000,
+    "mm2": 1
   },
   {
     "coin": "RAP",
@@ -2207,7 +2215,8 @@
     "pubtype": 25,
     "p2shtype": 85,
     "wiftype": 153,
-    "txfee": 100000
+    "txfee": 100000,
+    "mm2": 1
   },
   {
     "coin": "BCH",
