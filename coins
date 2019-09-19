@@ -70,6 +70,8 @@
     "asset": "LABS",
     "fname": "KMD Labs",
     "rpcport": 40265,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 2
   },
@@ -78,14 +80,18 @@
     "asset": "K64",
     "fname": "Komodore64",
     "rpcport": 12245,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 2
   },
   {
-    "coin":"KMDICE",
-    "asset":"KMDICE",
+    "coin": "KMDICE",
+    "asset": "KMDICE",
     "fname": "KMDice",
-    "rpcport":30177,
+    "rpcport": 30177,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 2
   },
@@ -94,6 +100,8 @@
     "asset": "ILN",
     "fname": "Ilien",
     "rpcport": 12986,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1,
     "p2p": 12985,
     "magic":"feb4cb23",
@@ -105,6 +113,8 @@
     "asset": "CHAIN",
     "fname": "Chainmakers",
     "rpcport": 15587,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 2
   },
@@ -113,6 +123,8 @@
     "asset": "DP",
     "fname": "DigitalPrice",
     "rpcport": 28388,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 2
   },
@@ -121,6 +133,8 @@
     "asset": "GLXT",
     "fname": "GLX Token",
     "rpcport": 13109,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 2
   },
@@ -129,6 +143,8 @@
     "asset": "RFOX",
     "fname": "RedFOX",
     "rpcport": 32269,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 2
   },
@@ -137,6 +153,8 @@
     "asset": "THC",
     "fname": "HempCoin",
     "rpcport": 36790,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 2
   },
@@ -145,6 +163,8 @@
     "asset": "CCL",
     "fname": "CoinCollect",
     "rpcport": 20849,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 2
   },
@@ -153,6 +173,8 @@
     "asset": "KOIN",
     "fname": "Koinon",
     "rpcport": 10702,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -200,10 +222,12 @@
     "txfee":10000
   },
   {
-    "coin":"EQLI",
-    "asset":"EQL",
+    "coin": "EQLI",
+    "asset": "EQL",
     "fname": "Equaliser",
-    "rpcport":10306,
+    "rpcport": 10306,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 2
   },
@@ -2045,6 +2069,8 @@
     "asset": "PIZZA",
     "fname": "PIZZA (TESTCOIN)",
     "rpcport": 11116,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1
   },
   {
@@ -2052,6 +2078,8 @@
     "asset": "BEER",
     "fname": "BEER (TESTCOIN)",
     "rpcport": 8923,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1
   },
   {
@@ -2059,6 +2087,8 @@
     "asset": "RICK",
     "fname": "RICK (TESTCOIN)",
     "rpcport": 25435,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1
   },
   {
@@ -2066,6 +2096,8 @@
     "asset": "MORTY",
     "fname": "MORTY (TESTCOIN)",
     "rpcport": 16348,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1
   },
   {
@@ -2128,6 +2160,8 @@
     "asset": "BTCH",
     "fname": "Bitcoin Hush",
     "rpcport": 8800,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -2135,6 +2169,8 @@
     "asset": "ETOMIC",
     "fname": "ETOMIC",
     "rpcport": 10271,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1
   },
   {
@@ -2142,6 +2178,8 @@
     "asset": "AXO",
     "fname": "AXO",
     "rpcport": 12927,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -2308,6 +2346,8 @@
     "asset": "MNZ",
     "fname": "Monaize",
     "rpcport": 14337,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -2766,6 +2806,8 @@
     "asset": "REVS",
     "fname": "REVS",
     "rpcport": 10196,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -2783,6 +2825,7 @@
     "asset": "ZILLA",
     "fname": "ChainZilla",
     "rpcport": 10041,
+    "mm2": 1,
     "required_confirmations": 2
   },
   {
@@ -2790,6 +2833,8 @@
     "asset": "JUMBLR",
     "fname": "JUMBLR",
     "rpcport": 15106,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -2808,6 +2853,8 @@
     "asset": "HUSH3",
     "fname": "Hush",
     "rpcport": 18031,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 2
   },
@@ -2873,6 +2920,8 @@
     "asset": "SUPERNET",
     "fname": "SUPERNET",
     "rpcport": 11341,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -2880,6 +2929,8 @@
     "asset": "WLC",
     "fname": "Wireless Coin",
     "rpcport": 12167,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -2887,6 +2938,8 @@
     "asset": "PANGEA",
     "fname": "Pangea Poker",
     "rpcport": 14068,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -2894,6 +2947,8 @@
     "asset": "DEX",
     "fname": "InstantDEX",
     "rpcport": 11890,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 2
   },
@@ -2902,6 +2957,8 @@
     "asset": "DSEC",
     "fname": "DSEC",
     "rpcport": 11557,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -2909,6 +2966,8 @@
     "asset": "BET",
     "fname": "BET",
     "rpcport": 14250,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -2916,6 +2975,8 @@
     "asset": "CRYPTO",
     "fname": "Crypto777",
     "rpcport": 8516,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -2923,6 +2984,8 @@
     "asset": "HODL",
     "fname": "HODL",
     "rpcport": 14431,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -2930,6 +2993,8 @@
     "asset": "MSHARK",
     "fname": "MiliShark",
     "rpcport": 8846,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -2937,6 +3002,8 @@
     "asset": "BOTS",
     "fname": "BOTS",
     "rpcport": 11964,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -2944,6 +3011,8 @@
     "asset": "MGW",
     "fname": "MultiGateway",
     "rpcport": 12386,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -2951,6 +3020,8 @@
     "asset": "COQUICASH",
     "fname": "Coqui Cash",
     "rpcport": 19712,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 2
   },
@@ -2959,6 +3030,8 @@
     "asset": "KV",
     "fname": "KeyValue",
     "rpcport": 8299,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -2966,6 +3039,8 @@
     "asset": "CEAL",
     "fname": "Ceal.io",
     "rpcport": 11116,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -2973,6 +3048,8 @@
     "asset": "MESH",
     "fname": "SuperMESH",
     "rpcport": 9455,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
   },
   {
@@ -3004,38 +3081,46 @@
     "p2shtype": 5,
     "wiftype": 204,
     "txfee": 10000
-   },
-   {
-   "coin": "MGNX",
-   "asset": "MGNX",
-   "fname": "MagnaX",
-   "rpcport": 20731,
-   "required_confirmations": 2
-   },
-   {
-   "coin": "DION",
-   "asset": "DION",
-   "fname": "DionPay",
-   "rpcport": 23895,
-   "required_confirmations": 2
-   },
-   {
+  },
+  {
+    "coin": "MGNX",
+    "asset": "MGNX",
+    "fname": "MagnaX",
+    "rpcport": 20731,
+    "txversion": 4,
+    "overwintered": 1,
+    "required_confirmations": 2
+  },
+  {
+    "coin": "DION",
+    "asset": "DION",
+    "fname": "DionPay",
+    "rpcport": 23895,
+    "txversion": 4,
+    "overwintered": 1,
+    "required_confirmations": 2
+  },
+  {
     "coin": "OURC",
     "asset": "OUR",
     "fname": "OUR Crypto Union",
     "rpcport": 45672,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 2
-   },
-   {
+  },
+  {
     "coin": "ZEXO",
     "asset": "ZEXO",
     "fname": "Zaddex",
     "rpcport": 33970,
+    "txversion": 4,
+    "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 2
-   },
-   {
+  },
+  {
     "coin":"ABP", 
     "name": "ABP Network", 
     "rpcport":5426,
@@ -3043,29 +3128,35 @@
     "p2shtype":15, 
     "wiftype":212, 
     "txfee":10000
-    },
-   {
+  },
+  {
     "coin": "PUNGO",
     "asset": "PGT",
     "fname": "Pungo Token",
     "rpcport": 46705,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
-   },
-   {
+  },
+  {
     "coin": "PTX",
     "asset": "PTX",
     "fname": "PatentTX",
     "rpcport": 61939,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
-   },
-   {
+  },
+  {
     "coin": "LUMBER",
     "asset": "LUMBER",
     "fname": "Lumberscout",
     "rpcport": 26301,
+    "txversion": 4,
+    "overwintered": 1,
     "required_confirmations": 2
-   },
-   {
+  },
+  {
     "coin": "GCH",
     "name": "GalaxyCash", 
     "rpcport": 4604,
@@ -3074,29 +3165,29 @@
     "wiftype": 89,
     "txfee": 100,
     "confpath": "USERHOME/.galaxycash/galaxycash.conf"
-   },
-   {
+  },
+  {
     "coin": "HOT",
     "name": "holo-token",
     "fname": "Holo Token",
     "etomic": "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2",
     "rpcport": 80,
     "mm2": 1
-   },
-   {
+  },
+  {
     "coin": "SOLVE",
     "name": "care-solve",
     "fname": "Solve Token",
     "etomic": "0x446C9033E7516D820cc9a2ce2d0B7328b579406F",
     "rpcport": 80,
     "mm2": 1
-   },
-   {
+  },
+  {
     "coin": "DENT",
     "name": "dent",
     "fname": "Dent Coin",
     "etomic": "0x3597bfD533a99c9aa083587B074434E61Eb0A258",
     "rpcport": 80,
     "mm2": 1
-   }
+  }
 ]
