@@ -608,6 +608,14 @@
     "rpcport":80
   },
   {
+    "coin": "AWC",
+    "name": "atomic-wallet-coin",
+    "fname": "Atomic Wallet Coin",
+    "etomic": "0xaD22f63404f7305e4713CcBd4F296f34770513f4",
+    "rpcport": 80,
+    "mm2": 1
+  },
+  {
     "coin": "BFT",
     "name": "bnktothefuture",
     "fname": "BnkToTheFuture",
@@ -766,15 +774,16 @@
     "coin": "GTO",
     "name": "gifto",
     "fname": "Gifto",
-    "etomic":"0xC5bBaE50781Be1669306b9e001EFF57a2957b09d",
-    "rpcport":80
+    "etomic": "0xC5bBaE50781Be1669306b9e001EFF57a2957b09d",
+    "rpcport": 80
   },
   {
     "coin": "HT",
     "name": "huobi-token",
     "fname": "Huobi Token",
     "etomic": "0x6f259637dcD74C767781E37Bc6133cd6A68aa161",
-    "rpcport": 80
+    "rpcport": 80,
+    "mm2": 1
   },
   {
     "coin": "HTS",
