@@ -75,6 +75,8 @@ You need the following info in JSON format added to [coins](coins) file:
 
 `"mm2"` add this param if coin is confirmed working with MM2 (successful swap is made). 
 
+`"required_confirmations"` the number of confirmations MM2 will wait for during the swap. Default value is 1.
+
 #### Bitcoin Protocol specific JSON
 
 `"coin"` must be coin ticker.
