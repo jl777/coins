@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/5a98c04eb16d38476346e2a32c830c0fb7f996e7d822f0120313b906ac8a8a27)  
+[maker payment (ARPA)](https://etherscan.io/tx/0xbd3ac9d659cfc060715cacbb802e19e26f50f7ffe4b915e304d1e64c2f88839f)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/0788e2d0b9e148d2b9c9992366290c902cc265e68a2a61e16d1b451d51df8cc6)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/434b8315c99c181da6ae7db5d1ae13287af36719ab4102356b6f2a206e521616)  
+[maker payment spent (ARPA)](https://etherscan.io/tx/0x9f8b4189f88b08c7f3d2d1cedb2d80a76fe0c04a5000eca1ebaa5eef9f98a789)  
