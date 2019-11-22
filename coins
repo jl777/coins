@@ -1246,10 +1246,18 @@
     "rpcport": 80
   },
   {
-    "coin": "DAI",
-    "name": "dai",
-    "fname": "Dai",
+    "coin": "SAI",
+    "name": "single-collateral-dai",
+    "fname": "Single Collateral DAI",
     "etomic": "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359",
+    "rpcport": 80,
+    "mm2": 1
+  },
+  {
+    "coin": "DAI",
+    "name": "multi-collateral-dai",
+    "fname": "Multi-collateral DAI",
+    "etomic": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
     "rpcport": 80,
     "mm2": 1
   },
