@@ -2673,12 +2673,14 @@
     "name": "navcoin",
     "fname": "Navcoin",
     "isPoS": 1,
+    "txversion": 3,
     "confpath": "USERHOME/.navcoin4/navcoin.conf",
     "rpcport": 44444,
     "pubtype": 53,
     "p2shtype": 85,
     "wiftype": 150,
-    "txfee": 10000
+    "txfee": 10000,
+    "mm2": 1
   },
   {
     "coin": "NIX",
