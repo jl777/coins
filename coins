@@ -2967,11 +2967,12 @@
   },
   {
     "coin": "WLC",
-    "asset": "WLC",
+    "asset": "WLC21",
     "fname": "Wireless Coin",
-    "rpcport": 12167,
+    "rpcport": 38808,
     "txversion": 4,
     "overwintered": 1,
+    "mm2": 1,
     "required_confirmations": 2
   },
   {
