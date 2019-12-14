@@ -950,13 +950,6 @@
     "rpcport": 80
   },
   {
-    "coin": "PGT",
-    "name": "puregold",
-    "fname": "Puregold Token",
-    "etomic": "0x9b3E946E1a8ea0112b147aF4E6e020752F2446BC",
-    "rpcport": 80
-  },
-  {
     "coin":"POLY",
     "name":"polymath-network",
     "fname":"Polymath",
@@ -3172,7 +3165,7 @@
     "txfee":10000
   },
   {
-    "coin": "PUNGO",
+    "coin": "PGT",
     "asset": "PGT",
     "fname": "Pungo Token",
     "rpcport": 46705,
