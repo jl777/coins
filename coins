@@ -2946,9 +2946,10 @@
     "fname": "Litecoin",
     "rpcport": 9332,
     "pubtype": 48,
-    "p2shtype": 5,
+    "p2shtype": 50,
     "wiftype": 176,
     "txfee": 10000,
+    "segwit": true,
     "mm2": 1
   },
   {
