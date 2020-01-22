@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/2cb84b050d154d0d47018efd957cd7e873dff8afb3629c72955b2bdf3b05d5a8)  
+[maker payment (XZC)](https://explorer.zcoin.io/tx/206c0be6e1404c4ba29c28a2fccd84d38671b891f9e766d3ee649008e6f7adc1)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/8b89ae004c445788b25141291ba2fd9945e08579f9373877ec922521f1f86f67)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/e97d652513f52fdf5078941aaeb51d170e70fed7847ad71d5cd9431b64da5b65)  
+[maker payment spent (XZC)](https://explorer.zcoin.io/tx/6caf5d640894070894c05e82e958594470c685e92b9f847e485207b17ac473e4)  

@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/070e2fbfd31427ff1ba50c3c12cbc18d0c1ca77b05fa80977d74163566f13000)  
+[maker payment (QTUM)](https://qtum.info/tx/4ab937189201be0ea57c4c7d74798fd1522d293e8489ad1921fc6ae2490d5c54)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/a258063d53fbcb04ef3596583ebcaa837bbd50413c6850f12dda596f54573570)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/1da6e8ade81581be5e7284eef3e4dbeb0d05936e79e4f38e36d86ddd7c2de519)  
+[maker payment spent (QTUM)](https://qtum.info/tx/9ab34e4f4ddb24078d4462930d0d34d71642341ab3ab7681671f9071b9bee487)  

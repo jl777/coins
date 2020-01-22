@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/c9162a13f8b46d4dbefaf14d37aa8ef7c230ab57e222d58b38ba4a538d6913fa)  
+[maker payment (DP)](https://dp.explorer.komodo.top/tx/b360e0bc232e6091f110ba6767ff3d8c86d58b22bf246b86fbabb4c5d281e135)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/a2a85f82ad523c8691155340ec58a82868d36faa2ed1a8a50b8a23be176ee273)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/42e8cd607603747b1850fa87a31646fb4f7ae4469244b6b9fee429211003737a)  
+[maker payment spent (DP)](https://dp.explorer.komodo.top/tx/7f1b5609fdcb6f92f879143dfc0c378713f1e899299974557cb9ce2c00142d84)  

@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/42fbd9faef636390ee3eb00267ef6f27eca6ab5bb5bd6473cddd66a193f38544)  
+[maker payment (NMC)](https://nmc.tokenview.com/en/tx/5097d5abe8e6ba779d15ee5c53442181e0288fd3e83cae90df3cd19ae8c7e377)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/f14046acb07b573f88bb2bdb571761946a44a9753313acfd1252257fbeeb383f)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/bc98ef3a4e37e6c5281c4ff7d80bf0049e4c0d46507d57857ed1f8d73e4a6cbd)  
+[maker payment spent (NMC)](https://nmc.tokenview.com/en/tx/9d1a0b233849b8c7f12a833d18731515f0249afa1758da7df6cd351da636e2e6)  

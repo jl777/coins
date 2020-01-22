@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/2f3f97753bf7878ff263ee574accbf7b5c0d5779eebd1b9aeb3a34bcab4810e6)  
+[maker payment (ZEC)](https://explorer.zcha.in/transactions/bf61f8484f33bdc6696bb4ab7a2b642f6a7ec90b4053e910ee3094d01a4f5698)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/f41bc2384b75d4105bda064ef5d83b9eb56c97bab25135d8e54ff390b5cb18a9)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/9df0b79ffdc72a0c79e09b5cf2ba0923dee0d62a6d14f7d7bed2bf337eb16fe3)  
+[maker payment spent (ZEC)](https://explorer.zcha.in/transactions/4ac8231ed46ba71417e19a426a760e4142c701d150c882b595df0c514a5a0cc8)  

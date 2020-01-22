@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/f369413b817df7574726e8eedc853f3f764c1f1b0647b0f0af50171583b1a75b)  
+[maker payment (FTC)](https://fsight.chain.tips/tx/66bee49a994043e715719e6ea8815d0e06b8f497b41049426437b2df2547c91d)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/3aa5c9c80a99cc049224ff1a145f1f011ad99bc1b5d418c458dffeaabdbe88e2)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/4be3a61e83d383cdddf534a473e65120588a275ce6d2709bade81733279c81a2)  
+[maker payment spent (FTC)](https://fsight.chain.tips/tx/c003f46b7b7e7cea24327a41c9b625bb5370c5104ae1e61441185b6d4025db4c)  

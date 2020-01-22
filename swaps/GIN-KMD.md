@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/dd62cbe0f80b720b3412301b2e27dae20bcbcdf17baf9964b9ebad4298c44a0c)  
+[maker payment (GIN)](https://explorer.gincoin.io/tx/27fdfaec315ab523399ff97d56e298041f346986598280f59f50b8f964eb4da4)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/4ec92027355ce483e2a3ae0f73fbd314d9dc669dbaf915c3e51d2c103b1e40ca)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/19b8f8992828ab9e7b3006a0777c945a55a8de719fc650b08ba9f8d6d336e2bf)  
+[maker payment spent (GIN)](https://explorer.gincoin.io/tx/acf15678eba6336663bf880fb0800222edae40a24cdba2de5392644fe10eddff)  

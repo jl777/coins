@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/8146a070d403064634ccb30a590f29204b756231fbd2acc3dd877c7521cceaa1)  
+[maker payment (RVN)](https://ravencoin.network/tx/91e5920d26717e683f371dff51dd705d333344ad5ea3705309107e713e7a254d)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/208c76a3bf5f9b02b50596da3de41066878044ba401a9eb812e070f52e50bcd0)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/0be8688e517cbdbcfc7e4fb8b6c6221cefef83f534890b7d0fbe5179029f3177)  
+[maker payment spent (RVN)](https://ravencoin.network/tx/65901f3fdca831768a4bab4bce7d398dc75422cf058f9b3270bc98044b4e0a4c)  

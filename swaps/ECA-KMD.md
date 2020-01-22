@@ -1,0 +1,5 @@
+[TakerFeeValidated (KMD)](https://kmd.explorer.dexstats.info/tx/3ff8e0663f52609431fffcf127af18133549ae5208f91744e20e533b333bca7d)  
+[MakerPaymentSent (ECA)](https://explorer.electraproject.org/tx/28a50be3ef49e6556c928eeeeab43c43c3c48ed9d3595ee7427dba4df95afc3d)  
+[TakerPaymentReceived (KMD)](https://kmd.explorer.dexstats.info/tx/948894fad9a50b981cd5c63bd228823d79f0a6ddd3d2ac47e00650b0cc6d860f)  
+[TakerPaymentSpent (KMD)](https://kmd.explorer.dexstats.info/tx/66249342ac0d7bd05162fedf5fe7dbfe6bac4969248857af2926c9637b001054)  
+[MakerPaymentSpent (ECA)](https://explorer.electraproject.org/tx/494124a490b81fd6b655a09d85f7d82a6842bb86cc22785c876ba2495f177703)  

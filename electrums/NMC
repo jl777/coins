@@ -1,34 +1,31 @@
 [
   {
-    "electrum3.cipig.net": 10066,
+    "url": "nmc.bitcoins.sk:50002",
+    "protocol": "SSL",
+    "disable_cert_verification": true,
     "contact": [
       {
-        "email": "cipi@komodoplatform.com"
-      },
-      {
-        "matrix": "@cipig:matrix.org"
+        "github": "https://github.com/namecoin/electrum-nmc/issues"
       }
     ]
   },
   {
-    "electrum2.cipig.net": 10066,
+    "url": "electrum-nmc.le-space.de:50002",
+    "protocol": "SSL",
+    "disable_cert_verification": false,
     "contact": [
       {
-        "email": "cipi@komodoplatform.com"
-      },
-      {
-        "matrix": "@cipig:matrix.org"
+        "github": "https://github.com/namecoin/electrum-nmc/issues"
       }
     ]
   },
   {
-    "electrum1.cipig.net": 10066,
+    "url": "ulrichard.ch:50006",
+    "protocol": "SSL",
+    "disable_cert_verification": false,
     "contact": [
       {
-        "email": "cipi@komodoplatform.com"
-      },
-      {
-        "matrix": "@cipig:matrix.org"
+        "github": "https://github.com/namecoin/electrum-nmc/issues"
       }
     ]
   }

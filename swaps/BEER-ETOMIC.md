@@ -1,0 +1,5 @@
+[taker fee (ETOMIC)](http://etomic.explorer.dexstats.info/tx/882c3f48ddc47a71df35a94bdb6372c2f11c1acefa648911dae4a90f5d175a4b)  
+[maker payment (BEER)](http://beer.explorer.dexstats.info/tx/52aed528bcd2db3252a292d95d62ab3a04193d3cd7d01b6bf2ec7cc8c274dd84)  
+[taker payment (ETOMIC)](http://etomic.explorer.dexstats.info/tx/519acdb9ef2736cc5e1256f1485bb85dda3e21ac5f0c0567313c80bcb901d89a)  
+[taker payment spent (ETOMIC)](http://etomic.explorer.dexstats.info/tx/30f735b3e06eaeade4deb9fcb5377ac4b46ef9490dcb9aa17b236cf9741015ff)  
+[maker payment spent (BEER)](http://beer.explorer.dexstats.info/tx/478b880b1353ddbe461c7586072b230e59a0c08918f3dca7df1b5a46ea282e18)  

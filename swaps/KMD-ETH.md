@@ -1,0 +1,5 @@
+[Taker Fee (ETH)](https://etherscan.io/tx/0xab91431056968661374e2740dad98960033ff284d510343867213f111c4c44c0)  
+[Maker Payment (KMD)](https://kmd.explorer.dexstats.info/tx/2ce42b3c370c904ce1fdb6a16e72c0ac48988174673f4e882e8a7893cbf058cd)  
+[Taker Payment (ETH)](https://etherscan.io/tx/0xfd3fd8b5e115ac76c9e3895b89c704508632a6b6672f452fd8a0c8ed7853d947)  
+[Taker Payment Spent (ETH)](https://etherscan.io/tx/0xd40160a0c7434ef6b0b03cc2860a1b8effe13b48e30c30bec52014d24aedb990)  
+[Maker Payment Spent (KMD)](https://kmd.explorer.dexstats.info/tx/0af509746ecddfd1cc339b757b0bb6154059948e2b1b97a4afb0a1a539075636)  
