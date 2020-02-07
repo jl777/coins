@@ -24,6 +24,16 @@
     "mm2": 1
   },
   {
+    "coin": "MCL",
+    "asset": "MCL",
+    "fname": "MarmaraCreditLoops",
+    "rpcport": 33825,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 2
+  },
+  {
     "coin": "MOVI",
     "name": "movitoken",
     "fname": "MoviToken",
