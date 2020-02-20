@@ -635,7 +635,8 @@
     "fname": "ARPA Chain",
     "etomic": "0xBA50933C268F567BDC86E1aC131BE072C6B0b71a",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "AWC",
@@ -643,7 +644,8 @@
     "fname": "Atomic Wallet Coin",
     "etomic": "0xaD22f63404f7305e4713CcBd4F296f34770513f4",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "BFT",
@@ -1180,7 +1182,8 @@
     "fname": "Paxos",
     "etomic": "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "BUSD",
@@ -1188,7 +1191,8 @@
     "fname": "Binance USD",
     "etomic": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "TUSD",
@@ -1196,7 +1200,8 @@
     "fname": "TrueUSD",
     "etomic": "0x0000000000085d4780B73119b644AE5ecd22b376",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "USDC",
@@ -1204,7 +1209,8 @@
     "fname": "USD Coin",
     "etomic": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "USDT",
@@ -1350,7 +1356,8 @@
     "etomic": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
     "decimals": 18,
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "MDS",
@@ -1402,7 +1409,8 @@
     "fname": "0x",
     "etomic": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "BAT",
@@ -1410,7 +1418,8 @@
     "fname": "Basic Attention Token",
     "etomic": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "ETHOS",
@@ -1858,7 +1867,8 @@
     "fname": "Ethereum",
     "etomic": "0x0000000000000000000000000000000000000000",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "ZIL",
@@ -3252,7 +3262,8 @@
     "rpcport": 46705,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "PTX",
@@ -3262,8 +3273,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": true
+    "required_confirmations": 5
   },
   {
     "coin": "LUMBER",
@@ -3290,7 +3300,8 @@
     "fname": "Holo Token",
     "etomic": "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "SOLVE",
@@ -3298,7 +3309,8 @@
     "fname": "Solve Token",
     "etomic": "0x446C9033E7516D820cc9a2ce2d0B7328b579406F",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "DENT",
@@ -3306,7 +3318,8 @@
     "fname": "Dent Coin",
     "etomic": "0x3597bfD533a99c9aa083587B074434E61Eb0A258",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "COMMOD",
