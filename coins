@@ -8,7 +8,8 @@
     "p2shtype": 5,
     "wiftype": 128,
     "segwit": true,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 1
   },
   {
     "coin": "KMD",
@@ -21,7 +22,8 @@
     "txversion": 4,
     "overwintered": 1,
     "txfee": 1000,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 5
   },
   {
     "coin": "MCL",
@@ -31,7 +33,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "MOVI",
@@ -84,7 +86,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "K64",
@@ -94,7 +96,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "KMDICE",
@@ -104,7 +107,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "ILN",
@@ -117,7 +120,8 @@
     "p2p": 12985,
     "magic":"feb4cb23",
     "nSPV":"5.9.102.210, 5.9.253.195, 5.9.253.196, 5.9.253.197, 5.9.253.198, 5.9.253.199, 5.9.253.200, 5.9.253.201, 5.9.253.202, 5.9.253.203",
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "CHAIN",
@@ -127,7 +131,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "DP",
@@ -137,7 +141,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "GLXT",
@@ -147,7 +151,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "RFOX",
@@ -157,7 +161,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "THC",
@@ -167,7 +172,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "CCL",
@@ -177,7 +183,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "KOIN",
@@ -187,7 +194,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "COLX",
@@ -241,7 +249,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "AYWA",
@@ -353,7 +361,8 @@
     "txfee": 10000,
     "txversion": 7,
     "mm2":1,
-    "confpath": "USERHOME/.electra/Electra.conf"
+    "confpath": "USERHOME/.electra/Electra.conf",
+    "required_confirmations": 10
   },
   {
     "coin":"POLIS",
@@ -440,7 +449,8 @@
     "wiftype": 204,
     "txfee": 10000,
     "confpath": "USERHOME/.axecore/axe.conf",
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 10
   },
   {
     "coin": "BCBC",
@@ -1112,7 +1122,8 @@
     "wiftype": 142,
     "txfee": 1000000,
     "segwit": true,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 10
   },
   {
     "coin": "PXT",
@@ -1959,7 +1970,8 @@
     "p2shtype": 122,
     "wiftype": 128,
     "txfee": 1000000,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 4
   },
   {
     "coin": "VIVO",
@@ -2032,7 +2044,8 @@
     "fname": "Utrum",
     "rpcport": 12467,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "HTML",
@@ -2206,7 +2219,8 @@
     "rpcport": 8800,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "ETOMIC",
@@ -2224,7 +2238,8 @@
     "rpcport": 12927,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "INN",
@@ -2332,7 +2347,8 @@
     "wiftype": 128,
     "txfee": 1000,
     "segwit": true,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 1
   },
   {
     "coin": "QMC",
@@ -2353,7 +2369,8 @@
     "p2shtype": 50,
     "wiftype": 128,
     "segwit": true,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 4
   },
   {
     "coin": "PGN",
@@ -2393,7 +2410,7 @@
     "rpcport": 14337,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "BTCZ",
@@ -2456,7 +2473,9 @@
     "wiftype": 188,
     "txfee": 10000,
     "segwit": true,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "888",
@@ -2690,7 +2709,8 @@
     "p2shtype": 85,
     "wiftype": 150,
     "txfee": 10000,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 10
   },
   {
     "coin": "NIX",
@@ -2712,7 +2732,9 @@
     "p2shtype": 5,
     "wiftype": 176,
     "txfee": 100000,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "SYS",
@@ -2745,7 +2767,8 @@
     "p2shtype": 16,
     "wiftype": 204,
     "txfee": 10000,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 2
   },
   {
     "coin": "STRAT",
@@ -2859,7 +2882,9 @@
     "rpcport": 10196,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "VRSC",
@@ -2869,7 +2894,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "ZILLA",
@@ -2877,7 +2902,8 @@
     "fname": "ChainZilla",
     "rpcport": 10041,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "JUMBLR",
@@ -2886,7 +2912,9 @@
     "rpcport": 15106,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "DOGE",
@@ -2897,7 +2925,8 @@
     "p2shtype": 22,
     "wiftype": 158,
     "txfee": 500000000,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 2
   },
   {
     "coin": "HUSH",
@@ -2907,7 +2936,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "ZEC",
@@ -2923,7 +2953,8 @@
     "version_group_id": "0x892f2085",
     "consensus_branch_id": "0x2BB40E60",
     "txfee": 10000,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "DGB",
@@ -2935,7 +2966,8 @@
     "wiftype": 128,
     "txfee": 100000,
     "segwit": true,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 7
   },
   {
     "coin": "ZET",
@@ -2956,7 +2988,9 @@
     "p2shtype": 5,
     "wiftype": 166,
     "txfee": 1000000,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "LTC",
@@ -2968,7 +3002,8 @@
     "wiftype": 176,
     "txfee": 10000,
     "segwit": true,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 2
   },
   {
     "coin": "SUPERNET",
@@ -2978,7 +3013,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "WLC",
@@ -2988,7 +3024,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "PANGEA",
@@ -2997,7 +3034,9 @@
     "rpcport": 14068,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "DEX",
@@ -3007,7 +3046,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "DSEC",
@@ -3016,7 +3056,7 @@
     "rpcport": 11557,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "BET",
@@ -3025,7 +3065,9 @@
     "rpcport": 14250,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "CRYPTO",
@@ -3034,7 +3076,9 @@
     "rpcport": 8516,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "HODL",
@@ -3043,7 +3087,9 @@
     "rpcport": 14431,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "MSHARK",
@@ -3052,7 +3098,9 @@
     "rpcport": 8846,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "BOTS",
@@ -3061,7 +3109,9 @@
     "rpcport": 11964,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "MGW",
@@ -3070,7 +3120,9 @@
     "rpcport": 12386,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "COQUI",
@@ -3080,7 +3132,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "KV",
@@ -3089,7 +3142,9 @@
     "rpcport": 8299,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "CEAL",
@@ -3098,7 +3153,7 @@
     "rpcport": 11116,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "MESH",
@@ -3107,7 +3162,9 @@
     "rpcport": 9455,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "ROGER",
@@ -3146,7 +3203,7 @@
     "rpcport": 20731,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "DION",
@@ -3155,7 +3212,7 @@
     "rpcport": 23895,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "OURC",
@@ -3165,7 +3222,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "ZEXO",
@@ -3175,7 +3233,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin":"ABP", 
@@ -3202,7 +3261,9 @@
     "rpcport": 61939,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "LUMBER",
@@ -3211,7 +3272,7 @@
     "rpcport": 26301,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "GCH",
@@ -3255,6 +3316,6 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   }
 ]
