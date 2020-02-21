@@ -23,7 +23,8 @@
     "overwintered": 1,
     "txfee": 1000,
     "mm2": 1,
-    "required_confirmations": 4
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "MCL",
