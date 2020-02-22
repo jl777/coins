@@ -8,7 +8,8 @@
     "p2shtype": 5,
     "wiftype": 128,
     "segwit": true,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 1
   },
   {
     "coin": "KMD",
@@ -21,7 +22,9 @@
     "txversion": 4,
     "overwintered": 1,
     "txfee": 1000,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "MCL",
@@ -31,7 +34,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "MOVI",
@@ -39,7 +42,8 @@
     "fname": "MoviToken",
     "etomic": "0x06F979E4F04ec565Ae8d7479a94C60dEF8846832",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "PEO",
@@ -84,7 +88,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "K64",
@@ -94,7 +98,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "KMDICE",
@@ -104,7 +109,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "ILN",
@@ -117,7 +122,8 @@
     "p2p": 12985,
     "magic":"feb4cb23",
     "nSPV":"5.9.102.210, 5.9.253.195, 5.9.253.196, 5.9.253.197, 5.9.253.198, 5.9.253.199, 5.9.253.200, 5.9.253.201, 5.9.253.202, 5.9.253.203",
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "CHAIN",
@@ -127,7 +133,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "DP",
@@ -137,7 +143,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "GLXT",
@@ -147,7 +153,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "RFOX",
@@ -157,7 +163,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "THC",
@@ -167,7 +174,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "CCL",
@@ -177,7 +185,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "KOIN",
@@ -187,7 +196,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "COLX",
@@ -241,7 +251,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "AYWA",
@@ -352,8 +362,9 @@
     "wiftype": 161,
     "txfee": 10000,
     "txversion": 7,
-    "mm2":1,
-    "confpath": "USERHOME/.electra/Electra.conf"
+    "mm2": 1,
+    "confpath": "USERHOME/.electra/Electra.conf",
+    "required_confirmations": 5
   },
   {
     "coin":"POLIS",
@@ -440,7 +451,8 @@
     "wiftype": 204,
     "txfee": 10000,
     "confpath": "USERHOME/.axecore/axe.conf",
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 5
   },
   {
     "coin": "BCBC",
@@ -625,7 +637,8 @@
     "fname": "ARPA Chain",
     "etomic": "0xBA50933C268F567BDC86E1aC131BE072C6B0b71a",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "AWC",
@@ -633,7 +646,8 @@
     "fname": "Atomic Wallet Coin",
     "etomic": "0xaD22f63404f7305e4713CcBd4F296f34770513f4",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "BFT",
@@ -704,7 +718,8 @@
     "fname": "Crypto.com",
     "etomic": "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin":"CS",
@@ -803,7 +818,8 @@
     "fname": "Huobi Token",
     "etomic": "0x6f259637dcD74C767781E37Bc6133cd6A68aa161",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "HTS",
@@ -853,7 +869,8 @@
     "fname": "Chainlink",
     "etomic": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "LTR",
@@ -910,7 +927,8 @@
     "fname": "Pundi X",
     "etomic": "0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "NS21",
@@ -1112,7 +1130,8 @@
     "wiftype": 142,
     "txfee": 1000000,
     "segwit": true,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 5
   },
   {
     "coin": "PXT",
@@ -1169,7 +1188,8 @@
     "fname": "Paxos",
     "etomic": "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "BUSD",
@@ -1177,7 +1197,8 @@
     "fname": "Binance USD",
     "etomic": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "TUSD",
@@ -1185,7 +1206,8 @@
     "fname": "TrueUSD",
     "etomic": "0x0000000000085d4780B73119b644AE5ecd22b376",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "USDC",
@@ -1193,7 +1215,8 @@
     "fname": "USD Coin",
     "etomic": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "USDT",
@@ -1257,7 +1280,8 @@
     "fname": "Single Collateral DAI",
     "etomic": "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "DAI",
@@ -1265,7 +1289,8 @@
     "fname": "Multi-collateral DAI",
     "etomic": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "DDD",
@@ -1273,7 +1298,8 @@
     "fname": "Scry.info",
     "etomic": "0x9F5F3CFD7a32700C93F971637407ff17b91c7342",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "DGD",
@@ -1339,7 +1365,8 @@
     "etomic": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
     "decimals": 18,
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "MDS",
@@ -1354,7 +1381,8 @@
     "fname": "Maker",
     "etomic": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "SNT",
@@ -1369,7 +1397,8 @@
     "fname": "Augur",
     "etomic": "0x1985365e9f78359a9B6AD760e32412f4a445E862",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "SRN",
@@ -1391,7 +1420,8 @@
     "fname": "0x",
     "etomic": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "BAT",
@@ -1399,7 +1429,8 @@
     "fname": "Basic Attention Token",
     "etomic": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "ETHOS",
@@ -1505,7 +1536,8 @@
     "fname": "Enjin Coin",
     "etomic": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "QSP",
@@ -1562,7 +1594,8 @@
     "fname": "Decentraland",
     "etomic": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "MCO",
@@ -1619,7 +1652,8 @@
     "fname": "Power Ledger",
     "etomic": "0x595832F8FC6BF59c85C527fEC3740A1b7a361269",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "PRL",
@@ -1847,7 +1881,8 @@
     "fname": "Ethereum",
     "etomic": "0x0000000000000000000000000000000000000000",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "ZIL",
@@ -1959,7 +1994,8 @@
     "p2shtype": 122,
     "wiftype": 128,
     "txfee": 1000000,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "VIVO",
@@ -2032,7 +2068,8 @@
     "fname": "Utrum",
     "rpcport": 12467,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "HTML",
@@ -2206,7 +2243,9 @@
     "rpcport": 8800,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "ETOMIC",
@@ -2224,7 +2263,9 @@
     "rpcport": 12927,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "INN",
@@ -2332,7 +2373,8 @@
     "wiftype": 128,
     "txfee": 1000,
     "segwit": true,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 1
   },
   {
     "coin": "QMC",
@@ -2353,7 +2395,8 @@
     "p2shtype": 50,
     "wiftype": 128,
     "segwit": true,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "PGN",
@@ -2393,7 +2436,7 @@
     "rpcport": 14337,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "BTCZ",
@@ -2456,7 +2499,9 @@
     "wiftype": 188,
     "txfee": 10000,
     "segwit": true,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "888",
@@ -2690,7 +2735,8 @@
     "p2shtype": 85,
     "wiftype": 150,
     "txfee": 10000,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 10
   },
   {
     "coin": "NIX",
@@ -2712,7 +2758,9 @@
     "p2shtype": 5,
     "wiftype": 176,
     "txfee": 100000,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "SYS",
@@ -2745,7 +2793,8 @@
     "p2shtype": 16,
     "wiftype": 204,
     "txfee": 10000,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 2
   },
   {
     "coin": "STRAT",
@@ -2859,7 +2908,9 @@
     "rpcport": 10196,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "VRSC",
@@ -2869,7 +2920,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "ZILLA",
@@ -2877,7 +2928,8 @@
     "fname": "ChainZilla",
     "rpcport": 10041,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "JUMBLR",
@@ -2886,7 +2938,9 @@
     "rpcport": 15106,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "DOGE",
@@ -2897,7 +2951,8 @@
     "p2shtype": 22,
     "wiftype": 158,
     "txfee": 500000000,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 2
   },
   {
     "coin": "HUSH",
@@ -2907,7 +2962,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "ZEC",
@@ -2923,7 +2979,8 @@
     "version_group_id": "0x892f2085",
     "consensus_branch_id": "0x2BB40E60",
     "txfee": 10000,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "DGB",
@@ -2935,7 +2992,8 @@
     "wiftype": 128,
     "txfee": 100000,
     "segwit": true,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 7
   },
   {
     "coin": "ZET",
@@ -2956,7 +3014,9 @@
     "p2shtype": 5,
     "wiftype": 166,
     "txfee": 1000000,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "LTC",
@@ -2968,7 +3028,8 @@
     "wiftype": 176,
     "txfee": 10000,
     "segwit": true,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 2
   },
   {
     "coin": "SUPERNET",
@@ -2978,7 +3039,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "WLC",
@@ -2988,7 +3050,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "PANGEA",
@@ -2997,7 +3060,9 @@
     "rpcport": 14068,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "DEX",
@@ -3007,7 +3072,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "DSEC",
@@ -3016,7 +3082,7 @@
     "rpcport": 11557,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "BET",
@@ -3025,7 +3091,9 @@
     "rpcport": 14250,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "CRYPTO",
@@ -3034,7 +3102,9 @@
     "rpcport": 8516,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "HODL",
@@ -3043,7 +3113,9 @@
     "rpcport": 14431,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "MSHARK",
@@ -3052,7 +3124,9 @@
     "rpcport": 8846,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "BOTS",
@@ -3061,7 +3135,9 @@
     "rpcport": 11964,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "MGW",
@@ -3070,7 +3146,9 @@
     "rpcport": 12386,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "COQUI",
@@ -3080,7 +3158,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "KV",
@@ -3089,7 +3168,9 @@
     "rpcport": 8299,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "CEAL",
@@ -3098,7 +3179,7 @@
     "rpcport": 11116,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "MESH",
@@ -3107,7 +3188,9 @@
     "rpcport": 9455,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "ROGER",
@@ -3146,7 +3229,7 @@
     "rpcport": 20731,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "DION",
@@ -3155,7 +3238,7 @@
     "rpcport": 23895,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "OURC",
@@ -3165,7 +3248,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "ZEXO",
@@ -3175,7 +3259,8 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin":"ABP", 
@@ -3193,7 +3278,9 @@
     "rpcport": 46705,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "PTX",
@@ -3202,7 +3289,8 @@
     "rpcport": 61939,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "mm2": 1,
+    "required_confirmations": 5
   },
   {
     "coin": "LUMBER",
@@ -3211,7 +3299,7 @@
     "rpcport": 26301,
     "txversion": 4,
     "overwintered": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   },
   {
     "coin": "GCH",
@@ -3229,7 +3317,8 @@
     "fname": "Holo Token",
     "etomic": "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "SOLVE",
@@ -3237,7 +3326,8 @@
     "fname": "Solve Token",
     "etomic": "0x446C9033E7516D820cc9a2ce2d0B7328b579406F",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "DENT",
@@ -3245,7 +3335,8 @@
     "fname": "Dent Coin",
     "etomic": "0x3597bfD533a99c9aa083587B074434E61Eb0A258",
     "rpcport": 80,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 3
   },
   {
     "coin": "COMMOD",
@@ -3255,6 +3346,6 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 5
   }
 ]
