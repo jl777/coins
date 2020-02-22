@@ -8,6 +8,7 @@
     "p2shtype": 5,
     "wiftype": 128,
     "segwit": true,
+    "txfee": 0,
     "mm2": 1,
     "required_confirmations": 1
   },
@@ -360,7 +361,7 @@
     "pubtype": 33,
     "p2shtype": 40,
     "wiftype": 161,
-    "txfee": 10000,
+    "txfee": 0,
     "txversion": 7,
     "mm2": 1,
     "confpath": "USERHOME/.electra/Electra.conf",
@@ -2395,6 +2396,7 @@
     "p2shtype": 50,
     "wiftype": 128,
     "segwit": true,
+    "txfee": 0,
     "mm2": 1,
     "required_confirmations": 3
   },
@@ -2792,7 +2794,7 @@
     "pubtype": 76,
     "p2shtype": 16,
     "wiftype": 204,
-    "txfee": 10000,
+    "txfee": 0,
     "mm2": 1,
     "required_confirmations": 2
   },
@@ -2950,7 +2952,7 @@
     "pubtype": 30,
     "p2shtype": 22,
     "wiftype": 158,
-    "txfee": 500000000,
+    "txfee": 0,
     "mm2": 1,
     "required_confirmations": 2
   },
@@ -2990,7 +2992,7 @@
     "pubtype": 30,
     "p2shtype": 63,
     "wiftype": 128,
-    "txfee": 100000,
+    "txfee": 0,
     "segwit": true,
     "mm2": 1,
     "required_confirmations": 7
@@ -3026,7 +3028,7 @@
     "pubtype": 48,
     "p2shtype": 50,
     "wiftype": 176,
-    "txfee": 10000,
+    "txfee": 0,
     "segwit": true,
     "mm2": 1,
     "required_confirmations": 2
