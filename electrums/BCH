@@ -10,10 +10,12 @@
     "disable_cert_verification": true
   },
   {
-    "url": "bch.imaginary.cash:50001"
+    "url": "fulcrum.fountainhead.cash:50002",
+    "protocol": "SSL",
+    "disable_cert_verification": true
   },
   {
-    "url": "electrumx-bch.cryptonermal.net:50001"
+    "url": "bch.imaginary.cash:50001"
   },
   {
     "url": "bch0.kister.net:50001"
