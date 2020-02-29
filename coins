@@ -2899,9 +2899,10 @@
     "pubtype": 71,
     "p2shtype": 5,
     "wiftype": 128,
-    "txfee": 100000,
+    "txfee": 0,
     "segwit": true,
-    "mm2": 1
+    "mm2": 1,
+    "required_confirmations": 4
   },
   {
     "coin": "REVS",
