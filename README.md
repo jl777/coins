@@ -1,81 +1,86 @@
 
-NOTE: The filenames in each subdirectory needs to match the coin's symbol exactly, that is the unique field that things are indexed by. Also for icons, please use .png files
+NOTE: The filename in each subdirectory needs to match the coin's symbol exactly, it is the unique field by which different coins are indexed. Please use .png files for icons
 
 ### About this repository
-This repository is the coins database which is accessed by graphical applications like [BarterDEX GUI](https://github.com/KomodoPlatform/BarterDEX). 
+This repository is the coins database which is accessed by [AtomicDEX API](https://github.com/KomodoPlatform/atomicDEX-API/) and graphical applications like [AtomicDEX Mobile](https://github.com/KomodoPlatform/atomicDEX), HyperDEX etc. to enable coins for trading.
 
-When submitting a pull request to add coin to BarterDEX make sure you have completed this checklist:
+When submitting a pull request to add a coin, make sure you have completed this checklist:
 
-### 0. The coin must be tested with BarterDEX atomic swaps
+### 0. The coin must have participated in a successful Atomic Swap using [AtomicDEX](https://github.com/KomodoPlatform/atomicDEX-API/)
 When submitting your coin add request please post the 5 transactions URLs produced by successful swap in separate file inside [swaps dir](swaps), [example](swaps/BEER-ETOMIC.md). This means that before submitting the further steps information to this coins database repo, you would have performed an atomic swap, and the further steps explains the expected files/values to be submitted to this database repo.
 
-You can learn about performing an atomic swap from our documentation link https://docs.komodoplatform.com
+You can learn about performing an atomic swap from our documentation at [this link](https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/introduction-to-atomicdex.html)
 
-Or you can contact the team at coinintegration@komodoplatform.com to get help if required.
+Or you can contact the team at coinintegration@komodoplatform.com or one of the service providers listed at [https://komodoplatform.com/ecosystem/#service-providers](https://komodoplatform.com/ecosystem/#service-providers) to get help if required.
 
 ### 1. Coin info added to `coins` file (Required)
-You need the following info in JSON format added to [coins](coins) file:
+You need the following info in JSON format added to the [coins](coins) file:
 
 ```shell
 # Example 1
-{
-  "coin": "LTC",
-  "name": "litecoin",
-  "fname": "Litecoin",
-  "rpcport": 9332,
-  "pubtype": 48,
-  "p2shtype": 5,
-  "wiftype": 176,
-  "txfee": 100000,
-  "mm2": 1
-}
+  {
+    "coin": "LTC",
+    "name": "litecoin",
+    "fname": "Litecoin",
+    "rpcport": 9332,
+    "pubtype": 48,
+    "p2shtype": 50,
+    "wiftype": 176,
+    "txfee": 10000,
+    "segwit": true,
+    "mm2": 1,
+    "required_confirmations": 2
+  }
 
 # Example 2
-{
-  "coin":"PEW",
-  "name":"brofist",
-  "fname": "Brofist",
-  "confpath": "USERHOME/.brofistcore/brofist.conf"
-  "rpcport":12454,
-  "pubtype":55,
-  "p2shtype":10,
-  "wiftype":198,
-  "txfee":10000,
-  "mm1": 1
-}
+  {
+    "coin": "RFOX",
+    "asset": "RFOX",
+    "fname": "RedFOX",
+    "rpcport": 32269,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true
+  }
 
 # Example 3
-{
-  "coin": "ZEC",
-  "name": "zcash",
-  "fname": "Zcash",
-  "rpcport": 8232,
-  "taddr": 28,
-  "pubtype": 184,
-  "p2shtype": 189,
-  "wiftype": 128,
-  "txversion": 4,
-  "txfee": 10000,
-  "overwintered": 1,
-  "mm2": 1
-},
+  {
+    "coin": "ECA",
+    "name": "electra",
+    "fname": "Electra",
+    "rpcport": 5788,
+    "pubtype": 33,
+    "p2shtype": 40,
+    "wiftype": 161,
+    "txfee": 10000,
+    "txversion": 7,
+    "mm2":1,
+    "confpath": "USERHOME/.electra/Electra.conf",
+    "required_confirmations": 10
+  }
 
 # Example 4
-{
-  "coin": "REP",
-  "name": "augur",
-  "fname": "Augur",
-  "etomic": "0xE94327D07Fc17907b4DB788E5aDf2ed424adDff6",
-  "rpcport": 80,
-  "mm2": 1
-}
+  {
+    "coin": "BAT",
+    "name": "basic-attention-token",
+    "fname": "Basic Attention Token",
+    "etomic": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
+    "rpcport": 80,
+    "mm2": 1,
+    "required_confirmations": 3
+  }
 ```
 
 #### General parameters
 
-`"mm2"` add this param if coin is confirmed working with MM2 (successful swap is made). 
+`"mm2"` add this param if coin is confirmed working with AtomicDEX (successful swap is made).
 
-`"required_confirmations"` the number of confirmations MM2 will wait for during the swap. Default value is 1.
+`"required_confirmations"` the number of confirmations AtomicDEX will wait for during the swap. Default value is 1. WARNING, this setting affects the security of the atomic swap. 51% attacks (double spending) are a threat and have been succesfully conducted in the past. Read more about it [here](https://komodoplatform.com/51-attack-how-komodo-can-help-prevent-one/). You can find a collection of coins and the theoretical cost of a 51% attack [here](https://www.crypto51.app/). Please be aware that some of the coins supported by AtomicDEX are vulnerable to such attacks, so consider using higher values for them, especially when dealing with high amounts.
+
+`"requires_notarization"` tells AtomicDEX to wait for a notarization during the swap. This only works with dPoW coins and `"required_confirmations"` must be set to `2` or higher.
+
 
 #### Bitcoin Protocol specific JSON
 
@@ -91,9 +96,9 @@ You need the following info in JSON format added to [coins](coins) file:
 
 `"pubtype"`, `"p2shtype"`, and `"wiftype"` is the also very specific information about coin's parameters. This is specific to Bitcoin Protocol compatible coins only, and such information can be found in source code of the project. These parameters information can be expected in files like `src/init.cpp`, `src/base58.h`, and `src/chainparamsbase.h` if the project is following the **bitcoin** source code directory/files structure. If the parameters info is unclear then please have these confirmed by that coin/project's developers and make sure it's correct information.
 
-`"txfee"` is a value of default transactions fee, which must be specified in satoshies unit. BarterDEX uses this as the default transaction fee value when makes atomic swaps transactions.
+`"txfee"` is a value of default transactions fee, which must be specified in satoshies unit. AtomicDEX uses this as the default transaction fee value when making atomic swaps transactions. If set to `0`, AtomicDEX will use a dynamic fee based on output from `estimatesmartfee`.
 
-`"overwintered"` must be `1` if Overwinter upgrade was activated for the coin. Defaults to 1 for KMD and assetchains.
+`"overwintered"` must be `1` if Overwinter upgrade was activated for the coin.
 
 
 #### Ethereum Protocol specific JSON
@@ -118,10 +123,10 @@ Ethereum protocol specific coin/project add request are the most simplest. `"coi
 - Explorer file name must not have any file extension. It is a file without any `.` extension.
 - Explorer file name must be all in **capital** letters.
 - It must have a valid JSON array with at least one Explorer URL in it. It's better if there are more than one explorer URLs in this JSON array. Example: `["http://example1.com/tx/","http://example2.com/tx/"]`.
-- The URL of Explorer must be pointing to the transactions URL. Check BTC file for an example: [explorers/BTC](explorers/BTC), which has `["https://www.blocktrail.com/BTC/tx/"]`. This explorers URL is used to show in graphical applications to link to the transactions like this [example link](https://www.blocktrail.com/BTC/tx/5268d045196e940ca8ba53b442c38a0f8c159002c912f8427239153dce984cc3). Make sure this URL ends with `/`.
+- The URL of Explorer must be pointing to the transactions URL. Check BTC file for an example: [explorers/BTC](explorers/BTC), which has `["https://www.blocktrail.com/BTC/tx/"]`. This explorers URL is used to show in graphical applications the link to the transactions like this [example link](https://www.blocktrail.com/BTC/tx/5268d045196e940ca8ba53b442c38a0f8c159002c912f8427239153dce984cc3/). Make sure this URL ends with `/`.
 
-### 4. Electrum Servers (Optional)
 
+### 4. Electrum Servers (Optional; Required for listing in Mobile GUIs)
 - Electrum file name must be coin's ticker name matching the `"coin"` value as specified in [coins](coins) file.
 - Electrum file name must not have any file extension. It is a file without any `.` extension.
 - Electrum file name must be all in **capital** letters.
@@ -154,9 +159,9 @@ Ethereum protocol specific coin/project add request are the most simplest. `"coi
 ]
 ```
 
-- At least minimum 2 or more Electrum servers information must be provided.
+- Details of at least 2 Electrum servers must be provided.
 - Protocol can be "SSL" or "TCP".
-- Contact information must be provided in case the server admin needs to be contact in urgent cases when required. It can be any contact information out of the examples provided. Or may be add your own service/contact information as suites you.
+- Contact information must be provided in case the server admin needs to be contacted in emergency situations. It can be any contact information out of the examples provided. Or may be add your own service/contact information as it suites you.
 - The address and port of electrum server are required. The address of electrum server can either be a DNS or an IP address.
 
 ### 5. Ethereum info file (Required for ETH/ERC20)
