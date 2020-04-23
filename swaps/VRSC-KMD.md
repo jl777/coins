@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/d66b1e342e10f31bd4dd2bb0ad74ed9d9c893edc1ffc228ec07fa82162871c59)  
+[maker payment (VRSC)](https://vrsc.kmdexplorer.io/tx/877644d2eeb85f04a473bd34db922294c78e2ed117dba501fff7ec6e5e5eb776)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/f00dd13301f3d6de3bec7e86a8b9acc046006bf6c8be15222747da5529699884)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/ce50aed848899450768e65615606d03d5d39d4881fb48bb3db1fcd6ee1df1f22)  
+[maker payment spent (VRSC)](https://vrsc.kmdexplorer.io/tx/461aea95ffb5280db64fd2d740c37d20d6aceedd8663b61ebaaff4cc0757f27d)  

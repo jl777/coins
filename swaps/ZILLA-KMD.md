@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/44b7f610a1762fcf9c0bff3934ad89ec5a4c608118640d6f3867193c1e721584)  
+[maker payment (ZILLA)](https://zilla.explorer.dexstats.info/tx/8722b185e9c247dbc0285388de7b6c03d6df1bd537fafd8d901570349265d14f)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/064ef70c6593176b97124e88a203c7d2316c439122ad2ff6b12d5cca51b46181)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/f4e986b4b3a665e3ad1dcdd66ebed5ff5dae714e6a213ba5dea2f504ba302ebd)  
+[maker payment spent (ZILLA)](https://zilla.explorer.dexstats.info/tx/ea361e32e7012f90838a4399710d1b63d5fc500362c013552d4d28c3c2756a9e)  

@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/362726678ef1824e80e71cb9531476aa84ef7333041396706d4550a80f6b624c)  
+[maker payment (SIRX)](https://siriusexplorer.io/tx/f0f62eeff7c2e41347425a1d81b728a3ea84a73d6f5dce2d2ef428dfb0d3b466)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/84447a3db378ec5647fd7bc92b9b7f618ac613b37ee317ff05b0126363567571)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/e89255e8d9acd14d0df643652f45da1dc989f3796bb76e41be468a711d9609dc)  
+[maker payment spent (SIRX)](https://siriusexplorer.io/tx/c6c33b7c64668fbf520c4b6d55e600743d6b81bd0b494d94536c9584dfdb5ed9)  
