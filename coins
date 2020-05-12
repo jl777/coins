@@ -3310,12 +3310,18 @@
 		"coin": "ZER",
 		"name": "zero",
 		"fname": "Zero",
-		"rpcport": 23801,
+		"rpcport": 23811,
 		"taddr": 28,
 		"pubtype": 184,
 		"p2shtype": 189,
 		"wiftype": 128,
-		"txfee": 1000
+		"txversion": 4,
+		"overwintered": 1,
+		"version_group_id": "0x892f2085",
+		"consensus_branch_id": "0x7361707a",
+		"txfee": 1000,
+		"mm2": 1,
+		"required_confirmations": 5
 	},
 	{
 		"coin": "ZET",
