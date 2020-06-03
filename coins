@@ -396,6 +396,7 @@
 		"wiftype": 128,
 		"segwit": true,
 		"txfee": 0,
+		"estimate_fee_mode": "ECONOMICAL",
 		"mm2": 1,
 		"required_confirmations": 1
 	},
