@@ -152,6 +152,19 @@
 		"requires_notarization": true
 	},
 	{
+		"coin": "AYA",
+		"name": "aryacoin",
+		"fname": "Aryacoin",
+		"rpcport": 9332,
+		"pubtype": 23,
+		"p2shtype": 5,
+		"wiftype": 176,
+		"txfee": 100000,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true
+	},
+	{
 		"coin": "AYWA",
 		"name": "aywa",
 		"fname": "AYWA",
@@ -383,6 +396,7 @@
 		"wiftype": 128,
 		"segwit": true,
 		"txfee": 0,
+		"estimate_fee_mode": "ECONOMICAL",
 		"mm2": 1,
 		"required_confirmations": 1
 	},
