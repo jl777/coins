@@ -7,25 +7,6 @@
 		"rpcport": 80
 	},
 	{
-		"coin": "888",
-		"name": "octocoin",
-		"fname": "Octocoin",
-		"rpcport": 22888,
-		"pubtype": 18,
-		"p2shtype": 5,
-		"wiftype": 176,
-		"txfee": 2000000
-	},
-	{
-		"coin": "ABP",
-		"name": "ABP Network",
-		"rpcport": 5426,
-		"pubtype": 30,
-		"p2shtype": 15,
-		"wiftype": 212,
-		"txfee": 10000
-	},
-	{
 		"coin": "ABY",
 		"name": "applebyte",
 		"fname": "ArtByte",
@@ -73,16 +54,6 @@
 		"p2shtype": 8,
 		"wiftype": 176,
 		"txfee": 10000
-	},
-	{
-		"coin": "ARG",
-		"name": "argentum",
-		"fname": "Argentum",
-		"rpcport": 13581,
-		"pubtype": 23,
-		"p2shtype": 5,
-		"wiftype": 151,
-		"txfee": 50000
 	},
 	{
 		"coin": "ARPA",
@@ -158,17 +129,6 @@
 		"requires_notarization": true
 	},
 	{
-		"coin": "AYWA",
-		"name": "aywa",
-		"fname": "AYWA",
-		"rpcport": 2778,
-		"pubtype": 23,
-		"p2shtype": 83,
-		"wiftype": 150,
-		"txfee": 10000,
-		"confpath": "USERHOME/.aywacore/aywa.conf"
-	},
-	{
 		"coin": "BAT",
 		"name": "basic-attention-token",
 		"fname": "Basic Attention Token",
@@ -196,17 +156,6 @@
 		"rpcport": 80
 	},
 	{
-		"coin": "BCBC",
-		"name": "bitcoin@cbc",
-		"fname": "Bitcoin@CBC",
-		"rpcport": 8340,
-		"pubtype": 0,
-		"p2shtype": 5,
-		"wiftype": 128,
-		"txfee": 10000,
-		"confpath": "USERHOME/.bitcoin@cbc/bitcoin.conf"
-	},
-	{
 		"coin": "BCH",
 		"name": "bch",
 		"fname": "Bitcoin Cash",
@@ -218,26 +167,6 @@
 		"segwit": true,
 		"mm2": 1,
 		"required_confirmations": 1
-	},
-	{
-		"coin": "BCO",
-		"name": "bridgecoin",
-		"fname": "Bridgecoin",
-		"rpcport": 6332,
-		"pubtype": 27,
-		"p2shtype": 5,
-		"wiftype": 176,
-		"txfee": 100000
-	},
-	{
-		"coin": "BDL",
-		"name": "bitdeal",
-		"fname": "Bitdeal",
-		"rpcport": 9332,
-		"pubtype": 38,
-		"p2shtype": 5,
-		"wiftype": 176,
-		"txfee": 100000
 	},
 	{
 		"coin": "BEER",
@@ -416,17 +345,6 @@
 		"txfee": 10000
 	},
 	{
-		"coin": "BTNX",
-		"name": "bitnexus",
-		"fname": "BitNexus",
-		"rpcport": 9191,
-		"pubtype": 25,
-		"p2shtype": 10,
-		"wiftype": 198,
-		"txfee": 10000,
-		"confpath": "USERHOME/.bitcoinnodecore/bitnexus.conf"
-	},
-	{
 		"coin": "BTO",
 		"name": "bottos",
 		"fname": "Bottos",
@@ -521,17 +439,6 @@
 		"required_confirmations": 5
 	},
 	{
-		"coin": "CHC",
-		"name": "chaincoin",
-		"fname": "ChainCoin",
-		"rpcport": 11995,
-		"pubtype": 28,
-		"p2shtype": 4,
-		"wiftype": 156,
-		"txfee": 10000,
-		"confpath": "USERHOME/.chaincoincore/chaincoin.conf"
-	},
-	{
 		"coin": "CHIPS",
 		"name": "chips",
 		"fname": "Chips",
@@ -586,37 +493,6 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true
-	},
-	{
-		"coin": "CRC",
-		"name": "crowdcoin",
-		"fname": "Crowdcoin",
-		"confpath": "USERHOME/.crowdcoincore/crowdcoin.conf",
-		"rpcport": 11998,
-		"pubtype": 28,
-		"p2shtype": 88,
-		"wiftype": 0,
-		"txfee": 10000
-	},
-	{
-		"coin": "CRDS",
-		"name": "credits",
-		"fname": "Credits",
-		"rpcport": 31050,
-		"pubtype": 28,
-		"p2shtype": 10,
-		"wiftype": 140,
-		"txfee": 10000
-	},
-	{
-		"coin": "CREA",
-		"name": "creativecoin",
-		"fname": "Creativecoin",
-		"rpcport": 17711,
-		"pubtype": 28,
-		"p2shtype": 5,
-		"wiftype": 176,
-		"txfee": 100000
 	},
 	{
 		"coin": "CRO",
@@ -943,16 +819,6 @@
 		"txfee": 10000
 	},
 	{
-		"coin": "ELP",
-		"name": "ellerium",
-		"fname": "Ellerium",
-		"rpcport": 61020,
-		"pubtype": 23,
-		"p2shtype": 13,
-		"wiftype": 212,
-		"txfee": 10000
-	},
-	{
 		"coin": "ELY",
 		"name": "elysian",
 		"fname": "Elysian",
@@ -999,16 +865,6 @@
 		"required_confirmations": 5
 	},
 	{
-		"coin": "ERC",
-		"name": "europecoin",
-		"fname": "Europecoin",
-		"rpcport": 11989,
-		"pubtype": 33,
-		"p2shtype": 5,
-		"wiftype": 168,
-		"txfee": 10000
-	},
-	{
 		"coin": "ETA",
 		"name": "etheera",
 		"fname": "Etheera",
@@ -1046,17 +902,6 @@
 		"txversion": 4,
 		"overwintered": 1,
 		"mm2": 1
-	},
-	{
-		"coin": "FAIR",
-		"name": "faircoin",
-		"fname": "Faircoin",
-		"confpath": "USERHOME/.faircoin2/faircoin.conf",
-		"rpcport": 40405,
-		"pubtype": 95,
-		"p2shtype": 36,
-		"wiftype": 223,
-		"txfee": 2000000
 	},
 	{
 		"coin": "FJC",
@@ -1141,16 +986,6 @@
 		"p2shtype": 10,
 		"wiftype": 198,
 		"txfee": 10000
-	},
-	{
-		"coin": "GCH",
-		"name": "GalaxyCash",
-		"rpcport": 4604,
-		"pubtype": 38,
-		"p2shtype": 99,
-		"wiftype": 89,
-		"txfee": 100,
-		"confpath": "USERHOME/.galaxycash/galaxycash.conf"
 	},
 	{
 		"coin": "GIN",
@@ -1316,16 +1151,6 @@
 		"txfee": 400000
 	},
 	{
-		"coin": "HUC",
-		"name": "huntercoin",
-		"fname": "Huntercoin",
-		"rpcport": 8399,
-		"pubtype": 40,
-		"p2shtype": 13,
-		"wiftype": 168,
-		"txfee": 100000
-	},
-	{
 		"coin": "HUSH",
 		"asset": "HUSH3",
 		"fname": "Hush",
@@ -1468,16 +1293,6 @@
 		"rpcport": 80
 	},
 	{
-		"coin": "KNG",
-		"name": "kings",
-		"fname": "Kings",
-		"rpcport": 44888,
-		"pubtype": 75,
-		"p2shtype": 125,
-		"wiftype": 203,
-		"txfee": 10000
-	},
-	{
 		"coin": "KOIN",
 		"asset": "KOIN",
 		"fname": "Koinon",
@@ -1487,16 +1302,6 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true
-	},
-	{
-		"coin": "KREDS",
-		"name": "kreds",
-		"fname": "Kreds",
-		"rpcport": 3850,
-		"pubtype": 45,
-		"p2shtype": 5,
-		"wiftype": 195,
-		"txfee": 10000
 	},
 	{
 		"coin": "KV",
@@ -1622,26 +1427,6 @@
 		"fname": "Lightyears",
 		"etomic": "0xdD41fBd1Ae95C5D9B198174A28e04Be6b3d1aa27",
 		"rpcport": 80
-	},
-	{
-		"coin": "MAC",
-		"name": "machinecoin",
-		"fname": "Machinecoin",
-		"rpcport": 40332,
-		"pubtype": 50,
-		"p2shtype": 5,
-		"wiftype": 178,
-		"txfee": 50000
-	},
-	{
-		"coin": "MAGA",
-		"name": "magacoin",
-		"fname": "Magacoin",
-		"rpcport": 5332,
-		"pubtype": 23,
-		"p2shtype": 50,
-		"wiftype": 176,
-		"txfee": 100000
 	},
 	{
 		"coin": "MANA",
@@ -1999,17 +1784,6 @@
 		"mm2": 1
 	},
 	{
-		"coin": "PEW",
-		"name": "brofist",
-		"fname": "Brofist",
-		"rpcport": 12454,
-		"pubtype": 55,
-		"p2shtype": 10,
-		"wiftype": 198,
-		"txfee": 10000,
-		"confpath": "USERHOME/.brofistcore/brofist.conf"
-	},
-	{
 		"coin": "PGN",
 		"name": "pigeon",
 		"fname": "Pigeon",
@@ -2091,32 +1865,11 @@
 		"required_confirmations": 5
 	},
 	{
-		"coin": "PURA",
-		"name": "pura",
-		"fname": "Pura",
-		"rpcport": 55555,
-		"pubtype": 55,
-		"p2shtype": 16,
-		"wiftype": 150,
-		"txfee": 10000
-	},
-	{
 		"coin": "PXT",
 		"name": "populous-xbrl-token",
 		"fname": "Populous XBRL Token",
 		"etomic": "0xc14830E53aA344E8c14603A91229A0b925b0B262",
 		"rpcport": 80
-	},
-	{
-		"coin": "PYRO",
-		"name": "pyro",
-		"fname": "Pyro",
-		"rpcport": 9696,
-		"pubtype": 55,
-		"p2shtype": 10,
-		"wiftype": 198,
-		"txfee": 10000,
-		"confpath": "USERHOME/.pyrocore/pyro.conf"
 	},
 	{
 		"coin": "QASH",
@@ -2138,16 +1891,6 @@
 		"fname": "QuarkChain",
 		"etomic": "0xEA26c4aC16D4a5A106820BC8AEE85fd0b7b2b664",
 		"rpcport": 80
-	},
-	{
-		"coin": "QMC",
-		"name": "qmc2",
-		"fname": "QMCoin",
-		"rpcport": 55777,
-		"pubtype": 58,
-		"p2shtype": 120,
-		"wiftype": 1,
-		"txfee": 10000
 	},
 	{
 		"coin": "QSP",
@@ -2351,17 +2094,6 @@
 		"txfee": 10000
 	},
 	{
-		"coin": "SEQ",
-		"name": "sequence",
-		"fname": "Sequence",
-		"rpcport": 16663,
-		"isPoS": 1,
-		"pubtype": 63,
-		"p2shtype": 64,
-		"wiftype": 170,
-		"txfee": 10000
-	},
-	{
 		"coin": "SIB",
 		"name": "sibcoin",
 		"fname": "SIBcoin",
@@ -2468,16 +2200,6 @@
 		"rpcport": 80
 	},
 	{
-		"coin": "STRAT",
-		"name": "stratis",
-		"fname": "Stratis",
-		"rpcport": 16174,
-		"pubtype": 63,
-		"p2shtype": 125,
-		"wiftype": 191,
-		"txfee": 10000
-	},
-	{
 		"coin": "SUB",
 		"name": "substratum",
 		"fname": "Substratum",
@@ -2494,17 +2216,6 @@
 		"wiftype": 39,
 		"txfee": 10000,
 		"confpath": "USERHOME/.sudocore/sudo.conf"
-	},
-	{
-		"coin": "SUN",
-		"name": "suncoin",
-		"fname": "SunCoin",
-		"rpcport": 10332,
-		"pubtype": 63,
-		"p2shtype": 16,
-		"wiftype": 204,
-		"txfee": 10000,
-		"confpath": "USERHOME/.suncoincore/suncoin.conf"
 	},
 	{
 		"coin": "SUPERNET",
@@ -2720,17 +2431,6 @@
 		"required_confirmations": 5
 	},
 	{
-		"coin": "VRT",
-		"name": "virtus",
-		"fname": "Virtus",
-		"confpath": "USERHOME/.virtuscore/virtus.conf",
-		"rpcport": 13880,
-		"pubtype": 70,
-		"p2shtype": 16,
-		"wiftype": 204,
-		"txfee": 10000
-	},
-	{
 		"coin": "VSL",
 		"name": "vslice",
 		"fname": "vSlice",
@@ -2750,17 +2450,6 @@
 		"segwit": true,
 		"mm2": 1,
 		"required_confirmations": 4
-	},
-	{
-		"coin": "WAVI",
-		"name": "wavi",
-		"fname": "Wavi",
-		"rpcport": 9984,
-		"pubtype": 73,
-		"p2shtype": 15,
-		"wiftype": 133,
-		"txfee": 10000,
-		"confpath": "USERHOME/.wavicore/wavi.conf"
 	},
 	{
 		"coin": "WINGS",
@@ -2816,27 +2505,6 @@
 		"txfee": 100000
 	},
 	{
-		"coin": "XCOIN",
-		"name": "xcoin",
-		"fname": "xCoin",
-		"rpcport": 22717,
-		"pubtype": 137,
-		"p2shtype": 15,
-		"wiftype": 75,
-		"txfee": 100000
-	},
-	{
-		"coin": "XMCC",
-		"name": "monoeci",
-		"fname": "Monoeci",
-		"confpath": "USERHOME/.monoeciCore/monoeci.conf",
-		"rpcport": 24156,
-		"pubtype": 50,
-		"p2shtype": 73,
-		"wiftype": 77,
-		"txfee": 10000
-	},
-	{
 		"coin": "XMY",
 		"name": "myriadcoin",
 		"fname": "Myriadcoin",
@@ -2852,16 +2520,6 @@
 		"fname": "XOVBank",
 		"etomic": "0x153eD9CC1b792979d2Bde0BBF45CC2A7e436a5F9",
 		"rpcport": 80
-	},
-	{
-		"coin": "XRE",
-		"name": "revolvercoin",
-		"fname": "Revolvercoin",
-		"rpcport": 8775,
-		"pubtype": 0,
-		"p2shtype": 5,
-		"wiftype": 128,
-		"txfee": 10000
 	},
 	{
 		"coin": "XSG",
