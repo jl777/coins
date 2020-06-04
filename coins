@@ -1919,13 +1919,6 @@
 		"rpcport": 80
 	},
 	{
-		"coin": "OMG",
-		"name": "omisego",
-		"fname": "OmiseGo",
-		"etomic": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
-		"rpcport": 80
-	},
-	{
 		"coin": "OOT",
 		"asset": "OOT",
 		"fname": "Utrum",
@@ -2676,13 +2669,6 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3
-	},
-	{
-		"coin": "USDT",
-		"name": "tether",
-		"fname": "Tether",
-		"etomic": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-		"rpcport": 80
 	},
 	{
 		"coin": "VIA",
