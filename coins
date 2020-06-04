@@ -31,13 +31,6 @@
 		"rpcport": 80
 	},
 	{
-		"coin": "ANN",
-		"name": "agentnotneeded",
-		"fname": "Agent Not Needed",
-		"etomic": "0xe0e73E8fc3a0fA161695be1D75E1Bc3E558957c4",
-		"rpcport": 80
-	},
-	{
 		"coin": "ANT",
 		"name": "aragon",
 		"fname": "Aragon",
@@ -193,13 +186,6 @@
 		"name": "bnktothefuture",
 		"fname": "BnkToTheFuture",
 		"etomic": "0x01fF50f8b7f74E4f00580d9596cd3D0d6d6E326f",
-		"rpcport": 80
-	},
-	{
-		"coin": "BIO",
-		"name": "biocrypt",
-		"fname": "BioCrypt",
-		"etomic": "0xf18432Ef894Ef4b2a5726F933718F5A8cf9fF831",
 		"rpcport": 80
 	},
 	{
@@ -644,13 +630,6 @@
 		"rpcport": 80
 	},
 	{
-		"coin": "DGPT",
-		"name": "digipulse",
-		"fname": "DigiPulse",
-		"etomic": "0xf6cFe53d6FEbaEEA051f400ff5fc14F0cBBDacA1",
-		"rpcport": 80
-	},
-	{
 		"coin": "DICE",
 		"name": "etheroll",
 		"fname": "Etheroll",
@@ -865,13 +844,6 @@
 		"required_confirmations": 5
 	},
 	{
-		"coin": "ETA",
-		"name": "etheera",
-		"fname": "Etheera",
-		"etomic": "0x9195E00402abe385f2D00A32Af40b271F2e87925",
-		"rpcport": 80
-	},
-	{
 		"coin": "ETH",
 		"name": "ethereum",
 		"fname": "Ethereum",
@@ -935,13 +907,6 @@
 		"wiftype": 176,
 		"txfee": 100000,
 		"mm2": 1
-	},
-	{
-		"coin": "FOOD",
-		"name": "foodcoin",
-		"fname": "FoodCoin",
-		"etomic": "0x2a093BcF0C98Ef744Bb6F69D74f2F85605324290",
-		"rpcport": 80
 	},
 	{
 		"coin": "FTC",
@@ -1325,13 +1290,6 @@
 		"required_confirmations": 5
 	},
 	{
-		"coin": "LALA",
-		"name": "lala-world",
-		"fname": "LALA World",
-		"etomic": "0xfD107B473AB90e8Fbd89872144a3DC92C40Fa8C9",
-		"rpcport": 80
-	},
-	{
 		"coin": "LBC",
 		"name": "lbrycrd",
 		"fname": "LBRY Credits",
@@ -1420,13 +1378,6 @@
 		"wiftype": 155,
 		"txfee": 10000,
 		"mm2": 1
-	},
-	{
-		"coin": "LYS",
-		"name": "lightyears",
-		"fname": "Lightyears",
-		"etomic": "0xdD41fBd1Ae95C5D9B198174A28e04Be6b3d1aa27",
-		"rpcport": 80
 	},
 	{
 		"coin": "MANA",
@@ -1695,13 +1646,6 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3
-	},
-	{
-		"coin": "OCC",
-		"name": "originalcryptocoin",
-		"fname": "Original Crypto Coin",
-		"etomic": "0x0235fE624e044A05eeD7A43E16E3083bc8A4287A",
-		"rpcport": 80
 	},
 	{
 		"coin": "OOT",
