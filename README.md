@@ -1,13 +1,14 @@
 
-NOTE: The filename in each subdirectory needs to match the coin's symbol exactly, it is the unique field by which different coins are indexed. Please use .png files for icons
+> NOTE
+> The filename in each subdirectory needs to match the coin's symbol exactly, it is the unique field by which different coins are indexed. Please use .png files for icons
 
 ### About this repository
-This repository is the coins database which is accessed by [AtomicDEX API](https://github.com/KomodoPlatform/atomicDEX-API/) and graphical applications like [AtomicDEX Mobile](https://github.com/KomodoPlatform/atomicDEX), HyperDEX etc. to enable coins for trading.
+This repository is the coins database which is accessed by [AtomicDEX API](https://github.com/KomodoPlatform/atomicDEX-API/) and graphical applications like [AtomicDEX Mobile](https://github.com/KomodoPlatform/atomicDEX), [AtomicDEX-PRO](https://github.com/KomodoPlatform/atomicDEX-Pro), HyperDEX etc. to enable coins for trading.
 
-When submitting a pull request to add a coin, make sure you have completed this checklist:
+When submitting a pull request to add a coin to AtomicDEX-API, make sure you have completed this checklist:
 
-### 0. The coin must have participated in a successful Atomic Swap using [AtomicDEX](https://github.com/KomodoPlatform/atomicDEX-API/)
-When submitting your coin add request please post the 5 transactions URLs produced by successful swap in separate file inside [swaps dir](swaps), [example](swaps/BEER-ETOMIC.md). This means that before submitting the further steps information to this coins database repo, you would have performed an atomic swap, and the further steps explains the expected files/values to be submitted to this database repo.
+### 0. The coin must have participated in a successful Atomic Swap using [AtomicDEX-API](https://github.com/KomodoPlatform/atomicDEX-API/)
+When submitting your coin addition request, please submit the URLs of the 5 transactions (`takerfeesent`, `makerpayment`, `takerpayment` and `takerpaymentspent`, `makerpaymentspent`) produced by successful swap in separate file inside [swaps dir](swaps), [example](swaps/BEER-ETOMIC.md). This means that before submitting the further steps information to this coins database repo, you would have performed an atomic swap, and the further steps explains the expected files/values to be submitted to this database repo.
 
 You can learn about performing an atomic swap from our documentation at [this link](https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/introduction-to-atomicdex.html)
 
