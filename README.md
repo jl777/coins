@@ -4,6 +4,7 @@
 > The filename in each subdirectory needs to match the coin's symbol exactly, it is the unique field by which different coins are indexed. Please use .png files for icons
 
 ## About this repository
+
 This repository is the coins database which is accessed by [AtomicDEX API](https://github.com/KomodoPlatform/atomicDEX-API/) and graphical applications like [AtomicDEX Mobile](https://github.com/KomodoPlatform/atomicDEX), [AtomicDEX-PRO](https://github.com/KomodoPlatform/atomicDEX-Pro), HyperDEX etc. to enable coins for trading.
 
 ## Prerequisites for a coin to be compatible with AtomicDEX-API
@@ -15,22 +16,18 @@ estimatefee
 getblock
 getblockhash
 getinfo
-getrawmempool
 getrawtransaction
 gettxout
 importaddress
-importprivkey
 listunspent
 listreceivedbyaddress
 listtransactions
 sendrawtransaction
-signrawtransaction
-validateaddress
 ```
 
 ### ERC20 tokens
 
-- `approve` and `transferFrom` methods are a must for the swaps to work
+- The token contract must have `approve` and `transferFrom` methods. Additionally, the `transfer` and `transferFrom` methods must return a boolean value (`true/false`) indicating whether a transfer was successful. This requirement is actually a part of the ERC20 standard, but many tokens seem to not follow it.
 
 When submitting a pull request to add a coin to AtomicDEX-API, make sure you have completed this checklist:
 
@@ -40,7 +37,7 @@ When submitting your coin addition request, please submit the URLs of the 5 tran
 
 You can learn about performing an atomic swap from our documentation at [this link](https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/introduction-to-atomicdex.html)
 
-If you have any questions, please ask in the `#mm_2_0` channel in [our Discord server](https://komodoplatform.com/discord) or you can get help from the team at coinintegration@komodoplatform.com or one of the service providers listed at [https://komodoplatform.com/ecosystem/#service-providers](https://komodoplatform.com/ecosystem/#service-providers).
+If you have any questions, please ask in the `#support` channel in [our Discord server](https://komodoplatform.com/discord) or you can get help from the team at coinintegration@komodoplatform.com or one of the service providers listed at [https://komodoplatform.com/ecosystem/#service-providers](https://komodoplatform.com/ecosystem/#service-providers).
 
 ## 1. Coin info added to `coins` file (Required)
 You need the following info in JSON format added to the [coins](coins) file:
@@ -117,10 +114,9 @@ You need the following info in JSON format added to the [coins](coins) file:
 ## General parameters
 
 - `"mm2"` all the coins that were successfully atomic swapped through the AtomicDEX-API have this key set to `1` (you have to set this parameter to `1` in your local coins file when testing)
-
 - `"required_confirmations"` the number of confirmations AtomicDEX will wait for during the swap. Default value is 1. WARNING, this setting affects the security of the atomic swap. 51% attacks (double spending) are a threat and have been succesfully conducted in the past. Read more about it [here](https://komodoplatform.com/51-attack-how-komodo-can-help-prevent-one/). You can find a collection of coins and the theoretical cost of a 51% attack [here](https://www.crypto51.app/). Please be aware that some of the coins supported by AtomicDEX are vulnerable to such attacks, so consider using higher values for them, especially when dealing with high amounts.
-
 - `"requires_notarization"` tells AtomicDEX to wait for a notarization during the swap. This only works with dPoW coins and `"required_confirmations"` must be set to `2` or higher.
+- `"decimals"` defines the number of digits after the decimal point that should be used to display the orderbook amounts, balance, and the value of inputs to be used in the case of order creation or a `withdraw` transaction. The default value used for a UTXO type coin (Bitcoin Protocol) is `8` and the default value used for a ERC20 Token is `18`. It is very important for this value to be set correctly. For example, if this value was set as `9` for BTC, a command to withdraw `1 BTC` tries to withdraw `10^9` satoshis of Bitcoin, i.e., `10 BTC`
 
 ## Bitcoin Protocol specific JSON
 
@@ -133,6 +129,14 @@ You need the following info in JSON format added to the [coins](coins) file:
 - `"txfee"` is a value of default transactions fee, which must be specified in satoshies unit. AtomicDEX uses this as the default transaction fee value when making atomic swaps transactions. If set to `0`, AtomicDEX will use a dynamic fee based on output from `estimatesmartfee`.
 - `"overwintered"` must be `1` if Overwinter upgrade was activated for the coin.
 - `"taddr"` is only relevant for coins that forked the Zcash protocol and have both transparent addresses and z-addresses. The value to be set for this key can be found from the file `src/chainparams.cpp` of the coin's source code and it is the first value present in both `base58Prefixes[PUBKEY_ADDRESS]` and `base58Prefixes[SCRIPT_ADDRESS]`. But it has to be converted to decimal from HEX. So if `base58Prefixes[PUBKEY_ADDRESS]` = `{0x1C,0xB8}` , the `taddr` is `0x1C` coverted to decimal. As 0x1C in HEX = 28 in decimal, the entry in the json will be `"taddr" : 28`
+- `force_min_relay_fee` - if this key is set to true for coins with dynamic fees, when a new transaction is generated, AtomicDEX-API will check whether the total fee set (`sat * tx size`) is lower than relay fee and will use the relay fee instead.
+- `mtp_block_count` - number of blocks to be used for the calculation of `median time past`. Must be greater than `0`. Default value is `11`.
+- `estimate_fee_mode` - sets the fee mode for the `estimatesmartfee` call. Supported values are: `ECONOMICAL`,`CONSERVATIVE`, `UNSET`. Please note that some coins may not support some of these modes. Makes no effect for coins that do not have the `estimatesmartfee` RPC.
+- `address_format` - defines whether to use the standard bitcoin address format or the cash address format for BCH. More formats may be added in the future. Possible values as of now: `"address_format":{"format":"standard"}` to set the standard BTC/UTXO address format. `"address_format":{"format":"cashaddress","network":"NETWORK_ID"}` to use BCH specific address format. `NETWORK_ID` can be: `bitcoincash` for BCH mainnet, `bchtest` for BCH testnet and `bchreg` for BCH regtest.
+- `isPoS` - whether the coin uses proof of stake. This key decides whether the transactions created have the `nTime` field. Can be `0` or `1`.
+- `segwit` - is a boolean value, if set to true, MM2 will allow withdrawal to `P2SH` addresses. Will possibly mean full segwit support in the future.
+- `version_group_id` - sets the `version_group_id` used by Zcash (and its forks') transactions. Determined automatically by tx version and `overwintered` if not set.
+- `consensus_branch_id` - sets the `consensus_branch_id` used in Zcash (and its forks') transactions' signature hash calculation. Determined automatically by tx version and `overwintered` if not set.
 
 ## Ethereum Protocol specific JSON
 
