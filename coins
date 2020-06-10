@@ -158,6 +158,7 @@
 		"wiftype": 128,
 		"txfee": 1000,
 		"segwit": true,
+		"address_format": {"format":"cashaddress","network":"bitcoincash"},
 		"mm2": 1,
 		"required_confirmations": 1
 	},
