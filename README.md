@@ -134,7 +134,7 @@ You need the following info in JSON format added to the [coins](coins) file:
 - `estimate_fee_mode` - sets the fee mode for the `estimatesmartfee` call. Supported values are: `ECONOMICAL`,`CONSERVATIVE`, `UNSET`. Please note that some coins may not support some of these modes. Makes no effect for coins that do not have the `estimatesmartfee` RPC.
 - `address_format` - defines whether to use the standard bitcoin address format or the cash address format for BCH. More formats may be added in the future. Possible values as of now: `"address_format":{"format":"standard"}` to set the standard BTC/UTXO address format. `"address_format":{"format":"cashaddress","network":"NETWORK_ID"}` to use BCH specific address format. `NETWORK_ID` can be: `bitcoincash` for BCH mainnet, `bchtest` for BCH testnet and `bchreg` for BCH regtest.
 - `isPoS` - whether the coin uses proof of stake. This key decides whether the transactions created have the `nTime` field. Can be `0` or `1`.
-- `segwit` - is a boolean value, if set to true, MM2 will allow withdrawal to `P2SH` addresses. Will possibly mean full segwit support in the future.
+- `segwit` - is a boolean value, if set to true, AtomicDEX-API will allow withdrawal to `P2SH` addresses. Will possibly mean full segwit support in the future.
 - `version_group_id` - sets the `version_group_id` used by Zcash (and its forks') transactions. Determined automatically by tx version and `overwintered` if not set.
 - `consensus_branch_id` - sets the `consensus_branch_id` used in Zcash (and its forks') transactions' signature hash calculation. Determined automatically by tx version and `overwintered` if not set.
 
