@@ -201,3 +201,11 @@ Ethereum protocol specific coin/project add request are the most simplest. `"coi
 - At least minimum 2 or more URLs of RPC nodes must be provided.
 - Contact information must be provided in case the server admin needs to be contacted in urgent cases. It can be any contact information out of the examples provided. Or may be add your own service/contact information as suites you.
 - The RPC node URL can either be a DNS or an IP address with port.
+
+
+### Komodo [electrumX monitoring portal](https://eyelectrumx.herokuapp.com/).
+
+- [Projects repo](https://github.com/dathbezumniy/eyelectrumx)
+- [This file](https://github.com/komodoplatform/coins/blob/master/contrib/gui_tickers.json) is monitored by parser in order to automatically rebuild/deploy the portal on any changes to the current integration of coins to the DEX ecosystem.
+- It contains json data for parser with up-to-date adex-mob and adex-pro coins integrations as well as all-tickers with available electrum servers that are not yet in our DEX products.
+- The maintainer of this file is [dathbezumniy](https://github.com/dathbezumniy).
