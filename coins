@@ -930,19 +930,6 @@
 		"rpcport": 80
 	},
 	{
-		"coin": "GAME",
-		"rpcport": 40001,
-		"name": "gamecredits",
-		"fname": "GameCredits",
-		"pubtype": 38,
-		"p2shtype": 5,
-		"wiftype": 166,
-		"txfee": 1000000,
-		"mm2": 1,
-		"required_confirmations": 2,
-		"requires_notarization": true
-	},
-	{
 		"coin": "GBX",
 		"name": "gobyte",
 		"fname": "gobyte",
