@@ -1411,7 +1411,8 @@
 		"overwintered": 1,
 		"mm2": 1,
 		"required_confirmations": 5,
-		"avg_blocktime": 1
+		"avg_blocktime": 1,
+		"requires_notarization": false
 	},
 	{
 		"coin": "MCO",
@@ -1531,6 +1532,7 @@
 		"txversion": 4,
 		"overwintered": 1,
 		"mm2": 1,
+		"required_confirmations": 1,
 		"avg_blocktime": 1
 	},
 	{
@@ -1953,6 +1955,7 @@
 		"txversion": 4,
 		"overwintered": 1,
 		"mm2": 1,
+		"required_confirmations": 1,
 		"avg_blocktime": 1
 	},
 	{
@@ -2393,7 +2396,8 @@
 		"overwintered": 1,
 		"mm2": 1,
 		"required_confirmations": 5,
-		"avg_blocktime": 1
+		"avg_blocktime": 1,
+		"requires_notarization": false
 	},
 	{
 		"coin": "VSL",
