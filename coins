@@ -79,11 +79,11 @@
 		"coin": "AWC",
 		"name": "atomic-wallet-coin",
 		"fname": "Atomic Wallet Coin",
-		"etomic": "0xaD22f63404f7305e 4713CcBd4F296f34770513f4",
+		"etomic": "0xaD22f63404f7305e4713CcBd4F296f34770513f4",
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
-        "avg_blocktime": 0.25
+		"avg_blocktime": 0.25
 	},
 	{
 		"coin": "AXE",
@@ -97,7 +97,7 @@
 		"confpath": "USERHOME/.axecore/axe.conf",
 		"mm2": 1,
 		"required_confirmations": 5,
-        "avg_blocktime": 2.6
+		"avg_blocktime": 2.6
 	},
 	{
 		"coin": "AXO",
@@ -131,7 +131,7 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
-        "avg_blocktime": 0.25
+		"avg_blocktime": 0.25
 	},
 	{
 		"coin": "BAY",
@@ -164,7 +164,7 @@
 		"address_format": {"format":"cashaddress","network":"bitcoincash"},
 		"mm2": 1,
 		"required_confirmations": 1,
-        "avg_blocktime": 10
+		"avg_blocktime": 10
 	},
 	{
 		"coin": "BEER",
@@ -185,7 +185,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "BFT",
@@ -251,7 +251,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "BSD",
@@ -286,7 +286,7 @@
 		"estimate_fee_mode": "ECONOMICAL",
 		"mm2": 1,
 		"required_confirmations": 1,
-        "avg_blocktime": 10
+		"avg_blocktime": 10
 	},
 	{
 		"coin": "BTCH",
@@ -375,7 +375,7 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
-        "avg_blocktime": 0.25
+		"avg_blocktime": 0.25
 	},
 	{
 		"coin": "BZC",
@@ -399,7 +399,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "CDT",
@@ -447,7 +447,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-        "avg_blocktime": 0.166
+		"avg_blocktime": 0.166
 	},
 	{
 		"coin": "CMM",
@@ -520,7 +520,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "CS",
@@ -555,7 +555,7 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
-        "avg_blocktime": 0.25
+		"avg_blocktime": 0.25
 	},
 	{
 		"coin": "DASH",
@@ -569,7 +569,7 @@
 		"txfee": 0,
 		"mm2": 1,
 		"required_confirmations": 2,
-        "avg_blocktime": 2.633
+		"avg_blocktime": 2.633
 	},
 	{
 		"coin": "DATA",
@@ -621,7 +621,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "DGB",
@@ -635,7 +635,7 @@
 		"segwit": true,
 		"mm2": 1,
 		"required_confirmations": 7,
-        "avg_blocktime": 1.25
+		"avg_blocktime": 1.25
 	},
 	{
 		"coin": "DGD",
@@ -691,7 +691,7 @@
 		"force_min_relay_fee": true,
 		"mm2": 1,
 		"required_confirmations": 2,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "DOPE",
@@ -778,7 +778,7 @@
 		"mm2": 1,
 		"confpath": "USERHOME/.electra/Electra.conf",
 		"required_confirmations": 5,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "EDG",
@@ -834,7 +834,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-        "avg_blocktime": 1.1
+		"avg_blocktime": 1.1
 	},
 	{
 		"coin": "ENG",
@@ -870,7 +870,7 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
-        "avg_blocktime": 0.25
+		"avg_blocktime": 0.25
 	},
 	{
 		"coin": "ETHOS",
@@ -940,7 +940,7 @@
 		"segwit": true,
 		"mm2": 1,
 		"required_confirmations": 5,
-        "avg_blocktime": 1.033
+		"avg_blocktime": 1.033
 	},
 	{
 		"coin": "FUN",
@@ -1133,7 +1133,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-        "avg_blocktime": 2.5
+		"avg_blocktime": 2.5
 	},
 	{
 		"coin": "I0C",
@@ -1158,7 +1158,7 @@
 		"nSPV": "5.9.102.210, 5.9.253.195, 5.9.253.196, 5.9.253.197, 5.9.253.198, 5.9.253.199, 5.9.253.200, 5.9.253.201, 5.9.253.202, 5.9.253.203",
 		"required_confirmations": 2,
 		"requires_notarization": true,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "IMG",
@@ -1223,7 +1223,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "K64",
@@ -1250,7 +1250,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "KMDICE",
@@ -1300,7 +1300,7 @@
 		"overwintered": 1,
 		"mm2": 1,
 		"required_confirmations": 5,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "LBC",
@@ -1351,7 +1351,7 @@
 		"segwit": true,
 		"mm2": 1,
 		"required_confirmations": 2,
-        "avg_blocktime": 2.5
+		"avg_blocktime": 2.5
 	},
 	{
 		"coin": "LTZ",
@@ -1411,7 +1411,7 @@
 		"overwintered": 1,
 		"mm2": 1,
 		"required_confirmations": 5,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "MCO",
@@ -1464,7 +1464,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "MKR",
@@ -1531,7 +1531,7 @@
 		"txversion": 4,
 		"overwintered": 1,
 		"mm2": 1,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "MOVI",
@@ -1598,7 +1598,7 @@
 		"txfee": 10000,
 		"mm2": 1,
 		"required_confirmations": 10,
-        "avg_blocktime": 0.5
+		"avg_blocktime": 0.5
 	},
 	{
 		"coin": "NIX",
@@ -1664,7 +1664,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "ORE",
@@ -1708,7 +1708,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "PAX",
@@ -1718,7 +1718,7 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
-        "avg_blocktime": 0.25
+		"avg_blocktime": 0.25
 	},
 	{
 		"coin": "PAY",
@@ -1867,7 +1867,7 @@
 		"txfee": 0,
 		"mm2": 1,
 		"required_confirmations": 3,
-        "avg_blocktime": 2.133
+		"avg_blocktime": 2.133
 	},
 	{
 		"coin": "RADIUS",
@@ -1931,7 +1931,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "RFOX",
@@ -1943,7 +1943,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "RICK",
@@ -1953,7 +1953,7 @@
 		"txversion": 4,
 		"overwintered": 1,
 		"mm2": 1,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "RLC",
@@ -2000,7 +2000,7 @@
 		"txfee": 0,
 		"mm2": 1,
 		"required_confirmations": 3,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "RVT",
@@ -2188,7 +2188,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "SVD",
@@ -2298,7 +2298,7 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
-        "avg_blocktime": 0.25
+		"avg_blocktime": 0.25
 	},
 	{
 		"coin": "UCASH",
@@ -2336,7 +2336,7 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
-        "avg_blocktime": 0.25
+		"avg_blocktime": 0.25
 	},
 	{
 		"coin": "VIA",
@@ -2393,7 +2393,7 @@
 		"overwintered": 1,
 		"mm2": 1,
 		"required_confirmations": 5,
-        "avg_blocktime": 1
+		"avg_blocktime": 1
 	},
 	{
 		"coin": "VSL",
@@ -2521,7 +2521,7 @@
 		"txfee": 0,
 		"mm2": 1,
 		"required_confirmations": 3,
-        "avg_blocktime": 5.65
+		"avg_blocktime": 5.65
 	},
 	{
 		"coin": "YCE",
@@ -2569,7 +2569,7 @@
 		"txfee": 10000,
 		"mm2": 1,
 		"required_confirmations": 3,
-        "avg_blocktime": 1.25
+		"avg_blocktime": 1.25
 	},
 	{
 		"coin": "ZEL",
@@ -2598,7 +2598,7 @@
 		"txfee": 1000,
 		"mm2": 1,
 		"required_confirmations": 5,
-        "avg_blocktime": 2
+		"avg_blocktime": 2
 	},
 	{
 		"coin": "ZET",
