@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/6f78554711816f42ce434ac12951b7fbe038c43bde5eaf254733c3d8d10477ae)  
+[maker payment (GLEEC)](https://gleechain.com/tx/b1a9437607c0080b4bab5772800f999a010fdb2f45e628389a20109ca24bcfe2)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/d31329d3ef55081f05dfb12537679e5a2b8327922195b2de9f295feb65a48452)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/5a7c00e1fd7d95e652a4cf0ac0926df5a4986ef678ae316cbd411d7adfefeb7e)  
+[maker payment spent (GLEEC)](https://gleechain.com/tx/503ea5c193445928aa1ac229e6f17faff2ab01e6029e91291327ce8513e0d39b)  
