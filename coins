@@ -5,7 +5,8 @@
 		"fname": "FirstBlood",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xAf30D2a7E90d7DC361c8C4585e9BB7D2F6f15bc7"
 			}
@@ -20,7 +21,9 @@
 		"p2shtype": 5,
 		"wiftype": 151,
 		"txfee": 100000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ADT",
@@ -28,7 +31,8 @@
 		"fname": "adToken",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xD0D6D6C5Fe4a677D343cC433536BB717bAe167dD"
 			}
@@ -40,7 +44,8 @@
 		"fname": "Ambrosus",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x4DC3643DbC642b72C158E7F3d2ff232df61cb6CE"
 			}
@@ -52,7 +57,8 @@
 		"fname": "Aragon",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x960b236A07cf122663c4303350609A66A7B288C0"
 			}
@@ -68,7 +74,9 @@
 		"p2shtype": 8,
 		"wiftype": 176,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ARPA",
@@ -78,7 +86,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xBA50933C268F567BDC86E1aC131BE072C6B0b71a"
 			}
@@ -90,7 +99,8 @@
 		"fname": "AirSwap",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x27054b13b1B798B345b591a4d22e6562d47eA75a"
 			}
@@ -106,7 +116,9 @@
 		"wiftype": 128,
 		"txfee": 10000,
 		"confpath": "USERHOME/.ATBCoinWallet/atbcoin.conf",
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "AWC",
@@ -117,7 +129,8 @@
 		"mm2": 1,
 		"required_confirmations": 3,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xaD22f63404f7305e4713CcBd4F296f34770513f4"
 			}
@@ -136,7 +149,9 @@
 		"mm2": 1,
 		"required_confirmations": 5,
 		"avg_blocktime": 2.6,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "AXO",
@@ -148,7 +163,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "AYA",
@@ -162,7 +179,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BAT",
@@ -173,7 +192,8 @@
 		"mm2": 1,
 		"required_confirmations": 3,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF"
 			}
@@ -189,7 +209,9 @@
 		"p2shtype": 85,
 		"wiftype": 153,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BBT",
@@ -197,7 +219,8 @@
 		"fname": "Bitboost",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x1500205f50bf3FD976466d0662905c9ff254fc9c"
 			}
@@ -220,7 +243,9 @@
 		"mm2": 1,
 		"required_confirmations": 1,
 		"avg_blocktime": 10,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BEER",
@@ -230,7 +255,9 @@
 		"txversion": 4,
 		"overwintered": 1,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BET",
@@ -243,7 +270,9 @@
 		"required_confirmations": 2,
 		"requires_notarization": true,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BFT",
@@ -251,7 +280,8 @@
 		"fname": "BnkToTheFuture",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x01fF50f8b7f74E4f00580d9596cd3D0d6d6E326f"
 			}
@@ -267,7 +297,9 @@
 		"p2shtype": 8,
 		"wiftype": 153,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BLK",
@@ -280,7 +312,9 @@
 		"wiftype": 153,
 		"txfee": 100000,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BLOCK",
@@ -291,7 +325,9 @@
 		"p2shtype": 28,
 		"wiftype": 154,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BLZ",
@@ -299,7 +335,8 @@
 		"fname": "Bluzelle",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x5732046A883704404F284Ce41FfADd5b007FD668"
 			}
@@ -311,7 +348,8 @@
 		"fname": "Bancor",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C"
 			}
@@ -328,7 +366,9 @@
 		"required_confirmations": 2,
 		"requires_notarization": true,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BSD",
@@ -339,7 +379,9 @@
 		"p2shtype": 5,
 		"wiftype": 204,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BTA",
@@ -350,7 +392,9 @@
 		"p2shtype": 5,
 		"wiftype": 188,
 		"txfee": 100000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BTC",
@@ -366,7 +410,9 @@
 		"mm2": 1,
 		"required_confirmations": 1,
 		"avg_blocktime": 10,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BTCH",
@@ -378,7 +424,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BTCL",
@@ -386,7 +434,8 @@
 		"fname": "BTC Lite",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x5acD19b9c91e596b1f062f18e3D02da7eD8D1e50"
 			}
@@ -402,7 +451,9 @@
 		"p2shtype": 175,
 		"wiftype": 128,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BTCZ",
@@ -414,7 +465,9 @@
 		"p2shtype": 189,
 		"wiftype": 128,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BTG",
@@ -425,7 +478,9 @@
 		"p2shtype": 23,
 		"wiftype": 128,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BTO",
@@ -433,7 +488,8 @@
 		"fname": "Bottos",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x36905Fc93280f52362A1CBAB151F25DC46742Fb5"
 			}
@@ -449,7 +505,9 @@
 		"wiftype": 128,
 		"txfee": 50000,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BUCK",
@@ -461,7 +519,9 @@
 		"p2shtype": 189,
 		"wiftype": 128,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "BUSD",
@@ -472,7 +532,8 @@
 		"mm2": 1,
 		"required_confirmations": 3,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x4Fabb145d64652a948d72533023f6E7A623C7C53"
 			}
@@ -489,7 +550,9 @@
 		"wiftype": 128,
 		"txversion": 4,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "CCL",
@@ -502,7 +565,9 @@
 		"required_confirmations": 2,
 		"requires_notarization": true,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "CDT",
@@ -510,7 +575,8 @@
 		"fname": "Blox",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x177d39AC676ED1C67A2b268AD7F1E58826E5B0af"
 			}
@@ -524,7 +590,9 @@
 		"txversion": 4,
 		"overwintered": 1,
 		"required_confirmations": 5,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "CENNZ",
@@ -532,7 +600,8 @@
 		"fname": "Centrality",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x1122B6a0E00DCe0563082b6e2953f3A943855c1F"
 			}
@@ -547,7 +616,9 @@
 		"overwintered": 1,
 		"mm2": 1,
 		"required_confirmations": 5,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "CHIPS",
@@ -563,7 +634,9 @@
 		"required_confirmations": 2,
 		"requires_notarization": true,
 		"avg_blocktime": 0.166,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "CMM",
@@ -574,7 +647,9 @@
 		"p2shtype": 50,
 		"wiftype": 140,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "COLX",
@@ -586,7 +661,9 @@
 		"wiftype": 212,
 		"txfee": 1000000000,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "COMMOD",
@@ -597,7 +674,9 @@
 		"overwintered": 1,
 		"mm2": 1,
 		"required_confirmations": 5,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "COQUI",
@@ -609,7 +688,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "CRO",
@@ -619,7 +700,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b"
 			}
@@ -634,7 +716,9 @@
 		"p2shtype": 28,
 		"wiftype": 128,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "CRYPTO",
@@ -647,7 +731,9 @@
 		"required_confirmations": 2,
 		"requires_notarization": true,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "CS",
@@ -655,7 +741,8 @@
 		"fname": "Credits",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x46b9Ad944d1059450Da1163511069C718F699D31"
 			}
@@ -667,7 +754,8 @@
 		"fname": "Civic",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x41e5560054824eA6B0732E656E3Ad64E20e94E45"
 			}
@@ -683,7 +771,9 @@
 		"p2shtype": 90,
 		"wiftype": 158,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "DAI",
@@ -694,7 +784,8 @@
 		"mm2": 1,
 		"required_confirmations": 3,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
 			}
@@ -713,7 +804,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"avg_blocktime": 2.633,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "DATA",
@@ -721,7 +814,8 @@
 		"fname": "Streamr DATAcoin",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x0Cf0Ee63788A0849fE5297F3407f701E122cC023"
 			}
@@ -733,7 +827,8 @@
 		"fname": "Dentacoin",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6"
 			}
@@ -747,7 +842,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x9F5F3CFD7a32700C93F971637407ff17b91c7342"
 			}
@@ -760,7 +856,8 @@
 		"mm2": 1,
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x3aB100442484Dc2414Aa75B2952A0a6f03f8aBFd"
 			}
@@ -774,7 +871,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x3597bfD533a99c9aa083587B074434E61Eb0A258"
 			}
@@ -791,7 +889,9 @@
 		"required_confirmations": 2,
 		"requires_notarization": true,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "DGB",
@@ -806,7 +906,9 @@
 		"mm2": 1,
 		"required_confirmations": 7,
 		"avg_blocktime": 1.25,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "DGD",
@@ -815,7 +917,8 @@
 		"rpcport": 80,
 		"decimals": 9,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A"
 			}
@@ -827,7 +930,8 @@
 		"fname": "Etheroll",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x2e071D2966Aa7D8dECB1005885bA1977D6038A65"
 			}
@@ -843,7 +947,9 @@
 		"wiftype": 204,
 		"txfee": 10000,
 		"confpath": "USERHOME/.dinerocore/dinero.conf",
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "DION",
@@ -853,7 +959,9 @@
 		"txversion": 4,
 		"overwintered": 1,
 		"required_confirmations": 5,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "DNT",
@@ -861,7 +969,8 @@
 		"fname": "District0x",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x0AbdAce70D3790235af448C88547603b945604ea"
 			}
@@ -880,7 +989,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "DOPE",
@@ -892,7 +1003,9 @@
 		"p2shtype": 5,
 		"wiftype": 158,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "DP",
@@ -903,7 +1016,9 @@
 		"overwintered": 1,
 		"mm2": 1,
 		"required_confirmations": 5,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "DRGN",
@@ -911,7 +1026,8 @@
 		"fname": "Dragonchain",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x419c4dB4B9e25d6Db2AD9691ccb832C8D9fDA05E"
 			}
@@ -923,7 +1039,8 @@
 		"fname": "Dropil",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x4672bAD527107471cB5067a887f4656D585a8A31"
 			}
@@ -935,7 +1052,8 @@
 		"fname": "DomRaider",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x9AF4f26941677C706cfEcf6D3379FF01bB85D5Ab"
 			}
@@ -949,7 +1067,9 @@
 		"txversion": 4,
 		"overwintered": 1,
 		"required_confirmations": 5,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "DSR",
@@ -961,7 +1081,9 @@
 		"p2shtype": 16,
 		"wiftype": 204,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "DYN",
@@ -972,7 +1094,9 @@
 		"p2shtype": 10,
 		"wiftype": 140,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ECA",
@@ -988,7 +1112,9 @@
 		"confpath": "USERHOME/.electra/Electra.conf",
 		"required_confirmations": 5,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "EDG",
@@ -996,7 +1122,8 @@
 		"fname": "Edgeless",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x08711D3B02C8758F2FB3ab4e80228418a7F8e39c"
 			}
@@ -1012,7 +1139,9 @@
 		"p2shtype": 5,
 		"wiftype": 176,
 		"txfee": 100000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ELF",
@@ -1020,7 +1149,8 @@
 		"fname": "aelf",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xbf2179859fc6D5BEE9Bf9158632Dc51678a4100e"
 			}
@@ -1035,7 +1165,9 @@
 		"p2shtype": 102,
 		"wiftype": 205,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ELY",
@@ -1043,7 +1175,8 @@
 		"fname": "Elysian",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xa95592DCFfA3C080B4B40E459c5f5692F67DB7F8"
 			}
@@ -1062,7 +1195,9 @@
 		"required_confirmations": 2,
 		"requires_notarization": true,
 		"avg_blocktime": 1.1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ENG",
@@ -1070,7 +1205,8 @@
 		"fname": "Enigma",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xf0Ee6b27b759C9893Ce4f094b49ad28fd15A23e4"
 			}
@@ -1084,7 +1220,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c"
 			}
@@ -1099,7 +1236,9 @@
 		"overwintered": 1,
 		"mm2": 1,
 		"required_confirmations": 5,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ETH",
@@ -1109,7 +1248,9 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
-		"protocol": "ETH"
+		"protocol": {
+			"type": "ETH"
+		}
 	},
 	{
 		"coin": "ETHOS",
@@ -1117,7 +1258,8 @@
 		"fname": "Ethos",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x5Af2Be193a6ABCa9c8817001F45744777Db30756"
 			}
@@ -1129,7 +1271,8 @@
 		"fname": "EnergiToken",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x3c4a3ffd813a107febd57B2f01BC344264D90FdE"
 			}
@@ -1143,7 +1286,9 @@
 		"txversion": 4,
 		"overwintered": 1,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "FJC",
@@ -1154,7 +1299,9 @@
 		"p2shtype": 16,
 		"wiftype": 164,
 		"txfee": 100000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "FLASH",
@@ -1167,7 +1314,9 @@
 		"txfee": 10000000,
 		"decimals": 10,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "FLO",
@@ -1179,7 +1328,9 @@
 		"wiftype": 176,
 		"txfee": 100000,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "FTC",
@@ -1194,7 +1345,9 @@
 		"mm2": 1,
 		"required_confirmations": 5,
 		"avg_blocktime": 1.033,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "FUN",
@@ -1202,7 +1355,8 @@
 		"fname": "FunFair",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b"
 			}
@@ -1218,7 +1372,9 @@
 		"p2shtype": 10,
 		"wiftype": 198,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "GIN",
@@ -1231,7 +1387,9 @@
 		"txfee": 10000,
 		"confpath": "USERHOME/.gincoincore/gincoin.conf",
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "GLD",
@@ -1242,7 +1400,9 @@
 		"p2shtype": 5,
 		"wiftype": 160,
 		"txfee": 100000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "GLEEC",
@@ -1257,7 +1417,9 @@
 		"mm2": 1,
 		"required_confirmations": 1,
 		"avg_blocktime": 5,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "GLT",
@@ -1268,7 +1430,9 @@
 		"p2shtype": 5,
 		"wiftype": 166,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "GLXT",
@@ -1279,7 +1443,9 @@
 		"overwintered": 1,
 		"mm2": 1,
 		"required_confirmations": 5,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "GNO",
@@ -1287,7 +1453,8 @@
 		"fname": "Gnosis",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x6810e776880C02933D47DB1b9fc05908e5386b96"
 			}
@@ -1302,7 +1469,9 @@
 		"p2shtype": 5,
 		"wiftype": 176,
 		"txfee": 100000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "GRS",
@@ -1313,7 +1482,9 @@
 		"p2shtype": 5,
 		"wiftype": 128,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "GTC",
@@ -1321,7 +1492,8 @@
 		"fname": "Game.com",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xB70835D7822eBB9426B56543E391846C107bd32C"
 			}
@@ -1333,7 +1505,8 @@
 		"fname": "Gifto",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xC5bBaE50781Be1669306b9e001EFF57a2957b09d"
 			}
@@ -1345,7 +1518,8 @@
 		"fname": "Matchpool",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xf7B098298f7C69Fc14610bf71d5e02c60792894C"
 			}
@@ -1360,7 +1534,9 @@
 		"p2shtype": 10,
 		"wiftype": 210,
 		"txfee": 100000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "HGT",
@@ -1368,7 +1544,8 @@
 		"fname": "HelloGold",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xba2184520A1cC49a6159c57e61E1844E085615B6"
 			}
@@ -1380,7 +1557,8 @@
 		"fname": "Humaniq",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xcbCC0F036ED4788F63FC0fEE32873d6A7487b908"
 			}
@@ -1396,7 +1574,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "HODLC",
@@ -1407,7 +1587,9 @@
 		"p2shtype": 5,
 		"wiftype": 168,
 		"txfee": 5000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "HOT",
@@ -1417,7 +1599,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2"
 			}
@@ -1431,7 +1614,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x6f259637dcD74C767781E37Bc6133cd6A68aa161"
 			}
@@ -1446,7 +1630,9 @@
 		"p2shtype": 100,
 		"wiftype": 169,
 		"txfee": 400000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "HUSH",
@@ -1459,7 +1645,9 @@
 		"required_confirmations": 2,
 		"requires_notarization": true,
 		"avg_blocktime": 2.5,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "I0C",
@@ -1470,7 +1658,9 @@
 		"p2shtype": 5,
 		"wiftype": 128,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ILN",
@@ -1486,7 +1676,9 @@
 		"required_confirmations": 2,
 		"requires_notarization": true,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "IMG",
@@ -1497,7 +1689,9 @@
 		"p2shtype": 5,
 		"wiftype": 204,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "IND",
@@ -1505,7 +1699,8 @@
 		"fname": "Indorse Token",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xf8e386EDa857484f5a12e4B5DAa9984E06E73705"
 			}
@@ -1521,7 +1716,9 @@
 		"p2shtype": 20,
 		"wiftype": 195,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "IOP",
@@ -1532,7 +1729,9 @@
 		"p2shtype": 174,
 		"wiftype": 49,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ITL",
@@ -1540,7 +1739,8 @@
 		"fname": "Italian Lira",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x122A86b5DFF2D085AfB49600b4cd7375D0d94A5f"
 			}
@@ -1553,7 +1753,8 @@
 		"mm2": 1,
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x996a8ae0304680f6a69b8a9d7c6e37d65ab5ab56"
 			}
@@ -1570,7 +1771,9 @@
 		"required_confirmations": 2,
 		"requires_notarization": true,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "K64",
@@ -1582,7 +1785,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "KMD",
@@ -1599,7 +1804,9 @@
 		"required_confirmations": 2,
 		"requires_notarization": true,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "KMDICE",
@@ -1610,7 +1817,9 @@
 		"overwintered": 1,
 		"mm2": 1,
 		"required_confirmations": 5,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "KNC",
@@ -1618,7 +1827,8 @@
 		"fname": "Kyber Network",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xdd974D5C2e2928deA5F71b9825b8b646686BD200"
 			}
@@ -1634,7 +1844,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "KV",
@@ -1646,7 +1858,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "LABS",
@@ -1658,7 +1872,9 @@
 		"mm2": 1,
 		"required_confirmations": 5,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "LBC",
@@ -1670,7 +1886,9 @@
 		"wiftype": 28,
 		"txfee": 10000,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "LINK",
@@ -1680,7 +1898,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x514910771AF9Ca656af840dff83E8264EcF986CA"
 			}
@@ -1692,7 +1911,8 @@
 		"fname": "Loom Network",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xA4e8C3Ec456107eA67d3075bF9e3DF3A75823DB0"
 			}
@@ -1707,7 +1927,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD"
 			}
@@ -1726,7 +1947,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"avg_blocktime": 2.5,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "LTZ",
@@ -1739,7 +1962,9 @@
 		"wiftype": 128,
 		"txversion": 4,
 		"txfee": 1000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "LUMBER",
@@ -1749,7 +1974,9 @@
 		"txversion": 4,
 		"overwintered": 1,
 		"required_confirmations": 5,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "LUN",
@@ -1757,7 +1984,8 @@
 		"fname": "Lunyr",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xfa05A73FfE78ef8f1a739473e462c54bae6567D9"
 			}
@@ -1774,7 +2002,9 @@
 		"wiftype": 155,
 		"txfee": 10000,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "MANA",
@@ -1784,7 +2014,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942"
 			}
@@ -1801,7 +2032,9 @@
 		"required_confirmations": 5,
 		"avg_blocktime": 1,
 		"requires_notarization": false,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "MCO",
@@ -1809,7 +2042,8 @@
 		"fname": "Monaco",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xB63B606Ac810a52cCa15e44bB630fd42D8d1d83d"
 			}
@@ -1821,7 +2055,8 @@
 		"fname": "MediShares",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x66186008C1050627F979d464eABb258860563dbE"
 			}
@@ -1837,7 +2072,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "MGNX",
@@ -1847,7 +2084,9 @@
 		"txversion": 4,
 		"overwintered": 1,
 		"required_confirmations": 5,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "MGO",
@@ -1855,7 +2094,8 @@
 		"fname": "MobileGo",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x40395044Ac3c0C57051906dA938B54BD6557F212"
 			}
@@ -1872,7 +2112,9 @@
 		"required_confirmations": 2,
 		"requires_notarization": true,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "MKR",
@@ -1882,7 +2124,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2"
 			}
@@ -1897,7 +2140,9 @@
 		"p2shtype": 115,
 		"wiftype": 238,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "MLN",
@@ -1905,7 +2150,8 @@
 		"fname": "Melon",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892"
 			}
@@ -1920,7 +2166,9 @@
 		"p2shtype": 5,
 		"wiftype": 128,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "MONA",
@@ -1932,7 +2180,9 @@
 		"wiftype": 176,
 		"txfee": 100000,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "MOON",
@@ -1943,7 +2193,9 @@
 		"p2shtype": 22,
 		"wiftype": 131,
 		"txfee": 100000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "MORTY",
@@ -1955,7 +2207,9 @@
 		"mm2": 1,
 		"required_confirmations": 1,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "MOVI",
@@ -1965,7 +2219,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x06F979E4F04ec565Ae8d7479a94C60dEF8846832"
 			}
@@ -1977,7 +2232,8 @@
 		"fname": "Morpheus Network",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x7B0C06043468469967DBA22d1AF33d77d44056c8"
 			}
@@ -1993,7 +2249,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "MTL",
@@ -2001,7 +2259,8 @@
 		"fname": "Metal",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xF433089366899D83a9f26A773D59ec7eCF30355e"
 			}
@@ -2016,7 +2275,9 @@
 		"p2shtype": 76,
 		"wiftype": 126,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "MYB",
@@ -2024,7 +2285,8 @@
 		"fname": "MyBit Token",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x5d60d8d7eF6d37E16EBABc324de3bE57f135e0BC"
 			}
@@ -2045,7 +2307,9 @@
 		"mm2": 1,
 		"required_confirmations": 10,
 		"avg_blocktime": 0.5,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "NIX",
@@ -2057,7 +2321,9 @@
 		"wiftype": 128,
 		"txfee": 10000,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "NMC",
@@ -2070,7 +2336,9 @@
 		"txfee": 100000,
 		"segwit": true,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "NMR",
@@ -2078,7 +2346,8 @@
 		"fname": "Numeraire",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671"
 			}
@@ -2090,7 +2359,8 @@
 		"fname": "Noah Coin",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x58a4884182d9E835597f405e5F258290E46ae7C2"
 			}
@@ -2105,7 +2375,9 @@
 		"p2shtype": 7,
 		"wiftype": 208,
 		"txfee": 1000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "NPXS",
@@ -2115,7 +2387,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3"
 			}
@@ -2130,7 +2403,9 @@
 		"required_confirmations": 2,
 		"requires_notarization": true,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ORE",
@@ -2141,7 +2416,9 @@
 		"p2shtype": 16,
 		"wiftype": 204,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "OURC",
@@ -2153,7 +2430,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "PAC",
@@ -2165,7 +2444,9 @@
 		"wiftype": 204,
 		"txfee": 10000,
 		"confpath": "USERHOME/.paccoincore/paccoin.conf",
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "PANGEA",
@@ -2178,7 +2459,9 @@
 		"required_confirmations": 2,
 		"requires_notarization": true,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "PAX",
@@ -2189,7 +2472,8 @@
 		"mm2": 1,
 		"required_confirmations": 3,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1"
 			}
@@ -2201,7 +2485,8 @@
 		"fname": "TenX",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xB97048628DB6B661D4C2aA833e95Dbe1A905B280"
 			}
@@ -2218,7 +2503,9 @@
 		"wiftype": 115,
 		"txfee": 10000,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "PGN",
@@ -2229,7 +2516,9 @@
 		"p2shtype": 122,
 		"wiftype": 128,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "PGT",
@@ -2241,7 +2530,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "PIZZA",
@@ -2251,7 +2542,9 @@
 		"txversion": 4,
 		"overwintered": 1,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "PLU",
@@ -2259,7 +2552,8 @@
 		"fname": "Pluton",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xD8912C10681D8B21Fd3742244f44658dBA12264E"
 			}
@@ -2275,7 +2569,9 @@
 		"wiftype": 60,
 		"txfee": 10000,
 		"confpath": "USERHOME/.poliscore/polis.conf",
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "POLY",
@@ -2283,7 +2579,8 @@
 		"fname": "Polymath",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x9992eC3cF6A55b00978cdDF2b27BC6882d88D1eC"
 			}
@@ -2297,7 +2594,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x595832F8FC6BF59c85C527fEC3740A1b7a361269"
 			}
@@ -2309,7 +2607,8 @@
 		"fname": "Populous",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xd4fa1460F537bb9085d22C7bcCB5DD450Ef28e3a"
 			}
@@ -2324,7 +2623,9 @@
 		"overwintered": 1,
 		"mm2": 1,
 		"required_confirmations": 5,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "PXT",
@@ -2332,7 +2633,8 @@
 		"fname": "Populous XBRL Token",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xc14830E53aA344E8c14603A91229A0b925b0B262"
 			}
@@ -2344,7 +2646,8 @@
 		"fname": "Qash",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x618E75Ac90b12c6049Ba3b27f5d5F8651b0037F6"
 			}
@@ -2356,7 +2659,8 @@
 		"fname": "Qubitica",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x1602af2C782cC03F9241992E243290Fccf73Bb13"
 			}
@@ -2368,7 +2672,8 @@
 		"fname": "QuarkChain",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xEA26c4aC16D4a5A106820BC8AEE85fd0b7b2b664"
 			}
@@ -2380,7 +2685,8 @@
 		"fname": "Quantstamp",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x99ea4dB9EE77ACD40B119BD1dC4E33e1C070b80d"
 			}
@@ -2399,7 +2705,9 @@
 		"mm2": 1,
 		"required_confirmations": 3,
 		"avg_blocktime": 2.133,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "RADIUS",
@@ -2411,7 +2719,9 @@
 		"wiftype": 15,
 		"txfee": 10000,
 		"confpath": "USERHOME/.radiuscore/radius.conf",
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "RAP",
@@ -2423,7 +2733,9 @@
 		"wiftype": 204,
 		"txfee": 10000,
 		"confpath": "USERHOME/.rapturecore/rapture.conf",
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "RCN",
@@ -2431,7 +2743,8 @@
 		"fname": "Ripio Credit Network",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xF970b8E36e23F7fC3FD752EeA86f8Be8D83375A6"
 			}
@@ -2443,7 +2756,8 @@
 		"fname": "Raiden Network Token",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6"
 			}
@@ -2457,7 +2771,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x1985365e9f78359a9B6AD760e32412f4a445E862"
 			}
@@ -2469,7 +2784,8 @@
 		"fname": "Request Network",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x8f8221aFbB33998d8584A2B05749bA73c37a938a"
 			}
@@ -2486,7 +2802,9 @@
 		"required_confirmations": 2,
 		"requires_notarization": true,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "RFOX",
@@ -2499,7 +2817,9 @@
 		"required_confirmations": 2,
 		"requires_notarization": true,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "RICK",
@@ -2511,7 +2831,9 @@
 		"mm2": 1,
 		"required_confirmations": 1,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "RLC",
@@ -2519,7 +2841,8 @@
 		"fname": "iExec RLC",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x607F4C5BB672230e8672085532f7e901544a7375"
 			}
@@ -2534,7 +2857,9 @@
 		"p2shtype": 70,
 		"wiftype": 176,
 		"txfee": 100000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ROI",
@@ -2545,7 +2870,9 @@
 		"p2shtype": 122,
 		"wiftype": 128,
 		"txfee": 200000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "RUFF",
@@ -2553,7 +2880,8 @@
 		"fname": "Ruff",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xf278c1CA969095ffddDED020290cf8B5C424AcE2"
 			}
@@ -2571,7 +2899,9 @@
 		"mm2": 1,
 		"required_confirmations": 3,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "RVT",
@@ -2579,7 +2909,8 @@
 		"fname": "Rivetz",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x3d1BA9be9f66B8ee101911bC36D3fB562eaC2244"
 			}
@@ -2593,7 +2924,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359"
 			}
@@ -2605,7 +2937,8 @@
 		"fname": "Salt",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x4156D3342D5c385a87D264F90653733592000581"
 			}
@@ -2617,7 +2950,8 @@
 		"fname": "Santiment",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x7C5A0CE9267ED19B22F8cae653F198e3E8daf098"
 			}
@@ -2633,7 +2967,9 @@
 		"wiftype": 128,
 		"txfee": 10000,
 		"confpath": "USERHOME/.sbtc/sbtc.conf",
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "SCRIV",
@@ -2645,7 +2981,9 @@
 		"p2shtype": 16,
 		"wiftype": 204,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "SIB",
@@ -2656,7 +2994,9 @@
 		"p2shtype": 40,
 		"wiftype": 128,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "SIRX",
@@ -2668,7 +3008,9 @@
 		"wiftype": 128,
 		"txfee": 200000,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "SMART",
@@ -2679,7 +3021,9 @@
 		"p2shtype": 18,
 		"wiftype": 191,
 		"txfee": 200000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "SMC",
@@ -2690,7 +3034,9 @@
 		"p2shtype": 5,
 		"wiftype": 191,
 		"txfee": 1000000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "SNGLS",
@@ -2698,7 +3044,8 @@
 		"fname": "SingularDTV",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xaeC2E87E0A235266D9C5ADc9DEb4b2E29b54D009"
 			}
@@ -2710,7 +3057,8 @@
 		"fname": "Status",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E"
 			}
@@ -2724,7 +3072,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x446C9033E7516D820cc9a2ce2d0B7328b579406F"
 			}
@@ -2736,7 +3085,8 @@
 		"fname": "SpankChain",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x42d6622deCe394b54999Fbd73D108123806f6a18"
 			}
@@ -2752,7 +3102,9 @@
 		"wiftype": 198,
 		"txfee": 10000,
 		"confpath": "USERHOME/.sparkscore/sparks.conf",
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "SRN",
@@ -2760,7 +3112,8 @@
 		"fname": "SIRIN LABS Token",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x68d57c9a1C35f63E2c83eE8e49A64e9d70528D25"
 			}
@@ -2775,7 +3128,9 @@
 		"p2shtype": 5,
 		"wiftype": 204,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "STORJ",
@@ -2783,7 +3138,8 @@
 		"fname": "Storj",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC"
 			}
@@ -2795,7 +3151,8 @@
 		"fname": "Substratum",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x8D75959f1E61EC2571aa72798237101F084DE63a"
 			}
@@ -2811,7 +3168,9 @@
 		"wiftype": 39,
 		"txfee": 10000,
 		"confpath": "USERHOME/.sudocore/sudo.conf",
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "SUPERNET",
@@ -2824,7 +3183,9 @@
 		"required_confirmations": 2,
 		"requires_notarization": true,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "SVD",
@@ -2833,7 +3194,8 @@
 		"rpcport": 80,
 		"decimals": 18,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xbdEB4b83251Fb146687fa19D1C660F99411eefe3"
 			}
@@ -2845,7 +3207,8 @@
 		"fname": "Swarm City",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xB9e7F8568e08d5659f5D29C4997173d84CdF2607"
 			}
@@ -2860,7 +3223,9 @@
 		"p2shtype": 5,
 		"wiftype": 190,
 		"txfee": 100000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "SYS",
@@ -2872,7 +3237,9 @@
 		"wiftype": 128,
 		"txfee": 10000,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "TAAS",
@@ -2880,7 +3247,8 @@
 		"fname": "TaaS",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xE7775A6e9Bcf904eb39DA2b68c5efb4F9360e08C"
 			}
@@ -2899,7 +3267,9 @@
 		"estimate_fee_mode": "ECONOMICAL",
 		"mm2": 1,
 		"required_confirmations": 0,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "THC",
@@ -2911,7 +3281,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "TIME",
@@ -2919,7 +3291,8 @@
 		"fname": "Chronobank",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x6531f133e6DeeBe7F2dcE5A0441aA7ef330B4e53"
 			}
@@ -2931,7 +3304,8 @@
 		"fname": "TokenCard",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xaAAf91D9b90dF800Df4F55c205fd6989c977E73a"
 			}
@@ -2943,7 +3317,8 @@
 		"fname": "Tratok",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x0cbC9b02B8628AE08688b5cC8134dc09e36C443b"
 			}
@@ -2959,7 +3334,9 @@
 		"p2shtype": 5,
 		"wiftype": 128,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "TRET",
@@ -2967,7 +3344,8 @@
 		"fname": "Tourist Review",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xC6D603A9Df53D1542552058c382bf115AACE70C7"
 			}
@@ -2979,7 +3357,8 @@
 		"fname": "Trust",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xCb94be6f13A1182E4A4B6140cb7bf2025d28e41B"
 			}
@@ -2994,7 +3373,8 @@
 		"mm2": 1,
 		"required_confirmations": 3,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x0000000000085d4780B73119b644AE5ecd22b376"
 			}
@@ -3006,7 +3386,8 @@
 		"fname": "U.CASH",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x92e52a1A235d9A103D970901066CE910AAceFD37"
 			}
@@ -3022,7 +3403,9 @@
 		"p2shtype": 5,
 		"wiftype": 155,
 		"txfee": 100000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "UIS",
@@ -3033,7 +3416,9 @@
 		"p2shtype": 10,
 		"wiftype": 132,
 		"txfee": 2000000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "USDC",
@@ -3044,7 +3429,8 @@
 		"mm2": 1,
 		"required_confirmations": 3,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
 			}
@@ -3059,7 +3445,8 @@
 		"mm2": 1,
 		"required_confirmations": 3,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xdF1D6405df92d981a2fB3ce68F6A03baC6C0E41F"
 			}
@@ -3076,7 +3463,9 @@
 		"txfee": 100000,
 		"segwit": true,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "VIVO",
@@ -3088,7 +3477,9 @@
 		"p2shtype": 10,
 		"wiftype": 198,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "VOT",
@@ -3101,7 +3492,9 @@
 		"wiftype": 128,
 		"txversion": 4,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "VOTE2020",
@@ -3113,7 +3506,9 @@
 		"overwintered": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "VRSC",
@@ -3125,7 +3520,9 @@
 		"mm2": 1,
 		"required_confirmations": 5,
 		"avg_blocktime": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "VSL",
@@ -3134,7 +3531,8 @@
 		"rpcport": 80,
 		"decimals": 18,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x5c543e7AE0A1104f78406C340E9C64FD9fCE5170"
 			}
@@ -3152,7 +3550,9 @@
 		"segwit": true,
 		"mm2": 1,
 		"required_confirmations": 4,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "WINGS",
@@ -3160,7 +3560,8 @@
 		"fname": "Wings",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x667088b212ce3d06a1b553a7221E1fD19000d9aF"
 			}
@@ -3176,7 +3577,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "WTC",
@@ -3184,7 +3587,8 @@
 		"fname": "Waltonchain",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xb7cB1C96dB6B22b0D3d9536E0108d062BD488F74"
 			}
@@ -3199,7 +3603,9 @@
 		"p2shtype": 5,
 		"wiftype": 156,
 		"txfee": 100000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "XAUR",
@@ -3207,7 +3613,8 @@
 		"fname": "Xarum",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x4DF812F6064def1e5e029f1ca858777CC98D2D81"
 			}
@@ -3223,7 +3630,9 @@
 		"p2shtype": 85,
 		"wiftype": 153,
 		"txfee": 100000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "XMY",
@@ -3234,7 +3643,9 @@
 		"p2shtype": 9,
 		"wiftype": 178,
 		"txfee": 5000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "XOV",
@@ -3242,7 +3653,8 @@
 		"fname": "XOVBank",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x153eD9CC1b792979d2Bde0BBF45CC2A7e436a5F9"
 			}
@@ -3259,7 +3671,9 @@
 		"wiftype": 128,
 		"txversion": 4,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "XSN",
@@ -3272,7 +3686,9 @@
 		"txfee": 10000,
 		"confpath": "USERHOME/.xsncore/xsn.conf",
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "XZC",
@@ -3286,7 +3702,9 @@
 		"mm2": 1,
 		"required_confirmations": 3,
 		"avg_blocktime": 5.65,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "YCE",
@@ -3299,7 +3717,9 @@
 		"txfee": 10000,
 		"txversion": 3,
 		"mm2": 1,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "YLC",
@@ -3307,7 +3727,8 @@
 		"fname": "YoloCash",
 		"rpcport": 80,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x21d5678A62DFe63a47062469Ebb2fAc2817D8832"
 			}
@@ -3323,7 +3744,9 @@
 		"p2shtype": 189,
 		"wiftype": 128,
 		"txfee": 1000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ZEC",
@@ -3342,7 +3765,9 @@
 		"mm2": 1,
 		"required_confirmations": 3,
 		"avg_blocktime": 1.25,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ZEL",
@@ -3354,7 +3779,9 @@
 		"p2shtype": 189,
 		"wiftype": 128,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ZER",
@@ -3373,7 +3800,9 @@
 		"mm2": 1,
 		"required_confirmations": 5,
 		"avg_blocktime": 2,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ZET",
@@ -3384,7 +3813,9 @@
 		"rpcport": 8332,
 		"wiftype": 224,
 		"txfee": 10000,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ZEXO",
@@ -3396,7 +3827,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ZILLA",
@@ -3406,7 +3839,9 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": "UTXO"
+		"protocol": {
+			"type": "UTXO"
+		}
 	},
 	{
 		"coin": "ZRX",
@@ -3416,7 +3851,8 @@
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
-			"ERC20": {
+			"type": "ERC20",
+			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498"
 			}
