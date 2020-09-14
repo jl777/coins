@@ -56,7 +56,10 @@ You need the following info in JSON format added to the [coins](coins) file:
     "txfee": 10000,
     "segwit": true,
     "mm2": 1,
-    "required_confirmations": 2
+    "required_confirmations": 2,
+    "protocol": {
+      "type": "UTXO"
+    }
   }
 ```
 
@@ -72,7 +75,10 @@ You need the following info in JSON format added to the [coins](coins) file:
     "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 2,
-    "requires_notarization": true
+    "requires_notarization": true,
+    "protocol": {
+      "type": "UTXO"
+    }
   }
 ```
 
@@ -92,7 +98,10 @@ You need the following info in JSON format added to the [coins](coins) file:
     "txversion": 7,
     "mm2":1,
     "confpath": "USERHOME/.electra/Electra.conf",
-    "required_confirmations": 10
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "UTXO"
+    }
   }
 ```
 
@@ -104,11 +113,39 @@ You need the following info in JSON format added to the [coins](coins) file:
     "coin": "BAT",
     "name": "basic-attention-token",
     "fname": "Basic Attention Token",
-    "etomic": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
     "rpcport": 80,
     "mm2": 1,
-    "required_confirmations": 3
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+          "platform": "ETH",
+          "contract_address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF"
+      }
+    }
   }
+```
+
+### Example 5 (QRC20 testnet)
+
+```json
+
+{
+  "coin": "QRC20",
+  "pubtype": 120,
+  "p2shtype": 50,
+  "wiftype": 128,
+  "segwit": true,
+  "mm2": 1,
+  "mature_confirmations": 500,
+  "protocol": {
+    "type": "QRC20",
+    "protocol_data": {
+      "platform": "QTUM",
+      "contract_address": "0xd362e096e873eb7907e205fadc6175c6fec7bc44"
+    }
+  }
+}
 ```
 
 ## General parameters
@@ -117,6 +154,7 @@ You need the following info in JSON format added to the [coins](coins) file:
 - `"required_confirmations"` the number of confirmations AtomicDEX will wait for during the swap. Default value is 1. WARNING, this setting affects the security of the atomic swap. 51% attacks (double spending) are a threat and have been succesfully conducted in the past. Read more about it [here](https://komodoplatform.com/51-attack-how-komodo-can-help-prevent-one/). You can find a collection of coins and the theoretical cost of a 51% attack [here](https://www.crypto51.app/). Please be aware that some of the coins supported by AtomicDEX are vulnerable to such attacks, so consider using higher values for them, especially when dealing with high amounts.
 - `"requires_notarization"` tells AtomicDEX to wait for a notarization during the swap. This only works with dPoW coins and `"required_confirmations"` must be set to `2` or higher.
 - `"decimals"` defines the number of digits after the decimal point that should be used to display the orderbook amounts, balance, and the value of inputs to be used in the case of order creation or a `withdraw` transaction. The default value used for a UTXO type coin (Bitcoin Protocol) is `8` and the default value used for a ERC20 Token is `18`. It is very important for this value to be set correctly. For example, if this value was set as `9` for BTC, a command to withdraw `1 BTC` tries to withdraw `10^9` satoshis of Bitcoin, i.e., `10 BTC`
+- `"protocol"` contains the coin protocol `"type"` (UTXO, ETH, etc.) and specific protocol configuration - `"protocol_data"` object that can have arbitrary format. 
 
 ## Bitcoin Protocol specific JSON
 
@@ -137,12 +175,18 @@ You need the following info in JSON format added to the [coins](coins) file:
 - `segwit` - is a boolean value, if set to true, AtomicDEX-API will allow withdrawal to `P2SH` addresses. Will possibly mean full segwit support in the future.
 - `version_group_id` - sets the `version_group_id` used by Zcash (and its forks') transactions. Determined automatically by tx version and `overwintered` if not set.
 - `consensus_branch_id` - sets the `consensus_branch_id` used in Zcash (and its forks') transactions' signature hash calculation. Determined automatically by tx version and `overwintered` if not set.
+- `mature_confirmations` - number of blockchain confirmations required for coinbase output to be considered mature (spendable).
 
 ## Ethereum Protocol specific JSON
 
 - Ethereum protocol specific coin/project add request are the simplest. `"coin"`, `"name"`, and `"fname"` information is same as explained in bitcoin protocol specific json section.
-- `"rpcport"` must remain default for all ERC20 token/coins. Make sure its only specified as `80`.
-- `"etomic"` must be the ERC20 token/coin's [checksummed](https://coincodex.com/article/2078/ethereum-address-checksum-explained/) smart contract address.
+- Protocol `"type"` field: `"ETH"` or `"ERC20"`
+- Protocol `"protocol_data"` field (ERC20 only): `"platform"` - `"ETH"`, `"ETC"` or other Ethereum forks. `"contract_address"` - ERC20 token [checksummed](https://coincodex.com/article/2078/ethereum-address-checksum-explained/) smart contract address.
+
+## QRC20 Protocol specific JSON
+- Supports all fields of UTXO specific config.
+- Protocol `"type"` field: `"QRC20"`.
+- Protocol `"protocol_data"` field: `"platform"` - `"QTUM"` or QTUM forks. `"contract_address"` - QRC20 token smart contract address.
 
 ## 2. Icon file (Required)
 
