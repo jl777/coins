@@ -3080,6 +3080,21 @@
 		}
 	},
 	{
+    "coin": "SPACE",
+    "asset": "SPACE",
+    "fname": "Spacecoin",
+    "rpcport": 35593,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 6,
+    "requires_notarization": false,
+    "avg_blocktime": 0.5,
+    "protocol": {
+			"type": "UTXO"
+    }
+	},
+	{
 		"coin": "SPANK",
 		"name": "spankchain",
 		"fname": "SpankChain",
