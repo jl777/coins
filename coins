@@ -2680,6 +2680,24 @@
 		}
 	},
 	{
+        "coin":"QRC20",
+        "required_confirmations":0,
+        "pubtype":120,
+        "p2shtype":50,
+        "wiftype":128,
+        "segwit":true,
+        "txfee":0,
+        "mm2":1,
+        "mature_confirmations":500,
+        "protocol":{
+            "type":"QRC20",
+            "protocol_data":{
+                "platform":"QTUM",
+                "contract_address":"0xd362e096e873eb7907e205fadc6175c6fec7bc44"
+            }
+          }
+        },
+	{
 		"coin": "QSP",
 		"name": "quantstamp",
 		"fname": "Quantstamp",
