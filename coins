@@ -2173,13 +2173,15 @@
 	{
 		"coin": "MONA",
 		"name": "monacoin",
-		"fname": "Monacoin",
+		"fname": "MonaCoin",
 		"rpcport": 9402,
 		"pubtype": 50,
 		"p2shtype": 5,
 		"wiftype": 176,
-		"txfee": 100000,
+		"txfee": 0,
 		"mm2": 1,
+		"required_confirmations": 5,
+		"avg_blocktime": 1.5,
 		"protocol": {
 			"type": "UTXO"
 		}
@@ -3098,19 +3100,19 @@
 		}
 	},
 	{
-    "coin": "SPACE",
-    "asset": "SPACE",
-    "fname": "Spacecoin",
-    "rpcport": 35593,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 6,
-    "requires_notarization": false,
-    "avg_blocktime": 0.5,
-    "protocol": {
+		"coin": "SPACE",
+		"asset": "SPACE",
+		"fname": "Spacecoin",
+		"rpcport": 35593,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 6,
+		"requires_notarization": false,
+		"avg_blocktime": 0.5,
+		"protocol": {
 			"type": "UTXO"
-    }
+		}
 	},
 	{
 		"coin": "SPANK",
