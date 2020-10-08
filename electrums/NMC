@@ -1,8 +1,7 @@
 [
   {
-    "url": "nmc.bitcoins.sk:50002",
-    "protocol": "SSL",
-    "disable_cert_verification": true,
+    "url": "electrumx1.nmc.bitclc.net:50001",
+    "protocol": "TCP",
     "contact": [
       {
         "github": "https://github.com/namecoin/electrum-nmc/issues"
@@ -10,9 +9,8 @@
     ]
   },
   {
-    "url": "electrum-nmc.le-space.de:50002",
-    "protocol": "SSL",
-    "disable_cert_verification": false,
+    "url": "electrumx2.nmc.bitclc.net:50001",
+    "protocol": "TCP",
     "contact": [
       {
         "github": "https://github.com/namecoin/electrum-nmc/issues"
@@ -20,9 +18,17 @@
     ]
   },
   {
-    "url": "ulrichard.ch:50006",
-    "protocol": "SSL",
-    "disable_cert_verification": false,
+    "url": "electrumx3.nmc.bitclc.net:50001",
+    "protocol": "TCP",
+    "contact": [
+      {
+        "github": "https://github.com/namecoin/electrum-nmc/issues"
+      }
+    ]
+  },
+  {
+    "url": "electrumx4.nmc.bitclc.net:50001",
+    "protocol": "TCP",
     "contact": [
       {
         "github": "https://github.com/namecoin/electrum-nmc/issues"
