@@ -3,9 +3,10 @@
 		"coin": "ARPA",
 		"name": "arpa-chain",
 		"fname": "ARPA Chain",
-		"required_confirmations": 3,
 		"rpcport": 80,
 		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -18,10 +19,10 @@
 		"coin": "AWC",
 		"name": "atomic-wallet-coin",
 		"fname": "Atomic Wallet Coin",
-		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -73,6 +74,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
+		"avg_blocktime": 0.5,
 		"protocol": {
 			"type": "UTXO"
 		}
@@ -81,10 +83,10 @@
 		"coin": "BAT",
 		"name": "basic-attention-token",
 		"fname": "Basic Attention Token",
-		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -221,10 +223,10 @@
 		"coin": "BUSD",
 		"name": "binance-usd",
 		"fname": "Binance USD",
-		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -299,6 +301,7 @@
 		"name": "cryptocom",
 		"fname": "Crypto.com",
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
@@ -328,10 +331,10 @@
 		"coin": "DAI",
 		"name": "multi-collateral-dai",
 		"fname": "Multi-collateral DAI",
-		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -362,6 +365,7 @@
 		"name": "scryinfo",
 		"fname": "Scry.info",
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
@@ -391,6 +395,7 @@
 		"name": "dent",
 		"fname": "Dent Coin",
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
@@ -503,6 +508,7 @@
 		"name": "enjin-coin",
 		"fname": "Enjin Coin",
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
@@ -517,10 +523,10 @@
 		"coin": "ETH",
 		"name": "ethereum",
 		"fname": "Ethereum",
-		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"protocol": {
 			"type": "ETH"
 		}
@@ -622,6 +628,7 @@
 		"name": "holo-token",
 		"fname": "Holo Token",
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
@@ -637,6 +644,7 @@
 		"name": "huobi-token",
 		"fname": "Huobi Token",
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
@@ -789,6 +797,7 @@
 		"name": "chainlink",
 		"fname": "Chainlink",
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
@@ -804,6 +813,7 @@
 		"name": "loopring",
 		"fname": "Loopring",
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"decimals": 18,
 		"rpcport": 80,
 		"mm2": 1,
@@ -852,6 +862,7 @@
 		"name": "decentraland",
 		"fname": "Decentraland",
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
@@ -911,6 +922,7 @@
 		"name": "maker",
 		"fname": "Maker",
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
@@ -956,6 +968,7 @@
 		"name": "movitoken",
 		"fname": "MoviToken",
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
@@ -1035,6 +1048,7 @@
 		"name": "pundi-x",
 		"fname": "Pundi X",
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
@@ -1077,10 +1091,10 @@
 		"coin": "PAX",
 		"name": "paxos",
 		"fname": "Paxos",
-		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -1135,6 +1149,7 @@
 		"name": "power-ledger",
 		"fname": "Power Ledger",
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
@@ -1198,13 +1213,14 @@
 		"name": "augur",
 		"fname": "Augur",
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
 				"platform": "ETH",
-				"contract_address": "0x1985365e9f78359a9B6AD760e32412f4a445E862"
+				"contract_address": "0x221657776846890989a759BA2973e427DfF5C9bB"
 			}
 		}
 	},
@@ -1273,6 +1289,7 @@
 		"name": "single-collateral-dai",
 		"fname": "Single Collateral DAI",
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
@@ -1302,6 +1319,7 @@
 		"name": "care-solve",
 		"fname": "Solve Token",
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
@@ -1391,10 +1409,10 @@
 		"coin": "TUSD",
 		"name": "tusd",
 		"fname": "TrueUSD",
-		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -1407,10 +1425,10 @@
 		"coin": "USDC",
 		"name": "usdc",
 		"fname": "USD Coin",
-		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -1423,10 +1441,10 @@
 		"coin": "VRA",
 		"name": "verasity",
 		"fname": "Verasity",
-		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -1613,6 +1631,7 @@
 		"name": "0x",
 		"fname": "0x",
 		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
 		"protocol": {
