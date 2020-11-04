@@ -58,6 +58,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
+		"avg_blocktime": 1,
 		"protocol": {
 			"type": "UTXO"
 		}
@@ -201,6 +202,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
+		"avg_blocktime": 1,
 		"protocol": {
 			"type": "UTXO"
 		}
@@ -292,6 +294,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
+		"avg_blocktime": 1,
 		"protocol": {
 			"type": "UTXO"
 		}
@@ -464,6 +467,7 @@
 		"overwintered": 1,
 		"mm2": 1,
 		"required_confirmations": 5,
+		"avg_blocktime": 1,
 		"protocol": {
 			"type": "UTXO"
 		}
@@ -619,6 +623,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
+		"avg_blocktime": 1,
 		"protocol": {
 			"type": "UTXO"
 		}
@@ -746,20 +751,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
-		"protocol": {
-			"type": "UTXO"
-		}
-	},
-	{
-		"coin": "KV",
-		"asset": "KV",
-		"fname": "KeyValue",
-		"rpcport": 8299,
-		"txversion": 4,
-		"overwintered": 1,
-		"mm2": 1,
-		"required_confirmations": 2,
-		"requires_notarization": true,
+		"avg_blocktime": 1,
 		"protocol": {
 			"type": "UTXO"
 		}
@@ -882,8 +874,8 @@
 		"overwintered": 1,
 		"mm2": 1,
 		"required_confirmations": 5,
-		"avg_blocktime": 1,
 		"requires_notarization": false,
+		"avg_blocktime": 1,
 		"protocol": {
 			"type": "UTXO"
 		}
@@ -898,6 +890,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
+		"avg_blocktime": 1,
 		"protocol": {
 			"type": "UTXO"
 		}
@@ -989,6 +982,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
+		"avg_blocktime": 1,
 		"protocol": {
 			"type": "UTXO"
 		}
@@ -1401,6 +1395,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
+		"avg_blocktime": 1,
 		"protocol": {
 			"type": "UTXO"
 		}
@@ -1478,6 +1473,7 @@
 		"overwintered": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
+		"avg_blocktime": 1,
 		"protocol": {
 			"type": "UTXO"
 		}
@@ -1522,6 +1518,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
+		"avg_blocktime": 1,
 		"protocol": {
 			"type": "UTXO"
 		}
@@ -1622,6 +1619,7 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
+		"avg_blocktime": 1,
 		"protocol": {
 			"type": "UTXO"
 		}
