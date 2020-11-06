@@ -1235,17 +1235,18 @@
 	},
 	{
 		"coin": "RFOX",
-		"asset": "RFOX",
+		"name": "redfox",
 		"fname": "RedFOX",
-		"rpcport": 32269,
-		"txversion": 4,
-		"overwintered": 1,
+		"rpcport": 80,
 		"mm2": 1,
-		"required_confirmations": 2,
-		"requires_notarization": true,
-		"avg_blocktime": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
 		"protocol": {
-			"type": "UTXO"
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0xa1d6Df714F91DeBF4e0802A542E13067f31b8262"
+			}
 		}
 	},
 	{
