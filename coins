@@ -661,21 +661,6 @@
 		}
 	},
 	{
-		"coin": "HUSH",
-		"asset": "HUSH3",
-		"fname": "Hush",
-		"rpcport": 18031,
-		"txversion": 4,
-		"overwintered": 1,
-		"mm2": 1,
-		"required_confirmations": 2,
-		"requires_notarization": true,
-		"avg_blocktime": 2.5,
-		"protocol": {
-			"type": "UTXO"
-		}
-	},
-	{
 		"coin": "ILN",
 		"asset": "ILN",
 		"fname": "Ilien",

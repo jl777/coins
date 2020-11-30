@@ -1,5 +1,0 @@
-[taker fee (KMD)](https://kmdexplorer.io/tx/54f2ef8f363bd02d9302f3a24861eeae802036c58d49493c6eb696ce645c69b6)  
-[maker payment (HUSH)](https://hush.explorer.dexstats.info/tx/65167ccca57cbc7be2ce907d25574c62bc35f7f04d093b201593a33af371a1ef)  
-[taker payment (KMD)](https://kmdexplorer.io/tx/d993d07d5f5691cbf6c5ad737c89a09a21afa070d7f946ec63a129eaed17ca50)  
-[taker payment spent (KMD)](https://kmdexplorer.io/tx/2ef28cdd2717e613a8840b515ea5b5e0dc18f2e14611c5597ae2e415f6321d99)  
-[maker payment spent (HUSH)](https://hush.explorer.dexstats.info/tx/c561b1a8faebdc8d9a96035e2f65ce5d0634612c830e704c684cd13ad7cac028)  
