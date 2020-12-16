@@ -1687,7 +1687,7 @@
 		}
 	},
 	{
-    "coin": "INK-QRC",
+    "coin": "INK",
     "gui_coin": "INK",
     "name": "qtum",
     "fname": "ink coin",
@@ -1695,6 +1695,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -1709,7 +1711,7 @@
     "decimals": 9
   },
   {
-    "coin": "FENIX-QRC",
+    "coin": "FENIX",
     "gui_coin": "FENIX",
     "name": "qtum",
     "fname": "fenix.cash",
@@ -1717,6 +1719,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -1731,7 +1735,7 @@
     "decimals": 18
   },
   {
-    "coin": "SPC-QRC",
+    "coin": "SPC",
     "gui_coin": "SPC",
     "name": "qtum",
     "fname": "spacecash",
@@ -1739,6 +1743,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -1753,7 +1759,7 @@
     "decimals": 8
   },
   {
-    "coin": "BOT-QRC",
+    "coin": "BOT",
     "gui_coin": "BOT",
     "name": "qtum",
     "fname": "bodhi token",
@@ -1761,6 +1767,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -1775,7 +1783,7 @@
     "decimals": 8
   },
   {
-    "coin": "HPY-QRC",
+    "coin": "HPY",
     "gui_coin": "HPY",
     "name": "qtum",
     "fname": "hyperpay",
@@ -1783,6 +1791,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -1797,7 +1807,7 @@
     "decimals": 8
   },
   {
-    "coin": "AWR-QRC",
+    "coin": "AWR",
     "gui_coin": "AWR",
     "name": "qtum",
     "fname": "aware token",
@@ -1805,6 +1815,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -1819,7 +1831,7 @@
     "decimals": 8
   },
   {
-    "coin": "HLC-QRC",
+    "coin": "HLC",
     "gui_coin": "HLC",
     "name": "qtum",
     "fname": "halal chain",
@@ -1827,6 +1839,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -1841,7 +1855,7 @@
     "decimals": 9
   },
   {
-    "coin": "MED-QRC",
+    "coin": "MED",
     "gui_coin": "MED",
     "name": "qtum",
     "fname": "med token",
@@ -1849,6 +1863,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -1863,7 +1879,7 @@
     "decimals": 8
   },
   {
-    "coin": "LSTR-QRC",
+    "coin": "LSTR",
     "gui_coin": "LSTR",
     "name": "qtum",
     "fname": "luna stars",
@@ -1871,6 +1887,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -1885,7 +1903,7 @@
     "decimals": 8
   },
   {
-    "coin": "QBT-QRC",
+    "coin": "QBT",
     "gui_coin": "QBT",
     "name": "qtum",
     "fname": "qbt",
@@ -1893,6 +1911,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -1907,7 +1927,7 @@
     "decimals": 8
   },
   {
-    "coin": "PLY-QRC",
+    "coin": "PLY",
     "gui_coin": "PLY",
     "name": "qtum",
     "fname": "playcoin",
@@ -1915,6 +1935,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -1929,7 +1951,7 @@
     "decimals": 9
   },
   {
-    "coin": "TSL-QRC",
+    "coin": "TSL",
     "gui_coin": "TSL",
     "name": "qtum",
     "fname": "tesla",
@@ -1937,6 +1959,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -1951,7 +1975,7 @@
     "decimals": 18
   },
   {
-    "coin": "OC-QRC",
+    "coin": "OC",
     "gui_coin": "OC",
     "name": "qtum",
     "fname": "ocash",
@@ -1959,6 +1983,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -1973,7 +1999,7 @@
     "decimals": 8
   },
   {
-    "coin": "ENT-QRC",
+    "coin": "ENT",
     "gui_coin": "ENT",
     "name": "qtum",
     "fname": "entertainment cash",
@@ -1981,6 +2007,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -1995,7 +2023,7 @@
     "decimals": 8
   },
   {
-    "coin": "CFUN-QRC",
+    "coin": "CFUN",
     "gui_coin": "CFUN",
     "name": "qtum",
     "fname": "cfun token",
@@ -2003,6 +2031,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -2017,7 +2047,7 @@
     "decimals": 9
   },
   {
-    "coin": "PUT-QRC",
+    "coin": "PUT",
     "gui_coin": "PUT",
     "name": "qtum",
     "fname": "profile utility token",
@@ -2025,6 +2055,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -2039,7 +2071,7 @@
     "decimals": 8
   },
   {
-    "coin": "EPC-QRC",
+    "coin": "EPC",
     "gui_coin": "EPC",
     "name": "qtum",
     "fname": "epc",
@@ -2047,6 +2079,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -2061,7 +2095,7 @@
     "decimals": 18
   },
   {
-    "coin": "ZAT-QRC",
+    "coin": "ZAT",
     "gui_coin": "ZAT",
     "name": "qtum",
     "fname": "zatgo token",
@@ -2069,6 +2103,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -2083,7 +2119,7 @@
     "decimals": 8
   },
   {
-    "coin": "WID-QRC",
+    "coin": "WID",
     "gui_coin": "WID",
     "name": "qtum",
     "fname": "winechain",
@@ -2091,6 +2127,8 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations":500,
+    "avg_blocktime": 2.133,
+    "txfee": 0,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
