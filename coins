@@ -707,6 +707,22 @@
 			"type": "UTXO"
 		}
 	},
+        {
+		"coin": "KCS",
+		"name": "kucoin-token",
+		"fname": "KuCoin Token",
+		"rpcport": 80,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0xf34960d9d60be18cC1D5Afc1A6F012A723a28811"
+			}
+		}
+	},
 	{
 		"coin": "KMD",
 		"name": "komodo",
