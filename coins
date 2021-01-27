@@ -1,5 +1,21 @@
 [
 	{
+		"coin": "1INCH",
+                "name": "1inch",
+                "fname": "1inch",
+                "rpcport": 80,
+                "mm2": 1,
+                "required_confirmations": 3,
+                "avg_blocktime": 0.25,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0x111111111117dC0aa78b770fA6A738034120C302"
+                        }
+                }
+        },
+	{
 		"coin": "ARPA",
 		"name": "arpa-chain",
 		"fname": "ARPA Chain",
@@ -1416,6 +1432,22 @@
 			"type": "UTXO"
 		}
 	},
+	{
+		"coin": "SUSHI",
+                "name": "sushiswap",
+                "fname": "Sushi",
+                "rpcport": 80,
+                "mm2": 1,
+                "required_confirmations": 3,
+                "avg_blocktime": 0.25,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2"
+                        }
+                }
+        },
 	{
 		"coin": "SYS",
 		"name": "syscoin",
