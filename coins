@@ -3214,24 +3214,6 @@
   "decimals": 18
  },
  {
-  "coin": "HYN",
-  "gui_coin": "HYN",
-  "name": "ethereum",
-  "fname": "hyperion token",
-  "rpcport": 80,
-  "mm2": 1,
-  "required_confirmations": 3,
-  "avg_blocktime": 0.25,
-  "protocol": {
-   "type": "ERC20",
-   "protocol_data": {
-    "platform": "ETH",
-    "contract_address": "0xE99A894a69d7c2e3C92E61B64C505A6a57d2bC07"
-   }
-  },
-  "decimals": 18
- },
- {
   "coin": "XOR",
   "gui_coin": "XOR",
   "name": "ethereum",
