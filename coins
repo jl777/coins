@@ -1403,6 +1403,21 @@
 		}
 	},
 	{
+		"coin": "SOULJA",
+		"asset": "SOULJA",
+		"fname": "SouljaCoin",
+		"rpcport": 53604,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 1,
+		"requires_notarization": false,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
 		"coin": "SPACE",
 		"asset": "SPACE",
 		"fname": "Spacecoin",
@@ -1612,6 +1627,21 @@
 		"mm2": 1,
 		"required_confirmations": 2,
 		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "WSB",
+		"asset": "WSB",
+		"fname": "WallStreetBets",
+		"rpcport": 52043,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 1,
+		"requires_notarization": false,
 		"avg_blocktime": 1,
 		"protocol": {
 			"type": "UTXO"
