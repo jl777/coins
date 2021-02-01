@@ -223,6 +223,25 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "BTCZ",
+                "name": "bitcoinz",
+                "fname": "BitcoinZ",
+                "rpcport": 1979,
+                "taddr": 28,
+                "pubtype": 184,
+                "p2shtype": 189,
+                "wiftype": 128,
+                "txfee": 10000,
+                "txversion": 4,
+                "overwintered": 1,
+                "mm2": 1,
+                "required_confirmations": 5,
+                "avg_blocktime": 2.5,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
 	{
 		"coin": "BTX",
 		"name": "bitcore",
