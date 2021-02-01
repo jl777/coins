@@ -121,6 +121,7 @@
 		"p2shtype": 5,
 		"wiftype": 128,
 		"txfee": 0,
+		"estimate_fee_blocks": 2,
 		"segwit": true,
 		"address_format": {
 			"format": "cashaddress",
