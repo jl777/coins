@@ -1,0 +1,5 @@
+[taker fee (KMD)](http://kmd.explorer.dexstats.info/tx/cdfaf8659a3fd53ff96805b77c0091b4d193e122717574a03226c06d3e49dfba)  
+[maker payment (CLC)](http://clc.explorer.dexstats.info/tx/b4346e2454cc3dd7a310949954badc385a6527360520c29f6f59142b016ac6df)  
+[taker payment (KMD)](http://kmd.explorer.dexstats.info/tx/5203f4327c9eac02c615e550e59cdf53d42cee3ff1b3bc67b9f51ba625a1d63c)  
+[taker payment spent (KMD)](http://kmd.explorer.dexstats.info/tx/9c536a15a944276179779b76b7deefaeb5bea48a147aab98668cf6d4ac6b81d9)  
+[maker payment spent (CLC)](http://clc.explorer.dexstats.info/tx/2f06f5f6fd425d8d5bc83c935fddd869c71c51d5f4d35867bd5dbfbf28ebf60e)  
