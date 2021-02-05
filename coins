@@ -1282,6 +1282,28 @@
 		}
 	},
 	{
+		"coin": "QI",
+		"name": "qtum",
+		"fname": "QiSwap",
+		"rpcport": 3889,
+		"pubtype": 58,
+		"p2shtype": 50,
+		"wiftype": 128,
+		"segwit": true,
+		"txfee": 0,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"mature_confirmations":500,
+		"avg_blocktime": 2.133,
+		"protocol": {
+			"type": "QRC20",
+			"protocol_data": {
+				"platform": "QTUM",
+				"contract_address": "0x54fefdb5b31164f66ddb68becd7bdd864cacd65b"
+			}
+		}
+	},
+	{
 		"coin":"QRC20",
 		"pubtype":120,
 		"p2shtype":50,
