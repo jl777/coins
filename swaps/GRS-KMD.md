@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/9a055de05e83389e5bbbef2fda7b4a58be44d791b1cbad92555f8e3d9c42580e)  
+[maker payment (GRS)](https://blockchair.com/groestlcoin/transaction/327316bc42c5530568978824d0518dbeef6f0db62a9793141fa00f43ea6f01a2)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/0a7e756740e81d8705034555f1e2d880398b1099bbc9483696c019e6913c95d2)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/613bf7bac07e28c1f1cb52f381686bd784d81accf9e5b621c91f8a02f7df7bde)  
+[maker payment spent (GRS)](https://blockchair.com/groestlcoin/transaction/73424ae899e37ee8ede821df65e2b6fc66d58035520ad010a22d7790bc4386cc)  
