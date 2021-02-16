@@ -1299,9 +1299,9 @@
 		}
 	},
 	{
-		"coin": "QIAD",
+		"coin": "QIAIR",
 		"name": "qtum",
-		"fname": "QiSwap",
+		"fname": "Qi Airdrop Token",
 		"rpcport": 3889,
 		"pubtype": 58,
 		"p2shtype": 50,
@@ -1316,7 +1316,29 @@
 			"type": "QRC20",
 			"protocol_data": {
 				"platform": "QTUM",
-				"contract_address": "0xf52150072f31b7ba1985a2145531967b1a5a7cea"
+				"contract_address": "60f33e17d8d2dba280cf85b6c35880dedd8ed728"
+			}
+		}
+	},
+	{
+		"coin": "QI",
+		"name": "qtum",
+		"fname": "Qi Swap",
+		"rpcport": 3889,
+		"pubtype": 58,
+		"p2shtype": 50,
+		"wiftype": 128,
+		"segwit": true,
+		"txfee": 0,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"mature_confirmations":500,
+		"avg_blocktime": 2.133,
+		"protocol": {
+			"type": "QRC20",
+			"protocol_data": {
+				"platform": "QTUM",
+				"contract_address": "54fefdb5b31164f66ddb68becd7bdd864cacd65b"
 			}
 		}
 	},
