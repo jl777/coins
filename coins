@@ -1707,6 +1707,25 @@
 		}
 	},
 	{
+		"coin": "VRM",
+		"name": "veriumreserve",
+		"fname": "Verium Reserve",
+		"rpcport": 33987,
+		"pubtype": 70,
+		"p2shtype": 132,
+		"wiftype": 198,
+		"txfee": 100000,
+		"segwit": false,
+		"force_min_relay_fee": true,
+		"isPoS": 1,
+		"mm2": 1,
+		"confpath": "USERHOME/.verium/verium.conf",
+		"required_confirmations": 6,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
 		"coin": "VRSC",
 		"asset": "VRSC",
 		"fname": "VerusCoin",
