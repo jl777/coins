@@ -1721,6 +1721,7 @@
 		"mm2": 1,
 		"confpath": "USERHOME/.verium/verium.conf",
 		"required_confirmations": 6,
+		"avg_blocktime": 5,
 		"protocol": {
 			"type": "UTXO"
 		}
