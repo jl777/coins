@@ -1,7 +1,6 @@
 [
   {
     "url": "electrum01-vrm.vericonomy.com:50001",
-    "protocol": "TCP",
     "contact": [
       { "email": "dev@vericoin.info" },
       { "twitter": "vericonomy" },
@@ -10,11 +9,10 @@
   },
   {
     "url": "electrum02-vrm.vericonomy.com:50001",
-    "protocol": "TCP",
     "contact": [
       { "email": "dev@vericoin.info" },
       { "twitter": "vericonomy" },
       { "github": "VeriConomy" }
     ]
-  },
+  }
 ]
