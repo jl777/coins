@@ -1,1 +1,47 @@
-[{"rvn.satoshi.org.uk":50001},{"153.126.197.243":50001}]
+[
+  {
+    "url": "electrum1.cipig.net:10051",
+    "contact": [
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
+    ]
+  },
+  {
+    "url": "electrum2.cipig.net:10051",
+    "contact": [
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
+    ]
+  },
+  {
+    "url": "electrum3.cipig.net:10051",
+    "contact": [
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
+    ]
+  },
+  {
+    "url": "electrum1.cipig.net:20051",
+    "protocol": "SSL",
+    "contact": [
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
+    ]
+  },
+  {
+    "url": "electrum2.cipig.net:20051",
+    "protocol": "SSL",
+    "contact": [
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
+    ]
+  },
+  {
+    "url": "electrum3.cipig.net:20051",
+    "protocol": "SSL",
+    "contact": [
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
+    ]
+  }
+]

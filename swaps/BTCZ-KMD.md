@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/56e14abf67359987bd3f310ee6ffa75363190b6ac2890a3b3f0661bb3543e907)  
+[maker payment (BTCZ)](https://explorer.btcz.rocks/tx/e63a19a989f0c061c6084be01eb8a55a6634b789ef9b80c36004e7563e71b2a9)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/1d4c8cced10b0a456e6a2b8ded74829e823c31f95b1d1fceaa3647b4fc82668d)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/0dc1e7fba4cb2bf277b08fc40b72393879d1b5d2abe884ff55eb01b502b9f3c9)  
+[maker payment spent (BTCZ)](https://explorer.btcz.rocks/tx/336041a45b32ea33966ba944e406f839f6d1d5dc85ccd66b291c856a62da911e)  

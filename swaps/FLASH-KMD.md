@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/5d33652649569ad91f24f8e351470f5cb7aeba4fb83fffc0144ec191cb9a15bf)  
+[maker payment (FLASH)](https://explorer.flashcoin.io/tx/cb9515543bd8e052b1e139aff30debd32da9e1a8bbac38cda3aba2794c5a6ba7)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/d984c278c0bac371c73d5ede6fb770fe42580dc425dd72cd382519f29ca9f306)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/6ee98bc2bb390406db8265ce3bccef6ad3348a0dbec08f10cf3a7db4c022acc1)  
+[maker payment spent (FLASH)](https://explorer.flashcoin.io/tx/d7e2a189529df07e9772a644f4ecc7dd7334b62ed0fa7fea9c92bfb95a002613)  

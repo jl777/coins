@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/0acb72fdbe3cd6e251577e74b8aee28b0472faba22ade419b44d662c67c0fee6)  
+[maker payment (VRM)](https://explorer-vrm.vericonomy.com/transaction/545c6739cf05bea53a51ca8ce528f4e7130881b3afcdaf359a9cc2d3e968f8c8)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/ac370ea1d203c43fa3716919375ec42c60fd7fdd8d8b5ef4d199b1724baf475b)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/3851c88628641ecede3e5c88ca5d0defa2e50fe6f0bdcaafad4577bdf84932f8)  
+[maker payment spent (VRM)](https://explorer-vrm.vericonomy.com/transaction/127632c2d7cd0e8016d9ab81d482ff454ad0a9d404469042fb24be3b989fbc2d)  

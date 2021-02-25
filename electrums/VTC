@@ -1,1 +1,20 @@
-[{"fr1.vtconline.org":55001},{"uk1.vtconline.org":55001},{"vtc-cce-1.coinomi.net":5028},{"vtc-cce-2.coinomi.net":5028}]
+[
+  {
+    "url": "fr1.vtconline.org:55001",
+    "protocol": "TCP",
+    "contact": [
+      {
+        "github": "https://github.com/vertcoin-project/electrum-vtc/issues"
+      }
+    ]
+  },
+  {
+    "url": "uk1.vtconline.org:55001",
+    "protocol": "TCP",
+    "contact": [
+      {
+        "github": "https://github.com/vertcoin-project/electrum-vtc/issues"
+      }
+    ]
+  }
+]

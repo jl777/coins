@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/46f51ba2caa6bd907459e39d90af9a0907dd9e6c1106ff1d3d728ab7aae91266)  
+[maker payment (OOT)](https://oot.explorer.dexstats.info/tx/5e78a76237274b8ce504b5fcd1f8340ae177e1a54613fabb17326183cb26e095)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/37518bb85d85b09f2ebef22e8a38005e01be2a0b9a623b326b9eb262c7aa6edb)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/5309ef3b230677cc8eb4dce373bbc3f94a106120c058803f3f9b22256d53a5d6)  
+[maker payment spent (OOT)](https://oot.explorer.dexstats.info/tx/23e28dbcddffab51f8c43e845bd5f4637f2ed6d0f4bcf54c239ad8112136fb85)  

@@ -1,26 +1,53 @@
 [
   {
-    "el0.vrsc.0x03.services": 10000,
+    "url": "el0.verus.io:17485",
     "contact": [
-      {
-        "email": "0x03-ctrlc@protonmail.com"
-      }
+      { "email": "0x03-ctrlc@protonmail.com" },
+      { "discord": "0x03#8822" },
+      { "keybase": "bloodynora"}
     ]
   },
   {
-    "el1.vrsc.0x03.services": 10000,
+    "url": "el0.verus.io:17486",
+    "protocol": "SSL",
     "contact": [
-      {
-        "email": "0x03-ctrlc@protonmail.com"
-      }
+      { "email": "0x03-ctrlc@protonmail.com" },
+      { "discord": "0x03#8822" },
+      { "keybase": "bloodynora"}
     ]
   },
   {
-    "el2.vrsc.0x03.services": 10000,
+    "url": "el1.verus.io:17485",
     "contact": [
-      {
-        "email": "0x03-ctrlc@protonmail.com"
-      }
+      { "email": "0x03-ctrlc@protonmail.com" },
+      { "discord": "0x03#8822" },
+      { "keybase": "bloodynora"}
+    ]
+  },
+  {
+    "url": "el1.verus.io:17486",
+    "protocol": "SSL",
+    "contact": [
+      { "email": "0x03-ctrlc@protonmail.com" },
+      { "discord": "0x03#8822" },
+      { "keybase": "bloodynora"}
+    ]
+  },
+  {
+    "url": "el2.verus.io:17485",
+    "contact": [
+      { "email": "0x03-ctrlc@protonmail.com" },
+      { "discord": "0x03#8822" },
+      { "keybase": "bloodynora"}
+    ]
+  },
+  {
+    "url": "el2.verus.io:17486",
+    "protocol": "SSL",
+    "contact": [
+      { "email": "0x03-ctrlc@protonmail.com" },
+      { "discord": "0x03#8822" },
+      { "keybase": "bloodynora"}
     ]
   }
 ]

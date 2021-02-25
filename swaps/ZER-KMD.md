@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/013f0e4403029974f62d44d15180e155b18ae7130d1ccc05b98aa9b02fb9fed3)  
+[maker payment (ZER)](https://insight.zerocurrency.io/insight/tx/92a0b47263d1c9f683028446a481011ecba8e93c9bb127c436a3cf6b37289f70)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/c5645bb0a4b0d698ac8f1b40fcf429e1ea909a0195503d64ae20b92f0aac226b)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/bf976d20691b86b92761ab450dd0021ff06dd4dfd1915b410741452628da908b)  
+[maker payment spent (ZER)](https://insight.zerocurrency.io/insight/tx/852cb819536b09a7716c0b32d8db72b95426dde0cd80d75c6206f4de89444be3)  

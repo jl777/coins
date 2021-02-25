@@ -1,1 +1,47 @@
-[{"bch.imaginary.cash":50001},{"electroncash.dk":50001},{"electrum.imaginary.cash":50001},{"abc1.hsmiths.com":60001}]
+[
+  {
+    "url": "electrum1.cipig.net:10055",
+    "contact": [
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
+    ]
+  },
+  {
+    "url": "electrum2.cipig.net:10055",
+    "contact": [
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
+    ]
+  },
+  {
+    "url": "electrum3.cipig.net:10055",
+    "contact": [
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
+    ]
+  },
+  {
+    "url": "electrum1.cipig.net:20055",
+    "protocol": "SSL",
+    "contact": [
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
+    ]
+  },
+  {
+    "url": "electrum2.cipig.net:20055",
+    "protocol": "SSL",
+    "contact": [
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
+    ]
+  },
+  {
+    "url": "electrum3.cipig.net:20055",
+    "protocol": "SSL",
+    "contact": [
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
+    ]
+  }
+]

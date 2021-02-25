@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/6716185f326a0ff831d0315cb7d23787073a25e566864661d452ac827925f9cc)  
+[maker payment (CCL)](https://ccl.kmdexplorer.io/tx/848c39b1137ee2975d46679cd6937655839b013fb97e1f1bcab70c9b2bc28ebc)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/e142c9ad1043dba7202210ab988d9d00a345727db0430323d47d9fc8624e39b8)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/72f276b145005515cb870c3e1d687f11534baa8f16d550ccbd47303f8e07dd97)  
+[maker payment spent (CCL)](https://ccl.kmdexplorer.io/tx/eaf11b9b37d2812c335d1045168b442b09bec4ade397d96d8a957c015e18a524)  

@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/86ad19c4d21875371c1e30f89054388ac74953afed635a5066c9fd2616e3aa76)  
+[maker payment (FLO)](https://florincoin.info/tx/21b6d47b7c35393bcc4d5fe21fff781ed0d7ffddd92dd8ed117b1cf3d647ab6c)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/192c3eda714f45d7c0fdabb28efeba9b1bf6965fdcd371bce05704bf98223c09)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/aec04e106fdbbd94741ddb34d8d4e1603763daa494ef7928594838c1b508a221)  
+[maker payment spent (FLO)](https://florincoin.info/tx/18045678f62b2b23c6c1920aed6e832d8ce5f82c6df879ff66bcbed419309832)  
