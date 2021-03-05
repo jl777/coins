@@ -172,8 +172,29 @@
 		"p2shtype": 85,
 		"wiftype": 153,
 		"txfee": 100000,
+		"segwit": false,
 		"mm2": 1,
 		"required_confirmations": 5,
+		"mature_confirmations":500,
+		"avg_blocktime": 1.1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+		{
+		"coin": "tBLK",
+		"name": "blackmore",
+		"fname": "Blackcoin testnet",
+		"isPoS": 1,
+		"rpcport": 25715,
+		"pubtype": 111,
+		"p2shtype": 196,
+		"wiftype": 239,
+		"txfee": 100000,
+		"segwit": false,
+		"mm2": 1,
+		"required_confirmations": 5,
+		"mature_confirmations":10,
 		"avg_blocktime": 1.1,
 		"protocol": {
 			"type": "UTXO"
