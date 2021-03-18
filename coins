@@ -631,6 +631,18 @@
 		}
 	},
 	{
+		"coin": "ETHR",
+		"name": "ethereumropsten",
+		"fname": "Ethereum (Ropsten)",
+		"rpcport": 80,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"protocol": {
+			"type": "ETH"
+		}
+	},
+	{
 		"coin": "FLASH",
 		"name": "flashcoin",
 		"fname": "Flashcoin",
