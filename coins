@@ -1,5 +1,57 @@
 [
 	{
+                "coin": "BNB",
+                "name": "binancesmartchain",
+                "fname": "Ethereum",
+                "avg_blocktime": 0.25,
+                "rpcport": 80,
+                "mm2": 1,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ETH"
+                }
+        },
+        {
+                "coin": "BNBT",
+                "name": "binancesmartchaintest",
+                "fname": "Ethereum",
+                "avg_blocktime": 0.25,
+                "rpcport": 80,
+                "mm2": 1,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ETH"
+                }
+        },
+	{
+		"coin": "ADEXBSCT",
+		"name": "adex_bsc_testnet",
+		"fname": "adex",
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+		    "type": "ERC20",
+		    "protocol_data": {
+			"platform": "BNBT",
+			"contract_address": "0x464Ee03fBfC10f2FC8677Ee87d27bA3FD3aa4B09"
+		    }
+		}
+        },
+	{
+		"coin": "ADEXBSC",
+		"name": "adex_bsc",
+		"fname": "adex",
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+		    "type": "ERC20",
+		    "protocol_data": {
+			"platform": "BNB",
+			"contract_address": "0x28E0685cc4C57a1CCF27090678A34Ebd6a641AC3"
+		    }
+		}
+        },
+	{
 		"coin": "1INCH",
                 "name": "1inch",
                 "fname": "1inch",
