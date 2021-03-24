@@ -1953,6 +1953,22 @@
 		}
 	},
 	{
+		"coin": "XRP-BEP20",
+		"name": "xrp_bep20",
+		"fname": "XRP",
+		"rpcport": 80,
+		"mm2": 1,
+		"avg_blocktime": 0.05,
+		"required_confirmations": 3,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "BNB",
+				"contract_address": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE"
+			}
+		}
+	},
+	{
 		"coin": "YCE",
 		"name": "myce",
 		"fname": "MYCE",
