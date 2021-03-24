@@ -1764,6 +1764,22 @@
 		}
 	},
 	{
+		"coin": "USDT-BEP20",
+		"name": "usdt_bep20",
+		"fname": "Tether",
+		"rpcport": 80,
+		"mm2": 1,
+		"avg_blocktime": 0.05,
+		"required_confirmations": 3,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "BNB",
+				"contract_address": "0x55d398326f99059fF775485246999027B3197955"
+			}
+		}
+	},
+	{
 		"coin": "VRA",
 		"name": "verasity",
 		"fname": "Verasity",

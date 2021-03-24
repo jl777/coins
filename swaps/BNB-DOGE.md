@@ -1,0 +1,5 @@
+[taker fee (DOGE)](https://blockchair.com/dogecoin/transaction/c699fbbd4de3e1271b89028ccc265acba910dafbaa3884eb3fa23da40fad1ec1)  
+[maker payment (BNB)](https://bscscan.com/tx/0x09046a54eb8bbd1d8e6d2ffe1ab5cffb0af6a4ff23e3c88a09eb4714b464747d)  
+[taker payment (DOGE)](https://blockchair.com/dogecoin/transaction/636de37f16b9d813dce72bbaba40bab6c74942622a480568d11cf3920edf94ad)  
+[taker payment spent (DOGE)](https://blockchair.com/dogecoin/transaction/284b64c04c04b99ebce74c55db912bf80bdef6e87d1fbd0a640b4cb8e65314d5)  
+[maker payment spent (BNB)](https://bscscan.com/tx/0x11e75482bb491732bd5ee9d35b43e391bf97108e5c3322a6d3184e3a02e66c40)  
