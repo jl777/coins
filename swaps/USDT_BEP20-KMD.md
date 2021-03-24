@@ -1,5 +1,5 @@
 [taker fee (KMD)](https://kmdexplorer.io/tx/a3bfb0a5c84763e9498dfcd4e404d9bcfb3fc2a9211b2f5cf95354cd59377634)  
-[maker payment (USDT)](https://bscscan.com/tx/0xb52baf9336e02beb6469b13119566985105c8e26325685d4920b0d75bb07a386)  
+[maker payment (USDT-BEP20)](https://bscscan.com/tx/0xb52baf9336e02beb6469b13119566985105c8e26325685d4920b0d75bb07a386)  
 [taker payment (KMD)](https://kmdexplorer.io/tx/0b9456a51c7bc00fc36739890a11dea90677f58a1cd0b964d4428dd1e6ed20ae)  
 [taker payment spent (KMD)](https://kmdexplorer.io/tx/12a49b25dd42bfd51b3615ca7bd1491f0800090648c7dedfef36c631591a34cf)  
-[maker payment spent (USDT)](https://bscscan.com/tx/0x8e2a1714699c9b134de0e46694f2bd1d50d815df8459f0044d47446c6f05d5c2)  
+[maker payment spent (USDT-BEP20)](https://bscscan.com/tx/0x8e2a1714699c9b134de0e46694f2bd1d50d815df8459f0044d47446c6f05d5c2)  
