@@ -1341,9 +1341,9 @@
 		}
 	},
 	{
-		"coin": "PAX",
-		"name": "paxos",
-		"fname": "Paxos",
+		"coin": "PAX-ERC20",
+		"name": "pax_erc20",
+		"fname": "Paxos Standard",
 		"rpcport": 80,
 		"mm2": 1,
 		"required_confirmations": 3,
@@ -1353,6 +1353,55 @@
 			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1"
+			}
+		}
+	},
+	{
+		"coin": "PAX-BEP20",
+		"name": "pax_bep20",
+		"fname": "Paxos Standard",
+		"rpcport": 80,
+		"mm2": 1,
+		"avg_blocktime": 0.05,
+		"required_confirmations": 3,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "BNB",
+				"contract_address": "0xb7F8Cd00C5A06c0537E2aBfF0b58033d02e5E094"
+			}
+		}
+	},
+	{
+		"coin": "PAXG-BEP20",
+		"name": "paxg_bep20",
+		"fname": "PAX Gold",
+		"rpcport": 80,
+		"mm2": 1,
+		"avg_blocktime": 0.05,
+		"required_confirmations": 3,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "BNB",
+				"contract_address": "0x7950865a9140cB519342433146Ed5b40c6F210f7"
+			}
+		}
+	},
+	{
+		"coin": "PAXG-ERC20",
+		"name": "paxg_erc20",
+		"fname": "PAX Gold",
+		"rpcport": 80,
+		"mm2": 1,
+		"avg_blocktime": 0.25,
+		"required_confirmations": 3,
+		"decimals": 18
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x45804880De22913dAFE09f4980848ECE6EcbAf78"
 			}
 		}
 	},
@@ -1812,8 +1861,8 @@
 		}
 	},
 	{
-		"coin": "USDC",
-		"name": "usdc",
+		"coin": "USDC-ERC20",
+		"name": "usdc_erc20",
 		"fname": "USD Coin",
 		"rpcport": 80,
 		"mm2": 1,
@@ -1824,6 +1873,22 @@
 			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+			}
+		}
+	},
+	{
+		"coin": "USDC-BEP20",
+		"name": "usdc_bep20",
+		"fname": "USD Coin",
+		"rpcport": 80,
+		"mm2": 1,
+		"avg_blocktime": 0.05,
+		"required_confirmations": 3,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "BNB",
+				"contract_address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
 			}
 		}
 	},
@@ -3340,24 +3405,6 @@
    "protocol_data": {
     "platform": "ETH",
     "contract_address": "0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83"
-   }
-  },
-  "decimals": 18
- },
- {
-  "coin": "PAXG",
-  "gui_coin": "PAXG",
-  "name": "ethereum",
-  "fname": "paxos gold",
-  "rpcport": 80,
-  "mm2": 1,
-  "required_confirmations": 3,
-  "avg_blocktime": 0.25,
-  "protocol": {
-   "type": "ERC20",
-   "protocol_data": {
-    "platform": "ETH",
-    "contract_address": "0x45804880De22913dAFE09f4980848ECE6EcbAf78"
    }
   },
   "decimals": 18
