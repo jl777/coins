@@ -286,6 +286,22 @@
 		}
 	},
 	{
+		"coin": "BTC-BEP20",
+		"name": "btc_bep20",
+		"fname": "Bitcoin",
+		"rpcport": 80,
+		"mm2": 1,
+		"avg_blocktime": 0.05,
+		"required_confirmations": 3,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "BNB",
+				"contract_address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c"
+			}
+		}
+	},
+	{
 		"coin": "BTCH",
 		"asset": "BTCH",
 		"fname": "Bitcoin Hush",
@@ -712,6 +728,22 @@
 		"avg_blocktime": 0.25,
 		"protocol": {
 			"type": "ETH"
+		}
+	},
+	{
+		"coin": "ETH-BEP20",
+		"name": "eth_bep20",
+		"fname": "Ethereum",
+		"rpcport": 80,
+		"mm2": 1,
+		"avg_blocktime": 0.05,
+		"required_confirmations": 3,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "BNB",
+				"contract_address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8"
+			}
 		}
 	},
 	{
