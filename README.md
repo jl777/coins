@@ -65,7 +65,7 @@ You need the following info in JSON format added to the [coins](coins) file:
         }
 ```
 
-### Example 2 (Komodo smartchain)
+### Example 2 (KMD smartchain)
 
 ```json
         {
@@ -127,25 +127,31 @@ You need the following info in JSON format added to the [coins](coins) file:
         },
 ```
 
-### Example 5 (QRC20 testnet)
+### Example 5 (QRC20 token)
 
 ```json
-{
-  "coin": "QRC20",
-  "pubtype": 120,
-  "p2shtype": 50,
-  "wiftype": 128,
-  "segwit": true,
-  "mm2": 1,
-  "mature_confirmations": 500,
-  "protocol": {
-    "type": "QRC20",
-    "protocol_data": {
-      "platform": "QTUM",
-      "contract_address": "0xd362e096e873eb7907e205fadc6175c6fec7bc44"
-    }
-  }
-}
+        {
+                "coin": "QC",
+                "name": "qtum",
+                "fname": "Qcash",
+                "rpcport": 3889,
+                "pubtype": 58,
+                "p2shtype": 50,
+                "wiftype": 128,
+                "segwit": true,
+                "txfee": 0,
+                "mm2": 1,
+                "required_confirmations": 3,
+                "mature_confirmations":500,
+                "avg_blocktime": 2.133,
+                "protocol": {
+                        "type": "QRC20",
+                        "protocol_data": {
+                                "platform": "QTUM",
+                                "contract_address": "0xf2033ede578e17fa6231047265010445bca8cf1c"
+                        }
+                }
+        }
 ```
 
 ## General parameters
