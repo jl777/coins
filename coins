@@ -430,6 +430,22 @@
                         }
                 }
         },
+        {
+                "coin": "CAKE",
+                "name": "cake",
+                "fname": "PancakeSwap",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+                        }
+                }
+        },
 	{
 		"coin": "CCL",
 		"asset": "CCL",
@@ -2191,6 +2207,22 @@
 			}
 		}
 	},
+        {
+                "coin": "XTZ-BEP20",
+                "name": "xtz_bep20",
+                "fname": "Tezos",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x16939ef78684453bfDFb47825F8a5F714f12623a"
+                        }
+                }
+        },
 	{
 		"coin": "YCE",
 		"name": "myce",
