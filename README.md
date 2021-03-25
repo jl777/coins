@@ -42,94 +42,94 @@ If you have any questions, please ask in the `#support` channel in [our Discord 
 ## 1. Coin info added to `coins` file (Required)
 You need the following info in JSON format added to the [coins](coins) file:
 
-### Example 1
+### Example 1 (UTXO coin)
 
 ```json
-  {
-    "coin": "LTC",
-    "name": "litecoin",
-    "fname": "Litecoin",
-    "rpcport": 9332,
-    "pubtype": 48,
-    "p2shtype": 50,
-    "wiftype": 176,
-    "txfee": 10000,
-    "segwit": true,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "protocol": {
-      "type": "UTXO"
-    }
-  }
+        {
+                "coin": "LTC",
+                "name": "litecoin",
+                "fname": "Litecoin",
+                "rpcport": 9332,
+                "pubtype": 48,
+                "p2shtype": 50,
+                "wiftype": 176,
+                "txfee": 0,
+                "dust": 5460,
+                "segwit": true,
+                "mm2": 1,
+                "required_confirmations": 2,
+                "avg_blocktime": 2.5,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        }
 ```
 
-### Example 2
+### Example 2 (Komodo smartchain)
 
 ```json
-  {
-    "coin": "RFOX",
-    "asset": "RFOX",
-    "fname": "RedFOX",
-    "rpcport": 32269,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": true,
-    "protocol": {
-      "type": "UTXO"
-    }
-  }
+        {
+                "coin": "MCL",
+                "asset": "MCL",
+                "fname": "MarmaraCreditLoops",
+                "rpcport": 33825,
+                "txversion": 4,
+                "overwintered": 1,
+                "mm2": 1,
+                "required_confirmations": 5,
+                "requires_notarization": false,
+                "avg_blocktime": 1,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        }
 ```
 
-### Example 3
+### Example 3 (ERC20 token)
 
 ```json
-
-  {
-    "coin": "ECA",
-    "name": "electra",
-    "fname": "Electra",
-    "rpcport": 5788,
-    "pubtype": 33,
-    "p2shtype": 40,
-    "wiftype": 161,
-    "txfee": 10000,
-    "txversion": 7,
-    "mm2":1,
-    "confpath": "USERHOME/.electra/Electra.conf",
-    "required_confirmations": 10,
-    "protocol": {
-      "type": "UTXO"
-    }
-  }
+        {
+                "coin": "USDC-ERC20",
+                "name": "usdc_erc20",
+                "fname": "USD Coin",
+                "rpcport": 80,
+                "mm2": 1,
+                "required_confirmations": 3,
+                "avg_blocktime": 0.25,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+                        }
+                }
+        }
 ```
 
-### Example 4
+### Example 4 (BEP20 token)
 
 ```json
-
-  {
-    "coin": "BAT",
-    "name": "basic-attention-token",
-    "fname": "Basic Attention Token",
-    "rpcport": 80,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-          "platform": "ETH",
-          "contract_address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF"
-      }
-    }
-  }
+        {
+                "coin": "USDC-BEP20",
+                "name": "usdc_bep20",
+                "fname": "USD Coin",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+                        }
+                }
+        },
 ```
 
 ### Example 5 (QRC20 testnet)
 
 ```json
-
 {
   "coin": "QRC20",
   "pubtype": 120,
@@ -150,6 +150,8 @@ You need the following info in JSON format added to the [coins](coins) file:
 
 ## General parameters
 
+- `"coin"` must be coin ticker. If the coin is on more than one chain, please use `COIN-CHAIN` as ticker, eg `USDC-BEP20`. 
+- `"fname"` must be coin's full name.
 - `"mm2"` all the coins that were successfully atomic swapped through the AtomicDEX-API have this key set to `1` (you have to set this parameter to `1` in your local coins file when testing)
 - `"required_confirmations"` the number of confirmations AtomicDEX will wait for during the swap. Default value is 1. WARNING, this setting affects the security of the atomic swap. 51% attacks (double spending) are a threat and have been succesfully conducted in the past. Read more about it [here](https://komodoplatform.com/51-attack-how-komodo-can-help-prevent-one/). You can find a collection of coins and the theoretical cost of a 51% attack [here](https://www.crypto51.app/). Please be aware that some of the coins supported by AtomicDEX are vulnerable to such attacks, so consider using higher values for them, especially when dealing with high amounts.
 - `"requires_notarization"` tells AtomicDEX to wait for a notarization during the swap. This only works with dPoW coins and `"required_confirmations"` must be set to `2` or higher.
@@ -158,10 +160,8 @@ You need the following info in JSON format added to the [coins](coins) file:
 
 ## Bitcoin Protocol specific JSON
 
-- `"coin"` must be coin ticker.
 - `"name"` must be coin's name, in all small letters. This is the value which is expected to be default data directory name for that coin. Example if coin's name is `litecoin` then it's expected data directory on Linux is `~/.litecoin/`, on Mac `~/Library/Applications Support/Litecoin/`, on Windows `%AppData%\Litecoin`. Please keep this key's value in small letters only.
 - `"confpath"` must be ONLY used in case the expected data directory name of the coin/project is different to the `"name"`'s value, as explained in last point. Please refer to [Example 3](#example-3) for better understanding. Make sure to use the exact format for `confpath`. You don't need to change the word `USERHOME`, it remains as is. Make sure you have `/.` after `USERHOME`. And then the expected coin/project's data directory path and it's expected `.conf` file name.
-- `"fname"` must be coin's full name.
 - `"rpcport"` must be coin's default RPC port. It is expected that it doesn't conflict with any existing coin in the coins db.
 - `"pubtype"`, `"p2shtype"`, and `"wiftype"` is the also very specific information about coin's parameters. This is specific to Bitcoin Protocol compatible coins only, and such information can be found in source code of the project. These parameters information can be expected in files like `src/init.cpp`, `src/base58.h`, and `src/chainparamsbase.h` if the project is following the **bitcoin** source code directory/files structure. If the parameters info is unclear then please have these confirmed by that coin/project's developers and make sure it's correct information.
 - `"txfee"` is a value of default transactions fee, which must be specified in satoshies unit. AtomicDEX uses this as the default transaction fee value when making atomic swaps transactions. If set to `0`, AtomicDEX will use a dynamic fee based on output from `estimatesmartfee`.
