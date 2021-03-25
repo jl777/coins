@@ -99,6 +99,22 @@
 			}
 		}
 	},
+        {
+                "coin": "ATOM-BEP20",
+                "name": "atom_bep20",
+                "fname": "Cosmos",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x0Eb3a705fc54725037CC9e008bDede697f62F335"
+                        }
+                }
+        },
 	{
 		"coin": "AWC",
 		"name": "atomic-wallet-coin",
@@ -766,6 +782,22 @@
 			}
 		}
 	},
+        {
+                "coin": "EOS-BEP20",
+                "name": "eos_bep20",
+                "fname": "EOS",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6"
+                        }
+                }
+        },
 	{
 		"coin": "ETH",
 		"name": "ethereum",
