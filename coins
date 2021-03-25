@@ -949,6 +949,20 @@
 		}
 	},
 	{
+		"coin": "JSTR",
+		"name": "JSTR",
+		"fname": "JST Ropsten (TESTCOIN)",
+		"mm2": 1,
+		"rpcport": 80,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETHR",
+				"contract_address": "0xc0eb7AeD740E1796992A08962c15661bDEB58003"
+			}
+		}
+	},
+	{
 		"coin": "JUMBLR",
 		"asset": "JUMBLR",
 		"fname": "JUMBLR",
