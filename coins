@@ -150,8 +150,8 @@
 		}
 	},
 	{
-		"coin": "BAT",
-		"name": "basic-attention-token",
+		"coin": "BAT-ERC20",
+		"name": "bat_erc20",
 		"fname": "Basic Attention Token",
 		"rpcport": 80,
 		"mm2": 1,
@@ -162,6 +162,22 @@
 			"protocol_data": {
 				"platform": "ETH",
 				"contract_address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF"
+			}
+		}
+	},
+	{
+		"coin": "BAT-BEP20",
+		"name": "bat_bep20",
+		"fname": "Basic Attention Token",
+		"rpcport": 80,
+		"mm2": 1,
+		"avg_blocktime": 0.05,
+		"required_confirmations": 3,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "BNB",
+				"contract_address": "0x101d82428437127bF1608F699CD651e6Abf9766E"
 			}
 		}
 	},
@@ -1013,6 +1029,22 @@
 		}
 	},
 	{
+		"coin": "KMD-BEP20",
+		"name": "kmd_bep20",
+		"fname": "Komodo",
+		"rpcport": 80,
+		"mm2": 1,
+		"avg_blocktime": 0.05,
+		"required_confirmations": 3,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "BNB",
+				"contract_address": "0x2003f7ba57Ea956B05B85C60B4B2Ceea9b111256"
+			}
+		}
+	},
+	{
 		"coin": "KOIN",
 		"asset": "KOIN",
 		"fname": "Koinon",
@@ -1460,7 +1492,7 @@
 		"overwintered": 1,
 		"mm2": 1,
 		"required_confirmations": 2,
-		"requires_notarization": true,
+		"requires_notarization": false,
 		"protocol": {
 			"type": "UTXO"
 		}
@@ -1859,8 +1891,8 @@
 		}
 	},
 	{
-		"coin": "TUSD",
-		"name": "tusd",
+		"coin": "TUSD-ERC20",
+		"name": "tusd_erc20",
 		"fname": "TrueUSD",
 		"rpcport": 80,
 		"mm2": 1,
