@@ -1,4 +1,20 @@
 [
+        {
+                "coin": "ADA-BEP20",
+                "name": "ada_bep20",
+                "fname": "Cardano",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47"
+                        }
+                }
+        },
 	{
                 "coin": "BNB",
                 "name": "binancesmartchain",
@@ -667,6 +683,22 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "DOT-BEP20",
+                "name": "dot_bep20",
+                "fname": "Polkadot",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402"
+                        }
+                }
+        },
 	{
 		"coin": "DP",
 		"asset": "DP",
