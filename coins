@@ -2057,6 +2057,24 @@
 		}
 	},
 	{
+		"coin": "SCA",
+		"name": "scalaris",
+		"fname": "Scalaris",
+		"rpcport": 42510,
+		"txversion": 1,
+		"pubtype": 63,
+		"p2shtype": 23,
+		"wiftype": 154,
+		"txfee": 20000,
+		"segwit": false,
+		"required_confirmations": 3,
+		"avg_blocktime": 1,
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
 		"coin": "tBTC",
 		"name": "tbitcoin",
 		"fname": "tBitcoin",

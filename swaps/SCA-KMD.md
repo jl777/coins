@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/8c25540f528999d8ad666ee879262ddb9f24ee4ac5f01380be1a4cea6cc89dad)  
+[maker payment (SCA)](https://explorer.scalaris.info/tx/175a2b72f52017b0226574603ac41fe3296182d7453e2850005e74d4c51e0d69)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/e51c74f6cc6c74b50a40ce568daace9481a521bf0eb6a304071a7628819659d6)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/43c7d71958732191c693bf5c4b97114641d8e425a7ad0c7212fb63238926a68a)  
+[maker payment spent (SCA)](https://explorer.scalaris.info/tx/e1fdbb824fbe2f75aaab462041383441c1887d2cdf05364b9529d02c6678e647)  
