@@ -541,6 +541,39 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "COMP-BEP20",
+                "name": "comp_bep20",
+                "fname": "Compound",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8"
+                        }
+                }
+        },
+        {
+                "coin": "COMP-ERC20",
+                "name": "comp_erc20",
+                "fname": "Compound",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "decimals": 18,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0xc00e94Cb662C3520282E6f5717214004A7f26888"
+                        }
+                }
+        },
 	{
 		"coin": "COQUI",
 		"asset": "COQUICASH",
@@ -1896,6 +1929,39 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "SNX-BEP20",
+                "name": "snx_bep20",
+                "fname": "Synthetix",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x9Ac983826058b8a9C7Aa1C9171441191232E8404"
+                        }
+                }
+        },
+        {
+                "coin": "SNX-ERC20",
+                "name": "snx_erc20",
+                "fname": "Synthetix",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "decimals": 18,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F"
+                        }
+                }
+        },
 	{
 		"coin": "SOLVE",
 		"name": "care-solve",
@@ -2990,24 +3056,6 @@
 		}
 	},
  {
-  "coin": "SNX",
-  "gui_coin": "SNX",
-  "name": "ethereum",
-  "fname": "synthetix network token",
-  "rpcport": 80,
-  "mm2": 1,
-  "required_confirmations": 3,
-  "avg_blocktime": 0.25,
-  "protocol": {
-   "type": "ERC20",
-   "protocol_data": {
-    "platform": "ETH",
-    "contract_address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F"
-   }
-  },
-  "decimals": 18
- },
- {
   "coin": "UMA",
   "gui_coin": "UMA",
   "name": "ethereum",
@@ -3021,24 +3069,6 @@
    "protocol_data": {
     "platform": "ETH",
     "contract_address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828"
-   }
-  },
-  "decimals": 18
- },
- {
-  "coin": "COMP",
-  "gui_coin": "COMP",
-  "name": "ethereum",
-  "fname": "compound",
-  "rpcport": 80,
-  "mm2": 1,
-  "required_confirmations": 3,
-  "avg_blocktime": 0.25,
-  "protocol": {
-   "type": "ERC20",
-   "protocol_data": {
-    "platform": "ETH",
-    "contract_address": "0xc00e94Cb662C3520282E6f5717214004A7f26888"
    }
   },
   "decimals": 18
