@@ -1,20 +1,4 @@
 [
-        {
-                "coin": "ADA-BEP20",
-                "name": "ada_bep20",
-                "fname": "Cardano",
-                "rpcport": 80,
-                "mm2": 1,
-                "avg_blocktime": 0.05,
-                "required_confirmations": 3,
-                "protocol": {
-                        "type": "ERC20",
-                        "protocol_data": {
-                                "platform": "BNB",
-                                "contract_address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47"
-                        }
-                }
-        },
 	{
                 "coin": "BNB",
                 "name": "binancesmartchain",
@@ -80,6 +64,55 @@
                         "protocol_data": {
                                 "platform": "ETH",
                                 "contract_address": "0x111111111117dC0aa78b770fA6A738034120C302"
+                        }
+                }
+        },
+        {
+                "coin": "AAVE-BEP20",
+                "name": "aave_bep20",
+                "fname": "Aave",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xfb6115445Bff7b52FeB98650C87f44907E58f802"
+                        }
+                }
+        },
+        {
+                "coin": "AAVE-ERC20",
+                "name": "aave_erc20",
+                "fname": "Aave",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "decimals": 18
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+                        }
+                }
+        },
+        {
+                "coin": "ADA-BEP20",
+                "name": "ada_bep20",
+                "fname": "Cardano",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47"
                         }
                 }
         },
@@ -1168,8 +1201,8 @@
 		}
 	},
 	{
-		"coin": "LINK",
-		"name": "chainlink",
+		"coin": "LINK-ERC20",
+		"name": "link_erc20",
 		"fname": "Chainlink",
 		"required_confirmations": 3,
 		"avg_blocktime": 0.25,
@@ -1183,6 +1216,22 @@
 			}
 		}
 	},
+        {
+                "coin": "LINK-BEP20",
+                "name": "link_bep20",
+                "fname": "Chainlink",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD"
+                        }
+                }
+        },
 	{
 		"coin": "LRC",
 		"name": "loopring",
@@ -2888,24 +2937,6 @@
    }
   },
   "decimals": 4
- },
- {
-  "coin": "AAVE",
-  "gui_coin": "AAVE",
-  "name": "ethereum",
-  "fname": "aave token",
-  "rpcport": 80,
-  "mm2": 1,
-  "required_confirmations": 3,
-  "avg_blocktime": 0.25,
-  "protocol": {
-   "type": "ERC20",
-   "protocol_data": {
-    "platform": "ETH",
-    "contract_address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
-   }
-  },
-  "decimals": 18
  },
  {
   "coin": "YFI",
