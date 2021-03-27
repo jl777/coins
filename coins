@@ -2042,20 +2042,23 @@
                         }
                 }
         },
-	{
-		"coin": "SYS",
-		"name": "syscoin",
-		"fname": "Syscoin",
-		"rpcport": 8370,
-		"pubtype": 63,
-		"p2shtype": 5,
-		"wiftype": 128,
-		"txfee": 10000,
-		"mm2": 1,
-		"protocol": {
-			"type": "UTXO"
-		}
-	},
+        {
+                "coin": "SYS",
+                "name": "syscoin",
+                "fname": "Syscoin",
+                "rpcport": 8370,
+                "pubtype": 63,
+                "p2shtype": 5,
+                "wiftype": 128,
+                "txfee": 10000,
+                "segwit": true,
+                "required_confirmations": 5,
+                "avg_blocktime": 1,
+                "mm2": 1,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
 	{
 		"coin": "SCA",
 		"name": "scalaris",
