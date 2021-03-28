@@ -897,6 +897,22 @@
                         }
                 }
         },
+        {
+                "coin": "ETC-BEP20",
+                "name": "etc_bep20",
+                "fname": "Ethereum Classic",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x3d6545b08693daE087E957cb1180ee38B9e3c25E"
+                        }
+                }
+        },
 	{
 		"coin": "ETH",
 		"name": "ethereum",
