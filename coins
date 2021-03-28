@@ -1113,6 +1113,22 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "IOTX-BEP20",
+                "name": "iotx_bep20",
+                "fname": "IoTeX",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x9678E42ceBEb63F23197D726B29b1CB20d0064E5"
+                        }
+                }
+        },
 	{
 		"coin": "JST",
 		"name": "JST",
