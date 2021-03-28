@@ -1586,6 +1586,22 @@
 			}
 		}
 	},
+        {
+                "coin": "ONT-BEP20",
+                "name": "ont_bep20",
+                "fname": "Ontology",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xFd7B3A77848f1C2D67E05E54d78d174a0C850335"
+                        }
+                }
+        },
 	{
 		"coin": "OOT",
 		"asset": "OOT",
