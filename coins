@@ -2077,6 +2077,39 @@
                 }
         },
         {
+                "coin": "SXP-BEP20",
+                "name": "sxp_bep20",
+                "fname": "Swipe",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x47BEAd2563dCBf3bF2c9407fEa4dC236fAbA485A"
+                        }
+                }
+        },
+        {
+                "coin": "SXP-ERC20",
+                "name": "sxp_erc20",
+                "fname": "Swipe",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "decimals": 18,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9"
+                        }
+                }
+        },
+        {
                 "coin": "SYS",
                 "name": "syscoin",
                 "fname": "Syscoin",
@@ -2413,6 +2446,72 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "YFI-BEP20",
+                "name": "yfi_bep20",
+                "fname": "yearn.finance",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x88f1A5ae2A3BF98AEAF342D26B30a79438c9142e"
+                        }
+                }
+        },
+        {
+                "coin": "YFI-ERC20",
+                "name": "yfi_erc20",
+                "fname": "yearn.finance",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "decimals": 18,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e"
+                        }
+                }
+        },
+        {
+                "coin": "YFII-BEP20",
+                "name": "yfii_bep20",
+                "fname": "DFI.Money",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x7F70642d88cf1C4a3a7abb072B53B929b653edA5"
+                        }
+                }
+        },
+        {
+                "coin": "YFII-ERC20",
+                "name": "yfii_erc20",
+                "fname": "DFI.Money",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "decimals": 18,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83"
+                        }
+                }
+        },
 	{
 		"coin": "ZEC",
 		"name": "zcash",
@@ -3083,24 +3182,6 @@
 	        },
                 "decimals": 4
         },
-        {
-                "coin": "YFI",
-                "gui_coin": "YFI",
-                "name": "ethereum",
-                "fname": "yearn.finance",
-                "rpcport": 80,
-                "mm2": 1,
-                "required_confirmations": 3,
-                "avg_blocktime": 0.25,
-                "protocol": {
-                        "type": "ERC20",
-                        "protocol_data": {
-                                "platform": "ETH",
-                                "contract_address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e"
-                        }
-		},
-                "decimals": 18
-        },
 	{
 		"coin": "UNI-ERC20",
 		"name": "uni_erc20",
@@ -3635,24 +3716,6 @@
                 "decimals": 18
         },
         {
-                "coin": "SXP",
-                "gui_coin": "SXP",
-                "name": "ethereum",
-                "fname": "swipe",
-                "rpcport": 80,
-                "mm2": 1,
-                "required_confirmations": 3,
-                "avg_blocktime": 0.25,
-                "protocol": {
-                        "type": "ERC20",
-                        "protocol_data": {
-                                "platform": "ETH",
-                                "contract_address": "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9"
-                        }
-	        },
-                "decimals": 18
-        },
-        {
                 "coin": "UBT",
                 "gui_coin": "UBT",
                 "name": "ethereum",
@@ -3684,24 +3747,6 @@
                         "protocol_data": {
                                 "platform": "ETH",
                                 "contract_address": "0x3506424F91fD33084466F402d5D97f05F8e3b4AF"
-                        }
-	        },
-                "decimals": 18
-        },
-        {
-                "coin": "YFII",
-                "gui_coin": "YFII",
-                "name": "ethereum",
-                "fname": "yfii.finance",
-                "rpcport": 80,
-                "mm2": 1,
-                "required_confirmations": 3,
-                "avg_blocktime": 0.25,
-                "protocol": {
-                        "type": "ERC20",
-                        "protocol_data": {
-                                "platform": "ETH",
-                                "contract_address": "0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83"
                         }
 	        },
                 "decimals": 18
