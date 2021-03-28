@@ -1539,6 +1539,22 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "NEAR-BEP20",
+                "name": "near_bep20",
+                "fname": "NEAR Protocol",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x1Fa4a73a3F0133f0025378af00236f3aBDEE5D63"
+                        }
+                }
+        },
 	{
 		"coin": "NIX",
 		"name": "nix",
