@@ -764,22 +764,39 @@
 			"type": "UTXO"
 		}
 	},
-	{
-		"coin": "DODO",
-		"name": "dodo",
-		"fname": "DODO",
-		"rpcport": 80,
-		"mm2": 1,
-		"required_confirmations": 3,
-		"avg_blocktime": 0.25,
-		"protocol": {
-			"type": "ERC20",
-			"protocol_data": {
-				"platform": "ETH",
-				"contract_address": "0x43Dfc4159D86F3A37A5A4B3D4580b888ad7d4DDd"
-			}
-		}
-	},
+        {
+                "coin": "DODO-BEP20",
+                "name": "dodo_bep20",
+                "fname": "DODO",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2"
+                        }
+                }
+        },
+        {
+                "coin": "DODO-ERC20",
+                "name": "dodo_erc20",
+                "fname": "DODO",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "decimals": 18,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0x43Dfc4159D86F3A37A5A4B3D4580b888ad7d4DDd"
+                        }
+                }
+        },
 	{
 		"coin": "DOGE",
 		"name": "dogecoin",
