@@ -2570,6 +2570,22 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "ZIL-BEP20",
+                "name": "zil_bep20",
+                "fname": "Zilliqa",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xb86AbCb37C3A4B64f74f59301AFF131a1BEcC787"
+                        }
+                }
+        },
 	{
 		"coin": "ZILLA",
 		"asset": "ZILLA",
