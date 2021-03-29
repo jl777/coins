@@ -1429,6 +1429,39 @@
 			}
 		}
 	},
+        {
+                "coin": "MATIC-BEP20",
+                "name": "matic_bep20",
+                "fname": "Polygon",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD"
+                        }
+                }
+        },
+        {
+                "coin": "MATIC-ERC20",
+                "name": "matic_erc20",
+                "fname": "Polygon",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "decimals": 18,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"
+                        }
+                }
+        },
 	{
 		"coin": "MCL",
 		"asset": "MCL",
@@ -2173,14 +2206,31 @@
 			"type": "UTXO"
 		}
 	},
-	{
-		"coin": "SUSHI",
-                "name": "sushiswap",
+        {
+                "coin": "SUSHI-BEP20",
+                "name": "sushi_bep20",
                 "fname": "Sushi",
                 "rpcport": 80,
                 "mm2": 1,
+                "avg_blocktime": 0.05,
                 "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4"
+                        }
+                }
+        },
+        {
+                "coin": "SUSHI-ERC20",
+                "name": "sushi_erc20",
+                "fname": "Sushi",
+                "rpcport": 80,
+                "mm2": 1,
                 "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "decimals": 18,
                 "protocol": {
                         "type": "ERC20",
                         "protocol_data": {
@@ -3767,24 +3817,6 @@
                         }
 	        },
                 "decimals": 9
-        },
-        {
-                "coin": "MATIC",
-                "gui_coin": "MATIC",
-                "name": "ethereum",
-                "fname": "matic token",
-                "rpcport": 80,
-                "mm2": 1,
-                "required_confirmations": 3,
-                "avg_blocktime": 0.25,
-                "protocol": {
-                        "type": "ERC20",
-                        "protocol_data": {
-                                "platform": "ETH",
-                                "contract_address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"
-                        }
-	        },
-                "decimals": 18
         },
         {
                 "coin": "STORJ",
