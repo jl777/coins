@@ -165,6 +165,22 @@
                         }
                 }
         },
+        {
+                "coin": "AVAX-BEP20",
+                "name": "avax_bep20",
+                "fname": "Avalanche",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x1CE0c2827e2eF14D5C4f29a091d735A204794041"
+                        }
+                }
+        },
 	{
 		"coin": "AWC",
 		"name": "atomic-wallet-coin",
@@ -231,6 +247,39 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "BAL-BEP20",
+                "name": "bal_bep20",
+                "fname": "Balancer",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xd4ed60d8368a92b5F1ca33aF61eF2A94714B2d46"
+                        }
+                }
+        },
+        {
+                "coin": "BAL-ERC20",
+                "name": "bal_erc20",
+                "fname": "Balancer",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "decimals": 18,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0xba100000625a3754423978a60c9317c58a424e3D"
+                        }
+                }
+        },
 	{
 		"coin": "BAT-ERC20",
 		"name": "bat_erc20",
@@ -350,6 +399,39 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "BNT-BEP20",
+                "name": "bnt_bep20",
+                "fname": "Bancor",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xA069008A669e2Af00a86673D9D584cfb524A42Cc"
+                        }
+                }
+        },
+        {
+                "coin": "BNT-ERC20",
+                "name": "bnt_erc20",
+                "fname": "Bancor",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "decimals": 18,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C"
+                        }
+                }
+        },
 	{
 		"coin": "BOTS",
 		"asset": "BOTS",
@@ -1178,6 +1260,22 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "IOTA-BEP20",
+                "name": "iota_bep20",
+                "fname": "IOTA",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xd944f1D1e9d5f9Bb90b62f9D45e447D989580782"
+                        }
+                }
+        },
         {
                 "coin": "IOTX-BEP20",
                 "name": "iotx_bep20",
@@ -3675,24 +3773,6 @@
                 "decimals": 18
         },
         {
-                "coin": "BNT",
-                "gui_coin": "BNT",
-                "name": "ethereum",
-                "fname": "bancor",
-                "rpcport": 80,
-                "mm2": 1,
-                "required_confirmations": 3,
-                "avg_blocktime": 0.25,
-                "protocol": {
-                        "type": "ERC20",
-                        "protocol_data": {
-                                "platform": "ETH",
-                                "contract_address": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C"
-                        }
-	        },
-                "decimals": 18
-        },
-        {
                 "coin": "ANT",
                 "gui_coin": "ANT",
                 "name": "ethereum",
@@ -3745,24 +3825,6 @@
                         }
 	        },
                 "decimals": 8
-        },
-        {
-                "coin": "BAL",
-                "gui_coin": "BAL",
-                "name": "ethereum",
-                "fname": "balancer",
-                "rpcport": 80,
-                "mm2": 1,
-                "required_confirmations": 3,
-                "avg_blocktime": 0.25,
-                "protocol": {
-                        "type": "ERC20",
-                        "protocol_data": {
-                                "platform": "ETH",
-                                "contract_address": "0xba100000625a3754423978a60c9317c58a424e3D"
-                        }
-	        },
-                "decimals": 18
         },
         {
                 "coin": "CVT",
