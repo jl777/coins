@@ -281,6 +281,22 @@
                 }
         },
 	{
+		"coin": "JRT-ERC20",
+		"name": "jrt_erc20",
+		"fname": "Jarvis Network",
+		"rpcport": 80,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x8A9C67fee641579dEbA04928c4BC45F66e26343A"
+			}
+		}
+	},
+	{
 		"coin": "BAT-ERC20",
 		"name": "bat_erc20",
 		"fname": "Basic Attention Token",
