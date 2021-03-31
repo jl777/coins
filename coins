@@ -963,6 +963,24 @@
 		}
 	},
         {
+                "coin": "EFL",
+                "name": "egulden",
+                "fname": "e-Gulden",
+                "confpath": "USERHOME/.egulden/coin.conf",
+                "rpcport": 21015,
+                "pubtype": 48,
+                "p2shtype": 5,
+                "wiftype": 176,
+                "txfee": 100000,
+                "dust": 54600,
+                "mm2": 1,
+                "required_confirmations": 3,
+                "avg_blocktime": 2,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
+        {
                 "coin": "EGLD-BEP20",
                 "name": "egld_bep20",
                 "fname": "Elrond",
