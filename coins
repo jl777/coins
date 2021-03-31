@@ -2197,22 +2197,6 @@
 		}
 	},
 	{
-		"coin": "SAI",
-		"name": "single-collateral-dai",
-		"fname": "Single Collateral DAI",
-		"required_confirmations": 3,
-		"avg_blocktime": 0.25,
-		"rpcport": 80,
-		"mm2": 1,
-		"protocol": {
-			"type": "ERC20",
-			"protocol_data": {
-				"platform": "ETH",
-				"contract_address": "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359"
-			}
-		}
-	},
-	{
 		"coin": "SIRX",
 		"name": "sirius",
 		"fname": "Sirius",
