@@ -2071,8 +2071,9 @@
 		"segwit":true,
 		"txfee": 400000,
 		"mm2":1,
-		"mature_confirmations":500,
+		"mature_confirmations":2000,
 		"required_confirmations":1,
+		"avg_blocktime": 0.53,
 		"protocol":{
 			"type":"QRC20",
 			"protocol_data":{
@@ -2112,8 +2113,8 @@
 		"txfee": 400000,
 		"mm2": 1,
 		"required_confirmations": 1,
-		"mature_confirmations":500,
-		"avg_blocktime": 2.133,
+		"mature_confirmations":2000,
+		"avg_blocktime": 0.53,
 		"protocol": {
 			"type": "QTUM"
 		}
