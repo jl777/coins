@@ -118,6 +118,22 @@
                 }
         },
         {
+                "coin": "ABY",
+                "name": "applebyte",
+                "fname": "ArtByte",
+                "rpcport": 8607,
+                "pubtype": 23,
+                "p2shtype": 5,
+                "wiftype": 151,
+                "txfee": 100000,
+                "mm2": 1,
+                "required_confirmations": 3,
+                "avg_blocktime": 2,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
+        {
                 "coin": "ADA-BEP20",
                 "name": "ada_bep20",
                 "fname": "Cardano",
