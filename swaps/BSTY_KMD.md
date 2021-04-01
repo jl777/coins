@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/0c095c83fab57bafadf8022e7d078697554717a548362681ade0923b1e61e8ff)  
+[maker payment (BSTY)](https://insight.globalboost.info/tx/85c67de34b3374875bb7c775e14872b7851c8de7ddfc1e0de59069c16fb5e857)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/05cebaaf7062582b188c5b3d55054c5d693ddca5714916dc1a571d5b184d85e0)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/fe67d2e8b38d4af1e3f4a94d3e4cb135c5018ba91486ce61e7a9a82b08206b77)  
+[maker payment spent (BSTY)](https://insight.globalboost.info/tx/56563b96c710ca704c2a8e40f599cbba9bf8198a3d89b09d854f2611353767f5)  
