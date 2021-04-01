@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/821f3714e2dc576526a00eb2b0f296ebc79968de4053f14a1c6523e2e290e48b)  
+[maker payment (ABY)](http://aby-explorer.ewmcx.info/tx/821f3714e2dc576526a00eb2b0f296ebc79968de4053f14a1c6523e2e290e48b)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/3544349ef13fc540a23dc628fad8bebcda8114be4791ee4f362e49ff98637faf)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/5af652880b0705538a6c12298c9f30f18080e781fed83b674798df38dc59ae88)  
+[maker payment spent (ABY)](http://aby-explorer.ewmcx.info/tx/e3958b377ab8332ad5ea122453d3f2f03e27c4fd4d5fa2611fc40d965f17e6b7)  
