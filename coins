@@ -609,6 +609,24 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "CDN",
+                "name": "canadaecoin",
+                "fname": "Canada eCoin",
+                "rpcport": 34330,
+                "pubtype": 28,
+                "p2shtype": 5,
+                "wiftype": 156,
+                "txfee": 100000,
+                "dust": 54600,
+                "segwit": true,
+                "mm2": 1,
+                "required_confirmations": 2,
+                "avg_blocktime": 5,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
 	{
 		"coin": "CHIPS",
 		"name": "chips",
