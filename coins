@@ -2915,6 +2915,22 @@
 		}
 	},
         {
+                "coin": "ZET",
+                "name": "zetacoin",
+                "fname": "Zetacoin",
+                "rpcport": 8332,
+                "pubtype": 80,
+                "p2shtype": 9,
+                "wiftype": 224,
+                "txfee": 10000,
+                "mm2": 1,
+                "required_confirmations": 5,
+                "avg_blocktime": 0.5,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
+        {
                 "coin": "ZIL-BEP20",
                 "name": "zil_bep20",
                 "fname": "Zilliqa",
