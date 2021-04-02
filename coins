@@ -2538,6 +2538,23 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "TRC",
+                "name": "terracoin",
+                "fname": "Terracoin",
+                "confpath": "USERHOME/.terracoincore/terracoin.conf",
+                "rpcport": 13332,
+                "pubtype": 0,
+                "p2shtype": 5,
+                "wiftype": 128,
+                "txfee": 10000,
+                "mm2": 1,
+                "required_confirmations": 3,
+                "avg_blocktime": 2,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
 	{
 		"coin": "TUSD-ERC20",
 		"name": "tusd_erc20",
