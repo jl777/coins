@@ -2571,6 +2571,22 @@
 			}
 		}
 	},
+        {
+                "coin": "UIS",
+                "name": "unitus",
+                "fname": "Unitus",
+                "rpcport": 50604,
+                "pubtype": 68,
+                "p2shtype": 10,
+                "wiftype": 132,
+                "txfee": 1000000,
+                "mm2": 1,
+                "required_confirmations": 5,
+                "avg_blocktime": 1,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
 	{
 		"coin": "USDC-ERC20",
 		"name": "usdc_erc20",

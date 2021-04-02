@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/5b8b54e6a946f93b8c67aef0df46c8ea820a232b1053fe8cb3457396803599c7)  
+[maker payment (UIS)](https://explorer.unitus.network/tx/f7abb49a40ec1985b9e6c925f3533e396e8359286f0de824c6a21f4b8c9e7691)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/2c9bc89f69b6755972c41ac184fc3c3bad4064a1d0f30321c13a8d4f34a6b863)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/af26819661d27fa6a96a39e1c76eb16266f675747cc44ce950e49742a082caca)  
+[maker payment spent (UIS)](https://explorer.unitus.network/tx/1df32fcf46c830b2e12c9180646a0853143ebf7fe2f95fed7235352c44b7ac6f)  
