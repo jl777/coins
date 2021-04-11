@@ -182,6 +182,23 @@
                 }
         },
         {
+                "coin": "AUR",
+                "name": "auroracoin",
+                "fname": "Auroracoin",
+                "rpcport": 12341,
+                "pubtype": 23,
+                "p2shtype": 5,
+                "wiftype": 176,
+                "txfee": 0,
+                "segwit": true,
+                "mm2": 1,
+                "required_confirmations": 5,
+                "avg_blocktime": 1,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
+        {
                 "coin": "AVAX-BEP20",
                 "name": "avax_bep20",
                 "fname": "Avalanche",

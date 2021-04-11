@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/091c6f3debf5ed6e4a9d43c01503ac508818cfcb4afd7f183acd9ab322891211)  
+[maker payment (AUR)](https://chainz.cryptoid.info/aur/tx.dws?76ea4e2eb3da82a9007cc2b6add56df1bcdcffd0b1809d0e817a4059f568cc0e.htm)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/6e5eaa97014e55802a7f9364d3ba91af945283884090a4b2e44cbc8751d68703)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/9eab1eefa104df8153af7303bfcfcf5b53be7bfba0c34722bafa16f4f4f68e4a)  
+[maker payment spent (AUR)](https://chainz.cryptoid.info/aur/tx.dws?7ccf197ebfc52a4bbbf0955e92663d52fb08a13a927c04daf46905caf3f09385.htm)  
