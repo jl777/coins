@@ -2654,6 +2654,25 @@
 			}
 		}
 	},
+        {
+                "coin": "VAL",
+                "name": "validity",
+                "fname": "Validity",
+                "confpath": "USERHOME/.Validity/validity.conf",
+                "isPoS": 1,
+                "rpcport": 27914,
+                "pubtype": 76,
+                "p2shtype": 58,
+                "wiftype": 121,
+                "txfee": 100000,
+                "mm2": 1,
+                "required_confirmations": 5,
+                "avg_blocktime": 1,
+                "mature_confirmations": 60,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
 	{
 		"coin": "VRA",
 		"name": "verasity",
