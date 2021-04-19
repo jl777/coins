@@ -372,6 +372,7 @@
 		"txfee": 0,
 		"estimate_fee_blocks": 2,
 		"segwit": true,
+                "fork_id": "0x40",
 		"address_format": {
 			"format": "cashaddress",
 			"network": "bitcoincash"
