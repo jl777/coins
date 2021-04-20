@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/ba466d29c3106d2c49b25fc48ca6d415e3cd5cff258debd06f8dd856211c06e7)  
+[maker payment (LCC)](https://chainz.cryptoid.info/lcc/tx.dws?8dee0a26b4f5cc13084a5049140b9df27318568107f85ff6cf2a6c3f578356c0)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/1e6749cd8c5625bc509816eefdcb9b5d2319f482b97e199b64c26c960b6ff7ba)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/7d90bd84f7b8dfe994ac4c0dd2e6bb532105556fd8753d3dc7d37ea5f21f4f27)  
+[maker payment spent (LCC)](https://chainz.cryptoid.info/lcc/tx.dws?8ad071bd2f36119dad218e3447996649aa666f16bf54733fd254fa32aa3b9453)  
