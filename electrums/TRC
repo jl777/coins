@@ -1,7 +1,8 @@
 [
   {
-    "url": "failover.trc-uis.ewmcx.biz:50005",
-    "protocol": "TCP"
+    "url": "failover.trc-uis.ewmcx.biz:50002",
+    "protocol": "SSL",
+    "disable_cert_verification": true
   },
   {
     "url": "electrum.terracoin.io:50001",

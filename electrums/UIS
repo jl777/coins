@@ -1,14 +1,11 @@
 [
   {
-    "url": "failover.trc-uis.ewmcx.biz:50001",
-    "protocol": "TCP"
+    "url": "failover.trc-uis.ewmcx.biz:50002",
+    "protocol": "SSL",
+    "disable_cert_verification": true
   },
   {
     "url": "electrumx.uis.ewmcx.info:50001",
-    "protocol": "TCP"
-  },
-  {
-    "url": "164.68.110.226:50001",
     "protocol": "TCP"
   }
 ]

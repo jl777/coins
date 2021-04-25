@@ -1,22 +1,17 @@
 [
   {
-    "url": "electrumx.aur.ewmcx.info:50001",
-    "protocol": "TCP"
+    "url": "electrumx.aur.ewmcx.info:50002",
+    "protocol": "SSL",
+    "disable_cert_verification": true
   },
   {
     "url": "lenoir.ecoincore.com:12343",
-    "protocol": "SSL"
+    "protocol": "SSL",
+    "disable_cert_verification": false
   },
   {
-    "url": "62.171.189.219:50001",
-    "protocol": "TCP"
-  },
-  {
-    "url": "161.97.137.213:50001",
-    "protocol": "TCP"
-  },
-  {
-    "url": "failover.aur.ewmcx.biz:50001",
-    "protocol": "TCP"
+    "url": "failover.aur.ewmcx.biz:50002",
+    "protocol": "SSL",
+    "disable_cert_verification": true
   }
 ]

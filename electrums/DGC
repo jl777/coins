@@ -4,15 +4,8 @@
     "protocol": "TCP"
   },
   {
-    "url": "78.57.248.53:50001",
-    "protocol": "TCP"
-  },
-  {
-    "url": "62.171.190.3:50001",
-    "protocol": "TCP"
-  },
-  {
-    "url": "failover.dgc.ewmcx.biz:50001",
-    "protocol": "TCP"
+    "url": "failover.dgc.ewmcx.biz:50002",
+    "protocol": "SSL",
+    "disable_cert_verification": true
   }
 ]
