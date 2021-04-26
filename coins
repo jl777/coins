@@ -1204,6 +1204,55 @@
                         }
                 }
         },
+        {
+                "coin": "FIRO",
+                "name": "firo",
+                "fname": "Firo",
+                "rpcport": 8888,
+                "pubtype": 82,
+                "p2shtype": 7,
+                "wiftype": 210,
+                "txfee": 0,
+                "mm2": 1,
+                "required_confirmations": 3,
+                "avg_blocktime": 5,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
+        {
+                "coin": "FIRO-BEP20",
+                "name": "firo_bep20",
+                "fname": "Firo",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xd5d0322b6bAb6a762C79f8c81A0B674778E13aeD"
+                        }
+                }
+        },
+        {
+                "coin": "STFIRO",
+                "name": "firo_erc20",
+                "fname": "StakedFIRO",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "decimals": 18,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0x160B1E5aaBFD70B2FC40Af815014925D71CEEd7E"
+                        }
+                }
+        },
 	{
 		"coin": "FLASH",
 		"name": "flashcoin",
@@ -2831,22 +2880,6 @@
 		"txfee": 10000,
 		"confpath": "USERHOME/.xsncore/xsn.conf",
 		"mm2": 1,
-		"protocol": {
-			"type": "UTXO"
-		}
-	},
-	{
-		"coin": "FIRO",
-		"name": "firo",
-		"fname": "Firo",
-		"rpcport": 8888,
-		"pubtype": 82,
-		"p2shtype": 7,
-		"wiftype": 210,
-		"txfee": 0,
-		"mm2": 1,
-		"required_confirmations": 3,
-		"avg_blocktime": 5,
 		"protocol": {
 			"type": "UTXO"
 		}
