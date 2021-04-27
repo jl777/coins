@@ -614,6 +614,22 @@
                         "type": "UTXO"
                 }
         },
+        {
+                "coin": "BTT-BEP20",
+                "name": "btt_bep20",
+                "fname": "BitTorrent",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x8595F9dA7b868b1822194fAEd312235E43007b49"
+                        }
+                }
+        },
 	{
 		"coin": "BTX",
 		"name": "bitcore",
