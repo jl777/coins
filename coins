@@ -2901,6 +2901,22 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "XLM-BEP20",
+                "name": "xlm_bep20",
+                "fname": "Stellar",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x72b150fa9241Ef91E8BeF9340BD78f5195Fc19aD"
+                        }
+                }
+        },
 	{
 		"coin": "XSN",
 		"name": "xsn",
