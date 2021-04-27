@@ -2676,6 +2676,22 @@
                         "type": "UTXO"
                 }
         },
+        {
+                "coin": "TRX-BEP20",
+                "name": "trx_bep20",
+                "fname": "TRON",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B"
+                        }
+                }
+        },
 	{
 		"coin": "TUSD-ERC20",
 		"name": "tusd_erc20",
