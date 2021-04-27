@@ -2708,6 +2708,22 @@
                         }
                 }
         },
+        {
+                "coin": "TUSD-BEP20",
+                "name": "tusd_bep20",
+                "fname": "TrueUSD",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x14016E85a25aeb13065688cAFB43044C2ef86784"
+                        }
+                }
+        },
 	{
 		"coin": "TUSD-ERC20",
 		"name": "tusd_erc20",
