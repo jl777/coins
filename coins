@@ -1,56 +1,4 @@
 [
-	{
-                "coin": "BNB",
-                "name": "binancesmartchain",
-                "fname": "Binance Coin",
-                "avg_blocktime": 0.05,
-                "rpcport": 80,
-                "mm2": 1,
-                "required_confirmations": 3,
-                "protocol": {
-                        "type": "ETH"
-                }
-        },
-        {
-                "coin": "BNBT",
-                "name": "binancesmartchaintest",
-                "fname": "Ethereum",
-                "avg_blocktime": 0.25,
-                "rpcport": 80,
-                "mm2": 1,
-                "required_confirmations": 3,
-                "protocol": {
-                        "type": "ETH"
-                }
-        },
-	{
-		"coin": "ADEXBSCT",
-		"name": "adex_bsc_testnet",
-		"fname": "adex",
-		"rpcport": 80,
-		"mm2": 1,
-		"protocol": {
-		    "type": "ERC20",
-		    "protocol_data": {
-			"platform": "BNBT",
-			"contract_address": "0x464Ee03fBfC10f2FC8677Ee87d27bA3FD3aa4B09"
-		    }
-		}
-        },
-	{
-		"coin": "ADEXBSC",
-		"name": "adex_bsc",
-		"fname": "adex",
-		"rpcport": 80,
-		"mm2": 1,
-		"protocol": {
-		    "type": "ERC20",
-		    "protocol_data": {
-			"platform": "BNB",
-			"contract_address": "0x28E0685cc4C57a1CCF27090678A34Ebd6a641AC3"
-		    }
-		}
-        },
         {
                 "coin": "1INCH-BEP20",
                 "name": "1inch_bep20",
@@ -146,6 +94,66 @@
                         "protocol_data": {
                                 "platform": "BNB",
                                 "contract_address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47"
+                        }
+                }
+        },
+        {
+                "coin": "ADEXBSCT",
+                "name": "adex_bsc_testnet",
+                "fname": "adex",
+                "rpcport": 80,
+                "mm2": 1,
+                "protocol": {
+                    "type": "ERC20",
+                    "protocol_data": {
+                        "platform": "BNBT",
+                        "contract_address": "0x464Ee03fBfC10f2FC8677Ee87d27bA3FD3aa4B09"
+                    }
+                }
+        },
+        {
+                "coin": "ADEXBSC",
+                "name": "adex_bsc",
+                "fname": "adex",
+                "rpcport": 80,
+                "mm2": 1,
+                "protocol": {
+                    "type": "ERC20",
+                    "protocol_data": {
+                        "platform": "BNB",
+                        "contract_address": "0x28E0685cc4C57a1CCF27090678A34Ebd6a641AC3"
+                    }
+                }
+        },
+        {
+                "coin": "ANKR-BEP20",
+                "name": "ankr_bep20",
+                "fname": "Ankr",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xf307910A4c7bbc79691fD374889b36d8531B08e3"
+                        }
+                }
+        },
+        {
+                "coin": "ANKR-ERC20",
+                "name": "ankr_erc20",
+                "fname": "Ankr",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0x8290333ceF9e6D528dD5618Fb97a76f268f3EDD4"
                         }
                 }
         },
@@ -449,6 +457,30 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "BNB",
+                "name": "binancesmartchain",
+                "fname": "Binance Coin",
+                "avg_blocktime": 0.05,
+                "rpcport": 80,
+                "mm2": 1,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ETH"
+                }
+        },
+        {
+                "coin": "BNBT",
+                "name": "binancesmartchaintest",
+                "fname": "Ethereum",
+                "avg_blocktime": 0.25,
+                "rpcport": 80,
+                "mm2": 1,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ETH"
+                }
+        },
         {
                 "coin": "BNT-BEP20",
                 "name": "bnt_bep20",
