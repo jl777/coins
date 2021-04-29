@@ -1348,6 +1348,38 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "FTM-BEP20",
+                "name": "ftm_bep20",
+                "fname": "Fantom",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xAD29AbB318791D579433D831ed122aFeAf29dcfe"
+                        }
+                }
+        },
+        {
+                "coin": "FTM-ERC20",
+                "name": "ftm_erc20",
+                "fname": "Fantom",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0x4E15361FD6b4BB609Fa63C81A2be19d873717870"
+                        }
+                }
+        },
 	{
 		"coin": "GETH",
 		"name": "guarded-ether",
