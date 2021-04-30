@@ -433,7 +433,7 @@
 		"segwit": false,
 		"mm2": 1,
 		"required_confirmations": 5,
-		"mature_confirmations":500,
+		"mature_confirmations": 500,
 		"avg_blocktime": 1.1,
 		"protocol": {
 			"type": "UTXO"
@@ -2275,8 +2275,8 @@
 		"dust": 72800,
 		"mm2": 1,
 		"required_confirmations": 3,
-		"mature_confirmations":500,
-		"avg_blocktime": 2.133,
+		"mature_confirmations": 2000,
+		"avg_blocktime": 0.53,
 		"protocol": {
 			"type": "QRC20",
 			"protocol_data": {
@@ -2298,8 +2298,8 @@
 		"dust": 72800,
 		"mm2": 1,
 		"required_confirmations": 3,
-		"mature_confirmations":500,
-		"avg_blocktime": 2.133,
+		"mature_confirmations": 2000,
+		"avg_blocktime": 0.53,
 		"protocol": {
 			"type": "QRC20",
 			"protocol_data": {
@@ -2321,8 +2321,8 @@
 		"dust": 72800,
 		"mm2": 1,
 		"required_confirmations": 3,
-		"mature_confirmations":500,
-		"avg_blocktime": 2.133,
+		"mature_confirmations": 2000,
+		"avg_blocktime": 0.53,
 		"protocol": {
 			"type": "QRC20",
 			"protocol_data": {
@@ -2363,8 +2363,8 @@
 		"dust": 72800,
 		"mm2": 1,
 		"required_confirmations": 3,
-		"mature_confirmations":500,
-		"avg_blocktime": 2.133,
+		"mature_confirmations": 2000,
+		"avg_blocktime": 0.53,
 		"protocol": {
 			"type": "QTUM"
 		}
@@ -3254,8 +3254,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3279,8 +3279,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3304,8 +3304,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3329,8 +3329,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3354,8 +3354,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3379,8 +3379,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3404,8 +3404,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3429,8 +3429,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3454,8 +3454,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3479,8 +3479,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3504,8 +3504,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3529,8 +3529,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3554,8 +3554,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3579,8 +3579,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3604,8 +3604,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3629,8 +3629,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3654,8 +3654,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3679,8 +3679,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
@@ -3704,8 +3704,8 @@
                 "rpcport": 3889,
                 "mm2": 1,
                 "required_confirmations": 3,
-                "mature_confirmations":500,
-                "avg_blocktime": 2.133,
+                "mature_confirmations": 2000,
+                "avg_blocktime": 0.53,
                 "txfee": 0,
 		"dust": 72800,
                 "protocol": {
