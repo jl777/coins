@@ -2,16 +2,13 @@
     "swap_contract_address":"0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
     "rpc_nodes": [
         {
-            "url":"https://bsc-dataseed.binance.org"
+            "url":"http://bsc1.cipig.net:8655"
         },
         {
-            "url":"https://bsc-dataseed1.defibit.io"
+            "url":"http://bsc2.cipig.net:8655"
         },
         {
-            "url":"https://bsc-dataseed1.ninicoin.io"
-        },
-        {
-            "url":"http://binance.ankr.com:8545"
+            "url":"http://bsc3.cipig.net:8655"
         }
     ]
 }
