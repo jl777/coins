@@ -1,0 +1,5 @@
+[taker fee (ABY)](http://aby-explorer.ewmcx.info/tx/7c1b570bfd236799e07fb71eee09ff032ccc72df7fd4a53dd8e23a1ee94b9f9f)  
+[maker payment (DIMI)](https://explorer.diminutivecoin.com/tx/7f854b7deebd333602b551dd0a14711dc35cc5d31352e624ee7488c768b8148a)  
+[taker payment (ABY)](http://aby-explorer.ewmcx.info/tx/be4ee3e7cd989f389f40d2edfc33071342ab730644b40d1c0d59d46caa9b3fb5)  
+[taker payment spent (ABY)](http://aby-explorer.ewmcx.info/tx/2f4a72bcfff134c30fc9dcdd41d66e6859d0778da3a8a66711921b34f047cbb8)  
+[maker payment spent (DIMI)](https://explorer.diminutivecoin.com/tx/6b8da06ac159e22f453b885dea930a6785f305ecdedfe875b2354147dc31c577)  
