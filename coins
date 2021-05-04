@@ -2501,6 +2501,22 @@
 		}
 	},
         {
+                "coin": "SMTF",
+                "name": "smtf_bep20",
+                "fname": "SmartFi",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xF07578E0B5226A99B0D530Ef4360DF4176f2820d"
+                        }
+                }
+        },
+        {
                 "coin": "SNX-BEP20",
                 "name": "snx_bep20",
                 "fname": "Synthetix",
