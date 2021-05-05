@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/4edd87cccbb8b3c5a1bc2785e4e4e04ef5150f6d71d91e49c244c1c26d8f96b1)  
+[maker payment (FJC)](https://explorer.fujicoin.org/tx/56d79727d5eca2045133348542cce4ccf7ea96becd14e96d3dff814fb52efbd7)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/917b6b21127bd89ef81e392c707720385bbceae493c7e1a384d9ff785115ec08)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/6ecc81566390ff9b43e3def43417a253f25919a601d5028d3fff61481646d5ec)  
+[maker payment spent (FJC)](https://explorer.fujicoin.org/tx/f1a930cb1e953473ef82505ece91b2bebe5fc685b25c7194774ab05b9d8be47d)  
