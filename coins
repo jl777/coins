@@ -1305,6 +1305,24 @@
                         }
                 }
         },
+	{
+		"coin": "FJC",
+		"name": "fujicoin",
+		"fname": "Fujicoin",
+		"rpcport": 3776,
+		"pubtype": 36,
+		"p2shtype": 16,
+		"wiftype": 164,
+		"segwit": true,
+		"txfee": 0,
+                "decimals": 8,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
         {
                 "coin": "STFIRO",
                 "name": "firo_erc20",
