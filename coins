@@ -1068,6 +1068,22 @@
 		}
 	},
         {
+                "coin": "DOGE-BEP20",
+                "name": "doge_bep20",
+                "fname": "Dogecoin",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xbA2aE424d960c26247Dd6c32edC70B295c744C43"
+                        }
+                }
+        },
+        {
                 "coin": "DOT-BEP20",
                 "name": "dot_bep20",
                 "fname": "Polkadot",
