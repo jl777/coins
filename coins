@@ -2910,6 +2910,22 @@
 		}
 	},
         {
+                "coin": "USDT-ERC20",
+                "name": "usdt_erc20",
+                "fname": "Tether",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+                        }
+                }
+        },
+        {
                 "coin": "VAL",
                 "name": "validity",
                 "fname": "Validity",
