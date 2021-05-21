@@ -1818,6 +1818,23 @@
 		}
 	},
 	{
+		"coin": "WCN",
+		"name": "widecoin",
+		"fname": "Widecoin",
+		"rpcport": 8552,
+		"pubtype": 73,
+		"p2shtype": 33,
+		"wiftype": 153,
+		"txfee": 0,
+		"segwit": true,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"avg_blocktime": 0.5,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
 		"coin": "LTC",
 		"name": "litecoin",
 		"fname": "Litecoin",
