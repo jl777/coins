@@ -1562,6 +1562,25 @@
 			}
 		}
 	},
+        {
+                "coin": "IL8P",
+                "name": "infiniloop",
+                "fname": "InfiniLooP",
+                "isPoS": 1,
+                "rpcport": 9459,
+                "pubtype": 33,
+                "p2shtype": 85,
+                "wiftype": 153,
+                "txfee": 100000,
+                "dust": 100000,
+                "mm2": 1,
+                "mature_confirmations": 500,
+                "required_confirmations": 7,
+                "avg_blocktime": 0.75,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
 	{
 		"coin": "ILN",
 		"asset": "ILN",
