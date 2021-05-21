@@ -5,7 +5,7 @@
 
 ## About this repository
 
-This repository is the coins database which is accessed by [AtomicDEX API](https://github.com/KomodoPlatform/atomicDEX-API/) and graphical applications like [AtomicDEX Mobile](https://github.com/KomodoPlatform/atomicDEX), [AtomicDEX-PRO](https://github.com/KomodoPlatform/atomicDEX-Pro), HyperDEX etc. to enable coins for trading.
+This repository is the coins database which is accessed by [AtomicDEX API](https://github.com/KomodoPlatform/atomicDEX-API/) and graphical applications like [AtomicDEX Mobile](https://github.com/KomodoPlatform/atomicDEX), [atomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop), DogeDEX etc. to enable coins for trading.
 
 ## Prerequisites for a coin to be compatible with AtomicDEX-API
 
@@ -37,7 +37,7 @@ When submitting your coin addition request, please submit the URLs of the 5 tran
 
 You can learn about performing an atomic swap from our documentation at [this link](https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/introduction-to-atomicdex.html)
 
-If you have any questions, please ask in the `#support` channel in [our Discord server](https://komodoplatform.com/discord) or you can get help from the team at coinintegration@komodoplatform.com or one of the service providers listed at [https://komodoplatform.com/ecosystem/#service-providers](https://komodoplatform.com/ecosystem/#service-providers).
+If you have any questions, please ask in the `#support` channel in [our Discord server](https://komodoplatform.com/discord) or you can get help from the team at coinintegration@komodoplatform.com or partners@komodplatform.com .
 
 ## 1. Coin info added to `coins` file (Required)
 You need the following info in JSON format added to the [coins](coins) file:
