@@ -1562,6 +1562,25 @@
 			}
 		}
 	},
+        {
+                "coin": "IL8P",
+                "name": "infiniloop",
+                "fname": "InfiniLooP",
+                "isPoS": 1,
+                "rpcport": 9459,
+                "pubtype": 33,
+                "p2shtype": 85,
+                "wiftype": 153,
+                "txfee": 100000,
+                "dust": 100000,
+                "mm2": 1,
+                "mature_confirmations": 500,
+                "required_confirmations": 7,
+                "avg_blocktime": 0.75,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
 	{
 		"coin": "ILN",
 		"asset": "ILN",
@@ -1815,6 +1834,23 @@
 				"platform": "ETH",
 				"contract_address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD"
 			}
+		}
+	},
+	{
+		"coin": "WCN",
+		"name": "widecoin",
+		"fname": "Widecoin",
+		"rpcport": 8552,
+		"pubtype": 73,
+		"p2shtype": 33,
+		"wiftype": 153,
+		"txfee": 0,
+		"segwit": true,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"avg_blocktime": 0.5,
+		"protocol": {
+			"type": "UTXO"
 		}
 	},
 	{
@@ -4119,7 +4155,7 @@
                         "type": "ERC20",
                         "protocol_data": {
                                 "platform": "ETH",
-                                "contract_address": "0xdd974D5C2e2928deA5F71b9825b8b646686BD200"
+                                "contract_address": "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202"
                         }
 	        },
                 "decimals": 18
