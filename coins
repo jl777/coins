@@ -2191,6 +2191,26 @@
 		}
 	},
         {
+                "coin": "NVC",
+                "name": "novacoin",
+                "fname": "Novacoin",
+                "isPoS": 1,
+                "rpcport": 8344,
+                "pubtype": 8,
+                "p2shtype": 20,
+                "wiftype": 136,
+                "decimals": 6,
+                "txfee": 1000,
+                "dust": 10000,
+                "mm2": 1,
+                "mature_confirmations": 500,
+                "required_confirmations": 1,
+                "avg_blocktime": 7.5,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
+        {
                 "coin": "ONT-BEP20",
                 "name": "ont_bep20",
                 "fname": "Ontology",
