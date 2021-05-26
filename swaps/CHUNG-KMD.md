@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/3871b7bf2c126aac75fb2b77744d82f635e61a0c4431a2dea82b054b6fb61a88)  
+[maker payment (CHUNG)](https://explorer.chunguscoin.net/tx/c4b6349cf72c095f75c70ec09750f5e854eeae6834c2c07260823cd58bca9408)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/470ee1bda772533cfd22f57285bc83428271e743622c3349d93ab9bd3445fe96)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/802b1e4a258b4f618272c621ad50280c03148267b61420eef0f5e8af109273f4)  
+[maker payment spent (CHUNG)](https://explorer.chunguscoin.net/tx/a4715c87c24f24dc724a73d6360e2ecd348a78ec24c9fbe56b3eaed7312fbb48)  
