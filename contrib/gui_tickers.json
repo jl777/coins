@@ -6,27 +6,27 @@
                                     "MUE",    "MSHARK", "NAV",   "NINJA",  "NMC",    "OOT",   "PANGEA",   "PGT",   "PTX",
                                     "QTUM",   "REVS",   "RFOX",  "RICK",   "RVN",    "SMART", "SUPERNET", "THC",   "UFO",
                                     "VRSC",   "VTC",    "WLC",   "XBC",    "XZC",    "ZEC",   "ZER",      "ZILLA", 
-                                    "ETH",    "WCN",    "CIPHS"]
+                                    "ETH",    "WCN",    "CIPHS", "CHUNG"]
                     },
 
     "adex-mob"  :   { "full-list" : ["KMD",   "BTC", "AXE",  "BCH",  "DASH", "DGB", "DOGE", "ECA", "FJC", "FTC", "LTC",   "NAV",  "QTUM", "RVN", "VRSC", "ZEC",  "XZC", "ZER",  
                                      "ZILLA", "DEX", "HUSH", "LABS", "KOIN", "MCL", "RFOX", "SUPERNET", "OOT", "MORTY", "RICK",
-                                     "ETH",   "WCN", "CIPHS"],
+                                     "ETH",   "WCN", "CIPHS", "CHUNG"],
 
 
                            "UTXO":  ["KMD", "BTC", "AXE", "BCH", "DASH", "DGB", "DOGE", "ECA", "FJC", "FTC", "LTC", "NAV", "QTUM", "RVN", "VRSC", "ZEC", "XZC", "ZER","WCN"],
-                           "SMART": ["ZILLA", "DEX", "HUSH", "LABS", "KOIN", "MCL", "RFOX", "SUPERNET", "OOT", "MORTY", "RICK"],
+                           "SMART": ["ZILLA", "DEX", "HUSH", "LABS", "KOIN", "MCL", "RFOX", "SUPERNET", "OOT", "MORTY", "RICK", "CHUNG"],
                            "ERC20": ["ETH", "AWC", "BAT", "BUSD", "DAI", "PAX", "SAI", "TUSD", "USDC"]
                     },
 
 
     "adex-pro" :    { "full-list":["KMD", "BTC", "NAV",  "BCH", "QTUM", "ZEC", "LTC", "DASH", "XZC", "DGB", "CHIPS", "ECA",  "DOGE", "RVN", "FJC",
                                    "ILN", "MCL", "REVS", "SUPERNET", "BOTS", "CRYPTO", "VRSC", "HUSH", "PANGEA", "BET", "DEX",   "LABS", "MGW",  "JUMBLR", "MORTY", "RICK",   
-                                   "ETH", "WCN", "CIPHS"],
+                                   "ETH", "WCN", "CIPHS", "CHUNG"],
 
 
                          "UTXO":  ["KMD", "BTC", "NAV","BCH", "QTUM", "ZEC", "LTC", "DASH", "XZC", "DGB", "CHIPS", "ECA", "DOGE", "RVN", "FJC","WCN"],
-                         "SMART": ["ILN","MCL", "REVS", "SUPERNET", "BOTS", "CRYPTO", "VRSC", "HUSH", "PANGEA", "BET", "DEX", "LABS", "MGW", "JUMBLR", "MORTY", "RICK"],
+                         "SMART": ["ILN","MCL", "REVS", "SUPERNET", "BOTS", "CRYPTO", "VRSC", "HUSH", "PANGEA", "BET", "DEX", "LABS", "MGW", "JUMBLR", "MORTY", "RICK", "CHUNG"],
                          "ERC20": ["ETH", "AWC", "BAT", "TUSD", "USDC"]
                     }
 }
