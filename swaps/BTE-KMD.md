@@ -1,0 +1,5 @@
+[Taker fee (KMD)](https://kmdexplorer.io/tx/ad41202e9d738b796bd82102b3dc1d5b223945fa42f992857e7f167fbbbaaaeb)
+[Maker payment (BTE)](https://explorer.bitwebcore.org/tx/3dd18c5008a77d8a7844704f8cb437f683dd0f7453cd766ecf27d00f9b06d514)
+[Taker payment (KMD)](https://kmdexplorer.io/tx/df32f617e897133c1a343c01e6b52c87999e2ab7d777af18917bcd4864261c82)
+[Taker payment spend (KMD)](https://kmdexplorer.io/tx/4642d29448b3784a8b0ed1ace17005fb9af5a10cb2cdbe53ff9ab59bf8e8cb3e)
+[Maker payment spend (BTE)](https://explorer.bitwebcore.org/tx/9b7c5d58a2fd9603a918b68470f4a57023081147925a527c12c2b7f403cb9598)
