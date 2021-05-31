@@ -3300,6 +3300,24 @@
 		}
 	},
         {
+                "coin": "XEP",
+                "name": "xep",
+                "fname": "Electra Protocol",
+                "rpcport": 16816,
+                "pubtype": 55,
+                "p2shtype": 137,
+                "wiftype": 162,
+                "txversion": 2,
+                "txfee": 100000,
+                "mm2": 1,
+                "segwit": true,
+                "required_confirmations": 5,
+                "avg_blocktime": 1.3,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
+        {
                 "coin": "XLM-BEP20",
                 "name": "xlm_bep20",
                 "fname": "Stellar",
