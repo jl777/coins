@@ -5,6 +5,7 @@
                 "fname": "1inch",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -21,6 +22,7 @@
                 "fname": "1inch",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "decimals": 18,
@@ -38,6 +40,7 @@
                 "fname": "Aave",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -54,6 +57,7 @@
                 "fname": "Aave",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "decimals": 18,
@@ -88,6 +92,7 @@
                 "fname": "Cardano",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -104,6 +109,7 @@
                 "fname": "adex",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 97,
                 "protocol": {
                     "type": "ERC20",
                     "protocol_data": {
@@ -132,6 +138,7 @@
                 "fname": "Ankr",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -148,6 +155,7 @@
                 "fname": "Ankr",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "protocol": {
@@ -164,6 +172,7 @@
 		"fname": "ARPA Chain",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"required_confirmations": 3,
 		"avg_blocktime": 0.25,
 		"protocol": {
@@ -180,6 +189,7 @@
                 "fname": "Cosmos",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -213,6 +223,7 @@
                 "fname": "Avalanche",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -229,6 +240,7 @@
 		"fname": "Atomic Wallet Coin",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"required_confirmations": 3,
 		"avg_blocktime": 0.25,
 		"protocol": {
@@ -295,6 +307,7 @@
                 "fname": "Balancer",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -311,6 +324,7 @@
                 "fname": "Balancer",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "decimals": 18,
@@ -328,6 +342,7 @@
 		"fname": "Jarvis Network",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"required_confirmations": 3,
 		"avg_blocktime": 0.25,
 		"protocol": {
@@ -344,6 +359,7 @@
 		"fname": "Basic Attention Token",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"required_confirmations": 3,
 		"avg_blocktime": 0.25,
 		"protocol": {
@@ -360,6 +376,7 @@
 		"fname": "Basic Attention Token",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 56,
 		"avg_blocktime": 0.05,
 		"required_confirmations": 3,
 		"protocol": {
@@ -466,6 +483,7 @@
                 "avg_blocktime": 0.05,
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "required_confirmations": 3,
                 "protocol": {
                         "type": "ETH"
@@ -477,6 +495,7 @@
                 "fname": "Ethereum",
                 "avg_blocktime": 0.25,
                 "rpcport": 80,
+                "chain_id": 97,
                 "mm2": 1,
                 "required_confirmations": 3,
                 "protocol": {
@@ -489,6 +508,7 @@
                 "fname": "Bancor",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -505,6 +525,7 @@
                 "fname": "Bancor",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "decimals": 18,
@@ -572,6 +593,7 @@
 		"fname": "Bitcoin",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 56,
 		"avg_blocktime": 0.05,
 		"required_confirmations": 3,
 		"protocol": {
@@ -622,6 +644,7 @@
                 "fname": "BitTorrent",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -653,6 +676,7 @@
 		"fname": "Binance USD",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"required_confirmations": 3,
 		"avg_blocktime": 0.25,
 		"protocol": {
@@ -669,6 +693,7 @@
                 "fname": "Binance USD",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -685,6 +710,7 @@
                 "fname": "PancakeSwap",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -813,6 +839,7 @@
                 "fname": "Compound",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -829,6 +856,7 @@
                 "fname": "Compound",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "decimals": 18,
@@ -863,6 +891,7 @@
 		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -892,6 +921,7 @@
 		"fname": "Dai",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"avg_blocktime": 0.25,
 		"required_confirmations": 3,
 		"protocol": {
@@ -908,6 +938,7 @@
 		"fname": "Dai",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 56,
 		"avg_blocktime": 0.05,
 		"required_confirmations": 3,
 		"protocol": {
@@ -943,6 +974,7 @@
 		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -956,6 +988,7 @@
 		"name": "DEC8",
 		"fname": "DEC8 (TESTCOIN)",
 		"mm2": 1,
+                "chain_id": 1,
 		"rpcport": 80,
 		"protocol": {
 			"type": "ERC20",
@@ -973,6 +1006,7 @@
 		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -1055,6 +1089,7 @@
                 "fname": "DODO",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -1071,6 +1106,7 @@
                 "fname": "DODO",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "decimals": 18,
@@ -1106,6 +1142,7 @@
                 "fname": "Dogecoin",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -1122,6 +1159,7 @@
                 "fname": "Polkadot",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -1190,6 +1228,7 @@
                 "fname": "Elrond",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -1226,6 +1265,7 @@
 		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -1240,6 +1280,7 @@
                 "fname": "EOS",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -1256,6 +1297,7 @@
                 "fname": "Ethereum Classic",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -1272,6 +1314,7 @@
 		"fname": "Ethereum",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"required_confirmations": 3,
 		"avg_blocktime": 0.25,
 		"protocol": {
@@ -1284,6 +1327,7 @@
 		"fname": "Ethereum",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 56,
 		"avg_blocktime": 0.05,
 		"required_confirmations": 3,
 		"protocol": {
@@ -1300,6 +1344,7 @@
 		"fname": "Ethereum (Ropsten)",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 3,
 		"required_confirmations": 3,
 		"avg_blocktime": 0.25,
 		"protocol": {
@@ -1312,6 +1357,7 @@
                 "fname": "Filecoin",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -1344,6 +1390,7 @@
                 "fname": "Firo",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -1378,6 +1425,7 @@
                 "fname": "StakedFIRO",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "decimals": 8,
@@ -1441,6 +1489,7 @@
                 "fname": "Fantom",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -1457,6 +1506,7 @@
                 "fname": "Fantom",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "protocol": {
@@ -1473,6 +1523,7 @@
 		"fname": "Guarded Ether",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"required_confirmations": 3,
 		"avg_blocktime": 0.25,
 		"protocol": {
@@ -1570,6 +1621,7 @@
 		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -1586,6 +1638,7 @@
 		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -1637,6 +1690,7 @@
                 "fname": "IOTA",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -1653,6 +1707,7 @@
                 "fname": "IoTeX",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -1668,6 +1723,7 @@
 		"name": "JST",
 		"fname": "JST (TESTCOIN)",
 		"mm2": 1,
+                "chain_id": 1,
 		"rpcport": 80,
 		"protocol": {
 			"type": "ERC20",
@@ -1712,6 +1768,7 @@
 		"fname": "KuCoin Token",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"required_confirmations": 3,
 		"avg_blocktime": 0.25,
 		"protocol": {
@@ -1747,6 +1804,7 @@
 		"fname": "Komodo",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 56,
 		"avg_blocktime": 0.05,
 		"required_confirmations": 3,
 		"protocol": {
@@ -1827,6 +1885,7 @@
 		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -1841,6 +1900,7 @@
                 "fname": "Chainlink",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -1860,6 +1920,7 @@
 		"decimals": 18,
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -1944,6 +2005,7 @@
 		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -1958,6 +2020,7 @@
                 "fname": "Polygon",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -1974,6 +2037,7 @@
                 "fname": "Polygon",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "decimals": 18,
@@ -2036,6 +2100,7 @@
                 "fname": "Maker",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -2052,6 +2117,7 @@
                 "fname": "Maker",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "decimals": 18,
@@ -2102,6 +2168,7 @@
 		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -2150,6 +2217,7 @@
                 "fname": "NEAR Protocol",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -2199,6 +2267,7 @@
 		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -2233,6 +2302,7 @@
                 "fname": "Ontology",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -2277,6 +2347,7 @@
 		"fname": "Paxos Standard",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"required_confirmations": 3,
 		"avg_blocktime": 0.25,
 		"protocol": {
@@ -2293,6 +2364,7 @@
 		"fname": "Paxos Standard",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 56,
 		"avg_blocktime": 0.05,
 		"required_confirmations": 3,
 		"protocol": {
@@ -2309,6 +2381,7 @@
 		"fname": "PAX Gold",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 56,
 		"avg_blocktime": 0.05,
 		"required_confirmations": 3,
 		"protocol": {
@@ -2325,6 +2398,7 @@
 		"fname": "PAX Gold",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"avg_blocktime": 0.25,
 		"required_confirmations": 3,
 		"decimals": 18,
@@ -2402,6 +2476,7 @@
 		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -2556,6 +2631,7 @@
 		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -2585,6 +2661,7 @@
 		"fname": "RedFOX",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"required_confirmations": 3,
 		"avg_blocktime": 0.25,
 		"protocol": {
@@ -2663,6 +2740,7 @@
                 "fname": "Synthetix",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -2679,6 +2757,7 @@
                 "fname": "Synthetix",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "decimals": 18,
@@ -2698,6 +2777,7 @@
 		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -2772,6 +2852,7 @@
                 "fname": "Sushi",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -2788,6 +2869,7 @@
                 "fname": "Sushi",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "decimals": 18,
@@ -2805,6 +2887,7 @@
                 "fname": "Swipe",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -2821,6 +2904,7 @@
                 "fname": "Swipe",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "decimals": 18,
@@ -2923,6 +3007,7 @@
                 "fname": "TRON",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -2939,6 +3024,7 @@
                 "fname": "TrueUSD",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -2955,6 +3041,7 @@
 		"fname": "TrueUSD",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"required_confirmations": 3,
 		"avg_blocktime": 0.25,
 		"protocol": {
@@ -3004,6 +3091,7 @@
 		"fname": "USD Coin",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"required_confirmations": 3,
 		"avg_blocktime": 0.25,
 		"protocol": {
@@ -3020,6 +3108,7 @@
 		"fname": "USD Coin",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 56,
 		"avg_blocktime": 0.05,
 		"required_confirmations": 3,
 		"protocol": {
@@ -3036,6 +3125,7 @@
 		"fname": "Tether",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 56,
 		"avg_blocktime": 0.05,
 		"required_confirmations": 3,
 		"protocol": {
@@ -3052,6 +3142,7 @@
                 "fname": "Tether",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "protocol": {
@@ -3214,6 +3305,7 @@
                 "fname": "Stellar",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -3262,6 +3354,7 @@
 		"fname": "XRP",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 56,
 		"avg_blocktime": 0.05,
 		"required_confirmations": 3,
 		"protocol": {
@@ -3278,6 +3371,7 @@
                 "fname": "Tezos",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -3313,6 +3407,7 @@
                 "fname": "Venus",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -3344,6 +3439,7 @@
                 "fname": "yearn.finance",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -3360,6 +3456,7 @@
                 "fname": "yearn.finance",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "decimals": 18,
@@ -3377,6 +3474,7 @@
                 "fname": "DFI.Money",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -3393,6 +3491,7 @@
                 "fname": "DFI.Money",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "decimals": 18,
@@ -3468,6 +3567,7 @@
                 "fname": "Zilliqa",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -3499,6 +3599,7 @@
 		"avg_blocktime": 0.25,
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"protocol": {
 			"type": "ERC20",
 			"protocol_data": {
@@ -3989,6 +4090,7 @@
                 "fname": "wrapped btc",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4007,6 +4109,7 @@
                 "fname": "okb",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4025,6 +4128,7 @@
                 "fname": "bitfinex leo token",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4043,6 +4147,7 @@
                 "fname": "cofoundit",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4061,6 +4166,7 @@
                 "fname": "hex",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4095,6 +4201,7 @@
                 "fname": "celsius",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4112,6 +4219,7 @@
 		"fname": "Uniswap",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 1,
 		"avg_blocktime": 0.25,
 		"required_confirmations": 3,
 		"decimals": 18,
@@ -4129,6 +4237,7 @@
 		"fname": "Uniswap",
 		"rpcport": 80,
 		"mm2": 1,
+                "chain_id": 56,
 		"avg_blocktime": 0.05,
 		"required_confirmations": 3,
 		"protocol": {
@@ -4146,6 +4255,7 @@
                 "fname": "uma voting token v1",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4181,6 +4291,7 @@
                 "fname": "seele token",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4199,6 +4310,7 @@
                 "fname": "husd",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4217,6 +4329,7 @@
                 "fname": "republic",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4235,6 +4348,7 @@
                 "fname": "reserve rights",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4253,6 +4367,7 @@
                 "fname": "kybernetwork",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4271,6 +4386,7 @@
                 "fname": "jewel",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4289,6 +4405,7 @@
                 "fname": "ocean token",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4307,6 +4424,7 @@
                 "fname": "quant",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4325,6 +4443,7 @@
                 "fname": "swissborg",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4343,6 +4462,7 @@
                 "fname": "revain",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4360,6 +4480,7 @@
                 "fname": "Band Protocol",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -4376,6 +4497,7 @@
                 "fname": "Band Protocol",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "decimals": 18,
@@ -4394,6 +4516,7 @@
                 "fname": "statusnetwork",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4412,6 +4535,7 @@
                 "fname": "aragon",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4430,6 +4554,7 @@
                 "fname": "bitball treasure",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4448,6 +4573,7 @@
                 "fname": "bitpanda ecosystem token",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4466,6 +4592,7 @@
                 "fname": "cyberveintoken",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4484,6 +4611,7 @@
                 "fname": "dxchain token",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4502,6 +4630,7 @@
                 "fname": "rlc",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4520,6 +4649,7 @@
                 "fname": "storj",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4538,6 +4668,7 @@
                 "fname": "trace",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4556,6 +4687,7 @@
                 "fname": "baer chain",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4574,6 +4706,7 @@
                 "fname": "gnosis",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4592,6 +4725,7 @@
                 "fname": "unibright",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4610,6 +4744,7 @@
                 "fname": "chiliz",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4628,6 +4763,7 @@
                 "fname": "pinakion",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4646,6 +4782,7 @@
                 "fname": "skale",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4664,6 +4801,7 @@
                 "fname": "curve dao token",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4682,6 +4820,7 @@
                 "fname": "civic",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4699,6 +4838,7 @@
                 "fname": "aelf",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -4715,6 +4855,7 @@
                 "fname": "aelf",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "decimals": 18,
@@ -4733,6 +4874,7 @@
                 "fname": "the midas touch gold",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4751,6 +4893,7 @@
                 "fname": "serum",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4769,6 +4912,7 @@
                 "fname": "centrality token",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4787,6 +4931,7 @@
                 "fname": "utrust",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4805,6 +4950,7 @@
                 "fname": "quarkchain token",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4823,6 +4969,7 @@
                 "fname": "melon token",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4841,6 +4988,7 @@
                 "fname": "the transfer token",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4859,6 +5007,7 @@
                 "fname": "sora token",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4877,6 +5026,7 @@
                 "fname": "elitium",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4895,6 +5045,7 @@
                 "fname": "mco",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4913,6 +5064,7 @@
                 "fname": "btu protocol",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4931,6 +5083,7 @@
                 "fname": "fetch",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4949,6 +5102,7 @@
                 "fname": "voyager",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4967,6 +5121,7 @@
                 "fname": "diatoken",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -4985,6 +5140,7 @@
                 "fname": "stasis eurs token",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -5003,6 +5159,7 @@
                 "fname": "singularitynet",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -5021,6 +5178,7 @@
                 "fname": "uquid coin",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -5039,6 +5197,7 @@
                 "fname": "ultra token",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -5057,6 +5216,7 @@
                 "fname": "sharetoken",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -5075,6 +5235,7 @@
                 "fname": "s4fe",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
