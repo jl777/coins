@@ -3313,7 +3313,8 @@
                 "segwit": true,
                 "bech32_hrp": "ep",
                 "address_format": {
-                        "format": "segwit"
+                        "format": "segwit",
+                        "network": "mainnet"
                 },
                 "required_confirmations": 4,
                 "avg_blocktime": 1.3,
