@@ -1071,14 +1071,13 @@
                 "pubtype": 32,
                 "p2shtype": 30,
                 "wiftype": 181,
-		"isPoS": 1,
-                "txfee": 250,
-		"dust": 1,
+                "isPoS": 1,
+                "txfee": 1000,
 		"segwit": false,
 		"mm2": 1,
-		"mature_confirmations":75,
-                "required_confirmations": 10,
-                "avg_blocktime": 1,
+		"mature_confirmations": 75,
+                "required_confirmations": 7,
+                "avg_blocktime": 1.1,
                 "protocol": {
                         "type": "UTXO"
                 }
