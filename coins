@@ -437,6 +437,22 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "BIDR-BEP20",
+                "name": "bidr_bep20",
+                "fname": "BIDR",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x9A2f5556e9A637e8fBcE886d8e3cf8b316a1D8a2"
+                        }
+                }
+        },
 	{
 		"coin": "BLK",
 		"name": "blackmore",
