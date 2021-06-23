@@ -133,6 +133,38 @@
                 }
         },
         {
+                "coin": "ADX-BEP20",
+                "name": "adx_bep20",
+                "fname": "AdEx",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819"
+                        }
+                }
+        },
+        {
+                "coin": "ADX-ERC20",
+                "name": "adx_erc20",
+                "fname": "AdEx",
+                "rpcport": 80,
+                "mm2": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0xADE00C28244d5CE17D72E40330B1c318cD12B7c3"
+                        }
+                }
+        },
+        {
                 "coin": "ANKR-BEP20",
                 "name": "ankr_bep20",
                 "fname": "Ankr",
