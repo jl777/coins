@@ -3388,6 +3388,22 @@
                 }
         },
         {
+                "coin": "XMY",
+                "name": "myriadcoin",
+                "fname": "Myriad",
+                "rpcport": 10889,
+                "pubtype": 50,
+                "p2shtype": 9,
+                "wiftype": 178,
+                "txfee": 10000,
+                "mm2": 1,
+                "required_confirmations": 3,
+                "avg_blocktime": 2,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
+        {
                 "coin": "XPM",
                 "name": "primecoin",
                 "fname": "Primecoin",
