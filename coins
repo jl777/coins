@@ -138,6 +138,7 @@
                 "fname": "AdEx",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -154,6 +155,7 @@
                 "fname": "AdEx",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "avg_blocktime": 0.25,
                 "required_confirmations": 3,
                 "protocol": {
@@ -2614,6 +2616,40 @@
 			}
 		}
 	},
+        {
+                "coin": "QKC-BEP20",
+                "name": "qkc_bep20",
+                "fname": "QuarkChain",
+                "rpcport": 80,
+                "mm2": 1,
+                "chain_id": 56,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xA1434F1FC3F437fa33F7a781E041961C0205B5Da"
+                        }
+                }
+        },
+        {
+                "coin": "QKC-ERC20",
+                "name": "qkc_erc20",
+                "fname": "QuarkChain",
+                "rpcport": 80,
+                "mm2": 1,
+                "chain_id": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0xEA26c4aC16D4a5A106820BC8AEE85fd0b7b2b664"
+                        }
+                }
+        },
 	{
 		"coin":"QRC20",
 		"pubtype":120,
@@ -5028,25 +5064,6 @@
                                 "contract_address": "0xdc9Ac3C20D1ed0B540dF9b1feDC10039Df13F99c"
                         }
 	        },
-                "decimals": 18
-        },
-        {
-                "coin": "QKC",
-                "gui_coin": "QKC",
-                "name": "ethereum",
-                "fname": "quarkchain token",
-                "rpcport": 80,
-                "mm2": 1,
-                "chain_id": 1,
-                "required_confirmations": 3,
-                "avg_blocktime": 0.25,
-                "protocol": {
-                        "type": "ERC20",
-                        "protocol_data": {
-                                "platform": "ETH",
-                                "contract_address": "0xEA26c4aC16D4a5A106820BC8AEE85fd0b7b2b664"
-                        }
-                },
                 "decimals": 18
         },
         {
