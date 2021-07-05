@@ -3602,6 +3602,23 @@
                 }
         },
         {
+                "coin": "XVC-BEP20",
+                "name": "xvc_bep20",
+                "fname": "Vanillacash",
+                "rpcport": 80,
+                "mm2": 1,
+                "chain_id": 56,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xeBbfB9E5aF3172C7C0e1D4ff7106A8Bbb961F87B"
+                        }
+                }
+        },
+        {
                 "coin": "XVS",
                 "name": "xvs_bep20",
                 "fname": "Venus",
