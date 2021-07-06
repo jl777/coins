@@ -337,6 +337,23 @@
 		}
 	},
         {
+                "coin": "BABYDOGE",
+                "name": "babydoge_bep20",
+                "fname": "Baby Doge Coin",
+                "rpcport": 80,
+                "mm2": 1,
+                "chain_id": 56,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xc748673057861a797275CD8A068AbB95A902e8de"
+                        }
+                }
+        },
+        {
                 "coin": "BAL-BEP20",
                 "name": "bal_bep20",
                 "fname": "Balancer",
