@@ -253,6 +253,23 @@
                 }
         },
         {
+                "coin": "AVA-BEP20",
+                "name": "ava_bep20",
+                "fname": "Travala.com",
+                "rpcport": 80,
+                "mm2": 1,
+                "chain_id": 56,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x13616F44Ba82D63c8C0DC3Ff843D36a8ec1c05a9"
+                        }
+                }
+        },
+        {
                 "coin": "AVAX-BEP20",
                 "name": "avax_bep20",
                 "fname": "Avalanche",
