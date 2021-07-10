@@ -3437,6 +3437,23 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "VITE-BEP20",
+                "name": "vite_bep20",
+                "fname": "Vite",
+                "rpcport": 80,
+                "mm2": 1,
+                "chain_id": 56,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x2794DAD4077602eD25A88d03781528D1637898B4"
+                        }
+                }
+        },
 	{
 		"coin": "VOTE2021",
 		"asset": "VOTE2021",
