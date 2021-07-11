@@ -2255,6 +2255,23 @@
                         }
                 }
         },
+        {
+                "coin": "MM-ERC20",
+                "name": "mm_erc20",
+                "fname": "Million",
+                "rpcport": 80,
+                "mm2": 1,
+                "chain_id": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611"
+                        }
+                }
+        },
 	{
 		"coin": "MONA",
 		"name": "monacoin",
