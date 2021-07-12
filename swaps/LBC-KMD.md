@@ -1,5 +1,0 @@
-[taker fee (KMD)](https://kmdexplorer.io/tx/22d4d69bb23186a7878285a60541bc3079b8f9e44e765a3021271c688775abc7)  
-[maker payment (LBC)](https://explorer.lbry.com/tx/268d1f53e78e6bd4f6b2654a064c05218b9bac9c1b6fbda264308adb61ca93b4)  
-[taker payment (KMD)](https://kmdexplorer.io/tx/90fdaf64619554fe7d98826043287958c8aeb42f9d9fcbbfbc5ddddf852e1489)  
-[taker payment spent (KMD)](https://kmdexplorer.io/tx/88666147345ce42c74d8b50846acdc1a73e83bac014f19de1f2917cdbcc502bd)  
-[maker payment spent (LBC)](https://explorer.lbry.com/tx/f810ea85b082185e401a61b639f809852857330f68d056d0f4296ff572cf747e)  
