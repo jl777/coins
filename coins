@@ -1967,20 +1967,22 @@
 			"type": "UTXO"
 		}
 	},
-	{
-		"coin": "LBC",
-		"name": "lbrycrd",
-		"fname": "LBRY Credits",
-		"rpcport": 9245,
-		"pubtype": 85,
-		"p2shtype": 122,
-		"wiftype": 28,
-		"txfee": 10000,
-		"mm2": 1,
-		"protocol": {
-			"type": "UTXO"
-		}
-	},
+        {
+                "coin": "LBC",
+                "name": "lbrycrd",
+                "fname": "LBRY Credits",
+                "rpcport": 9245,
+                "pubtype": 85,
+                "p2shtype": 122,
+                "wiftype": 28,
+                "txfee": 10000,
+                "mm2": 1,
+                "required_confirmations": 3,
+                "avg_blocktime": 2.5,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
         {
                 "coin": "LCC",
                 "name": "litecoincash",
