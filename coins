@@ -3405,6 +3405,23 @@
                         }
                 }
         },
+	{
+                "coin": "WWCN-ERC20",
+                "name": "wwcn_erc20",
+                "fname": "Wrapped Widecoin",
+                "rpcport": 80,
+                "mm2": 1,
+                "chain_id": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0x54a3017754BFba73F71F37d893A368814CbFf457"
+                        }
+                }
+        },
         {
                 "coin": "VAL",
                 "name": "validity",
