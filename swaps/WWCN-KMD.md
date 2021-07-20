@@ -2,4 +2,4 @@
 [maker payment (WWCN)](https://etherscan.io/tx/0xf52605578dc1b3f14615e8b9985124d1db7ff00c32d2e17a50ce465711c082cf)  
 [taker payment (KMD)](https://kmdexplorer.io/tx/1e6749cd8c5625bc509816eefdcb9b5d2319f482b97e199b64c26c960b6ff7ba)  
 [taker payment spent (KMD)](https://kmdexplorer.io/tx/7d90bd84f7b8dfe994ac4c0dd2e6bb532105556fd8753d3dc7d37ea5f21f4f27)  
-[maker payment spent (WWCN)](https://etherscan.io/tx/0xf313bce5e15d1e56fcf5de1c65f47b6d28761d0f386d53745018a536f50c0878)  
+[maker payment spent (WWCN)](https://etherscan.io/tx/0xf8db5a010c87990a1c2498d9bdbd76a0e00afebe30f620f69b32372b8fc14a20)  
