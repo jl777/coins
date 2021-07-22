@@ -1,5 +1,5 @@
 [taker fee (KMD)](https://kmdexplorer.io/tx/ba466d29c3106d2c49b25fc48ca6d415e3cd5cff258debd06f8dd856211c06e7)  
-[maker payment (WCN)](http://explorer.widecoin.org:5000/tx/8a172a1d43170f71acd432273e1fe6b1b166a998c5d46326a314bf1aab23e0b8)  
+[maker payment (WCN)](https://explorer.widecoin.org/tx/8a172a1d43170f71acd432273e1fe6b1b166a998c5d46326a314bf1aab23e0b8)  
 [taker payment (KMD)](https://kmdexplorer.io/tx/1e6749cd8c5625bc509816eefdcb9b5d2319f482b97e199b64c26c960b6ff7ba)  
 [taker payment spent (KMD)](https://kmdexplorer.io/tx/7d90bd84f7b8dfe994ac4c0dd2e6bb532105556fd8753d3dc7d37ea5f21f4f27)  
-[maker payment spent (WCN)](http://explorer.widecoin.org:5000/tx/e696f0dbe16a7ec0d19f8e73f9b41a373afde3a1eb6ae5cfa182df328ed007a6)  
+[maker payment spent (WCN)](https://explorer.widecoin.org/tx/e696f0dbe16a7ec0d19f8e73f9b41a373afde3a1eb6ae5cfa182df328ed007a6)  
