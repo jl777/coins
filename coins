@@ -2814,6 +2814,7 @@
 		"txfee": 0,
 		"dust": 72800,
 		"mm2": 1,
+		"force_min_relay_fee":true
 		"required_confirmations": 3,
 		"mature_confirmations": 2000,
 		"avg_blocktime": 0.53,
