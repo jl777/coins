@@ -1,4 +1,22 @@
 [
+{
+		"coin": "PIC",
+		"name": "picacoin",
+		"fname": "Picacoin",
+		"rpcport": 4332,
+		"pubtype": 0,
+		"p2shtype": 5,
+		"wiftype": 128,
+		"segwit": true,
+                "bech32_hrp": "bc",
+		"txfee": 0,
+		"mm2": 1,
+		"required_confirmations": 1,
+		"avg_blocktime": 10,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
         {
                 "coin": "1INCH-BEP20",
                 "name": "1inch_bep20",
@@ -2591,24 +2609,7 @@
 			}
 		}
 	},
-		{
-		"coin": "PIC",
-		"name": "picacoin",
-		"fname": "Picacoin",
-		"rpcport": 4332,
-		"pubtype": 0,
-		"p2shtype": 5,
-		"wiftype": 128,
-		"segwit": true,
-                "bech32_hrp": "bc",
-		"txfee": 0,
-		"mm2": 1,
-		"required_confirmations": 1,
-		"avg_blocktime": 10,
-		"protocol": {
-			"type": "UTXO"
-		}
-	},
+		
 	{
 		"coin": "SFUSD",
 		"name": "smartusd",
