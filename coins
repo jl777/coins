@@ -2840,6 +2840,23 @@
 			"type": "QTUM"
 		}
 	},
+        {
+                "coin": "QTUM-ERC20",
+                "name": "qtum_erc20",
+                "fname": "Qtum",
+                "rpcport": 80,
+                "mm2": 1,
+                "chain_id": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0x3103dF8F05c4D8aF16fD22AE63E406b97FeC6938"
+                        }
+                }
+        },
 	{
 		"coin": "tQTUM",
 		"name": "qtumtest",
