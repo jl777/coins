@@ -5597,5 +5597,43 @@
                         }
 	        },
                 "decimals": 18
+        },
+        {
+            "coin": "tBCH",
+            "name": "Bitcoin Cash Testnet",
+            "fname": "Bitcoin Cash Testnet",
+            "pubtype": 111,
+            "p2shtype": 196,
+            "wiftype": 239,
+            "txfee": 0,
+            "estimate_fee_blocks": 2,
+            "segwit": true,
+            "fork_id": "0x40",
+            "address_format": {
+                "format": "cashaddress",
+                "network": "bchtest"
+            },
+            "mm2": 1,
+            "required_confirmations": 1,
+            "avg_blocktime": 10,
+            "protocol": {
+                "type": "BCH",
+                "protocol_data": {
+                    "slp_prefix": "slptest"
+                }
+            }
+        },
+        {
+            "coin":"USDF",
+            "protocol":{
+                "type":"SLPTOKEN",
+                "protocol_data":{
+                    "decimals":4,
+                    "token_id":"bb309e48930671582bea508f9a1d9b491e49b69be3d6f372dc08da2ac6e90eb7",
+                    "platform":"tBCH",
+                    "required_confirmations": 1
+                }
+            },
+            "mm2": 1
         }
 ]
