@@ -1,0 +1,5 @@
+[taker fee (USDF)](https://explorer.bitcoin.com/tbch/tx/c5f46ccc5431687154335d5b6526f1b9cfa961c44b97956b7bec77f884f56c73)  
+[maker payment (RICK)](https://rick.explorer.dexstats.info/tx/24f8f79a71c9b608c05876ff0bd32f1c3466e6caf6fa93ab8104d3933631812e)  
+[taker payment (USDF)](https://explorer.bitcoin.com/tbch/tx/e935160bfb5b45007a0fc6f8fbe8da618f28df6573731f1ffb54d9560abb49b2)  
+[taker payment spent (USDF)](https://explorer.bitcoin.com/tbch/tx/62af7742930d62f02edca0dbb5b042bba7d063ccac6623bca45aff4b0145419c)  
+[maker payment spent (RICK)](https://rick.explorer.dexstats.info/tx/1241b3424785b585da804c9c5a707201e0faab8a252f5baa74f089169c37f487)  
