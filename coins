@@ -2444,6 +2444,23 @@
                 }
         },
         {
+                "coin": "NVC-BEP20",
+                "name": "nvc_bep20",
+                "fname": "Novacoin",
+                "rpcport": 80,
+                "mm2": 1,
+                "chain_id": 56,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xBF84720097de111A80f46f9D077643967042841A"
+                        }
+                }
+        },
+        {
                 "coin": "OCEAN-BEP20",
                 "name": "ocean_bep20",
                 "fname": "Ocean Protocol",
