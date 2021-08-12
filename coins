@@ -5653,7 +5653,7 @@
             },
             "mm2": 1
         },
-	{
+	    {
             "coin":"sTST",
             "protocol":{
                 "type":"SLPTOKEN",
@@ -5665,5 +5665,29 @@
                 }
             },
             "mm2": 1
+        },
+        {
+            "coin": "ZOMBIE",
+            "asset": "ZOMBIE",
+            "fname": "ZOMBIE (TESTCOIN)",
+            "txversion": 4,
+            "overwintered": 1,
+            "mm2": 1,
+            "protocol": {
+                "type": "ZHTLC"
+            },
+            "required_confirmations": 1
+        },
+        {
+            "coin": "ARRR",
+            "asset": "PIRATE",
+            "fname": "PIRATE",
+            "txversion": 4,
+            "overwintered": 1,
+            "mm2": 1,
+            "protocol": {
+                "type": "ZHTLC"
+            },
+            "required_confirmations": 1
         }
 ]
