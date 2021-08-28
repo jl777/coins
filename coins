@@ -2127,6 +2127,26 @@
                         "type": "UTXO"
                 }
         },
+    {
+        "coin": "LTFN",
+        "name": "litecoinfinance",
+        "fname": "Litecoin Finance",
+        "rpcport": 39327,
+        "txversion": 2,
+        "pubtype": 28,
+        "p2shtype": 53,
+        "wiftype": 176,
+        "fork_id": "0x2A40",
+        "txfee": 20000,
+        "segwit": true,
+        "bech32_hrp": "ltfn",
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 2.5,
+        "protocol": {
+                "type": "UTXO"
+        }
+    },
 	{
 		"coin": "MANA",
 		"name": "decentraland",

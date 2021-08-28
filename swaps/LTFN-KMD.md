@@ -1,0 +1,5 @@
+[Taker fee (KMD)](https://kmdexplorer.io/tx/65bba0ac03b8a620cdb57263125b0e841a3a9ca65ef1ef954983a0ab9a5ad797)
+[Maker payment (LTFN)](https://openchains.info/coin/ltfn/tx/f20bbe5b7501e55fc94d30dadcf8fc24bd2def58fcff96e9caaeef5ddffc83b0)
+[Taker payment (KMD)](https://kmdexplorer.io/tx/05b73688ac3f54d35397fecb01f0fa225de1a7b2c5b235191c5c1bb0ffecdeb2)
+[Taker payment spend (KMD)](https://kmdexplorer.io/tx/faa01f5b25f6e52f3d314a57b128f37c2451843e8aee8f8c8926281f68bcc2bb)
+[Maker payment spend (LTFN)](https://openchains.info/coin/ltfn/tx/f18a5c4d08205d67b11d4283dc9e0cb623dcb1ac98fa0150620de8a335c6b023)
