@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/cceaed2757ef8e279a1cf62d57ff4d59233759613fa169fffee60522f09f5a7d)  
+[maker payment (GRMS)](http://91.231.187.20:3006/tx/427e198abcf8a0cfd9723cb9229229fa9123effcc5eba71d4775bf703b0e1bac)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/d8d553261e35d17a719c1631c974261ff2e91a37404b388cfe71dfe185661a8a)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/6269293f5cfb842e3418ba56c9ebe07725acdef3f017561245d2a4d53183e6dd)  
+[maker payment spent (GRMS)](http://91.231.187.20:3006/tx/36b6bf668850514a1a819454aebbf6aaf7fa6065576f0a510e45a38f64baa27d)  
