@@ -5547,9 +5547,8 @@
         },
         {
                 "coin": "VGX",
-                "gui_coin": "VGX",
                 "name": "ethereum",
-                "fname": "voyager",
+                "fname": "Voyager",
                 "rpcport": 80,
                 "mm2": 1,
                 "chain_id": 1,
@@ -5559,7 +5558,7 @@
                         "type": "ERC20",
                         "protocol_data": {
                                 "platform": "ETH",
-                                "contract_address": "0x5Af2Be193a6ABCa9c8817001F45744777Db30756"
+                                "contract_address": "0x3C4B6E6e1eA3D4863700D7F76b36B7f3D3f13E3d"
                         }
 	        },
                 "decimals": 8
