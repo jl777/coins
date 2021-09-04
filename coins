@@ -335,6 +335,40 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "AXS-BEP20",
+                "name": "axs_bep20",
+                "fname": "Axie Infinity",
+                "rpcport": 80,
+                "mm2": 1,
+                "chain_id": 56,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0x715D400F88C167884bbCc41C5FeA407ed4D2f8A0"
+                        }
+                }
+        },
+        {
+                "coin": "AXS-ERC20",
+                "name": "axs_erc20",
+                "fname": "Axie Infinity",
+                "rpcport": 80,
+                "mm2": 1,
+                "chain_id": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b"
+                        }
+                }
+        },
 	{
 		"coin": "AYA",
 		"name": "aryacoin",
