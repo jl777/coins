@@ -1990,6 +1990,40 @@
 			}
 		}
 	},
+        {
+                "coin": "KNC-BEP20",
+                "name": "knc_bep20",
+                "fname": "Kyber Network",
+                "rpcport": 80,
+                "mm2": 1,
+                "chain_id": 56,
+                "avg_blocktime": 0.05,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "BNB",
+                                "contract_address": "0xfe56d5892BDffC7BF58f2E84BE1b2C32D21C308b"
+                        }
+                }
+        },
+        {
+                "coin": "KNC-ERC20",
+                "name": "knc_erc20",
+                "fname": "Kyber Network",
+                "rpcport": 80,
+                "mm2": 1,
+                "chain_id": 1,
+                "avg_blocktime": 0.25,
+                "required_confirmations": 3,
+                "protocol": {
+                        "type": "ERC20",
+                        "protocol_data": {
+                                "platform": "ETH",
+                                "contract_address": "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202"
+                        }
+                }
+        },
 	{
 		"coin": "KOIN",
 		"asset": "KOIN",
@@ -4895,25 +4929,6 @@
                         "protocol_data": {
                                 "platform": "ETH",
                                 "contract_address": "0x8762db106B2c2A0bccB3A80d1Ed41273552616E8"
-                        }
-	        },
-                "decimals": 18
-        },
-        {
-                "coin": "KNC",
-                "gui_coin": "KNC",
-                "name": "ethereum",
-                "fname": "kybernetwork",
-                "rpcport": 80,
-                "mm2": 1,
-                "chain_id": 1,
-                "required_confirmations": 3,
-                "avg_blocktime": 0.25,
-                "protocol": {
-                        "type": "ERC20",
-                        "protocol_data": {
-                                "platform": "ETH",
-                                "contract_address": "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202"
                         }
 	        },
                 "decimals": 18
