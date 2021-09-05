@@ -5555,25 +5555,6 @@
                 "decimals": 18
         },
         {
-                "coin": "MCO",
-                "gui_coin": "MCO",
-                "name": "ethereum",
-                "fname": "mco",
-                "rpcport": 80,
-                "mm2": 1,
-                "chain_id": 1,
-                "required_confirmations": 3,
-                "avg_blocktime": 0.25,
-                "protocol": {
-                        "type": "ERC20",
-                        "protocol_data": {
-                                "platform": "ETH",
-                                "contract_address": "0xB63B606Ac810a52cCa15e44bB630fd42D8d1d83d"
-                        }
-	        },
-                "decimals": 8
-        },
-        {
                 "coin": "BTU",
                 "gui_coin": "BTU",
                 "name": "ethereum",
