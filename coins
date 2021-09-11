@@ -2575,7 +2575,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "txfee": 0,
                 "dust": 72800,
                 "mm2": 1,
@@ -2868,7 +2868,7 @@
 		"pubtype": 58,
 		"p2shtype": 50,
 		"wiftype": 128,
-		"segwit": true,
+                "segwit": false,
 		"txfee": 0,
 		"dust": 72800,
 		"mm2": 1,
@@ -2891,7 +2891,7 @@
 		"pubtype": 58,
 		"p2shtype": 50,
 		"wiftype": 128,
-		"segwit": true,
+                "segwit": false,
 		"txfee": 0,
 		"dust": 72800,
 		"mm2": 1,
@@ -2914,7 +2914,7 @@
 		"pubtype": 58,
 		"p2shtype": 50,
 		"wiftype": 128,
-		"segwit": true,
+                "segwit": false,
 		"txfee": 0,
 		"dust": 72800,
 		"mm2": 1,
@@ -2968,7 +2968,7 @@
 		"pubtype":120,
 		"p2shtype":50,
 		"wiftype":128,
-		"segwit":true,
+                "segwit": false,
 		"txfee": 400000,
 		"mm2":1,
 		"mature_confirmations":2000,
@@ -3975,7 +3975,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "txfee": 0,
                 "dust": 72800,
                 "mm2": 1,
@@ -4219,7 +4219,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 9
         },
         {
@@ -4244,7 +4244,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 18
         },
         {
@@ -4269,7 +4269,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 8
         },
         {
@@ -4294,7 +4294,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 8
         },
         {
@@ -4319,7 +4319,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 8
         },
         {
@@ -4344,7 +4344,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 8
         },
         {
@@ -4369,7 +4369,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 9
         },
         {
@@ -4394,7 +4394,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 8
         },
         {
@@ -4419,7 +4419,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 8
         },
         {
@@ -4444,7 +4444,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 8
         },
         {
@@ -4469,7 +4469,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 9
         },
         {
@@ -4494,7 +4494,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 18
         },
         {
@@ -4519,7 +4519,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 8
         },
         {
@@ -4544,7 +4544,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 8
         },
         {
@@ -4569,7 +4569,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 9
         },
         {
@@ -4594,7 +4594,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 8
         },
         {
@@ -4619,7 +4619,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 18
         },
         {
@@ -4644,7 +4644,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 8
         },
         {
@@ -4669,7 +4669,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 8
         },
         {
