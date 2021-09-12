@@ -517,7 +517,7 @@
 		"wiftype": 128,
 		"txfee": 0,
 		"estimate_fee_blocks": 2,
-		"segwit": true,
+		"segwit": false,
                 "fork_id": "0x40",
 		"address_format": {
 			"format": "cashaddress",
@@ -1714,6 +1714,7 @@
 		"p2shtype": 38,
 		"wiftype": 65,
 		"segwit": true,
+                "bech32_hrp": "fg",
 		"txfee": 0,
 		"mm2": 1,
 		"required_confirmations": 2,
@@ -1732,6 +1733,7 @@
                 "wiftype": 128,
                 "txfee": 0,
                 "segwit": true,
+                "bech32_hrp": "bc",
                 "mm2": 1,
                 "required_confirmations": 5,
                 "avg_blocktime": 1,
@@ -2179,6 +2181,26 @@
 			"type": "UTXO"
 		}
 	},
+        {
+                "coin": "LTFN",
+                "name": "litecoinfinance",
+                "fname": "Litecoin Finance",
+                "rpcport": 39327,
+                "txversion": 2,
+                "pubtype": 28,
+                "p2shtype": 53,
+                "wiftype": 176,
+                "fork_id": "0x2A40",
+                "txfee": 20000,
+                "segwit": true,
+                "bech32_hrp": "ltfn",
+                "mm2": 1,
+                "required_confirmations": 3,
+                "avg_blocktime": 2.5,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
 	{
 		"coin": "LUX",
 		"name": "lux",
@@ -2204,7 +2226,7 @@
                 "wiftype": 173,
                 "txfee": 0,
                 "dust": 54600,
-                "segwit": true,
+                "segwit": false,
                 "mm2": 1,
                 "required_confirmations": 1,
                 "avg_blocktime": 20,
@@ -2212,26 +2234,6 @@
                         "type": "UTXO"
                 }
         },
-    {
-        "coin": "LTFN",
-        "name": "litecoinfinance",
-        "fname": "Litecoin Finance",
-        "rpcport": 39327,
-        "txversion": 2,
-        "pubtype": 28,
-        "p2shtype": 53,
-        "wiftype": 176,
-        "fork_id": "0x2A40",
-        "txfee": 20000,
-        "segwit": true,
-        "bech32_hrp": "ltfn",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 2.5,
-        "protocol": {
-                "type": "UTXO"
-        }
-    },
 	{
 		"coin": "MANA",
 		"name": "decentraland",
@@ -2391,6 +2393,8 @@
 		"wiftype": 176,
 		"txfee": 0,
                 "dust": 100000,
+                "segwit": true,
+                "bech32_hrp": "mona",
 		"mm2": 1,
 		"required_confirmations": 5,
 		"avg_blocktime": 1.5,
@@ -2746,7 +2750,7 @@
 		"pubtype": 63,
 		"p2shtype": 85,
 		"wiftype": 188,
-		"segwit": true,
+		"segwit": false,
 		"txfee": 10000,
 		"mm2": 1,
 		"required_confirmations": 5,
@@ -3682,6 +3686,7 @@
 		"wiftype": 199,
 		"txfee": 100000,
 		"segwit": true,
+		"bech32_hrp": "via",
 		"mm2": 1,
 		"protocol": {
 			"type": "UTXO"
@@ -5768,7 +5773,7 @@
             "wiftype": 239,
             "txfee": 0,
             "estimate_fee_blocks": 2,
-            "segwit": true,
+            "segwit": false,
             "fork_id": "0x40",
             "address_format": {
                 "format": "cashaddress",
