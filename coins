@@ -5784,6 +5784,23 @@
                 }
             }
         },
+	{
+		"coin": "USBL",
+		"name": "bitdollar",
+		"fname": "Balanced",
+		"confpath": "USERHOME/.bitdollar/bitdollar.conf",
+		"rpcport": 35573,
+		"pubtype": 65,
+		"p2shtype": 66,
+		"wiftype": 193,
+		"txfee": 0,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"avg_blocktime": 2.5,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
         {
             "coin":"USDF",
             "protocol":{
