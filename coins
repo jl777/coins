@@ -1559,6 +1559,23 @@
 			"type": "UTXO"
 		}
 	},
+	{
+		"coin": "FJC-BEP20",
+		"name": "fjc_bep20",
+		"fname": "Fujicoin",
+		"rpcport": 80,
+		"mm2": 1,
+                "chain_id": 56,
+		"avg_blocktime": 0.05,
+		"required_confirmations": 3,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "BNB",
+				"contract_address": "0xd4451a8eE7D0978c60651a114b742Fa8d5857CDf"
+			}
+		}
+	},
         {
                 "coin": "STFIRO",
                 "name": "firo_erc20",
