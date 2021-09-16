@@ -3992,20 +3992,15 @@
 		{
 		"coin": "XRG",
 		"name": "ergon",
-		"confpath": "USERHOME/.bitcoin-static/bitcoin.conf",
 		"fname": "Ergon",
 		"rpcport": 2137,
 		"pubtype": 0,
 		"p2shtype": 5,
 		"wiftype": 128,
-		"txfee": 0,
+		"txfee": 10,
 		"estimate_fee_blocks": 2,
 		"segwit": true,
-        "fork_id": "0x40",
-		"address_format": {
-			"format": "cashaddress",
-			"network": "ergon"
-		},
+		"fork_id": "0x40",
 		"mm2": 1,
 		"required_confirmations": 10,
 		"avg_blocktime": 10,
