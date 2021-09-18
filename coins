@@ -3633,6 +3633,23 @@
 		}
 	},
 	{
+                            "coin": "USDT-PLG20",
+                            "name": "usdt_plg20",
+                            "fname": "Tether",
+                            "rpcport": 80,
+                            "mm2": 1,
+                            "chain_id": 137,
+                            "avg_blocktime": 0.25,
+                            "required_confirmations": 3,
+                            "protocol": {
+                                    "type": "ERC20",
+                                    "protocol_data": {
+                                            "platform": "MATIC",
+                                            "contract_address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+                                    }
+                            }
+                    },
+	{
 		"coin": "USDT-BEP20",
 		"name": "usdt_bep20",
 		"fname": "Tether",
