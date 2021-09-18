@@ -2268,6 +2268,19 @@
 			}
 		}
 	},
+	{
+                            "coin": "MATICTEST",
+                            "name": "matic testnet",
+                            "fname": "Matic testnet",
+                            "avg_blocktime": 0.2,
+                            "rpcport": 80,
+                            "mm2": 1,
+                            "chain_id": 80001,
+                            "required_confirmations": 3,
+                            "protocol": {
+                                    "type": "ETH"
+                            }
+        },
         {
                 "coin": "MATIC-BEP20",
                 "name": "matic_bep20",
