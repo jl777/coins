@@ -1479,6 +1479,32 @@
 		}
 	},
 	{
+                "coin": "ETHK-OPT20",
+                "name": "ethereumkovanoptimism",
+                "fname": "Ethereum (Kovan Optimism)",
+                "rpcport": 80,
+                "mm2": 1,
+                "chain_id": 69,
+                "required_confirmations": 3,
+                "avg_blocktime": 0.25,
+                "protocol": {
+                    "type": "ETH"
+                }
+        },
+        {
+                        "coin": "ETHR-ARB20",
+                        "name": "ethereumrinkebyarbitrum",
+                        "fname": "Ethereum (Rinkeby Arbitrum)",
+                        "rpcport": 80,
+                        "mm2": 1,
+                        "chain_id": 421611,
+                        "required_confirmations": 3,
+                        "avg_blocktime": 0.25,
+                        "protocol": {
+                            "type": "ETH"
+                        }
+                },
+	{
 		"coin": "ETHR",
 		"name": "ethereumropsten",
 		"fname": "Ethereum (Ropsten)",
