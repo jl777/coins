@@ -3640,6 +3640,7 @@
                             "mm2": 1,
                             "chain_id": 137,
                             "avg_blocktime": 0.25,
+			    "decimals": 6,
                             "required_confirmations": 3,
                             "protocol": {
                                     "type": "ERC20",
