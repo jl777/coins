@@ -1,0 +1,5 @@
+[Taker fee (MORTY)](https://morty.explorer.dexstats.info/tx/2a58f5617bb091834de649402ce80b4daef4a05c35943981346abb35b310d620)
+[maker payment (XRG)](https://explorer.ergon.network/tx/64591d6488db3c30b5272fcb4c590b3cdb33bb36fd3c0c0b4d499d5c54f73588)
+[taker payment (MORTY)](https://morty.explorer.dexstats.info/tx/65b0260df5f799e296d4038f4cadc7f84ea3e06778cfc07ed746f10360295997)
+[taker payment spent (XRG)](https://explorer.ergon.network/tx/d07219175ea54c8fbaa2c87a48ef71fa50ca894cf1e7470f85923fb1e4f917d5)
+[maker payment spent (MORTY)](https://morty.explorer.dexstats.info/tx/36bd4fc213a501db0fda606fa6bdead593ed798e46cd70ec8d0dc5989998931c)
