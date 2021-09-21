@@ -1239,7 +1239,7 @@
                 "coin": "DIMI",
                 "name": "diminutivecoin",
                 "fname": "DiminutiveCoin",
-                "rpcport": 49139,
+                "rpcport": 49122,
                 "pubtype": 32,
                 "p2shtype": 30,
                 "wiftype": 181,
@@ -1249,7 +1249,7 @@
 		"mm2": 1,
 		"mature_confirmations": 75,
                 "required_confirmations": 7,
-                "avg_blocktime": 1.1,
+                "avg_blocktime": 1.25,
                 "protocol": {
                         "type": "UTXO"
                 }
