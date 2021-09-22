@@ -1519,6 +1519,24 @@
 		}
 	},
 	{
+                                            "coin": "ETH-AVX20",
+                                            "name": "ethereum avalanche",
+                                            "fname": "Ethereum Avalanche",
+                                            "rpcport": 80,
+                                            "mm2": 1,
+                                            "chain_id": 43114,
+                                            "required_confirmations": 3,
+                                            "avg_blocktime": 0.25,
+                                            "decimals": 18,
+                                           "protocol": {
+                                           			"type": "ERC20",
+                                           			"protocol_data": {
+                                           				"platform": "AVAX",
+                                           				"contract_address": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB"
+                                           			}
+                                           		}
+                                        },
+	{
             "coin": "ETH-ARB20",
             "name": "ethereum arbitrum",
             "fname": "Ethereum Arbitrum",
