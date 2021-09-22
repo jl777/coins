@@ -1506,6 +1506,19 @@
 		}
 	},
 	{
+            "coin": "ETH-ARB20",
+            "name": "ethereum arbitrum",
+            "fname": "Ethereum Arbitrum",
+            "rpcport": 80,
+            "mm2": 1,
+            "chain_id": 42161,
+            "required_confirmations": 3,
+            "avg_blocktime": 0.25,
+            "protocol": {
+                "type": "ETH"
+            }
+        },
+	{
 		"coin": "ETH-BEP20",
 		"name": "eth_bep20",
 		"fname": "Ethereum",
