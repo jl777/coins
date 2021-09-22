@@ -330,6 +330,19 @@
         			"type": "ETH"
         		}
         	},
+		{
+                    		"coin": "AVAX",
+                    		"name": "avax",
+                    		"fname": "Avax",
+                    		"rpcport": 80,
+                    		"mm2": 1,
+                                    "chain_id": 43114,
+                    		"required_confirmations": 3,
+                    		"avg_blocktime": 0.25,
+                    		"protocol": {
+                    			"type": "ETH"
+                    		}
+                    	},
         {
                 "coin": "AVAX-BEP20",
                 "name": "avax_bep20",
