@@ -1728,6 +1728,19 @@
 			"type": "UTXO"
 		}
 	},
+	 {
+            		"coin": "FTMT",
+            		"name": "ftmt",
+            		"fname": "Fantom Testnet",
+            		"rpcport": 80,
+            		"mm2": 1,
+                        "chain_id": 4002,
+            		"required_confirmations": 3,
+            		"avg_blocktime": 0.25,
+            		"protocol": {
+            			"type": "ETH"
+            		}
+            	},
         {
                 "coin": "FTM-BEP20",
                 "name": "ftm_bep20",
