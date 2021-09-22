@@ -3763,6 +3763,24 @@
                                     }
                             }
                     },
+		     {
+                                        "coin": "USDT-AVX20",
+                                        "name": "usdt_avx20",
+                                        "fname": "Tether",
+                                        "rpcport": 80,
+                                        "mm2": 1,
+                                        "chain_id": 43114,
+                                        "required_confirmations": 3,
+                                        "avg_blocktime": 0.25,
+                                        "decimals": 6,
+                                       "protocol": {
+                                       			"type": "ERC20",
+                                       			"protocol_data": {
+                                       				"platform": "AVAX",
+                                       				"contract_address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118"
+                                       			}
+                                       		}
+                                    },
 	{
 		"coin": "USDT-BEP20",
 		"name": "usdt_bep20",
