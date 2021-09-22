@@ -3795,6 +3795,24 @@
     }
   },
   {
+    "coin": "USDT-ARB20",
+    "name": "usdt_arb20",
+    "fname": "Tether Arbitrum",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "avg_blocktime": 0.25,
+    "decimals": 6,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      }
+    }
+  },
+  {
     "coin": "USDT-AVX20",
     "name": "usdt_avx20",
     "fname": "Tether",
