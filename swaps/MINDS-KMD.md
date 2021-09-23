@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://komodod.com/t/924b3e2a0e76fe2271797ae827d410fb667ddbdc8f21a9f20ad23269b5a36ed6)  
+[maker payment (MINDS)](https://etherscan.io/tx/0x334bd92aa462c49f82a13367ba054d4bdfbad100b82e0fd2d0af63c2d4be52bb)  
+[taker payment (KMD)](https://komodod.com/t/1823cefd357541e1e2b46a2f9bd55ca16a0d73b1fa18222c2b14dff8c98bdc0e)  
+[taker payment spent (KMD)](https://komodod.com/t/b0b349c6117cf4f3b98b99facdb14fa5979ebef76f524623416833ff9e5a1a6b)  
+[maker payment spent (MINDS)](https://etherscan.io/tx/0x2d209a8ceea899ff7c4649c969664a5ae1d03144e204d1a1e36c39c667444e1b)  
