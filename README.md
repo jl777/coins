@@ -94,6 +94,7 @@ You need the following info in JSON format added to the [coins](coins) file:
                 "fname": "USD Coin",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -115,6 +116,7 @@ You need the following info in JSON format added to the [coins](coins) file:
                 "fname": "USD Coin",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -186,6 +188,7 @@ You need the following info in JSON format added to the [coins](coins) file:
 ## Ethereum Protocol specific JSON
 
 - Ethereum protocol specific coin/project add request are the simplest. `"coin"`, `"name"`, and `"fname"` information is same as explained in bitcoin protocol specific json section.
+- `chain_id` - ID of the chain, see [Chainlist](https://chainlist.org/)
 - Protocol `"type"` field: `"ETH"` or `"ERC20"`
 - Protocol `"protocol_data"` field (ERC20 only): `"platform"` - `"ETH"`, `"ETC"` or other Ethereum forks. `"contract_address"` - ERC20 token [checksummed](https://coincodex.com/article/2078/ethereum-address-checksum-explained/) smart contract address.
 
