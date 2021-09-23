@@ -2819,6 +2819,19 @@
     }
   },
   {
+    "coin": "ONE",
+    "name": "harmony",
+    "fname": "Harmony",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1666600000,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.25,
+    "protocol": {
+      "type": "ETH"
+    }
+  },
+  {
     "coin": "ONT-BEP20",
     "name": "ont_bep20",
     "fname": "Ontology",
