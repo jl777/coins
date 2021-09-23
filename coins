@@ -1789,6 +1789,19 @@
     }
   },
   {
+    "coin": "FTM",
+    "name": "ftm",
+    "fname": "Fantom",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.25,
+    "protocol": {
+      "type": "ETH"
+    }
+  },
+  {
     "coin": "FTM-BEP20",
     "name": "ftm_bep20",
     "fname": "Fantom",
@@ -3807,6 +3820,23 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+      }
+    }
+  },
+  {
+    "coin": "USDC-FTM20",
+    "name": "usdc_ftm20",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75"
       }
     }
   },
