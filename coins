@@ -3282,6 +3282,24 @@
     }
   },
   {
+    "coin": "RIC",
+    "name": "riecoin",
+    "fname": "Riecoin",
+    "rpcport": 28332,
+    "pubtype": 60,
+    "p2shtype": 65,
+    "wiftype": 128,
+    "segwit": true,
+    "bech32_hrp": "ric",
+    "txfee": 0,
+    "mm2": 1,
+    "required_confirmations": 4,
+    "avg_blocktime": 2.5,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
     "coin": "RICK",
     "asset": "RICK",
     "fname": "RICK (TESTCOIN)",
