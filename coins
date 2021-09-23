@@ -2552,6 +2552,24 @@
     }
   },
   {
+    "coin": "MINDS",
+    "name": "minds",
+    "fname": "minds",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "decimals": 18,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xB26631c6dda06aD89B93C71400D25692de89c068"
+      }
+    }
+  },
+  {
     "coin": "MKR-ERC20",
     "name": "mkr_erc20",
     "fname": "Maker",
