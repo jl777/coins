@@ -3855,6 +3855,24 @@
     }
   },
   {
+    "coin": "USDT-KRC20",
+    "name": "usdt_krc20",
+    "fname": "Tether",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "avg_blocktime": 0.25,
+    "decimals": 6,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x0039f574eE5cC39bdD162E9A88e3EB1f111bAF48"
+      }
+    }
+  },
+  {
     "coin": "USDT-PLG20",
     "name": "usdt_plg20",
     "fname": "Tether",
