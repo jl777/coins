@@ -5620,6 +5620,19 @@
     "decimals": 18
   },
   {
+    "coin": "UBIQ",
+    "name": "ubiq",
+    "fname": "Ubiq",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 8,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.25,
+    "protocol": {
+      "type": "ETH"
+    }
+  },
+  {
     "coin": "UBT",
     "gui_coin": "UBT",
     "name": "ethereum",
