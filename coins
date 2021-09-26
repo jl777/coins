@@ -1972,6 +1972,19 @@
     "coin": "HT",
     "name": "huobi-token",
     "fname": "Huobi Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 128,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.25,
+    "protocol": {
+      "type": "ETH"
+    }
+  },
+  {
+    "coin": "HT-ERC20",
+    "name": "huobi-token",
+    "fname": "Huobi Token",
     "required_confirmations": 3,
     "avg_blocktime": 0.25,
     "rpcport": 80,
