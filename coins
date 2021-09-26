@@ -869,6 +869,24 @@
     }
   },
   {
+    "coin": "BUSD-MVR20",
+    "name": "busd_mvr20",
+    "fname": "Binance USD",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1285,
+    "avg_blocktime": 0.25,
+    "decimals": 18,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MOVR",
+        "contract_address": "0x5D9ab5522c64E1F6ef5e3627ECCc093f56167818"
+      }
+    }
+  },
+  {
     "coin": "BUSD-ERC20",
     "name": "busd_erc20",
     "fname": "Binance USD",
@@ -899,24 +917,6 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
-      }
-    }
-  },
-   {
-    "coin": "BUSD-MVR20",
-    "name": "busd_mvr20",
-    "fname": "Binance USD",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1285,
-    "avg_blocktime": 0.25,
-    "decimals": 18,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MOVR",
-        "contract_address": "0x5D9ab5522c64E1F6ef5e3627ECCc093f56167818"
       }
     }
   },
@@ -2157,7 +2157,7 @@
     "required_confirmations": 3,
     "avg_blocktime": 0.25,
     "protocol": {
-          "type": "ETH"
+      "type": "ETH"
     }
   },
   {
@@ -3899,24 +3899,42 @@
     }
   },
   {
-      "coin": "USDC-KRC20",
-      "name": "usdc_krc20",
-      "fname": "USD Coin",
-      "rpcport": 80,
-      "mm2": 1,
-      "chain_id": 321,
-      "avg_blocktime": 0.25,
-      "decimals": 18,
-      "required_confirmations": 3,
-      "protocol": {
-        "type": "ERC20",
-        "protocol_data": {
-          "platform": "KCS",
-          "contract_address": "0x980a5AfEf3D17aD98635F6C5aebCBAedEd3c3430"
-        }
+    "coin": "USDC-HCO20",
+    "name": "usdc_hco20",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 128,
+    "avg_blocktime": 0.25,
+    "decimals": 6,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "HT",
+        "contract_address": "0x9362Bbef4B8313A8Aa9f0c9808B80577Aa26B73B"
       }
-    },
-    {
+    }
+  },
+  {
+    "coin": "USDC-KRC20",
+    "name": "usdc_krc20",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "avg_blocktime": 0.25,
+    "decimals": 18,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x980a5AfEf3D17aD98635F6C5aebCBAedEd3c3430"
+      }
+    }
+  },
+  {
     "coin": "USDC-MVR20",
     "name": "usdc_mvr20",
     "fname": "USD Coin",
@@ -3952,7 +3970,25 @@
       }
     }
   },
-    {
+  {
+    "coin": "USDT-HCO20",
+    "name": "usdt_hco20",
+    "fname": "Tether",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 128,
+    "avg_blocktime": 0.25,
+    "decimals": 18,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "HT",
+        "contract_address": "0xa71EdC38d189767582C38A3145b5873052c3e47a"
+      }
+    }
+  },
+  {
     "coin": "USDT-KRC20",
     "name": "usdt_krc20",
     "fname": "Tether",
@@ -4349,9 +4385,9 @@
     "segwit": false,
     "fork_id": "0x40",
     "address_format": {
-        "format": "cashaddress",
-        "network": "ergon"
-	},
+      "format": "cashaddress",
+      "network": "ergon"
+    },
     "mm2": 1,
     "required_confirmations": 2,
     "avg_blocktime": 10,
