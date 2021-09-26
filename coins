@@ -902,6 +902,24 @@
       }
     }
   },
+   {
+    "coin": "BUSD-MVR20",
+    "name": "busd_mvr20",
+    "fname": "Binance USD",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1285,
+    "avg_blocktime": 0.25,
+    "decimals": 18,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MOVR",
+        "contract_address": "0x5D9ab5522c64E1F6ef5e3627ECCc093f56167818"
+      }
+    }
+  },
   {
     "coin": "CAKE",
     "name": "cake",
@@ -3885,6 +3903,42 @@
         }
       }
     },
+    {
+    "coin": "USDC-MVR20",
+    "name": "usdc_mvr20",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1285,
+    "avg_blocktime": 0.25,
+    "decimals": 6,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MOVR",
+        "contract_address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D"
+      }
+    }
+  },
+  {
+    "coin": "USDT-MVR20",
+    "name": "usdt_mvr20",
+    "fname": "Tether",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1285,
+    "avg_blocktime": 0.25,
+    "decimals": 6,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MOVR",
+        "contract_address": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C"
+      }
+    }
+  },
     {
     "coin": "USDT-KRC20",
     "name": "usdt_krc20",
