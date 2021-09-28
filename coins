@@ -6341,6 +6341,30 @@
     "mm2": 1
   },
   {
+    "coin": "XEC",
+    "name": "xec",
+    "fname": "eCash",
+    "rpcport": 8332,
+    "pubtype": 0,
+    "p2shtype": 5,
+    "wiftype": 128,
+    "txfee": 0,
+    "estimate_fee_blocks": 2,
+    "segwit": false,
+    "fork_id": "0x40",
+    "address_format": {
+      "format": "cashaddress",
+      "network": "ecash"
+    },
+    "mm2": 1,
+    "decimals":2,
+    "required_confirmations": 1,
+    "avg_blocktime": 10,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
     "coin": "ZOMBIE",
     "asset": "ZOMBIE",
     "fname": "ZOMBIE (TESTCOIN)",
