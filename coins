@@ -4850,6 +4850,24 @@
     }
   },
   {
+    "coin": "TRYB-AVX20",
+    "name": "tryb_avx20",
+    "fname": "BiLira",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.03,
+    "decimals": 6,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x564A341Df6C126f90cf3ECB92120FD7190ACb401"
+      }
+    }
+  },
+  {
     "coin": "TRYB-BEP20",
     "name": "tryb_bep20",
     "fname": "BiLira",
