@@ -1136,6 +1136,24 @@
     }
   },
   {
+    "coin": "BUSD-HRC20",
+    "name": "busd_hrc20",
+    "fname": "Binance USD",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1666600000,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ONE",
+        "contract_address": "0xE176EBE47d621b984a73036B9DA5d834411ef734"
+      }
+    }
+  },
+  {
     "coin": "BUSD-PLG20",
     "name": "busd_plg20",
     "fname": "Binance USD",
