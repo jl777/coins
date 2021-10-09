@@ -532,6 +532,24 @@
     }
   },
   {
+    "coin": "BAL-PLG20",
+    "name": "bal_plg20",
+    "fname": "Balancer",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 8,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3"
+      }
+    }
+  },
+  {
     "coin": "JRT-ERC20",
     "name": "jrt_erc20",
     "fname": "Jarvis Network",
@@ -972,6 +990,42 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0x8595F9dA7b868b1822194fAEd312235E43007b49"
+      }
+    }
+  },
+  {
+    "coin": "BTU-ERC20",
+    "name": "btu_erc20",
+    "fname": "BTU Protocol",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xb683D83a532e2Cb7DFa5275eED3698436371cc9f"
+      }
+    }
+  },
+  {
+    "coin": "BTU-PLG20",
+    "name": "btu_plg20",
+    "fname": "BTU Protocol",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xFdc26CDA2d2440d0E83CD1DeE8E8bE48405806DC"
       }
     }
   },
@@ -3592,6 +3646,24 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48"
+      }
+    }
+  },
+  {
+    "coin": "OCEAN-PLG20",
+    "name": "ocean_plg20",
+    "fname": "Ocean Protocol",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x282d8efCe846A88B159800bd4130ad77443Fa1A1"
       }
     }
   },
@@ -6848,25 +6920,6 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0x6aB4A7d75B0A42B6Bc83E852daB9E121F9C610Aa"
-      }
-    },
-    "decimals": 18
-  },
-  {
-    "coin": "BTU",
-    "gui_coin": "BTU",
-    "name": "ethereum",
-    "fname": "btu protocol",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0xb683D83a532e2Cb7DFa5275eED3698436371cc9f"
       }
     },
     "decimals": 18
