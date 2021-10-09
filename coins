@@ -185,6 +185,42 @@
     }
   },
   {
+    "coin": "AGIX-ERC20",
+    "name": "agix_erc20",
+    "fname": "SingularityNET",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 8,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x5B7533812759B45C2B44C19e320ba2cD2681b542"
+      }
+    }
+  },
+  {
+    "coin": "AGIX-PLG20",
+    "name": "agix_plg20",
+    "fname": "SingularityNET",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 8,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x190Eb8a183D22a4bdf278c6791b152228857c033"
+      }
+    }
+  },
+  {
     "coin": "ANKR-BEP20",
     "name": "ankr_bep20",
     "fname": "Ankr",
@@ -6996,25 +7032,6 @@
       }
     },
     "decimals": 18
-  },
-  {
-    "coin": "AGI",
-    "gui_coin": "AGI",
-    "name": "ethereum",
-    "fname": "singularitynet",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x8eB24319393716668D768dCEC29356ae9CfFe285"
-      }
-    },
-    "decimals": 8
   },
   {
     "coin": "UQC",
