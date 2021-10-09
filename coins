@@ -2038,6 +2038,24 @@
     }
   },
   {
+    "coin": "ETH-PLG20",
+    "name": "eth_plg20",
+    "fname": "Ethereum",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+      }
+    }
+  },
+  {
     "coin": "ETHK-OPT20",
     "name": "ethereumkovanoptimism",
     "fname": "Ethereum (Kovan Optimism)",
