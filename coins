@@ -35,6 +35,24 @@
     }
   },
   {
+    "coin": "1INCH-PLG20",
+    "name": "1inch_plg20",
+    "fname": "1inch",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f"
+      }
+    }
+  },
+  {
     "coin": "AAVE-BEP20",
     "name": "aave_bep20",
     "fname": "Aave",
@@ -1132,6 +1150,24 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+      }
+    }
+  },
+  {
+    "coin": "BUSD-HRC20",
+    "name": "busd_hrc20",
+    "fname": "Binance USD",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1666600000,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ONE",
+        "contract_address": "0xE176EBE47d621b984a73036B9DA5d834411ef734"
       }
     }
   },
@@ -4810,6 +4846,24 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B"
+      }
+    }
+  },
+  {
+    "coin": "TRYB-AVX20",
+    "name": "tryb_avx20",
+    "fname": "BiLira",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.03,
+    "decimals": 6,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x564A341Df6C126f90cf3ECB92120FD7190ACb401"
       }
     }
   },
