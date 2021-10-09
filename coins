@@ -2495,6 +2495,42 @@
     }
   },
   {
+    "coin": "GRT-ERC20",
+    "name": "grt_erc20",
+    "fname": "The Graph",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7"
+      }
+    }
+  },
+  {
+    "coin": "GRT-PLG20",
+    "name": "grt_plg20",
+    "fname": "The Graph",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x5fe2B58c013d7601147DcdD68C143A77499f5531"
+      }
+    }
+  },
+  {
     "coin": "HEX-ERC20",
     "name": "hex_erc20",
     "fname": "HEX",
