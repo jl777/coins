@@ -35,6 +35,24 @@
     }
   },
   {
+    "coin": "1INCH-PLG20",
+    "name": "1inch_plg20",
+    "fname": "1inch",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f"
+      }
+    }
+  },
+  {
     "coin": "AAVE-BEP20",
     "name": "aave_bep20",
     "fname": "Aave",
