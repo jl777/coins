@@ -1031,6 +1031,24 @@
     }
   },
   {
+    "coin": "BTE",
+    "name": "bitweb",
+    "fname": "Bitweb",
+    "rpcport": 1605,
+    "pubtype": 33,
+    "p2shtype": 30,
+    "wiftype": 128,
+    "segwit": true,
+    "bech32_hrp": "web",
+    "txfee": 20000,
+    "mm2": 1,
+    "required_confirmations": 3,
+    "avg_blocktime": 1,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
     "coin": "BTT-BEP20",
     "name": "btt_bep20",
     "fname": "BitTorrent",
@@ -1190,6 +1208,42 @@
     }
   },
   {
+    "coin": "CADC-ERC20",
+    "name": "cadc_erc20",
+    "fname": "CAD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xcaDC0acd4B445166f12d2C07EAc6E2544FbE2Eef"
+      }
+    }
+  },
+  {
+    "coin": "CADC-PLG20",
+    "name": "cadc_plg20",
+    "fname": "CAD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x5d146d8B1dACb1EBBA5cb005ae1059DA8a1FbF57"
+      }
+    }
+  },
+  {
     "coin": "CAKE",
     "name": "cake",
     "fname": "PancakeSwap",
@@ -1204,24 +1258,6 @@
         "platform": "BNB",
         "contract_address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
       }
-    }
-  },
-  {
-    "coin": "BTE",
-    "name": "bitweb",
-    "fname": "Bitweb",
-    "rpcport": 1605,
-    "pubtype": 33,
-    "p2shtype": 30,
-    "wiftype": 128,
-    "segwit": true,
-    "bech32_hrp": "web",
-    "txfee": 20000,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 1,
-    "protocol": {
-      "type": "UTXO"
     }
   },
   {
