@@ -5750,6 +5750,42 @@
     }
   },
   {
+    "coin": "XSGD-ERC20",
+    "name": "xsgd_erc20",
+    "fname": "StraitsX Singapore Dollar",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 6,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x70e8dE73cE538DA2bEEd35d14187F6959a8ecA96"
+      }
+    }
+  },
+  {
+    "coin": "XSGD-PLG20",
+    "name": "xsgd_plg20",
+    "fname": "StraitsX Singapore Dollar",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 6,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x769434dcA303597C8fc4997Bf3DAB233e961Eda2"
+      }
+    }
+  },
+  {
     "coin": "XTZ-BEP20",
     "name": "xtz_bep20",
     "fname": "Tezos",
