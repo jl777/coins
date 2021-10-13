@@ -5659,6 +5659,24 @@
     }
   },
   {
+    "coin": "XEP-BEP20",
+    "name": "xep_bep20",
+    "fname": "Electra Protocol",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 8,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xb897D0a0f68800f8Be7D69ffDD1c24b69f57Bf3e"
+      }
+    }
+  },
+  {
     "coin": "XLM-BEP20",
     "name": "xlm_bep20",
     "fname": "Stellar",
