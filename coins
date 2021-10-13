@@ -4802,6 +4802,19 @@
       }
     }
   },
+  { 
+    "coin": "SBCH",
+    "name": "smartbch",
+    "fname": "SmartBCH",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 10000,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.1,
+    "protocol": {
+      "type": "ETH"
+    }
+  },
   {
     "coin": "SYS",
     "name": "syscoin",
