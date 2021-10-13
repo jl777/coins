@@ -7377,6 +7377,23 @@
     }
   },
   {
+    "coin": "SIBM-BEP20",
+    "name": "sibm_bep20",
+    "fname": "SibMining",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xee8EE60503fd0a735cC972A08E3a5B2026DDCe47"
+      }
+    }
+  },
+  {
     "coin": "ZOMBIE",
     "asset": "ZOMBIE",
     "fname": "ZOMBIE (TESTCOIN)",
