@@ -1,0 +1,5 @@
+[taker fee (MORTY)](https://morty.explorer.dexstats.info/tx/f92e1bf2dfb64a676d5db6fc7195328b243807872e5b1a00fdb45c08b219d835)  
+[maker payment (SBCH)](https://www.smartscan.cash/transaction/0xd9cc1ebf3613a5f27850d084198b082dcc506848a0ac015f30318a1eadddcb12)  
+[taker payment (MORTY)](https://morty.explorer.dexstats.info/tx/17a97c70ad50ddf86a18caeee0b2c6250e992e4597776a48721dd790b0fa2e28)  
+[taker payment spent (MORTY)](https://morty.explorer.dexstats.info/tx/dc9f0e0ae6c40b71cafa7eaf08450041c327d2c70fe4ea7a663abd4984f0c9b3)  
+[maker payment spent (SBCH)](https://www.smartscan.cash/transaction/0x104e65f0d27baf0ff5886a61d495eaf8762eae2c2611bdaebff96864eaaf423e)  
