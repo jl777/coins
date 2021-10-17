@@ -1104,7 +1104,7 @@
   {
     "coin": "BTX",
     "name": "bitcore",
-    "fname": "Bitcore",
+    "fname": "BitCore",
     "rpcport": 9469,
     "pubtype": 3,
     "p2shtype": 125,
@@ -1113,10 +1113,28 @@
     "bech32_hrp": "btx",
     "txfee": 0,
     "mm2": 1,
-    "required_confirmations": 4,
+    "required_confirmations": 3,
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
+    }
+  },
+  {
+    "coin": "BTX-BEP20",
+    "name": "btx_bep20",
+    "fname": "BitCore",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 8,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x000000089fb24237dA101020Ff8e2AfD14624687"
+      }
     }
   },
   {
