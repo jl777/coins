@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/ac3933535167803c752f10d2ada1682948f312607597b525d4c196c772881d12)  
+[maker payment (RTM)](https://explorer.raptoreum.com/tx/05f6e89d6721e5ce045979676cc8761ee815f338f80bde0f5a26661ce152c636)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/f0e45a10b6f85e1cc3c3f4e6d63bf2083685270bcaf2e440b1e1f58e8a7f3749)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/93b2f0184b44f9c13c4addd58a88c94a29bff32f4871bee1076b8646da08e154)  
+[maker payment spent (RTM)](https://explorer.raptoreum.com/tx/eeafc6bf59976f7e1e236b2159877d9a14c11cc1ee831117b990304081587207)  
