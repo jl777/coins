@@ -1692,6 +1692,24 @@
     }
   },
   {
+    "coin": "DAI-AVX20",
+    "name": "dai_avx20",
+    "fname": "Dai",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.03,
+    "decimals": 18,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70"
+      }
+    }
+  },
+  {
     "coin": "DAI-ERC20",
     "name": "dai_erc20",
     "fname": "Dai",
@@ -1722,6 +1740,24 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3"
+      }
+    }
+  },
+  {
+    "coin": "DAI-FTM20",
+    "name": "dai_ftm20",
+    "fname": "Dai",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E"
       }
     }
   },
@@ -2534,7 +2570,7 @@
     "mm2": 1,
     "chain_id": 250,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 0.03,
     "protocol": {
       "type": "ETH"
     }
@@ -5291,7 +5327,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 250,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 0.03,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
