@@ -1726,6 +1726,24 @@
     }
   },
   {
+    "coin": "DAI-FTM20",
+    "name": "dai_ftm20",
+    "fname": "Dai",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E"
+      }
+    }
+  },
+  {
     "coin": "DAI-PLG20",
     "name": "dai_plg20",
     "fname": "Dai",
@@ -2534,7 +2552,7 @@
     "mm2": 1,
     "chain_id": 250,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 0.03,
     "protocol": {
       "type": "ETH"
     }
@@ -5291,7 +5309,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 250,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 0.03,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
