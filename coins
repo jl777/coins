@@ -1692,6 +1692,24 @@
     }
   },
   {
+    "coin": "DAI-AVX20",
+    "name": "dai_avx20",
+    "fname": "Dai",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.03,
+    "decimals": 18,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70"
+      }
+    }
+  },
+  {
     "coin": "DAI-ERC20",
     "name": "dai_erc20",
     "fname": "Dai",
