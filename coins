@@ -3024,6 +3024,114 @@
     }
   },
   {
+    "coin": "JCHF-ERC20",
+    "name": "jchf_erc20",
+    "fname": "Jarvis Swiss Franc",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x53dfEa0A8CC2A2A2e425E1C174Bc162999723ea0"
+      }
+    }
+  },
+  {
+    "coin": "JCHF-PLG20",
+    "name": "jchf_plg20",
+    "fname": "Jarvis Swiss Franc",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xbD1463F02f61676d53fd183C2B19282BFF93D099"
+      }
+    }
+  },
+  {
+    "coin": "JEUR-ERC20",
+    "name": "jeur_erc20",
+    "fname": "Jarvis Euro",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x0f17BC9a994b87b5225cFb6a2Cd4D667ADb4F20B"
+      }
+    }
+  },
+  {
+    "coin": "JEUR-PLG20",
+    "name": "jeur_plg20",
+    "fname": "Jarvis Euro",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c"
+      }
+    }
+  },
+  {
+    "coin": "JGBP-ERC20",
+    "name": "jgbp_erc20",
+    "fname": "Jarvis British Pound",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x7409856CAE628f5d578B285B45669b36E7005283"
+      }
+    }
+  },
+  {
+    "coin": "JGBP-PLG20",
+    "name": "jgbp_plg20",
+    "fname": "Jarvis British Pound",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x767058F11800FBA6A682E73A6e79ec5eB74Fac8c"
+      }
+    }
+  },
+  {
     "coin": "JPYC-ERC20",
     "name": "jpyc_erc20",
     "fname": "JPY Coin",
