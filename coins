@@ -714,6 +714,60 @@
     }
   },
   {
+    "coin": "BCH-ERC20",
+    "name": "bch_erc20",
+    "fname": "Bitcoin Cash",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 8,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x85c4EdC43724e954e5849cAAab61A26a9CB65F1B"
+      }
+    }
+  },
+  {
+    "coin": "BCH-BEP20",
+    "name": "bch_bep20",
+    "fname": "Bitcoin Cash",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf"
+      }
+    }
+  },
+  {
+    "coin": "BCH-HCO20",
+    "name": "bch_hco20",
+    "fname": "Bitcoin Cash",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 128,
+    "avg_blocktime": 0.05,
+    "decimals": 18,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "HT",
+        "contract_address": "0xeF3CEBD77E0C52cb6f60875d9306397B5Caca375"
+      }
+    }
+  },
+  {
     "coin": "BEER",
     "asset": "BEER",
     "fname": "BEER (TESTCOIN)",
@@ -2842,7 +2896,7 @@
     "mm2": 1,
     "chain_id": 128,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 0.05,
     "protocol": {
       "type": "ETH"
     }
@@ -5470,7 +5524,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 128,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 0.05,
     "decimals": 6,
     "required_confirmations": 3,
     "protocol": {
@@ -5573,7 +5627,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 128,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 0.05,
     "decimals": 18,
     "required_confirmations": 3,
     "protocol": {
