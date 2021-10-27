@@ -714,6 +714,24 @@
     }
   },
   {
+    "coin": "BCH-ERC20",
+    "name": "bch_erc20",
+    "fname": "Bitcoin Cash",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 8,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x85c4EdC43724e954e5849cAAab61A26a9CB65F1B"
+      }
+    }
+  },
+  {
     "coin": "BCH-BEP20",
     "name": "bch_bep20",
     "fname": "Bitcoin Cash",
