@@ -5000,9 +5000,9 @@
     }
   },
   {
-    "coin": "SMTF",
-    "name": "smtf_bep20",
-    "fname": "SmartFi",
+    "coin": "SMTF-OLD",
+    "name": "smtf_bep20_old",
+    "fname": "SmartFi Old",
     "rpcport": 80,
     "mm2": 1,
     "avg_blocktime": 0.05,
@@ -5012,6 +5012,22 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0xF07578E0B5226A99B0D530Ef4360DF4176f2820d"
+      }
+    }
+  },
+  {
+    "coin": "SMTFv1",
+    "name": "smtf_bep20_v1",
+    "fname": "SmartFi",
+    "rpcport": 80,
+    "mm2": 1,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x11fD9ED04f1Eb43eF9df6425a6990609F2468895"
       }
     }
   },
