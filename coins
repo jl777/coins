@@ -124,6 +124,24 @@
     }
   },
   {
+    "coin": "AAVE-FTM20",
+    "name": "aave_ftm20",
+    "fname": "Aave",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0x6a07A792ab2965C72a5B8088d3a069A7aC3a993B"
+      }
+    }
+  },
+  {
     "coin": "AAVE-PLG20",
     "name": "aave_plg20",
     "fname": "Aave",
@@ -671,6 +689,24 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55"
+      }
+    }
+  },
+  {
+    "coin": "BAND-FTM20",
+    "name": "band_ftm20",
+    "fname": "Band Protocol",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0x46E7628E8b4350b2716ab470eE0bA1fa9e76c6C5"
       }
     }
   },
@@ -1786,6 +1822,24 @@
     }
   },
   {
+    "coin": "CRV-FTM20",
+    "name": "crv_ftm20",
+    "fname": "Curve DAO Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0x1E4F97b9f9F913c46F1632781732927B9019C68b"
+      }
+    }
+  },
+  {
     "coin": "CRV-PLG20",
     "name": "crv_plg20",
     "fname": "Curve DAO Token",
@@ -2377,6 +2431,24 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8"
+      }
+    }
+  },
+  {
+    "coin": "ETH-FTM20",
+    "name": "eth_ftm20",
+    "fname": "Ethereum",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0x74b23882a30290451A17c44f4F05243b6b58C76d"
       }
     }
   },
@@ -3644,6 +3716,24 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD"
+      }
+    }
+  },
+  {
+    "coin": "LINK-FTM20",
+    "name": "link_ftm20",
+    "fname": "Chainlink",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0xb3654dc3D10Ea7645f8319668E8F54d2574FBdC8"
       }
     }
   },
@@ -5086,6 +5176,24 @@
     }
   },
   {
+    "coin": "SNX-FTM20",
+    "name": "snx_ftm20",
+    "fname": "Synthetix",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0x56ee926bD8c72B2d5fa1aF4d9E4Cbb515a1E3Adc"
+      }
+    }
+  },
+  {
     "coin": "SNX-PLG20",
     "name": "snx_plg20",
     "fname": "Synthetix",
@@ -5266,6 +5374,24 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2"
+      }
+    }
+  },
+  {
+    "coin": "SUSHI-FTM20",
+    "name": "sushi_ftm20",
+    "fname": "Sushi",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0xae75A438b2E0cB8Bb01Ec1E1e376De11D44477CC"
       }
     }
   },
@@ -6688,6 +6814,24 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e"
+      }
+    }
+  },
+  {
+    "coin": "YFI-FTM20",
+    "name": "yfi_ftm20",
+    "fname": "yearn.finance",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0x29b0Da86e484E1C0029B56e817912d778aC0EC69"
       }
     }
   },
