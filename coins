@@ -3939,6 +3939,78 @@
     }
   },
   {
+    "coin": "LUNA-ERC20",
+    "name": "luna_erc20",
+    "fname": "Terra",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xd2877702675e6cEb975b4A1dFf9fb7BAF4C91ea9"
+      }
+    }
+  },
+  {
+    "coin": "LUNA-BEP20",
+    "name": "luna_bep20",
+    "fname": "Terra",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xECCF35F941Ab67FfcAA9A1265C2fF88865caA005"
+      }
+    }
+  },
+  {
+    "coin": "LUNA-HRC20",
+    "name": "luna_hrc20",
+    "fname": "Terra",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1666600000,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ONE",
+        "contract_address": "0x95CE547D730519A90dEF30d647F37D9E5359B6Ae"
+      }
+    }
+  },
+  {
+    "coin": "LUNA-PLG20",
+    "name": "luna_plg20",
+    "fname": "Terra",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x24834BBEc7E39ef42f4a75EAF8E5B6486d3F0e57"
+      }
+    }
+  },
+  {
     "coin": "LUX",
     "name": "lux",
     "fname": "LUXCoin",
