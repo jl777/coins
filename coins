@@ -4623,6 +4623,42 @@
     }
   },
   {
+    "coin": "NEXO-ERC20",
+    "name": "nexo_erc20",
+    "fname": "Nexo",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206"
+      }
+    }
+  },
+  {
+    "coin": "NEXO-PLG20",
+    "name": "nexo_plg20",
+    "fname": "Nexo",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x41b3966B4FF7b427969ddf5da3627d6AEAE9a48E"
+      }
+    }
+  },
+  {
     "coin": "NIX",
     "name": "nix",
     "fname": "NIX",
