@@ -2525,6 +2525,24 @@
     }
   },
   {
+    "coin": "ETH-KRC20",
+    "name": "eth_krc20",
+    "fname": "Ethereum",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0xf55aF137A98607F7ED2eFEfA4cd2DfE70E4253b1"
+      }
+    }
+  },
+  {
     "coin": "ETH-PLG20",
     "name": "eth_plg20",
     "fname": "Ethereum",
@@ -3560,7 +3578,7 @@
     "mm2": 1,
     "chain_id": 321,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 0.05,
     "protocol": {
       "type": "ETH"
     }
@@ -6224,7 +6242,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 321,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 0.05,
     "decimals": 18,
     "required_confirmations": 3,
     "protocol": {
@@ -6345,7 +6363,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 321,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 0.05,
     "decimals": 18,
     "required_confirmations": 3,
     "protocol": {
