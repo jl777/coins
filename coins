@@ -4204,6 +4204,42 @@
     }
   },
   {
+    "coin": "MIR-ERC20",
+    "name": "mir_erc20",
+    "fname": "Mirror Protocol",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x09a3EcAFa817268f77BE1283176B946C4ff2E608"
+      }
+    }
+  },
+  {
+    "coin": "MIR-BEP20",
+    "name": "mir_bep20",
+    "fname": "Mirror Protocol",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x5B6DcF557E2aBE2323c48445E8CC948910d8c2c9"
+      }
+    }
+  },
+  {
     "coin": "MKR-AVX20",
     "name": "mkr_avx20",
     "fname": "Maker",
