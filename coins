@@ -1878,6 +1878,24 @@
     }
   },
   {
+    "coin": "CRV-AVX20",
+    "name": "crv_avx20",
+    "fname": "Curve DAO Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.04,
+    "decimals": 18,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": " 0x249848BeCA43aC405b8102Ec90Dd5F22CA513c06"
+      }
+    }
+  },
+  {
     "coin": "CRV-FTM20",
     "name": "crv_ftm20",
     "fname": "Curve DAO Token",
