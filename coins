@@ -6613,6 +6613,24 @@
     }
   },
   {
+    "coin": "USDT-FTM20",
+    "name": "usdt_ftm20",
+    "fname": "Tether",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 6,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0x049d68029688eAbF473097a2fC38ef61633A3C7A"
+      }
+    }
+  },
+  {
     "coin": "USDT-HCO20",
     "name": "usdt_hco20",
     "fname": "Tether",
