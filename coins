@@ -2053,6 +2053,24 @@
     }
   },
   {
+    "coin": "DAI-MVR20",
+    "name": "dai_mvr20",
+    "fname": "Dai",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1285,
+    "avg_blocktime": 0.25,
+    "decimals": 18,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MOVR",
+        "contract_address": "0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844"
+      }
+    }
+  },
+  {
     "coin": "DAI-PLG20",
     "name": "dai_plg20",
     "fname": "Dai",
@@ -4506,6 +4524,78 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611"
+      }
+    }
+  },
+  {
+    "coin": "MM-AVX20",
+    "name": "mm_avx20",
+    "fname": "Million",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.04,
+    "decimals": 18,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x993163CaD35162fB579D7B64e6695cB076EF5064"
+      }
+    }
+  },
+  {
+    "coin": "MM-BEP20",
+    "name": "mm_bep20",
+    "fname": "Million",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xBF05279F9Bf1CE69bBFEd670813b7e431142Afa4"
+      }
+    }
+  },
+  {
+    "coin": "MM-MVR20",
+    "name": "mm_mvr20",
+    "fname": "Million",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1285,
+    "avg_blocktime": 0.25,
+    "decimals": 18,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MOVR",
+        "contract_address": "0x95bf7E307BC1ab0BA38ae10fc27084bC36FcD605"
+      }
+    }
+  },
+  {
+    "coin": "MM-PLG20",
+    "name": "mm_plg20",
+    "fname": "Million",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x5647Fe4281F8F6F01E84BCE775AD4b828A7b8927"
       }
     }
   },
@@ -8123,25 +8213,6 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0x75231F58b43240C9718Dd58B4967c5114342a86c"
-      }
-    },
-    "decimals": 18
-  },
-  {
-    "coin": "CFI",
-    "gui_coin": "CFI",
-    "name": "ethereum",
-    "fname": "cofoundit",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x12FEF5e57bF45873Cd9B62E9DBd7BFb99e32D73e"
       }
     },
     "decimals": 18
