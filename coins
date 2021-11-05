@@ -2503,6 +2503,19 @@
     }
   },
   {
+    "coin": "ETC",
+    "name": "ethereum classic",
+    "fname": "Ethereum Classic",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 61,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.25,
+    "protocol": {
+      "type": "ETH"
+    }
+  },
+  {
     "coin": "ETC-BEP20",
     "name": "etc_bep20",
     "fname": "Ethereum Classic",
