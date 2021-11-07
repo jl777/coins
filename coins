@@ -71,6 +71,24 @@
     }
   },
   {
+    "coin": "1INCH-KRC20",
+    "name": "1inch_krc20",
+    "fname": "1inch",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x79f3244F3FFd7500A31a90Bb83C7D56649c2C7C5"
+      }
+    }
+  },
+  {
     "coin": "1INCH-PLG20",
     "name": "1inch_plg20",
     "fname": "1inch",
@@ -192,6 +210,24 @@
       "protocol_data": {
         "platform": "ONE",
         "contract_address": "0xcF323Aad9E522B93F11c352CaA519Ad0E14eB40F"
+      }
+    }
+  },
+  {
+    "coin": "AAVE-KRC20",
+    "name": "aave_krc20",
+    "fname": "Aave",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0xE76e97C157658004eE22e01C03a5e21A4655A2Fd"
       }
     }
   },
@@ -695,6 +731,24 @@
     }
   },
   {
+    "coin": "BAL-KRC20",
+    "name": "bal_krc20",
+    "fname": "Balancer",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0xFC31366Be1795c1Ff444b9fBF55759733aD4d26D"
+      }
+    }
+  },
+  {
     "coin": "BAL-PLG20",
     "name": "bal_plg20",
     "fname": "Balancer",
@@ -814,6 +868,24 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0x101d82428437127bF1608F699CD651e6Abf9766E"
+      }
+    }
+  },
+  {
+    "coin": "BAT-KRC20",
+    "name": "bat_krc20",
+    "fname": "Basic Attention Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x0bF46C86Ce3B904660aE85677EaA20B0C1b24064"
       }
     }
   },
@@ -1691,6 +1763,24 @@
     }
   },
   {
+    "coin": "CHZ-KRC20",
+    "name": "chz_krc20",
+    "fname": "Chiliz",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x6E8ce0519B7e4d691BaCE464099547E5fC17679c"
+      }
+    }
+  },
+  {
     "coin": "CHZ-PLG20",
     "name": "chz_plg20",
     "fname": "Chiliz",
@@ -1791,6 +1881,24 @@
     }
   },
   {
+    "coin": "COMP-KRC20",
+    "name": "comp_krc20",
+    "fname": "Compound",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x16c4106966cE30e06E806A7c40eEFb46d84cE7e5"
+      }
+    }
+  },
+  {
     "coin": "COMP-PLG20",
     "name": "comp_plg20",
     "fname": "Compound",
@@ -1838,6 +1946,24 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b"
+      }
+    }
+  },
+  {
+    "coin": "CRO-KRC20",
+    "name": "cro_krc20",
+    "fname": "Crypto.com",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x652D253b7Ca91810A4a05ACFc39729387c5090C0"
       }
     }
   },
@@ -1910,6 +2036,24 @@
       "protocol_data": {
         "platform": "FTM",
         "contract_address": "0x1E4F97b9f9F913c46F1632781732927B9019C68b"
+      }
+    }
+  },
+  {
+    "coin": "CRV-KRC20",
+    "name": "crv_krc20",
+    "fname": "Curve DAO Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x4500E16dA66b99e0C55D7B46EBBD59bc413BA171"
       }
     }
   },
@@ -2258,6 +2402,24 @@
     }
   },
   {
+    "coin": "DODO-KRC20",
+    "name": "dodo_krc20",
+    "fname": "DODO",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x8724F9FB7B3f1bb6f2c90B3Ad3Fd6B3c20A06429"
+      }
+    }
+  },
+  {
     "coin": "DOGE",
     "name": "dogecoin",
     "fname": "Dogecoin",
@@ -2464,6 +2626,24 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c"
+      }
+    }
+  },
+  {
+    "coin": "ENJ-KRC20",
+    "name": "enj_krc20",
+    "fname": "Enjin Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x6e2D990C8e718E7b6D86ed08eBf0FF2dEc05253B"
       }
     }
   },
@@ -3213,6 +3393,24 @@
     }
   },
   {
+    "coin": "GRT-KRC20",
+    "name": "grt_krc20",
+    "fname": "The Graph",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0xb49dd3eDB98FBe82A01DFcb556Cd016964baf5A3"
+      }
+    }
+  },
+  {
     "coin": "GRT-PLG20",
     "name": "grt_plg20",
     "fname": "The Graph",
@@ -3380,6 +3578,24 @@
       "protocol_data": {
         "platform": "HT",
         "contract_address": "0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047"
+      }
+    }
+  },
+  {
+    "coin": "HUSD-KRC20",
+    "name": "husd_krc20",
+    "fname": "HUSD",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0xBEc1e1009CE00ECf7F16372451Ac849b39C32897"
       }
     }
   },
@@ -4041,6 +4257,24 @@
     }
   },
   {
+    "coin": "LINK-KRC20",
+    "name": "link_krc20",
+    "fname": "Chainlink",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x47841910329aaa6b88D5e9DcdE9000195151dc72"
+      }
+    }
+  },
+  {
     "coin": "LINK-PLG20",
     "name": "link_plg20",
     "fname": "Chainlink",
@@ -4275,6 +4509,24 @@
     }
   },
   {
+    "coin": "MANA-KRC20",
+    "name": "mana_krc20",
+    "fname": "Decentraland",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0xC19a5caCC2bb68Ff09f2Fcc695F31493A039Fa5e"
+      }
+    }
+  },
+  {
     "coin": "MANA-PLG20",
     "name": "mana_plg20",
     "fname": "Decentraland",
@@ -4390,6 +4642,24 @@
     }
   },
   {
+    "coin": "MATIC-KRC20",
+    "name": "matic_krc20",
+    "fname": "Polygon",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x1B8e27ABA297466fc6765Ce55BD12A8E216759da"
+      }
+    }
+  },
+  {
     "coin": "MCL",
     "asset": "MCL",
     "fname": "MarmaraCreditLoops",
@@ -4432,6 +4702,24 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
+    }
+  },
+  {
+    "coin": "MINDS",
+    "name": "minds",
+    "fname": "minds",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "decimals": 18,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xB26631c6dda06aD89B93C71400D25692de89c068"
+      }
     }
   },
   {
@@ -4506,24 +4794,6 @@
     }
   },
   {
-    "coin": "MINDS",
-    "name": "minds",
-    "fname": "minds",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "avg_blocktime": 0.25,
-    "required_confirmations": 3,
-    "decimals": 18,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0xB26631c6dda06aD89B93C71400D25692de89c068"
-      }
-    }
-  },
-  {
     "coin": "MKR-ERC20",
     "name": "mkr_erc20",
     "fname": "Maker",
@@ -4538,6 +4808,24 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2"
+      }
+    }
+  },
+  {
+    "coin": "MKR-KRC20",
+    "name": "mkr_krc20",
+    "fname": "Maker",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0xdE81028C743f5304fe2cdEfac588f572d629a687"
       }
     }
   },
@@ -4778,6 +5066,24 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206"
+      }
+    }
+  },
+  {
+    "coin": "NEXO-KRC20",
+    "name": "nexo_krc20",
+    "fname": "Nexo",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0xb7A18bd55e8E3E2262d7c8Ee7b4DD9B216Df0Faf"
       }
     }
   },
@@ -5086,6 +5392,24 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0xb7F8Cd00C5A06c0537E2aBfF0b58033d02e5E094"
+      }
+    }
+  },
+  {
+    "coin": "PAX-KRC20",
+    "name": "pax_krc20",
+    "fname": "Paxos Standard",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x69a7169F9Da9BBa04b982e49Ffd8d6a16c70c590"
       }
     }
   },
@@ -5402,6 +5726,42 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0xEA26c4aC16D4a5A106820BC8AEE85fd0b7b2b664"
+      }
+    }
+  },
+  {
+    "coin": "QNT-ERC20",
+    "name": "qnt_erc20",
+    "fname": "Quant",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x4a220E6096B25EADb88358cb44068A3248254675"
+      }
+    }
+  },
+  {
+    "coin": "QNT-KRC20",
+    "name": "qnt_krc20",
+    "fname": "Quant",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x791630C11c7159A748d8c2267a66780B3DDC40a7"
       }
     }
   },
@@ -5805,6 +6165,24 @@
     }
   },
   {
+    "coin": "SNX-KRC20",
+    "name": "snx_krc20",
+    "fname": "Synthetix",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x31965b5c9c55f5579eb49F4b3AcC59aA10a7B98E"
+      }
+    }
+  },
+  {
     "coin": "SNX-PLG20",
     "name": "snx_plg20",
     "fname": "Synthetix",
@@ -6025,6 +6403,24 @@
     }
   },
   {
+    "coin": "SUSHI-KRC20",
+    "name": "sushi_krc20",
+    "fname": "Sushi",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0xE0a60890BB7F9250089455620063fb6fe4DC159a"
+      }
+    }
+  },
+  {
     "coin": "SUSHI-PLG20",
     "name": "sushi_plg20",
     "fname": "Sushi",
@@ -6142,6 +6538,24 @@
     "required_confirmations": 0,
     "protocol": {
       "type": "UTXO"
+    }
+  },
+  {
+    "coin": "TEL-KRC20",
+    "name": "tel_krc20",
+    "fname": "Telcoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x621C1E8610e4B9b7fc9F043203C008EDe52E92F5"
+      }
     }
   },
   {
@@ -6310,6 +6724,24 @@
       "protocol_data": {
         "platform": "HT",
         "contract_address": "0x5eE41aB6edd38cDfB9f6B4e6Cf7F75c87E170d98"
+      }
+    }
+  },
+  {
+    "coin": "TUSD-KRC20",
+    "name": "tusd_krc20",
+    "fname": "TrueUSD",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0xD17027b85Abf02721F953EE528721A980fa58941"
       }
     }
   },
@@ -6506,6 +6938,24 @@
       "protocol_data": {
         "platform": "HT",
         "contract_address": "0x22C54cE8321A4015740eE1109D9cBc25815C46E6"
+      }
+    }
+  },
+  {
+    "coin": "UNI-KRC20",
+    "name": "uni_krc20",
+    "fname": "Uniswap",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0xEe58E4D62b10A92dB1089d4D040B759C28aE16Cd"
       }
     }
   },
@@ -7559,6 +8009,24 @@
     }
   },
   {
+    "coin": "YFI-KRC20",
+    "name": "yfi_krc20",
+    "fname": "yearn.finance",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0xdfa3Ef49d357c6b0B2DfBB88701af2b7A053fD0A"
+      }
+    }
+  },
+  {
     "coin": "YFII-BEP20",
     "name": "yfii_bep20",
     "fname": "DFI.Money",
@@ -8317,25 +8785,6 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0x8275eBF521Dc217aa79C88132017A5BCEf001dd9"
-      }
-    },
-    "decimals": 18
-  },
-  {
-    "coin": "QNT",
-    "gui_coin": "QNT",
-    "name": "ethereum",
-    "fname": "quant",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x4a220E6096B25EADb88358cb44068A3248254675"
       }
     },
     "decimals": 18
