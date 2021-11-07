@@ -6541,6 +6541,24 @@
     }
   },
   {
+    "coin": "TEL-ERC20",
+    "name": "tel_erc20",
+    "fname": "Telcoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 2,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x467Bccd9d29f223BcE8043b84E8C8B282827790F"
+      }
+    }
+  },
+  {
     "coin": "TEL-KRC20",
     "name": "tel_krc20",
     "fname": "Telcoin",
@@ -6555,6 +6573,24 @@
       "protocol_data": {
         "platform": "KCS",
         "contract_address": "0x621C1E8610e4B9b7fc9F043203C008EDe52E92F5"
+      }
+    }
+  },
+  {
+    "coin": "TEL-PLG20",
+    "name": "tel_plg20",
+    "fname": "Telcoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 2,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x5647Fe4281F8F6F01E84BCE775AD4b828A7b8927"
       }
     }
   },
