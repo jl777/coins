@@ -6421,6 +6421,24 @@
     }
   },
   {
+    "coin": "SUSHI-MVR20",
+    "name": "sushi_mvr20",
+    "fname": "Sushi",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1285,
+    "avg_blocktime": 0.25,
+    "decimals": 18,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MOVR",
+        "contract_address": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2"
+      }
+    }
+  },
+  {
     "coin": "SUSHI-PLG20",
     "name": "sushi_plg20",
     "fname": "Sushi",
