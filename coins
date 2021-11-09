@@ -7655,6 +7655,42 @@
     }
   },
   {
+    "coin": "WBTC-ERC20",
+    "name": "wbtc_erc20",
+    "fname": "Wrapped Bitcoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 8,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+      }
+    }
+  },
+  {
+    "coin": "WBTC-HRC20",
+    "name": "wbtc_hrc20",
+    "fname": "Wrapped Bitcoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1666600000,
+    "decimals": 8,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ONE",
+        "contract_address": "0x3095c7557bCb296ccc6e363DE01b760bA031F2d9"
+      }
+    }
+  },
+  {
     "coin": "WLC",
     "asset": "WLC21",
     "fname": "Wireless Coin",
@@ -8712,25 +8748,6 @@
     "p2shtype": 50,
     "wiftype": 128,
     "segwit": false,
-    "decimals": 8
-  },
-  {
-    "coin": "WBTC",
-    "gui_coin": "WBTC",
-    "name": "ethereum",
-    "fname": "wrapped btc",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
-      }
-    },
     "decimals": 8
   },
   {
