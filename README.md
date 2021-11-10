@@ -184,6 +184,7 @@ You need the following info in JSON format added to the [coins](coins) file:
 - `version_group_id` - sets the `version_group_id` used by Zcash (and its forks') transactions. Determined automatically by tx version and `overwintered` if not set.
 - `consensus_branch_id` - sets the `consensus_branch_id` used in Zcash (and its forks') transactions' signature hash calculation. Determined automatically by tx version and `overwintered` if not set.
 - `mature_confirmations` - number of blockchain confirmations required for coinbase output to be considered mature (spendable).
+- `"orderbook_ticker"` - If set for segwit coins, orders will be displayed in both segwit and legacy order books. For example, if `BTC-Segwit` is set with  `"orderbook_ticker":"BTC"` the same orderbook is returned for KMD/BTC and KMD/BTC-Segwit pairs.
 
 ## Ethereum Protocol specific JSON
 
