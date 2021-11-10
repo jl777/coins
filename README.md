@@ -165,6 +165,7 @@ You need the following info in JSON format added to the [coins](coins) file:
 - `"requires_notarization"` tells AtomicDEX to wait for a notarization during the swap. This only works with dPoW coins and `"required_confirmations"` must be set to `2` or higher.
 - `"decimals"` defines the number of digits after the decimal point that should be used to display the orderbook amounts, balance, and the value of inputs to be used in the case of order creation or a `withdraw` transaction. The default value used for a UTXO type coin (Bitcoin Protocol) is `8` and the default value used for a ERC20 Token is `18`. It is very important for this value to be set correctly. For example, if this value was set as `9` for BTC, a command to withdraw `1 BTC` tries to withdraw `10^9` satoshis of Bitcoin, i.e., `10 BTC`
 - `"protocol"` contains the coin protocol `"type"` (UTXO, ETH, etc.) and specific protocol configuration - `"protocol_data"` object that can have arbitrary format. 
+- `"orderbook_ticker"` - If set, coins with the smae value will shre the same orderbook. For example, if `BTC-Segwit` and `BTC-BEP20` are set with  `"orderbook_ticker":"BTC"` the same orderbook is returned for KMD/BTC, KMD/BTC-BEP20 and KMD/BTC-Segwit pairs. 
 
 ## Bitcoin Protocol specific JSON
 
@@ -184,7 +185,6 @@ You need the following info in JSON format added to the [coins](coins) file:
 - `version_group_id` - sets the `version_group_id` used by Zcash (and its forks') transactions. Determined automatically by tx version and `overwintered` if not set.
 - `consensus_branch_id` - sets the `consensus_branch_id` used in Zcash (and its forks') transactions' signature hash calculation. Determined automatically by tx version and `overwintered` if not set.
 - `mature_confirmations` - number of blockchain confirmations required for coinbase output to be considered mature (spendable).
-- `"orderbook_ticker"` - If set for segwit coins, orders will be displayed in both segwit and legacy order books. For example, if `BTC-Segwit` is set with  `"orderbook_ticker":"BTC"` the same orderbook is returned for KMD/BTC and KMD/BTC-Segwit pairs.
 
 ## Ethereum Protocol specific JSON
 
