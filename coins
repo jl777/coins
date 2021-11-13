@@ -8892,6 +8892,41 @@
         "type": "UTXO"
       }
     },
+    {
+    "coin": "FLUX-ERC20",
+    "name": "flux_erc20",
+    "fname": "Flux",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x720CD16b011b987Da3518fbf38c3071d4F0D1495"
+      }
+    }
+  },
+    {
+    "coin": "FLUX-BEP20",
+    "name": "flux_bep20",
+    "fname": "Flux",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xaFF9084f2374585879e8B434C399E29E80ccE635"
+      }
+    }
+  },
   {
     "coin": "FENIX",
     "gui_coin": "FENIX",
