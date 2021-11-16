@@ -6004,6 +6004,29 @@
     }
   },
   {
+    "coin": "PPC-segwit",
+    "name": "peercoin",
+    "fname": "Peercoin",
+    "isPoS": 1,
+    "rpcport": 9902,
+    "pubtype": 55,
+    "p2shtype": 117,
+    "wiftype": 183,
+    "decimals": 6,
+    "txfee": 0,
+    "dust": 10000,
+    "segwit": true,
+    "bech32_hrp": "pc",
+    "address_format":{"format":"segwit"},
+    "orderbook_ticker": "PPC",
+    "mm2": 1,
+    "required_confirmations": 1,
+    "avg_blocktime": 8.5,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
     "coin": "PTX",
     "asset": "PTX",
     "fname": "PatentTX",
