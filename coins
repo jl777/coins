@@ -1080,6 +1080,19 @@
     }
   },
   {
+    "coin": "RBTC",
+    "name": "rsksmartbitcoin",
+    "fname": "RSK Smart Bitcoin",
+    "avg_blocktime": 0.10,
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 30,
+    "required_confirmations": 1,
+    "protocol": {
+      "type": "ETH"
+    }
+  },
+  {
     "coin": "BNBT",
     "name": "binancesmartchaintest",
     "fname": "Ethereum",
