@@ -5593,6 +5593,42 @@
     }
   },
   {
+    "coin": "NZDS-ERC20",
+    "name": "nzds_erc20",
+    "fname": "NZD Stablecoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 6,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xDa446fAd08277B4D2591536F204E018f32B6831c"
+      }
+    }
+  },
+  {
+    "coin": "NZDS-PLG20",
+    "name": "nzds_plg20",
+    "fname": "NZD Stablecoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 6,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xeaFE31Cd9e8E01C8f0073A2C974f728Fb80e9DcE"
+      }
+    }
+  },
+  {
     "coin": "OCEAN-BEP20",
     "name": "ocean_bep20",
     "fname": "Ocean Protocol",
