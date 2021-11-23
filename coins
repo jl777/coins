@@ -7259,6 +7259,24 @@
     }
   },
   {
+    "coin": "TRYB-PLG20",
+    "name": "tryb_plg20",
+    "fname": "BiLira",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 6,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x4Fb71290Ac171E1d144F7221D882BECAc7196EB5"
+      }
+    }
+  },
+  {
     "coin": "TRYB-ERC20",
     "name": "tryb_erc20",
     "fname": "BiLira",
