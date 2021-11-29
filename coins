@@ -820,6 +820,24 @@
     }
   },
   {
+    "coin": "BAND-PLG20",
+    "name": "band_plg20",
+    "fname": "Band Protocol",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xA8b1E0764f85f53dfe21760e8AfE5446D82606ac"
+      }
+    }
+  },
+  {
     "coin": "BAT-AVX20",
     "name": "bat_avx20",
     "fname": "Basic Attention Token",
