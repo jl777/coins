@@ -8892,7 +8892,7 @@
     }
   },
   {
-    "coin": "ZET",
+    "coin": "ZET-OLD",
     "name": "zetacoin",
     "fname": "Zetacoin",
     "rpcport": 8332,
@@ -8903,6 +8903,25 @@
     "mm2": 1,
     "required_confirmations": 5,
     "avg_blocktime": 0.5,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
+    "coin": "ZET",
+    "name": "zetacoin",
+    "fname": "Zetacoin",
+    "isPoS": 1,
+    "rpcport": 22014,
+    "pubtype": 20,
+    "p2shtype": 85,
+    "wiftype": 153,
+    "txfee": 100000,
+    "dust": 100000,
+    "mm2": 1,
+    "mature_confirmations": 500,
+    "required_confirmations": 7,
+    "avg_blocktime": 0.75,
     "protocol": {
       "type": "UTXO"
     }
