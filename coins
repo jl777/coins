@@ -10212,6 +10212,20 @@
     }
   },
   {
+	 "coin": "GMS",
+    "asset": "GMS",
+    "fname": "GMSmining",
+    "rpcport": 58911,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 5,
+    "avg_blocktime": 1,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
     "coin": "ZOMBIE",
     "asset": "ZOMBIE",
     "fname": "ZOMBIE (TESTCOIN)",
