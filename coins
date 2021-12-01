@@ -5481,6 +5481,21 @@
     }
   },
   {
+    "coin": "NINJA",
+    "asset": "NINJA",
+    "fname": "Ninja",
+    "rpcport": 8427,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true,
+    "avg_blocktime": 1,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
     "coin": "NIX",
     "name": "nix",
     "fname": "NIX",
