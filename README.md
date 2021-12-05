@@ -37,6 +37,10 @@ When submitting your coin addition request, please submit the URLs of the 5 tran
 
 You can learn about performing an atomic swap from our documentation at [this link](https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/introduction-to-atomicdex.html)
 
+Activating a coin: [https://developers.komodoplatform.com/basic-docs/atomicdex-api-legacy/coin_activation.html](https://developers.komodoplatform.com/basic-docs/atomicdex-api-legacy/coin_activation.html)
+
+Walkthrough: [https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/atomicdex-walkthrough.html](https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/atomicdex-walkthrough.html)
+
 If you have any questions, please ask in the `#support` channel in [our Discord server](https://komodoplatform.com/discord) or you can get help from the team at coinintegration@komodoplatform.com or partners@komodplatform.com .
 
 ## 1. Coin info added to `coins` file (Required)
