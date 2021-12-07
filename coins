@@ -1663,6 +1663,24 @@
     }
   },
   {
+    "coin": "CASE",
+    "name": "case_bep20",
+    "fname": "Case Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 8,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x5cafe85d8983f61C059df359c504F1Bab8009e9e"
+      }
+    }
+  },
+  {
     "coin": "CCL",
     "asset": "CCL",
     "fname": "CoinCollect",
