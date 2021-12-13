@@ -2538,6 +2538,46 @@
     }
   },
   {
+    "coin": "DIMI-BEP20",
+    "name": "dimi_bep20",
+    "fname": "DiminutiveCoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xA33789a5478Add74e8D7628E817a281aAbD92dA9"
+      }
+    }
+  },
+  {
+    "coin": "DIMI-QRC20",
+    "name": "dimi_qrc20",
+    "fname": "DiminutiveCoin",
+    "rpcport": 3889,
+    "pubtype": 58,
+    "p2shtype": 50,
+    "wiftype": 128,
+    "segwit": false,
+    "txfee": 0,
+    "dust": 72800,
+    "mm2": 1,
+    "required_confirmations": 3,
+    "mature_confirmations": 2000,
+    "avg_blocktime": 0.53,
+    "protocol": {
+      "type": "QRC20",
+      "protocol_data": {
+        "platform": "QTUM",
+        "contract_address": "0x2c660b0d4d53382aeef855d3010d697970fa0bd5"
+      }
+    }
+  },
+  {
     "coin": "DODO-BEP20",
     "name": "dodo_bep20",
     "fname": "DODO",
