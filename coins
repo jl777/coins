@@ -2676,6 +2676,25 @@
     }
   },
   {
+    "coin": "DOI",
+    "name": "doichain",
+    "fname": "Doichain",
+    "rpcport": 8339,
+    "pubtype": 52,
+    "p2shtype": 13,
+    "wiftype": 180,
+    "txfee": 1000,
+    "dust": 5460,
+    "segwit": true,
+    "bech32_hrp": "dc",
+    "mm2": 1,
+    "required_confirmations": 2, 
+    "avg_blocktime": 10,
+    "protocol": {
+      "type": "UTXO"
+     }
+  },
+  {
     "coin": "DUST",
     "asset": "DRAGONFAIRY",
     "fname": "Dragonfairy",
