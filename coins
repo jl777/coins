@@ -6201,6 +6201,24 @@
     }
   },
   {
+    "coin": "PRUX",
+    "name": "prux",
+    "fname": "PRUX",
+    "rpcport": 9500,
+    "pubtype": 55,
+    "p2shtype": 55,
+    "wiftype": 183,
+    "txfee": 0,
+    "segwit": false,
+    "bech32_hrp": "pr",
+    "mm2": 1,
+    "required_confirmations": 9,
+    "avg_blocktime":0.15,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },  
+  {
     "coin": "PTX",
     "asset": "PTX",
     "fname": "PatentTX",
