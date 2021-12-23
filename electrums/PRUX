@@ -1,10 +1,18 @@
 [
   {
-    "url": "electrumxprux01.ddns.net:50010",
-    "protocol": "TCP"
+    "url": "txserver.live:50002",
+    "protocol": "SSL"
   },
   {
-    "url": "electrumxprux02.sytes.net:50001",
+    "url": "txserver.live:50001",
     "protocol": "TCP"
-  }
+  },  
+  {
+    "url": "electrumx.live:50012",
+    "protocol": "SSL"
+  },
+  {
+    "url": "electrumx.live:50010",
+    "protocol": "TCP"
+  } 
 ]
