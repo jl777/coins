@@ -5739,6 +5739,24 @@
     }
   },
   {
+    "coin": "NYAN",
+    "name": "NYAN",
+    "fname": "NYAN",
+    "rpcport": 9419,
+    "pubtype": 45,
+    "p2shtype": 5,
+    "wiftype": 173,
+    "txfee": 0,
+    "segwit": false,
+    "bech32_hrp": "ny",
+    "mm2": 1,
+    "required_confirmations": 1,
+    "avg_blocktime":1,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },   
+  {
     "coin": "OCEAN-BEP20",
     "name": "ocean_bep20",
     "fname": "Ocean Protocol",
