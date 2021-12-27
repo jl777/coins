@@ -605,7 +605,8 @@
     "txfee": 10000,
     "confpath": "USERHOME/.axecore/axe.conf",
     "mm2": 1,
-    "required_confirmations": 4,
+    "mature_confirmations": 101,
+    "required_confirmations": 3,
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
