@@ -2491,7 +2491,7 @@
     "pubtype": 30,
     "p2shtype": 63,
     "wiftype": 128,
-    "txfee": 0,
+    "txfee": 100000,
     "segwit": true,
     "bech32_hrp": "dgb",
     "address_format":{"format":"segwit"},
