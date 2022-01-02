@@ -1,18 +1,22 @@
 [
   {
     "url": "txserver.live:50020",
-    "protocol": "SSL"
+    "protocol": "TCP"
   },
   {
     "url": "txserver.live:50022",
-    "protocol": "TCP"
+    "protocol": "SSL"
   },  
   {
     "url": "electrumx.live:50020",
-    "protocol": "SSL"
+    "protocol": "TCP"
   },
   {
     "url": "electrumx.live:50022",
+    "protocol": "SSL"
+  },  
+  {
+    "url": "electrumxnyan01.ddns.net:50020",
     "protocol": "TCP"
   } 
 ]
