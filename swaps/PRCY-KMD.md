@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/cb1cdffc111b23990158b972efef36caebe9016cdcac63993c60dec4a09b3f78)  
+[maker payment (PRCY)](https://bscscan.com/tx/0xe84f10f7a7ec815c13667ffe02fa2a6010faff2b11fc57d8a1e0641cf8756cbf)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/3d6cfe946905b16327952fe220d8d9ce83228976723096906f85c4885880cf73)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/f822adc8cadf379227457865f0120fa6cc4eda59893da686f218576ca559ff06)  
+[maker payment spent (PRCY)](https://bscscan.com/tx/0x2da60b1223cd3a1c1bfefc46de8f38c9fd998b1cc05e50cca898173c64801f20)  
