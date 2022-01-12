@@ -7145,6 +7145,23 @@
     }
   },
   {
+    "coin": "SWAP-BEP20",
+    "name": "safeswap_bep20",
+    "fname": "SafeSwap",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xe56a473043EaAB7947c0a2408cEA623074500EE3"
+      }
+    }
+  },
+  {
     "coin": "SXP-BEP20",
     "name": "sxp_bep20",
     "fname": "Swipe",

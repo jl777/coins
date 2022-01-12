@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/e6b6386ad1fea9ca1d81b538fccc726155ab96c804d9539e93dfd386af144e3f)  
+[maker payment (SWAP)](https://bscscan.com/tx/0x570c39bdbefb8cd0a2c8b0bee7ddbdf3190b6e341d0d9b346d802104b277c764)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/ef2596c1a68a57fa01422562c1b8335e88c37c450c1970debeaf87eaa4c03365)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/cf6564e24725e5ee263f51a8d60dc409032d3478e69b98a59ddcbbbadffeea81)  
+[maker payment spent (SWAP)](https://bscscan.com/tx/0xe8a77c6b9b1efb267e02c026236eb9491e0b00873aa328c91b59811454b08b65)  
