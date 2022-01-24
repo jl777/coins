@@ -1,0 +1,5 @@
+[taker fee (ETC)](https://blockscout.com/etc/mainnet/tx/0xdd1e3727db71a3fb03ec808b015b7aee43d4503a8c1593615932e25b9ef8a998/internal-transactions)  
+[maker payment (SBCH)](https://www.smartscan.cash/transaction/0x5c6692318009461a5972ae22bdd7f0838f1d94a87a5becbcfd362142653884ff)  
+[taker payment (ETC)](https://blockscout.com/etc/mainnet/tx/0xa8689671b1499c8646672576f137168fa0c525c1e49c47239e330da5c66a8cc8/internal-transactions)  
+[taker payment spent (ETC)](https://blockscout.com/etc/mainnet/tx/0x3bbf152496765603002d167791476aad277b3533e7aabf93c1bb2411bfb9880b/internal-transactions)  
+[maker payment spent (SBCH)](https://www.smartscan.cash/transaction/0xa5c99f046f21f9cbb8b748b4f8a2fca410d270bd4690c19f96b495c91f02e8b9)  
