@@ -1099,6 +1099,23 @@
     }
   },
   {
+    "coin": "BONE-ERC20",
+    "name": "bone_erc20",
+    "fname": "Bone ShibaSwap",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x9813037ee2218799597d83D4a5B6F3b6778218d9"
+      }
+    }
+  },
+  {
     "coin": "RBTC",
     "name": "rsksmartbitcoin",
     "fname": "RSK Smart Bitcoin",
@@ -4736,6 +4753,23 @@
     }
   },
   {
+    "coin": "LEASH-ERC20",
+    "name": "leash_erc20",
+    "fname": "Doge Killer",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x27c70cd1946795b66be9d954418546998b546634"
+      }
+    }
+  },
+  {
     "coin": "LTC",
     "name": "litecoin",
     "fname": "Litecoin",
@@ -6317,6 +6351,40 @@
     "required_confirmations": 5,
     "protocol": {
       "type": "UTXO"
+    }
+  },
+  {
+    "coin": "SHIB-BEP20",
+    "name": "shib_bep20",
+    "fname": "Shiba Inu",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x2859e4544c4bb03966803b044a93563bd2d0dd4d"
+      }
+    }
+  },
+  {
+    "coin": "SHIB-ERC20",
+    "name": "shib_erc20",
+    "fname": "Shiba Inu",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+      }
     }
   },
   {
