@@ -3283,7 +3283,7 @@
     "wiftype": 210,
     "txfee": 0,
     "mm2": 1,
-    "required_confirmations": 3,
+    "required_confirmations": 1,
     "avg_blocktime": 5,
     "protocol": {
       "type": "UTXO"
@@ -4445,7 +4445,7 @@
     "fname": "Litecoin Cash",
     "rpcport": 62457,
     "pubtype": 28,
-    "p2shtype": 5,
+    "p2shtype": 50,
     "wiftype": 176,
     "decimals": 7,
     "fork_id": "0x40",
