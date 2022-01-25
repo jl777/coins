@@ -1105,7 +1105,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 0.25,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4759,7 +4759,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 0.25,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6377,7 +6377,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 0.25,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
