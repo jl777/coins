@@ -10640,5 +10640,22 @@
       "type": "ZHTLC"
     },
     "required_confirmations": 1
+  },
+    {
+    "coin": "ZINU-BEP20",
+    "name": "zinu_bep20",
+    "fname": "Zombie Inu",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x21F9B5b2626603e3F40bfc13d01AfB8c431D382F"
+      }
+    }
   }
 ]
