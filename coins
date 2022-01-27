@@ -2277,6 +2277,23 @@
     }
   },
   {
+    "coin": "CUMMIES-BEP20",
+    "name": "cummies_bep20",
+    "fname": "CumRocket",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x27Ae27110350B98d564b9A3eeD31bAeBc82d878d"
+      }
+    }
+  },
+  {
     "coin": "DAI-AVX20",
     "name": "dai_avx20",
     "fname": "Dai",
