@@ -3660,6 +3660,23 @@
     }
   },
   {
+    "coin": "GM-BEP20",
+    "name": "gm_bep20",
+    "fname": "GM Wagmi",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xA55C1e67039B6d59E91eb4cDa2bfc5A854989102"
+      }
+    }
+  },
+  {
     "coin": "GNO-ERC20",
     "name": "gno_erc20",
     "fname": "Gnosis",
