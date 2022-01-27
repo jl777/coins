@@ -3413,6 +3413,23 @@
     }
   },
   {
+    "coin": "FLOKI-BEP20",
+    "name": "floki_bep20",
+    "fname": "Floki Inu",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xfb5B838b6cfEEdC2873aB27866079AC55363D37E"
+      }
+    }
+  },
+  {
     "coin": "STFIRO",
     "name": "firo_erc20",
     "fname": "StakedFIRO",
