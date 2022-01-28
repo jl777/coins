@@ -107,6 +107,24 @@
     }
   },
   {
+    "coin": "PGX-PLG20",
+    "name": "pegaxy_stone",
+    "fname": "pegaxystone",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xc1c93D475dc82Fe72DBC7074d55f5a734F8cEEAE"
+      }
+    }
+  },
+  {
     "coin": "AAVE-AVX20",
     "name": "aave_avx20",
     "fname": "Aave",
