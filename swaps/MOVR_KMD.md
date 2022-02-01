@@ -1,0 +1,5 @@
+[taker fee (MOVR)](https://moonriver.moonscan.io/tx/0xd8a7069b34063dd0d011d39bbcc17e5a86850d7386fd053d0a0d8013ded9a16e)  
+[maker payment (KMD)](https://komodod.com/t/304e42937ee50085f836c88501db2b4e8d67917e07c3ea0ee7180d4612f761e1)  
+[taker payment (MOVR)](https://moonriver.moonscan.io/tx/0x5663e2fe418f730ec0623f13ffd574a0e4943816d6a298db158531014df773ed)  
+[taker payment spent (MOVR)](https://moonriver.moonscan.io/tx/0x87dce8da28c5de9650af1a9f29fc92bef5fd1d635e7e6083a6d27db8f4766a41)  
+[maker payment spent (KMD)](https://komodod.com/t/fae8b7131050dc8796b4a97ea73301dbbacbec8993214e8d185052400b473bdc)  
