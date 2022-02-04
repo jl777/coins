@@ -1,0 +1,32 @@
+[
+  {
+    "url": "electrumx1.cointest.com:50001",
+    "contact": [
+      { "email": "research@cointest.com" },
+      { "twitter": "cointestai" }
+    ]
+  },
+  {
+    "url": "electrumx2.cointest.com:50001",
+    "contact": [
+      { "email": "research@cointest.com" },
+      { "twitter": "cointestai" }
+    ]
+  },
+  {
+    "url": "electrumx1.cointest.com:50002",
+    "protocol": "SSL",
+    "contact": [
+      { "email": "research@cointest.com" },
+      { "twitter": "cointestai" }
+    ]
+  },
+  {
+    "url": "electrumx2.cointest.com:50002",
+    "protocol": "SSL",
+    "contact": [
+      { "email": "research@cointest.com" },
+      { "twitter": "cointestai" }
+    ]
+  }
+]
