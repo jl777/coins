@@ -6177,7 +6177,7 @@
       "type": "ERC20",
       "protocol_data": {
         "platform": "MATIC",
-        "contract_address": "0x553d3d295e0f695b9228246232edf400ed3560b5"
+        "contract_address": "0x553d3D295e0f695B9228246232eDF400ed3560B5"
       }
     }
   },
@@ -7616,6 +7616,24 @@
     }
   },
   {
+    "coin": "TFT-BEP20",
+    "name": "tft_bep20",
+    "fname": "ThreeFold",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 7,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x8f0FB159380176D324542b3a7933F0C2Fd0c2bbf"
+      }
+    }
+  },
+  {
     "coin": "THC",
     "asset": "THC",
     "fname": "HempCoin",
@@ -8885,7 +8903,7 @@
     "bech32_hrp": "my",
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 2,
+    "avg_blocktime": 4,
     "protocol": {
       "type": "UTXO"
     }
@@ -8905,7 +8923,7 @@
     "orderbook_ticker": "XMY",
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 2,
+    "avg_blocktime": 4,
     "protocol": {
       "type": "UTXO"
     }
