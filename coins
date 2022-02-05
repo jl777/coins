@@ -2589,6 +2589,42 @@
     }
   },
   {
+    "coin": "DIA-ERC20",
+    "name": "dia_erc20",
+    "fname": "DIAToken",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419"
+      }
+    }
+  },
+  {
+    "coin": "DIA-BEP20",
+    "name": "dia_bep20",
+    "fname": "DIAToken",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x99956D38059cf7bEDA96Ec91Aa7BB2477E0901DD"
+      }
+    }
+  },
+  {
     "coin": "DIMI",
     "name": "diminutivecoin",
     "fname": "DiminutiveCoin",
@@ -10443,25 +10479,6 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0x6aB4A7d75B0A42B6Bc83E852daB9E121F9C610Aa"
-      }
-    },
-    "decimals": 18
-  },
-  {
-    "coin": "DIA",
-    "gui_coin": "DIA",
-    "name": "ethereum",
-    "fname": "diatoken",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419"
       }
     },
     "decimals": 18
