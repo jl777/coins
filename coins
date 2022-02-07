@@ -3582,6 +3582,24 @@
     }
   },
   {
+    "coin": "FLOW-BEP20",
+    "name": "flow_bep20",
+    "fname": "Flow",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xC943c5320B9c18C153d1e2d12cC3074bebfb31A2"
+      }
+    }
+  },
+  {
     "coin": "FTC",
     "name": "feathercoin",
     "fname": "Feathercoin",
