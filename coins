@@ -3582,6 +3582,24 @@
     }
   },
   {
+    "coin": "FLOW-BEP20",
+    "name": "flow_bep20",
+    "fname": "Flow",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xC943c5320B9c18C153d1e2d12cC3074bebfb31A2"
+      }
+    }
+  },
+  {
     "coin": "FTC",
     "name": "feathercoin",
     "fname": "Feathercoin",
@@ -7182,6 +7200,24 @@
     }
   },
   {
+    "coin": "SOL-BEP20",
+    "name": "sol_bep20",
+    "fname": "Solana",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x570A5D26f7765Ecb712C0924E4De545B89fD43dF"
+      }
+    }
+  },
+  {
     "coin": "SOLVE",
     "name": "care-solve",
     "fname": "Solve Token",
@@ -8279,6 +8315,26 @@
         "platform": "MATIC",
         "contract_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
       }
+    }
+  },
+  {
+    "coin": "USDI",
+    "name": "usdi",
+    "fname": "USD Inflation Coin",
+    "isPoS": 1,
+    "rpcport": 7333,
+    "pubtype": 68,
+    "p2shtype": 130,
+    "wiftype": 172,
+    "txfee": 10000,
+    "dust": 10000,
+    "segwit": false,
+    "mm2": 1,
+    "required_confirmations": 5,
+    "mature_confirmations": 240,
+    "avg_blocktime": 1.1,
+    "protocol": {
+      "type": "UTXO"
     }
   },
   {
