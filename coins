@@ -3698,6 +3698,42 @@
     }
   },
   {
+    "coin": "GALA-ERC20",
+    "name": "gala_erc20",
+    "fname": "Gala",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 8,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA"
+      }
+    }
+  },
+  {
+    "coin": "GALA-BEP20",
+    "name": "gala_bep20",
+    "fname": "Gala",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x7dDEE176F665cD201F93eEDE625770E2fD911990"
+      }
+    }
+  },
+  {
     "coin": "GETH",
     "name": "guarded-ether",
     "fname": "Guarded Ether",
