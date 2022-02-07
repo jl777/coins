@@ -7200,6 +7200,24 @@
     }
   },
   {
+    "coin": "SOL-BEP20",
+    "name": "sol_bep20",
+    "fname": "Solana",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x570A5D26f7765Ecb712C0924E4De545B89fD43dF"
+      }
+    }
+  },
+  {
     "coin": "SOLVE",
     "name": "care-solve",
     "fname": "Solve Token",
