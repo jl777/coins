@@ -7049,6 +7049,24 @@
     }
   },
   {
+    "coin": "RSR-ERC20",
+    "name": "rsr_erc20",
+    "fname": "Reserve Rights",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x320623b8E4fF03373931769A31Fc52A4E78B5d70"
+      }
+    }
+  },
+  {
     "coin": "RTM",
     "name": "raptoreum",
     "fname": "Raptoreum",
@@ -10140,25 +10158,6 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0xB1e93236ab6073fdAC58adA5564897177D4bcC43"
-      }
-    },
-    "decimals": 18
-  },
-  {
-    "coin": "RSR",
-    "gui_coin": "RSR",
-    "name": "ethereum",
-    "fname": "reserve rights",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x8762db106B2c2A0bccB3A80d1Ed41273552616E8"
       }
     },
     "decimals": 18
