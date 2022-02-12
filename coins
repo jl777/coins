@@ -2868,7 +2868,7 @@
     "segwit": true,
     "bech32_hrp": "dc",
     "mm2": 1,
-    "required_confirmations": 2, 
+    "required_confirmations": 2,
     "avg_blocktime": 10,
     "protocol": {
       "type": "UTXO"
@@ -2888,7 +2888,7 @@
     "protocol": {
       "type": "UTXO"
     }
-  },	
+  },
   {
     "coin": "ECA",
     "name": "electra",
@@ -6000,7 +6000,7 @@
     "protocol": {
       "type": "UTXO"
     }
-  },   
+  },
   {
     "coin": "OCEAN-BEP20",
     "name": "ocean_bep20",
@@ -6549,7 +6549,7 @@
     "protocol": {
       "type": "UTXO"
     }
-  },  
+  },
   {
     "coin": "PTX",
     "asset": "PTX",
@@ -7579,7 +7579,7 @@
       }
     }
   },
-  { 
+  {
     "coin": "SBCH",
     "name": "smartbch",
     "fname": "SmartBCH",
@@ -7772,6 +7772,24 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
+    }
+  },
+  {
+    "coin": "THC-BEP20",
+    "name": "thc_bep20",
+    "fname": "HempCoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 7,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xE0C1f87B5fe0be7Cb75fdC35EcFc1ab04d0f4Ef0"
+      }
     }
   },
   {
