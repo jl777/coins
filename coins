@@ -10591,7 +10591,28 @@
     "dust": 1000,
     "segwit": true,
     "bech32_hrp": "wv",
+    "mm2": 1,
+    "required_confirmations": 1,
+    "mature_confirmations": 100,
+    "avg_blocktime": 10,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
+    "coin": "WHIVE-segwit",
+    "name": "whive",
+    "fname": "Whive",
+    "rpcport": 1867,
+    "pubtype": 73,
+    "p2shtype": 10,
+    "wiftype": 128,
+    "txfee": 0,
+    "dust": 1000,
+    "segwit": true,
+    "bech32_hrp": "wv",
     "address_format":{"format":"segwit"},
+    "orderbook_ticker": "WHIVE",
     "mm2": 1,
     "required_confirmations": 1,
     "mature_confirmations": 100,
