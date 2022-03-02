@@ -1,0 +1,5 @@
+[taker fee (GLMR)](https://moonscan.io/tx/0xf39d9a9e8376cca06b0b0ebed3ba3b143c0b74ef90b8c29cda9b8fbe3118bdd3)  
+[maker payment (KMD)](https://komodod.com/t/cdb82e2f979705b2b4079bdc71458627fd0f85cdad7befded8097c2caa22c37e)  
+[taker payment (GLMR)](https://moonscan.io/tx/0xa575283ef947ccb95e9c8b5c36e79670eeb32ef20dc9050f1bf2474d05cfc246)  
+[taker payment spent (GLMR)](https://moonscan.io/tx/0x2b27a6aa45a5fe3f6b5b053f82587a31d587e9dc3e86cc34de3679ba5bdaa6cd)  
+[maker payment spent (KMD)](https://komodod.com/t/71cc2b8e5f62fb99a03c668e193a987acb390065345c972e98efde0f73874070)  
