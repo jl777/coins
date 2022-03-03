@@ -1,0 +1,5 @@
+[taker fee (FTM)](https://ftmscan.com/tx/0xfe9e0143eedd00c208abda59508633a3b400dad9c11ceb9900e0171a9769527c)  
+[maker payment (KMD)](https://kmdexplorer.io/tx/81326b18e1babf535b792663cb62af20dde8be218c1dea112a03cd52ccfce3c8)  
+[taker payment (FTM)](https://ftmscan.com/tx/0xc68c523d6909f42ad8a2a455b9a47832b10509b4f5bce32e748d7c7082cada69)  
+[taker payment spent (FTM)](https://ftmscan.com/tx/0x6c7317282a832681dd944ac88804bbd6a9077d4f859d51dd16d6a4873156cb16)  
+[maker payment spent (KMD)](https://kmdexplorer.io/tx/78eecae0a4f602b1fb1978af90d7a5ecc8771b8120cdcc66143d9056aae74f69)  

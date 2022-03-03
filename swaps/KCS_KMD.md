@@ -1,0 +1,5 @@
+[taker fee (KCS)](https://explorer.kcc.io/en/tx/0x7a42e8b71c22e46055682e13ed271b72d44d3e260ed785a3f7b716c862cfb3f7)  
+[maker payment (KMD)](https://kmdexplorer.io/tx/469db8c6a87cac8723d81b762f92d070b65fcdf448cd7cdec6acaa91c5838973)  
+[taker payment (KCS)](https://explorer.kcc.io/en/tx/0x0ab3f292644842c09c9dd2da74644f1bb8b16b3ebe127645feebadf2b7b586a9)  
+[taker payment spent (KCS)](https://explorer.kcc.io/en/tx/0xe834306c07dfe4f9eab21c00bb36b670995069b70db7b2ee6f942291b71e427b)  
+[maker payment spent (KMD)](https://kmdexplorer.io/tx/7bd6773116c424fe070e25169eb2b4463ff8fd1c9c0da05e52ffc06f237f6c6c)  

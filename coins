@@ -5680,6 +5680,19 @@
     }
   },
   {
+      "coin": "GLMR",
+      "name": "moonbeam",
+      "fname": "Moonbeam",
+      "rpcport": 80,
+      "mm2": 1,
+      "chain_id": 1284,
+      "required_confirmations": 3,
+      "avg_blocktime": 0.25,
+      "protocol": {
+        "type": "ETH"
+      }
+  },
+  {
     "coin": "MSHARK",
     "asset": "MSHARK",
     "fname": "MiliShark",

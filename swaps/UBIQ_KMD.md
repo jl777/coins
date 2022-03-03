@@ -1,0 +1,5 @@
+[taker fee (UBQ)](https://ubiqscan.io/tx/0x9184d7a6365a2c6905a267c929d69c8498c6fe716dc5eede9a53bcfb6da71ef7)  
+[maker payment (KMD)](https://komodod.com/t/93618438f9efd832457a973439b01c001d8434384089153adc4cbc017af72735)  
+[taker payment (UBQ)](https://ubiqscan.io/tx/0x2a868139d8e360d3ae9608362519c6b3d7f666fa50f4306bf59eba1dc1f2b0b4)  
+[taker payment spent (UBQ)](https://ubiqscan.io/tx/0x060ac990bb5ee209af65fa4feef3de754d686436f1983880031cd12b669c098f)  
+[maker payment spent (KMD)](https://komodod.com/t/49d8658b9d8c6b32194e81a79d2b1f31a606bc16a6504f32d3723f5d3281b0ed)  

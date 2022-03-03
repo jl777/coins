@@ -1,0 +1,5 @@
+[taker fee (MATIC)](https://polygonscan.com/tx/0xc36026cc9209ee342b27d266ec5d67a21d3f2fe68da40a4a4a650cc24b51ffdf)  
+[maker payment (QTUM)](https://qtum.info/tx/54ab97c8f4cf5b2e1e741cba9e22268a7646838d57b76d46440f6d1fa6038d08)  
+[taker payment (MATIC)](https://polygonscan.com/tx/0x19f62286e0a7615cb8eaa4640a5de6406a9f80457b0f2275286c58e9c407231f)  
+[taker payment spent (MATIC)](https://polygonscan.com/tx/0x32a8e8339e5cab92cc61390b5dc111428b1b085c4360d6014163132a43b9313a)  
+[maker payment spent (QTUM)](https://qtum.info/tx/5a12d7e59e442c44fd76d9a1a319ea74516da1c67acf3960e92ddb2973e14a29)  
