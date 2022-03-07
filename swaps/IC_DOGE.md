@@ -1,0 +1,5 @@
+[taker fee (DOGE)](https://dogechain.info/tx/e7927727f8e974d70263f22752f70ed5328a8ba9d70f8caf5b325f94ba39ec49)
+[maker payment (IC)](https://chainz.cryptoid.info/ic/tx.dws?cbd8b0d4a6c018867e7662e8426d2541c79071a031f7e3723ffa42cf2fdbe57d.htm)
+[taker payment (DOGE)](https://dogechain.info/tx/205e68ae36deff2e4beb9fd3a07338976be5bd402f6de050b161c13a79713b0f)
+[taker payment spent (DOGE)](https://dogechain.info/tx/d7b112f75a5a0410c871bc89535a1f3a4b0f4390b0d2e6034a2138a34e00531c)
+[maker payment spent (IC)](https://chainz.cryptoid.info/ic/tx.dws?93dfd718a33345c9ffba3b133d294718bdf05238fd526df722fbbd448cf22f3b.htm)

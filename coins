@@ -10874,5 +10874,22 @@
         "contract_address": "0x21F9B5b2626603e3F40bfc13d01AfB8c431D382F"
       }
     }
+  },
+    {
+    "coin": "IC",
+    "name": "ignition",
+    "fname": "Ignition",
+    "rpcport": 44155,
+    "pubtype": 103,
+    "p2shtype": 39,
+    "wiftype": 138,
+    "txfee": 1000,
+    "isPoS": 1,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 4,
+    "protocol": {
+      "type": "UTXO"
+    }
   }
 ]
