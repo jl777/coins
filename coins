@@ -4634,6 +4634,24 @@
     }
   },
   {
+    "coin": "KSM-BEP20",
+    "name": "ksm_bep20",
+    "fname": "Kusama",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x2aa69E8D25C045B659787BC1f03ce47a388DB6E8"
+      }
+    }
+  },
+  {
     "coin": "LABS",
     "asset": "LABS",
     "fname": "KMD Labs",
