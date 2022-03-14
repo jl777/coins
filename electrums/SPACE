@@ -1,32 +1,47 @@
 [
   {
-    "url": "electrum1.spaceworks.co:50001",
+    "url": "electrum1.cipig.net:10011",
     "contact": [
-      { "keybase": "lightspeed393" },
-      { "email": "lightspeed393@spaceworks.co" }
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
     ]
   },
   {
-    "url": "electrum2.spaceworks.co:50001",
+    "url": "electrum2.cipig.net:10011",
     "contact": [
-      { "keybase": "lightspeed393" },
-      { "email": "lightspeed393@spaceworks.co" }
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
     ]
   },
   {
-    "url": "electrum1.spaceworks.co:50002",
+    "url": "electrum3.cipig.net:10011",
+    "contact": [
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
+    ]
+  },
+  {
+    "url": "electrum1.cipig.net:20011",
     "protocol": "SSL",
     "contact": [
-      { "keybase": "lightspeed393" },
-      { "email": "lightspeed393@spaceworks.co" }
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
     ]
   },
   {
-    "url": "electrum2.spaceworks.co:50002",
+    "url": "electrum2.cipig.net:20011",
     "protocol": "SSL",
     "contact": [
-      { "keybase": "lightspeed393" },
-      { "email": "lightspeed393@spaceworks.co" }
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
+    ]
+  },
+  {
+    "url": "electrum3.cipig.net:20011",
+    "protocol": "SSL",
+    "contact": [
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
     ]
   }
 ]
