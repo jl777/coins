@@ -7151,6 +7151,42 @@
     }
   },
   {
+    "coin": "SAND-ERC20",
+    "name": "sand_erc20",
+    "fname": "The Sandbox",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x3845badAde8e6dFF049820680d1F14bD3903a5d0"
+      }
+    }
+  },
+  {
+    "coin": "SAND-PLG20",
+    "name": "sand_plg20",
+    "fname": "The Sandbox",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683"
+      }
+    }
+  },
+  {
     "coin": "SIRX",
     "name": "sirius",
     "fname": "Sirius",
