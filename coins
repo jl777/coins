@@ -6513,6 +6513,42 @@
     }
   },
   {
+    "coin": "PPC-ERC20",
+    "name": "ppc_erc20",
+    "fname": "Peercoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 6,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x044d078F1c86508e13328842Cc75AC021B272958"
+      }
+    }
+  },
+  {
+    "coin": "PPC-PLG20",
+    "name": "ppc_plg20",
+    "fname": "Peercoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 6,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x91E7E32C710661C44ae44D10Aa86135d91C3Ed65"
+      }
+    }
+  },
+  {
     "coin": "PRCY",
     "name": "prcy",
     "fname": "PRivaCY Coin",
