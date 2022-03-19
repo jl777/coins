@@ -268,9 +268,9 @@
     }
   },
   {
-    "coin": "ABY",
+    "coin": "ABY-OLD",
     "name": "applebyte",
-    "fname": "ArtByte",
+    "fname": "ArtByte (OLD)",
     "rpcport": 8607,
     "pubtype": 23,
     "p2shtype": 5,
@@ -280,6 +280,25 @@
     "mm2": 1,
     "required_confirmations": 3,
     "avg_blocktime": 2,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
+    "coin": "ABY",
+    "name": "artbyte",
+    "fname": "Artbyte",
+    "isPoS": 1,
+    "rpcport": 9262,
+    "pubtype": 28,
+    "p2shtype": 85,
+    "wiftype": 153,
+    "txfee": 100000,
+    "dust": 100000,
+    "mm2": 1,
+    "mature_confirmations": 550,
+    "required_confirmations": 7,
+    "avg_blocktime": 0.75,
     "protocol": {
       "type": "UTXO"
     }
@@ -9600,7 +9619,7 @@
   {
     "coin": "ZET-OLD",
     "name": "zetacoin",
-    "fname": "Zetacoin",
+    "fname": "Zetacoin (OLD)",
     "rpcport": 8332,
     "pubtype": 80,
     "p2shtype": 9,

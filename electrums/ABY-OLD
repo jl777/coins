@@ -1,11 +1,11 @@
 [
   {
-    "url": "elec-seeder-one.artbytecoin.org:50012",
+    "url": "electrumx.aby.ewmcx.biz:50002",
     "protocol": "SSL",
     "disable_cert_verification": true
   },
   {
-    "url": "elec-seeder-two.artbytecoin.org:50012",
+    "url": "failover.aby.ewmcx.biz:50002",
     "protocol": "SSL",
     "disable_cert_verification": true
   }
