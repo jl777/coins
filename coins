@@ -6470,6 +6470,48 @@
     }
   },
   {
+    "coin": "PND",
+    "name": "pandacoin",
+    "fname": "Pandacoin",
+    "isPoS": 1,
+    "rpcport": 22444,
+    "pubtype": 55,
+    "p2shtype": 22,
+    "wiftype": 183,
+    "decimals": 6,
+    "txfee": 10000000,
+    "segwit": true,
+    "bech32_hrp": "pn",
+    "mm2": 1,
+    "required_confirmations": 1,
+    "avg_blocktime": 10,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
+    "coin": "PND-segwit",
+    "name": "pandacoin",
+    "fname": "Pandacoin",
+    "isPoS": 1,
+    "rpcport": 22444,
+    "pubtype": 55,
+    "p2shtype": 22,
+    "wiftype": 183,
+    "decimals": 6,
+    "txfee": 10000000,
+    "segwit": true,
+    "bech32_hrp": "pn",
+    "address_format":{"format":"segwit"},
+    "orderbook_ticker": "PND",
+    "mm2": 1,
+    "required_confirmations": 1,
+    "avg_blocktime": 10,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
     "coin": "POWR-ERC20",
     "name": "powr_erc20",
     "fname": "Power Ledger",
