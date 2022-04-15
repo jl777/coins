@@ -8950,6 +8950,24 @@
     }
   },
   {
+    "coin": "VET-BEP20",
+    "name": "vet_bep20",
+    "fname": "VeChain",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x6FDcdfef7c496407cCb0cEC90f9C5Aaa1Cc8D888"
+      }
+    }
+  },
+  {
     "coin": "VRA",
     "name": "verasity",
     "fname": "Verasity",
