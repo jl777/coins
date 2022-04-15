@@ -9170,6 +9170,24 @@
     }
   },
   {
+    "coin": "WAVES-BEP20",
+    "name": "waves_bep20",
+    "fname": "Waves",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xFC3E14af0f0c2129a84Cc013D48C70D682902874"
+      }
+    }
+  },
+  {
     "coin": "WBTC-ERC20",
     "name": "wbtc_erc20",
     "fname": "Wrapped Bitcoin",
