@@ -169,7 +169,8 @@ You need the following info in JSON format added to the [coins](coins) file:
 - `"requires_notarization"` tells AtomicDEX to wait for a notarization during the swap. This only works with dPoW coins and `"required_confirmations"` must be set to `2` or higher.
 - `"decimals"` defines the number of digits after the decimal point that should be used to display the orderbook amounts, balance, and the value of inputs to be used in the case of order creation or a `withdraw` transaction. The default value used for a UTXO type coin (Bitcoin Protocol) is `8` and the default value used for a ERC20 Token is `18`. It is very important for this value to be set correctly. For example, if this value was set as `9` for BTC, a command to withdraw `1 BTC` tries to withdraw `10^9` satoshis of Bitcoin, i.e., `10 BTC`
 - `"protocol"` contains the coin protocol `"type"` (UTXO, ETH, etc.) and specific protocol configuration - `"protocol_data"` object that can have arbitrary format. 
-- `"orderbook_ticker"` - If set, coins with the same value will share the same orderbook. For example, if `BTC-Segwit` and `BTC-BEP20` are set with  `"orderbook_ticker":"BTC"` the same orderbook is returned for KMD/BTC, KMD/BTC-BEP20 and KMD/BTC-Segwit pairs. 
+- `"orderbook_ticker"` If set, coins with the same value will share the same orderbook. For example, if `BTC-Segwit` and `BTC-BEP20` are set with  `"orderbook_ticker":"BTC"` the same orderbook is returned for KMD/BTC, KMD/BTC-BEP20 and KMD/BTC-Segwit pairs. 
+- `sign_message_prefix` Optional, required to allow for message signing in AtomicDEX API. Can normally be found within a projects github repository [[example](https://github.com/KomodoPlatform/komodo/blob/master/src/main.cpp#L146)] and follows a standard format like `"Komodo Signed Message:\n"`
 
 ## Bitcoin Protocol specific JSON
 
