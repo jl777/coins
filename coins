@@ -7321,6 +7321,24 @@
     }
   },
   {
+    "coin": "SAND-BEP20",
+    "name": "sand_bep20",
+    "fname": "The Sandbox",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x67b725d7e342d7B611fa85e859Df9697D9378B2e"
+      }
+    }
+  },
+  {
     "coin": "SAND-PLG20",
     "name": "sand_plg20",
     "fname": "The Sandbox",
