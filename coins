@@ -5294,6 +5294,24 @@
     }
   },
   {
+    "coin": "MANA-BEP20",
+    "name": "mana_bep20",
+    "fname": "Decentraland",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x26433c8127d9b4e9B71Eaa15111DF99Ea2EeB2f8"
+      }
+    }
+  },
+  {
     "coin": "MANA-KRC20",
     "name": "mana_krc20",
     "fname": "Decentraland",
