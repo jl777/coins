@@ -8970,6 +8970,22 @@
     }
   },
   {
+    "coin": "VOTE2022",
+    "asset": "VOTE2022",
+    "rpcport": 33898,
+    "mm2": 1,
+    "txfee": 10000,
+    "txversion": 4,
+    "overwintered": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true,
+    "avg_blocktime": 1,
+    "wallet_only": true,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
     "coin": "VRM",
     "name": "verium",
     "fname": "Verium Reserve",
