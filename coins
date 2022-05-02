@@ -9161,9 +9161,9 @@
     }
   },
   {
-    "coin": "VOTE2021",
-    "asset": "VOTE2021",
-    "rpcport": 55638,
+    "coin": "VOTE2022",
+    "asset": "VOTE2022",
+    "rpcport": 33898,
     "mm2": 1,
     "enable_spv_proof": true,
     "txfee": 10000,
@@ -9172,6 +9172,7 @@
     "required_confirmations": 2,
     "requires_notarization": true,
     "avg_blocktime": 1,
+    "wallet_only": true,
     "protocol": {
       "type": "UTXO"
     }
