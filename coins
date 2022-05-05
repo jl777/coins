@@ -3950,6 +3950,24 @@
     }
   },
   {
+    "coin": "GMT-BEP20",
+    "name": "gmt_bep20",
+    "fname": "STEPN",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 8,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1"
+      }
+    }
+  },
+  {
     "coin": "GNO-ERC20",
     "name": "gno_erc20",
     "fname": "Gnosis",
