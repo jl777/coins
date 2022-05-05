@@ -4360,6 +4360,24 @@
     }
   },
   {
+    "coin": "ILN-PLG20",
+    "name": "iln_plg20",
+    "fname": "Ilien",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x2bAa79e7C13C302210436455925E68aD8fA687F0"
+      }
+    }
+  },
+  {
     "coin": "INJ-BEP20",
     "name": "inj_bep20",
     "fname": "Injective Protocol",
