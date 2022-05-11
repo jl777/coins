@@ -11234,5 +11234,25 @@
         "contract_address": "0x21F9B5b2626603e3F40bfc13d01AfB8c431D382F"
       }
     }
+  },
+  {
+    "coin": "RUNES",
+    "name": "runebase",
+    "fname": "Runebase",
+    "rpcport": 9432,
+    "pubtype": 61,
+    "p2shtype": 123,
+    "wiftype": 216,
+    "txfee": 5000000,
+    "dust": 400000,
+    "mature_confirmations": 120,
+    "segwit": true,
+    "bech32_hrp": "rc",
+    "mm2": 1,
+    "required_confirmations": 6,
+    "avg_blocktime": 2,
+    "protocol": {
+      "type": "UTXO"
+    }
   }
 ]

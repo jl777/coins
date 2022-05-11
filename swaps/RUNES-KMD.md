@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/081637632597984ea41a47a58f664112f0dbd0f07f4aac2adc5afaee23eff4fc)  
+[maker payment (RUNES)](https://explorer.runebase.io/tx/2aa518d6433dfeeae3cb28d4b367b07d9d6ae001e14227274428cc48224e864f)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/18ca3f9215163704f99fb641d03b56fab470d9de00f1fa87f11a85a5e55581f3)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/d9536325091588e5d81d4515ab92352507e87fc841e48c73437b20f0d1bcafe0)  
+[maker payment spent (RUNES)](https://explorer.runebase.io/tx/f038b452ac2aa85eaa2d23cc39378bc38437f413147ab9fc24b5a0e2d1274cb2)  
