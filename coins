@@ -1159,6 +1159,24 @@
     }
   },
   {
+    "coin": "BLK-BEP20",
+    "name": "blk_bep20",
+    "fname": "Blackcoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xd2cDfD5d26dfA1D11116B9ED7DBd7C6B88C6e1D3"
+      }
+    }
+  },
+  {
     "coin": "tBLK",
     "name": "blackmore",
     "fname": "Blackcoin testnet",
@@ -5303,6 +5321,7 @@
     "decimals": 18,
     "avg_blocktime": 0.25,
     "required_confirmations": 3,
+    "wallet_only": true,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -5321,6 +5340,7 @@
     "decimals": 18,
     "avg_blocktime": 0.05,
     "required_confirmations": 3,
+    "wallet_only": true,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -5339,6 +5359,7 @@
     "decimals": 18,
     "avg_blocktime": 0.03,
     "required_confirmations": 3,
+    "wallet_only": true,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -5357,6 +5378,7 @@
     "decimals": 18,
     "avg_blocktime": 0.03,
     "required_confirmations": 3,
+    "wallet_only": true,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -9030,6 +9052,7 @@
     "decimals": 18,
     "avg_blocktime": 0.25,
     "required_confirmations": 3,
+    "wallet_only": true,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -9048,6 +9071,7 @@
     "decimals": 18,
     "avg_blocktime": 0.05,
     "required_confirmations": 3,
+    "wallet_only": true,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -9066,6 +9090,7 @@
     "decimals": 18,
     "avg_blocktime": 0.03,
     "required_confirmations": 3,
+    "wallet_only": true,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -9084,6 +9109,7 @@
     "decimals": 18,
     "avg_blocktime": 0.03,
     "required_confirmations": 3,
+    "wallet_only": true,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
