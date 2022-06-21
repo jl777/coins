@@ -4626,6 +4626,24 @@
     }
   },
   {
+    "coin": "JJPY-PLG20",
+    "name": "jjpy_plg20",
+    "fname": "Jarvis Japanese Yen",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x8343091F2499FD4b6174A46D067A920a3b851FF9"
+      }
+    }
+  },
+  {
     "coin": "JPYC-ERC20",
     "name": "jpyc_erc20",
     "fname": "JPY Coin",
@@ -6287,7 +6305,7 @@
     "bech32_hrp": "ny",
     "mm2": 1,
     "enable_spv_proof": true,
-    "required_confirmations": 5,
+    "required_confirmations": 10,
     "avg_blocktime":1,
     "protocol": {
       "type": "UTXO"
