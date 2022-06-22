@@ -18,7 +18,7 @@
     "KSB": "-ac_name=KSB -ac_supply=1000000000 -ac_end=1 -ac_public=1 -addnode=37.187.225.231 -addnode=217.182.129.38",
     "KV": "-ac_name=KV -ac_supply=1000000 -addnode=78.47.196.146 -addnode=94.130.38.173",
     "LABS": "-ac_name=LABS -ac_supply=350689 -ac_reward=0,0,800000000 -ac_decay=0,100000000,100000000 -ac_halving=129,1 -ac_end=128,10080,0 -ac_notarypay=64,100000000,1000000000 -ac_eras=3 -ac_staked=51 -ac_sapling=1 -ac_cc=101 -ac_ccenable=226,236 -ac_cclib=labs -addnode=80.240.17.222 -addnode=195.201.20.230",
-    "MCL": "~/marmara/src/komodod -ac_name=MCL -ac_supply=2000000 -ac_cc=2 -addnode=37.148.210.158 -addnode=37.148.212.36 -addressindex=1 -spentindex=1 -ac_marmara=1 -ac_staked=75 -ac_reward=3000000000 -daemon",
+    "MCL": "~/marmara/src/komodod -ac_name=MCL -ac_supply=2000000 -ac_cc=2 -addnode=5.189.149.242 -addnode=161.97.146.150 -addnode=149.202.158.145 -addressindex=1 -spentindex=1 -ac_marmara=1 -ac_staked=75 -ac_reward=3000000000 -daemon",
     "MESH": "-ac_name=MESH -ac_supply=1000007 -ac_ccactivate=320000",
     "MGW": "-ac_name=MGW -ac_supply=999999",
     "MORTY": "-ac_name=MORTY -ac_supply=90000000000 -ac_reward=100000000 -ac_cc=3 -ac_staked=10 -addnode=138.201.136.145 -addnode=95.217.44.58",
