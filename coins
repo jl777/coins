@@ -5692,6 +5692,22 @@
     }
   },
   {
+    "coin": "MIL",
+    "name": "Milevium",
+    "fname": "Milevium",
+    "rpcport": 41889,
+    "pubtype": 50,
+    "p2shtype": 196,
+    "wiftype": 239,
+    "txfee": 100000,
+    "mm2": 0,
+    "required_confirmations": 3,
+    "avg_blocktime": 1,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },  
+  {
     "coin": "MIR-ERC20",
     "name": "mir_erc20",
     "fname": "Mirror Protocol",
