@@ -4644,20 +4644,20 @@
     }
   },
   {
-    "coin": "JPYC-ERC20",
-    "name": "jpyc_erc20",
+    "coin": "JPYC-AVX20",
+    "name": "jpyc_avx20",
     "fname": "JPY Coin",
     "rpcport": 80,
     "mm2": 1,
-    "chain_id": 1,
+    "chain_id": 43114,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 0.04,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x2370f9d504c7a6E775bf6E14B3F12846b594cD53"
+        "platform": "AVAX",
+        "contract_address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB"
       }
     }
   },
@@ -4675,7 +4675,7 @@
       "type": "ERC20",
       "protocol_data": {
         "platform": "MATIC",
-        "contract_address": "0x6AE7Dfc73E0dDE2aa99ac063DcF7e8A63265108c"
+        "contract_address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB"
       }
     }
   },
