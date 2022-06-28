@@ -11404,5 +11404,38 @@
     "protocol": {
       "type": "UTXO"
     }
-  }
+  },
+  {
+    "coin": "ACTN",
+    "asset": "action_native",
+    "fname": "Action Coin",
+    "rpcport": 51677,
+    "txversion": 4,
+    "overwintered": 1,
+    "txfee": 1000,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": false,
+    "avg_blocktime": 1,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
+    "coin": "ACTN-BEP20",
+    "name": "actn_bep20",
+    "fname": "Action Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xD7380b10bF3886B34Ab3422DEa42E408850375CA"
+      }
+    }
+ }
 ]
