@@ -659,6 +659,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": false,
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
@@ -996,6 +997,7 @@
       "network": "bitcoincash"
     },
     "mm2": 1,
+    "sign_message_prefix": "Bitcoin Signed Message:\n",
     "required_confirmations": 1,
     "avg_blocktime": 10,
     "protocol": {
@@ -1064,6 +1066,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "protocol": {
       "type": "UTXO"
     }
@@ -1076,6 +1079,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "required_confirmations": 2,
     "requires_notarization": true,
     "avg_blocktime": 1,
@@ -1256,6 +1260,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "required_confirmations": 2,
     "requires_notarization": true,
     "avg_blocktime": 1,
@@ -1350,6 +1355,7 @@
     "txfee": 0,
     "estimate_fee_mode": "ECONOMICAL",
     "mm2": 1,
+    "sign_message_prefix": "Bitcoin Signed Message:\n",
     "required_confirmations": 1,
     "avg_blocktime": 10,
     "protocol": {
@@ -1396,6 +1402,7 @@
   },
   {
     "coin": "BTCH",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "BTCH",
     "fname": "Bitcoin Hush",
     "rpcport": 8800,
@@ -1772,6 +1779,7 @@
   },
   {
     "coin": "CCL",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "CCL",
     "fname": "CoinCollect",
     "rpcport": 20849,
@@ -1972,6 +1980,7 @@
   },
   {
     "coin": "CHUNG",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "CHUNG",
     "fname": "Chunguscoin",
     "rpcport": 14701,
@@ -2041,6 +2050,7 @@
   },
   {
     "coin": "CLC",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "CLC",
     "fname": "Collider Coin",
     "rpcport": 31034,
@@ -2159,6 +2169,7 @@
   },
   {
     "coin": "COQUI",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "COQUICASH",
     "fname": "Coqui Cash",
     "rpcport": 19712,
@@ -2318,6 +2329,7 @@
   },
   {
     "coin": "CRYPTO",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "CRYPTO",
     "fname": "Crypto777",
     "rpcport": 8516,
@@ -2558,6 +2570,7 @@
   },
   {
     "coin": "DEX",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "DEX",
     "fname": "InstantDEX",
     "rpcport": 11890,
@@ -2879,6 +2892,7 @@
   },
   {
     "coin": "DP",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "DP",
     "fname": "DigitalPrice",
     "rpcport": 28388,
@@ -2913,6 +2927,7 @@
   },
   {
     "coin": "DUST",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "DRAGONFAIRY",
     "fname": "Dragonfairy",
     "rpcport": 62842,
@@ -3141,6 +3156,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
+    "sign_message_prefix": "Ethereum Signed Message:\n",
     "required_confirmations": 3,
     "avg_blocktime": 0.25,
     "protocol": {
@@ -3804,6 +3820,7 @@
   },
   {
     "coin": "GLEEC",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "GLEEC",
     "fname": "Gleec",
     "rpcport": 23226,
@@ -4056,6 +4073,7 @@
   },
   {
     "coin": "HODL",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "HODL",
     "fname": "HODL",
     "rpcport": 14431,
@@ -4228,6 +4246,7 @@
   },
   {
     "coin": "ILN",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "ILN",
     "fname": "Ilien",
     "rpcport": 12986,
@@ -4540,6 +4559,7 @@
   },
   {
     "coin": "JUMBLR",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "JUMBLR",
     "fname": "JUMBLR",
     "rpcport": 15106,
@@ -4578,6 +4598,7 @@
     "overwintered": 1,
     "txfee": 1000,
     "mm2": 1,
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "required_confirmations": 2,
     "requires_notarization": true,
     "avg_blocktime": 1,
@@ -4638,6 +4659,7 @@
   },
   {
     "coin": "KOIN",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "KOIN",
     "fname": "Koinon",
     "rpcport": 10702,
@@ -4671,6 +4693,7 @@
   },
   {
     "coin": "LABS",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "LABS",
     "fname": "KMD Labs",
     "rpcport": 40265,
@@ -5392,6 +5415,7 @@
   },
   {
     "coin": "MCL",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "MCL",
     "fname": "MarmaraCreditLoops",
     "rpcport": 33825,
@@ -5407,6 +5431,7 @@
   },
   {
     "coin": "MESH",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "MESH",
     "fname": "SuperMESH",
     "rpcport": 9455,
@@ -5422,6 +5447,7 @@
   },
   {
     "coin": "MGW",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "MGW",
     "fname": "MultiGateway",
     "rpcport": 12386,
@@ -5691,6 +5717,7 @@
   },
   {
     "coin": "MORTY",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "MORTY",
     "fname": "MORTY (TESTCOIN)",
     "rpcport": 16348,
@@ -5749,6 +5776,7 @@
   },
   {
     "coin": "MSHARK",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "MSHARK",
     "fname": "MiliShark",
     "rpcport": 8846,
@@ -5872,6 +5900,7 @@
   },
   {
     "coin": "NINJA",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "NINJA",
     "fname": "Ninja",
     "rpcport": 8427,
@@ -6189,6 +6218,7 @@
   },
   {
     "coin": "OOT",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "OOT",
     "fname": "Utrum",
     "rpcport": 12467,
@@ -6202,6 +6232,7 @@
   },
   {
     "coin": "PANGEA",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "PANGEA",
     "fname": "Pangea Poker",
     "rpcport": 14068,
@@ -6373,6 +6404,7 @@
   },
   {
     "coin": "PGT",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "PGT",
     "fname": "Pungo Token",
     "rpcport": 46705,
@@ -6441,6 +6473,7 @@
   },
   {
     "coin": "PIZZA",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "PIZZA",
     "fname": "PIZZA (TESTCOIN)",
     "rpcport": 11116,
@@ -6656,6 +6689,7 @@
   },
   {
     "coin": "PTX",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "PTX",
     "fname": "PatentTX",
     "rpcport": 61939,
@@ -6872,6 +6906,7 @@
     "txfee": 0,
     "dust": 72800,
     "mm2": 1,
+    "sign_message_prefix": "Qtum Signed Message:\n",
     "force_min_relay_fee": true,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
@@ -7033,6 +7068,7 @@
   },
   {
     "coin": "REVS",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "REVS",
     "fname": "REVS",
     "rpcport": 10196,
@@ -7430,6 +7466,7 @@
   },
   {
     "coin": "SOULJA",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "SOULJA",
     "fname": "SouljaCoin",
     "rpcport": 53604,
@@ -7445,6 +7482,7 @@
   },
   {
     "coin": "SPACE",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "SPACE",
     "fname": "Spacecoin",
     "rpcport": 35593,
@@ -7460,6 +7498,7 @@
   },
   {
     "coin": "CIPHS",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "CIPHS",
     "fname": "Ciphscoin",
     "rpcport": 50601,
@@ -7511,6 +7550,7 @@
   },
   {
     "coin": "SUPERNET",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "SUPERNET",
     "fname": "SUPERNET",
     "rpcport": 11341,
@@ -7901,6 +7941,7 @@
   },
   {
     "coin": "THC",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "THC",
     "fname": "HempCoin",
     "rpcport": 36790,
@@ -7934,6 +7975,7 @@
   },
   {
     "coin": "TKL",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "TOKEL",
     "fname": "Tokel",
     "rpcport": 29405,
@@ -8956,6 +8998,7 @@
   },
   {
     "coin": "VOTE2021",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "VOTE2021",
     "rpcport": 55638,
     "mm2": 1,
@@ -8989,6 +9032,7 @@
   },
   {
     "coin": "VRSC",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "VRSC",
     "fname": "VerusCoin",
     "rpcport": 27486,
@@ -9003,6 +9047,7 @@
   },
   {
     "coin": "GRMS",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "GRMS",
     "fname": "GRMS",
     "rpcport": 21687,
@@ -9091,6 +9136,7 @@
   },
   {
     "coin": "WLC",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "WLC21",
     "fname": "Wireless Coin",
     "rpcport": 38808,
@@ -9106,6 +9152,7 @@
   },
   {
     "coin": "WSB",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "WSB",
     "fname": "WallStreetBets",
     "rpcport": 52043,
@@ -9670,6 +9717,7 @@
   },
   {
     "coin": "ZILLA",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "ZILLA",
     "fname": "ChainZilla",
     "rpcport": 10041,
@@ -10961,6 +11009,7 @@
   },
   {
     "coin": "GMS",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "GMS",
     "fname": "GMSmining",
     "rpcport": 58911,
@@ -10975,6 +11024,7 @@
   },
   {
     "coin": "ZOMBIE",
+    "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "ZOMBIE",
     "fname": "ZOMBIE (TESTCOIN)",
     "txversion": 4,
