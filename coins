@@ -529,6 +529,7 @@
     "txversion":4,
     "overwintered":1,
     "mm2":1,
+    "avg_blocktime": 1,
     "protocol":{
       "type":"ZHTLC",
       "protocol_data": {
@@ -11447,6 +11448,7 @@
     "asset":"ZOMBIE",
     "txversion":4,
     "overwintered":1,
+    "avg_blocktime": 1,
     "mm2":1,
     "protocol":{
       "type":"ZHTLC",
