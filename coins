@@ -18,6 +18,42 @@
     }
   },
   {
+    "coin": "ILNF-PLG20",
+    "name": "ilnf_plg20",
+    "fname": "Ilien",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xaFf5Ed00c57b0E0c22123dbA28Cb6A5B26651Bbd"
+      }
+    }
+  },
+{
+    "coin": "ILNF-BEP20",
+    "name": "ilnf_bep20",
+    "fname": "Ilien",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x0D6e16c7066421607F8D334D6C02A48031fc2Eba"
+      }
+    }
+  },
+  {
     "coin": "1INCH-BEP20",
     "name": "1inch_bep20",
     "fname": "1inch",
