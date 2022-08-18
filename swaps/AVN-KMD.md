@@ -1,0 +1,5 @@
+[taker fee (AVN)](https://explorer-us.avn.network/tx/96d75e5bf49789cc633f8b114d41373c8da9210c2d22b6e8ed312e460bb7e13c)  
+[maker payment (KMD)](https://kmdexplorer.io/tx/26e184c98895eaa7252202283df698a2decd22aa74245f51b9eccd4c26de515e)  
+[taker payment (AVN)](https://explorer-us.avn.network/tx/ea8f9542683eb658d159d9b675e962158995ad947db3aa1bc8fa8f70788c576d)  
+[taker payment spent (AVN)](https://explorer-us.avn.network/tx/dfcea0879e318d571f0689a076edb6e3de8cf4caea5abd14807344980461778b)  
+[maker payment spent (KMD)](https://kmdexplorer.io/tx/d7db498a7cd190514fa9df3171a7310cdf54a6993812f8276fd52ce831bd5199)  
