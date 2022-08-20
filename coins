@@ -6175,6 +6175,23 @@
     }
   },
   {
+    "coin": "NENG",
+    "name": "nengcoin",
+    "fname": "Nengcoin",
+    "rpcport": 6376,
+    "pubtype": 53,
+    "p2shtype": 5,
+    "wiftype": 176,
+    "txfee": 300,
+    "mm2": 1,
+    "enable_spv_proof": true,
+    "required_confirmations": 2,
+    "avg_blocktime": 1,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
     "coin": "NEXO-ERC20",
     "name": "nexo_erc20",
     "fname": "Nexo",
