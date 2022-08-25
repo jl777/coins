@@ -5270,6 +5270,24 @@
     }
   },
   {
+    "coin": "LRC-BEP20",
+    "name": "lrc_bep20",
+    "fname": "Loopring",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x66e4d38b20173F509A1fF5d82866949e4fE898da"
+      }
+    }
+  },
+  {
     "coin": "LRC-PLG20",
     "name": "lrc_plg20",
     "fname": "Loopring",
