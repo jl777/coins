@@ -5343,6 +5343,42 @@
     }
   },
   {
+    "coin": "LOOM-ERC20",
+    "name": "loom_erc20",
+    "fname": "Loom Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x42476F744292107e34519F9c357927074Ea3F75D"
+      }
+    }
+  },
+  {
+    "coin": "LOOM-BEP20",
+    "name": "loom_bep20",
+    "fname": "Loom Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xE6Ce27025F13f5213bBc560dC275e292965a392F"
+      }
+    }
+  },
+  {
     "coin": "LTC",
     "name": "litecoin",
     "fname": "Litecoin",
