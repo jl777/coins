@@ -4808,17 +4808,20 @@
     }
   },
   {
-    "coin": "JST",
-    "name": "JST",
-    "fname": "JST (TESTCOIN)",
-    "mm2": 1,
-    "chain_id": 1,
+    "coin": "JST-BEP20",
+    "name": "jst_bep20",
+    "fname": "JUST",
     "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x996a8ae0304680f6a69b8a9d7c6e37d65ab5ab56"
+        "platform": "BNB",
+        "contract_address": "0xeA998D307ACA04D4f0A3B3036Aba84AE2E409C0A"
       }
     }
   },
