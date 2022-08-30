@@ -707,6 +707,25 @@
     }
   },
   {
+    "coin": "AVN",
+    "name": "avian",
+    "fname": "Avian",
+    "rpcport": 7896,
+    "pubtype": 60,
+    "p2shtype": 122,
+    "wiftype": 128,
+    "segwit": false,
+    "fork_id": "0x40",
+    "signature_version": "base",
+    "txfee": 1000000,
+    "mm2": 1,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.5,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
     "coin": "AWC",
     "name": "atomic-wallet-coin",
     "fname": "Atomic Wallet Coin",
