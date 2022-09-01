@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmd.explorer.dexstats.info/tx/a9a3070f4ef38abc4a0a823932096a62892eda9aabe28d1d12bd90cbdf3cd802)  
+[maker payment (NENG)](http://nengexplorer.mooo.com:3001/tx/e6184dd85892033ce626e5d6a2a2f9944acbf899b11dc815f8b37ac100927fc8)  
+[taker payment (KMD)](https://kmd.explorer.dexstats.info/tx/f291797c28526138a81e3b715cc263307133d93ed271efaf35f0aeeb8b0e0151)  
+[taker payment spent (KMD)](https://kmd.explorer.dexstats.info/tx/a67c17041ccfc366ee600ec84d93e8c21aa181392f860a93fde38ccce8fe7b91)  
+[maker payment spent (NENG)](http://nengexplorer.mooo.com:3001/tx/3699facf9428ac6e0ac15cad637fe82bf856d409f219723d41d3127eda7a6760)  
