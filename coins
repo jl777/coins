@@ -5096,6 +5096,26 @@
     }
   },
   {
+    "coin": "LNC",
+    "name": "lightningcash",
+    "fname": "LightningCash",
+    "rpcport": 9110,
+    "pubtype": 28,
+    "p2shtype": 50,
+    "wiftype": 176,
+    "decimals": 8,
+    "signature_version": "base",
+    "txfee": 10000,
+    "segwit": true,
+    "bech32_hrp": "lnc",
+    "mm2": 1,
+    "required_confirmations": 6,
+    "avg_blocktime": 0.0834,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
     "coin": "LEO-ERC20",
     "name": "leo_erc20",
     "fname": "LEO Token",
