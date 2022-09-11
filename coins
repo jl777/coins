@@ -8327,6 +8327,24 @@
     }
   },
   {
+    "coin": "TAMA-ERC20",
+    "name": "tama_erc20",
+    "fname": "Tamadoge",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "decimals": 18,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x12b6893cE26Ea6341919FE289212ef77e51688c8"
+      }
+    }
+  },
+  {
     "coin": "tBTC-TEST",
     "name": "tbitcoin",
     "fname": "tBitcoin",
