@@ -1,0 +1,5 @@
+[taker fee (MORTY)](https://morty.explorer.dexstats.info/tx/38b8b874f647e7438520b7f31e2cdcea4c762d6c79f4ca67af66efb48f39854b)  
+[maker payment (LNC)](https://explorer.lightningcash-coin.com/tx/fccc3269f09b67f19e0537273763112433b0458b4ef57e724b70660cbe8ca0fb)  
+[taker payment (MORTY)](https://morty.explorer.dexstats.info/tx/8a0ce0f9929c3eb9f97fc9bbb1919bcafddca35a13563079d7ec2c6fcf9267df)  
+[taker payment spent (MORTY)](https://morty.explorer.dexstats.info/tx/cf06eb7f14971cf0980bc198804a0da728d3f918ce2cbac3812d89277b537777)  
+[maker payment spent (LNC)](https://explorer.lightningcash-coin.com/tx/59c282615ff135861708054baeaa9d037ad9f301a438ab96b0ba18be648dedbc)  
