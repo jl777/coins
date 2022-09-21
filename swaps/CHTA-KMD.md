@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmd.explorer.dexstats.info/tx/7949217165b867cb3e4dfe65360f10187974c2d4ad5e8eb99f49e251c4b04bfe)  
+[maker payment (CHTA)](http://chtaexplorer.mooo.com:3002/tx/78b039e717d0c908b9369541a5e6816040299ba0cc7afe275ba9a598bd83cd2d)  
+[taker payment (KMD)](https://kmd.explorer.dexstats.info/tx/1b4a2e558b7b7887ee63c07d126c5bd37e4978f1ee6390ccb0b3facc4f17a9b4)  
+[taker payment spent (KMD)](https://kmd.explorer.dexstats.info/tx/eb01d3a21e4a106463c08923728d3908a49a4d66190d4e3f90ac0a5d6265b7d3)  
+[maker payment spent (CHTA)](http://chtaexplorer.mooo.com:3002/tx/c0b8c41bf356e90c4c53304243529fc900decc8caec2b187b7745493714484f6)  
