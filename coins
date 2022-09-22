@@ -2063,6 +2063,23 @@
     }
   },
   {
+    "coin": "CHTA",
+    "name": "cheetahcoin",
+    "fname": "Cheetahcoin",
+    "rpcport": 8536,
+    "pubtype": 28,
+    "p2shtype": 5,
+    "wiftype": 128,
+    "txfee": 40000,
+    "mm2": 1,
+    "enable_spv_proof": true,
+    "required_confirmations": 2,
+    "avg_blocktime": 2,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
     "coin": "CHIPS",
     "name": "chips",
     "fname": "Chips",
