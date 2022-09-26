@@ -1114,8 +1114,50 @@
     "required_confirmations": 1,
     "avg_blocktime": 10,
     "protocol": {
-      "type": "UTXO"
+        "type": "BCH",
+        "protocol_data": {
+            "slp_prefix": "simpleledger"
+        }
     }
+  },
+  {
+    "coin":"USDT-SLP",
+    "protocol":{
+      "type":"SLPTOKEN",
+      "protocol_data":{
+        "decimals":8,
+        "token_id":"9fc89d6b7d5be2eac0b3787c5b8236bca5de641b5bafafc8f450727b63615c11",
+        "platform":"BCH",
+        "required_confirmations": 1
+      }
+    },
+    "mm2": 1
+  },
+  {
+    "coin":"HONK",
+    "protocol":{
+      "type":"SLPTOKEN",
+      "protocol_data":{
+        "decimals":0,
+        "token_id":"7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+        "platform":"BCH",
+        "required_confirmations": 1
+      }
+    },
+    "mm2": 1
+  },
+  {
+    "coin":"ASLP",
+    "protocol":{
+      "type":"SLPTOKEN",
+      "protocol_data":{
+        "decimals":2,
+        "token_id":"926894cbf50269b15c97559b9acfc1bd88cd5f20703313ce0ea0683ecdb40911",
+        "platform":"BCH",
+        "required_confirmations": 1
+      }
+    },
+    "mm2": 1
   },
   {
     "coin": "BCH-ERC20",
