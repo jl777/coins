@@ -2755,7 +2755,6 @@
     "segwit": true,
     "bech32_hrp": "dgb",
     "mm2": 1,
-    "enable_spv_proof": true,
     "required_confirmations": 7,
     "avg_blocktime": 0.25,
     "protocol": {
@@ -2776,7 +2775,6 @@
     "address_format":{"format":"segwit"},
     "orderbook_ticker": "DGB",
     "mm2": 1,
-    "enable_spv_proof": true,
     "required_confirmations": 7,
     "avg_blocktime": 0.25,
     "protocol": {
@@ -3689,7 +3687,6 @@
     "bech32_hrp": "fc",
     "txfee": 0,
     "mm2": 1,
-    "enable_spv_proof": true,
     "required_confirmations": 3,
     "avg_blocktime": 1,
     "protocol": {
@@ -3710,7 +3707,6 @@
     "orderbook_ticker": "FJC",
     "txfee": 0,
     "mm2": 1,
-    "enable_spv_proof": true,
     "required_confirmations": 3,
     "avg_blocktime": 1,
     "protocol": {
@@ -6530,7 +6526,6 @@
     "segwit": false,
     "bech32_hrp": "ny",
     "mm2": 1,
-    "enable_spv_proof": true,
     "required_confirmations": 10,
     "avg_blocktime":1,
     "protocol": {
