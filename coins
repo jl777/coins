@@ -5456,7 +5456,6 @@
     "segwit": true,
     "bech32_hrp": "ltc",
     "mm2": 1,
-    "enable_spv_proof": true,
     "required_confirmations": 2,
     "avg_blocktime": 2.5,
     "protocol": {
@@ -5478,7 +5477,6 @@
     "address_format":{"format":"segwit"},
     "orderbook_ticker": "LTC",
     "mm2": 1,
-    "enable_spv_proof": true,
     "required_confirmations": 2,
     "avg_blocktime": 2.5,
     "protocol": {
