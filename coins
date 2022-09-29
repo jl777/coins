@@ -3527,45 +3527,6 @@
     }
   },
   {
-    "coin": "ETHK-OPT20",
-    "name": "ethereumkovanoptimism",
-    "fname": "Ethereum (Kovan Optimism)",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 69,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ETH"
-    }
-  },
-  {
-    "coin": "ETHR-ARB20",
-    "name": "ethereumrinkebyarbitrum",
-    "fname": "Ethereum (Rinkeby Arbitrum)",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 421611,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ETH"
-    }
-  },
-  {
-    "coin": "ETHR",
-    "name": "ethereumropsten",
-    "fname": "Ethereum (Ropsten)",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 3,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ETH"
-    }
-  },
-  {
     "coin": "EURS-ERC20",
     "name": "eurs_erc20",
     "fname": "STASIS EURO",
@@ -4900,20 +4861,6 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0xeA998D307ACA04D4f0A3B3036Aba84AE2E409C0A"
-      }
-    }
-  },
-  {
-    "coin": "JSTR",
-    "name": "JSTR",
-    "fname": "JST Ropsten (TESTCOIN)",
-    "mm2": 1,
-    "rpcport": 80,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETHR",
-        "contract_address": "0xc0eb7AeD740E1796992A08962c15661bDEB58003"
       }
     }
   },
