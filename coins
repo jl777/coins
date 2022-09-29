@@ -2086,25 +2086,6 @@
     }
   },
   {
-    "coin": "CELR-ARB20",
-    "name": "celr_arb20",
-    "fname": "Celer Network",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 42161,
-    "decimals": 18,
-    "avg_blocktime": 0.25,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH-ARB20",
-        "contract_address": "0x3a8B787f78D775AECFEEa15706D4221B40F345AB"
-      }
-    }
-  },
-  {
     "coin": "CHTA",
     "name": "cheetahcoin",
     "fname": "Cheetahcoin",
@@ -3407,19 +3388,6 @@
     }
   },
   {
-    "coin": "ETH-ARB20",
-    "name": "ethereum arbitrum",
-    "fname": "Ethereum Arbitrum",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 42161,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ETH"
-    }
-  },
-  {
     "coin": "ETH-BEP20",
     "name": "eth_bep20",
     "fname": "Ethereum",
@@ -3524,32 +3492,6 @@
         "platform": "MATIC",
         "contract_address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
       }
-    }
-  },
-  {
-    "coin": "ETHK-OPT20",
-    "name": "ethereumkovanoptimism",
-    "fname": "Ethereum (Kovan Optimism)",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 69,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ETH"
-    }
-  },
-  {
-    "coin": "ETHR-ARB20",
-    "name": "ethereumrinkebyarbitrum",
-    "fname": "Ethereum (Rinkeby Arbitrum)",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 421611,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ETH"
     }
   },
   {
@@ -9307,25 +9249,6 @@
       "protocol_data": {
         "platform": "MATIC",
         "contract_address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
-      }
-    }
-  },
-  {
-    "coin": "USDT-ARB20",
-    "name": "usdt_arb20",
-    "fname": "Tether",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 42161,
-    "avg_blocktime": 0.25,
-    "decimals": 6,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH-ARB20",
-        "contract_address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
       }
     }
   },
