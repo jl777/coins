@@ -1,5 +1,25 @@
 [
   {
+    "url": "electrum.nav.community:40002",
+    "protocol": "SSL",
+    "ws_url": "electrum.nav.community:40004"
+  },
+  {
+    "url": "electrum2.nav.community:40002",
+    "protocol": "SSL",
+    "ws_url": "electrum2.nav.community:40004"
+  },
+  {
+    "url": "electrum3.nav.community:40002",
+    "protocol": "SSL",
+    "ws_url": "electrum3.nav.community:40004"
+  },
+  {
+    "url": "electrum4.nav.community:40002",
+    "protocol": "SSL",
+    "ws_url": "electrum4.nav.community:40004"
+  },
+  {
     "url": "electrum1.cipig.net:10056",
     "contact": [
       { "email": "cipi@komodoplatform.com" },

@@ -1,5 +1,19 @@
 [
   {
+    "url": "nmc.bitcoins.sk:50002",
+    "protocol": "SSL",
+    "disable_cert_verification": true
+  },
+  {
+    "url": "nmc2.bitcoins.sk:57002",
+    "protocol": "SSL",
+    "disable_cert_verification": true
+  },
+  {
+    "url": "46.229.238.187:57001",
+    "protocol": "TCP",
+  },
+  {
     "url": "82.119.233.36:50001",
     "protocol": "TCP",
     "contact": [
