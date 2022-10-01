@@ -1,10 +1,5 @@
 [
   {
-    "url": "nmc.bitcoins.sk:50002",
-    "protocol": "SSL",
-    "disable_cert_verification": true
-  },
-  {
     "url": "nmc2.bitcoins.sk:57002",
     "protocol": "SSL",
     "disable_cert_verification": true
@@ -12,59 +7,5 @@
   {
     "url": "46.229.238.187:57001",
     "protocol": "TCP"
-  },
-  {
-    "url": "82.119.233.36:50001",
-    "protocol": "TCP",
-    "contact": [
-      {
-        "github": "https://github.com/namecoin/electrum-nmc/issues"
-      }
-    ]
-  },
-  {
-    "url": "nmc.bitcoins.sk:50001",
-    "protocol": "TCP",
-    "contact": [
-      {
-        "github": "https://github.com/namecoin/electrum-nmc/issues"
-      }
-    ]
-  },
-  {
-    "url": "electrumx1.nmc.bitclc.net:50001",
-    "protocol": "TCP",
-    "contact": [
-      {
-        "github": "https://github.com/namecoin/electrum-nmc/issues"
-      }
-    ]
-  },
-  {
-    "url": "electrumx2.nmc.bitclc.net:50001",
-    "protocol": "TCP",
-    "contact": [
-      {
-        "github": "https://github.com/namecoin/electrum-nmc/issues"
-      }
-    ]
-  },
-  {
-    "url": "electrumx3.nmc.bitclc.net:50001",
-    "protocol": "TCP",
-    "contact": [
-      {
-        "github": "https://github.com/namecoin/electrum-nmc/issues"
-      }
-    ]
-  },
-  {
-    "url": "electrumx4.nmc.bitclc.net:50001",
-    "protocol": "TCP",
-    "contact": [
-      {
-        "github": "https://github.com/namecoin/electrum-nmc/issues"
-      }
-    ]
   }
 ]
