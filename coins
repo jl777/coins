@@ -2180,22 +2180,6 @@
     }
   },
   {
-    "coin": "CHUNG",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "CHUNG",
-    "fname": "Chunguscoin",
-    "rpcport": 14701,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 5,
-    "requires_notarization": false,
-    "avg_blocktime": 1,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "CHZ-ERC20",
     "name": "chz_erc20",
     "fname": "Chiliz",
