@@ -216,6 +216,8 @@ class CoinConfig:
 
     def get_explorers(self):
         explorers = []
+        ticker = self.ticker.replace("-segwit", "")
+
         if self.data[self.ticker]["type"] == "BEP-20":
             if self.data[self.ticker]["is_testnet"]:
                 explorers = ["https://data-seed-prebsc-1-s2.binance.org:8545"]
@@ -270,8 +272,9 @@ class CoinConfig:
             else:
                 explorers = ["https://simpleledger.info/"]
 
-        if self.ticker in explorer_coins:
-            with open(f"../explorers/{self.ticker}", "r") as f:
+
+        if ticker in explorer_coins:
+            with open(f"../explorers/{ticker}", "r") as f:
                 explorers = json.load(f)
                 for x in explorers:
                     for i in ["tx/"]:
