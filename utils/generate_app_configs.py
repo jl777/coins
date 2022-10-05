@@ -215,24 +215,62 @@ class CoinConfig:
         return None
 
     def get_explorers(self):
+        explorers = []
         if self.data[self.ticker]["type"] == "BEP-20":
-            self.data[self.ticker].update({"explorer_url": ["https://bscscan.com/"]})
-        if self.data[self.ticker]["type"] == "ERC-20":
-            self.data[self.ticker].update({"explorer_url": ["https://etherscan.io/"]})
-        if self.data[self.ticker]["type"] == "AVX-20":
-            self.data[self.ticker].update({"explorer_url": ["https://snowtrace.io/"]})
-        if self.data[self.ticker]["type"] == "HRC-20":
-            self.data[self.ticker].update({"explorer_url": ["https://explorer.harmony.one/"]})
-        if self.data[self.ticker]["type"] == "KRC-20":
-            self.data[self.ticker].update({"explorer_url": ["https://explorer.kcc.io/en/"]})
-        if self.data[self.ticker]["type"] == "Matic":
-            self.data[self.ticker].update({"explorer_url": ["https://polygonscan.com/"]})
-        if self.data[self.ticker]["type"] == "FTM-20":
-            self.data[self.ticker].update({"explorer_url": ["https://ftmscan.com/"]})
-        if self.data[self.ticker]["type"] == "HecoChain":
-            self.data[self.ticker].update({"explorer_url": ["https://hecoinfo.com/"]})
+            if self.data[self.ticker]["is_testnet"]:
+                explorers = ["https://data-seed-prebsc-1-s2.binance.org:8545"]
+            else:
+                explorers = ["https://bscscan.com/"]
 
-        elif self.ticker in explorer_coins:
+        if self.data[self.ticker]["type"] == "ERC-20":
+            explorers = ["https://etherscan.io/"]
+
+        if self.data[self.ticker]["type"] == "AVX-20":
+            if self.data[self.ticker]["is_testnet"]:
+                explorers = ["https://cchain.explorer.avax-test.network/"]
+            else:
+                explorers = ["https://snowtrace.io/"]
+            
+        if self.data[self.ticker]["type"] == "HRC-20":
+            explorers = ["https://explorer.harmony.one/"]
+
+        if self.data[self.ticker]["type"] == "KRC-20":
+            explorers = ["https://explorer.kcc.io/en/"]
+
+        if self.data[self.ticker]["type"] == "Matic":
+            if self.data[self.ticker]["is_testnet"]:
+                explorers = ["https://mumbai.polygonscan.com/"]
+            else:
+                explorers = ["https://polygonscan.com/"]
+
+        if self.data[self.ticker]["type"] == "FTM-20":
+            if self.data[self.ticker]["is_testnet"]:
+                explorers = ["https://testnet.ftmscan.com/"]
+            else:
+                explorers = ["https://ftmscan.com/"]
+
+        if self.data[self.ticker]["type"] == "QRC-20":
+            if self.data[self.ticker]["is_testnet"]:
+                explorers = ["https://testnet.qtum.org/"]
+            else:
+                explorers = ["https://explorer.qtum.org/"]
+
+        if self.data[self.ticker]["type"] == "Moonriver":
+                explorers = ["https://moonriver.moonscan.io/"]
+
+        if self.data[self.ticker]["type"] == "Moonbeam":
+                explorers = ["https://rpc.api.moonbeam.network"]
+
+        if self.data[self.ticker]["type"] == "HecoChain":
+            explorers = ["https://hecoinfo.com/"]
+
+        if self.data[self.ticker]["type"] == "SLPTOKEN":
+            if self.data[self.ticker]["is_testnet"]:
+                explorers = ["https://testnet.simpleledger.info/"]
+            else:
+                explorers = ["https://simpleledger.info/"]
+
+        if self.ticker in explorer_coins:
             with open(f"../explorers/{self.ticker}", "r") as f:
                 explorers = json.load(f)
                 for x in explorers:
@@ -275,10 +313,10 @@ class CoinConfig:
                             "explorer_tx_url": "tx.nyan?",
                             "explorer_address_url": "ad.nyan?"
                         })
-
-                self.data[self.ticker].update({
-                    "explorer_url": explorers
-                })
+        if explorers:
+            self.data[self.ticker].update({"explorer_url": explorers})
+        else:
+            print(f"no explorers for {self.ticker}")
 
 def parse_coins_repo():
 
