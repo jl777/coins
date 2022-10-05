@@ -170,7 +170,7 @@ class CoinConfig:
         name = self.coin_data["fname"].lower()
         if name == self.base_ticker.lower(): self.name = name.upper()
         if name.find('token'): name.replace('token', ' token')
-        self.name = name.title()
+        self.data[self.ticker].update({"name":name.title()})
 
     def get_electrums(self):
         with open(f"../electrums/{self.ticker}", "r") as f:
