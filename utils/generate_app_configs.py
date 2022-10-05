@@ -180,24 +180,15 @@ class CoinConfig:
 
     def get_swap_contracts(self):
         contract_data = None
-        print(self.ticker)
-        print(self.coin_type)
-        print(ethereum_coins)
         if self.ticker in ethereum_coins:
             with open(f"../ethereum/{self.ticker}", "r") as f:
                 contract_data = json.load(f)
-        elif self.coin_type not in ["UTXO", "ZHTLC", "BCH", "SLPTOKEN", "QTUM"]:
-            key_list = list(self.protocols.keys())
-            value_list = list(self.protocols.values())
-            
-            token_type = self.coin_type
-            if self.ticker == "RBTC": token_type = "RSK Smart Bitcoin"
-            if token_type == "ETH": pass
-            if token_type.endswith("20"): token_type = token_type.replace("20", "-20")
-            i = value_list.index(token_type)
-            parent_coin = key_list[i]
-            if parent_coin in ethereum_coins:
-                with open(f"../ethereum/{key_list[i]}", "r") as f:
+        else:
+            parent_coin = self.get_parent_coin()
+            if self.ticker == "RBTC":
+                parent_coin = "RSK"
+            if parent_coin:
+                with open(f"../ethereum/{parent_coin}", "r") as f:
                     contract_data = json.load(f)
 
         if contract_data:
@@ -211,24 +202,40 @@ class CoinConfig:
                     "fallback_swap_contract": contract_data["fallback_swap_contract"]
                 })
 
+    def get_parent_coin(self):
+        ''' Used for getting filename for related coins/ethereum folder '''
+        if self.coin_type not in ["UTXO", "ZHTLC", "BCH", "SLPTOKEN", "QTUM", "QRC20"]:
+            key_list = list(self.protocols.keys())
+            value_list = list(self.protocols.values())
+            token_type = self.data[self.ticker]["type"]
+            if self.ticker == "RBTC": token_type = "RSK Smart Bitcoin"
+            #if token_type == "ETH": print(self.data)
+            i = value_list.index(token_type)
+            return key_list[i]
+        return None
 
     def get_explorers(self):
-        if self.coin_type == "BEP20":
+        if self.data[self.ticker]["type"] == "BEP-20":
             self.data[self.ticker].update({"explorer_url": ["https://bscscan.com/"]})
-        if self.coin_type == "ERC20":
+        if self.data[self.ticker]["type"] == "ERC-20":
             self.data[self.ticker].update({"explorer_url": ["https://etherscan.io/"]})
-        if self.coin_type == "AVX20":
+        if self.data[self.ticker]["type"] == "AVX-20":
             self.data[self.ticker].update({"explorer_url": ["https://snowtrace.io/"]})
-        if self.coin_type == "HRC20":
+        if self.data[self.ticker]["type"] == "HRC-20":
             self.data[self.ticker].update({"explorer_url": ["https://explorer.harmony.one/"]})
-        if self.coin_type == "KRC20":
+        if self.data[self.ticker]["type"] == "KRC-20":
             self.data[self.ticker].update({"explorer_url": ["https://explorer.kcc.io/en/"]})
+        if self.data[self.ticker]["type"] == "Matic":
+            self.data[self.ticker].update({"explorer_url": ["https://polygonscan.com/"]})
+        if self.data[self.ticker]["type"] == "FTM-20":
+            self.data[self.ticker].update({"explorer_url": ["https://ftmscan.com/"]})
+        if self.data[self.ticker]["type"] == "HecoChain":
+            self.data[self.ticker].update({"explorer_url": ["https://hecoinfo.com/"]})
 
         elif self.ticker in explorer_coins:
             with open(f"../explorers/{self.ticker}", "r") as f:
                 explorers = json.load(f)
                 for x in explorers:
-                    print(x)
                     for i in ["tx/"]:
                         if x.endswith(i):
                             x = x[:-1*(len(i))]
@@ -292,10 +299,8 @@ def parse_coins_repo():
             config.get_explorers()
 
 
-            print(item["coin"])
-            print(item)
-            pprint(config.data)
             desktop_coins.update(config.data)
+
 
     with open("desktop_coins.json", "w+") as f:
         json.dump(desktop_coins, f, indent=4)
