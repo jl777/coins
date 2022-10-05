@@ -562,6 +562,7 @@
   {
     "coin":"ARRR",
     "asset":"PIRATE",
+    "fname": "Pirate",
     "txversion":4,
     "overwintered":1,
     "mm2":1,
@@ -1120,19 +1121,21 @@
   },
   {
     "coin":"USDT-SLP",
+    "fname": "Tether",
     "protocol":{
-      "type":"SLPTOKEN",
-      "protocol_data":{
-        "decimals":8,
-        "token_id":"9fc89d6b7d5be2eac0b3787c5b8236bca5de641b5bafafc8f450727b63615c11",
-        "platform":"BCH",
-        "required_confirmations": 1
-      }
+        "type":"SLPTOKEN",
+        "protocol_data":{
+            "decimals":8,
+            "token_id":"9fc89d6b7d5be2eac0b3787c5b8236bca5de641b5bafafc8f450727b63615c11",
+            "platform":"BCH",
+            "required_confirmations": 1
+        }
     },
     "mm2": 1
   },
   {
     "coin":"HONK",
+    "fname": "Honk Honk",
     "protocol":{
       "type":"SLPTOKEN",
       "protocol_data":{
@@ -1146,6 +1149,7 @@
   },
   {
     "coin":"ASLP",
+    "fname": "AtomicSLP",
     "protocol":{
       "type":"SLPTOKEN",
       "protocol_data":{
@@ -7343,6 +7347,7 @@
   },
   {
     "coin": "QRC20",
+    "fname": "QRC20",
     "pubtype": 120,
     "p2shtype": 50,
     "wiftype": 128,
@@ -9095,19 +9100,6 @@
     }
   },
   {
-            "coin":"USDT-SLP",
-            "protocol":{
-                "type":"SLPTOKEN",
-                "protocol_data":{
-                    "decimals":8,
-                    "token_id":"9fc89d6b7d5be2eac0b3787c5b8236bca5de641b5bafafc8f450727b63615c11",
-                    "platform":"BCH",
-                    "required_confirmations": 1
-                }
-            },
-            "mm2": 1
-  },
-  {
     "coin": "USDT-MVR20",
     "name": "usdt_mvr20",
     "fname": "Tether",
@@ -9524,6 +9516,7 @@
   {
     "coin": "VOTE2022",
     "asset": "VOTE2022",
+    "fname": "Vote 2022",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "rpcport": 33898,
     "mm2": 1,
@@ -10901,6 +10894,7 @@
     "name": "ethereum",
     "fname": "thorenext",
     "rpcport": 80,
+    "mm2": 0,
     "required_confirmations": 3,
     "avg_blocktime": 0.25,
     "protocol": {
@@ -11462,6 +11456,7 @@
   },
   {
     "coin": "USDF",
+    "fname": "Fake USD",
     "protocol": {
       "type": "SLPTOKEN",
       "protocol_data": {
@@ -11517,6 +11512,7 @@
   },
   {
     "coin": "sTST",
+    "fname": "sTST",
     "protocol": {
       "type": "SLPTOKEN",
       "protocol_data": {
@@ -11587,6 +11583,7 @@
   {
     "coin":"ZOMBIE",
     "asset":"ZOMBIE",
+    "fname": "Zombie",
     "txversion":4,
     "overwintered":1,
     "avg_blocktime": 1,
