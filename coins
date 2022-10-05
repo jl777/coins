@@ -1476,6 +1476,42 @@
     }
   },
   {
+    "coin": "BRZ-PLG20",
+    "name": "brz_plg20",
+    "fname": "Brazilian Digital Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 4,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f"
+      }
+    }
+  },
+  {
+    "coin": "BRZ-AVX20",
+    "name": "brz_avx20",
+    "fname": "Brazilian Digital Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "decimals": 4,
+    "avg_blocktime": 0.04,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f"
+      }
+    }
+  },
+  {
     "coin": "BSTY",
     "name": "globalboost",
     "fname": "GlobalBoost-Y",
