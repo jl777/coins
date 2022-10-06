@@ -7969,6 +7969,24 @@
     }
   },
   {
+    "coin": "SOL-PLG20",
+    "name": "sol_plg20",
+    "fname": "Solana",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x7DfF46370e9eA5f0Bad3C4E29711aD50062EA7A4"
+      }
+    }
+  },
+  {
     "coin": "SOLVE",
     "name": "care-solve",
     "fname": "Solve Token",
