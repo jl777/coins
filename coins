@@ -10220,6 +10220,24 @@
     }
   },
   {
+    "coin": "YFI-PLG20",
+    "name": "yfi_plg20",
+    "fname": "yearn.finance",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xDA537104D6A5edd53c6fBba9A898708E465260b6"
+      }
+    }
+  },
+  {
     "coin": "YFII-BEP20",
     "name": "yfii_bep20",
     "fname": "DFI.Money",
