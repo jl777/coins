@@ -48,93 +48,34 @@ class CoinConfig:
         }
 
         self.coin_type = coin_data["protocol"]["type"]
-        if self.coin_type in ["SLPTOKEN"]:
-            self.data.update({
-                self.ticker: {
-                    "coin": self.ticker,
-                    "type": "SLP",
-                    "name": "",
-                    "coinpaprika_id": "",
-                    "coingecko_id": "",
-                    "nomics_id": "",
-                    "explorer_url": [],
-                    "explorer_tx_url": "",
-                    "explorer_address_url": "",
-                    "supported": [],
-                    "active": False,
-                    "is_testnet": self.is_testnet_network(),
-                    "currently_enabled": False
-                }
-            })
-        elif self.coin_type in ["UTXO", "QRC20", "BCH", "QTUM"]:
-            self.data.update({
-                self.ticker: {
-                    "coin": self.ticker,
-                    "type": "",
-                    "name": "",
-                    "sign_message_prefix": "",
-                    "coinpaprika_id": "",
-                    "coingecko_id": "",
-                    "nomics_id": "",
-                    "electrum": [],
-                    "explorer_url": [],
-                    "explorer_tx_url": "",
-                    "explorer_address_url": "",
-                    "supported": [],
-                    "active": False,
-                    "is_testnet": self.is_testnet_network(),
-                    "currently_enabled": False
-                }
-            })
+        self.data.update({
+            self.ticker: {
+                "coin": self.ticker,
+                "type": "",
+                "name": "",
+                "coinpaprika_id": "",
+                "coingecko_id": "",
+                "nomics_id": "",
+                "explorer_url": [],
+                "explorer_tx_url": "",
+                "explorer_address_url": "",
+                "supported": [],
+                "active": False,
+                "is_testnet": self.is_testnet_network(),
+                "currently_enabled": False
+            }
+        })
+        if self.coin_type in ["UTXO", "QRC20", "BCH", "QTUM"]:
+            self.data[self.ticker].update({"sign_message_prefix": ""})
             if self.ticker in ["BCH", "tBCH"]:
                 self.data[self.ticker].update({
                     "type": "UTXO",
                     "bchd_urls": [],
                     "other_types": ["SLP"]
-                })                
-
-        elif self.coin_type in ["ETH", "ERC20"]:
-            self.data.update({
-                self.ticker: {
-                    "coin": self.ticker,
-                    "type": "",
-                    "name": "",
-                    "coinpaprika_id": "",
-                    "coingecko_id": "",
-                    "nomics_id": "",
-                    "nodes": [],
-                    "explorer_url": [],
-                    "explorer_tx_url": "",
-                    "explorer_address_url": "",
-                    "supported": [],
-                    "active": False,
-                    "is_testnet": self.is_testnet_network(),
-                    "currently_enabled": False,
-                    "contract_address": "",
-                    "swap_contract_address": "",
-                    "fallback_swap_contract": "",
-                }
-            })
+                })
         elif self.coin_type in ["ZHTLC"]:
-            self.data.update({
-                self.ticker: {
-                    "coin": self.ticker,
-                    "type": "",
-                    "name": "",
-                    "coinpaprika_id": "",
-                    "coingecko_id": "",
-                    "nomics_id": "",
-                    "electrum": [],
-                    "explorer_url": [],
-                    "light_wallet_d_servers": [],
-                    "explorer_tx_url": "",
-                    "explorer_address_url": "",
-                    "supported": [],
-                    "active": False,
-                    "is_testnet": self.is_testnet_network(),
-                    "currently_enabled": False,
-                    "contract_address": ""
-                }
+            self.data[self.ticker].update({
+                "light_wallet_d_servers": []
             })
 
 
@@ -208,8 +149,8 @@ class CoinConfig:
         if name.find('token'): name.replace('token', ' token')
         self.data[self.ticker].update({"name":name.title()})
 
-    def get_electrums(self):
-        with open(f"../electrums/{self.ticker}", "r") as f:
+    def get_electrums(self, coin):
+        with open(f"../electrums/{coin}", "r") as f:
             self.data[self.ticker].update({
                 "electrum": json.load(f)
             })
@@ -242,9 +183,8 @@ class CoinConfig:
                 })
 
 
-    def get_explorers(self):
+    def get_explorers(self, ticker):
         explorers = []
-        ticker = self.ticker.replace("-segwit", "").replace("-TEST", "")
         parent_coin = self.get_parent_coin()
         if ticker in explorer_coins:
             with open(f"../explorers/{ticker}", "r") as f:
@@ -278,11 +218,10 @@ def parse_coins_repo():
             config.get_protocol_info()
             config.clean_name()
             config.get_swap_contracts()
-
-            if item["coin"] in electrum_coins:
-                config.get_electrums()
-
-            config.get_explorers()
+            coin = item["coin"].replace("-segwit", "").replace("-TEST", "")
+            if coin in electrum_coins:
+                config.get_electrums(coin)
+            config.get_explorers(coin)
 
 
             desktop_coins.update(config.data)
@@ -290,6 +229,11 @@ def parse_coins_repo():
     for coin in desktop_coins:
         if not desktop_coins[coin]["explorer_url"]:
             print(f"{coin} has no explorers!")
+        if ("nodes" not in desktop_coins[coin]
+                    and "electrum" not in desktop_coins[coin]
+                    and desktop_coins[coin]["type"] not in ["SLP", "QRC-20"]):
+            print(f"{coin} has no nodes or electrums!")
+            # print(desktop_coins[coin])
 
     with open("desktop_coins.json", "w+") as f:
         json.dump(desktop_coins, f, indent=4)

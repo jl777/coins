@@ -17,6 +17,10 @@
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/"
     },
+    "https://explorer2.runebase.io/": {
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/"
+    },
     "https://softbalanced.com:3001/insight/": {
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/"
@@ -42,5 +46,14 @@
     "https://www.nyanchain.com/": {
         "explorer_tx_url": "tx.nyan?",
         "explorer_address_url": "ad.nyan?"
+    },
+    "https://explorer.lightningcash-coin.com/": {
+        "explorer_tx_url": "tx/"
+    },
+    "https://explorer.bitwebcore.org/": {
+        "explorer_tx_url": "tx/"
+    },
+    "https://openchains.info/coin/ltfn/": {
+        "explorer_tx_url": "tx/"
     }
 }
