@@ -764,22 +764,6 @@
     }
   },
   {
-    "coin": "AXO",
-    "asset": "AXO",
-    "fname": "AXO",
-    "rpcport": 12927,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": false,
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "avg_blocktime": 1,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "AXS-BEP20",
     "name": "axs_bep20",
     "fname": "Axie Infinity",
@@ -1221,20 +1205,6 @@
     }
   },
   {
-    "coin": "BEER",
-    "asset": "BEER",
-    "fname": "BEER (TESTCOIN)",
-    "is_testnet": true,
-    "rpcport": 8923,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "BET",
     "asset": "BET",
     "fname": "BET",
@@ -1595,22 +1565,6 @@
         "platform": "BNB",
         "contract_address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c"
       }
-    }
-  },
-  {
-    "coin": "BTCH",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "BTCH",
-    "fname": "Bitcoin Hush",
-    "rpcport": 8800,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": false,
-    "avg_blocktime": 1,
-    "protocol": {
-      "type": "UTXO"
     }
   },
   {
@@ -2378,22 +2332,6 @@
         "platform": "MATIC",
         "contract_address": "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c"
       }
-    }
-  },
-  {
-    "coin": "COQUI",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "COQUICASH",
-    "fname": "Coqui Cash",
-    "rpcport": 19712,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": false,
-    "avg_blocktime": 1,
-    "protocol": {
-      "type": "UTXO"
     }
   },
   {
@@ -6640,20 +6578,6 @@
     }
   },
   {
-    "coin": "OOT",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "OOT",
-    "fname": "Utrum",
-    "rpcport": 12467,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": false,
-    "avg_blocktime": 1,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "PANGEA",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "PANGEA",
@@ -6890,20 +6814,6 @@
     "mm2": 1,
     "required_confirmations": 5,
     "avg_blocktime": 1,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
-    "coin": "PIZZA",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "PIZZA",
-    "fname": "PIZZA (TESTCOIN)",
-    "is_testnet": true,
-    "rpcport": 11116,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
     "protocol": {
       "type": "UTXO"
     }
@@ -9675,22 +9585,6 @@
     }
   },
   {
-    "coin": "WLC",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "WLC21",
-    "fname": "Wireless Coin",
-    "rpcport": 38808,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": false,
-    "avg_blocktime": 1,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "WSB",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "WSB",
@@ -10217,22 +10111,6 @@
     "mm2": 1,
     "required_confirmations": 4,
     "avg_blocktime": 2,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
-    "coin": "ZET-OLD",
-    "name": "zetacoin",
-    "fname": "Zetacoin (OLD)",
-    "rpcport": 8332,
-    "pubtype": 80,
-    "p2shtype": 9,
-    "wiftype": 224,
-    "txfee": 50000,
-    "mm2": 1,
-    "required_confirmations": 5,
-    "avg_blocktime": 0.5,
     "protocol": {
       "type": "UTXO"
     }
