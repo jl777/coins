@@ -5,9 +5,11 @@ from pprint import pprint
 import requests
 
 electrum_coins = os.listdir("../electrums")
-explorer_coins = os.listdir("../explorers")
 ethereum_coins = os.listdir("../ethereum")
+explorer_coins = os.listdir("../explorers")
 
+with open("../explorers/explorer_paths.json", "r") as f:
+    explorer_paths = json.load(f)
 
 class CoinConfig:
     def __init__(self, coin_data: dict):
@@ -18,26 +20,30 @@ class CoinConfig:
         self.base_ticker = self.ticker.split("-")[0]
         self.protocols = {
             "AVAX": "AVX-20",
-            "AVAXT": "AVX-20",
-            "BCH": "SLP",
             "BNB": "BEP-20",
-            "BNBT": "BEP-20",
             "ETC": "Ethereum Classic",
             "ETH": "ERC-20",
             "ETH-ARB20": "Arbitrum",
             "FTM": "FTM-20",
-            "FTMT": "FTM-20",
             "GLMR": "Moonbeam",
             "HT": "HecoChain",
             "KCS": "KRC-20",
             "MATIC": "Matic",
-            "MATICTEST": "Matic Testnet",
             "MOVR": "Moonriver",
             "ONE": "HRC-20",
             "QTUM": "QRC-20",
             "RBTC": "RSK Smart Bitcoin",
             "SBCH": "SmartBCH",
+            "SLP": "SLPTOKEN",
+            "UBQ": "Ubiq"
+        }
+        self.testnet_protocols = {
+            "AVAXT": "AVX-20",
+            "BNBT": "BEP-20",
+            "FTMT": "FTM-20",
+            "tSLP": "SLPTOKEN",
             "tQTUM": "QRC-20",
+            "MATICTEST": "Matic Testnet",
             "UBQ": "Ubiq"
         }
 
@@ -56,7 +62,7 @@ class CoinConfig:
                     "explorer_address_url": "",
                     "supported": [],
                     "active": False,
-                    "is_testnet": False,
+                    "is_testnet": self.is_testnet_network(),
                     "currently_enabled": False
                 }
             })
@@ -76,12 +82,13 @@ class CoinConfig:
                     "explorer_address_url": "",
                     "supported": [],
                     "active": False,
-                    "is_testnet": False,
+                    "is_testnet": self.is_testnet_network(),
                     "currently_enabled": False
                 }
             })
             if self.ticker in ["BCH", "tBCH"]:
                 self.data[self.ticker].update({
+                    "type": "UTXO",
                     "bchd_urls": [],
                     "other_types": ["SLP"]
                 })                
@@ -101,7 +108,7 @@ class CoinConfig:
                     "explorer_address_url": "",
                     "supported": [],
                     "active": False,
-                    "is_testnet": False,
+                    "is_testnet": self.is_testnet_network(),
                     "currently_enabled": False,
                     "contract_address": "",
                     "swap_contract_address": "",
@@ -124,47 +131,76 @@ class CoinConfig:
                     "explorer_address_url": "",
                     "supported": [],
                     "active": False,
-                    "is_testnet": False,
+                    "is_testnet": self.is_testnet_network(),
                     "currently_enabled": False,
                     "contract_address": ""
                 }
             })
 
+
     def get_protocol_info(self):
-        
-        if self.ticker in self.protocols.keys():
-            protocol = self.protocols[self.ticker]
-            self.data[self.ticker].update({
-                "type": protocol
-            })
-        elif "protocol_data" in self.coin_data["protocol"]:
+        if "protocol_data" in self.coin_data["protocol"]:
             protocol_data = self.coin_data["protocol"]["protocol_data"]
             if "consensus_params" in protocol_data:
+                # TODO: ZHTLC things
                 self.data[self.ticker].update({
                     "type": self.coin_type
                 })
-            elif "token_id" in protocol_data:
+
+            if "slp_prefix" in protocol_data:
+                if self.ticker in ["BCH", "tBCH"]:
+                    coin_type = "UTXO"
+                else:
+                    coin_type = "SLP"
                 self.data[self.ticker].update({
-                    "type": self.coin_type,
-                    "token_id": protocol_data["token_id"]
-                })
-            elif "platform" in protocol_data:
-                platform = protocol_data["platform"]
-                protocol = self.protocols[platform]
-                self.data[self.ticker].update({
-                    "type": protocol,
-                    "contract_address": protocol_data["contract_address"]
-                })
-            else:
-                self.data[self.ticker].update({
-                    "type": "SLP",
+                    "type": coin_type,
                     "slp_prefix": protocol_data["slp_prefix"]
                 })
-
+                if "token_id" in protocol_data:
+                    self.data[self.ticker].update({
+                        "token_id": protocol_data["token_id"]
+                    })
+            elif "platform" in protocol_data:
+                # TODO: ERC-like things
+                platform = protocol_data["platform"]
+                if self.is_testnet_network():
+                    coin_type = self.testnet_protocols[platform]
+                else:
+                    coin_type = self.protocols[platform]
+                self.data[self.ticker].update({"type": coin_type})
+                if "contract_address" in protocol_data: 
+                    self.data[self.ticker].update({
+                        "contract_address": protocol_data["contract_address"]
+                    })
         else:
             self.data[self.ticker].update({
                 "type": self.coin_type
             })
+
+    def is_testnet_network(self):
+        if "is_testnet" in self.coin_data:
+            return self.coin_data["is_testnet"]
+        return False
+
+    def get_parent_coin(self):
+        ''' Used for getting filename for related coins/ethereum folder '''
+        if self.coin_type not in ["UTXO", "ZHTLC", "BCH", "QTUM"]:
+            if self.data[self.ticker]["is_testnet"]:
+                key_list = list(self.testnet_protocols.keys())
+                value_list = list(self.testnet_protocols.values())
+            else:
+                key_list = list(self.protocols.keys())
+                value_list = list(self.protocols.values())
+            if self.ticker in key_list:
+                return self.ticker
+            token_type = self.data[self.ticker]["type"]
+            if token_type  == "SLP": return "BCH"
+            if token_type  == "tSLP": return "tBCH"
+            #if token_type == "ETH": print(self.data)
+            if self.ticker == "RBTC": token_type = "RSK Smart Bitcoin"
+            i = value_list.index(token_type)
+            return key_list[i]
+        return None
 
     def clean_name(self):
         name = self.coin_data["fname"].lower()
@@ -179,15 +215,18 @@ class CoinConfig:
             })
 
     def get_swap_contracts(self):
+        # TODO: update swap contracts to post-IRIS once Artem greenlights.
         contract_data = None
         if self.ticker in ethereum_coins:
             with open(f"../ethereum/{self.ticker}", "r") as f:
                 contract_data = json.load(f)
-        else:
+        elif self.ticker not in electrum_coins:
             parent_coin = self.get_parent_coin()
             if self.ticker == "RBTC":
                 parent_coin = "RSK"
-            if parent_coin:
+                with open(f"../ethereum/{parent_coin}", "r") as f:
+                    contract_data = json.load(f)
+            elif parent_coin not in ["QTUM", "tQTUM", "BCH", "tBCH", None]:
                 with open(f"../ethereum/{parent_coin}", "r") as f:
                     contract_data = json.load(f)
 
@@ -202,77 +241,11 @@ class CoinConfig:
                     "fallback_swap_contract": contract_data["fallback_swap_contract"]
                 })
 
-    def get_parent_coin(self):
-        ''' Used for getting filename for related coins/ethereum folder '''
-        if self.coin_type not in ["UTXO", "ZHTLC", "BCH", "SLPTOKEN", "QTUM", "QRC20"]:
-            key_list = list(self.protocols.keys())
-            value_list = list(self.protocols.values())
-            token_type = self.data[self.ticker]["type"]
-            if self.ticker == "RBTC": token_type = "RSK Smart Bitcoin"
-            #if token_type == "ETH": print(self.data)
-            i = value_list.index(token_type)
-            return key_list[i]
-        return None
 
     def get_explorers(self):
         explorers = []
-        ticker = self.ticker.replace("-segwit", "")
-
-        if self.data[self.ticker]["type"] == "BEP-20":
-            if self.data[self.ticker]["is_testnet"]:
-                explorers = ["https://data-seed-prebsc-1-s2.binance.org:8545"]
-            else:
-                explorers = ["https://bscscan.com/"]
-
-        if self.data[self.ticker]["type"] == "ERC-20":
-            explorers = ["https://etherscan.io/"]
-
-        if self.data[self.ticker]["type"] == "AVX-20":
-            if self.data[self.ticker]["is_testnet"]:
-                explorers = ["https://cchain.explorer.avax-test.network/"]
-            else:
-                explorers = ["https://snowtrace.io/"]
-            
-        if self.data[self.ticker]["type"] == "HRC-20":
-            explorers = ["https://explorer.harmony.one/"]
-
-        if self.data[self.ticker]["type"] == "KRC-20":
-            explorers = ["https://explorer.kcc.io/en/"]
-
-        if self.data[self.ticker]["type"] == "Matic":
-            if self.data[self.ticker]["is_testnet"]:
-                explorers = ["https://mumbai.polygonscan.com/"]
-            else:
-                explorers = ["https://polygonscan.com/"]
-
-        if self.data[self.ticker]["type"] == "FTM-20":
-            if self.data[self.ticker]["is_testnet"]:
-                explorers = ["https://testnet.ftmscan.com/"]
-            else:
-                explorers = ["https://ftmscan.com/"]
-
-        if self.data[self.ticker]["type"] == "QRC-20":
-            if self.data[self.ticker]["is_testnet"]:
-                explorers = ["https://testnet.qtum.org/"]
-            else:
-                explorers = ["https://explorer.qtum.org/"]
-
-        if self.data[self.ticker]["type"] == "Moonriver":
-                explorers = ["https://moonriver.moonscan.io/"]
-
-        if self.data[self.ticker]["type"] == "Moonbeam":
-                explorers = ["https://rpc.api.moonbeam.network"]
-
-        if self.data[self.ticker]["type"] == "HecoChain":
-            explorers = ["https://hecoinfo.com/"]
-
-        if self.data[self.ticker]["type"] == "SLPTOKEN":
-            if self.data[self.ticker]["is_testnet"]:
-                explorers = ["https://testnet.simpleledger.info/"]
-            else:
-                explorers = ["https://simpleledger.info/"]
-
-
+        ticker = self.ticker.replace("-segwit", "").replace("-TEST", "")
+        parent_coin = self.get_parent_coin()
         if ticker in explorer_coins:
             with open(f"../explorers/{ticker}", "r") as f:
                 explorers = json.load(f)
@@ -282,44 +255,16 @@ class CoinConfig:
                             x = x[:-1*(len(i))]
                             self.data[self.ticker].update({"explorer_tx_url": i})
 
-                    if x.startswith("https://chainz.cryptoid.info/"):
-                        self.data[self.ticker].update({
-                            "explorer_tx_url": "tx.dws?",
-                            "explorer_address_url": "address.dws?"
-                        })
-                    if x.startswith("https://blockchair.com/"):
-                        self.data[self.ticker].update({
-                            "explorer_tx_url": "transaction/"
-                        })
+                    for p in explorer_paths:
+                        if x.find(p) > -1:
+                            self.data[self.ticker].update(explorer_paths[p])
 
-                    if x in ["https://explorer.zcha.in/"]:
-                        self.data[self.ticker].update({
-                            "explorer_tx_url": "transactions/"
-                        })
+        elif parent_coin in explorer_coins:
+            with open(f"../explorers/{parent_coin}", "r") as f:
+                explorers = json.load(f)
 
-                    if x in ["https://explorer.runebase.io/", "https://softbalanced.com:3001/insight/"
-                             "https://explorer.fujicoin.org/", "https://explorer.blackcoin.nl/",
-                             "https://explorer.lightningcash-coin.com/"
-                             ]:
-                        self.data[self.ticker].update({
-                            "explorer_tx_url": "tx/",
-                            "explorer_address_url": "address/"
-                        })
-
-                    if x in ["https://testnet.simpleledger.info/", "https://simpleledger.info/"]:
-                        self.data[self.ticker].update({
-                            "explorer_tx_url": "#tx/"
-                        })
-
-                    if x == "https://www.nyanchain.com/":
-                        self.data[self.ticker].update({
-                            "explorer_tx_url": "tx.nyan?",
-                            "explorer_address_url": "ad.nyan?"
-                        })
         if explorers:
             self.data[self.ticker].update({"explorer_url": explorers})
-        else:
-            print(f"no explorers for {self.ticker}")
 
 def parse_coins_repo():
 
@@ -342,6 +287,9 @@ def parse_coins_repo():
 
             desktop_coins.update(config.data)
 
+    for coin in desktop_coins:
+        if not desktop_coins[coin]["explorer_url"]:
+            print(f"{coin} has no explorers!")
 
     with open("desktop_coins.json", "w+") as f:
         json.dump(desktop_coins, f, indent=4)

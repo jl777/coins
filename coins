@@ -359,6 +359,7 @@
   {
     "coin": "ADEXBSCT",
     "name": "adex_bsc_testnet",
+    "is_testnet": true,
     "fname": "adex",
     "rpcport": 80,
     "mm2": 1,
@@ -668,6 +669,7 @@
     "coin": "AVAXT",
     "name": "avaxt",
     "fname": "Avax Testnet",
+    "is_testnet": true,
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 43113,
@@ -1128,7 +1130,8 @@
             "decimals":8,
             "token_id":"9fc89d6b7d5be2eac0b3787c5b8236bca5de641b5bafafc8f450727b63615c11",
             "platform":"BCH",
-            "required_confirmations": 1
+            "required_confirmations": 1,
+            "slp_prefix": "simpleledger"
         }
     },
     "mm2": 1
@@ -1137,13 +1140,14 @@
     "coin":"HONK",
     "fname": "Honk Honk",
     "protocol":{
-      "type":"SLPTOKEN",
-      "protocol_data":{
-        "decimals":0,
-        "token_id":"7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
-        "platform":"BCH",
-        "required_confirmations": 1
-      }
+        "type":"SLPTOKEN",
+        "protocol_data": {
+            "decimals":0,
+            "token_id":"7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+            "platform":"BCH",
+            "required_confirmations": 1,
+            "slp_prefix": "simpleledger"
+        }
     },
     "mm2": 1
   },
@@ -1151,13 +1155,14 @@
     "coin":"ASLP",
     "fname": "AtomicSLP",
     "protocol":{
-      "type":"SLPTOKEN",
-      "protocol_data":{
-        "decimals":2,
-        "token_id":"926894cbf50269b15c97559b9acfc1bd88cd5f20703313ce0ea0683ecdb40911",
-        "platform":"BCH",
-        "required_confirmations": 1
-      }
+        "type":"SLPTOKEN",
+        "protocol_data": {
+            "decimals":2,
+            "token_id":"926894cbf50269b15c97559b9acfc1bd88cd5f20703313ce0ea0683ecdb40911",
+            "platform":"BCH",
+            "required_confirmations": 1,
+            "slp_prefix": "simpleledger"
+        }
     },
     "mm2": 1
   },
@@ -1219,6 +1224,7 @@
     "coin": "BEER",
     "asset": "BEER",
     "fname": "BEER (TESTCOIN)",
+    "is_testnet": true,
     "rpcport": 8923,
     "txversion": 4,
     "overwintered": 1,
@@ -1310,6 +1316,7 @@
     "txfee": 100000,
     "segwit": true,
     "mm2": 1,
+    "is_testnet": true,
     "required_confirmations": 5,
     "mature_confirmations": 10,
     "avg_blocktime": 1.1,
@@ -1369,6 +1376,7 @@
     "rpcport": 80,
     "chain_id": 97,
     "mm2": 1,
+    "is_testnet": true,
     "required_confirmations": 3,
     "protocol": {
       "type": "ETH"
@@ -2742,21 +2750,6 @@
     }
   },
   {
-    "coin": "DEC8",
-    "name": "DEC8",
-    "fname": "DEC8 (TESTCOIN)",
-    "mm2": 1,
-    "chain_id": 1,
-    "rpcport": 80,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x3aB100442484Dc2414Aa75B2952A0a6f03f8aBFd"
-      }
-    }
-  },
-  {
     "coin": "DENT",
     "name": "dent",
     "fname": "Dent Coin",
@@ -3878,6 +3871,7 @@
     "coin": "FTMT",
     "name": "ftmt",
     "fname": "Fantom Testnet",
+    "is_testnet": true,
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 4002,
@@ -5697,6 +5691,7 @@
     "coin": "MATICTEST",
     "name": "matic testnet",
     "fname": "Matic testnet",
+    "is_testnet": true,
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 80001,
@@ -6131,6 +6126,7 @@
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "MORTY",
     "fname": "MORTY (TESTCOIN)",
+    "is_testnet": true,
     "rpcport": 16348,
     "txversion": 4,
     "overwintered": 1,
@@ -6903,6 +6899,7 @@
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "PIZZA",
     "fname": "PIZZA (TESTCOIN)",
+    "is_testnet": true,
     "rpcport": 11116,
     "txversion": 4,
     "overwintered": 1,
@@ -7352,8 +7349,9 @@
     "p2shtype": 50,
     "wiftype": 128,
     "segwit": false,
-    "txfee": 400000,
+    "txfee": 400000, 
     "mm2": 1,
+    "is_testnet": true,
     "mature_confirmations": 2000,
     "required_confirmations": 1,
     "avg_blocktime": 0.53,
@@ -7431,6 +7429,7 @@
     "coin": "tQTUM",
     "name": "qtumtest",
     "fname": "Qtum test",
+    "is_testnet": true,
     "rpcport": 13889,
     "pubtype": 120,
     "p2shtype": 110,
@@ -7460,6 +7459,7 @@
     "orderbook_ticker": "tQTUM",
     "txfee": 400000,
     "mm2": 1,
+    "is_testnet": true,
     "required_confirmations": 1,
     "mature_confirmations": 2000,
     "avg_blocktime": 0.53,
@@ -7617,6 +7617,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
+    "is_testnet": true,
     "required_confirmations": 1,
     "requires_notarization": false,
     "avg_blocktime": 1,
@@ -8350,6 +8351,7 @@
     "txfee": 0,
     "estimate_fee_mode": "ECONOMICAL",
     "mm2": 1,
+    "is_testnet": true,
     "required_confirmations": 0,
     "protocol": {
       "type": "UTXO"
@@ -8370,6 +8372,7 @@
     "txfee": 0,
     "estimate_fee_mode": "ECONOMICAL",
     "mm2": 1,
+    "is_testnet": true,
     "required_confirmations": 0,
     "protocol": {
       "type": "UTXO"
@@ -11416,6 +11419,7 @@
     "coin": "tBCH",
     "name": "Bitcoin Cash Testnet",
     "fname": "Bitcoin Cash Testnet",
+    "is_testnet": true,
     "pubtype": 111,
     "p2shtype": 196,
     "wiftype": 239,
@@ -11457,13 +11461,15 @@
   {
     "coin": "USDF",
     "fname": "Fake USD",
+    "is_testnet": true,
     "protocol": {
       "type": "SLPTOKEN",
       "protocol_data": {
         "decimals": 4,
         "token_id": "bb309e48930671582bea508f9a1d9b491e49b69be3d6f372dc08da2ac6e90eb7",
         "platform": "tBCH",
-        "required_confirmations": 1
+        "required_confirmations": 1,
+        "slp_prefix": "slptest"
       }
     },
     "mm2": 1
@@ -11513,13 +11519,15 @@
   {
     "coin": "sTST",
     "fname": "sTST",
+    "is_testnet": true,
     "protocol": {
       "type": "SLPTOKEN",
       "protocol_data": {
         "decimals": 4,
         "token_id": "037eb9fc8a5f0faed4e5c15c15e69cd9f5d8a87b5f11e0ba3dce17b562705d6c",
         "platform": "tBCH",
-        "required_confirmations": 1
+        "required_confirmations": 1,
+        "slp_prefix": "slptest"
       }
     },
     "mm2": 1
