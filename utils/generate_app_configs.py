@@ -11,6 +11,31 @@ explorer_coins = os.listdir("../explorers")
 with open("../explorers/explorer_paths.json", "r") as f:
     explorer_paths = json.load(f)
 
+with open("../api_ids/forex_ids.json", "r") as f:
+    forex_ids = json.load(f)
+
+with open("../api_ids/nomics_ids.json", "r") as f:
+    nomics_ids = json.load(f)
+
+with open("../api_ids/coingecko_ids.json", "r") as f:
+    coingecko_ids = json.load(f)
+
+with open("../api_ids/coinpaprika_ids.json", "r") as f:
+    coinpaprika_ids = json.load(f)
+
+def colorize(string, color):
+    colors = {
+            'red':'\033[31m',
+            'yellow':'\033[33m',
+            'magenta':'\033[35m',
+            'blue':'\033[34m',
+            'green':'\033[32m'
+    }
+    if color not in colors:
+            return str(string)
+    else:
+            return colors[color] + str(string) + '\033[0m'
+
 class CoinConfig:
     def __init__(self, coin_data: dict):
 
@@ -43,7 +68,7 @@ class CoinConfig:
             "FTMT": "FTM-20",
             "tSLP": "SLPTOKEN",
             "tQTUM": "QRC-20",
-            "MATICTEST": "Matic Testnet",
+            "MATICTEST": "Matic",
             "UBQ": "Ubiq"
         }
 
@@ -62,7 +87,8 @@ class CoinConfig:
                 "supported": [],
                 "active": False,
                 "is_testnet": self.is_testnet_network(),
-                "currently_enabled": False
+                "currently_enabled": False,
+                "wallet_only": False
             }
         })
         if self.coin_type in ["UTXO", "QRC20", "BCH", "QTUM"]:
@@ -78,7 +104,6 @@ class CoinConfig:
                 "light_wallet_d_servers": []
             })
 
-
     def get_protocol_info(self):
         if "protocol_data" in self.coin_data["protocol"]:
             protocol_data = self.coin_data["protocol"]["protocol_data"]
@@ -90,6 +115,9 @@ class CoinConfig:
 
             if "slp_prefix" in protocol_data:
                 if self.ticker in ["BCH", "tBCH"]:
+                    self.data[self.ticker].update({
+                        "allow_slp_unsafe_conf": False
+                    })
                     coin_type = "UTXO"
                 else:
                     coin_type = "SLP"
@@ -101,6 +129,7 @@ class CoinConfig:
                     self.data[self.ticker].update({
                         "token_id": protocol_data["token_id"]
                     })
+
             elif "platform" in protocol_data:
                 # TODO: ERC-like things
                 platform = protocol_data["platform"]
@@ -118,10 +147,66 @@ class CoinConfig:
                 "type": self.coin_type
             })
 
+        if self.coin_data["protocol"]["type"] in ["ETH", "QTUM"]:
+            if self.ticker in self.protocols:
+                coin_type = self.protocols[self.ticker]
+            elif self.ticker in self.testnet_protocols:
+                coin_type = self.testnet_protocols[self.ticker]
+            self.data[self.ticker].update({
+                "type": coin_type
+            })
+
     def is_testnet_network(self):
         if "is_testnet" in self.coin_data:
             return self.coin_data["is_testnet"]
         return False
+
+    def get_forex_id(self):
+        if self.base_ticker in forex_ids:
+            self.data[self.ticker].update({
+                "forex_id": forex_ids[self.base_ticker]
+            })
+
+    def get_alias_ticker(self):
+        if "alias_ticker" in self.coin_data:
+            self.data[self.ticker].update({
+                "alias_ticker": self.coin_data["alias_ticker"]
+            })
+
+    def get_asset(self):
+        if "asset" in self.coin_data:
+            self.data[self.ticker].update({
+                "asset": self.coin_data["asset"]
+            })
+
+    def get_rewards_info(self):
+        if self.ticker in ["KMD"]:
+            self.data[self.ticker].update({
+                "is_claimable": True,
+                "minimal_claim_amount": "10"
+            })
+
+    def get_address_format(self):
+        if "segwit" in self.coin_data:
+            if self.coin_data["segwit"]:
+                self.data[self.ticker].update({
+                    "is_segwit_on": False,
+                    "address_format": {"format":"standard"}
+                })
+        elif "address_format" in self.coin_data:
+            self.data[self.ticker]["address_format"].update(self.coin_data["address_format"])
+
+    def is_smartchain(self):
+        if "sign_message_prefix" in self.coin_data:
+            if self.coin_data["sign_message_prefix"] == "Komodo Signed Message:\n":
+                self.data[self.ticker]["type"] = "Smart Chain"
+
+    def is_wallet_only(self):
+        if "wallet_only" in self.coin_data:
+            self.data[self.ticker].update({
+                "wallet_only": self.coin_data["wallet_only"]
+            })
+
 
     def get_parent_coin(self):
         ''' Used for getting filename for related coins/ethereum folder '''
@@ -213,15 +298,24 @@ def parse_coins_repo():
         coins_data = json.load(f)
 
     for item in coins_data:
-        if item["mm2"] == 1:
+
+        if item["mm2"] == 1 and item["coin"].find("-segwit") == -1:
+            coin = item["coin"].replace("-TEST", "")
             config = CoinConfig(item)
             config.get_protocol_info()
             config.clean_name()
             config.get_swap_contracts()
-            coin = item["coin"].replace("-segwit", "").replace("-TEST", "")
             if coin in electrum_coins:
                 config.get_electrums(coin)
             config.get_explorers(coin)
+            config.is_smartchain()
+            config.is_wallet_only()
+            config.get_address_format()
+            config.get_forex_id()
+            config.get_rewards_info()
+            config.get_alias_ticker()
+            config.get_asset()
+
 
 
             desktop_coins.update(config.data)
@@ -234,10 +328,72 @@ def parse_coins_repo():
                     and desktop_coins[coin]["type"] not in ["SLP", "QRC-20"]):
             print(f"{coin} has no nodes or electrums!")
             # print(desktop_coins[coin])
+    return desktop_coins
 
     with open("desktop_coins.json", "w+") as f:
         json.dump(desktop_coins, f, indent=4)
 
+def compare_output_vs_desktop_repo(desktop_coins):
+    ''' for this to work, you need atomicdex-desktop cloned into
+        the same folder as you cloned the coins repo '''
+    desktop_coins_folder = "../../atomicDEX-Desktop/assets/config/"
+    contents = os.listdir(desktop_coins_folder)
+    for f in contents:
+        if f.endswith("coins.json"):
+            coins_fn = f
+    with open(f"../../atomicDEX-Desktop/assets/config/{coins_fn}", "r") as f:
+        desktop_repo_coins = json.load(f)
+
+    errors = {
+        "no_value": 0,
+        "missing_entry": 0,
+        "explorer_mismatch":0,
+        "name_mismatch":0,
+        "value_mismatch": 0
+    }
+    for coin in desktop_repo_coins:
+        for k, v in desktop_repo_coins[coin].items():
+            if k not in desktop_coins[coin]:
+                errors["missing_entry"] += 1
+                print(colorize(f"{coin} is missing an entry for {k} in script output", 'blue'))
+            else:
+                if desktop_coins[coin][k]:
+                    try:
+                        if isinstance(desktop_coins[coin][k], list):
+                            # TODO: loop for electum comparison
+                            if not isinstance(v[0], dict):
+                                assert set(desktop_coins[coin][k]) == set(v)
+                        else:
+                            assert desktop_coins[coin][k] == v
+                    except AssertionError as e:
+                        if k == 'name':
+                            errors["name_mismatch"] += 1
+                            # print(colorize(f"{coin} has mismatch on {k}: {v} (desktop_repo) != {desktop_coins[coin][k]} (script_output)", 'blue'))
+                        elif k == 'explorer_url':
+                            errors["explorer_mismatch"] += 1
+                            print(colorize(f"{coin} has mismatch on {k}: {v} (desktop_repo) != {desktop_coins[coin][k]} (script_output)", 'yellow'))
+                        else:
+                            errors["value_mismatch"] += 1
+                            print(colorize(f"{coin} has mismatch on {k}: {v} (desktop_repo) != {desktop_coins[coin][k]} (script_output)", 'magenta'))
+                else:
+                    if isinstance(v, bool):
+                        pass
+                    elif k in ["coingecko_id", "coinpaprika_id", "nomics_id", "forex_id"]:
+                        #print(f"{coin} is missing price API ID for {k} in script_output")
+                        pass
+                    elif k in ["explorer_tx_url", "explorer_address_url"]:
+                        #print(f"{coin} is missing explorer suffix '{k}' in script_output")
+                        pass
+                    else:
+                        errors["no_value"] += 1
+                        print(colorize(f"{coin} has no value for {k} in script_output", "red"))
+
+    total_errors = sum(list(errors.values()))
+    print(f"\n{len(desktop_repo_coins)} desktop repo coins, {len(desktop_coins)} coins output")
+    print(f"\n{errors} errors found! ({total_errors} total)")
+
+
 
 if __name__ == "__main__":
-    parse_coins_repo()
+    desktop_coins = parse_coins_repo()
+    compare_output_vs_desktop_repo(desktop_coins)
