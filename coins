@@ -1621,6 +1621,24 @@
     }
   },
   {
+    "coin": "BTCZ-BEP20",
+    "name": "btcz_bep20",
+    "fname": "BitcoinZ",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 8,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xcBBB3e5099F769F6d4E2b8b92DC0e268f7E099D8"
+      }
+    }
+  },
+  {
     "coin": "BTE",
     "name": "bitweb",
     "fname": "Bitweb",
