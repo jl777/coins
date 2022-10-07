@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import sys
 import json
 from pprint import pprint
 import requests
@@ -162,9 +163,28 @@ class CoinConfig:
         return False
 
     def get_forex_id(self):
-        if self.base_ticker in forex_ids:
+        if self.ticker in forex_ids:
             self.data[self.ticker].update({
-                "forex_id": forex_ids[self.base_ticker]
+                "forex_id": forex_ids[self.ticker]
+            })
+            print(self.data)
+
+    def get_coinpaprika_id(self):
+        if self.ticker in coinpaprika_ids:
+            self.data[self.ticker].update({
+                "coinpaprika_id": coinpaprika_ids[self.ticker]
+            })
+
+    def get_coingecko_id(self):
+        if self.ticker in coingecko_ids:
+            self.data[self.ticker].update({
+                "coingecko_id": coingecko_ids[self.ticker]
+            })
+
+    def get_nomics_id(self):
+        if self.ticker in nomics_ids:
+            self.data[self.ticker].update({
+                "nomics_id": nomics_ids[self.ticker]
             })
 
     def get_alias_ticker(self):
@@ -311,10 +331,13 @@ def parse_coins_repo():
             config.is_smartchain()
             config.is_wallet_only()
             config.get_address_format()
-            config.get_forex_id()
             config.get_rewards_info()
             config.get_alias_ticker()
             config.get_asset()
+            config.get_forex_id()
+            config.get_coinpaprika_id()
+            config.get_coingecko_id()
+            config.get_nomics_id()
 
 
 
@@ -330,10 +353,8 @@ def parse_coins_repo():
             # print(desktop_coins[coin])
     return desktop_coins
 
-    with open("desktop_coins.json", "w+") as f:
-        json.dump(desktop_coins, f, indent=4)
 
-def compare_output_vs_desktop_repo(desktop_coins):
+def get_desktop_repo_coins_data():
     ''' for this to work, you need atomicdex-desktop cloned into
         the same folder as you cloned the coins repo '''
     desktop_coins_folder = "../../atomicDEX-Desktop/assets/config/"
@@ -342,8 +363,40 @@ def compare_output_vs_desktop_repo(desktop_coins):
         if f.endswith("coins.json"):
             coins_fn = f
     with open(f"../../atomicDEX-Desktop/assets/config/{coins_fn}", "r") as f:
-        desktop_repo_coins = json.load(f)
+        return json.load(f)
 
+def get_api_ids_from_desktop():
+    desktop_repo_coins = get_desktop_repo_coins_data()
+    nomics_ids = {}
+    coinpaprika_ids = {}
+    coingecko_ids = {}
+    forex_ids = {}
+    for coin in desktop_repo_coins:
+        if "nomics_id" in desktop_repo_coins[coin]:
+            if desktop_repo_coins[coin]["nomics_id"]:
+                nomics_ids.update({coin: desktop_repo_coins[coin]["nomics_id"]})
+        if "coingecko_id" in desktop_repo_coins[coin]:
+            if desktop_repo_coins[coin]["coingecko_id"]:
+                coingecko_ids.update({coin: desktop_repo_coins[coin]["coingecko_id"]})
+        if "coinpaprika_id" in desktop_repo_coins[coin]:
+            if desktop_repo_coins[coin]["coinpaprika_id"]:
+                coinpaprika_ids.update({coin: desktop_repo_coins[coin]["coinpaprika_id"]})
+        if "forex_id" in desktop_repo_coins[coin]:
+            if desktop_repo_coins[coin]["forex_id"]:
+                forex_ids.update({coin: desktop_repo_coins[coin]["forex_id"]})
+
+    with open("../api_ids/coingecko_ids.json", "w+") as f:
+        json.dump(coingecko_ids, f, indent=4)
+    with open("../api_ids/coinpaprika_ids.json", "w+") as f:
+        json.dump(coinpaprika_ids, f, indent=4)
+    with open("../api_ids/nomics_ids.json", "w+") as f:
+        json.dump(nomics_ids, f, indent=4)
+    with open("../api_ids/forex_ids.json", "w+") as f:
+        json.dump(forex_ids, f, indent=4)
+
+
+def compare_output_vs_desktop_repo(desktop_coins):
+    desktop_repo_coins = get_desktop_repo_coins_data()
     errors = {
         "no_value": 0,
         "missing_entry": 0,
@@ -395,5 +448,17 @@ def compare_output_vs_desktop_repo(desktop_coins):
 
 
 if __name__ == "__main__":
-    desktop_coins = parse_coins_repo()
-    compare_output_vs_desktop_repo(desktop_coins)
+    if len(sys.argv) > 1:
+        valid_params = ["update_apis"]
+        if sys.argv[1] not in valid_params:
+            print(f"Invalid option, select from {valid_params}")
+            sys.exit()
+        if sys.argv[1] == "update_apis":
+            get_api_ids_from_desktop()
+    else:
+        desktop_coins = parse_coins_repo()
+
+        with open("desktop_coins.json", "w+") as f:
+            json.dump(desktop_coins, f, indent=4)
+
+        compare_output_vs_desktop_repo(desktop_coins)
