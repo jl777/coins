@@ -1,15 +1,14 @@
-
 [
-  {
-    "url": "electrumx.widecoin.org:50001",
-    "protocol": "TCP"
-  },
-  {
-    "url": "electrumx2.widecoin.org:50001",
-    "protocol": "TCP"
-  },
-  {
-    "url": "electrumx3.widecoin.org:50001",
-    "protocol": "TCP"
-  }
+    {
+        "url": "electrumx.widecoin.org:50001",
+        "protocol": "TCP"
+    },
+    {
+        "url": "electrumx2.widecoin.org:50001",
+        "protocol": "TCP"
+    },
+    {
+        "url": "electrumx3.widecoin.org:50001",
+        "protocol": "TCP"
+    }
 ]

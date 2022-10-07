@@ -1,11 +1,13 @@
 [
-  {
-    "url": "electrumx.dgc.ewmcx.org:50001",
-    "protocol": "TCP"
-  },
-  {
-    "url": "failover.dgc.ewmcx.biz:50002",
-    "protocol": "SSL",
-    "disable_cert_verification": true
-  }
+    {
+        "url": "failover.dgc.ewmcx.biz:50002",
+        "protocol": "SSL",
+        "disable_cert_verification": true,
+        "ws_url": "failover.dgc.ewmcx.biz:50003"
+    },
+    {
+        "url": "electrumx.dgc.ewmcx.org:50001",
+        "protocol": "TCP",
+        "ws_url": "electrumx.dgc.ewmcx.org:50003"
+    }
 ]

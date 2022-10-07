@@ -1,14 +1,20 @@
 [
-{
-    "url": "electrum1.btcz.rocks:50001",
-    "contact": [
-      { "discord": "VandarGR#6065" }
-    ]
-  },
-  {
-    "url": "electrum2.btcz.rocks:50001",
-    "contact": [
-      { "discord": "VandarGR#6065" }
-    ]
-  }
+    {
+        "url": "electrum2.btcz.rocks:50001",
+        "contact": [
+            {
+                "discord": "VandarGR#6065"
+            }
+        ],
+        "ws_url": "electrum2.btcz.rocks:50004"
+    },
+    {
+        "url": "electrum1.btcz.rocks:50001",
+        "contact": [
+            {
+                "discord": "VandarGR#6065"
+            }
+        ],
+        "ws_url": "electrum1.btcz.rocks:50004"
+    }
 ]

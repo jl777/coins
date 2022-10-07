@@ -2,9 +2,9 @@
 import os
 import sys
 import json
-from pprint import pprint
 import requests
 
+icons = os.listdir("../electrums")
 electrum_coins = os.listdir("../electrums")
 ethereum_coins = os.listdir("../ethereum")
 explorer_coins = os.listdir("../explorers")
@@ -419,7 +419,12 @@ def compare_output_vs_desktop_repo(desktop_coins):
                             else:
                                 script_electrums = set([x["url"] for x in v])
                                 desktop_repo_electrums = set([x["url"] for x in desktop_coins[coin][k]])
+                                script_ws = set([x["ws_url"] for x in v if "ws_url" in x])
+                                desktop_repo_ws = set([x["ws_url"] for x in desktop_coins[coin][k] if "ws_url" in x])
+                                needs_update = False
+
                                 if not desktop_repo_electrums == script_electrums:
+                                    needs_update = True
                                     errors["electrum_mismatch"] += 1
                                     electrums_not_in_desktop = desktop_repo_electrums - script_electrums
                                     electrums_not_in_output = script_electrums - desktop_repo_electrums
@@ -428,9 +433,9 @@ def compare_output_vs_desktop_repo(desktop_coins):
                                         print(colorize(f"script_output is missing: {electrums_not_in_output}", 'yellow'))
                                     if len(electrums_not_in_desktop):
                                         print(colorize(f"desktop_repo is missing: {electrums_not_in_desktop}", 'blue'))
-                                script_ws = set([x["ws_url"] for x in v if "ws_url" in x])
-                                desktop_repo_ws = set([x["ws_url"] for x in desktop_coins[coin][k] if "ws_url" in x])
+
                                 if not desktop_repo_ws == script_ws:
+                                    needs_update = True
                                     errors["ws_mismatch"] += 1
                                     ws_not_in_desktop = desktop_repo_ws - script_ws
                                     ws_not_in_output = script_ws - desktop_repo_ws
@@ -439,7 +444,31 @@ def compare_output_vs_desktop_repo(desktop_coins):
                                         print(colorize(f"script_output is missing: {ws_not_in_output}", 'yellow'))
                                     if len(ws_not_in_desktop):
                                         print(colorize(f"desktop_repo is missing: {ws_not_in_desktop}", 'blue'))
+                                if needs_update:
+                                    new_electrum_list = []
+                                    for electrum in list(script_electrums.union(desktop_repo_electrums)):
+                                        script_electrum = [i for i in v if i["url"] == electrum]
+                                        desktop_electrum = [i for i in desktop_coins[coin][k] if i["url"] == electrum]
+                                        if desktop_electrum and script_electrum:
+                                            merged_electrum = dict(desktop_electrum[0])
+                                            merged_electrum.update(script_electrum[0])
+                                            new_electrum_list.append(merged_electrum)
+                                        elif script_electrum:
+                                            new_electrum_list.append(script_electrum[0])
+                                        elif desktop_electrum:
+                                            new_electrum_list.append(desktop_electrum[0])
                                     print("\n")
+                                    print(coin)
+                                    print(colorize(json.dumps(new_electrum_list, indent=4), 'green'))
+                                    for i in new_electrum_list:
+                                        if "contact" in i:
+                                            del i["contact"]
+                                    print("\n")
+                                    print(coin)
+                                    print(colorize(json.dumps(new_electrum_list, indent=4), 'blue'))
+                                    print("\n")
+
+
 
                                     
                     except AssertionError as e:
