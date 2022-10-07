@@ -526,6 +526,42 @@
     }
   },
   {
+    "coin": "APE-FTM20",
+    "name": "ape_ftm20",
+    "fname": "ApeCoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0x2d72A97a31Dc920dB03330780d30074626e39C8A"
+      }
+    }
+  },
+  {
+    "coin": "APE-PLG20",
+    "name": "ape_plg20",
+    "fname": "ApeCoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xB7b31a6BC18e48888545CE79e83E06003bE70930"
+      }
+    }
+  },
+  {
     "coin": "ARPA-BEP20",
     "name": "arpa_bep20",
     "fname": "ARPA Chain",
