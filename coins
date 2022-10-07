@@ -490,6 +490,24 @@
     }
   },
   {
+    "coin": "ANKR-PLG20",
+    "name": "ankr_plg20",
+    "fname": "Ankr",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x101A023270368c0D50BFfb62780F4aFd4ea79C35"
+      }
+    }
+  },
+  {
     "coin": "APE-ERC20",
     "name": "ape_erc20",
     "fname": "ApeCoin",
