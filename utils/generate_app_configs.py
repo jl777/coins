@@ -252,10 +252,7 @@ class CoinConfig:
         return None
 
     def clean_name(self):
-        name = self.coin_data["fname"].lower()
-        if name == self.base_ticker.lower(): self.name = name.upper()
-        if name.find('token'): name.replace('token', ' token')
-        self.data[self.ticker].update({"name":name.title()})
+        self.data[self.ticker].update({"name":self.coin_data["fname"]})
 
     def get_electrums(self, coin):
         with open(f"../electrums/{coin}", "r") as f:
@@ -426,7 +423,7 @@ def compare_output_vs_desktop_repo(desktop_coins):
                     except AssertionError as e:
                         if k == 'name':
                             errors["name_mismatch"] += 1
-                            # print(colorize(f"{coin} has mismatch on {k}: {v} (desktop_repo) != {desktop_coins[coin][k]} (script_output)", 'blue'))
+                            print(colorize(f"{coin} has mismatch on {k}: {v} (desktop_repo) != {desktop_coins[coin][k]} (script_output)", 'blue'))
                         elif k == 'explorer_url':
                             errors["explorer_mismatch"] += 1
                             print(colorize(f"{coin} has mismatch on {k}: {v} (desktop_repo) != {desktop_coins[coin][k]} (script_output)", 'yellow'))
