@@ -245,7 +245,6 @@ class CoinConfig:
             if self.ticker in key_list:
                 return self.ticker
             
-            #if token_type == "ETH": print(self.data)
             if self.ticker == "RBTC": token_type = "RSK Smart Bitcoin"
             i = value_list.index(token_type)
             return key_list[i]
@@ -293,7 +292,6 @@ class CoinConfig:
         parent_coin = self.get_parent_coin()
         if ticker in explorer_coins:
             with open(f"../explorers/{ticker}", "r") as f:
-                print(ticker)
                 explorers = json.load(f)
                 for x in explorers:
                     for p in explorer_paths:
@@ -301,8 +299,6 @@ class CoinConfig:
                             self.data[self.ticker].update(explorer_paths[p])
 
         elif parent_coin in explorer_coins:
-            if self.ticker == "USDF":
-                print(parent_coin)
             with open(f"../explorers/{parent_coin}", "r") as f:
                 explorers = json.load(f)
 
@@ -404,6 +400,8 @@ def compare_output_vs_desktop_repo(desktop_coins):
         "missing_entry": 0,
         "explorer_mismatch":0,
         "name_mismatch":0,
+        "electrum_mismatch":0,
+        "ws_mismatch":0,
         "value_mismatch": 0
     }
     for coin in desktop_repo_coins:
@@ -418,8 +416,32 @@ def compare_output_vs_desktop_repo(desktop_coins):
                             # TODO: loop for electum comparison
                             if not isinstance(v[0], dict):
                                 assert set(desktop_coins[coin][k]) == set(v)
-                        else:
-                            assert desktop_coins[coin][k] == v
+                            else:
+                                script_electrums = set([x["url"] for x in v])
+                                desktop_repo_electrums = set([x["url"] for x in desktop_coins[coin][k]])
+                                if not desktop_repo_electrums == script_electrums:
+                                    errors["electrum_mismatch"] += 1
+                                    electrums_not_in_desktop = desktop_repo_electrums - script_electrums
+                                    electrums_not_in_output = script_electrums - desktop_repo_electrums
+                                    print(colorize(f"{coin} has mismatch on {k}:", 'red'))
+                                    if len(electrums_not_in_output):
+                                        print(colorize(f"script_output is missing: {electrums_not_in_output}", 'yellow'))
+                                    if len(electrums_not_in_desktop):
+                                        print(colorize(f"desktop_repo is missing: {electrums_not_in_desktop}", 'blue'))
+                                script_ws = set([x["ws_url"] for x in v if "ws_url" in x])
+                                desktop_repo_ws = set([x["ws_url"] for x in desktop_coins[coin][k] if "ws_url" in x])
+                                if not desktop_repo_ws == script_ws:
+                                    errors["ws_mismatch"] += 1
+                                    ws_not_in_desktop = desktop_repo_ws - script_ws
+                                    ws_not_in_output = script_ws - desktop_repo_ws
+                                    print(colorize(f"{coin} has mismatch on {k} (ws):", 'red'))
+                                    if len(ws_not_in_output):
+                                        print(colorize(f"script_output is missing: {ws_not_in_output}", 'yellow'))
+                                    if len(ws_not_in_desktop):
+                                        print(colorize(f"desktop_repo is missing: {ws_not_in_desktop}", 'blue'))
+                                    print("\n")
+
+                                    
                     except AssertionError as e:
                         if k == 'name':
                             errors["name_mismatch"] += 1
