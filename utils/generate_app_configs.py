@@ -167,7 +167,6 @@ class CoinConfig:
             self.data[self.ticker].update({
                 "forex_id": forex_ids[self.ticker]
             })
-            print(self.data)
 
     def get_coinpaprika_id(self):
         if self.ticker in coinpaprika_ids:
@@ -230,6 +229,12 @@ class CoinConfig:
 
     def get_parent_coin(self):
         ''' Used for getting filename for related coins/ethereum folder '''
+        token_type = self.data[self.ticker]["type"]
+        if token_type in ["SLP"]:
+            if self.data[self.ticker]["is_testnet"]:
+                return f"t{token_type}"
+            return token_type
+
         if self.coin_type not in ["UTXO", "ZHTLC", "BCH", "QTUM"]:
             if self.data[self.ticker]["is_testnet"]:
                 key_list = list(self.testnet_protocols.keys())
@@ -239,9 +244,7 @@ class CoinConfig:
                 value_list = list(self.protocols.values())
             if self.ticker in key_list:
                 return self.ticker
-            token_type = self.data[self.ticker]["type"]
-            if token_type  == "SLP": return "BCH"
-            if token_type  == "tSLP": return "tBCH"
+            
             #if token_type == "ETH": print(self.data)
             if self.ticker == "RBTC": token_type = "RSK Smart Bitcoin"
             i = value_list.index(token_type)
@@ -272,7 +275,7 @@ class CoinConfig:
                 parent_coin = "RSK"
                 with open(f"../ethereum/{parent_coin}", "r") as f:
                     contract_data = json.load(f)
-            elif parent_coin not in ["QTUM", "tQTUM", "BCH", "tBCH", None]:
+            elif parent_coin not in ["QTUM", "tQTUM", "SLP", "tSLP", None]:
                 with open(f"../ethereum/{parent_coin}", "r") as f:
                     contract_data = json.load(f)
 
@@ -293,16 +296,18 @@ class CoinConfig:
         parent_coin = self.get_parent_coin()
         if ticker in explorer_coins:
             with open(f"../explorers/{ticker}", "r") as f:
+                print(ticker)
                 explorers = json.load(f)
                 for x in explorers:
-                    for i in ["tx/"]:
-                        if x.endswith(i):
-                            x = x[:-1*(len(i))]
-                            self.data[self.ticker].update({"explorer_tx_url": i})
-
                     for p in explorer_paths:
                         if x.find(p) > -1:
                             self.data[self.ticker].update(explorer_paths[p])
+
+        elif parent_coin in explorer_coins:
+            if self.ticker == "USDF":
+                print(parent_coin)
+            with open(f"../explorers/{parent_coin}", "r") as f:
+                explorers = json.load(f)
 
         elif parent_coin in explorer_coins:
             with open(f"../explorers/{parent_coin}", "r") as f:
@@ -432,7 +437,7 @@ def compare_output_vs_desktop_repo(desktop_coins):
                     if isinstance(v, bool):
                         pass
                     elif k in ["coingecko_id", "coinpaprika_id", "nomics_id", "forex_id"]:
-                        #print(f"{coin} is missing price API ID for {k} in script_output")
+                        print(f"{coin} is missing price API ID for {k} in script_output")
                         pass
                     elif k in ["explorer_tx_url", "explorer_address_url"]:
                         #print(f"{coin} is missing explorer suffix '{k}' in script_output")
