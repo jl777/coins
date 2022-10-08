@@ -1,0 +1,31 @@
+name: Update Coin Configs
+
+on:
+  push:
+    branches: [ "parse_repo" ]
+    paths-ignore:
+      - 'utils/**'
+  schedule:
+    - cron:  '0 0 * * *'
+
+jobs:
+  update_configs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate configs
+        shell: bash
+        run:  ${GITHUB_WORKSPACE}/utils/generate_app_configs.py
+            
+      - name: Update files in repo
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add ${GITHUB_WORKSPACE}/utils/desktop_coins.json ${GITHUB_WORKSPACE}/utils/electrum_scan_report.json
+          git commit -m "Update coin configs"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
