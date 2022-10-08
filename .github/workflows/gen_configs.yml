@@ -1,36 +1,31 @@
-# This is a basic workflow to help you get started with Actions
+name: Update Coin Configs
 
-name: CI
-
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "master" branch
   push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    branches: [ "parse_repo" ]
+    paths-ignore:
+      - 'utils/**'
+  schedule:
+    - cron:  '0 0 * * *'
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  update_configs:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Generate configs
+        shell: bash
+        run:  ${GITHUB_WORKSPACE}/utils/generate_app_configs.py
+            
+      - name: Update files in repo
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add ${GITHUB_WORKSPACE}/utils/desktop_coins.json ${GITHUB_WORKSPACE}/utils/electrum_scan_report.json
+          git commit -m "Update coin configs"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
