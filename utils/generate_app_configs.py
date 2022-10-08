@@ -4,10 +4,14 @@ import sys
 import json
 import requests
 
-icons = os.listdir("../electrums")
+# TODO: Check all coins have an icon.
+icons = os.listdir("../icons")
 electrum_coins = os.listdir("../electrums")
 ethereum_coins = os.listdir("../ethereum")
 explorer_coins = os.listdir("../explorers")
+
+with open("electrum_scan_report.json", "r") as f:
+    electrum_scan_report = json.load(f)
 
 with open("../explorers/explorer_paths.json", "r") as f:
     explorer_paths = json.load(f)
@@ -229,7 +233,6 @@ class CoinConfig:
                 "wallet_only": self.coin_data["wallet_only"]
             })
 
-
     def get_parent_coin(self):
         ''' Used for getting filename for related coins/ethereum folder '''
         token_type = self.data[self.ticker]["type"]
@@ -258,8 +261,23 @@ class CoinConfig:
 
     def get_electrums(self, coin):
         with open(f"../electrums/{coin}", "r") as f:
+            electrums = json.load(f)
+            valid_electrums = []
+            print("-----------------")
+            if coin in electrum_scan_report["passed"]:
+                for electrum in electrums:
+                    if electrum["url"] in electrum_scan_report["passed"][coin]:
+                        valid_electrums.append(electrum)
+
+            if coin in electrum_scan_report["passed_ssl"]:
+                for electrum in electrums:
+                    if electrum["url"] in electrum_scan_report["passed_ssl"][coin]:
+                        valid_electrums.append(electrum)
+                    
+            print(self.ticker)
+            print(valid_electrums)
             self.data[self.ticker].update({
-                "electrum": json.load(f)
+                "electrum": valid_electrums
             })
 
     def get_bchd_urls(self):
@@ -295,7 +313,6 @@ class CoinConfig:
                 self.data[self.ticker].update({
                     "fallback_swap_contract": contract_data["fallback_swap_contract"]
                 })
-
 
     def get_explorers(self, ticker):
         explorers = []
@@ -477,9 +494,6 @@ def compare_output_vs_desktop_repo(desktop_coins):
                                     print(colorize(json.dumps(new_electrum_list, indent=4), 'blue'))
                                     print("\n")
 
-
-
-                                    
                     except AssertionError as e:
                         if k == 'name':
                             errors["name_mismatch"] += 1
