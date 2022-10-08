@@ -13,6 +13,7 @@ electrum_coins = os.listdir("../electrums")
 ethereum_coins = os.listdir("../ethereum")
 explorer_coins = os.listdir("../explorers")
 
+get_electrums_report()
 with open("electrum_scan_report.json", "r") as f:
     electrum_scan_report = json.load(f)
 
@@ -535,7 +536,6 @@ if __name__ == "__main__":
         if sys.argv[1] == "update_apis":
             get_api_ids_from_desktop()
     else:
-        get_electrums_report()
         desktop_coins = parse_coins_repo()
 
         with open("desktop_coins.json", "w+") as f:
