@@ -3,6 +3,9 @@ import os
 import sys
 import json
 import requests
+from scan_electrums import get_electrums_report
+
+os.chdir(os.path.abspath(os.path.dirname(__file__)))
 
 # TODO: Check all coins have an icon.
 icons = os.listdir("../icons")
@@ -532,6 +535,7 @@ if __name__ == "__main__":
         if sys.argv[1] == "update_apis":
             get_api_ids_from_desktop()
     else:
+        get_electrums_report()
         desktop_coins = parse_coins_repo()
 
         with open("desktop_coins.json", "w+") as f:
