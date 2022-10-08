@@ -529,13 +529,13 @@ def compare_output_vs_desktop_repo(desktop_coins):
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-        valid_params = ["update_apis"]
+        valid_params = ["update_apis", "compare_desktop"]
         if sys.argv[1] not in valid_params:
             print(f"Invalid option, select from {valid_params}")
             sys.exit()
         if sys.argv[1] == "update_apis":
             get_api_ids_from_desktop()
-        elif sys.argv[1] == "compare to desktop"
+        elif sys.argv[1] == "compare_desktop":
             compare_output_vs_desktop_repo(desktop_coins)
     else:
         desktop_coins = parse_coins_repo()
