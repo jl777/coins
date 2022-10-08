@@ -4161,6 +4161,42 @@
     }
   },
   {
+    "coin": "GLM-ERC20",
+    "name": "glm_erc20",
+    "fname": "Golem",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429"
+      }
+    }
+  },
+  {
+    "coin": "GLM-PLG20",
+    "name": "glm_plg20",
+    "fname": "Golem",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x0B220b82F3eA3B7F6d9A1D8ab58930C064A2b5Bf"
+      }
+    }
+  },
+  {
     "coin": "GM-BEP20",
     "name": "gm_bep20",
     "fname": "GM Wagmi",
