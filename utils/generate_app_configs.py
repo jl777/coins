@@ -384,7 +384,7 @@ def parse_coins_repo():
 
 def get_desktop_repo_coins_data():
     ''' for this to work, you need atomicdex-desktop cloned into
-        the same folder as you cloned the coins repo '''
+        the same folder as you cloned the coins repo. '''
     desktop_coins_folder = "../../atomicDEX-Desktop/assets/config/"
     contents = os.listdir(desktop_coins_folder)
     for f in contents:
@@ -535,10 +535,11 @@ if __name__ == "__main__":
             sys.exit()
         if sys.argv[1] == "update_apis":
             get_api_ids_from_desktop()
+        elif sys.argv[1] == "compare to desktop"
+            compare_output_vs_desktop_repo(desktop_coins)
     else:
         desktop_coins = parse_coins_repo()
 
         with open("desktop_coins.json", "w+") as f:
             json.dump(desktop_coins, f, indent=4)
 
-        compare_output_vs_desktop_repo(desktop_coins)
