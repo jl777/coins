@@ -5061,6 +5061,42 @@
     }
   },
   {
+    "coin": "KNC-PLG20",
+    "name": "knc_plg20",
+    "fname": "Kyber Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x1C954E8fe737F99f68Fa1CCda3e51ebDB291948C"
+      }
+    }
+  },
+  {
+    "coin": "KNC-AVX20",
+    "name": "knc_avx20",
+    "fname": "Kyber Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "decimals": 18,
+    "avg_blocktime": 0.04,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x39fC9e94Caeacb435842FADeDeCB783589F50f5f"
+      }
+    }
+  },
+  {
     "coin": "KOIN",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "KOIN",
