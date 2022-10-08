@@ -24,6 +24,9 @@ with open("../api_ids/coingecko_ids.json", "r") as f:
 with open("../api_ids/coinpaprika_ids.json", "r") as f:
     coinpaprika_ids = json.load(f)
 
+with open("../slp/bchd_urls.json", "r") as f:
+    bchd_urls = json.load(f)
+
 def colorize(string, color):
     colors = {
             'red':'\033[31m',
@@ -259,9 +262,16 @@ class CoinConfig:
                 "electrum": json.load(f)
             })
 
+    def get_bchd_urls(self):
+        if self.ticker in bchd_urls:
+            self.data[self.ticker].update({
+                "bchd_urls": bchd_urls[self.ticker]
+            })
+
     def get_swap_contracts(self):
         # TODO: update swap contracts to post-IRIS once Artem greenlights.
         contract_data = None
+
         if self.ticker in ethereum_coins:
             with open(f"../ethereum/{self.ticker}", "r") as f:
                 contract_data = json.load(f)
@@ -336,8 +346,7 @@ def parse_coins_repo():
             config.get_coinpaprika_id()
             config.get_coingecko_id()
             config.get_nomics_id()
-
-
+            config.get_bchd_urls()
 
             desktop_coins.update(config.data)
 
