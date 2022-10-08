@@ -5228,6 +5228,42 @@
     }
   },
   {
+    "coin": "LDO-ERC20",
+    "name": "ldo_erc20",
+    "fname": "Lido DAO",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32"
+      }
+    }
+  },
+  {
+    "coin": "LDO-PLG20",
+    "name": "ldo_plg20",
+    "fname": "Lido DAO",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756"
+      }
+    }
+  },
+  {
     "coin": "LNC",
     "name": "lightningcash",
     "fname": "LightningCash",
