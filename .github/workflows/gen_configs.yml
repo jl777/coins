@@ -4,7 +4,8 @@ on:
   push:
     branches: [ "parse_repo" ]
     paths-ignore:
-      - 'utils/**'
+      - 'utils/desktop_coins.json'
+      - 'utils/electrum_scan_report.json'
   schedule:
     - cron:  '0 0 * * *'
 
