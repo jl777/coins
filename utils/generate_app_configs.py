@@ -53,6 +53,7 @@ class CoinConfig:
 
         self.coin_data = coin_data
         self.data = {}
+        self.is_testnet = self.is_testnet_network()
         self.ticker = self.coin_data["coin"]
         self.base_ticker = self.ticker.split("-")[0]
         self.protocols = {
@@ -98,7 +99,7 @@ class CoinConfig:
                 "explorer_address_url": "",
                 "supported": [],
                 "active": False,
-                "is_testnet": self.is_testnet_network(),
+                "is_testnet": self.is_testnet,
                 "currently_enabled": False,
                 "wallet_only": False
             }
@@ -145,7 +146,7 @@ class CoinConfig:
             elif "platform" in protocol_data:
                 # TODO: ERC-like things
                 platform = protocol_data["platform"]
-                if self.is_testnet_network():
+                if self.is_testnet:
                     coin_type = self.testnet_protocols[platform]
                 else:
                     coin_type = self.protocols[platform]
@@ -263,26 +264,31 @@ class CoinConfig:
     def clean_name(self):
         self.data[self.ticker].update({"name":self.coin_data["fname"]})
 
-    def get_electrums(self, coin):
-        with open(f"../electrums/{coin}", "r") as f:
-            electrums = json.load(f)
-            valid_electrums = []
-            print("-----------------")
-            if coin in electrum_scan_report["passed"]:
-                for electrum in electrums:
-                    if electrum["url"] in electrum_scan_report["passed"][coin]:
-                        valid_electrums.append(electrum)
+    def get_electrums(self):
+        if self.data[self.ticker]["type"] == "QRC-20":
+            if self.is_testnet:
+                coin = "tQTUM"
+            else:
+                coin = "QTUM"
+        else:
+            coin = self.ticker
+        if coin in electrum_coins:
+            with open(f"../electrums/{coin}", "r") as f:
+                electrums = json.load(f)
+                valid_electrums = []
+                if coin in electrum_scan_report["passed"]:
+                    for electrum in electrums:
+                        if electrum["url"] in electrum_scan_report["passed"][coin]:
+                            valid_electrums.append(electrum)
 
-            if coin in electrum_scan_report["passed_ssl"]:
-                for electrum in electrums:
-                    if electrum["url"] in electrum_scan_report["passed_ssl"][coin]:
-                        valid_electrums.append(electrum)
-                    
-            print(self.ticker)
-            print(valid_electrums)
-            self.data[self.ticker].update({
-                "electrum": valid_electrums
-            })
+                if coin in electrum_scan_report["passed_ssl"]:
+                    for electrum in electrums:
+                        if electrum["url"] in electrum_scan_report["passed_ssl"][coin]:
+                            valid_electrums.append(electrum)
+
+                self.data[self.ticker].update({
+                    "electrum": valid_electrums
+                })
 
     def get_bchd_urls(self):
         if self.ticker in bchd_urls:
@@ -318,11 +324,11 @@ class CoinConfig:
                     "fallback_swap_contract": contract_data["fallback_swap_contract"]
                 })
 
-    def get_explorers(self, ticker):
+    def get_explorers(self):
         explorers = []
         parent_coin = self.get_parent_coin()
-        if ticker in explorer_coins:
-            with open(f"../explorers/{ticker}", "r") as f:
+        if self.ticker in explorer_coins:
+            with open(f"../explorers/{self.ticker}", "r") as f:
                 explorers = json.load(f)
                 for x in explorers:
                     for p in explorer_paths:
@@ -354,9 +360,8 @@ def parse_coins_repo():
             config.get_protocol_info()
             config.clean_name()
             config.get_swap_contracts()
-            if coin in electrum_coins:
-                config.get_electrums(coin)
-            config.get_explorers(coin)
+            config.get_electrums()
+            config.get_explorers()
             config.is_smartchain()
             config.is_wallet_only()
             config.get_address_format()
@@ -368,7 +373,6 @@ def parse_coins_repo():
             config.get_coingecko_id()
             config.get_nomics_id()
             config.get_bchd_urls()
-
             desktop_coins.update(config.data)
 
     for coin in desktop_coins:
@@ -376,9 +380,8 @@ def parse_coins_repo():
             print(f"{coin} has no explorers!")
         if ("nodes" not in desktop_coins[coin]
                     and "electrum" not in desktop_coins[coin]
-                    and desktop_coins[coin]["type"] not in ["SLP", "QRC-20"]):
+                    and desktop_coins[coin]["type"] not in ["SLP"]):
             print(f"{coin} has no nodes or electrums!")
-            # print(desktop_coins[coin])
     return desktop_coins
 
 
