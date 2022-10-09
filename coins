@@ -4232,6 +4232,24 @@
     }
   },
   {
+    "coin": "GMX-AVX20",
+    "name": "gmx_avx20",
+    "fname": "GMX",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "decimals": 18,
+    "avg_blocktime": 0.04,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x62edc0692BD897D2295872a9FFCac5425011c661"
+      }
+    }
+  },
+  {
     "coin": "GNO-ERC20",
     "name": "gno_erc20",
     "fname": "Gnosis",
