@@ -88,6 +88,12 @@ def thread_electrum(coin, ip, port, method, params):
         passed_electrums[coin].append(f"{ip}:{port}")
 
     except Exception as e:
+        if str(resp).find('{"jsonrpc": "2.0"') > -1:
+            if coin not in passed_electrums:
+                passed_electrums.update({coin:[]})
+            passed_electrums[coin].append(f"{ip}:{port}")
+            print(colorize(f"{coin} {ip}:{port} OK!", 'green'))
+            return
         if coin not in failed_electrums:
             failed_electrums.update({coin:{}})
         failed_electrums[coin].update({f"{ip}:{port}": f"{resp}"})
@@ -104,6 +110,12 @@ def thread_electrum_ssl(coin, ip, port, method, params):
         passed_electrums_ssl[coin].append(f"{ip}:{port}")
 
     except Exception as e:
+        if str(resp).find('{"jsonrpc": "2.0"') > -1:
+            if coin not in passed_electrums_ssl:
+                passed_electrums_ssl.update({coin:[]})
+            passed_electrums_ssl[coin].append(f"{ip}:{port}")
+            print(colorize(f"{coin} {ip}:{port} OK!", 'green'))
+            return
         if coin not in failed_electrums_ssl:
             failed_electrums_ssl.update({coin:{}})
         failed_electrums_ssl[coin].update({f"{ip}:{port}": f"{resp}"})
@@ -115,15 +127,15 @@ def scan_electrums(electrum_dict):
     ssl_list = []
     non_ssl_list = []
     for coin in electrum_dict:
-            for electrum in electrum_dict[coin]:
-                url, port = electrum["url"].split(":")
-                if "protocol" in electrum:
-                    if electrum["protocol"] == "SSL":
-                        ssl_list.append(coin)
-                        thread_list.append(electrum_thread(coin, url, port, "blockchain.block.headers", [1,2], True))
-                        continue
-                non_ssl_list.append(coin)
-                thread_list.append(electrum_thread(coin, url, port, "blockchain.block.headers", [1,2]))
+        for electrum in electrum_dict[coin]:
+            url, port = electrum["url"].split(":")
+            if "protocol" in electrum:
+                if electrum["protocol"] == "SSL":
+                    ssl_list.append(coin)
+                    thread_list.append(electrum_thread(coin, url, port, "blockchain.block.headers", [1,2], True))
+                    continue
+            non_ssl_list.append(coin)
+            thread_list.append(electrum_thread(coin, url, port, "blockchain.block.headers", [1,2]))
 
     for thread in thread_list:
         thread.start()
@@ -188,7 +200,7 @@ def get_electrums_report():
     with open("electrum_scan_report.json", "w+") as f:
         f.write(json.dumps(results, indent=4))
 
-    print(json.dumps(results, indent=4))
+    # print(json.dumps(results, indent=4))
 
 if __name__ == '__main__':
     get_electrums_report()
