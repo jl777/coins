@@ -9947,6 +9947,96 @@
     }
   },
   {
+    "coin": "WOO-ERC20",
+    "name": "woo_erc20",
+    "fname": "WOO Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B"
+      }
+    }
+  },
+  {
+    "coin": "WOO-AVX20",
+    "name": "woo_avx20",
+    "fname": "WOO Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "decimals": 18,
+    "avg_blocktime": 0.04,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0xaBC9547B534519fF73921b1FBA6E672b5f58D083"
+      }
+    }
+  },
+  {
+    "coin": "WOO-BEP20",
+    "name": "woo_bep20",
+    "fname": "WOO Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B"
+      }
+    }
+  },
+  {
+    "coin": "WOO-FTM20",
+    "name": "woo_ftm20",
+    "fname": "WOO Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0x6626c47c00F1D87902fc13EECfaC3ed06D5E8D8a"
+      }
+    }
+  },
+  {
+    "coin": "WOO-PLG20",
+    "name": "woo_plg20",
+    "fname": "WOO Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x1B815d120B3eF02039Ee11dC2d33DE7aA4a8C603"
+      }
+    }
+  },
+  {
     "coin": "WSB",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "WSB",
