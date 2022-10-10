@@ -7437,6 +7437,24 @@
     }
   },
   {
+    "coin": "SHIB-KRC20",
+    "name": "shib_krc20",
+    "fname": "Shiba Inu",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x73b6086955c820370A18002F60E9b51FB67d7e1A"
+      }
+    }
+  },
+  {
     "coin": "QC",
     "name": "qtum",
     "fname": "Qcash",
