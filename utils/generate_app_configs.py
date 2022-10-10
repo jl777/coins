@@ -54,7 +54,7 @@ class CoinConfig:
         self.coin_data = coin_data
         self.data = {}
         self.is_testnet = self.is_testnet_network()
-        self.ticker = self.coin_data["coin"]
+        self.ticker = self.coin_data["coin"].replace("-TEST", "")
         self.base_ticker = self.ticker.split("-")[0]
         self.protocols = {
             "AVAX": "AVX-20",
@@ -355,7 +355,6 @@ def parse_coins_repo():
     for item in coins_data:
 
         if item["mm2"] == 1 and item["coin"].find("-segwit") == -1:
-            coin = item["coin"].replace("-TEST", "")
             config = CoinConfig(item)
             config.get_protocol_info()
             config.clean_name()
@@ -375,6 +374,7 @@ def parse_coins_repo():
             config.get_bchd_urls()
             desktop_coins.update(config.data)
 
+    nodata = []
     for coin in desktop_coins:
         if not desktop_coins[coin]["explorer_url"]:
             print(f"{coin} has no explorers!")
@@ -382,6 +382,11 @@ def parse_coins_repo():
                     and "electrum" not in desktop_coins[coin]
                     and desktop_coins[coin]["type"] not in ["SLP"]):
             print(f"{coin} has no nodes or electrums!")
+            nodata.append(coin)
+
+    for coin in nodata:
+        del desktop_coins[coin]
+
     return desktop_coins
 
 

@@ -2165,22 +2165,6 @@
     }
   },
   {
-    "coin": "CHUNG",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "CHUNG",
-    "fname": "Chunguscoin",
-    "rpcport": 14701,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 5,
-    "requires_notarization": false,
-    "avg_blocktime": 1,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "CHZ-ERC20",
     "name": "chz_erc20",
     "fname": "Chiliz",
@@ -8270,7 +8254,7 @@
     }
   },
   {
-    "coin": "tBTC-TEST",
+    "coin": "tBTC",
     "name": "tbitcoin",
     "fname": "BTC Testnet",
     "rpcport": 18332,
@@ -8289,7 +8273,7 @@
     }
   },
   {
-    "coin": "tBTC-TEST-segwit",
+    "coin": "tBTC-segwit",
     "name": "tbitcoin",
     "fname": "tBitcoin",
     "rpcport": 18332,
@@ -8299,7 +8283,7 @@
     "segwit": true,
     "bech32_hrp": "tb",
     "address_format":{"format":"segwit"},
-    "orderbook_ticker": "tBTC-TEST",
+    "orderbook_ticker": "tBTC",
     "txfee": 0,
     "estimate_fee_mode": "ECONOMICAL",
     "mm2": 1,
@@ -9014,26 +8998,6 @@
     }
   },
   {
-    "coin": "USDI",
-    "name": "usdi",
-    "fname": "USD Inflation Coin",
-    "isPoS": 1,
-    "rpcport": 7333,
-    "pubtype": 68,
-    "p2shtype": 130,
-    "wiftype": 172,
-    "txfee": 10000,
-    "dust": 10000,
-    "segwit": false,
-    "mm2": 1,
-    "required_confirmations": 5,
-    "mature_confirmations": 240,
-    "avg_blocktime": 1.1,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "USDT-MVR20",
     "name": "usdt_mvr20",
     "fname": "Tether",
@@ -9445,24 +9409,6 @@
         "platform": "BNB",
         "contract_address": "0x2794DAD4077602eD25A88d03781528D1637898B4"
       }
-    }
-  },
-  {
-    "coin": "VOTE2022",
-    "asset": "VOTE2022",
-    "fname": "Vote 2022",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "rpcport": 33898,
-    "mm2": 1,
-    "txfee": 10000,
-    "txversion": 4,
-    "overwintered": 1,
-    "required_confirmations": 2,
-    "requires_notarization": true,
-    "avg_blocktime": 1,
-    "wallet_only": true,
-    "protocol": {
-      "type": "UTXO"
     }
   },
   {
