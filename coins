@@ -3954,44 +3954,6 @@
     }
   },
   {
-    "coin": "GLEEC-OLD",
-    "name": "gleecbtc",
-    "fname": "Gleec",
-    "rpcport": 8332,
-    "pubtype": 35,
-    "p2shtype": 38,
-    "wiftype": 65,
-    "segwit": true,
-    "bech32_hrp": "fg",
-    "txfee": 0,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "avg_blocktime": 5,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
-    "coin": "GLEEC-OLD-segwit",
-    "name": "gleecbtc",
-    "fname": "Gleec",
-    "rpcport": 8332,
-    "pubtype": 35,
-    "p2shtype": 38,
-    "wiftype": 65,
-    "segwit": true,
-    "bech32_hrp": "fg",
-    "address_format":{"format":"segwit"},
-    "orderbook_ticker": "GLEEC-OLD",
-    "txfee": 0,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "avg_blocktime": 5,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "GM-BEP20",
     "name": "gm_bep20",
     "fname": "GM Wagmi",
