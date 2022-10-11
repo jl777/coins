@@ -13259,9 +13259,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "209.151.151.21:50001"
-            },
-            {
                 "url": "209.50.52.239:50001"
             }
         ]
@@ -17537,11 +17534,6 @@
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP",
                 "ws_url": "207.180.252.200:50013"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ]
     },
