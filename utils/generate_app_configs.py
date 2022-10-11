@@ -378,12 +378,15 @@ def parse_coins_repo():
     for coin in desktop_coins:
         if not desktop_coins[coin]["explorer_url"]:
             print(f"{coin} has no explorers!")
-        if ("nodes" not in desktop_coins[coin]
-                    and "electrum" not in desktop_coins[coin]
-                    and desktop_coins[coin]["type"] not in ["SLP"]):
-            print(f"{coin} has no nodes or electrums!")
-            nodata.append(coin)
-
+        if desktop_coins[coin]["type"] not in ["SLP"]:
+            if "nodes" in desktop_coins[coin]:
+                if not desktop_coins[coin]["nodes"]:
+                    nodata.append(coin)
+            if "electrum" in desktop_coins[coin]:
+                if not desktop_coins[coin]["electrum"]:
+                    nodata.append(coin)
+    print(f"The following coins are missing required data or failing connections for nodes/electrums {nodata}")
+    print(f"They will not be included in the output")
     for coin in nodata:
         del desktop_coins[coin]
 
