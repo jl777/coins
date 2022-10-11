@@ -1224,25 +1224,6 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
     },
-    "AYA": {
-        "coin": "AYA",
-        "type": "UTXO",
-        "name": "Aryacoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://explorer.aryacoin.io/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": ""
-    },
     "BABYDOGE-BEP20": {
         "coin": "BABYDOGE-BEP20",
         "type": "BEP-20",
@@ -3648,24 +3629,6 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
-    "CHUNG": {
-        "coin": "CHUNG",
-        "type": "Smart Chain",
-        "name": "Chunguscoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": [],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "asset": "CHUNG"
-    },
     "CHZ-ERC20": {
         "coin": "CHZ-ERC20",
         "type": "ERC-20",
@@ -3772,25 +3735,6 @@
             }
         ],
         "asset": "CLC"
-    },
-    "COLX": {
-        "coin": "COLX",
-        "type": "UTXO",
-        "name": "ColossusXT",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/colx/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": ""
     },
     "COMP-AVX20": {
         "coin": "COMP-AVX20",
@@ -6526,42 +6470,6 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
     },
-    "FLASH": {
-        "coin": "FLASH",
-        "type": "UTXO",
-        "name": "Flashcoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://explorer.flashcoin.io/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": ""
-    },
-    "FLO": {
-        "coin": "FLO",
-        "type": "UTXO",
-        "name": "Florincoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": [],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": ""
-    },
     "FLOW-BEP20": {
         "coin": "FLOW-BEP20",
         "type": "BEP-20",
@@ -8827,23 +8735,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "74.208.95.26:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "merlin@lightningcash-coin.com"
-                    },
-                    {
-                        "discord": "merlin#7125"
-                    },
-                    {
-                        "twitter": "LightningCash_1"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
         "is_segwit_on": false,
         "address_format": {
             "format": "standard"
@@ -9503,25 +9395,6 @@
             "https://rpc-mainnet.maticvigil.com"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
-    },
-    "LUX": {
-        "coin": "LUX",
-        "type": "UTXO",
-        "name": "LUXCoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://explorer.luxcore.io/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": ""
     },
     "LYNX": {
         "coin": "LYNX",
@@ -11028,25 +10901,6 @@
         ],
         "asset": "NINJA"
     },
-    "NIX": {
-        "coin": "NIX",
-        "type": "UTXO",
-        "name": "NIX",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://blockchain.nixplatform.io/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": ""
-    },
     "NMC": {
         "coin": "NMC",
         "type": "UTXO",
@@ -11919,25 +11773,6 @@
         ],
         "forex_id": "USD"
     },
-    "PEO": {
-        "coin": "PEO",
-        "type": "UTXO",
-        "name": "Proelio",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://explorer.proeliocoin.com/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": ""
-    },
     "PGT": {
         "coin": "PGT",
         "type": "Smart Chain",
@@ -11983,25 +11818,6 @@
         "address_format": {
             "format": "standard"
         }
-    },
-    "PIVX": {
-        "coin": "PIVX",
-        "type": "UTXO",
-        "name": "PIVX",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/pivx/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": ""
     },
     "PND": {
         "coin": "PND",
@@ -12171,25 +11987,6 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
-    "PRCY": {
-        "coin": "PRCY",
-        "type": "UTXO",
-        "name": "PRivaCY Coin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://explorer.prcycoin.com/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": ""
-    },
     "PRCY-BEP20": {
         "coin": "PRCY-BEP20",
         "type": "BEP-20",
@@ -12284,24 +12081,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "txserver.live:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.live:50010",
-                "protocol": "TCP"
-            },
-            {
-                "url": "txserver.live:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL"
-            }
-        ]
+        "electrum": []
     },
     "PTX": {
         "coin": "PTX",
@@ -13315,29 +13095,6 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
     },
-    "RIC": {
-        "coin": "RIC",
-        "type": "UTXO",
-        "name": "Riecoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/ric/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
-    },
     "RICK": {
         "coin": "RICK",
         "type": "Smart Chain",
@@ -13708,23 +13465,6 @@
             "https://rpc-mainnet.maticvigil.com"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
-    },
-    "SIRX": {
-        "coin": "SIRX",
-        "type": "UTXO",
-        "name": "Sirius",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": [],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": ""
     },
     "SMTF-OLD": {
         "coin": "SMTF-OLD",
@@ -14812,14 +14552,16 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
     },
-    "tBTC-TEST": {
-        "coin": "tBTC-TEST",
+    "tBTC": {
+        "coin": "tBTC",
         "type": "UTXO",
         "name": "BTC Testnet",
-        "coinpaprika_id": "test-coin",
-        "coingecko_id": "test-coin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
         "nomics_id": "",
-        "explorer_url": [],
+        "explorer_url": [
+            "https://blockstream.info/testnet/"
+        ],
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -14828,6 +14570,84 @@
         "currently_enabled": false,
         "wallet_only": false,
         "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum2.cipig.net:10068",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30068"
+            },
+            {
+                "url": "electrum3.cipig.net:10068",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30068"
+            },
+            {
+                "url": "testnet.aranguren.org:51001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.cipig.net:10068",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30068"
+            },
+            {
+                "url": "electrum2.cipig.net:20068",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.cipig.net:20068",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20068",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
         "is_segwit_on": false,
         "address_format": {
             "format": "standard"
@@ -15908,23 +15728,6 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
-    "USDI": {
-        "coin": "USDI",
-        "type": "UTXO",
-        "name": "USD Inflation Coin",
-        "coinpaprika_id": "test-coin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "USDI",
-        "explorer_url": [],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": ""
-    },
     "USDT-MVR20": {
         "coin": "USDT-MVR20",
         "type": "Moonriver",
@@ -16472,29 +16275,6 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
-    "VIA": {
-        "coin": "VIA",
-        "type": "UTXO",
-        "name": "Viacoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://chainz.cryptoid.info/via/"
-        ],
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
-    },
     "VITE-BEP20": {
         "coin": "VITE-BEP20",
         "type": "BEP-20",
@@ -16519,24 +16299,6 @@
             "http://bsc3.cipig.net:8655"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
-    },
-    "VOTE2022": {
-        "coin": "VOTE2022",
-        "type": "Smart Chain",
-        "name": "Vote 2022",
-        "coinpaprika_id": "test-coin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "",
-        "explorer_url": [],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "sign_message_prefix": "",
-        "asset": "VOTE2022"
     },
     "VRM": {
         "coin": "VRM",
@@ -16709,29 +16471,6 @@
         "sign_message_prefix": "",
         "electrum": [],
         "asset": "GRMS"
-    },
-    "VTC": {
-        "coin": "VTC",
-        "type": "UTXO",
-        "name": "Vertcoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://www.coinexplorer.net/VTC/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
     },
     "WAVES-BEP20": {
         "coin": "WAVES-BEP20",
@@ -17046,25 +16785,6 @@
                 "url": "electrumx.gemmer.primecoin.org:50011"
             }
         ]
-    },
-    "XSN": {
-        "coin": "XSN",
-        "type": "UTXO",
-        "name": "Stakenet",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://xsnexplorer.io/transactions/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": ""
     },
     "XRG": {
         "coin": "XRG",
@@ -17400,25 +17120,6 @@
             "http://bsc3.cipig.net:8655"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
-    },
-    "YCE": {
-        "coin": "YCE",
-        "type": "UTXO",
-        "name": "MYCE",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://explorer.myce.world/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": ""
     },
     "YFI-AVX20": {
         "coin": "YFI-AVX20",
@@ -17805,6 +17506,11 @@
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP",
                 "ws_url": "207.180.252.200:50013"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ]
     },
