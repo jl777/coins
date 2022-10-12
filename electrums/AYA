@@ -1,0 +1,40 @@
+[
+    {
+        "url": "electrum1.aryacoin.io:2053",
+        "protocol": "SSL",
+        "contact": [
+            {
+                "email": "sales@aryacoin.io"
+            }
+        ],
+        "ws_url": "electrum1.aryacoin.io:2051"
+    },
+    {
+        "url": "electrum2.aryacoin.io:2053",
+        "protocol": "SSL",
+        "contact": [
+            {
+                "email": "sales@aryacoin.io"
+            }
+        ],
+        "ws_url": "electrum2.aryacoin.io:2051"
+    },
+    {
+        "url": "electrum1.aryacoin.io:2052",
+        "protocol": "TCP",
+        "contact": [
+            {
+                "email": "sales@aryacoin.io"
+            }
+        ]
+    },
+    {
+        "url": "electrum2.aryacoin.io:2052",
+        "protocol": "TCP",
+        "contact": [
+            {
+                "email": "sales@aryacoin.io"
+            }
+        ]
+    }
+]
