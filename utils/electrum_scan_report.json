@@ -49,15 +49,15 @@
         "ARRR": [
             "pirate.sirseven.me:10032"
         ],
+        "CHTA": [
+            "electrum1.mooo.com:10007",
+            "electrum2.mooo.com:10007",
+            "electrum.shorelinecrypto.com:10007"
+        ],
         "DASH": [
             "electrum2.cipig.net:10061",
             "electrum3.cipig.net:10061",
             "electrum1.cipig.net:10061"
-        ],
-        "CHTA": [
-            "electrum.shorelinecrypto.com:10007",
-            "electrum2.mooo.com:10007",
-            "electrum1.mooo.com:10007"
         ],
         "ZER": [
             "electrum3.cipig.net:10065",
@@ -91,8 +91,8 @@
             "electrum1.cipig.net:10016"
         ],
         "MONA": [
-            "electrumx.tamami-foundation.org:50001",
             "electrumx3.monacoin.nl:50001",
+            "electrumx.tamami-foundation.org:50001",
             "103.125.218.246:50001"
         ],
         "ACTN": [
@@ -135,10 +135,10 @@
         ],
         "GRS": [
             "electrum12.groestlcoin.org:50001",
-            "electrum10.groestlcoin.org:50001",
             "electrum11.groestlcoin.org:50001",
-            "electrum14.groestlcoin.org:50001",
-            "electrum13.groestlcoin.org:50001"
+            "electrum13.groestlcoin.org:50001",
+            "electrum10.groestlcoin.org:50001",
+            "electrum14.groestlcoin.org:50001"
         ],
         "RTM": [
             "209.151.151.21:50001",
@@ -150,8 +150,8 @@
         ],
         "XVC": [
             "failover.xvc.ewmcx.biz:50001",
-            "electrumx1.vanillacash.info:50011",
-            "electrumx2.vanillacash.info:50011"
+            "electrumx2.vanillacash.info:50011",
+            "electrumx1.vanillacash.info:50011"
         ],
         "BTE": [
             "electrumx6.scalaris.info:20001",
@@ -166,9 +166,9 @@
             "188.166.117.139:50001"
         ],
         "SCA": [
+            "electrum2.scalaris.info:10001",
             "electrum1.scalaris.info:10001",
-            "electrum3.scalaris.info:10001",
-            "electrum2.scalaris.info:10001"
+            "electrum3.scalaris.info:10001"
         ],
         "CHIPS": [
             "electrum1.cipig.net:10053",
@@ -199,8 +199,8 @@
             "electrumx2.cointest.com:50001"
         ],
         "WCN": [
-            "electrumx2.widecoin.org:50001",
             "electrumx.widecoin.org:50001",
+            "electrumx2.widecoin.org:50001",
             "electrumx3.widecoin.org:50001"
         ],
         "BCH": [
@@ -225,6 +225,9 @@
             "electrum1.cipig.net:10060",
             "electrum3.cipig.net:10060",
             "electrum2.cipig.net:10060"
+        ],
+        "USBL": [
+            "swap.softbalanced.com:50001"
         ],
         "THC": [
             "1.eu.thc.electrum.dexstats.info:10020",
@@ -332,8 +335,8 @@
         ],
         "BLK": [
             "electrum1.blackcoin.nl:10001",
-            "electrum3.blackcoin.nl:30001",
-            "electrum2.blackcoin.nl:20001"
+            "electrum2.blackcoin.nl:20001",
+            "electrum3.blackcoin.nl:30001"
         ],
         "BOTS": [
             "electrum2.cipig.net:10007",
@@ -345,13 +348,13 @@
             "electrum2.cipig.net:10064",
             "electrum3.cipig.net:10064"
         ],
-        "UIS": [
-            "electrumx.uis.ewmcx.info:50001"
-        ],
         "DGB": [
             "electrum2.cipig.net:10059",
             "electrum3.cipig.net:10059",
             "electrum1.cipig.net:10059"
+        ],
+        "UIS": [
+            "electrumx.uis.ewmcx.info:50001"
         ],
         "BTCZ": [
             "electrum2.btcz.rocks:50001",
@@ -388,13 +391,13 @@
             "electrum2.cipig.net:10033",
             "electrum1.cipig.net:10033"
         ],
-        "ZOMBIE": [
-            "zombie.sirseven.me:10033"
-        ],
         "CCL": [
             "electrum3.cipig.net:10029",
             "electrum1.cipig.net:10029",
             "electrum2.cipig.net:10029"
+        ],
+        "ZOMBIE": [
+            "zombie.sirseven.me:10033"
         ],
         "GLEEC": [
             "electrum1.cipig.net:10022",
@@ -426,10 +429,10 @@
             "electrum2.cipig.net:20023"
         ],
         "NAV": [
-            "electrum4.nav.community:40002",
             "electrum.nav.community:40002",
             "electrum2.nav.community:40002",
-            "electrum3.nav.community:40002"
+            "electrum3.nav.community:40002",
+            "electrum4.nav.community:40002"
         ],
         "DEX": [
             "electrum1.cipig.net:20006",
@@ -478,6 +481,9 @@
             "electrum2.cipig.net:20024",
             "electrum3.cipig.net:20024"
         ],
+        "ZET": [
+            "zeta-seed-c.zetacoin.tech:50012"
+        ],
         "NMC": [
             "nmc2.bitcoins.sk:57002"
         ],
@@ -503,8 +509,8 @@
             "electrum5.getlynx.io:50002",
             "electrum6.getlynx.io:50002",
             "electrum7.getlynx.io:50002",
-            "electrum8.getlynx.io:50002",
-            "electrum9.getlynx.io:50002"
+            "electrum9.getlynx.io:50002",
+            "electrum8.getlynx.io:50002"
         ],
         "SFUSD": [
             "electrum3.cipig.net:20070",
@@ -527,8 +533,8 @@
         ],
         "CDN": [
             "seattle.ecoincore.com:34333",
-            "woolloomooloo.ecoincore.com:34333",
             "lenoir.ecoincore.com:34333",
+            "woolloomooloo.ecoincore.com:34333",
             "holland.ecoincore.com:34333",
             "mumbai.ecoincore.com:34333"
         ],
@@ -570,16 +576,16 @@
             "electrum3.cipig.net:20055"
         ],
         "DOI": [
-            "big-parrot-60.doi.works:50002",
             "itchy-jellyfish-89.doi.works:50002",
             "pink-deer-69.doi.works:50002",
+            "big-parrot-60.doi.works:50002",
             "ugly-bird-70.doi.works:50002"
         ],
         "tBCH": [
             "testnet.bitcoincash.network:60002",
             "electroncash.de:50004",
-            "tbch.loping.net:60002",
-            "electrs.electroncash.de:60002"
+            "electrs.electroncash.de:60002",
+            "tbch.loping.net:60002"
         ],
         "RICK": [
             "electrum3.cipig.net:20017",
@@ -595,6 +601,9 @@
             "electrum2.cipig.net:20060",
             "electrum3.cipig.net:20060",
             "electrum1.cipig.net:20060"
+        ],
+        "USBL": [
+            "swap.softbalanced.com:50002"
         ],
         "PRUX": [
             "txserver.live:50002",
@@ -623,13 +632,13 @@
             "uno-bkp.coinmunity.gold:50002",
             "uno-main.coinmunity.gold:50002"
         ],
-        "FLUX": [
-            "electrumx.runonflux.io:50002"
-        ],
         "BET": [
             "electrum2.cipig.net:20012",
             "electrum3.cipig.net:20012",
             "electrum1.cipig.net:20012"
+        ],
+        "FLUX": [
+            "electrumx.runonflux.io:50002"
         ],
         "BTC": [
             "electrum1.cipig.net:20000",
@@ -642,8 +651,8 @@
             "electrum3.cipig.net:20067"
         ],
         "NVC": [
-            "electrumx.nvc.ewmcx.org:50002",
-            "failover.nvc.ewmcx.biz:50002"
+            "failover.nvc.ewmcx.biz:50002",
+            "electrumx.nvc.ewmcx.org:50002"
         ],
         "MSHARK": [
             "electrum1.cipig.net:20013",
@@ -665,9 +674,9 @@
             "electrumx2.fujicoin.org:50003"
         ],
         "ABY": [
-            "electrumx-four.artbyte.live:50012",
             "elec-seeder-one.artbytecoin.org:50012",
             "electrumx-three.artbyte.live:50012",
+            "electrumx-four.artbyte.live:50012",
             "elec-seeder-two.artbytecoin.org:50012"
         ],
         "ECA": [
@@ -739,8 +748,8 @@
         ],
         "tBTC": [
             "electrum2.cipig.net:20068",
-            "electrum3.cipig.net:20068",
-            "electrum1.cipig.net:20068"
+            "electrum1.cipig.net:20068",
+            "electrum3.cipig.net:20068"
         ],
         "IL8P": [
             "il8p.electrumx.transcenders.name:50002",
@@ -777,7 +786,8 @@
             "electrum1.cipig.net:20029"
         ],
         "GLEEC": [
-            "electrum3.cipig.net:20022"
+            "electrum3.cipig.net:20022",
+            "electrum1.cipig.net:20022"
         ]
     },
     "failed": {
@@ -803,16 +813,13 @@
         "NMC": {
             "nmc.bitcoins.sk:50001": "timed out",
             "electrumx3.nmc.bitclc.net:50001": "[Errno 101] Network is unreachable",
-            "electrumx4.nmc.bitclc.net:50001": "[Errno 101] Network is unreachable",
             "82.119.233.36:50001": "timed out",
+            "electrumx4.nmc.bitclc.net:50001": "[Errno 101] Network is unreachable",
             "electrumx1.nmc.bitclc.net:50001": "[Errno 101] Network is unreachable",
             "electrumx2.nmc.bitclc.net:50001": "[Errno 101] Network is unreachable"
         },
         "ACTN": {
             "electrumx1.actioncoin.com:10001": "timed out"
-        },
-        "USBL": {
-            "swap.softbalanced.com:50001": "[Errno -3] Temporary failure in name resolution"
         },
         "LYNX": {
             "electrum.getlynx.io:50001": "timed out"
@@ -826,7 +833,6 @@
     },
     "failed_ssl": {
         "ZET": {
-            "zeta-seed-c.zetacoin.tech:50012": "[Errno 111] Connection refused",
             "failover.zet.ewmci.xyz:50002": "[Errno 111] Connection refused"
         },
         "LYNX": {
@@ -845,9 +851,6 @@
         "ACTN": {
             "electrumx1.actioncoin.com:30001": "timed out"
         },
-        "USBL": {
-            "swap.softbalanced.com:50002": "[Errno -3] Temporary failure in name resolution"
-        },
         "CDN": {
             "chicago.ecoincore.com:34333": "timed out",
             "oakland.ecoincore.com:34333": "timed out",
@@ -855,94 +858,14 @@
         },
         "EFL": {
             "holland.ecoincore.com:11017": "[Errno 111] Connection refused",
-            "lenoir.ecoincore.com:11017": "[Errno 111] Connection refused",
-            "electrum5.egulden.org:11017": "[Errno 111] Connection refused"
+            "electrum5.egulden.org:11017": "[Errno 111] Connection refused",
+            "lenoir.ecoincore.com:11017": "[Errno 111] Connection refused"
         },
         "AUR": {
             "lenoir.ecoincore.com:12343": "[Errno 111] Connection refused"
         }
     },
-    "AXE": {
-        "passed": 6,
-        "failed": 0
-    },
-    "NVC": {
-        "passed": 2,
-        "failed": 0
-    },
-    "PRUX": {
-        "passed": 4,
-        "failed": 0
-    },
-    "BOTS": {
-        "passed": 6,
-        "failed": 0
-    },
-    "ZEC": {
-        "passed": 6,
-        "failed": 0
-    },
-    "BCH": {
-        "passed": 6,
-        "failed": 0
-    },
-    "LBC": {
-        "passed": 6,
-        "failed": 0
-    },
-    "FJC": {
-        "passed": 4,
-        "failed": 0
-    },
-    "MONA": {
-        "passed": 3,
-        "failed": 1
-    },
-    "DOI": {
-        "passed": 5,
-        "failed": 0
-    },
-    "XEC": {
-        "passed": 2,
-        "failed": 0
-    },
-    "LYNX": {
-        "passed": 5,
-        "failed": 5
-    },
-    "ZILLA": {
-        "passed": 6,
-        "failed": 0
-    },
-    "NYAN": {
-        "passed": 4,
-        "failed": 0
-    },
-    "XVC": {
-        "passed": 3,
-        "failed": 1
-    },
-    "VRSC": {
-        "passed": 6,
-        "failed": 0
-    },
-    "EMC2": {
-        "passed": 6,
-        "failed": 0
-    },
-    "RICK": {
-        "passed": 6,
-        "failed": 0
-    },
-    "VRM": {
-        "passed": 1,
-        "failed": 0
-    },
-    "LNC": {
-        "passed": 1,
-        "failed": 1
-    },
-    "JUMBLR": {
+    "MSHARK": {
         "passed": 6,
         "failed": 0
     },
@@ -950,20 +873,396 @@
         "passed": 6,
         "failed": 0
     },
+    "DOI": {
+        "passed": 5,
+        "failed": 0
+    },
+    "LCC": {
+        "passed": 1,
+        "failed": 0
+    },
+    "SCA": {
+        "passed": 3,
+        "failed": 0
+    },
+    "tQTUM": {
+        "passed": 6,
+        "failed": 0
+    },
+    "AVN": {
+        "passed": 2,
+        "failed": 0
+    },
+    "CRYPTO": {
+        "passed": 6,
+        "failed": 0
+    },
+    "XEC": {
+        "passed": 2,
+        "failed": 0
+    },
+    "EMC2": {
+        "passed": 6,
+        "failed": 0
+    },
+    "MORTY": {
+        "passed": 6,
+        "failed": 0
+    },
+    "GLEEC": {
+        "passed": 5,
+        "failed": 0
+    },
+    "RICK": {
+        "passed": 6,
+        "failed": 0
+    },
+    "NAV": {
+        "passed": 4,
+        "failed": 0
+    },
+    "MESH": {
+        "passed": 6,
+        "failed": 0
+    },
+    "ZILLA": {
+        "passed": 6,
+        "failed": 0
+    },
+    "CHIPS": {
+        "passed": 6,
+        "failed": 0
+    },
+    "ZER": {
+        "passed": 6,
+        "failed": 0
+    },
+    "PND": {
+        "passed": 1,
+        "failed": 0
+    },
+    "CHTA": {
+        "passed": 3,
+        "failed": 0
+    },
+    "FTC": {
+        "passed": 6,
+        "failed": 0
+    },
+    "DGB": {
+        "passed": 6,
+        "failed": 0
+    },
+    "USBL": {
+        "passed": 2,
+        "failed": 0
+    },
+    "RVN": {
+        "passed": 6,
+        "failed": 0
+    },
+    "DOGE": {
+        "passed": 6,
+        "failed": 0
+    },
+    "RUNES": {
+        "passed": 4,
+        "failed": 4
+    },
+    "NVC": {
+        "passed": 2,
+        "failed": 0
+    },
+    "BET": {
+        "passed": 6,
+        "failed": 0
+    },
+    "NYAN": {
+        "passed": 4,
+        "failed": 0
+    },
+    "BSTY": {
+        "passed": 2,
+        "failed": 1
+    },
+    "LABS": {
+        "passed": 6,
+        "failed": 0
+    },
+    "DGC": {
+        "passed": 2,
+        "failed": 0
+    },
+    "CLC": {
+        "passed": 1,
+        "failed": 0
+    },
+    "ACTN": {
+        "passed": 2,
+        "failed": 2
+    },
+    "IL8P": {
+        "passed": 2,
+        "failed": 0
+    },
+    "SUPERNET": {
+        "passed": 6,
+        "failed": 0
+    },
+    "AUR": {
+        "passed": 2,
+        "failed": 1
+    },
+    "MGW": {
+        "passed": 6,
+        "failed": 0
+    },
+    "ABY": {
+        "passed": 4,
+        "failed": 0
+    },
+    "MCL": {
+        "passed": 6,
+        "failed": 0
+    },
+    "AYA": {
+        "passed": 4,
+        "failed": 0
+    },
+    "DASH": {
+        "passed": 6,
+        "failed": 0
+    },
     "WHIVE": {
         "passed": 4,
+        "failed": 0
+    },
+    "LBC": {
+        "passed": 6,
+        "failed": 0
+    },
+    "JUMBLR": {
+        "passed": 6,
+        "failed": 0
+    },
+    "SYS": {
+        "passed": 6,
+        "failed": 0
+    },
+    "BTE": {
+        "passed": 2,
+        "failed": 0
+    },
+    "EFL": {
+        "passed": 2,
+        "failed": 3
+    },
+    "REVS": {
+        "passed": 6,
+        "failed": 0
+    },
+    "WSB": {
+        "passed": 6,
+        "failed": 0
+    },
+    "CCL": {
+        "passed": 6,
+        "failed": 0
+    },
+    "ZEC": {
+        "passed": 6,
+        "failed": 0
+    },
+    "BLK": {
+        "passed": 6,
+        "failed": 0
+    },
+    "MONA": {
+        "passed": 3,
+        "failed": 1
+    },
+    "BTX": {
+        "passed": 1,
+        "failed": 0
+    },
+    "XVC-OLD": {
+        "passed": 1,
+        "failed": 1
+    },
+    "BOTS": {
+        "passed": 6,
+        "failed": 0
+    },
+    "NENG": {
+        "passed": 3,
+        "failed": 0
+    },
+    "FIRO": {
+        "passed": 3,
+        "failed": 0
+    },
+    "ILN": {
+        "passed": 2,
+        "failed": 0
+    },
+    "FJC": {
+        "passed": 4,
+        "failed": 0
+    },
+    "ECA": {
+        "passed": 6,
+        "failed": 0
+    },
+    "PRUX": {
+        "passed": 4,
+        "failed": 0
+    },
+    "ZOMBIE": {
+        "passed": 1,
+        "failed": 0
+    },
+    "NINJA": {
+        "passed": 6,
+        "failed": 0
+    },
+    "tBLK": {
+        "passed": 6,
+        "failed": 0
+    },
+    "DIMI": {
+        "passed": 2,
+        "failed": 0
+    },
+    "tBTC": {
+        "passed": 7,
+        "failed": 0
+    },
+    "XPM": {
+        "passed": 3,
+        "failed": 0
+    },
+    "PPC": {
+        "passed": 2,
         "failed": 0
     },
     "tBCH": {
         "passed": 4,
         "failed": 0
     },
-    "MGW": {
+    "VAL": {
         "passed": 6,
         "failed": 0
     },
-    "DGC": {
+    "RTM": {
         "passed": 2,
+        "failed": 0
+    },
+    "LNC": {
+        "passed": 1,
+        "failed": 1
+    },
+    "CDN": {
+        "passed": 5,
+        "failed": 3
+    },
+    "BCH": {
+        "passed": 6,
+        "failed": 0
+    },
+    "XMY": {
+        "passed": 2,
+        "failed": 0
+    },
+    "LTC": {
+        "passed": 6,
+        "failed": 0
+    },
+    "NMC": {
+        "passed": 2,
+        "failed": 7
+    },
+    "DEX": {
+        "passed": 6,
+        "failed": 0
+    },
+    "ZET": {
+        "passed": 2,
+        "failed": 1
+    },
+    "AXE": {
+        "passed": 6,
+        "failed": 0
+    },
+    "ARRR": {
+        "passed": 1,
+        "failed": 0
+    },
+    "UIS": {
+        "passed": 2,
+        "failed": 0
+    },
+    "SFUSD": {
+        "passed": 6,
+        "failed": 0
+    },
+    "BTCZ": {
+        "passed": 2,
+        "failed": 0
+    },
+    "GRS": {
+        "passed": 5,
+        "failed": 0
+    },
+    "XRG": {
+        "passed": 2,
+        "failed": 0
+    },
+    "VRM": {
+        "passed": 1,
+        "failed": 0
+    },
+    "VRSC": {
+        "passed": 6,
+        "failed": 0
+    },
+    "KOIN": {
+        "passed": 6,
+        "failed": 0
+    },
+    "HODL": {
+        "passed": 6,
+        "failed": 0
+    },
+    "DP": {
+        "passed": 1,
+        "failed": 0
+    },
+    "WCN": {
+        "passed": 3,
+        "failed": 0
+    },
+    "SMART": {
+        "passed": 2,
+        "failed": 4
+    },
+    "TKL": {
+        "passed": 4,
+        "failed": 0
+    },
+    "SOULJA": {
+        "passed": 6,
+        "failed": 0
+    },
+    "LYNX": {
+        "passed": 5,
+        "failed": 5
+    },
+    "UNO": {
+        "passed": 2,
+        "failed": 0
+    },
+    "BTC": {
+        "passed": 6,
         "failed": 0
     },
     "KMD": {
@@ -974,319 +1273,23 @@
         "passed": 3,
         "failed": 0
     },
-    "DP": {
-        "passed": 1,
-        "failed": 0
-    },
-    "XVC-OLD": {
-        "passed": 1,
-        "failed": 1
-    },
-    "DEX": {
-        "passed": 6,
-        "failed": 0
-    },
-    "PANGEA": {
-        "passed": 6,
-        "failed": 0
-    },
-    "XRG": {
-        "passed": 2,
-        "failed": 0
-    },
-    "GLEEC": {
-        "passed": 4,
-        "failed": 0
-    },
-    "CCL": {
-        "passed": 6,
-        "failed": 0
-    },
-    "MCL": {
-        "passed": 6,
-        "failed": 0
-    },
-    "EFL": {
-        "passed": 2,
-        "failed": 3
-    },
-    "LCC": {
-        "passed": 1,
-        "failed": 0
-    },
-    "ARRR": {
-        "passed": 1,
-        "failed": 0
-    },
-    "BTE": {
-        "passed": 2,
-        "failed": 0
-    },
-    "AVN": {
-        "passed": 2,
-        "failed": 0
-    },
-    "ZET": {
-        "passed": 1,
-        "failed": 2
-    },
-    "FLUX": {
-        "passed": 2,
-        "failed": 0
-    },
-    "UNO": {
-        "passed": 2,
-        "failed": 0
-    },
-    "ABY": {
-        "passed": 4,
-        "failed": 0
-    },
-    "RTM": {
-        "passed": 2,
-        "failed": 0
-    },
-    "WSB": {
-        "passed": 6,
-        "failed": 0
-    },
-    "DASH": {
-        "passed": 6,
-        "failed": 0
-    },
-    "UIS": {
-        "passed": 2,
-        "failed": 0
-    },
-    "RUNES": {
-        "passed": 4,
-        "failed": 4
-    },
-    "FIRO": {
-        "passed": 3,
-        "failed": 0
-    },
-    "KOIN": {
-        "passed": 6,
-        "failed": 0
-    },
-    "ZER": {
-        "passed": 6,
-        "failed": 0
-    },
-    "SFUSD": {
-        "passed": 6,
-        "failed": 0
-    },
-    "ECA": {
-        "passed": 6,
-        "failed": 0
-    },
-    "ACTN": {
-        "passed": 2,
-        "failed": 2
-    },
-    "WCN": {
-        "passed": 3,
-        "failed": 0
-    },
-    "tQTUM": {
-        "passed": 6,
-        "failed": 0
-    },
-    "SMART": {
-        "passed": 2,
-        "failed": 4
-    },
-    "GRS": {
-        "passed": 5,
-        "failed": 0
-    },
-    "SOULJA": {
-        "passed": 6,
-        "failed": 0
-    },
-    "BLK": {
-        "passed": 6,
-        "failed": 0
-    },
-    "MSHARK": {
-        "passed": 6,
-        "failed": 0
-    },
-    "CHTA": {
-        "passed": 3,
-        "failed": 0
-    },
-    "ILN": {
-        "passed": 2,
-        "failed": 0
-    },
-    "CDN": {
-        "passed": 5,
-        "failed": 3
-    },
-    "IL8P": {
-        "passed": 2,
-        "failed": 0
-    },
-    "LABS": {
-        "passed": 6,
-        "failed": 0
-    },
-    "PND": {
-        "passed": 1,
-        "failed": 0
-    },
-    "BTC": {
-        "passed": 6,
-        "failed": 0
-    },
-    "MORTY": {
-        "passed": 6,
-        "failed": 0
-    },
-    "BET": {
-        "passed": 6,
-        "failed": 0
-    },
-    "tBTC": {
-        "passed": 7,
-        "failed": 0
-    },
-    "XMY": {
-        "passed": 2,
-        "failed": 0
-    },
-    "RVN": {
-        "passed": 6,
-        "failed": 0
-    },
-    "tBLK": {
-        "passed": 6,
-        "failed": 0
-    },
-    "LTC": {
-        "passed": 6,
-        "failed": 0
-    },
-    "DGB": {
-        "passed": 6,
-        "failed": 0
-    },
-    "USBL": {
-        "passed": 0,
-        "failed": 2
-    },
-    "FTC": {
-        "passed": 6,
-        "failed": 0
-    },
-    "NINJA": {
-        "passed": 6,
-        "failed": 0
-    },
-    "CHIPS": {
-        "passed": 6,
-        "failed": 0
-    },
-    "ZOMBIE": {
-        "passed": 1,
-        "failed": 0
-    },
-    "NMC": {
-        "passed": 2,
-        "failed": 7
-    },
-    "CRYPTO": {
-        "passed": 6,
-        "failed": 0
-    },
-    "REVS": {
-        "passed": 6,
-        "failed": 0
-    },
-    "SYS": {
-        "passed": 6,
-        "failed": 0
-    },
-    "XPM": {
-        "passed": 3,
-        "failed": 0
-    },
-    "TKL": {
-        "passed": 4,
-        "failed": 0
-    },
     "THC": {
         "passed": 2,
-        "failed": 0
-    },
-    "BTCZ": {
-        "passed": 2,
-        "failed": 0
-    },
-    "PPC": {
-        "passed": 2,
-        "failed": 0
-    },
-    "NENG": {
-        "passed": 3,
-        "failed": 0
-    },
-    "CLC": {
-        "passed": 1,
-        "failed": 0
-    },
-    "AYA": {
-        "passed": 4,
         "failed": 0
     },
     "SPACE": {
         "passed": 6,
         "failed": 0
     },
-    "BTX": {
-        "passed": 1,
-        "failed": 0
-    },
-    "BSTY": {
+    "FLUX": {
         "passed": 2,
-        "failed": 1
-    },
-    "NAV": {
-        "passed": 4,
         "failed": 0
     },
-    "VAL": {
-        "passed": 6,
-        "failed": 0
-    },
-    "AUR": {
-        "passed": 2,
-        "failed": 1
-    },
-    "SCA": {
+    "XVC": {
         "passed": 3,
-        "failed": 0
+        "failed": 1
     },
-    "MESH": {
-        "passed": 6,
-        "failed": 0
-    },
-    "SUPERNET": {
-        "passed": 6,
-        "failed": 0
-    },
-    "DIMI": {
-        "passed": 2,
-        "failed": 0
-    },
-    "DOGE": {
-        "passed": 6,
-        "failed": 0
-    },
-    "HODL": {
+    "PANGEA": {
         "passed": 6,
         "failed": 0
     }
