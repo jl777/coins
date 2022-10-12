@@ -5,13 +5,15 @@ import json
 import requests
 from scan_electrums import get_electrums_report
 
-os.chdir(os.path.abspath(os.path.dirname(__file__)))
+script_path = os.path.abspath(os.path.dirname(__file__))
+repo_path = script_path.replace("/utils", "")
+os.chdir(script_path)
 
 # TODO: Check all coins have an icon.
-icons = os.listdir("../icons")
-electrum_coins = os.listdir("../electrums")
-ethereum_coins = os.listdir("../ethereum")
-explorer_coins = os.listdir("../explorers")
+icons = [f for f in os.listdir(f"{repo_path}/icons") if os.path.isfile(f"{repo_path}/icons/{f}.png")]
+electrum_coins = [f for f in os.listdir(f"{repo_path}/electrums") if os.path.isfile(f"{repo_path}/electrums/{f}")]
+ethereum_coins = [f for f in os.listdir(f"{repo_path}/ethereum") if os.path.isfile(f"{repo_path}/ethereum/{f}")]
+explorer_coins = [f for f in os.listdir(f"{repo_path}/explorers") if os.path.isfile(f"{repo_path}/explorers/{f}")]
 
 get_electrums_report()
 with open("electrum_scan_report.json", "r") as f:

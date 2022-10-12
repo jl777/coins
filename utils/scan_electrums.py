@@ -13,7 +13,9 @@ passed_electrums_ssl = {}
 failed_electrums = {}
 failed_electrums_ssl = {}
 socket.setdefaulttimeout(10)
-os.chdir(os.path.abspath(os.path.dirname(__file__)))
+script_path = os.path.abspath(os.path.dirname(__file__))
+repo_path = script_path.replace("/utils", "")
+os.chdir(script_path)
 
 
 def colorize(string, color):
@@ -144,10 +146,11 @@ def scan_electrums(electrum_dict):
 
 
 def get_repo_electrums():
-    electrum_coins = os.listdir("../electrums")
+    electrum_coins = [f for f in os.listdir(f"{repo_path}/electrums") if os.path.isfile(f"{repo_path}/electrums/{f}")]
     repo_electrums = {}
     for coin in electrum_coins:
         with open(f"../electrums/{coin}", "r") as f:
+            print(coin)
             electrums = json.load(f)
             repo_electrums.update({coin: electrums})
     return repo_electrums

@@ -414,6 +414,29 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
+    "ABY-OLD": {
+        "coin": "ABY-OLD",
+        "type": "UTXO",
+        "name": "ArtByte (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "http://aby-explorer.ewmcx.info/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "is_segwit_on": false,
+        "address_format": {
+            "format": "standard"
+        }
+    },
     "ABY": {
         "coin": "ABY",
         "type": "UTXO",
@@ -5292,7 +5315,13 @@
         "electrum": [
             {
                 "url": "pink-deer-69.doi.works:50001",
-                "protocol": "TCP"
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues",
+                        "twitter": "example_username"
+                    }
+                ]
             },
             {
                 "url": "itchy-jellyfish-89.doi.works:50002",
@@ -5343,6 +5372,26 @@
         "address_format": {
             "format": "standard"
         }
+    },
+    "DUST": {
+        "coin": "DUST",
+        "type": "Smart Chain",
+        "name": "Dragonfairy",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "",
+        "explorer_url": [
+            "http://dragonfairy.gives/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "asset": "DRAGONFAIRY"
     },
     "ECA": {
         "coin": "ECA",
@@ -6770,6 +6819,25 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
     },
+    "GIN": {
+        "coin": "GIN",
+        "type": "UTXO",
+        "name": "GINcoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://explorer.gincoin.io/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": ""
+    },
     "GLEEC": {
         "coin": "GLEEC",
         "type": "Smart Chain",
@@ -6830,6 +6898,30 @@
             },
             {
                 "url": "electrum3.cipig.net:20022",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.cipig.net:20022",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20022",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -7452,6 +7544,25 @@
             "https://rpc-mainnet.maticvigil.com"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
+    "IC": {
+        "coin": "IC",
+        "type": "UTXO",
+        "name": "Ignition",
+        "coinpaprika_id": "ic-ignition",
+        "coingecko_id": "ignition",
+        "nomics_id": "IC",
+        "explorer_url": [
+            "https://chainz.cryptoid.info/ic/"
+        ],
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": ""
     },
     "IL8P": {
         "coin": "IL8P",
@@ -8609,18 +8720,27 @@
                 "ws_url": "electrum1.cipig.net:30067"
             },
             {
-                "url": "spv19.lbry.com:50001"
-            },
-            {
-                "url": "spv17.lbry.com:50001"
-            },
-            {
                 "url": "electrum2.cipig.net:10067",
                 "ws_url": "electrum2.cipig.net:30067"
             },
             {
                 "url": "electrum3.cipig.net:10067",
                 "ws_url": "electrum3.cipig.net:30067"
+            },
+            {
+                "url": "electrum1.cipig.net:20067",
+                "disable_cert_verification": false,
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum2.cipig.net:20067",
+                "disable_cert_verification": false,
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum3.cipig.net:20067",
+                "disable_cert_verification": false,
+                "protocol": "SSL"
             }
         ],
         "is_segwit_on": false,
@@ -9228,105 +9348,28 @@
             "format": "standard"
         }
     },
-    "LUNA-ERC20": {
-        "coin": "LUNA-ERC20",
-        "type": "ERC-20",
-        "name": "Terra",
-        "coinpaprika_id": "luna-terra",
-        "coingecko_id": "terra-luna",
-        "nomics_id": "",
+    "LTFN": {
+        "coin": "LTFN",
+        "type": "UTXO",
+        "name": "Litecoin Finance",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "litecoin-finance",
+        "nomics_id": "LTFN",
         "explorer_url": [
-            "https://etherscan.io/"
+            "https://openchains.info/coin/ltfn/"
         ],
-        "explorer_tx_url": "",
+        "explorer_tx_url": "tx/",
         "explorer_address_url": "",
         "supported": [],
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
-        "contract_address": "0xd2877702675e6cEb975b4A1dFf9fb7BAF4C91ea9",
-        "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
-        ],
-        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
-    },
-    "LUNA-BEP20": {
-        "coin": "LUNA-BEP20",
-        "type": "BEP-20",
-        "name": "Terra",
-        "coinpaprika_id": "luna-terra",
-        "coingecko_id": "terra-luna",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://bscscan.com/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "contract_address": "0xECCF35F941Ab67FfcAA9A1265C2fF88865caA005",
-        "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
-        ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
-    },
-    "LUNA-HRC20": {
-        "coin": "LUNA-HRC20",
-        "type": "HRC-20",
-        "name": "Terra",
-        "coinpaprika_id": "luna-terra",
-        "coingecko_id": "terra-luna",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://explorer.harmony.one/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "contract_address": "0x95CE547D730519A90dEF30d647F37D9E5359B6Ae",
-        "nodes": [
-            "https://api.harmony.one",
-            "https://api.s0.t.hmny.io"
-        ],
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
-    },
-    "LUNA-PLG20": {
-        "coin": "LUNA-PLG20",
-        "type": "Matic",
-        "name": "Terra",
-        "coinpaprika_id": "luna-terra",
-        "coingecko_id": "terra-luna",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://polygonscan.com/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "contract_address": "0x24834BBEc7E39ef42f4a75EAF8E5B6486d3F0e57",
-        "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
-        ],
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "is_segwit_on": false,
+        "address_format": {
+            "format": "standard"
+        }
     },
     "LUX": {
         "coin": "LUX",
@@ -9367,9 +9410,9 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum8.getlynx.io:50002",
+                "url": "electrum5.getlynx.io:50002",
                 "protocol": "SSL",
-                "ws_url": "electrum8.getlynx.io:50004"
+                "ws_url": "electrum5.getlynx.io:50004"
             },
             {
                 "url": "electrum6.getlynx.io:50002",
@@ -9377,19 +9420,19 @@
                 "ws_url": "electrum6.getlynx.io:50004"
             },
             {
-                "url": "electrum9.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum9.getlynx.io:50004"
-            },
-            {
-                "url": "electrum5.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum5.getlynx.io:50004"
-            },
-            {
                 "url": "electrum7.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum7.getlynx.io:50004"
+            },
+            {
+                "url": "electrum8.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum8.getlynx.io:50004"
+            },
+            {
+                "url": "electrum9.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum9.getlynx.io:50004"
             }
         ]
     },
@@ -10266,6 +10309,9 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx1.monacoin.ninja:50001"
+            },
+            {
                 "url": "electrumx.tamami-foundation.org:50001"
             },
             {
@@ -10560,24 +10606,24 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum3.nav.community:40002",
-                "protocol": "SSL",
-                "ws_url": "electrum3.nav.community:40004"
-            },
-            {
                 "url": "electrum.nav.community:40002",
                 "protocol": "SSL",
                 "ws_url": "electrum.nav.community:40004"
             },
             {
-                "url": "electrum4.nav.community:40002",
-                "protocol": "SSL",
-                "ws_url": "electrum4.nav.community:40004"
-            },
-            {
                 "url": "electrum2.nav.community:40002",
                 "protocol": "SSL",
                 "ws_url": "electrum2.nav.community:40004"
+            },
+            {
+                "url": "electrum3.nav.community:40002",
+                "protocol": "SSL",
+                "ws_url": "electrum3.nav.community:40004"
+            },
+            {
+                "url": "electrum4.nav.community:40002",
+                "protocol": "SSL",
+                "ws_url": "electrum4.nav.community:40004"
             }
         ]
     },
@@ -10653,6 +10699,17 @@
         "electrum": [
             {
                 "url": "electrum.shorelinecrypto.com:10001",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.mooo.com:10001",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
@@ -11751,6 +11808,50 @@
         "wallet_only": false,
         "sign_message_prefix": ""
     },
+    "PGT": {
+        "coin": "PGT",
+        "type": "Smart Chain",
+        "name": "Pungo Token",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://pgt.kmdexplorer.io/",
+            "https://pgt.explorer.dexstats.info/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "asset": "PGT"
+    },
+    "PIC": {
+        "coin": "PIC",
+        "type": "UTXO",
+        "name": "Picacoin",
+        "coinpaprika_id": "pic-picacoin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "PIC3",
+        "explorer_url": [
+            "http://explorer.picacoin.org/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "is_segwit_on": false,
+        "address_format": {
+            "format": "standard"
+        }
+    },
     "PIVX": {
         "coin": "PIVX",
         "type": "UTXO",
@@ -12051,30 +12152,6 @@
         "currently_enabled": false,
         "wallet_only": false,
         "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrum1.patenttx.com:18081",
-                "contact": [
-                    {
-                        "email": "webmaster@patenttx.com"
-                    },
-                    {
-                        "twitter": "patenttx"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.patenttx.com:18081",
-                "contact": [
-                    {
-                        "email": "webmaster@patenttx.com"
-                    },
-                    {
-                        "twitter": "patenttx"
-                    }
-                ]
-            }
-        ],
         "asset": "PTX"
     },
     "SHIB-BEP20": {
@@ -13259,6 +13336,9 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "209.151.151.21:50001"
+            },
+            {
                 "url": "209.50.52.239:50001"
             }
         ]
@@ -13889,6 +13969,27 @@
             }
         ],
         "asset": "SPACE"
+    },
+    "CIPHS": {
+        "coin": "CIPHS",
+        "type": "Smart Chain",
+        "name": "Ciphscoin",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "",
+        "explorer_url": [
+            "http://152.89.247.97:50604/",
+            "http://212.114.52.2:50604/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "asset": "CIPHS"
     },
     "SRM-ERC20": {
         "coin": "SRM-ERC20",
@@ -15934,106 +16035,6 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
     },
-    "UST-ERC20": {
-        "coin": "UST-ERC20",
-        "type": "ERC-20",
-        "name": "TerraUSD",
-        "coinpaprika_id": "ust-terrausd",
-        "coingecko_id": "terrausd",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://etherscan.io/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "contract_address": "0xa47c8bf37f92aBed4A126BDA807A7b7498661acD",
-        "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
-        ],
-        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
-    },
-    "UST-BEP20": {
-        "coin": "UST-BEP20",
-        "type": "BEP-20",
-        "name": "TerraUSD",
-        "coinpaprika_id": "ust-terrausd",
-        "coingecko_id": "terrausd",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://bscscan.com/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "contract_address": "0x23396cF899Ca06c4472205fC903bDB4de249D6fC",
-        "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
-        ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
-    },
-    "UST-PLG20": {
-        "coin": "UST-PLG20",
-        "type": "Matic",
-        "name": "TerraUSD",
-        "coinpaprika_id": "ust-terrausd",
-        "coingecko_id": "terrausd",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://polygonscan.com/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "contract_address": "0x692597b009d13C4049a947CAB2239b7d6517875F",
-        "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
-        ],
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
-    },
-    "UST-HRC20": {
-        "coin": "UST-HRC20",
-        "type": "HRC-20",
-        "name": "TerraUSD",
-        "coinpaprika_id": "ust-terrausd",
-        "coingecko_id": "terrausd",
-        "nomics_id": "",
-        "explorer_url": [
-            "https://explorer.harmony.one/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "contract_address": "0x224e64ec1BDce3870a6a6c777eDd450454068FEC",
-        "nodes": [
-            "https://api.harmony.one",
-            "https://api.s0.t.hmny.io"
-        ],
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
-    },
     "WWCN-ERC20": {
         "coin": "WWCN-ERC20",
         "type": "ERC-20",
@@ -16439,6 +16440,26 @@
         ],
         "asset": "VRSC"
     },
+    "GRMS": {
+        "coin": "GRMS",
+        "type": "Smart Chain",
+        "name": "GRMS",
+        "coinpaprika_id": "grms-grms",
+        "coingecko_id": "test-coin",
+        "nomics_id": "GRMS",
+        "explorer_url": [
+            "https://explorer.grms.pw/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "asset": "GRMS"
+    },
     "VTC": {
         "coin": "VTC",
         "type": "UTXO",
@@ -16649,14 +16670,6 @@
         "currently_enabled": false,
         "wallet_only": false,
         "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrumx1.electraprotocol.eu:50001"
-            },
-            {
-                "url": "electrumx3.electraprotocol.eu:50001"
-            }
-        ],
         "is_segwit_on": false,
         "address_format": {
             "format": "standard"
@@ -20587,6 +20600,26 @@
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
     },
+    "GMS": {
+        "coin": "GMS",
+        "type": "Smart Chain",
+        "name": "GMSmining",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://explorer.gmsmining.pw/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "asset": "GMS"
+    },
     "ZOMBIE": {
         "coin": "ZOMBIE",
         "type": "ZHTLC",
@@ -20658,7 +20691,7 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum3.runebase.io:50001",
+                "url": "electrum1.runebase.io:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -20670,7 +20703,7 @@
                 ]
             },
             {
-                "url": "electrum1.runebase.io:50001",
+                "url": "electrum3.runebase.io:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
