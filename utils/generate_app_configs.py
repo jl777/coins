@@ -350,7 +350,7 @@ class CoinConfig:
 
 def parse_coins_repo():
 
-    desktop_coins = {}
+    coins_config = {}
     with open("../coins", "r") as f:
         coins_data = json.load(f)
 
@@ -374,25 +374,25 @@ def parse_coins_repo():
             config.get_coingecko_id()
             config.get_nomics_id()
             config.get_bchd_urls()
-            desktop_coins.update(config.data)
+            coins_config.update(config.data)
 
     nodata = []
-    for coin in desktop_coins:
-        if not desktop_coins[coin]["explorer_url"]:
+    for coin in coins_config:
+        if not coins_config[coin]["explorer_url"]:
             print(f"{coin} has no explorers!")
-        if desktop_coins[coin]["type"] not in ["SLP"]:
-            if "nodes" in desktop_coins[coin]:
-                if not desktop_coins[coin]["nodes"]:
+        if coins_config[coin]["type"] not in ["SLP"]:
+            if "nodes" in coins_config[coin]:
+                if not coins_config[coin]["nodes"]:
                     nodata.append(coin)
-            if "electrum" in desktop_coins[coin]:
-                if not desktop_coins[coin]["electrum"]:
+            if "electrum" in coins_config[coin]:
+                if not coins_config[coin]["electrum"]:
                     nodata.append(coin)
     print(f"The following coins are missing required data or failing connections for nodes/electrums {nodata}")
     print(f"They will not be included in the output")
     for coin in nodata:
-        del desktop_coins[coin]
+        del coins_config[coin]
 
-    return desktop_coins
+    return coins_config
 
 
 def get_desktop_repo_coins_data():
@@ -436,7 +436,7 @@ def get_api_ids_from_desktop():
         json.dump(forex_ids, f, indent=4)
 
 
-def compare_output_vs_desktop_repo(desktop_coins):
+def compare_output_vs_desktop_repo(coins_config):
     desktop_repo_coins = get_desktop_repo_coins_data()
     errors = {
         "no_value": 0,
@@ -449,21 +449,21 @@ def compare_output_vs_desktop_repo(desktop_coins):
     }
     for coin in desktop_repo_coins:
         for k, v in desktop_repo_coins[coin].items():
-            if k not in desktop_coins[coin]:
+            if k not in coins_config[coin]:
                 errors["missing_entry"] += 1
                 print(colorize(f"{coin} is missing an entry for {k} in script output", 'blue'))
             else:
-                if desktop_coins[coin][k]:
+                if coins_config[coin][k]:
                     try:
-                        if isinstance(desktop_coins[coin][k], list):
+                        if isinstance(coins_config[coin][k], list):
                             # TODO: loop for electum comparison
                             if not isinstance(v[0], dict):
-                                assert set(desktop_coins[coin][k]) == set(v)
+                                assert set(coins_config[coin][k]) == set(v)
                             else:
                                 script_electrums = set([x["url"] for x in v])
-                                desktop_repo_electrums = set([x["url"] for x in desktop_coins[coin][k]])
+                                desktop_repo_electrums = set([x["url"] for x in coins_config[coin][k]])
                                 script_ws = set([x["ws_url"] for x in v if "ws_url" in x])
-                                desktop_repo_ws = set([x["ws_url"] for x in desktop_coins[coin][k] if "ws_url" in x])
+                                desktop_repo_ws = set([x["ws_url"] for x in coins_config[coin][k] if "ws_url" in x])
                                 needs_update = False
 
                                 if not desktop_repo_electrums == script_electrums:
@@ -491,7 +491,7 @@ def compare_output_vs_desktop_repo(desktop_coins):
                                     new_electrum_list = []
                                     for electrum in list(script_electrums.union(desktop_repo_electrums)):
                                         script_electrum = [i for i in v if i["url"] == electrum]
-                                        desktop_electrum = [i for i in desktop_coins[coin][k] if i["url"] == electrum]
+                                        desktop_electrum = [i for i in coins_config[coin][k] if i["url"] == electrum]
                                         if desktop_electrum and script_electrum:
                                             merged_electrum = dict(desktop_electrum[0])
                                             merged_electrum.update(script_electrum[0])
@@ -514,13 +514,13 @@ def compare_output_vs_desktop_repo(desktop_coins):
                     except AssertionError as e:
                         if k == 'name':
                             errors["name_mismatch"] += 1
-                            print(colorize(f"{coin} has mismatch on {k}: {v} (desktop_repo) != {desktop_coins[coin][k]} (script_output)", 'blue'))
+                            print(colorize(f"{coin} has mismatch on {k}: {v} (desktop_repo) != {coins_config[coin][k]} (script_output)", 'blue'))
                         elif k == 'explorer_url':
                             errors["explorer_mismatch"] += 1
-                            print(colorize(f"{coin} has mismatch on {k}: {v} (desktop_repo) != {desktop_coins[coin][k]} (script_output)", 'yellow'))
+                            print(colorize(f"{coin} has mismatch on {k}: {v} (desktop_repo) != {coins_config[coin][k]} (script_output)", 'yellow'))
                         else:
                             errors["value_mismatch"] += 1
-                            print(colorize(f"{coin} has mismatch on {k}: {v} (desktop_repo) != {desktop_coins[coin][k]} (script_output)", 'magenta'))
+                            print(colorize(f"{coin} has mismatch on {k}: {v} (desktop_repo) != {coins_config[coin][k]} (script_output)", 'magenta'))
                 else:
                     if isinstance(v, bool):
                         pass
@@ -535,7 +535,7 @@ def compare_output_vs_desktop_repo(desktop_coins):
                         print(colorize(f"{coin} has no value for {k} in script_output", "red"))
 
     total_errors = sum(list(errors.values()))
-    print(f"\n{len(desktop_repo_coins)} desktop repo coins, {len(desktop_coins)} coins output")
+    print(f"\n{len(desktop_repo_coins)} desktop repo coins, {len(coins_config)} coins output")
     print(f"\n{errors} errors found! ({total_errors} total)")
 
 
@@ -549,10 +549,12 @@ if __name__ == "__main__":
         if sys.argv[1] == "update_apis":
             get_api_ids_from_desktop()
         elif sys.argv[1] == "compare_desktop":
-            compare_output_vs_desktop_repo(desktop_coins)
+            coins_config = parse_coins_repo()
+            with open("coins_config.json", "w+") as f:
+                json.dump(coins_config, f, indent=4)
+            compare_output_vs_desktop_repo(coins_config)
     else:
-        desktop_coins = parse_coins_repo()
-
-        with open("desktop_coins.json", "w+") as f:
-            json.dump(desktop_coins, f, indent=4)
+        coins_config = parse_coins_repo()
+        with open("coins_config.json", "w+") as f:
+            json.dump(coins_config, f, indent=4)
 
