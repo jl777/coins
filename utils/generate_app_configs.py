@@ -387,6 +387,9 @@ def parse_coins_repo():
             if "electrum" in coins_config[coin]:
                 if not coins_config[coin]["electrum"]:
                     nodata.append(coin)
+            if "nodes" not in coins_config[coin] and "electrum" not in coins_config[coin]:
+                nodata.append(coin)
+
     print(f"The following coins are missing required data or failing connections for nodes/electrums {nodata}")
     print(f"They will not be included in the output")
     for coin in nodata:
