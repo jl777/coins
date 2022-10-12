@@ -58,8 +58,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -71,7 +71,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "1INCH-BEP20": {
         "coin": "1INCH-BEP20",
@@ -83,8 +84,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -96,7 +97,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "1INCH-ERC20": {
         "coin": "1INCH-ERC20",
@@ -255,8 +257,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -268,7 +270,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "AAVE-ERC20": {
         "coin": "AAVE-ERC20",
@@ -469,8 +472,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -482,7 +485,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "ADEXBSCT": {
         "coin": "ADEXBSCT",
@@ -518,8 +522,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -531,7 +535,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "ADX-BEP20": {
         "coin": "ADX-BEP20",
@@ -543,8 +548,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -556,7 +561,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "ADX-ERC20": {
         "coin": "ADX-ERC20",
@@ -645,8 +651,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -658,7 +664,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "ANKR-ERC20": {
         "coin": "ANKR-ERC20",
@@ -747,8 +754,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -760,7 +767,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "APE-FTM20": {
         "coin": "APE-FTM20",
@@ -820,8 +828,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -833,7 +841,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "ARPA-ERC20": {
         "coin": "ARPA-ERC20",
@@ -896,8 +905,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -909,7 +918,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "ATOM-BEP20": {
         "coin": "ATOM-BEP20",
@@ -921,8 +931,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -934,7 +944,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "ATOM-PLG20": {
         "coin": "ATOM-PLG20",
@@ -1004,8 +1015,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -1017,7 +1028,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "AVAXT": {
         "coin": "AVAXT",
@@ -1074,8 +1086,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -1087,7 +1099,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "AVN": {
         "coin": "AVN",
@@ -1257,8 +1270,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -1270,7 +1283,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "AXS-ERC20": {
         "coin": "AXS-ERC20",
@@ -1367,8 +1381,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -1380,7 +1394,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "BAL-BEP20": {
         "coin": "BAL-BEP20",
@@ -1392,8 +1407,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -1405,7 +1420,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "BAL-ERC20": {
         "coin": "BAL-ERC20",
@@ -1491,8 +1507,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -1504,7 +1520,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "BAND-BEP20": {
         "coin": "BAND-BEP20",
@@ -1516,8 +1533,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -1529,7 +1546,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "BAND-ERC20": {
         "coin": "BAND-ERC20",
@@ -1665,8 +1683,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -1678,7 +1696,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "BAT-KRC20": {
         "coin": "BAT-KRC20",
@@ -1839,7 +1858,7 @@
         "explorer_url": [
             "https://simpleledger.info/"
         ],
-        "explorer_tx_url": "",
+        "explorer_tx_url": "#tx/",
         "explorer_address_url": "",
         "supported": [],
         "active": false,
@@ -1859,7 +1878,7 @@
         "explorer_url": [
             "https://simpleledger.info/"
         ],
-        "explorer_tx_url": "",
+        "explorer_tx_url": "#tx/",
         "explorer_address_url": "",
         "supported": [],
         "active": false,
@@ -1879,7 +1898,7 @@
         "explorer_url": [
             "https://simpleledger.info/"
         ],
-        "explorer_tx_url": "",
+        "explorer_tx_url": "#tx/",
         "explorer_address_url": "",
         "supported": [],
         "active": false,
@@ -1925,8 +1944,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -1938,7 +1957,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "BCH-HCO20": {
         "coin": "BCH-HCO20",
@@ -2068,8 +2088,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -2082,6 +2102,7 @@
             "http://bsc3.cipig.net:8655"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a=",
         "forex_id": "IDR"
     },
     "BLK": {
@@ -2176,8 +2197,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -2189,7 +2210,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "tBLK": {
         "coin": "tBLK",
@@ -2283,8 +2305,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -2295,7 +2317,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "BONE-ERC20": {
         "coin": "BONE-ERC20",
@@ -2379,8 +2402,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -2392,7 +2415,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "BNT-ERC20": {
         "coin": "BNT-ERC20",
@@ -2550,8 +2574,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -2564,6 +2588,7 @@
             "http://bsc3.cipig.net:8655"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a=",
         "forex_id": "BRL"
     },
     "BRZ-ERC20": {
@@ -2786,8 +2811,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -2799,7 +2824,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "BTCZ": {
         "coin": "BTCZ",
@@ -2851,8 +2877,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -2864,7 +2890,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "BTE": {
         "coin": "BTE",
@@ -2929,8 +2956,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -2942,7 +2969,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "BTTC-BEP20": {
         "coin": "BTTC-BEP20",
@@ -2954,8 +2982,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -2967,7 +2995,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "BTU-ERC20": {
         "coin": "BTU-ERC20",
@@ -3066,8 +3095,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -3079,7 +3108,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "BUSD-AVX20": {
         "coin": "BUSD-AVX20",
@@ -3165,8 +3195,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -3178,7 +3208,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "BUSD-HRC20": {
         "coin": "BUSD-HRC20",
@@ -3292,8 +3323,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -3305,7 +3336,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "CASE": {
         "coin": "CASE",
@@ -3317,8 +3349,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -3330,7 +3362,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "CCL": {
         "coin": "CCL",
@@ -3568,8 +3601,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -3581,7 +3614,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "CELR-ARB20": {
         "coin": "CELR-ARB20",
@@ -3952,8 +3986,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -3965,7 +3999,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "COMP-ERC20": {
         "coin": "COMP-ERC20",
@@ -4341,8 +4376,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -4354,7 +4389,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "DAI-AVX20": {
         "coin": "DAI-AVX20",
@@ -4416,8 +4452,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -4429,7 +4465,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "DAI-FTM20": {
         "coin": "DAI-FTM20",
@@ -4955,8 +4992,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -4968,7 +5005,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "DIMI": {
         "coin": "DIMI",
@@ -5035,8 +5073,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -5048,7 +5086,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "DIMI-QRC20": {
         "coin": "DIMI-QRC20",
@@ -5154,8 +5193,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -5167,7 +5206,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "DODO-ERC20": {
         "coin": "DODO-ERC20",
@@ -5321,8 +5361,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -5334,7 +5374,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "DOGEDASH-BEP20": {
         "coin": "DOGEDASH-BEP20",
@@ -5346,8 +5387,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -5359,7 +5400,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "DOGGY-BEP20": {
         "coin": "DOGGY-BEP20",
@@ -5371,8 +5413,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -5384,7 +5426,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "DOT-BEP20": {
         "coin": "DOT-BEP20",
@@ -5396,8 +5439,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -5409,7 +5452,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "DOT-HCO20": {
         "coin": "DOT-HCO20",
@@ -5679,8 +5723,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -5692,7 +5736,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "EILN-ERC20": {
         "coin": "EILN-ERC20",
@@ -5730,8 +5775,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -5743,7 +5788,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "ELF-ERC20": {
         "coin": "ELF-ERC20",
@@ -5948,8 +5994,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -5961,7 +6007,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "ETC": {
         "coin": "ETC",
@@ -5995,8 +6042,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -6008,7 +6055,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "ETH": {
         "coin": "ETH",
@@ -6092,8 +6140,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -6105,7 +6153,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "ETH-FTM20": {
         "coin": "ETH-FTM20",
@@ -6314,8 +6363,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -6327,7 +6376,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "FET-PLG20": {
         "coin": "FET-PLG20",
@@ -6364,8 +6414,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -6377,7 +6427,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "FIL-HCO20": {
         "coin": "FIL-HCO20",
@@ -6460,8 +6511,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -6473,7 +6524,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "FJC": {
         "coin": "FJC",
@@ -6546,8 +6598,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -6559,7 +6611,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "FJCB": {
         "coin": "FJCB",
@@ -6571,8 +6624,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -6584,7 +6637,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "FLOKI-BEP20": {
         "coin": "FLOKI-BEP20",
@@ -6596,8 +6650,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -6609,7 +6663,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "STFIRO": {
         "coin": "STFIRO",
@@ -6647,8 +6702,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -6660,7 +6715,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "FTC": {
         "coin": "FTC",
@@ -6815,8 +6871,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -6828,7 +6884,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "FTM-ERC20": {
         "coin": "FTM-ERC20",
@@ -6892,8 +6949,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -6905,7 +6962,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "GETH": {
         "coin": "GETH",
@@ -7002,18 +7060,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "electrum1.cipig.net:20022",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
             }
         ],
         "asset": "GLEEC"
@@ -7079,8 +7125,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -7092,7 +7138,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "GMT-BEP20": {
         "coin": "GMT-BEP20",
@@ -7104,8 +7151,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -7117,7 +7164,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "GMX-AVX20": {
         "coin": "GMX-AVX20",
@@ -7346,8 +7394,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -7359,7 +7407,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "HEX-ERC20": {
         "coin": "HEX-ERC20",
@@ -7827,8 +7876,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -7840,7 +7889,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "ILN-PLG20": {
         "coin": "ILN-PLG20",
@@ -7902,8 +7952,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -7915,7 +7965,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "INJ-ERC20": {
         "coin": "INJ-ERC20",
@@ -7953,8 +8004,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -7966,7 +8017,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "IOTX-BEP20": {
         "coin": "IOTX-BEP20",
@@ -7978,8 +8030,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -7991,7 +8043,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "IOTX-PLG20": {
         "coin": "IOTX-PLG20",
@@ -8315,8 +8368,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -8328,7 +8381,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "JUMBLR": {
         "coin": "JUMBLR",
@@ -8555,8 +8609,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -8568,7 +8622,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "KNC-BEP20": {
         "coin": "KNC-BEP20",
@@ -8580,8 +8635,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -8593,7 +8648,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "KNC-ERC20": {
         "coin": "KNC-ERC20",
@@ -8775,8 +8831,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -8788,7 +8844,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "LABS": {
         "coin": "LABS",
@@ -9167,8 +9224,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -9180,7 +9237,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "LINK-FTM20": {
         "coin": "LINK-FTM20",
@@ -9336,8 +9394,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -9349,7 +9407,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "LRC-PLG20": {
         "coin": "LRC-PLG20",
@@ -9475,8 +9534,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -9488,7 +9547,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "LTC": {
         "coin": "LTC",
@@ -9669,8 +9729,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -9682,7 +9742,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "MANA-KRC20": {
         "coin": "MANA-KRC20",
@@ -9790,8 +9851,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -9803,7 +9864,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "MATIC-ERC20": {
         "coin": "MATIC-ERC20",
@@ -10248,8 +10310,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -10261,7 +10323,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "MKR-AVX20": {
         "coin": "MKR-AVX20",
@@ -10297,8 +10360,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -10310,7 +10373,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "MKR-ERC20": {
         "coin": "MKR-ERC20",
@@ -10421,8 +10485,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -10434,7 +10498,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "MM-MVR20": {
         "coin": "MM-MVR20",
@@ -10831,8 +10896,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -10844,7 +10909,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "NEAR-BEP20": {
         "coin": "NEAR-BEP20",
@@ -10856,8 +10922,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -10869,7 +10935,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "NENG": {
         "coin": "NENG",
@@ -11226,8 +11293,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -11239,7 +11306,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "NVC-QRC20": {
         "coin": "NVC-QRC20",
@@ -11435,8 +11503,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -11448,7 +11516,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "OCEAN-ERC20": {
         "coin": "OCEAN-ERC20",
@@ -11585,8 +11654,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -11598,7 +11667,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "PANGEA": {
         "coin": "PANGEA",
@@ -11731,8 +11801,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -11744,7 +11814,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "PAX-KRC20": {
         "coin": "PAX-KRC20",
@@ -11804,8 +11875,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -11817,7 +11888,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "PAXG-ERC20": {
         "coin": "PAXG-ERC20",
@@ -12142,8 +12214,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -12155,7 +12227,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "PRCY-ERC20": {
         "coin": "PRCY-ERC20",
@@ -12255,8 +12328,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -12268,7 +12341,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "SHIB-ERC20": {
         "coin": "SHIB-ERC20",
@@ -12612,8 +12686,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -12625,7 +12699,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "QKC-ERC20": {
         "coin": "QKC-ERC20",
@@ -13567,8 +13642,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -13580,7 +13655,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "SAND-PLG20": {
         "coin": "SAND-PLG20",
@@ -13617,8 +13693,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -13630,7 +13706,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "SMTF-v2": {
         "coin": "SMTF-v2",
@@ -13642,8 +13719,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -13655,7 +13732,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "SNX-AVX20": {
         "coin": "SNX-AVX20",
@@ -13691,8 +13769,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -13704,7 +13782,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "SNX-ERC20": {
         "coin": "SNX-ERC20",
@@ -13813,8 +13892,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -13826,7 +13905,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "SOL-PLG20": {
         "coin": "SOL-PLG20",
@@ -14249,8 +14329,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -14262,7 +14342,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "SUSHI-ERC20": {
         "coin": "SUSHI-ERC20",
@@ -14419,8 +14500,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -14432,7 +14513,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "SXP-BEP20": {
         "coin": "SXP-BEP20",
@@ -14444,8 +14526,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -14457,7 +14539,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "SXP-ERC20": {
         "coin": "SXP-ERC20",
@@ -14881,8 +14964,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -14894,7 +14977,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "THC": {
         "coin": "THC",
@@ -14944,8 +15028,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -14957,7 +15041,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "TKL": {
         "coin": "TKL",
@@ -15077,8 +15162,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -15090,7 +15175,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "TRYB-AVX20": {
         "coin": "TRYB-AVX20",
@@ -15127,8 +15213,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -15141,6 +15227,7 @@
             "http://bsc3.cipig.net:8655"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a=",
         "forex_id": "TRY"
     },
     "TRYB-PLG20": {
@@ -15206,8 +15293,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -15219,7 +15306,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "TUSD-ERC20": {
         "coin": "TUSD-ERC20",
@@ -15536,8 +15624,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -15549,7 +15637,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "UNI-HCO20": {
         "coin": "UNI-HCO20",
@@ -15715,8 +15804,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -15728,7 +15817,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "USDC-FTM20": {
         "coin": "USDC-FTM20",
@@ -16072,8 +16162,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -16085,7 +16175,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "USDT-ERC20": {
         "coin": "USDT-ERC20",
@@ -16227,8 +16318,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -16240,7 +16331,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "VRA": {
         "coin": "VRA",
@@ -16329,8 +16421,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -16342,7 +16434,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "VRM": {
         "coin": "VRM",
@@ -16505,8 +16598,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -16518,7 +16611,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "WBTC-ERC20": {
         "coin": "WBTC-ERC20",
@@ -16630,8 +16724,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -16643,7 +16737,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "WOO-FTM20": {
         "coin": "WOO-FTM20",
@@ -16797,8 +16892,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -16810,7 +16905,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "XLM-BEP20": {
         "coin": "XLM-BEP20",
@@ -16822,8 +16918,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -16835,7 +16931,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "XMY": {
         "coin": "XMY",
@@ -16942,8 +17039,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -16955,7 +17052,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "XSGD-ERC20": {
         "coin": "XSGD-ERC20",
@@ -17020,8 +17118,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -17033,7 +17131,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "XVC-OLD": {
         "coin": "XVC-OLD",
@@ -17102,8 +17201,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -17115,7 +17214,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "XVC-QRC20": {
         "coin": "XVC-QRC20",
@@ -17221,8 +17321,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -17234,7 +17334,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "YFI-AVX20": {
         "coin": "YFI-AVX20",
@@ -17270,8 +17371,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -17283,7 +17384,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "YFI-ERC20": {
         "coin": "YFI-ERC20",
@@ -17392,8 +17494,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -17405,7 +17507,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "YFII-ERC20": {
         "coin": "YFII-ERC20",
@@ -17646,11 +17749,6 @@
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP",
                 "ws_url": "207.180.252.200:50013"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ]
     },
@@ -17664,8 +17762,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -17677,7 +17775,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "ZILLA": {
         "coin": "ZILLA",
@@ -18011,8 +18110,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -18024,7 +18123,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "FENIX": {
         "coin": "FENIX",
@@ -20508,50 +20608,6 @@
             }
         ]
     },
-    "USBL": {
-        "coin": "USBL",
-        "type": "UTXO",
-        "name": "Balanced Dollar",
-        "coinpaprika_id": "test-coin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "USBL",
-        "explorer_url": [
-            "https://softbalanced.com:3001/insight/"
-        ],
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "swap.softbalanced.com:50001",
-                "contact": [
-                    {
-                        "email": "dev@softbalanced.com"
-                    },
-                    {
-                        "discord": "softbalanced#4045"
-                    }
-                ]
-            },
-            {
-                "url": "swap.softbalanced.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "dev@softbalanced.com"
-                    },
-                    {
-                        "discord": "softbalanced#4045"
-                    }
-                ]
-            }
-        ]
-    },
     "USDF": {
         "coin": "USDF",
         "type": "SLP",
@@ -20562,7 +20618,7 @@
         "explorer_url": [
             "https://testnet.simpleledger.info/"
         ],
-        "explorer_tx_url": "",
+        "explorer_tx_url": "#tx/",
         "explorer_address_url": "",
         "supported": [],
         "active": false,
@@ -20666,7 +20722,7 @@
         "explorer_url": [
             "https://testnet.simpleledger.info/"
         ],
-        "explorer_tx_url": "",
+        "explorer_tx_url": "#tx/",
         "explorer_address_url": "",
         "supported": [],
         "active": false,
@@ -20733,8 +20789,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -20746,7 +20802,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "ZOMBIE": {
         "coin": "ZOMBIE",
@@ -20783,8 +20840,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -20796,7 +20853,8 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     },
     "RUNES": {
         "coin": "RUNES",
@@ -20914,8 +20972,8 @@
         "explorer_url": [
             "https://bscscan.com/"
         ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -20927,6 +20985,7 @@
             "http://bsc2.cipig.net:8655",
             "http://bsc3.cipig.net:8655"
         ],
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "token_address_url": "tokentxns?a="
     }
 }
