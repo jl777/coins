@@ -150,7 +150,6 @@ def get_repo_electrums():
     repo_electrums = {}
     for coin in electrum_coins:
         with open(f"../electrums/{coin}", "r") as f:
-            print(coin)
             electrums = json.load(f)
             repo_electrums.update({coin: electrums})
     return repo_electrums
