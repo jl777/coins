@@ -491,6 +491,24 @@
     }
   },
   {
+    "coin": "ANKR-PLG20",
+    "name": "ankr_plg20",
+    "fname": "Ankr",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x101A023270368c0D50BFfb62780F4aFd4ea79C35"
+      }
+    }
+  },
+  {
     "coin": "APE-ERC20",
     "name": "ape_erc20",
     "fname": "ApeCoin",
@@ -523,6 +541,42 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0xC762043E211571eB34f1ef377e5e8e76914962f9"
+      }
+    }
+  },
+  {
+    "coin": "APE-FTM20",
+    "name": "ape_ftm20",
+    "fname": "ApeCoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0x2d72A97a31Dc920dB03330780d30074626e39C8A"
+      }
+    }
+  },
+  {
+    "coin": "APE-PLG20",
+    "name": "ape_plg20",
+    "fname": "ApeCoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xB7b31a6BC18e48888545CE79e83E06003bE70930"
       }
     }
   },
@@ -627,6 +681,24 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0x0Eb3a705fc54725037CC9e008bDede697f62F335"
+      }
+    }
+  },
+  {
+    "coin": "ATOM-PLG20",
+    "name": "atom_plg20",
+    "fname": "Cosmos",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 6,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xac51C4c48Dc3116487eD4BC16542e27B5694Da1b"
       }
     }
   },
@@ -1455,6 +1527,42 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0x420412E765BFa6d85aaaC94b4f7b708C89be2e2B"
+      }
+    }
+  },
+  {
+    "coin": "BRZ-PLG20",
+    "name": "brz_plg20",
+    "fname": "Brazilian Digital Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 4,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f"
+      }
+    }
+  },
+  {
+    "coin": "BRZ-AVX20",
+    "name": "brz_avx20",
+    "fname": "Brazilian Digital Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "decimals": 4,
+    "avg_blocktime": 0.04,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f"
       }
     }
   },
@@ -3954,6 +4062,42 @@
     }
   },
   {
+    "coin": "GLM-ERC20",
+    "name": "glm_erc20",
+    "fname": "Golem",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429"
+      }
+    }
+  },
+  {
+    "coin": "GLM-PLG20",
+    "name": "glm_plg20",
+    "fname": "Golem",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x0B220b82F3eA3B7F6d9A1D8ab58930C064A2b5Bf"
+      }
+    }
+  },
+  {
     "coin": "GM-BEP20",
     "name": "gm_bep20",
     "fname": "GM Wagmi",
@@ -3985,6 +4129,24 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1"
+      }
+    }
+  },
+  {
+    "coin": "GMX-AVX20",
+    "name": "gmx_avx20",
+    "fname": "GMX",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "decimals": 18,
+    "avg_blocktime": 0.04,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x62edc0692BD897D2295872a9FFCac5425011c661"
       }
     }
   },
@@ -4854,6 +5016,42 @@
     }
   },
   {
+    "coin": "KNC-PLG20",
+    "name": "knc_plg20",
+    "fname": "Kyber Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x1C954E8fe737F99f68Fa1CCda3e51ebDB291948C"
+      }
+    }
+  },
+  {
+    "coin": "KNC-AVX20",
+    "name": "knc_avx20",
+    "fname": "Kyber Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "decimals": 18,
+    "avg_blocktime": 0.04,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x39fC9e94Caeacb435842FADeDeCB783589F50f5f"
+      }
+    }
+  },
+  {
     "coin": "KOIN",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "KOIN",
@@ -4982,6 +5180,42 @@
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
+    }
+  },
+  {
+    "coin": "LDO-ERC20",
+    "name": "ldo_erc20",
+    "fname": "Lido DAO",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32"
+      }
+    }
+  },
+  {
+    "coin": "LDO-PLG20",
+    "name": "ldo_plg20",
+    "fname": "Lido DAO",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756"
+      }
     }
   },
   {
@@ -7003,6 +7237,24 @@
     }
   },
   {
+    "coin": "SHIB-KRC20",
+    "name": "shib_krc20",
+    "fname": "Shiba Inu",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 321,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "KCS",
+        "contract_address": "0x73b6086955c820370A18002F60E9b51FB67d7e1A"
+      }
+    }
+  },
+  {
     "coin": "QC",
     "name": "qtum",
     "fname": "Qcash",
@@ -7735,6 +7987,24 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0x570A5D26f7765Ecb712C0924E4De545B89fD43dF"
+      }
+    }
+  },
+  {
+    "coin": "SOL-PLG20",
+    "name": "sol_plg20",
+    "fname": "Solana",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x7DfF46370e9eA5f0Bad3C4E29711aD50062EA7A4"
       }
     }
   },
@@ -9362,6 +9632,96 @@
     }
   },
   {
+    "coin": "WOO-ERC20",
+    "name": "woo_erc20",
+    "fname": "WOO Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B"
+      }
+    }
+  },
+  {
+    "coin": "WOO-AVX20",
+    "name": "woo_avx20",
+    "fname": "WOO Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "decimals": 18,
+    "avg_blocktime": 0.04,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0xaBC9547B534519fF73921b1FBA6E672b5f58D083"
+      }
+    }
+  },
+  {
+    "coin": "WOO-BEP20",
+    "name": "woo_bep20",
+    "fname": "WOO Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B"
+      }
+    }
+  },
+  {
+    "coin": "WOO-FTM20",
+    "name": "woo_ftm20",
+    "fname": "WOO Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0x6626c47c00F1D87902fc13EECfaC3ed06D5E8D8a"
+      }
+    }
+  },
+  {
+    "coin": "WOO-PLG20",
+    "name": "woo_plg20",
+    "fname": "WOO Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x1B815d120B3eF02039Ee11dC2d33DE7aA4a8C603"
+      }
+    }
+  },
+  {
     "coin": "WSB",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "WSB",
@@ -9811,6 +10171,24 @@
       "protocol_data": {
         "platform": "KCS",
         "contract_address": "0xdfa3Ef49d357c6b0B2DfBB88701af2b7A053fD0A"
+      }
+    }
+  },
+  {
+    "coin": "YFI-PLG20",
+    "name": "yfi_plg20",
+    "fname": "yearn.finance",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xDA537104D6A5edd53c6fBba9A898708E465260b6"
       }
     }
   },
