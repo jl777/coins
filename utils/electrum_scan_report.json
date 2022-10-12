@@ -1,390 +1,393 @@
 {
     "passed": {
-        "LBC": [
-            "electrum1.cipig.net:10067",
-            "electrum3.cipig.net:10067",
-            "electrum2.cipig.net:10067"
-        ],
-        "CRYPTO": [
-            "electrum3.cipig.net:10008",
-            "electrum1.cipig.net:10008",
-            "electrum2.cipig.net:10008"
-        ],
-        "DOGE": [
-            "electrum1.cipig.net:10060",
-            "electrum3.cipig.net:10060",
-            "electrum2.cipig.net:10060"
-        ],
-        "PANGEA": [
-            "electrum2.cipig.net:10010",
-            "electrum3.cipig.net:10010",
-            "electrum1.cipig.net:10010"
-        ],
-        "MGW": [
-            "electrum2.cipig.net:10015",
-            "electrum1.cipig.net:10015",
-            "electrum3.cipig.net:10015"
-        ],
-        "CCL": [
-            "electrum3.cipig.net:10029",
-            "electrum1.cipig.net:10029",
-            "electrum2.cipig.net:10029"
-        ],
-        "NENG": [
-            "electrum1.mooo.com:10001",
-            "electrum2.mooo.com:10001",
-            "electrum.shorelinecrypto.com:10001"
-        ],
-        "ZOMBIE": [
-            "zombie.sirseven.me:10033"
-        ],
-        "CHIPS": [
-            "electrum1.cipig.net:10053",
-            "electrum3.cipig.net:10053",
-            "electrum2.cipig.net:10053"
-        ],
-        "RICK": [
-            "electrum2.cipig.net:10017",
-            "electrum3.cipig.net:10017",
-            "electrum1.cipig.net:10017"
-        ],
-        "EMC2": [
-            "electrum2.cipig.net:10062",
-            "electrum3.cipig.net:10062",
-            "electrum1.cipig.net:10062"
-        ],
-        "WSB": [
-            "electrum3.cipig.net:10033",
-            "electrum2.cipig.net:10033",
-            "electrum1.cipig.net:10033"
-        ],
-        "BCH": [
-            "electrum1.cipig.net:10055",
-            "electrum2.cipig.net:10055",
-            "electrum3.cipig.net:10055"
-        ],
-        "FTC": [
-            "electrum3.cipig.net:10054",
-            "electrum1.cipig.net:10054",
-            "electrum2.cipig.net:10054"
-        ],
-        "TRC": [
-            "electrum.terracoin.io:50001",
-            "electrum.southofheaven.ca:50001"
-        ],
-        "HODL": [
-            "electrum2.cipig.net:10009",
-            "electrum3.cipig.net:10009",
-            "electrum1.cipig.net:10009"
-        ],
-        "FLUX": [
-            "electrumx2.runonflux.io:50001"
-        ],
-        "VRM": [
-            "electrum01-vrm.vericonomy.com:50001"
-        ],
-        "DP": [
-            "1.eu.dp.electrum.dexstats.info:10021"
-        ],
-        "ECA": [
-            "electrum2.cipig.net:10052",
-            "electrum1.cipig.net:10052",
-            "electrum3.cipig.net:10052"
-        ],
-        "THC": [
-            "1.eu.thc.electrum.dexstats.info:10020",
-            "2.eu.thc.electrum.dexstats.info:10020"
-        ],
-        "MORTY": [
-            "electrum2.cipig.net:10018",
-            "electrum1.cipig.net:10018",
-            "electrum3.cipig.net:10018"
-        ],
-        "BTE": [
-            "electrumx7.scalaris.info:20001",
-            "electrumx6.scalaris.info:20001"
+        "NYAN": [
+            "txserver.live:50020",
+            "electrumx.live:50020"
         ],
         "VRSC": [
             "el0.verus.io:17485",
             "el1.verus.io:17485",
             "el2.verus.io:17485"
         ],
-        "tQTUM": [
-            "electrum3.cipig.net:10071",
-            "electrum1.cipig.net:10071",
-            "electrum2.cipig.net:10071"
-        ],
-        "DEX": [
-            "electrum3.cipig.net:10006",
-            "electrum1.cipig.net:10006",
-            "electrum2.cipig.net:10006"
-        ],
-        "ZER": [
-            "electrum3.cipig.net:10065",
-            "electrum2.cipig.net:10065",
-            "electrum1.cipig.net:10065"
-        ],
-        "XVC": [
-            "failover.xvc.ewmcx.biz:50001",
-            "electrumx2.vanillacash.info:50011",
-            "electrumx1.vanillacash.info:50011"
-        ],
         "ZILLA": [
             "electrum1.cipig.net:10028",
             "electrum2.cipig.net:10028",
             "electrum3.cipig.net:10028"
-        ],
-        "LTC": [
-            "electrum2.cipig.net:10063",
-            "electrum3.cipig.net:10063",
-            "electrum1.cipig.net:10063"
-        ],
-        "RUNES": [
-            "electrum1.runebase.io:50001",
-            "electrum3.runebase.io:50001"
-        ],
-        "JUMBLR": [
-            "electrum1.cipig.net:10004",
-            "electrum3.cipig.net:10004",
-            "electrum2.cipig.net:10004"
-        ],
-        "KMD": [
-            "electrum3.cipig.net:10001",
-            "electrum1.cipig.net:10001",
-            "electrum2.cipig.net:10001"
-        ],
-        "FIRO": [
-            "electrumx01.firo.org:50001",
-            "electrumx02.firo.org:50001",
-            "electrumx03.firo.org:50001"
-        ],
-        "XPM": [
-            "electrumx.primecoin.org:50001",
-            "electrumx.mainnet.primecoin.org:50011",
-            "electrumx.gemmer.primecoin.org:50011"
-        ],
-        "AVN": [
-            "electrum-us.avn.network:50001",
-            "electrum-eu.avn.network:50001"
-        ],
-        "ZEC": [
-            "electrum2.cipig.net:10058",
-            "electrum3.cipig.net:10058",
-            "electrum1.cipig.net:10058"
-        ],
-        "SYS": [
-            "electrum1.cipig.net:10064",
-            "electrum2.cipig.net:10064",
-            "electrum3.cipig.net:10064"
         ],
         "MCL": [
             "electrum2.cipig.net:10023",
             "electrum3.cipig.net:10023",
             "electrum1.cipig.net:10023"
         ],
-        "DGB": [
-            "electrum2.cipig.net:10059",
-            "electrum3.cipig.net:10059",
-            "electrum1.cipig.net:10059"
+        "DEX": [
+            "electrum3.cipig.net:10006",
+            "electrum1.cipig.net:10006",
+            "electrum2.cipig.net:10006"
         ],
-        "SPACE": [
-            "electrum1.cipig.net:10011",
-            "electrum3.cipig.net:10011",
-            "electrum2.cipig.net:10011"
+        "PANGEA": [
+            "electrum2.cipig.net:10010",
+            "electrum3.cipig.net:10010",
+            "electrum1.cipig.net:10010"
         ],
-        "DOI": [
-            "pink-deer-69.doi.works:50001"
-        ],
-        "SUPERNET": [
-            "electrum1.cipig.net:10005",
-            "electrum2.cipig.net:10005",
-            "electrum3.cipig.net:10005"
-        ],
-        "MONA": [
-            "103.125.218.246:50001",
-            "electrumx.tamami-foundation.org:50001",
-            "electrumx3.monacoin.nl:50001",
-            "electrumx1.monacoin.ninja:50001"
-        ],
-        "ZET": [
-            "207.180.252.200:50011"
-        ],
-        "KOIN": [
-            "electrum3.cipig.net:10024",
-            "electrum2.cipig.net:10024",
-            "electrum1.cipig.net:10024"
-        ],
-        "SMART": [
-            "electrum1.smartcash.cc:50001",
-            "electrum2.smartcash.cc:50001"
-        ],
-        "QTUM": [
-            "electrum3.cipig.net:10050",
-            "electrum1.cipig.net:10050",
-            "electrum2.cipig.net:10050"
-        ],
-        "AXE": [
-            "electrum3.cipig.net:10057",
-            "electrum1.cipig.net:10057",
-            "electrum2.cipig.net:10057"
-        ],
-        "BTC": [
-            "electrum1.cipig.net:10000",
-            "electrum3.cipig.net:10000",
-            "electrum2.cipig.net:10000"
-        ],
-        "MESH": [
-            "electrum2.cipig.net:10016",
-            "electrum3.cipig.net:10016",
-            "electrum1.cipig.net:10016"
-        ],
-        "BLK": [
-            "electrum2.blackcoin.nl:20001",
-            "electrum1.blackcoin.nl:10001",
-            "electrum3.blackcoin.nl:30001"
-        ],
-        "FJC": [
-            "electrumx2.fujicoin.org:50001",
-            "electrumx1.fujicoin.org:50001"
-        ],
-        "LCC": [
-            "188.166.117.139:50001"
-        ],
-        "MSHARK": [
-            "electrum3.cipig.net:10013",
-            "electrum2.cipig.net:10013",
-            "electrum1.cipig.net:10013"
-        ],
-        "CHTA": [
-            "electrum1.mooo.com:10007",
-            "electrum.shorelinecrypto.com:10007",
-            "electrum2.mooo.com:10007"
-        ],
-        "GRS": [
-            "electrum10.groestlcoin.org:50001",
-            "electrum12.groestlcoin.org:50001",
-            "electrum11.groestlcoin.org:50001",
-            "electrum13.groestlcoin.org:50001",
-            "electrum14.groestlcoin.org:50001"
-        ],
-        "VAL": [
-            "e3.validitytech.com:11001",
-            "e1.validitytech.com:11001",
-            "e2.validitytech.com:11001"
-        ],
-        "ACTN": [
-            "electrumx2.actioncoin.com:10001"
-        ],
-        "DASH": [
-            "electrum2.cipig.net:10061",
-            "electrum3.cipig.net:10061",
-            "electrum1.cipig.net:10061"
-        ],
-        "tBTC": [
-            "electrum2.cipig.net:10068",
-            "testnet.aranguren.org:51001",
-            "electrum3.cipig.net:10068",
-            "electrum1.cipig.net:10068"
-        ],
-        "NINJA": [
-            "electrum1.cipig.net:10036",
-            "electrum2.cipig.net:10036",
-            "electrum3.cipig.net:10036"
-        ],
-        "BET": [
-            "electrum2.cipig.net:10012",
-            "electrum1.cipig.net:10012",
-            "electrum3.cipig.net:10012"
-        ],
-        "CLC": [
-            "electrumx.cryptocollider.com:10001"
-        ],
-        "UIS": [
-            "electrumx.uis.ewmcx.info:50001"
-        ],
-        "NMC": [
-            "46.229.238.187:57001"
-        ],
-        "ILN": [
-            "electrum2.ilien.io:65011",
-            "electrum1.ilien.io:65011"
-        ],
-        "BTCZ": [
-            "electrum2.btcz.rocks:50001",
-            "electrum1.btcz.rocks:50001"
-        ],
-        "LNC": [
-            "74.208.95.26:50001"
-        ],
-        "tBLK": [
-            "electrum2.blackcoin.nl:20011",
-            "electrum3.blackcoin.nl:30011",
-            "electrum1.blackcoin.nl:10011"
-        ],
-        "SCA": [
-            "electrum1.scalaris.info:10001",
-            "electrum2.scalaris.info:10001",
-            "electrum3.scalaris.info:10001"
-        ],
-        "BOTS": [
-            "electrum2.cipig.net:10007",
-            "electrum3.cipig.net:10007",
-            "electrum1.cipig.net:10007"
-        ],
-        "XVC-OLD": [
-            "failover.xvc.ewmcx.biz:50001"
+        "VRM": [
+            "electrum01-vrm.vericonomy.com:50001"
         ],
         "REVS": [
             "electrum2.cipig.net:10003",
             "electrum3.cipig.net:10003",
             "electrum1.cipig.net:10003"
         ],
-        "DGC": [
-            "electrumx.dgc.ewmcx.org:50001"
+        "ILN": [
+            "electrum2.ilien.io:65011",
+            "electrum1.ilien.io:65011"
         ],
-        "WHIVE": [
-            "electrumx2.cointest.com:50001",
-            "electrumx1.cointest.com:50001"
+        "SOULJA": [
+            "electrum1.cipig.net:10035",
+            "electrum2.cipig.net:10035",
+            "electrum3.cipig.net:10035"
         ],
-        "WCN": [
-            "electrumx.widecoin.org:50001",
-            "electrumx3.widecoin.org:50001",
-            "electrumx2.widecoin.org:50001"
+        "CHTA": [
+            "electrum1.mooo.com:10007",
+            "electrum2.mooo.com:10007",
+            "electrum.shorelinecrypto.com:10007"
         ],
-        "TKL": [
-            "2.eu.tokel.electrum.dexstats.info:10077",
-            "1.eu.tokel.electrum.dexstats.info:10077"
+        "DASH": [
+            "electrum2.cipig.net:10061",
+            "electrum3.cipig.net:10061",
+            "electrum1.cipig.net:10061"
         ],
-        "RTM": [
-            "209.151.151.21:50001",
-            "209.50.52.239:50001"
+        "ZER": [
+            "electrum3.cipig.net:10065",
+            "electrum2.cipig.net:10065",
+            "electrum1.cipig.net:10065"
         ],
-        "RVN": [
-            "electrum1.cipig.net:10051",
-            "electrum3.cipig.net:10051",
-            "electrum2.cipig.net:10051"
+        "SUPERNET": [
+            "electrum1.cipig.net:10005",
+            "electrum2.cipig.net:10005",
+            "electrum3.cipig.net:10005"
         ],
-        "NYAN": [
-            "txserver.live:50020",
-            "electrumx.live:50020"
+        "KOIN": [
+            "electrum3.cipig.net:10024",
+            "electrum2.cipig.net:10024",
+            "electrum1.cipig.net:10024"
+        ],
+        "ZET": [
+            "207.180.252.200:50011"
+        ],
+        "XPM": [
+            "electrumx.primecoin.org:50001",
+            "electrumx.mainnet.primecoin.org:50011",
+            "electrumx.gemmer.primecoin.org:50011"
+        ],
+        "NMC": [
+            "46.229.238.187:57001"
+        ],
+        "MESH": [
+            "electrum2.cipig.net:10016",
+            "electrum3.cipig.net:10016",
+            "electrum1.cipig.net:10016"
+        ],
+        "MONA": [
+            "electrumx.tamami-foundation.org:50001",
+            "electrumx3.monacoin.nl:50001",
+            "103.125.218.246:50001"
+        ],
+        "ACTN": [
+            "electrumx2.actioncoin.com:10001"
+        ],
+        "tQTUM": [
+            "electrum3.cipig.net:10071",
+            "electrum1.cipig.net:10071",
+            "electrum2.cipig.net:10071"
+        ],
+        "EMC2": [
+            "electrum2.cipig.net:10062",
+            "electrum3.cipig.net:10062",
+            "electrum1.cipig.net:10062"
+        ],
+        "XVC-OLD": [
+            "failover.xvc.ewmcx.biz:50001"
         ],
         "SFUSD": [
             "electrum3.cipig.net:10070",
             "electrum1.cipig.net:10070",
             "electrum2.cipig.net:10070"
         ],
-        "XMY": [
-            "lenoir.ecoincore.com:10891"
+        "KMD": [
+            "electrum3.cipig.net:10001",
+            "electrum1.cipig.net:10001",
+            "electrum2.cipig.net:10001"
+        ],
+        "VAL": [
+            "e1.validitytech.com:11001",
+            "e2.validitytech.com:11001",
+            "e3.validitytech.com:11001"
+        ],
+        "SMART": [
+            "electrum2.smartcash.cc:50001",
+            "electrum1.smartcash.cc:50001"
+        ],
+        "CLC": [
+            "electrumx.cryptocollider.com:10001"
+        ],
+        "GRS": [
+            "electrum12.groestlcoin.org:50001",
+            "electrum11.groestlcoin.org:50001",
+            "electrum13.groestlcoin.org:50001",
+            "electrum14.groestlcoin.org:50001",
+            "electrum10.groestlcoin.org:50001"
+        ],
+        "RTM": [
+            "209.151.151.21:50001",
+            "209.50.52.239:50001"
+        ],
+        "RUNES": [
+            "electrum1.runebase.io:50001",
+            "electrum3.runebase.io:50001"
+        ],
+        "XVC": [
+            "failover.xvc.ewmcx.biz:50001",
+            "electrumx2.vanillacash.info:50011",
+            "electrumx1.vanillacash.info:50011"
+        ],
+        "BTE": [
+            "electrumx6.scalaris.info:20001",
+            "electrumx7.scalaris.info:20001"
+        ],
+        "FTC": [
+            "electrum3.cipig.net:10054",
+            "electrum1.cipig.net:10054",
+            "electrum2.cipig.net:10054"
+        ],
+        "LCC": [
+            "188.166.117.139:50001"
+        ],
+        "SCA": [
+            "electrum1.scalaris.info:10001",
+            "electrum2.scalaris.info:10001",
+            "electrum3.scalaris.info:10001"
+        ],
+        "CHIPS": [
+            "electrum1.cipig.net:10053",
+            "electrum3.cipig.net:10053",
+            "electrum2.cipig.net:10053"
+        ],
+        "NINJA": [
+            "electrum1.cipig.net:10036",
+            "electrum2.cipig.net:10036",
+            "electrum3.cipig.net:10036"
+        ],
+        "TRC": [
+            "electrum.terracoin.io:50001",
+            "electrum.southofheaven.ca:50001"
+        ],
+        "CRYPTO": [
+            "electrum3.cipig.net:10008",
+            "electrum1.cipig.net:10008",
+            "electrum2.cipig.net:10008"
+        ],
+        "ZEC": [
+            "electrum2.cipig.net:10058",
+            "electrum3.cipig.net:10058",
+            "electrum1.cipig.net:10058"
+        ],
+        "WHIVE": [
+            "electrumx1.cointest.com:50001",
+            "electrumx2.cointest.com:50001"
+        ],
+        "WCN": [
+            "electrumx.widecoin.org:50001",
+            "electrumx2.widecoin.org:50001",
+            "electrumx3.widecoin.org:50001"
+        ],
+        "BCH": [
+            "electrum1.cipig.net:10055",
+            "electrum2.cipig.net:10055",
+            "electrum3.cipig.net:10055"
+        ],
+        "DOI": [
+            "pink-deer-69.doi.works:50001"
+        ],
+        "RICK": [
+            "electrum2.cipig.net:10017",
+            "electrum3.cipig.net:10017",
+            "electrum1.cipig.net:10017"
+        ],
+        "MORTY": [
+            "electrum2.cipig.net:10018",
+            "electrum1.cipig.net:10018",
+            "electrum3.cipig.net:10018"
+        ],
+        "DOGE": [
+            "electrum1.cipig.net:10060",
+            "electrum3.cipig.net:10060",
+            "electrum2.cipig.net:10060"
+        ],
+        "THC": [
+            "2.eu.thc.electrum.dexstats.info:10020",
+            "1.eu.thc.electrum.dexstats.info:10020"
+        ],
+        "PRUX": [
+            "txserver.live:50001",
+            "electrumx.live:50010"
+        ],
+        "MGW": [
+            "electrum2.cipig.net:10015",
+            "electrum1.cipig.net:10015",
+            "electrum3.cipig.net:10015"
+        ],
+        "LNC": [
+            "74.208.95.26:50001"
+        ],
+        "LTC": [
+            "electrum2.cipig.net:10063",
+            "electrum3.cipig.net:10063",
+            "electrum1.cipig.net:10063"
         ],
         "LABS": [
             "electrum2.cipig.net:10019",
-            "electrum1.cipig.net:10019",
-            "electrum3.cipig.net:10019"
+            "electrum3.cipig.net:10019",
+            "electrum1.cipig.net:10019"
         ],
-        "SOULJA": [
-            "electrum1.cipig.net:10035",
-            "electrum2.cipig.net:10035",
-            "electrum3.cipig.net:10035"
+        "FLUX": [
+            "electrumx2.runonflux.io:50001"
+        ],
+        "BET": [
+            "electrum2.cipig.net:10012",
+            "electrum1.cipig.net:10012",
+            "electrum3.cipig.net:10012"
+        ],
+        "BTC": [
+            "electrum1.cipig.net:10000",
+            "electrum3.cipig.net:10000",
+            "electrum2.cipig.net:10000"
+        ],
+        "LBC": [
+            "electrum1.cipig.net:10067",
+            "electrum2.cipig.net:10067",
+            "electrum3.cipig.net:10067"
+        ],
+        "MSHARK": [
+            "electrum3.cipig.net:10013",
+            "electrum2.cipig.net:10013",
+            "electrum1.cipig.net:10013"
+        ],
+        "HODL": [
+            "electrum2.cipig.net:10009",
+            "electrum3.cipig.net:10009",
+            "electrum1.cipig.net:10009"
+        ],
+        "AXE": [
+            "electrum3.cipig.net:10057",
+            "electrum1.cipig.net:10057",
+            "electrum2.cipig.net:10057"
+        ],
+        "NENG": [
+            "electrum.shorelinecrypto.com:10001",
+            "electrum2.mooo.com:10001",
+            "electrum1.mooo.com:10001"
+        ],
+        "FJC": [
+            "electrumx1.fujicoin.org:50001",
+            "electrumx2.fujicoin.org:50001"
+        ],
+        "FIRO": [
+            "electrumx01.firo.org:50001",
+            "electrumx02.firo.org:50001",
+            "electrumx03.firo.org:50001"
+        ],
+        "ECA": [
+            "electrum2.cipig.net:10052",
+            "electrum1.cipig.net:10052",
+            "electrum3.cipig.net:10052"
+        ],
+        "RVN": [
+            "electrum1.cipig.net:10051",
+            "electrum3.cipig.net:10051",
+            "electrum2.cipig.net:10051"
+        ],
+        "DP": [
+            "1.eu.dp.electrum.dexstats.info:10021"
+        ],
+        "DGC": [
+            "electrumx.dgc.ewmcx.org:50001"
+        ],
+        "tBLK": [
+            "electrum2.blackcoin.nl:20011",
+            "electrum3.blackcoin.nl:30011",
+            "electrum1.blackcoin.nl:10011"
+        ],
+        "QTUM": [
+            "electrum3.cipig.net:10050",
+            "electrum1.cipig.net:10050",
+            "electrum2.cipig.net:10050"
+        ],
+        "JUMBLR": [
+            "electrum1.cipig.net:10004",
+            "electrum3.cipig.net:10004",
+            "electrum2.cipig.net:10004"
+        ],
+        "BLK": [
+            "electrum1.blackcoin.nl:10001",
+            "electrum2.blackcoin.nl:20001",
+            "electrum3.blackcoin.nl:30001"
+        ],
+        "BOTS": [
+            "electrum2.cipig.net:10007",
+            "electrum3.cipig.net:10007",
+            "electrum1.cipig.net:10007"
+        ],
+        "SYS": [
+            "electrum1.cipig.net:10064",
+            "electrum2.cipig.net:10064",
+            "electrum3.cipig.net:10064"
+        ],
+        "DGB": [
+            "electrum2.cipig.net:10059",
+            "electrum3.cipig.net:10059",
+            "electrum1.cipig.net:10059"
+        ],
+        "UIS": [
+            "electrumx.uis.ewmcx.info:50001"
+        ],
+        "BTCZ": [
+            "electrum2.btcz.rocks:50001",
+            "electrum1.btcz.rocks:50001"
+        ],
+        "tBTC": [
+            "electrum2.cipig.net:10068",
+            "electrum3.cipig.net:10068",
+            "electrum1.cipig.net:10068",
+            "testnet.aranguren.org:51001"
+        ],
+        "AVN": [
+            "electrum-us.avn.network:50001",
+            "electrum-eu.avn.network:50001"
+        ],
+        "XMY": [
+            "lenoir.ecoincore.com:10891"
+        ],
+        "TKL": [
+            "1.eu.tokel.electrum.dexstats.info:10077",
+            "2.eu.tokel.electrum.dexstats.info:10077"
+        ],
+        "SPACE": [
+            "electrum1.cipig.net:10011",
+            "electrum3.cipig.net:10011",
+            "electrum2.cipig.net:10011"
+        ],
+        "WSB": [
+            "electrum3.cipig.net:10033",
+            "electrum2.cipig.net:10033",
+            "electrum1.cipig.net:10033"
+        ],
+        "CCL": [
+            "electrum3.cipig.net:10029",
+            "electrum1.cipig.net:10029",
+            "electrum2.cipig.net:10029"
+        ],
+        "ZOMBIE": [
+            "zombie.sirseven.me:10033"
         ],
         "GLEEC": [
             "electrum1.cipig.net:10022",
@@ -393,358 +396,101 @@
         ]
     },
     "passed_ssl": {
-        "tBCH": [
-            "testnet.bitcoincash.network:60002",
-            "electroncash.de:50004",
-            "electrs.electroncash.de:60002",
-            "tbch.loping.net:60002"
+        "NYAN": [
+            "txserver.live:50022",
+            "electrumx.live:50022"
         ],
-        "PPC": [
-            "electrum.peercoinexplorer.net:50002",
-            "allingas.peercoinexplorer.net:50002"
-        ],
-        "LBC": [
-            "electrum1.cipig.net:20067",
-            "electrum2.cipig.net:20067",
-            "electrum3.cipig.net:20067"
-        ],
-        "NAV": [
-            "electrum2.nav.community:40002",
-            "electrum.nav.community:40002",
-            "electrum4.nav.community:40002",
-            "electrum3.nav.community:40002"
-        ],
-        "CRYPTO": [
-            "electrum1.cipig.net:20008",
-            "electrum2.cipig.net:20008",
-            "electrum3.cipig.net:20008"
-        ],
-        "DOGE": [
-            "electrum2.cipig.net:20060",
-            "electrum3.cipig.net:20060",
-            "electrum1.cipig.net:20060"
-        ],
-        "PANGEA": [
-            "electrum1.cipig.net:20010",
-            "electrum3.cipig.net:20010",
-            "electrum2.cipig.net:20010"
-        ],
-        "MGW": [
-            "electrum2.cipig.net:20015",
-            "electrum3.cipig.net:20015",
-            "electrum1.cipig.net:20015"
-        ],
-        "CCL": [
-            "electrum3.cipig.net:20029",
-            "electrum2.cipig.net:20029",
-            "electrum1.cipig.net:20029"
-        ],
-        "CHIPS": [
-            "electrum2.cipig.net:20053",
-            "electrum1.cipig.net:20053",
-            "electrum3.cipig.net:20053"
-        ],
-        "XEC": [
-            "electrum.bitcoinabc.org:50002",
-            "fulcrum.pepipierre.fr:50002"
-        ],
-        "RICK": [
-            "electrum3.cipig.net:20017",
-            "electrum2.cipig.net:20017",
-            "electrum1.cipig.net:20017"
-        ],
-        "EMC2": [
-            "electrum2.cipig.net:20062",
-            "electrum1.cipig.net:20062",
-            "electrum3.cipig.net:20062"
-        ],
-        "WSB": [
-            "electrum2.cipig.net:20033",
-            "electrum1.cipig.net:20033",
-            "electrum3.cipig.net:20033"
-        ],
-        "UNO": [
-            "uno-main.coinmunity.gold:50002",
-            "uno-bkp.coinmunity.gold:50002"
-        ],
-        "BCH": [
-            "electrum1.cipig.net:20055",
-            "electrum2.cipig.net:20055",
-            "electrum3.cipig.net:20055"
-        ],
-        "FTC": [
-            "electrum1.cipig.net:20054",
-            "electrum2.cipig.net:20054",
-            "electrum3.cipig.net:20054"
-        ],
-        "TRC": [
-            "failover.trc-uis.ewmcx.biz:50006"
-        ],
-        "HODL": [
-            "electrum1.cipig.net:20009",
-            "electrum3.cipig.net:20009",
-            "electrum2.cipig.net:20009"
-        ],
-        "FLUX": [
-            "electrumx.runonflux.io:50002"
-        ],
-        "ABY": [
-            "electrumx-four.artbyte.live:50012",
-            "elec-seeder-one.artbytecoin.org:50012",
-            "electrumx-three.artbyte.live:50012",
-            "elec-seeder-two.artbytecoin.org:50012"
-        ],
-        "PND": [
-            "electrum.thepandacoin.net:50002"
-        ],
-        "XRG": [
-            "blackie.c3-soft.com:52138",
-            "fulcrum.ergon.network:52138"
-        ],
-        "ECA": [
-            "electrum2.cipig.net:20052",
-            "electrum1.cipig.net:20052",
-            "electrum3.cipig.net:20052"
-        ],
-        "IL8P": [
-            "il8p.electrumx.transcenders.name:50002",
-            "il9p.electrumx.transcenders.name:50002"
-        ],
-        "MORTY": [
-            "electrum3.cipig.net:20018",
-            "electrum2.cipig.net:20018",
-            "electrum1.cipig.net:20018"
-        ],
-        "AUR": [
-            "electrumx.aur.ewmcx.info:50002",
-            "failover.aur.ewmcx.biz:50002"
+        "BTX": [
+            "btx-electrumx.coinsmunity.com:50002"
         ],
         "VRSC": [
             "el0.verus.io:17486",
             "el1.verus.io:17486",
             "el2.verus.io:17486"
         ],
-        "tQTUM": [
-            "electrum3.cipig.net:20071",
-            "electrum2.cipig.net:20071",
-            "electrum1.cipig.net:20071"
-        ],
-        "DEX": [
-            "electrum1.cipig.net:20006",
-            "electrum3.cipig.net:20006",
-            "electrum2.cipig.net:20006"
-        ],
-        "BSTY": [
-            "bsty-main.coinmunity.gold:50012",
-            "bsty-bkp.coinmunity.gold:50012"
-        ],
-        "ZER": [
-            "electrum1.cipig.net:20065",
-            "electrum2.cipig.net:20065",
-            "electrum3.cipig.net:20065"
-        ],
         "ZILLA": [
             "electrum3.cipig.net:20028",
             "electrum2.cipig.net:20028",
             "electrum1.cipig.net:20028"
-        ],
-        "LTC": [
-            "electrum1.cipig.net:20063",
-            "electrum3.cipig.net:20063",
-            "electrum2.cipig.net:20063"
-        ],
-        "RUNES": [
-            "electrum1.runebase.io:50002",
-            "electrum3.runebase.io:50002"
-        ],
-        "JUMBLR": [
-            "electrum3.cipig.net:20004",
-            "electrum2.cipig.net:20004",
-            "electrum1.cipig.net:20004"
-        ],
-        "KMD": [
-            "electrum3.cipig.net:20001",
-            "electrum1.cipig.net:20001",
-            "electrum2.cipig.net:20001"
-        ],
-        "ZEC": [
-            "electrum3.cipig.net:20058",
-            "electrum2.cipig.net:20058",
-            "electrum1.cipig.net:20058"
-        ],
-        "SYS": [
-            "electrum1.cipig.net:20064",
-            "electrum2.cipig.net:20064",
-            "electrum3.cipig.net:20064"
         ],
         "MCL": [
             "electrum3.cipig.net:20023",
             "electrum1.cipig.net:20023",
             "electrum2.cipig.net:20023"
         ],
-        "DGB": [
-            "electrum1.cipig.net:20059",
-            "electrum3.cipig.net:20059",
-            "electrum2.cipig.net:20059"
+        "DEX": [
+            "electrum1.cipig.net:20006",
+            "electrum3.cipig.net:20006",
+            "electrum2.cipig.net:20006"
         ],
-        "DOI": [
-            "itchy-jellyfish-89.doi.works:50002",
-            "big-parrot-60.doi.works:50002",
-            "pink-deer-69.doi.works:50002",
-            "ugly-bird-70.doi.works:50002"
+        "NAV": [
+            "electrum2.nav.community:40002",
+            "electrum3.nav.community:40002",
+            "electrum.nav.community:40002",
+            "electrum4.nav.community:40002"
         ],
-        "SPACE": [
-            "electrum1.cipig.net:20011",
-            "electrum3.cipig.net:20011",
-            "electrum2.cipig.net:20011"
+        "PANGEA": [
+            "electrum1.cipig.net:20010",
+            "electrum3.cipig.net:20010",
+            "electrum2.cipig.net:20010"
         ],
-        "SUPERNET": [
-            "electrum2.cipig.net:20005",
-            "electrum3.cipig.net:20005",
-            "electrum1.cipig.net:20005"
+        "XRG": [
+            "fulcrum.ergon.network:52138",
+            "blackie.c3-soft.com:52138"
         ],
-        "CDN": [
-            "woolloomooloo.ecoincore.com:34333",
-            "seattle.ecoincore.com:34333",
-            "lenoir.ecoincore.com:34333",
-            "holland.ecoincore.com:34333",
-            "mumbai.ecoincore.com:34333"
+        "REVS": [
+            "electrum3.cipig.net:20003",
+            "electrum2.cipig.net:20003",
+            "electrum1.cipig.net:20003"
         ],
-        "KOIN": [
-            "electrum1.cipig.net:20024",
-            "electrum2.cipig.net:20024",
-            "electrum3.cipig.net:20024"
+        "PND": [
+            "electrum.thepandacoin.net:50002"
         ],
-        "QTUM": [
-            "electrum2.cipig.net:20050",
-            "electrum3.cipig.net:20050",
-            "electrum1.cipig.net:20050"
-        ],
-        "AXE": [
-            "electrum1.cipig.net:20057",
-            "electrum3.cipig.net:20057",
-            "electrum2.cipig.net:20057"
-        ],
-        "BTX": [
-            "btx-electrumx.coinsmunity.com:50002"
-        ],
-        "BTC": [
-            "electrum1.cipig.net:20000",
-            "electrum2.cipig.net:20000",
-            "electrum3.cipig.net:20000"
-        ],
-        "MESH": [
-            "electrum2.cipig.net:20016",
-            "electrum1.cipig.net:20016",
-            "electrum3.cipig.net:20016"
-        ],
-        "BLK": [
-            "electrum2.blackcoin.nl:20002",
-            "electrum1.blackcoin.nl:10002",
-            "electrum3.blackcoin.nl:30002"
-        ],
-        "FJC": [
-            "electrumx2.fujicoin.org:50003",
-            "electrumx1.fujicoin.org:50003"
-        ],
-        "NVC": [
-            "electrumx.nvc.ewmcx.org:50002",
-            "failover.nvc.ewmcx.biz:50002"
-        ],
-        "MSHARK": [
-            "electrum1.cipig.net:20013",
-            "electrum3.cipig.net:20013",
-            "electrum2.cipig.net:20013"
-        ],
-        "VAL": [
-            "e1.validitytech.com:11002",
-            "e3.validitytech.com:11002",
-            "e2.validitytech.com:11002"
-        ],
-        "ACTN": [
-            "electrumx2.actioncoin.com:30001"
+        "SOULJA": [
+            "electrum2.cipig.net:20035",
+            "electrum1.cipig.net:20035",
+            "electrum3.cipig.net:20035"
         ],
         "DASH": [
             "electrum3.cipig.net:20061",
             "electrum1.cipig.net:20061",
             "electrum2.cipig.net:20061"
         ],
-        "tBTC": [
-            "electrum2.cipig.net:20068",
-            "electrum1.cipig.net:20068",
-            "electrum3.cipig.net:20068"
+        "ZER": [
+            "electrum1.cipig.net:20065",
+            "electrum2.cipig.net:20065",
+            "electrum3.cipig.net:20065"
         ],
-        "NINJA": [
-            "electrum1.cipig.net:20036",
-            "electrum2.cipig.net:20036",
-            "electrum3.cipig.net:20036"
+        "SUPERNET": [
+            "electrum2.cipig.net:20005",
+            "electrum3.cipig.net:20005",
+            "electrum1.cipig.net:20005"
         ],
-        "BET": [
-            "electrum2.cipig.net:20012",
-            "electrum3.cipig.net:20012",
-            "electrum1.cipig.net:20012"
-        ],
-        "UIS": [
-            "failover.trc-uis.ewmcx.biz:50002"
+        "KOIN": [
+            "electrum1.cipig.net:20024",
+            "electrum2.cipig.net:20024",
+            "electrum3.cipig.net:20024"
         ],
         "NMC": [
             "nmc2.bitcoins.sk:57002"
         ],
-        "DIMI": [
-            "electrumx1.diminutivecoin.com:50012",
-            "electrumx2.diminutivecoin.com:50012"
+        "MESH": [
+            "electrum2.cipig.net:20016",
+            "electrum1.cipig.net:20016",
+            "electrum3.cipig.net:20016"
         ],
-        "tBLK": [
-            "electrum1.blackcoin.nl:10012",
-            "electrum3.blackcoin.nl:30012",
-            "electrum2.blackcoin.nl:20012"
+        "ACTN": [
+            "electrumx2.actioncoin.com:30001"
         ],
-        "BOTS": [
-            "electrum3.cipig.net:20007",
-            "electrum2.cipig.net:20007",
-            "electrum1.cipig.net:20007"
+        "tQTUM": [
+            "electrum3.cipig.net:20071",
+            "electrum2.cipig.net:20071",
+            "electrum1.cipig.net:20071"
         ],
-        "REVS": [
-            "electrum2.cipig.net:20003",
-            "electrum3.cipig.net:20003",
-            "electrum1.cipig.net:20003"
-        ],
-        "DGC": [
-            "failover.dgc.ewmcx.biz:50002"
-        ],
-        "WHIVE": [
-            "electrumx2.cointest.com:50002",
-            "electrumx1.cointest.com:50002"
-        ],
-        "TKL": [
-            "1.eu.tokel.electrum.dexstats.info:11077",
-            "2.eu.tokel.electrum.dexstats.info:11077"
-        ],
-        "NYAN": [
-            "txserver.live:50022",
-            "electrumx.live:50022"
-        ],
-        "EFL": [
-            "electrum2.egulden.org:50002",
-            "electrum1.egulden.org:50002"
-        ],
-        "RVN": [
-            "electrum3.cipig.net:20051",
-            "electrum1.cipig.net:20051",
-            "electrum2.cipig.net:20051"
-        ],
-        "SFUSD": [
-            "electrum3.cipig.net:20070",
-            "electrum1.cipig.net:20070",
-            "electrum2.cipig.net:20070"
-        ],
-        "XMY": [
-            "lenoir.ecoincore.com:10892"
-        ],
-        "LABS": [
-            "electrum3.cipig.net:20019",
-            "electrum2.cipig.net:20019",
-            "electrum1.cipig.net:20019"
+        "EMC2": [
+            "electrum2.cipig.net:20062",
+            "electrum1.cipig.net:20062",
+            "electrum3.cipig.net:20062"
         ],
         "LYNX": [
             "electrum5.getlynx.io:50002",
@@ -753,133 +499,399 @@
             "electrum8.getlynx.io:50002",
             "electrum9.getlynx.io:50002"
         ],
-        "SOULJA": [
-            "electrum2.cipig.net:20035",
-            "electrum1.cipig.net:20035",
-            "electrum3.cipig.net:20035"
+        "SFUSD": [
+            "electrum3.cipig.net:20070",
+            "electrum1.cipig.net:20070",
+            "electrum2.cipig.net:20070"
+        ],
+        "KMD": [
+            "electrum3.cipig.net:20001",
+            "electrum1.cipig.net:20001",
+            "electrum2.cipig.net:20001"
+        ],
+        "VAL": [
+            "e3.validitytech.com:11002",
+            "e2.validitytech.com:11002",
+            "e1.validitytech.com:11002"
+        ],
+        "RUNES": [
+            "electrum1.runebase.io:50002",
+            "electrum3.runebase.io:50002"
+        ],
+        "CDN": [
+            "seattle.ecoincore.com:34333",
+            "woolloomooloo.ecoincore.com:34333",
+            "lenoir.ecoincore.com:34333",
+            "holland.ecoincore.com:34333",
+            "mumbai.ecoincore.com:34333"
+        ],
+        "FTC": [
+            "electrum1.cipig.net:20054",
+            "electrum2.cipig.net:20054",
+            "electrum3.cipig.net:20054"
+        ],
+        "CHIPS": [
+            "electrum2.cipig.net:20053",
+            "electrum1.cipig.net:20053",
+            "electrum3.cipig.net:20053"
+        ],
+        "NINJA": [
+            "electrum1.cipig.net:20036",
+            "electrum2.cipig.net:20036",
+            "electrum3.cipig.net:20036"
+        ],
+        "TRC": [
+            "failover.trc-uis.ewmcx.biz:50006"
+        ],
+        "CRYPTO": [
+            "electrum1.cipig.net:20008",
+            "electrum2.cipig.net:20008",
+            "electrum3.cipig.net:20008"
+        ],
+        "ZEC": [
+            "electrum3.cipig.net:20058",
+            "electrum2.cipig.net:20058",
+            "electrum1.cipig.net:20058"
+        ],
+        "WHIVE": [
+            "electrumx2.cointest.com:50002",
+            "electrumx1.cointest.com:50002"
+        ],
+        "BCH": [
+            "electrum1.cipig.net:20055",
+            "electrum2.cipig.net:20055",
+            "electrum3.cipig.net:20055"
+        ],
+        "DOI": [
+            "pink-deer-69.doi.works:50002",
+            "itchy-jellyfish-89.doi.works:50002",
+            "big-parrot-60.doi.works:50002",
+            "ugly-bird-70.doi.works:50002"
+        ],
+        "tBCH": [
+            "testnet.bitcoincash.network:60002",
+            "electroncash.de:50004",
+            "tbch.loping.net:60002",
+            "electrs.electroncash.de:60002"
+        ],
+        "RICK": [
+            "electrum3.cipig.net:20017",
+            "electrum2.cipig.net:20017",
+            "electrum1.cipig.net:20017"
+        ],
+        "MORTY": [
+            "electrum3.cipig.net:20018",
+            "electrum2.cipig.net:20018",
+            "electrum1.cipig.net:20018"
+        ],
+        "DOGE": [
+            "electrum2.cipig.net:20060",
+            "electrum3.cipig.net:20060",
+            "electrum1.cipig.net:20060"
+        ],
+        "PRUX": [
+            "txserver.live:50002",
+            "electrumx.live:50012"
+        ],
+        "MGW": [
+            "electrum2.cipig.net:20015",
+            "electrum3.cipig.net:20015",
+            "electrum1.cipig.net:20015"
+        ],
+        "LTC": [
+            "electrum1.cipig.net:20063",
+            "electrum3.cipig.net:20063",
+            "electrum2.cipig.net:20063"
+        ],
+        "LABS": [
+            "electrum3.cipig.net:20019",
+            "electrum2.cipig.net:20019",
+            "electrum1.cipig.net:20019"
+        ],
+        "BSTY": [
+            "bsty-main.coinmunity.gold:50012",
+            "bsty-bkp.coinmunity.gold:50012"
+        ],
+        "UNO": [
+            "uno-bkp.coinmunity.gold:50002",
+            "uno-main.coinmunity.gold:50002"
+        ],
+        "FLUX": [
+            "electrumx.runonflux.io:50002"
+        ],
+        "BET": [
+            "electrum2.cipig.net:20012",
+            "electrum3.cipig.net:20012",
+            "electrum1.cipig.net:20012"
+        ],
+        "BTC": [
+            "electrum1.cipig.net:20000",
+            "electrum2.cipig.net:20000",
+            "electrum3.cipig.net:20000"
+        ],
+        "LBC": [
+            "electrum1.cipig.net:20067",
+            "electrum2.cipig.net:20067",
+            "electrum3.cipig.net:20067"
+        ],
+        "MSHARK": [
+            "electrum1.cipig.net:20013",
+            "electrum3.cipig.net:20013",
+            "electrum2.cipig.net:20013"
+        ],
+        "NVC": [
+            "electrumx.nvc.ewmcx.org:50002",
+            "failover.nvc.ewmcx.biz:50002"
+        ],
+        "HODL": [
+            "electrum1.cipig.net:20009",
+            "electrum3.cipig.net:20009",
+            "electrum2.cipig.net:20009"
+        ],
+        "AXE": [
+            "electrum1.cipig.net:20057",
+            "electrum3.cipig.net:20057",
+            "electrum2.cipig.net:20057"
+        ],
+        "FJC": [
+            "electrumx1.fujicoin.org:50003",
+            "electrumx2.fujicoin.org:50003"
+        ],
+        "ABY": [
+            "electrumx-four.artbyte.live:50012",
+            "electrumx-three.artbyte.live:50012",
+            "elec-seeder-one.artbytecoin.org:50012",
+            "elec-seeder-two.artbytecoin.org:50012"
+        ],
+        "ECA": [
+            "electrum1.cipig.net:20052",
+            "electrum2.cipig.net:20052",
+            "electrum3.cipig.net:20052"
+        ],
+        "RVN": [
+            "electrum3.cipig.net:20051",
+            "electrum1.cipig.net:20051",
+            "electrum2.cipig.net:20051"
+        ],
+        "EFL": [
+            "electrum2.egulden.org:50002",
+            "electrum1.egulden.org:50002"
+        ],
+        "DGC": [
+            "failover.dgc.ewmcx.biz:50002"
+        ],
+        "PPC": [
+            "electrum.peercoinexplorer.net:50002",
+            "allingas.peercoinexplorer.net:50002"
+        ],
+        "tBLK": [
+            "electrum1.blackcoin.nl:10012",
+            "electrum3.blackcoin.nl:30012",
+            "electrum2.blackcoin.nl:20012"
+        ],
+        "DIMI": [
+            "electrumx2.diminutivecoin.com:50012",
+            "electrumx1.diminutivecoin.com:50012"
+        ],
+        "QTUM": [
+            "electrum2.cipig.net:20050",
+            "electrum3.cipig.net:20050",
+            "electrum1.cipig.net:20050"
+        ],
+        "AUR": [
+            "electrumx.aur.ewmcx.info:50002",
+            "failover.aur.ewmcx.biz:50002"
+        ],
+        "JUMBLR": [
+            "electrum3.cipig.net:20004",
+            "electrum1.cipig.net:20004",
+            "electrum2.cipig.net:20004"
+        ],
+        "BLK": [
+            "electrum2.blackcoin.nl:20002",
+            "electrum1.blackcoin.nl:10002",
+            "electrum3.blackcoin.nl:30002"
+        ],
+        "BOTS": [
+            "electrum3.cipig.net:20007",
+            "electrum2.cipig.net:20007",
+            "electrum1.cipig.net:20007"
+        ],
+        "SYS": [
+            "electrum1.cipig.net:20064",
+            "electrum2.cipig.net:20064",
+            "electrum3.cipig.net:20064"
+        ],
+        "UIS": [
+            "failover.trc-uis.ewmcx.biz:50002"
+        ],
+        "DGB": [
+            "electrum1.cipig.net:20059",
+            "electrum3.cipig.net:20059",
+            "electrum2.cipig.net:20059"
+        ],
+        "tBTC": [
+            "electrum2.cipig.net:20068",
+            "electrum1.cipig.net:20068",
+            "electrum3.cipig.net:20068"
+        ],
+        "IL8P": [
+            "il8p.electrumx.transcenders.name:50002",
+            "il9p.electrumx.transcenders.name:50002"
+        ],
+        "XMY": [
+            "lenoir.ecoincore.com:10892"
+        ],
+        "TKL": [
+            "1.eu.tokel.electrum.dexstats.info:11077",
+            "2.eu.tokel.electrum.dexstats.info:11077"
+        ],
+        "SPACE": [
+            "electrum1.cipig.net:20011",
+            "electrum3.cipig.net:20011",
+            "electrum2.cipig.net:20011"
+        ],
+        "XEC": [
+            "electrum.bitcoinabc.org:50002",
+            "fulcrum.pepipierre.fr:50002"
+        ],
+        "WSB": [
+            "electrum2.cipig.net:20033",
+            "electrum1.cipig.net:20033",
+            "electrum3.cipig.net:20033"
+        ],
+        "CCL": [
+            "electrum3.cipig.net:20029",
+            "electrum2.cipig.net:20029",
+            "electrum1.cipig.net:20029"
         ],
         "GLEEC": [
-            "electrum3.cipig.net:20022",
-            "electrum1.cipig.net:20022",
-            "electrum2.cipig.net:20022"
+            "electrum3.cipig.net:20022"
         ]
     },
     "failed": {
         "ARRR": {
-            "pirate.sirseven.me:10032": "[Errno 111] Connection refused"
+            "pirate.sirseven.me:10032": "[Errno 101] Network is unreachable"
         },
-        "BSTY": {
-            "66.172.33.175:50001": "[Errno 111] Connection refused"
+        "MONA": {
+            "electrumx1.monacoin.ninja:50001": "[Errno 101] Network is unreachable"
         },
-        "XVC": {
+        "XVC-OLD": {
             "electrumx.xvc.ewmcx.org:50001": "[Errno 111] Connection refused"
         },
-        "USBL": {
-            "swap.softbalanced.com:50001": "[Errno -3] Temporary failure in name resolution"
+        "SMART": {
+            "electrum5.smartcash.cc:50001": "[Errno 111] Connection refused",
+            "electrum6.smartcash.cc:50001": "[Errno 111] Connection refused",
+            "electrum3.smartcash.cc:50001": "timed out",
+            "electrum4.smartcash.cc:50001": "timed out"
         },
         "RUNES": {
             "electrum2.runebase.io:50001": "[Errno 111] Connection refused",
             "electrum4.runebase.io:50001": "[Errno 111] Connection refused"
         },
-        "SMART": {
-            "electrum6.smartcash.cc:50001": "[Errno 111] Connection refused",
-            "electrum5.smartcash.cc:50001": "[Errno 111] Connection refused",
-            "electrum3.smartcash.cc:50001": "[Errno 113] No route to host",
-            "electrum4.smartcash.cc:50001": "timed out"
+        "XVC": {
+            "electrumx.xvc.ewmcx.org:50001": "[Errno 111] Connection refused"
         },
         "NMC": {
-            "nmc.bitcoins.sk:50001": "[Errno 113] No route to host",
-            "82.119.233.36:50001": "timed out"
-        },
-        "XVC-OLD": {
-            "electrumx.xvc.ewmcx.org:50001": "[Errno 111] Connection refused"
+            "nmc.bitcoins.sk:50001": "timed out",
+            "electrumx3.nmc.bitclc.net:50001": "[Errno 101] Network is unreachable",
+            "electrumx4.nmc.bitclc.net:50001": "[Errno 101] Network is unreachable",
+            "82.119.233.36:50001": "timed out",
+            "electrumx2.nmc.bitclc.net:50001": "[Errno 101] Network is unreachable",
+            "electrumx1.nmc.bitclc.net:50001": "[Errno 101] Network is unreachable"
         },
         "ACTN": {
             "electrumx1.actioncoin.com:10001": "timed out"
         },
-        "LNC": {
-            "74.56.11.23:50001": "timed out"
-        },
-        "PRUX": {
-            "txserver.live:50001": "timed out",
-            "electrumx.live:50010": "timed out"
+        "USBL": {
+            "swap.softbalanced.com:50001": "[Errno -3] Temporary failure in name resolution"
         },
         "LYNX": {
             "electrum.getlynx.io:50001": "timed out"
+        },
+        "BSTY": {
+            "66.172.33.175:50001": "[Errno 111] Connection refused"
+        },
+        "LNC": {
+            "74.56.11.23:50001": "timed out"
         }
     },
     "failed_ssl": {
-        "AUR": {
-            "lenoir.ecoincore.com:12343": "[Errno 111] Connection refused"
+        "ZET": {
+            "zeta-seed-c.zetacoin.tech:50012": "[Errno 111] Connection refused",
+            "failover.zet.ewmci.xyz:50002": "[Errno 111] Connection refused"
+        },
+        "LYNX": {
+            "electrum.dirtdivas.net:50002": "[Errno -2] Name or service not known",
+            "electrum.deliverypath.com:50002": "[Errno -5] No address associated with hostname",
+            "electrum.getlynx.club:50002": "[Errno 111] Connection refused",
+            "electrum.atechhelp.com:50002": "timed out"
         },
         "RUNES": {
             "electrum2.runebase.io:50002": "[Errno 111] Connection refused",
             "electrum4.runebase.io:50002": "[Errno 111] Connection refused"
         },
+        "NMC": {
+            "nmc.bitcoins.sk:50002": "timed out"
+        },
+        "ACTN": {
+            "electrumx1.actioncoin.com:30001": "timed out"
+        },
         "USBL": {
             "swap.softbalanced.com:50002": "[Errno -3] Temporary failure in name resolution"
-        },
-        "ZET": {
-            "zeta-seed-c.zetacoin.tech:50012": "[Errno 111] Connection refused",
-            "failover.zet.ewmci.xyz:50002": "[Errno 111] Connection refused"
         },
         "CDN": {
             "chicago.ecoincore.com:34333": "timed out",
             "oakland.ecoincore.com:34333": "timed out",
             "miami.ecoincore.com:34333": "timed out"
         },
-        "NMC": {
-            "nmc.bitcoins.sk:50002": "[Errno 113] No route to host"
-        },
         "EFL": {
             "holland.ecoincore.com:11017": "[Errno 111] Connection refused",
             "lenoir.ecoincore.com:11017": "[Errno 111] Connection refused",
             "electrum5.egulden.org:11017": "[Errno 111] Connection refused"
         },
-        "ACTN": {
-            "electrumx1.actioncoin.com:30001": "timed out"
-        },
-        "LYNX": {
-            "electrum.dirtdivas.net:50002": "[Errno -2] Name or service not known",
-            "electrum.deliverypath.com:50002": "[Errno -2] Name or service not known",
-            "electrum.getlynx.club:50002": "[Errno 111] Connection refused",
-            "electrum.atechhelp.com:50002": "timed out"
-        },
-        "PRUX": {
-            "txserver.live:50002": "The read operation timed out",
-            "electrumx.live:50012": "The read operation timed out"
+        "AUR": {
+            "lenoir.ecoincore.com:12343": "[Errno 111] Connection refused"
         }
     },
-    "tBTC": {
-        "passed": 7,
+    "WHIVE": {
+        "passed": 4,
         "failed": 0
     },
-    "XEC": {
-        "passed": 2,
-        "failed": 0
-    },
-    "ZILLA": {
-        "passed": 6,
+    "CLC": {
+        "passed": 1,
         "failed": 0
     },
     "VRSC": {
         "passed": 6,
         "failed": 0
     },
-    "BOTS": {
+    "QTUM": {
         "passed": 6,
         "failed": 0
     },
-    "DEX": {
+    "RVN": {
         "passed": 6,
         "failed": 0
     },
-    "ZOMBIE": {
-        "passed": 1,
-        "failed": 0
-    },
-    "PPC": {
+    "UNO": {
         "passed": 2,
+        "failed": 0
+    },
+    "PRUX": {
+        "passed": 4,
+        "failed": 0
+    },
+    "tBTC": {
+        "passed": 7,
+        "failed": 0
+    },
+    "SCA": {
+        "passed": 3,
+        "failed": 0
+    },
+    "ZILLA": {
+        "passed": 6,
         "failed": 0
     },
     "SMART": {
@@ -890,275 +902,11 @@
         "passed": 6,
         "failed": 0
     },
-    "ACTN": {
-        "passed": 2,
-        "failed": 2
-    },
-    "PANGEA": {
-        "passed": 6,
-        "failed": 0
-    },
-    "GLEEC": {
-        "passed": 6,
-        "failed": 0
-    },
-    "WCN": {
-        "passed": 3,
-        "failed": 0
-    },
-    "AVN": {
-        "passed": 2,
-        "failed": 0
-    },
-    "ZER": {
-        "passed": 6,
-        "failed": 0
-    },
-    "NYAN": {
+    "FJC": {
         "passed": 4,
         "failed": 0
     },
-    "NMC": {
-        "passed": 2,
-        "failed": 3
-    },
-    "LNC": {
-        "passed": 1,
-        "failed": 1
-    },
-    "tQTUM": {
-        "passed": 6,
-        "failed": 0
-    },
-    "BSTY": {
-        "passed": 2,
-        "failed": 1
-    },
-    "TRC": {
-        "passed": 3,
-        "failed": 0
-    },
-    "XPM": {
-        "passed": 3,
-        "failed": 0
-    },
-    "ARRR": {
-        "passed": 0,
-        "failed": 1
-    },
-    "ILN": {
-        "passed": 2,
-        "failed": 0
-    },
-    "BTX": {
-        "passed": 1,
-        "failed": 0
-    },
-    "SPACE": {
-        "passed": 6,
-        "failed": 0
-    },
-    "VAL": {
-        "passed": 6,
-        "failed": 0
-    },
-    "LCC": {
-        "passed": 1,
-        "failed": 0
-    },
-    "USBL": {
-        "passed": 0,
-        "failed": 2
-    },
-    "WSB": {
-        "passed": 6,
-        "failed": 0
-    },
-    "tBCH": {
-        "passed": 4,
-        "failed": 0
-    },
-    "LTC": {
-        "passed": 6,
-        "failed": 0
-    },
-    "MCL": {
-        "passed": 6,
-        "failed": 0
-    },
-    "XVC-OLD": {
-        "passed": 1,
-        "failed": 1
-    },
-    "CCL": {
-        "passed": 6,
-        "failed": 0
-    },
-    "ECA": {
-        "passed": 6,
-        "failed": 0
-    },
-    "QTUM": {
-        "passed": 6,
-        "failed": 0
-    },
-    "RTM": {
-        "passed": 2,
-        "failed": 0
-    },
-    "DIMI": {
-        "passed": 2,
-        "failed": 0
-    },
-    "MGW": {
-        "passed": 6,
-        "failed": 0
-    },
-    "BTCZ": {
-        "passed": 2,
-        "failed": 0
-    },
-    "SCA": {
-        "passed": 3,
-        "failed": 0
-    },
-    "EFL": {
-        "passed": 2,
-        "failed": 3
-    },
-    "FLUX": {
-        "passed": 2,
-        "failed": 0
-    },
-    "REVS": {
-        "passed": 6,
-        "failed": 0
-    },
-    "THC": {
-        "passed": 2,
-        "failed": 0
-    },
-    "WHIVE": {
-        "passed": 4,
-        "failed": 0
-    },
-    "BET": {
-        "passed": 6,
-        "failed": 0
-    },
-    "CRYPTO": {
-        "passed": 6,
-        "failed": 0
-    },
-    "AUR": {
-        "passed": 2,
-        "failed": 1
-    },
-    "DOI": {
-        "passed": 5,
-        "failed": 0
-    },
-    "ZET": {
-        "passed": 1,
-        "failed": 2
-    },
-    "UNO": {
-        "passed": 2,
-        "failed": 0
-    },
-    "DGB": {
-        "passed": 6,
-        "failed": 0
-    },
-    "BCH": {
-        "passed": 6,
-        "failed": 0
-    },
-    "XMY": {
-        "passed": 2,
-        "failed": 0
-    },
-    "AXE": {
-        "passed": 6,
-        "failed": 0
-    },
-    "NVC": {
-        "passed": 2,
-        "failed": 0
-    },
-    "NENG": {
-        "passed": 3,
-        "failed": 0
-    },
-    "SYS": {
-        "passed": 6,
-        "failed": 0
-    },
-    "ABY": {
-        "passed": 4,
-        "failed": 0
-    },
-    "NAV": {
-        "passed": 4,
-        "failed": 0
-    },
-    "VRM": {
-        "passed": 1,
-        "failed": 0
-    },
-    "CDN": {
-        "passed": 5,
-        "failed": 3
-    },
-    "DP": {
-        "passed": 1,
-        "failed": 0
-    },
-    "ZEC": {
-        "passed": 6,
-        "failed": 0
-    },
-    "DASH": {
-        "passed": 6,
-        "failed": 0
-    },
-    "XRG": {
-        "passed": 2,
-        "failed": 0
-    },
-    "MSHARK": {
-        "passed": 6,
-        "failed": 0
-    },
-    "FTC": {
-        "passed": 6,
-        "failed": 0
-    },
-    "JUMBLR": {
-        "passed": 6,
-        "failed": 0
-    },
-    "MESH": {
-        "passed": 6,
-        "failed": 0
-    },
-    "CLC": {
-        "passed": 1,
-        "failed": 0
-    },
-    "SOULJA": {
-        "passed": 6,
-        "failed": 0
-    },
-    "GRS": {
-        "passed": 5,
-        "failed": 0
-    },
-    "HODL": {
-        "passed": 6,
-        "failed": 0
-    },
-    "RVN": {
+    "EMC2": {
         "passed": 6,
         "failed": 0
     },
@@ -1166,55 +914,23 @@
         "passed": 6,
         "failed": 0
     },
-    "IL8P": {
+    "USBL": {
+        "passed": 0,
+        "failed": 2
+    },
+    "ZOMBIE": {
+        "passed": 1,
+        "failed": 0
+    },
+    "PPC": {
         "passed": 2,
         "failed": 0
     },
-    "LBC": {
-        "passed": 6,
-        "failed": 0
-    },
-    "NINJA": {
-        "passed": 6,
-        "failed": 0
-    },
-    "CHTA": {
-        "passed": 3,
-        "failed": 0
-    },
-    "BTE": {
-        "passed": 2,
-        "failed": 0
-    },
-    "SUPERNET": {
-        "passed": 6,
-        "failed": 0
-    },
-    "BTC": {
-        "passed": 6,
-        "failed": 0
-    },
-    "DGC": {
-        "passed": 2,
-        "failed": 0
-    },
-    "EMC2": {
-        "passed": 6,
-        "failed": 0
-    },
-    "RICK": {
-        "passed": 6,
-        "failed": 0
-    },
-    "TKL": {
+    "ABY": {
         "passed": 4,
         "failed": 0
     },
-    "FJC": {
-        "passed": 4,
-        "failed": 0
-    },
-    "DOGE": {
+    "MCL": {
         "passed": 6,
         "failed": 0
     },
@@ -1222,31 +938,215 @@
         "passed": 6,
         "failed": 0
     },
-    "SFUSD": {
-        "passed": 6,
+    "LCC": {
+        "passed": 1,
         "failed": 0
     },
-    "RUNES": {
-        "passed": 4,
-        "failed": 4
+    "ARRR": {
+        "passed": 0,
+        "failed": 1
+    },
+    "DGB": {
+        "passed": 6,
+        "failed": 0
     },
     "PND": {
         "passed": 1,
         "failed": 0
     },
-    "FIRO": {
+    "ZEC": {
+        "passed": 6,
+        "failed": 0
+    },
+    "CHTA": {
         "passed": 3,
         "failed": 0
     },
-    "MONA": {
+    "CHIPS": {
+        "passed": 6,
+        "failed": 0
+    },
+    "tBCH": {
         "passed": 4,
+        "failed": 0
+    },
+    "SUPERNET": {
+        "passed": 6,
+        "failed": 0
+    },
+    "LYNX": {
+        "passed": 5,
+        "failed": 5
+    },
+    "XVC-OLD": {
+        "passed": 1,
+        "failed": 1
+    },
+    "RTM": {
+        "passed": 2,
+        "failed": 0
+    },
+    "XRG": {
+        "passed": 2,
+        "failed": 0
+    },
+    "GRS": {
+        "passed": 5,
+        "failed": 0
+    },
+    "SYS": {
+        "passed": 6,
+        "failed": 0
+    },
+    "CCL": {
+        "passed": 6,
+        "failed": 0
+    },
+    "THC": {
+        "passed": 2,
+        "failed": 0
+    },
+    "ILN": {
+        "passed": 2,
+        "failed": 0
+    },
+    "ZER": {
+        "passed": 6,
+        "failed": 0
+    },
+    "SFUSD": {
+        "passed": 6,
+        "failed": 0
+    },
+    "AVN": {
+        "passed": 2,
+        "failed": 0
+    },
+    "BCH": {
+        "passed": 6,
+        "failed": 0
+    },
+    "EFL": {
+        "passed": 2,
+        "failed": 3
+    },
+    "CRYPTO": {
+        "passed": 6,
+        "failed": 0
+    },
+    "LBC": {
+        "passed": 6,
+        "failed": 0
+    },
+    "MSHARK": {
+        "passed": 6,
+        "failed": 0
+    },
+    "DASH": {
+        "passed": 6,
+        "failed": 0
+    },
+    "BET": {
+        "passed": 6,
+        "failed": 0
+    },
+    "CDN": {
+        "passed": 5,
+        "failed": 3
+    },
+    "LABS": {
+        "passed": 6,
+        "failed": 0
+    },
+    "ACTN": {
+        "passed": 2,
+        "failed": 2
+    },
+    "MESH": {
+        "passed": 6,
+        "failed": 0
+    },
+    "AXE": {
+        "passed": 6,
+        "failed": 0
+    },
+    "BTX": {
+        "passed": 1,
+        "failed": 0
+    },
+    "BTE": {
+        "passed": 2,
+        "failed": 0
+    },
+    "DGC": {
+        "passed": 2,
+        "failed": 0
+    },
+    "LNC": {
+        "passed": 1,
+        "failed": 1
+    },
+    "VRM": {
+        "passed": 1,
+        "failed": 0
+    },
+    "IL8P": {
+        "passed": 2,
+        "failed": 0
+    },
+    "tQTUM": {
+        "passed": 6,
+        "failed": 0
+    },
+    "DOI": {
+        "passed": 5,
+        "failed": 0
+    },
+    "DIMI": {
+        "passed": 2,
+        "failed": 0
+    },
+    "BTCZ": {
+        "passed": 2,
+        "failed": 0
+    },
+    "BOTS": {
+        "passed": 6,
+        "failed": 0
+    },
+    "XMY": {
+        "passed": 2,
+        "failed": 0
+    },
+    "BTC": {
+        "passed": 6,
+        "failed": 0
+    },
+    "NVC": {
+        "passed": 2,
+        "failed": 0
+    },
+    "ZET": {
+        "passed": 1,
+        "failed": 2
+    },
+    "FLUX": {
+        "passed": 2,
         "failed": 0
     },
     "BLK": {
         "passed": 6,
         "failed": 0
     },
-    "CHIPS": {
+    "BSTY": {
+        "passed": 2,
+        "failed": 1
+    },
+    "UIS": {
+        "passed": 2,
+        "failed": 0
+    },
+    "WSB": {
         "passed": 6,
         "failed": 0
     },
@@ -1254,24 +1154,128 @@
         "passed": 3,
         "failed": 1
     },
-    "LYNX": {
-        "passed": 5,
-        "failed": 5
-    },
-    "PRUX": {
-        "passed": 0,
-        "failed": 4
-    },
-    "LABS": {
+    "VAL": {
         "passed": 6,
         "failed": 0
     },
-    "UIS": {
-        "passed": 2,
+    "TRC": {
+        "passed": 3,
+        "failed": 0
+    },
+    "MONA": {
+        "passed": 3,
+        "failed": 1
+    },
+    "RICK": {
+        "passed": 6,
+        "failed": 0
+    },
+    "SOULJA": {
+        "passed": 6,
         "failed": 0
     },
     "MORTY": {
         "passed": 6,
         "failed": 0
+    },
+    "NINJA": {
+        "passed": 6,
+        "failed": 0
+    },
+    "NYAN": {
+        "passed": 4,
+        "failed": 0
+    },
+    "XPM": {
+        "passed": 3,
+        "failed": 0
+    },
+    "HODL": {
+        "passed": 6,
+        "failed": 0
+    },
+    "DP": {
+        "passed": 1,
+        "failed": 0
+    },
+    "NENG": {
+        "passed": 3,
+        "failed": 0
+    },
+    "SPACE": {
+        "passed": 6,
+        "failed": 0
+    },
+    "NAV": {
+        "passed": 4,
+        "failed": 0
+    },
+    "WCN": {
+        "passed": 3,
+        "failed": 0
+    },
+    "FTC": {
+        "passed": 6,
+        "failed": 0
+    },
+    "XEC": {
+        "passed": 2,
+        "failed": 0
+    },
+    "NMC": {
+        "passed": 2,
+        "failed": 7
+    },
+    "REVS": {
+        "passed": 6,
+        "failed": 0
+    },
+    "ECA": {
+        "passed": 6,
+        "failed": 0
+    },
+    "DEX": {
+        "passed": 6,
+        "failed": 0
+    },
+    "GLEEC": {
+        "passed": 4,
+        "failed": 0
+    },
+    "PANGEA": {
+        "passed": 6,
+        "failed": 0
+    },
+    "DOGE": {
+        "passed": 6,
+        "failed": 0
+    },
+    "RUNES": {
+        "passed": 4,
+        "failed": 4
+    },
+    "FIRO": {
+        "passed": 3,
+        "failed": 0
+    },
+    "JUMBLR": {
+        "passed": 6,
+        "failed": 0
+    },
+    "MGW": {
+        "passed": 6,
+        "failed": 0
+    },
+    "LTC": {
+        "passed": 6,
+        "failed": 0
+    },
+    "TKL": {
+        "passed": 4,
+        "failed": 0
+    },
+    "AUR": {
+        "passed": 2,
+        "failed": 1
     }
 }

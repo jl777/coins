@@ -6907,30 +6907,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "electrum1.cipig.net:20022",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20022",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
             }
         ],
         "asset": "GLEEC"
@@ -10309,9 +10285,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx1.monacoin.ninja:50001"
-            },
-            {
                 "url": "electrumx.tamami-foundation.org:50001"
             },
             {
@@ -12133,6 +12106,43 @@
             "https://rpc-mainnet.maticvigil.com"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
+    "PRUX": {
+        "coin": "PRUX",
+        "type": "UTXO",
+        "name": "PRUX",
+        "coinpaprika_id": "prux-prux-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "PRUX",
+        "explorer_url": [
+            "https://explorer.prux.info/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "txserver.live:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP"
+            },
+            {
+                "url": "txserver.live:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL"
+            }
+        ]
     },
     "PTX": {
         "coin": "PTX",
