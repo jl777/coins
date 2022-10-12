@@ -709,6 +709,31 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
     },
+    "ANKR-PLG20": {
+        "coin": "ANKR-PLG20",
+        "type": "Matic",
+        "name": "Ankr",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://polygonscan.com/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x101A023270368c0D50BFfb62780F4aFd4ea79C35",
+        "nodes": [
+            "https://polygon-rpc.com",
+            "https://poly-rpc.gateway.pokt.network",
+            "https://rpc-mainnet.maticvigil.com"
+        ],
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
     "APE-ERC20": {
         "coin": "APE-ERC20",
         "type": "ERC-20",
@@ -759,6 +784,54 @@
             "http://bsc3.cipig.net:8655"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+    },
+    "APE-FTM20": {
+        "coin": "APE-FTM20",
+        "type": "FTM-20",
+        "name": "ApeCoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://ftmscan.com/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x2d72A97a31Dc920dB03330780d30074626e39C8A",
+        "nodes": [
+            "https://rpc.ftm.tools/"
+        ],
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
+    "APE-PLG20": {
+        "coin": "APE-PLG20",
+        "type": "Matic",
+        "name": "ApeCoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://polygonscan.com/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xB7b31a6BC18e48888545CE79e83E06003bE70930",
+        "nodes": [
+            "https://polygon-rpc.com",
+            "https://poly-rpc.gateway.pokt.network",
+            "https://rpc-mainnet.maticvigil.com"
+        ],
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
     "ARPA-BEP20": {
         "coin": "ARPA-BEP20",
@@ -811,6 +884,31 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
     },
+    "ARRR": {
+        "coin": "ARRR",
+        "type": "ZHTLC",
+        "name": "Pirate",
+        "coinpaprika_id": "arrr-pirate",
+        "coingecko_id": "pirate-chain",
+        "nomics_id": "ARRR",
+        "explorer_url": [
+            "https://pirate.explorer.dexstats.info/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "light_wallet_d_servers": [],
+        "electrum": [
+            {
+                "url": "pirate.sirseven.me:10032"
+            }
+        ],
+        "asset": "PIRATE"
+    },
     "ARRR-BEP20": {
         "coin": "ARRR-BEP20",
         "type": "BEP-20",
@@ -860,6 +958,31 @@
             "http://bsc3.cipig.net:8655"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+    },
+    "ATOM-PLG20": {
+        "coin": "ATOM-PLG20",
+        "type": "Matic",
+        "name": "Cosmos",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://polygonscan.com/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xac51C4c48Dc3116487eD4BC16542e27B5694Da1b",
+        "nodes": [
+            "https://polygon-rpc.com",
+            "https://poly-rpc.gateway.pokt.network",
+            "https://rpc-mainnet.maticvigil.com"
+        ],
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
     "AUR": {
         "coin": "AUR",
@@ -2452,6 +2575,55 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "forex_id": "BRL"
+    },
+    "BRZ-PLG20": {
+        "coin": "BRZ-PLG20",
+        "type": "Matic",
+        "name": "Brazilian Digital Token",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://polygonscan.com/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f",
+        "nodes": [
+            "https://polygon-rpc.com",
+            "https://poly-rpc.gateway.pokt.network",
+            "https://rpc-mainnet.maticvigil.com"
+        ],
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
+    "BRZ-AVX20": {
+        "coin": "BRZ-AVX20",
+        "type": "AVX-20",
+        "name": "Brazilian Digital Token",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://cchain.explorer.avax.network/",
+            "https://snowtrace.io/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f",
+        "nodes": [
+            "https://api.avax.network/ext/bc/C/rpc"
+        ],
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
     "BSTY": {
         "coin": "BSTY",
@@ -6911,6 +7083,57 @@
         ],
         "asset": "GLEEC"
     },
+    "GLM-ERC20": {
+        "coin": "GLM-ERC20",
+        "type": "ERC-20",
+        "name": "Golem",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://etherscan.io/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429",
+        "nodes": [
+            "http://eth1.cipig.net:8555",
+            "http://eth2.cipig.net:8555",
+            "http://eth3.cipig.net:8555"
+        ],
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
+    },
+    "GLM-PLG20": {
+        "coin": "GLM-PLG20",
+        "type": "Matic",
+        "name": "Golem",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://polygonscan.com/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x0B220b82F3eA3B7F6d9A1D8ab58930C064A2b5Bf",
+        "nodes": [
+            "https://polygon-rpc.com",
+            "https://poly-rpc.gateway.pokt.network",
+            "https://rpc-mainnet.maticvigil.com"
+        ],
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
     "GM-BEP20": {
         "coin": "GM-BEP20",
         "type": "BEP-20",
@@ -6960,6 +7183,30 @@
             "http://bsc3.cipig.net:8655"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+    },
+    "GMX-AVX20": {
+        "coin": "GMX-AVX20",
+        "type": "AVX-20",
+        "name": "GMX",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://cchain.explorer.avax.network/",
+            "https://snowtrace.io/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x62edc0692BD897D2295872a9FFCac5425011c661",
+        "nodes": [
+            "https://api.avax.network/ext/bc/C/rpc"
+        ],
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
     "GNO-ERC20": {
         "coin": "GNO-ERC20",
@@ -8458,6 +8705,55 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
     },
+    "KNC-PLG20": {
+        "coin": "KNC-PLG20",
+        "type": "Matic",
+        "name": "Kyber Network",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://polygonscan.com/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x1C954E8fe737F99f68Fa1CCda3e51ebDB291948C",
+        "nodes": [
+            "https://polygon-rpc.com",
+            "https://poly-rpc.gateway.pokt.network",
+            "https://rpc-mainnet.maticvigil.com"
+        ],
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
+    "KNC-AVX20": {
+        "coin": "KNC-AVX20",
+        "type": "AVX-20",
+        "name": "Kyber Network",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://cchain.explorer.avax.network/",
+            "https://snowtrace.io/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x39fC9e94Caeacb435842FADeDeCB783589F50f5f",
+        "nodes": [
+            "https://api.avax.network/ext/bc/C/rpc"
+        ],
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
     "KOIN": {
         "coin": "KOIN",
         "type": "Smart Chain",
@@ -8752,6 +9048,57 @@
         "address_format": {
             "format": "standard"
         }
+    },
+    "LDO-ERC20": {
+        "coin": "LDO-ERC20",
+        "type": "ERC-20",
+        "name": "Lido DAO",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://etherscan.io/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+        "nodes": [
+            "http://eth1.cipig.net:8555",
+            "http://eth2.cipig.net:8555",
+            "http://eth3.cipig.net:8555"
+        ],
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
+    },
+    "LDO-PLG20": {
+        "coin": "LDO-PLG20",
+        "type": "Matic",
+        "name": "Lido DAO",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://polygonscan.com/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756",
+        "nodes": [
+            "https://polygon-rpc.com",
+            "https://poly-rpc.gateway.pokt.network",
+            "https://rpc-mainnet.maticvigil.com"
+        ],
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
     "LNC": {
         "coin": "LNC",
@@ -12215,6 +12562,29 @@
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
     },
+    "SHIB-KRC20": {
+        "coin": "SHIB-KRC20",
+        "type": "KRC-20",
+        "name": "Shiba Inu",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://explorer.kcc.io/en/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x73b6086955c820370A18002F60E9b51FB67d7e1A",
+        "nodes": [
+            "https://rpc-mainnet.kcc.network"
+        ],
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
     "QC": {
         "coin": "QC",
         "type": "QRC-20",
@@ -13763,6 +14133,31 @@
             "http://bsc3.cipig.net:8655"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+    },
+    "SOL-PLG20": {
+        "coin": "SOL-PLG20",
+        "type": "Matic",
+        "name": "Solana",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://polygonscan.com/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x7DfF46370e9eA5f0Bad3C4E29711aD50062EA7A4",
+        "nodes": [
+            "https://polygon-rpc.com",
+            "https://poly-rpc.gateway.pokt.network",
+            "https://rpc-mainnet.maticvigil.com"
+        ],
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
     "SOLVE": {
         "coin": "SOLVE",
@@ -16568,6 +16963,129 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
+    "WOO-ERC20": {
+        "coin": "WOO-ERC20",
+        "type": "ERC-20",
+        "name": "WOO Network",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://etherscan.io/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
+        "nodes": [
+            "http://eth1.cipig.net:8555",
+            "http://eth2.cipig.net:8555",
+            "http://eth3.cipig.net:8555"
+        ],
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
+    },
+    "WOO-AVX20": {
+        "coin": "WOO-AVX20",
+        "type": "AVX-20",
+        "name": "WOO Network",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://cchain.explorer.avax.network/",
+            "https://snowtrace.io/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xaBC9547B534519fF73921b1FBA6E672b5f58D083",
+        "nodes": [
+            "https://api.avax.network/ext/bc/C/rpc"
+        ],
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
+    "WOO-BEP20": {
+        "coin": "WOO-BEP20",
+        "type": "BEP-20",
+        "name": "WOO Network",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://bscscan.com/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
+        "nodes": [
+            "http://bsc1.cipig.net:8655",
+            "http://bsc2.cipig.net:8655",
+            "http://bsc3.cipig.net:8655"
+        ],
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31"
+    },
+    "WOO-FTM20": {
+        "coin": "WOO-FTM20",
+        "type": "FTM-20",
+        "name": "WOO Network",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://ftmscan.com/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x6626c47c00F1D87902fc13EECfaC3ed06D5E8D8a",
+        "nodes": [
+            "https://rpc.ftm.tools/"
+        ],
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
+    "WOO-PLG20": {
+        "coin": "WOO-PLG20",
+        "type": "Matic",
+        "name": "WOO Network",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://polygonscan.com/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x1B815d120B3eF02039Ee11dC2d33DE7aA4a8C603",
+        "nodes": [
+            "https://polygon-rpc.com",
+            "https://poly-rpc.gateway.pokt.network",
+            "https://rpc-mainnet.maticvigil.com"
+        ],
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
     "WSB": {
         "coin": "WSB",
         "type": "Smart Chain",
@@ -17293,6 +17811,31 @@
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
+    "YFI-PLG20": {
+        "coin": "YFI-PLG20",
+        "type": "Matic",
+        "name": "yearn.finance",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [
+            "https://polygonscan.com/"
+        ],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xDA537104D6A5edd53c6fBba9A898708E465260b6",
+        "nodes": [
+            "https://polygon-rpc.com",
+            "https://poly-rpc.gateway.pokt.network",
+            "https://rpc-mainnet.maticvigil.com"
+        ],
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+    },
     "YFII-BEP20": {
         "coin": "YFII-BEP20",
         "type": "BEP-20",
@@ -17557,6 +18100,11 @@
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP",
                 "ws_url": "207.180.252.200:50013"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ]
     },
@@ -20713,18 +21261,6 @@
                 ]
             },
             {
-                "url": "electrum3.runebase.io:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
                 "url": "electrum1.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -20736,19 +21272,6 @@
                     }
                 ],
                 "ws_url": "electrum1.runebase.io:50004"
-            },
-            {
-                "url": "electrum3.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ],
-                "ws_url": "electrum3.runebase.io:50004"
             }
         ],
         "is_segwit_on": false,
