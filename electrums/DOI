@@ -34,7 +34,13 @@
     },
     {
         "url": "pink-deer-69.doi.works:50001",
-        "protocol": "TCP"
+        "protocol": "TCP",
+        "contact": [
+            {
+                "github": "https://github.com/namecoin/electrum-nmc/issues",
+                "twitter": "example_username"
+            }
+        ],
     },
     {
         "url": "ugly-bird-70.doi.works:50002",
