@@ -332,20 +332,16 @@ class CoinConfig:
         if self.ticker in explorer_coins:
             with open(f"../explorers/{self.ticker}", "r") as f:
                 explorers = json.load(f)
-                for x in explorers:
-                    for p in explorer_paths:
-                        if x.find(p) > -1:
-                            self.data[self.ticker].update(explorer_paths[p])
-
-        elif parent_coin in explorer_coins:
-            with open(f"../explorers/{parent_coin}", "r") as f:
-                explorers = json.load(f)
 
         elif parent_coin in explorer_coins:
             with open(f"../explorers/{parent_coin}", "r") as f:
                 explorers = json.load(f)
 
         if explorers:
+            for x in explorers:
+                for p in explorer_paths:
+                    if x.find(p) > -1:
+                        self.data[self.ticker].update(explorer_paths[p])
             self.data[self.ticker].update({"explorer_url": explorers})
 
 def parse_coins_repo():
