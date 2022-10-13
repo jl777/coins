@@ -278,19 +278,19 @@ class CoinConfig:
                 coin = "QTUM"
         else:
             coin = self.ticker
-        if coin in electrum_coins:
+
+        if coin in electrum_scan_report:
             with open(f"../electrums/{coin}", "r") as f:
                 electrums = json.load(f)
                 valid_electrums = []
-                if coin in electrum_scan_report["passed"]:
-                    for electrum in electrums:
-                        if electrum["url"] in electrum_scan_report["passed"][coin]:
-                            valid_electrums.append(electrum)
 
-                if coin in electrum_scan_report["passed_ssl"]:
-                    for electrum in electrums:
-                        if electrum["url"] in electrum_scan_report["passed_ssl"][coin]:
-                            valid_electrums.append(electrum)
+                for x in ["tcp", "ssl"]:
+                    # This also filers ws with tcp/ssl server it is grouped with if valid.
+                    for k, v in electrum_scan_report[coin][x].items():
+                        if v[0]:
+                            for electrum in electrums:
+                                if electrum["url"] == k:
+                                    valid_electrums.append(electrum)
 
                 self.data[self.ticker].update({
                     "electrum": valid_electrums
@@ -560,4 +560,3 @@ if __name__ == "__main__":
         coins_config = parse_coins_repo()
         with open("coins_config.json", "w+") as f:
             json.dump(coins_config, f, indent=4)
-

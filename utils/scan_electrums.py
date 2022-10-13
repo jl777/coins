@@ -8,9 +8,11 @@ import requests
 import threading
 
 ignore_list = []
+passed_ws = {}
+failed_ws = {}
 passed_electrums = {}
-passed_electrums_ssl = {}
 failed_electrums = {}
+passed_electrums_ssl = {}
 failed_electrums_ssl = {}
 socket.setdefaulttimeout(10)
 script_path = os.path.abspath(os.path.dirname(__file__))
@@ -63,27 +65,51 @@ def get_from_electrum_ssl(url, port, method, params=None):
         return e
 
 
-class electrum_thread(threading.Thread):
-    def __init__(self, coin, ip, port, method, params=None, is_ssl=False):
+class scan_thread(threading.Thread):
+    def __init__(self, coin, ip, port, method, params=None, protocol='tcp'):
         threading.Thread.__init__(self)
         self.coin = coin
         self.ip = ip
         self.port = port
         self.method = method
         self.params = params
-        self.is_ssl = is_ssl
+        self.protocol = protocol
     def run(self):
-        if self.is_ssl:
+        if self.protocol == "ssl":
             thread_electrum_ssl(self.coin, self.ip, self.port, self.method, self.params)
-        else:
+        elif self.protocol == "tcp":
             thread_electrum(self.coin, self.ip, self.port, self.method, self.params)
+        elif self.protocol == "ws":
+            thread_ws(self.coin, self.ip, self.port, self.method, self.params)
+
+
+def thread_ws(coin, ip, port, method, params):
+    #resp = get_from_ws(ip, port, method, params)
+    try:
+        #resp_json = json.loads(resp)['result']
+        #print(colorize(f"{coin} {ip}:{port} OK!", 'green'))
+        if coin not in passed_ws:
+            passed_ws.update({coin:[]})
+        passed_ws[coin].append(f"{ip}:{port}")
+
+    except Exception as e:
+        if str(resp).find('{"jsonrpc": "2.0"') > -1:
+            if coin not in passed_ws:
+                passed_ws.update({coin:[]})
+            passed_ws[coin].append(f"{ip}:{port}")
+            print(colorize(f"{coin} {ip}:{port} OK!", 'green'))
+            return
+        if coin not in failed_ws:
+            failed_ws.update({coin:{}})
+        failed_ws[coin].update({f"{ip}:{port}": f"{resp}"})
+        print(colorize(f"{coin} {ip}:{port} Failed! {e} | {resp}", 'red'))
+
 
 
 def thread_electrum(coin, ip, port, method, params):
     resp = get_from_electrum(ip, port, method, params)
     try:
         resp_json = json.loads(resp)['result']
-        # print(resp_json)
         print(colorize(f"{coin} {ip}:{port} OK!", 'green'))
         if coin not in passed_electrums:
             passed_electrums.update({coin:[]})
@@ -126,18 +152,27 @@ def thread_electrum_ssl(coin, ip, port, method, params):
 
 def scan_electrums(electrum_dict):
     thread_list = []
+    ws_list = []
     ssl_list = []
     non_ssl_list = []
+
     for coin in electrum_dict:
         for electrum in electrum_dict[coin]:
             url, port = electrum["url"].split(":")
             if "protocol" in electrum:
                 if electrum["protocol"] == "SSL":
                     ssl_list.append(coin)
-                    thread_list.append(electrum_thread(coin, url, port, "blockchain.block.headers", [1,2], True))
+                    thread_list.append(scan_thread(coin, url, port, "blockchain.block.headers", [1,2], "ssl"))
                     continue
             non_ssl_list.append(coin)
-            thread_list.append(electrum_thread(coin, url, port, "blockchain.block.headers", [1,2]))
+            thread_list.append(scan_thread(coin, url, port, "blockchain.block.headers", [1,2], "tcp"))
+
+    for coin in electrum_dict:
+        for electrum in electrum_dict[coin]:
+            if "ws_url" in electrum:
+                url, port = electrum["ws_url"].split(":")
+                # ws_list.append(coin)
+                thread_list.append(scan_thread(coin, url, port, "blockchain.block.headers", [1,2], "ws"))
 
     for thread in thread_list:
         thread.start()
@@ -176,14 +211,11 @@ def get_electrums_report():
         i += 1
         time.sleep(1)
 
-    results = {
-        "passed": passed_electrums,
-        "passed_ssl": passed_electrums_ssl,
-        "failed": failed_electrums,
-        "failed_ssl": failed_electrums_ssl
-    }
+    results = {}
 
-    for coin in list(electrums_ssl_set.union(electrums_set)):
+    all_electrums = list(electrums_ssl_set.union(electrums_set))
+    all_electrums.sort()
+    for coin in all_electrums:
         if coin in passed_electrums: passed = len(passed_electrums[coin])
         else: passed =  0
         if coin in passed_electrums_ssl: passed_ssl = len(passed_electrums_ssl[coin])
@@ -194,10 +226,53 @@ def get_electrums_report():
         else: failed_ssl = 0
         results.update({
             coin: {
-                "passed": passed + passed_ssl,
-                "failed": failed + failed_ssl
+                "electrums_total_all": passed + failed + passed_ssl + failed_ssl,
+                "electrums_working_all": passed + passed_ssl,
+                "electrums_total_tcp": passed + failed,
+                "electrums_working_tcp": passed,
+                "electrums_total_ssl": passed_ssl + failed_ssl,
+                "electrums_working_ssl": passed_ssl,
+                "tcp": {},
+                "ssl": {},
+                "ws": {}
             }
         })
+
+        if coin in passed_electrums:
+            x = list(passed_electrums[coin])
+            x.sort()
+            for i in x:
+                results[coin]["tcp"].update({i: [True, "Passed"]})
+
+        if coin in failed_electrums:
+            x = list(failed_electrums[coin].keys())
+            x.sort()
+            for i in x:
+                results[coin]["tcp"].update({i: [False, failed_electrums[coin][i]]})
+
+        if coin in passed_electrums_ssl:
+            x = list(passed_electrums_ssl[coin])
+            x.sort()
+            for i in x:
+                results[coin]["ssl"].update({i: [True, "Passed"]})
+
+        if coin in failed_electrums_ssl:
+            x = list(failed_electrums_ssl[coin].keys())
+            x.sort()
+            for i in x:
+                results[coin]["ssl"].update({i: [False, failed_electrums_ssl[coin][i]]})
+
+        if coin in passed_ws:
+            x = list(passed_ws[coin])
+            x.sort()
+            for i in x:
+                results[coin]["ws"].update({i: [True, "Passed"]})
+
+        if coin in failed_ws:
+            x = list(failed_ws[coin].keys())
+            x.sort()
+            for i in x:
+                results[coin]["ws"].update({i: [False, failed_ws[coin][i]]})
 
     with open("electrum_scan_report.json", "w+") as f:
         f.write(json.dumps(results, indent=4))
