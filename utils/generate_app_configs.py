@@ -11,6 +11,7 @@ os.chdir(script_path)
 
 # TODO: Check all coins have an icon.
 icons = [f for f in os.listdir(f"{repo_path}/icons") if os.path.isfile(f"{repo_path}/icons/{f}.png")]
+lightwallet_coins = [f for f in os.listdir(f"{repo_path}/electrums") if os.path.isfile(f"{repo_path}/light_wallet_d/{f}")]
 electrum_coins = [f for f in os.listdir(f"{repo_path}/electrums") if os.path.isfile(f"{repo_path}/electrums/{f}")]
 ethereum_coins = [f for f in os.listdir(f"{repo_path}/ethereum") if os.path.isfile(f"{repo_path}/ethereum/{f}")]
 explorer_coins = [f for f in os.listdir(f"{repo_path}/explorers") if os.path.isfile(f"{repo_path}/explorers/{f}")]
@@ -115,9 +116,12 @@ class CoinConfig:
                     "other_types": ["SLP"]
                 })
         elif self.coin_type in ["ZHTLC"]:
-            self.data[self.ticker].update({
-                "light_wallet_d_servers": []
-            })
+            if self.ticker in lightwallet_coins:
+                with open(f"../light_wallet_d/{self.ticker}", "r") as f:
+                    lightwallet_servers = json.load(f)
+                self.data[self.ticker].update({
+                    "light_wallet_d_servers": lightwallet_servers
+                })
 
     def get_protocol_info(self):
         if "protocol_data" in self.coin_data["protocol"]:
