@@ -887,10 +887,29 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "light_wallet_d_servers": [],
+        "light_wallet_d_servers": [
+            "http://node1.chainkeeper.pro:443"
+        ],
         "electrum": [
             {
-                "url": "pirate.sirseven.me:10032"
+                "url": "node1.chainkeeper.pro:10132",
+                "protocol": "TCP"
+            },
+            {
+                "url": "node1.chainkeeper.pro:10032",
+                "protocol": "TCP"
+            },
+            {
+                "url": "node1.chainkeeper.pro:20032",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "node1.chainkeeper.pro:30058"
+            },
+            {
+                "url": "node1.chainkeeper.pro:20132",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "node1.chainkeeper.pro:30059"
             }
         ],
         "asset": "PIRATE"
@@ -20822,7 +20841,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "light_wallet_d_servers": [],
         "electrum": [
             {
                 "url": "zombie.sirseven.me:10033"
