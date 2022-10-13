@@ -1,0 +1,22 @@
+[
+  {
+    "url": "node1.chainkeeper.pro:20032",
+    "protocol": "SSL",
+    "disable_cert_verification": true,
+    "ws_url": "node1.chainkeeper.pro:30058"
+  },
+  {
+    "url": "node1.chainkeeper.pro:20132",
+    "protocol": "SSL",
+    "disable_cert_verification": false,
+    "ws_url": "node1.chainkeeper.pro:30059"
+  },
+  {
+    "url": "node1.chainkeeper.pro:10132",
+    "protocol": "TCP"
+  },
+  {
+    "url": "node1.chainkeeper.pro:10032",
+    "protocol": "TCP"
+  }
+]
