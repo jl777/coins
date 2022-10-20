@@ -1,12 +1,26 @@
 [
-  {
-    "url": "elec-seeder-one.artbytecoin.org:50012",
-    "protocol": "SSL",
-    "disable_cert_verification": true
-  },
-  {
-    "url": "elec-seeder-two.artbytecoin.org:50012",
-    "protocol": "SSL",
-    "disable_cert_verification": true
-  }
+    {
+        "url": "elec-seeder-one.artbytecoin.org:50012",
+        "protocol": "SSL",
+        "disable_cert_verification": true,
+        "ws_url": "elec-seeder-one.artbytecoin.org:50013"
+    },
+    {
+        "url": "electrumx-four.artbyte.live:50012",
+        "protocol": "SSL",
+        "disable_cert_verification": false,
+        "ws_url": "electrumx-four.artbyte.live:50013"
+    },
+    {
+        "url": "electrumx-three.artbyte.live:50012",
+        "protocol": "SSL",
+        "disable_cert_verification": false,
+        "ws_url": "electrumx-three.artbyte.live:50013"
+    },
+    {
+        "url": "elec-seeder-two.artbytecoin.org:50012",
+        "protocol": "SSL",
+        "disable_cert_verification": true,
+        "ws_url": "elec-seeder-two.artbytecoin.org:50013"
+    }
 ]

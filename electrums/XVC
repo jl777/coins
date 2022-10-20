@@ -1,8 +1,10 @@
 [
-  {
-    "url": "electrumx.xvc.ewmcx.org:50001"
-  },
-  {
-    "url": "failover.xvc.ewmcx.biz:50001"
-  }
+    {
+        "url": "electrumx2.vanillacash.info:50011",
+        "ws_url": "electrumx2.vanillacash.info:50013"
+    },
+    {
+        "url": "electrumx1.vanillacash.info:50011",
+        "ws_url": "electrumx1.vanillacash.info:50013"
+    }
 ]

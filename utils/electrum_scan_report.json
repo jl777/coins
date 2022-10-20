@@ -1,0 +1,4202 @@
+{
+    "ABY": {
+        "electrums_total_all": 4,
+        "electrums_working_all": 4,
+        "electrums_total_tcp": 0,
+        "electrums_working_tcp": 0,
+        "electrums_total_ssl": 4,
+        "electrums_working_ssl": 4,
+        "tcp": {},
+        "ssl": {
+            "elec-seeder-one.artbytecoin.org:50012": [
+                true,
+                "Passed"
+            ],
+            "elec-seeder-two.artbytecoin.org:50012": [
+                true,
+                "Passed"
+            ],
+            "electrumx-four.artbyte.live:50012": [
+                true,
+                "Passed"
+            ],
+            "electrumx-three.artbyte.live:50012": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "elec-seeder-one.artbytecoin.org:50013": [
+                true,
+                "Passed"
+            ],
+            "elec-seeder-two.artbytecoin.org:50013": [
+                true,
+                "Passed"
+            ],
+            "electrumx-four.artbyte.live:50013": [
+                true,
+                "Passed"
+            ],
+            "electrumx-three.artbyte.live:50013": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "ACTN": {
+        "electrums_total_all": 4,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 2,
+        "electrums_working_tcp": 1,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 1,
+        "tcp": {
+            "electrumx2.actioncoin.com:10001": [
+                true,
+                "Passed"
+            ],
+            "electrumx1.actioncoin.com:10001": [
+                false,
+                "[Errno 111] Connection refused"
+            ]
+        },
+        "ssl": {
+            "electrumx2.actioncoin.com:30001": [
+                true,
+                "Passed"
+            ],
+            "electrumx1.actioncoin.com:30001": [
+                false,
+                "[Errno 111] Connection refused"
+            ]
+        },
+        "ws": {
+            "electrumx1.actioncoin.com:20001": [
+                true,
+                "Passed"
+            ],
+            "electrumx2.actioncoin.com:20001": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "ARRR": {
+        "electrums_total_all": 4,
+        "electrums_working_all": 4,
+        "electrums_total_tcp": 2,
+        "electrums_working_tcp": 2,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 2,
+        "tcp": {
+            "node1.chainkeeper.pro:10032": [
+                true,
+                "Passed"
+            ],
+            "node1.chainkeeper.pro:10132": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "node1.chainkeeper.pro:20032": [
+                true,
+                "Passed"
+            ],
+            "node1.chainkeeper.pro:20132": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "node1.chainkeeper.pro:30058": [
+                true,
+                "Passed"
+            ],
+            "node1.chainkeeper.pro:30059": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "AUR": {
+        "electrums_total_all": 3,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 0,
+        "electrums_working_tcp": 0,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 2,
+        "tcp": {},
+        "ssl": {
+            "electrumx.aur.ewmcx.info:50002": [
+                true,
+                "Passed"
+            ],
+            "failover.aur.ewmcx.biz:50002": [
+                true,
+                "Passed"
+            ],
+            "lenoir.ecoincore.com:12343": [
+                false,
+                "[Errno 111] Connection refused"
+            ]
+        },
+        "ws": {
+            "electrumx.aur.ewmcx.info:50003": [
+                true,
+                "Passed"
+            ],
+            "failover.aur.ewmcx.biz:50003": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "AVN": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 2,
+        "electrums_working_tcp": 2,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "electrum-eu.avn.network:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum-us.avn.network:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "AXE": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10057": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10057": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10057": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20057": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20057": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20057": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30057": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30057": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30057": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "AYA": {
+        "electrums_total_all": 4,
+        "electrums_working_all": 4,
+        "electrums_total_tcp": 2,
+        "electrums_working_tcp": 2,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 2,
+        "tcp": {
+            "electrum1.aryacoin.io:2052": [
+                true,
+                "Passed"
+            ],
+            "electrum2.aryacoin.io:2052": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.aryacoin.io:2053": [
+                true,
+                "Passed"
+            ],
+            "electrum2.aryacoin.io:2053": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.aryacoin.io:2051": [
+                true,
+                "Passed"
+            ],
+            "electrum2.aryacoin.io:2051": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "BCH": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10055": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10055": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10055": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20055": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20055": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20055": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30055": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30055": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30055": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "BET": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10012": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10012": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10012": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20012": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20012": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20012": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30012": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30012": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30012": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "BLK": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.blackcoin.nl:10001": [
+                true,
+                "Passed"
+            ],
+            "electrum2.blackcoin.nl:20001": [
+                true,
+                "Passed"
+            ],
+            "electrum3.blackcoin.nl:30001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.blackcoin.nl:10002": [
+                true,
+                "Passed"
+            ],
+            "electrum2.blackcoin.nl:20002": [
+                true,
+                "Passed"
+            ],
+            "electrum3.blackcoin.nl:30002": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.blackcoin.nl:10004": [
+                true,
+                "Passed"
+            ],
+            "electrum2.blackcoin.nl:20004": [
+                true,
+                "Passed"
+            ],
+            "electrum3.blackcoin.nl:30004": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "BOTS": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10007": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10007": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10007": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20007": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20007": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20007": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30007": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30007": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30007": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "BSTY": {
+        "electrums_total_all": 3,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 1,
+        "electrums_working_tcp": 0,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 2,
+        "tcp": {
+            "66.172.33.175:50001": [
+                false,
+                "[Errno 111] Connection refused"
+            ]
+        },
+        "ssl": {
+            "bsty-bkp.coinmunity.gold:50012": [
+                true,
+                "Passed"
+            ],
+            "bsty-main.coinmunity.gold:50012": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "bsty-bkp.coinmunity.gold:50013": [
+                true,
+                "Passed"
+            ],
+            "bsty-main.coinmunity.gold:50013": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "BTC": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10000": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10000": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10000": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20000": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20000": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20000": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30000": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30000": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30000": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "BTCZ": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 2,
+        "electrums_working_tcp": 2,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "electrum1.btcz.rocks:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum2.btcz.rocks:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {
+            "electrum1.btcz.rocks:50004": [
+                true,
+                "Passed"
+            ],
+            "electrum2.btcz.rocks:50004": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "BTE": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 2,
+        "electrums_working_tcp": 2,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "electrumx6.scalaris.info:20001": [
+                true,
+                "Passed"
+            ],
+            "electrumx7.scalaris.info:20001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "BTX": {
+        "electrums_total_all": 1,
+        "electrums_working_all": 1,
+        "electrums_total_tcp": 0,
+        "electrums_working_tcp": 0,
+        "electrums_total_ssl": 1,
+        "electrums_working_ssl": 1,
+        "tcp": {},
+        "ssl": {
+            "btx-electrumx.coinsmunity.com:50002": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "btx-electrumx.coinsmunity.com:50003": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "CCL": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10029": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10029": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10029": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20029": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20029": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20029": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30029": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30029": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30029": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "CDN": {
+        "electrums_total_all": 8,
+        "electrums_working_all": 5,
+        "electrums_total_tcp": 0,
+        "electrums_working_tcp": 0,
+        "electrums_total_ssl": 8,
+        "electrums_working_ssl": 5,
+        "tcp": {},
+        "ssl": {
+            "holland.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "lenoir.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "mumbai.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "seattle.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "woolloomooloo.ecoincore.com:34333": [
+                true,
+                "Passed"
+            ],
+            "chicago.ecoincore.com:34333": [
+                false,
+                "timed out"
+            ],
+            "miami.ecoincore.com:34333": [
+                false,
+                "timed out"
+            ],
+            "oakland.ecoincore.com:34333": [
+                false,
+                "timed out"
+            ]
+        },
+        "ws": {
+            "holland.ecoincore.com:34335": [
+                true,
+                "Passed"
+            ],
+            "lenoir.ecoincore.com:34335": [
+                true,
+                "Passed"
+            ],
+            "miami.ecoincore.com:34335": [
+                true,
+                "Passed"
+            ],
+            "mumbai.ecoincore.com:34335": [
+                true,
+                "Passed"
+            ],
+            "woolloomooloo.ecoincore.com:34335": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "CHIPS": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10053": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10053": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10053": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20053": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20053": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20053": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30053": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30053": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30053": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "CHTA": {
+        "electrums_total_all": 3,
+        "electrums_working_all": 3,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "electrum.shorelinecrypto.com:10007": [
+                true,
+                "Passed"
+            ],
+            "electrum1.mooo.com:10007": [
+                true,
+                "Passed"
+            ],
+            "electrum2.mooo.com:10007": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "CLC": {
+        "electrums_total_all": 1,
+        "electrums_working_all": 1,
+        "electrums_total_tcp": 1,
+        "electrums_working_tcp": 1,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "electrumx.cryptocollider.com:10001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "CRYPTO": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10008": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10008": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10008": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20008": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20008": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20008": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30008": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30008": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30008": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "DASH": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10061": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10061": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10061": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20061": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20061": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20061": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30061": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30061": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30061": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "DEX": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10006": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10006": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10006": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20006": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20006": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20006": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30006": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30006": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30006": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "DGB": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10059": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10059": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10059": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20059": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20059": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20059": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30059": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30059": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30059": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "DGC": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 1,
+        "electrums_working_tcp": 1,
+        "electrums_total_ssl": 1,
+        "electrums_working_ssl": 1,
+        "tcp": {
+            "electrumx.dgc.ewmcx.org:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "failover.dgc.ewmcx.biz:50002": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrumx.dgc.ewmcx.org:50003": [
+                true,
+                "Passed"
+            ],
+            "failover.dgc.ewmcx.biz:50003": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "DIMI": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 0,
+        "electrums_working_tcp": 0,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 2,
+        "tcp": {},
+        "ssl": {
+            "electrumx1.diminutivecoin.com:50012": [
+                true,
+                "Passed"
+            ],
+            "electrumx2.diminutivecoin.com:50012": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrumx1.diminutivecoin.com:50013": [
+                true,
+                "Passed"
+            ],
+            "electrumx2.diminutivecoin.com:50013": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "DOGE": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10060": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10060": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10060": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20060": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20060": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20060": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30060": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30060": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30060": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "DOI": {
+        "electrums_total_all": 5,
+        "electrums_working_all": 5,
+        "electrums_total_tcp": 1,
+        "electrums_working_tcp": 1,
+        "electrums_total_ssl": 4,
+        "electrums_working_ssl": 4,
+        "tcp": {
+            "pink-deer-69.doi.works:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "big-parrot-60.doi.works:50002": [
+                true,
+                "Passed"
+            ],
+            "itchy-jellyfish-89.doi.works:50002": [
+                true,
+                "Passed"
+            ],
+            "pink-deer-69.doi.works:50002": [
+                true,
+                "Passed"
+            ],
+            "ugly-bird-70.doi.works:50002": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {}
+    },
+    "DP": {
+        "electrums_total_all": 1,
+        "electrums_working_all": 1,
+        "electrums_total_tcp": 1,
+        "electrums_working_tcp": 1,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "1.eu.dp.electrum.dexstats.info:10021": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "ECA": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10052": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10052": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10052": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20052": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20052": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20052": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30052": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30052": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30052": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "EFL": {
+        "electrums_total_all": 5,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 0,
+        "electrums_working_tcp": 0,
+        "electrums_total_ssl": 5,
+        "electrums_working_ssl": 2,
+        "tcp": {},
+        "ssl": {
+            "electrum1.egulden.org:50002": [
+                true,
+                "Passed"
+            ],
+            "electrum2.egulden.org:50002": [
+                true,
+                "Passed"
+            ],
+            "electrum5.egulden.org:11017": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "holland.ecoincore.com:11017": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "lenoir.ecoincore.com:11017": [
+                false,
+                "[Errno 111] Connection refused"
+            ]
+        },
+        "ws": {
+            "electrum1.egulden.org:50004": [
+                true,
+                "Passed"
+            ],
+            "electrum2.egulden.org:50004": [
+                true,
+                "Passed"
+            ],
+            "electrum5.egulden.org:11019": [
+                true,
+                "Passed"
+            ],
+            "holland.ecoincore.com:11019": [
+                true,
+                "Passed"
+            ],
+            "lenoir.ecoincore.com:11019": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "EMC2": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10062": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10062": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10062": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20062": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20062": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20062": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30062": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30062": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30062": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "FIRO": {
+        "electrums_total_all": 3,
+        "electrums_working_all": 3,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "electrumx01.firo.org:50001": [
+                true,
+                "Passed"
+            ],
+            "electrumx02.firo.org:50001": [
+                true,
+                "Passed"
+            ],
+            "electrumx03.firo.org:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "FJC": {
+        "electrums_total_all": 4,
+        "electrums_working_all": 4,
+        "electrums_total_tcp": 2,
+        "electrums_working_tcp": 2,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 2,
+        "tcp": {
+            "electrumx1.fujicoin.org:50001": [
+                true,
+                "Passed"
+            ],
+            "electrumx2.fujicoin.org:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrumx1.fujicoin.org:50003": [
+                true,
+                "Passed"
+            ],
+            "electrumx2.fujicoin.org:50003": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {}
+    },
+    "FLUX": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 1,
+        "electrums_working_tcp": 1,
+        "electrums_total_ssl": 1,
+        "electrums_working_ssl": 1,
+        "tcp": {
+            "electrumx2.runonflux.io:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrumx.runonflux.io:50002": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrumx.runonflux.io:50004": [
+                true,
+                "Passed"
+            ],
+            "electrumx2.runonflux.io:50004": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "FTC": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10054": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10054": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10054": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20054": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20054": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20054": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30054": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30054": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30054": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "GLEEC": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10022": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10022": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10022": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20022": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20022": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20022": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30022": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30022": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30022": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "GRS": {
+        "electrums_total_all": 5,
+        "electrums_working_all": 5,
+        "electrums_total_tcp": 5,
+        "electrums_working_tcp": 5,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "electrum10.groestlcoin.org:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum11.groestlcoin.org:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum12.groestlcoin.org:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum13.groestlcoin.org:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum14.groestlcoin.org:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {
+            "electrum11.groestlcoin.org:50004": [
+                true,
+                "Passed"
+            ],
+            "electrum12.groestlcoin.org:50004": [
+                true,
+                "Passed"
+            ],
+            "electrum13.groestlcoin.org:50004": [
+                true,
+                "Passed"
+            ],
+            "electrum14.groestlcoin.org:50004": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "HODL": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10009": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10009": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10009": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20009": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20009": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20009": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30009": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30009": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30009": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "IL8P": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 0,
+        "electrums_working_tcp": 0,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 2,
+        "tcp": {},
+        "ssl": {
+            "il8p.electrumx.transcenders.name:50002": [
+                true,
+                "Passed"
+            ],
+            "il9p.electrumx.transcenders.name:50002": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "il8p.electrumx.transcenders.name:50003": [
+                true,
+                "Passed"
+            ],
+            "il9p.electrumx.transcenders.name:50003": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "ILN": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 2,
+        "electrums_working_tcp": 2,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "electrum1.ilien.io:65011": [
+                true,
+                "Passed"
+            ],
+            "electrum2.ilien.io:65011": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {
+            "electrum1.ilien.io:30069": [
+                true,
+                "Passed"
+            ],
+            "electrum2.ilien.io:30069": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "JUMBLR": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10004": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10004": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10004": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20004": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20004": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20004": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30004": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30004": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30004": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "KMD": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10001": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10001": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20001": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20001": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30001": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30001": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30001": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "KOIN": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10024": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10024": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10024": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20024": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20024": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20024": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30024": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30024": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30024": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "LABS": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10019": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10019": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10019": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20019": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20019": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20019": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30019": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30019": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30019": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "LBC": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10067": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10067": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10067": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20067": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20067": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20067": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30067": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30067": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30067": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "LCC": {
+        "electrums_total_all": 1,
+        "electrums_working_all": 1,
+        "electrums_total_tcp": 1,
+        "electrums_working_tcp": 1,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "188.166.117.139:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "LNC": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 1,
+        "electrums_total_tcp": 2,
+        "electrums_working_tcp": 1,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "74.208.95.26:50001": [
+                true,
+                "Passed"
+            ],
+            "74.56.11.23:50001": [
+                false,
+                "timed out"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "LTC": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10063": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10063": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10063": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20063": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20063": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20063": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30063": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30063": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30063": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "LYNX": {
+        "electrums_total_all": 10,
+        "electrums_working_all": 5,
+        "electrums_total_tcp": 1,
+        "electrums_working_tcp": 0,
+        "electrums_total_ssl": 9,
+        "electrums_working_ssl": 5,
+        "tcp": {
+            "electrum.getlynx.io:50001": [
+                false,
+                "timed out"
+            ]
+        },
+        "ssl": {
+            "electrum5.getlynx.io:50002": [
+                true,
+                "Passed"
+            ],
+            "electrum6.getlynx.io:50002": [
+                true,
+                "Passed"
+            ],
+            "electrum7.getlynx.io:50002": [
+                true,
+                "Passed"
+            ],
+            "electrum8.getlynx.io:50002": [
+                true,
+                "Passed"
+            ],
+            "electrum9.getlynx.io:50002": [
+                true,
+                "Passed"
+            ],
+            "electrum.atechhelp.com:50002": [
+                false,
+                "timed out"
+            ],
+            "electrum.deliverypath.com:50002": [
+                false,
+                "[Errno -2] Name or service not known"
+            ],
+            "electrum.dirtdivas.net:50002": [
+                false,
+                "[Errno -2] Name or service not known"
+            ],
+            "electrum.getlynx.club:50002": [
+                false,
+                "[Errno 111] Connection refused"
+            ]
+        },
+        "ws": {
+            "electrum5.getlynx.io:50004": [
+                true,
+                "Passed"
+            ],
+            "electrum6.getlynx.io:50004": [
+                true,
+                "Passed"
+            ],
+            "electrum7.getlynx.io:50004": [
+                true,
+                "Passed"
+            ],
+            "electrum8.getlynx.io:50004": [
+                true,
+                "Passed"
+            ],
+            "electrum9.getlynx.io:50004": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "MCL": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10023": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10023": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10023": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20023": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20023": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20023": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30023": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30023": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30023": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "MESH": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10016": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10016": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10016": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20016": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20016": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20016": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30016": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30016": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30016": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "MGW": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10015": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10015": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10015": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20015": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20015": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20015": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30015": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30015": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30015": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "MONA": {
+        "electrums_total_all": 4,
+        "electrums_working_all": 4,
+        "electrums_total_tcp": 4,
+        "electrums_working_tcp": 4,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "103.125.218.246:50001": [
+                true,
+                "Passed"
+            ],
+            "electrumx.tamami-foundation.org:50001": [
+                true,
+                "Passed"
+            ],
+            "electrumx1.monacoin.ninja:50001": [
+                true,
+                "Passed"
+            ],
+            "electrumx3.monacoin.nl:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "MORTY": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10018": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10018": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10018": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20018": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20018": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20018": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30018": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30018": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30018": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "MSHARK": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10013": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10013": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10013": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20013": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20013": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20013": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30013": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30013": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30013": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "NAV": {
+        "electrums_total_all": 4,
+        "electrums_working_all": 4,
+        "electrums_total_tcp": 0,
+        "electrums_working_tcp": 0,
+        "electrums_total_ssl": 4,
+        "electrums_working_ssl": 4,
+        "tcp": {},
+        "ssl": {
+            "electrum.nav.community:40002": [
+                true,
+                "Passed"
+            ],
+            "electrum2.nav.community:40002": [
+                true,
+                "Passed"
+            ],
+            "electrum3.nav.community:40002": [
+                true,
+                "Passed"
+            ],
+            "electrum4.nav.community:40002": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum.nav.community:40004": [
+                true,
+                "Passed"
+            ],
+            "electrum2.nav.community:40004": [
+                true,
+                "Passed"
+            ],
+            "electrum3.nav.community:40004": [
+                true,
+                "Passed"
+            ],
+            "electrum4.nav.community:40004": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "NENG": {
+        "electrums_total_all": 3,
+        "electrums_working_all": 3,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "electrum.shorelinecrypto.com:10001": [
+                true,
+                "Passed"
+            ],
+            "electrum1.mooo.com:10001": [
+                true,
+                "Passed"
+            ],
+            "electrum2.mooo.com:10001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "NINJA": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10036": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10036": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10036": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20036": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20036": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20036": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {}
+    },
+    "NMC": {
+        "electrums_total_all": 9,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 7,
+        "electrums_working_tcp": 1,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 1,
+        "tcp": {
+            "46.229.238.187:57001": [
+                true,
+                "Passed"
+            ],
+            "82.119.233.36:50001": [
+                false,
+                "timed out"
+            ],
+            "electrumx1.nmc.bitclc.net:50001": [
+                false,
+                "timed out"
+            ],
+            "electrumx2.nmc.bitclc.net:50001": [
+                false,
+                "timed out"
+            ],
+            "electrumx3.nmc.bitclc.net:50001": [
+                false,
+                "timed out"
+            ],
+            "electrumx4.nmc.bitclc.net:50001": [
+                false,
+                "timed out"
+            ],
+            "nmc.bitcoins.sk:50001": [
+                false,
+                "[Errno 113] No route to host"
+            ]
+        },
+        "ssl": {
+            "nmc2.bitcoins.sk:57002": [
+                true,
+                "Passed"
+            ],
+            "nmc.bitcoins.sk:50002": [
+                false,
+                "[Errno 113] No route to host"
+            ]
+        },
+        "ws": {}
+    },
+    "NVC": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 0,
+        "electrums_working_tcp": 0,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 2,
+        "tcp": {},
+        "ssl": {
+            "electrumx.nvc.ewmcx.org:50002": [
+                true,
+                "Passed"
+            ],
+            "failover.nvc.ewmcx.biz:50002": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {}
+    },
+    "NYAN": {
+        "electrums_total_all": 4,
+        "electrums_working_all": 4,
+        "electrums_total_tcp": 2,
+        "electrums_working_tcp": 2,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 2,
+        "tcp": {
+            "electrumx.live:50020": [
+                true,
+                "Passed"
+            ],
+            "txserver.live:50020": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrumx.live:50022": [
+                true,
+                "Passed"
+            ],
+            "txserver.live:50022": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {}
+    },
+    "PANGEA": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10010": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10010": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10010": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20010": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20010": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20010": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30010": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30010": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30010": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "PND": {
+        "electrums_total_all": 1,
+        "electrums_working_all": 1,
+        "electrums_total_tcp": 0,
+        "electrums_working_tcp": 0,
+        "electrums_total_ssl": 1,
+        "electrums_working_ssl": 1,
+        "tcp": {},
+        "ssl": {
+            "electrum.thepandacoin.net:50002": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {}
+    },
+    "PPC": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 0,
+        "electrums_working_tcp": 0,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 2,
+        "tcp": {},
+        "ssl": {
+            "allingas.peercoinexplorer.net:50002": [
+                true,
+                "Passed"
+            ],
+            "electrum.peercoinexplorer.net:50002": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "allingas.peercoinexplorer.net:50004": [
+                true,
+                "Passed"
+            ],
+            "electrum.peercoinexplorer.net:50004": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "PRUX": {
+        "electrums_total_all": 4,
+        "electrums_working_all": 4,
+        "electrums_total_tcp": 2,
+        "electrums_working_tcp": 2,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 2,
+        "tcp": {
+            "electrumx.live:50010": [
+                true,
+                "Passed"
+            ],
+            "txserver.live:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrumx.live:50012": [
+                true,
+                "Passed"
+            ],
+            "txserver.live:50002": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {}
+    },
+    "QTUM": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10050": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10050": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10050": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20050": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20050": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20050": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30050": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30050": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30050": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "REVS": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10003": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10003": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10003": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20003": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20003": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20003": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30003": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30003": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30003": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "RICK": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10017": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10017": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10017": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20017": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20017": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20017": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30017": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30017": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30017": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "RTM": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 2,
+        "electrums_working_tcp": 2,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "209.151.151.21:50001": [
+                true,
+                "Passed"
+            ],
+            "209.50.52.239:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "RUNES": {
+        "electrums_total_all": 8,
+        "electrums_working_all": 4,
+        "electrums_total_tcp": 4,
+        "electrums_working_tcp": 2,
+        "electrums_total_ssl": 4,
+        "electrums_working_ssl": 2,
+        "tcp": {
+            "electrum1.runebase.io:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum3.runebase.io:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum2.runebase.io:50001": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "electrum4.runebase.io:50001": [
+                false,
+                "[Errno 111] Connection refused"
+            ]
+        },
+        "ssl": {
+            "electrum1.runebase.io:50002": [
+                true,
+                "Passed"
+            ],
+            "electrum3.runebase.io:50002": [
+                true,
+                "Passed"
+            ],
+            "electrum2.runebase.io:50002": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "electrum4.runebase.io:50002": [
+                false,
+                "[Errno 111] Connection refused"
+            ]
+        },
+        "ws": {
+            "electrum1.runebase.io:50004": [
+                true,
+                "Passed"
+            ],
+            "electrum2.runebase.io:50004": [
+                true,
+                "Passed"
+            ],
+            "electrum3.runebase.io:50004": [
+                true,
+                "Passed"
+            ],
+            "electrum4.runebase.io:50004": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "RVN": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10051": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10051": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10051": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20051": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20051": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20051": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30051": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30051": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30051": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "SCA": {
+        "electrums_total_all": 3,
+        "electrums_working_all": 3,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "electrum1.scalaris.info:10001": [
+                true,
+                "Passed"
+            ],
+            "electrum2.scalaris.info:10001": [
+                true,
+                "Passed"
+            ],
+            "electrum3.scalaris.info:10001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "SFUSD": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10070": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10070": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10070": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20070": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20070": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20070": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30070": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30070": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30070": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "SMART": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 6,
+        "electrums_working_tcp": 2,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "electrum1.smartcash.cc:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum2.smartcash.cc:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum3.smartcash.cc:50001": [
+                false,
+                "[Errno 113] No route to host"
+            ],
+            "electrum4.smartcash.cc:50001": [
+                false,
+                "timed out"
+            ],
+            "electrum5.smartcash.cc:50001": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "electrum6.smartcash.cc:50001": [
+                false,
+                "[Errno 111] Connection refused"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "SOULJA": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10035": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10035": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10035": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20035": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20035": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20035": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30035": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30035": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30035": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "SPACE": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10011": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10011": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10011": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20011": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20011": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20011": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30011": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30011": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30011": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "SUPERNET": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10005": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10005": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10005": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20005": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20005": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20005": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30005": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30005": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30005": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "SYS": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10064": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10064": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10064": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20064": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20064": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20064": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30064": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30064": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30064": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "THC": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 2,
+        "electrums_working_tcp": 2,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "1.eu.thc.electrum.dexstats.info:10020": [
+                true,
+                "Passed"
+            ],
+            "2.eu.thc.electrum.dexstats.info:10020": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "TKL": {
+        "electrums_total_all": 4,
+        "electrums_working_all": 4,
+        "electrums_total_tcp": 2,
+        "electrums_working_tcp": 2,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 2,
+        "tcp": {
+            "1.eu.tokel.electrum.dexstats.info:10077": [
+                true,
+                "Passed"
+            ],
+            "2.eu.tokel.electrum.dexstats.info:10077": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "1.eu.tokel.electrum.dexstats.info:11077": [
+                true,
+                "Passed"
+            ],
+            "2.eu.tokel.electrum.dexstats.info:11077": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "1.eu.tokel.electrum.dexstats.info:9077": [
+                true,
+                "Passed"
+            ],
+            "2.eu.tokel.electrum.dexstats.info:9077": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "TRC": {
+        "electrums_total_all": 3,
+        "electrums_working_all": 3,
+        "electrums_total_tcp": 2,
+        "electrums_working_tcp": 2,
+        "electrums_total_ssl": 1,
+        "electrums_working_ssl": 1,
+        "tcp": {
+            "electrum.southofheaven.ca:50001": [
+                true,
+                "Passed"
+            ],
+            "electrum.terracoin.io:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "failover.trc-uis.ewmcx.biz:50006": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum.southofheaven.ca:50004": [
+                true,
+                "Passed"
+            ],
+            "electrum.terracoin.io:50004": [
+                true,
+                "Passed"
+            ],
+            "failover.trc-uis.ewmcx.biz:50007": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "UIS": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 1,
+        "electrums_working_tcp": 1,
+        "electrums_total_ssl": 1,
+        "electrums_working_ssl": 1,
+        "tcp": {
+            "electrumx.uis.ewmcx.info:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "failover.trc-uis.ewmcx.biz:50002": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrumx.uis.ewmcx.info:50004": [
+                true,
+                "Passed"
+            ],
+            "failover.trc-uis.ewmcx.biz:50003": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "UNO": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 0,
+        "electrums_working_tcp": 0,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 2,
+        "tcp": {},
+        "ssl": {
+            "uno-bkp.coinmunity.gold:50002": [
+                true,
+                "Passed"
+            ],
+            "uno-main.coinmunity.gold:50002": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "uno-bkp.coinmunity.gold:50003": [
+                true,
+                "Passed"
+            ],
+            "uno-main.coinmunity.gold:50003": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "USBL": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 1,
+        "electrums_working_tcp": 1,
+        "electrums_total_ssl": 1,
+        "electrums_working_ssl": 1,
+        "tcp": {
+            "swap.softbalanced.com:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "swap.softbalanced.com:50002": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {}
+    },
+    "VAL": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "e1.validitytech.com:11001": [
+                true,
+                "Passed"
+            ],
+            "e2.validitytech.com:11001": [
+                true,
+                "Passed"
+            ],
+            "e3.validitytech.com:11001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "e1.validitytech.com:11002": [
+                true,
+                "Passed"
+            ],
+            "e2.validitytech.com:11002": [
+                true,
+                "Passed"
+            ],
+            "e3.validitytech.com:11002": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "e1.validitytech.com:11004": [
+                true,
+                "Passed"
+            ],
+            "e2.validitytech.com:11004": [
+                true,
+                "Passed"
+            ],
+            "e3.validitytech.com:11004": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "VRM": {
+        "electrums_total_all": 1,
+        "electrums_working_all": 1,
+        "electrums_total_tcp": 1,
+        "electrums_working_tcp": 1,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "electrum01-vrm.vericonomy.com:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "VRSC": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "el0.verus.io:17485": [
+                true,
+                "Passed"
+            ],
+            "el1.verus.io:17485": [
+                true,
+                "Passed"
+            ],
+            "el2.verus.io:17485": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "el0.verus.io:17486": [
+                true,
+                "Passed"
+            ],
+            "el1.verus.io:17486": [
+                true,
+                "Passed"
+            ],
+            "el2.verus.io:17486": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "el0.verus.io:17488": [
+                true,
+                "Passed"
+            ],
+            "el1.verus.io:17488": [
+                true,
+                "Passed"
+            ],
+            "el2.verus.io:17488": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "WCN": {
+        "electrums_total_all": 3,
+        "electrums_working_all": 3,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "electrumx.widecoin.org:50001": [
+                true,
+                "Passed"
+            ],
+            "electrumx2.widecoin.org:50001": [
+                true,
+                "Passed"
+            ],
+            "electrumx3.widecoin.org:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "WHIVE": {
+        "electrums_total_all": 4,
+        "electrums_working_all": 4,
+        "electrums_total_tcp": 2,
+        "electrums_working_tcp": 2,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 2,
+        "tcp": {
+            "electrumx1.cointest.com:50001": [
+                true,
+                "Passed"
+            ],
+            "electrumx2.cointest.com:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrumx1.cointest.com:50002": [
+                true,
+                "Passed"
+            ],
+            "electrumx2.cointest.com:50002": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {}
+    },
+    "WSB": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10033": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10033": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10033": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20033": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20033": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20033": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30033": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30033": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30033": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "XEC": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 0,
+        "electrums_working_tcp": 0,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 2,
+        "tcp": {},
+        "ssl": {
+            "electrum.bitcoinabc.org:50002": [
+                true,
+                "Passed"
+            ],
+            "fulcrum.pepipierre.fr:50002": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {}
+    },
+    "XMY": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 1,
+        "electrums_working_tcp": 1,
+        "electrums_total_ssl": 1,
+        "electrums_working_ssl": 1,
+        "tcp": {
+            "lenoir.ecoincore.com:10891": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "lenoir.ecoincore.com:10892": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "lenoir.ecoincore.com:10894": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "XPM": {
+        "electrums_total_all": 3,
+        "electrums_working_all": 3,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "electrumx.gemmer.primecoin.org:50011": [
+                true,
+                "Passed"
+            ],
+            "electrumx.mainnet.primecoin.org:50011": [
+                true,
+                "Passed"
+            ],
+            "electrumx.primecoin.org:50001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "XRG": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 0,
+        "electrums_working_tcp": 0,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 2,
+        "tcp": {},
+        "ssl": {
+            "blackie.c3-soft.com:52138": [
+                true,
+                "Passed"
+            ],
+            "fulcrum.ergon.network:52138": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {}
+    },
+    "XVC": {
+        "electrums_total_all": 4,
+        "electrums_working_all": 3,
+        "electrums_total_tcp": 4,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "electrumx1.vanillacash.info:50011": [
+                true,
+                "Passed"
+            ],
+            "electrumx2.vanillacash.info:50011": [
+                true,
+                "Passed"
+            ],
+            "failover.xvc.ewmcx.biz:50001": [
+                true,
+                "Passed"
+            ],
+            "electrumx.xvc.ewmcx.org:50001": [
+                false,
+                "[Errno 111] Connection refused"
+            ]
+        },
+        "ssl": {},
+        "ws": {
+            "electrumx1.vanillacash.info:50013": [
+                true,
+                "Passed"
+            ],
+            "electrumx2.vanillacash.info:50013": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "XVC-OLD": {
+        "electrums_total_all": 2,
+        "electrums_working_all": 1,
+        "electrums_total_tcp": 2,
+        "electrums_working_tcp": 1,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "failover.xvc.ewmcx.biz:50001": [
+                true,
+                "Passed"
+            ],
+            "electrumx.xvc.ewmcx.org:50001": [
+                false,
+                "[Errno 111] Connection refused"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "ZEC": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10058": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10058": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10058": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20058": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20058": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20058": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30058": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30058": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30058": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "ZER": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10065": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10065": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10065": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20065": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20065": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20065": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30065": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30065": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30065": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "ZET": {
+        "electrums_total_all": 3,
+        "electrums_working_all": 2,
+        "electrums_total_tcp": 1,
+        "electrums_working_tcp": 1,
+        "electrums_total_ssl": 2,
+        "electrums_working_ssl": 1,
+        "tcp": {
+            "207.180.252.200:50011": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "zeta-seed-c.zetacoin.tech:50012": [
+                true,
+                "Passed"
+            ],
+            "failover.zet.ewmci.xyz:50002": [
+                false,
+                "[Errno 111] Connection refused"
+            ]
+        },
+        "ws": {
+            "207.180.252.200:50013": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "ZILLA": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10028": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10028": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10028": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20028": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20028": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20028": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30028": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30028": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30028": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "ZOMBIE": {
+        "electrums_total_all": 1,
+        "electrums_working_all": 1,
+        "electrums_total_tcp": 1,
+        "electrums_working_tcp": 1,
+        "electrums_total_ssl": 0,
+        "electrums_working_ssl": 0,
+        "tcp": {
+            "zombie.sirseven.me:10033": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {},
+        "ws": {}
+    },
+    "tBCH": {
+        "electrums_total_all": 4,
+        "electrums_working_all": 3,
+        "electrums_total_tcp": 0,
+        "electrums_working_tcp": 0,
+        "electrums_total_ssl": 4,
+        "electrums_working_ssl": 3,
+        "tcp": {},
+        "ssl": {
+            "electroncash.de:50004": [
+                true,
+                "Passed"
+            ],
+            "electrs.electroncash.de:60002": [
+                true,
+                "Passed"
+            ],
+            "tbch.loping.net:60002": [
+                true,
+                "Passed"
+            ],
+            "testnet.bitcoincash.network:60002": [
+                false,
+                ""
+            ]
+        },
+        "ws": {}
+    },
+    "tBLK": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.blackcoin.nl:10011": [
+                true,
+                "Passed"
+            ],
+            "electrum2.blackcoin.nl:20011": [
+                true,
+                "Passed"
+            ],
+            "electrum3.blackcoin.nl:30011": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.blackcoin.nl:10012": [
+                true,
+                "Passed"
+            ],
+            "electrum2.blackcoin.nl:20012": [
+                true,
+                "Passed"
+            ],
+            "electrum3.blackcoin.nl:30012": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.blackcoin.nl:10014": [
+                true,
+                "Passed"
+            ],
+            "electrum2.blackcoin.nl:20014": [
+                true,
+                "Passed"
+            ],
+            "electrum3.blackcoin.nl:30014": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "tBTC": {
+        "electrums_total_all": 7,
+        "electrums_working_all": 7,
+        "electrums_total_tcp": 4,
+        "electrums_working_tcp": 4,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10068": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10068": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10068": [
+                true,
+                "Passed"
+            ],
+            "testnet.aranguren.org:51001": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20068": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20068": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20068": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30068": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30068": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30068": [
+                true,
+                "Passed"
+            ]
+        }
+    },
+    "tQTUM": {
+        "electrums_total_all": 6,
+        "electrums_working_all": 6,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 3,
+        "tcp": {
+            "electrum1.cipig.net:10071": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:10071": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:10071": [
+                true,
+                "Passed"
+            ]
+        },
+        "ssl": {
+            "electrum1.cipig.net:20071": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:20071": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:20071": [
+                true,
+                "Passed"
+            ]
+        },
+        "ws": {
+            "electrum1.cipig.net:30071": [
+                true,
+                "Passed"
+            ],
+            "electrum2.cipig.net:30071": [
+                true,
+                "Passed"
+            ],
+            "electrum3.cipig.net:30071": [
+                true,
+                "Passed"
+            ]
+        }
+    }
+}

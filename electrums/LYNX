@@ -1,26 +1,52 @@
 [
-  {
-    "url": "electrum.deliverypath.com:50002",
-    "protocol": "SSL",
-    "disable_cert_verification": false
-  },
-  {
-    "url": "electrum.dirtdivas.net:50002",
-    "protocol": "SSL",
-    "disable_cert_verification": false
-  },
-  {
-    "url": "electrum.getlynx.club:50002",
-    "protocol": "SSL",
-    "disable_cert_verification": false
-  },
-  {
-    "url": "electrum.atechhelp.com:50002",
-    "protocol": "SSL",
-    "disable_cert_verification": false
-  },
-  {
-    "url": "electrum.getlynx.io:50001",
-    "protocol": "TCP"
-  }
+    {
+        "url": "electrum.dirtdivas.net:50002",
+        "protocol": "SSL",
+        "disable_cert_verification": false
+    },
+    {
+        "url": "electrum.deliverypath.com:50002",
+        "protocol": "SSL",
+        "disable_cert_verification": false
+    },
+    {
+        "url": "electrum.atechhelp.com:50002",
+        "protocol": "SSL",
+        "disable_cert_verification": false
+    },
+    {
+        "url": "electrum.getlynx.club:50002",
+        "protocol": "SSL",
+        "disable_cert_verification": false
+    },
+    {
+        "url": "electrum.getlynx.io:50001",
+        "protocol": "TCP"
+    },
+    {
+        "url": "electrum5.getlynx.io:50002",
+        "protocol": "SSL",
+        "ws_url": "electrum5.getlynx.io:50004"
+    },
+    {
+        "url": "electrum6.getlynx.io:50002",
+        "protocol": "SSL",
+        "ws_url": "electrum6.getlynx.io:50004"
+    },
+    {
+        "url": "electrum7.getlynx.io:50002",
+        "protocol": "SSL",
+        "ws_url": "electrum7.getlynx.io:50004"
+    },
+    {
+        "url": "electrum8.getlynx.io:50002",
+        "protocol": "SSL",
+        "ws_url": "electrum8.getlynx.io:50004"
+    },
+    {
+        "url": "electrum9.getlynx.io:50002",
+        "protocol": "SSL",
+        "ws_url": "electrum9.getlynx.io:50004"
+    }
 ]
+

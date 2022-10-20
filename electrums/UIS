@@ -1,11 +1,13 @@
 [
-  {
-    "url": "failover.trc-uis.ewmcx.biz:50002",
-    "protocol": "SSL",
-    "disable_cert_verification": true
-  },
-  {
-    "url": "electrumx.uis.ewmcx.info:50001",
-    "protocol": "TCP"
-  }
+    {
+        "url": "failover.trc-uis.ewmcx.biz:50002",
+        "protocol": "SSL",
+        "disable_cert_verification": true,
+        "ws_url": "failover.trc-uis.ewmcx.biz:50003"
+    },
+    {
+        "url": "electrumx.uis.ewmcx.info:50001",
+        "protocol": "TCP",
+        "ws_url": "electrumx.uis.ewmcx.info:50004"
+    }
 ]

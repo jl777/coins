@@ -2,9 +2,10 @@ name: Update Coin Configs
 
 on:
   push:
-    branches: [ "parse_repo" ]
+    branches: [ "master" ]
     paths-ignore:
-      - 'utils/**'
+      - 'utils/coins_config.json'
+      - 'utils/electrum_scan_report.json'
   schedule:
     - cron:  '0 0 * * *'
 
@@ -22,7 +23,7 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add ${GITHUB_WORKSPACE}/utils/desktop_coins.json ${GITHUB_WORKSPACE}/utils/electrum_scan_report.json
+          git add ${GITHUB_WORKSPACE}/utils/coins_config.json ${GITHUB_WORKSPACE}/utils/electrum_scan_report.json
           git commit -m "Update coin configs"
       - name: Push changes
         uses: ad-m/github-push-action@master

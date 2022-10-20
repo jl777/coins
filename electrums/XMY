@@ -1,6 +1,11 @@
 [
-  {
-    "url": "lenoir.ecoincore.com:10892",
-    "protocol": "SSL"
-  }
+    {
+        "url": "lenoir.ecoincore.com:10891",
+        "protocol": "TCP",
+        "ws_url": "lenoir.ecoincore.com:10894"
+    },
+    {
+        "url": "lenoir.ecoincore.com:10892",
+        "protocol": "SSL"
+    }
 ]

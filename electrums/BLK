@@ -1,44 +1,59 @@
 [
-  {
-    "url": "electrum1.blackcoin.nl:10001",
-    "contact": [
-      { "discord": "michelvankessel#7656" }
-    ]
-  },
-  {
-    "url": "electrum2.blackcoin.nl:20001",
-    "contact": [
-      { "discord": "michelvankessel#7656" }
-    ]
-  },
-  {
-    "url": "electrum3.blackcoin.nl:30001",
-    "contact": [
-      { "discord": "michelvankessel#7656" }
-    ]
-  },
-  {
-    "url": "electrum1.blackcoin.nl:10002",
-    "protocol": "SSL",
-    "disable_cert_verification": true,
-    "contact": [
-      { "discord": "michelvankessel#7656" }
-    ]
-  },
-  {
-    "url": "electrum2.blackcoin.nl:20002",
-    "protocol": "SSL",
-    "disable_cert_verification": true,
-    "contact": [
-      { "discord": "michelvankessel#7656" }
-    ]
-  },
-  {
-    "url": "electrum3.blackcoin.nl:30002",
-    "protocol": "SSL",
-    "disable_cert_verification": true,
-    "contact": [
-      { "discord": "michelvankessel#7656" }
-    ]
-  }
+    {
+        "url": "electrum2.blackcoin.nl:20002",
+        "protocol": "SSL",
+        "disable_cert_verification": false,
+        "contact": [
+            {
+                "discord": "michelvankessel#7656"
+            }
+        ],
+        "ws_url": "electrum2.blackcoin.nl:20004"
+    },
+    {
+        "url": "electrum1.blackcoin.nl:10001",
+        "contact": [
+            {
+                "discord": "michelvankessel#7656"
+            }
+        ]
+    },
+    {
+        "url": "electrum2.blackcoin.nl:20001",
+        "contact": [
+            {
+                "discord": "michelvankessel#7656"
+            }
+        ]
+    },
+    {
+        "url": "electrum3.blackcoin.nl:30001",
+        "contact": [
+            {
+                "discord": "michelvankessel#7656"
+            }
+        ]
+    },
+    {
+        "url": "electrum1.blackcoin.nl:10002",
+        "protocol": "SSL",
+        "disable_cert_verification": false,
+        "contact": [
+            {
+                "discord": "michelvankessel#7656"
+            }
+        ],
+        "ws_url": "electrum1.blackcoin.nl:10004"
+    },
+    {
+        "url": "electrum3.blackcoin.nl:30002",
+        "protocol": "SSL",
+        "disable_cert_verification": false,
+        "contact": [
+            {
+                "discord": "michelvankessel#7656"
+            }
+        ],
+        "ws_url": "electrum3.blackcoin.nl:30004"
+    }
 ]

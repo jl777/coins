@@ -3,6 +3,13 @@
   "rpc_nodes": [
     {
       "url": "https://polygon-rpc.com"
+    },
+    {
+      "url": "https://poly-rpc.gateway.pokt.network"
+    },
+    {
+      "url": "https://rpc-mainnet.maticvigil.com",
+      "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
     }
   ]
 }

@@ -1,26 +1,50 @@
 [
-  {
-    "url": "il8p.electrumx.transcenders.name:50002",
-    "protocol": "SSL",
-    "disable_cert_verification": true,
-    "contact": [
-      { "email": "coins@ewmci.com" },
-      { "discord": "[CryptoStan]#9341" },
-      { "twitter": "EwmciL" },
-      { "reddit": "InfiniLooP" },
-      { "github": "WikiMin3R" }
-    ]
-  },
-  {
-    "url": "il9p.electrumx.transcenders.name:50002",
-    "protocol": "SSL",
-    "disable_cert_verification": true,
-    "contact": [
-      { "email": "coins@ewmci.com" },
-      { "discord": "[CryptoStan]#9341" },
-      { "twitter": "EwmciL" },
-      { "reddit": "InfiniLooP" },
-      { "github": "WikiMin3R" }
-    ]
-  }
+    {
+        "url": "il8p.electrumx.transcenders.name:50002",
+        "protocol": "SSL",
+        "disable_cert_verification": true,
+        "contact": [
+            {
+                "email": "coins@ewmci.com"
+            },
+            {
+                "discord": "[CryptoStan]#9341"
+            },
+            {
+                "twitter": "EwmciL"
+            },
+            {
+                "reddit": "InfiniLooP"
+            },
+            {
+                "github": "WikiMin3R"
+            }
+        ],
+        "ws_url": "il8p.electrumx.transcenders.name:50003"
+    },
+    {
+        "url": "il9p.electrumx.transcenders.name:50002",
+        "protocol": "SSL",
+        "disable_cert_verification": true,
+        "contact": [
+            {
+                "email": "coins@ewmci.com"
+            },
+            {
+                "discord": "[CryptoStan]#9341"
+            },
+            {
+                "twitter": "EwmciL"
+            },
+            {
+                "reddit": "InfiniLooP"
+            },
+            {
+                "github": "WikiMin3R"
+            }
+        ],
+        "ws_url": "il9p.electrumx.transcenders.name:50003"
+    }
 ]
+
+

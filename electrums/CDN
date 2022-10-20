@@ -1,37 +1,48 @@
 [
-  {
-    "url": "mumbai.ecoincore.com:34333",
-    "protocol": "SSL",
-    "disable_cert_verification": true
-  },
-  {
-    "url": "holland.ecoincore.com:34333",
-    "protocol": "SSL",
-    "disable_cert_verification": true
-  },
-  {
-    "url": "oakland.ecoincore.com:34333",
-    "protocol": "SSL",
-    "disable_cert_verification": true
-  },
-  {
-    "url": "miami.ecoincore.com:34333",
-    "protocol": "SSL",
-    "disable_cert_verification": true
-  },
-  {
-    "url": "seattle.ecoincore.com:34333",
-    "protocol": "SSL",
-    "disable_cert_verification": true
-  },
-  {
-    "url": "chicago.ecoincore.com:34333",
-    "protocol": "SSL",
-    "disable_cert_verification": true
-  },
-  {
-    "url": "lenoir.ecoincore.com:34333",
-    "protocol": "SSL",
-    "disable_cert_verification": true
-  }
+    {
+        "url": "woolloomooloo.ecoincore.com:34333",
+        "protocol": "SSL",
+        "disable_cert_verification": true,
+        "ws_url": "woolloomooloo.ecoincore.com:34335"
+    },
+    {
+        "url": "chicago.ecoincore.com:34333",
+        "protocol": "SSL",
+        "disable_cert_verification": true
+    },
+    {
+        "url": "seattle.ecoincore.com:34333",
+        "protocol": "SSL",
+        "disable_cert_verification": true
+    },
+    {
+        "url": "lenoir.ecoincore.com:34333",
+        "protocol": "SSL",
+        "disable_cert_verification": true,
+        "ws_url": "lenoir.ecoincore.com:34335"
+    },
+    {
+        "url": "oakland.ecoincore.com:34333",
+        "protocol": "SSL",
+        "disable_cert_verification": true
+    },
+    {
+        "url": "holland.ecoincore.com:34333",
+        "protocol": "SSL",
+        "disable_cert_verification": true,
+        "ws_url": "holland.ecoincore.com:34335"
+    },
+    {
+        "url": "miami.ecoincore.com:34333",
+        "protocol": "SSL",
+        "disable_cert_verification": true,
+        "ws_url": "miami.ecoincore.com:34335"
+    },
+    {
+        "url": "mumbai.ecoincore.com:34333",
+        "protocol": "SSL",
+        "disable_cert_verification": true,
+        "ws_url": "mumbai.ecoincore.com:34335"
+    }
 ]
+

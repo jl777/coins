@@ -1,15 +1,18 @@
 [
-  {
-    "url": "failover.trc-uis.ewmcx.biz:50006",
-    "protocol": "SSL",
-    "disable_cert_verification": true
-  },
-  {
-    "url": "electrum.terracoin.io:50001",
-    "protocol": "TCP"
-  },
-  {
-    "url": "electrum.southofheaven.ca:50001",
-    "protocol": "TCP"
-  }
+    {
+        "url": "failover.trc-uis.ewmcx.biz:50006",
+        "protocol": "SSL",
+        "disable_cert_verification": true,
+        "ws_url": "failover.trc-uis.ewmcx.biz:50007"
+    },
+    {
+        "url": "electrum.terracoin.io:50001",
+        "protocol": "TCP",
+        "ws_url": "electrum.terracoin.io:50004"
+    },
+    {
+        "url": "electrum.southofheaven.ca:50001",
+        "protocol": "TCP",
+        "ws_url": "electrum.southofheaven.ca:50004"
+    }
 ]

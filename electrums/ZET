@@ -1,7 +1,12 @@
 [
-  {
-    "url": "failover.zet.ewmci.xyz:50002",
-    "protocol": "SSL",
-    "disable_cert_verification": true
-  }
+    {
+        "url": "zeta-seed-c.zetacoin.tech:50012",
+        "protocol": "SSL",
+        "disable_cert_verification": false
+    },
+    {
+        "url": "207.180.252.200:50011",
+        "protocol": "TCP",
+        "ws_url": "207.180.252.200:50013"
+    }
 ]

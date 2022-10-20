@@ -1,0 +1,65 @@
+{
+    "https://chainz.cryptoid.info/": {
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?"
+    },
+    "https://bscscan.com/": {
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "token_address_url": "tokentxns?a="
+    },
+    "https://blockchair.com/": {
+        "explorer_tx_url": "transaction/"
+    },
+    "https://explorer.zcha.in/": {
+        "explorer_address_url": "accounts/",
+        "explorer_tx_url": "transactions/"
+    },
+    "https://chainz.cryptoid.info/": {
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?"
+    },
+    "https://explorer.runebase.io/": {
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/"
+    },
+    "https://explorer2.runebase.io/": {
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/"
+    },
+    "https://softbalanced.com:3001/insight/": {
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/"
+    },
+    "https://explorer.fujicoin.org/": {
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/"
+    },
+    "https://explorer.blackcoin.nl/": {
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/"
+    },
+    "https://explorer.lightningcash-coin.com/": {
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/"
+    },
+    "https://testnet.simpleledger.info/": {
+        "explorer_tx_url": "#tx/"
+    },
+    "https://simpleledger.info/": {
+        "explorer_tx_url": "#tx/"
+    },
+    "https://www.nyanchain.com/": {
+        "explorer_tx_url": "tx.nyan?",
+        "explorer_address_url": "ad.nyan?"
+    },
+    "https://explorer.lightningcash-coin.com/": {
+        "explorer_tx_url": "tx/"
+    },
+    "https://explorer.bitwebcore.org/": {
+        "explorer_tx_url": "tx/"
+    },
+    "https://openchains.info/coin/ltfn/": {
+        "explorer_tx_url": "tx/"
+    }
+}
