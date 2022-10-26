@@ -615,15 +615,15 @@
     }
   },
   {
-    "coin":"ARRR",
-    "asset":"PIRATE",
+    "coin": "ARRR",
+    "asset": "PIRATE",
     "fname": "Pirate",
-    "txversion":4,
-    "overwintered":1,
-    "mm2":1,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
     "avg_blocktime": 1,
-    "protocol":{
-      "type":"ZHTLC",
+    "protocol": {
+      "type": "ZHTLC",
       "protocol_data": {
         "consensus_params": {
           "overwinter_activation_height": 152855,
@@ -635,8 +635,14 @@
           "hrp_sapling_extended_spending_key": "secret-extended-key-main",
           "hrp_sapling_extended_full_viewing_key": "zxviews",
           "hrp_sapling_payment_address": "zs",
-          "b58_pubkey_address_prefix": [ 28, 184 ],
-          "b58_script_address_prefix": [ 28, 189 ]
+          "b58_pubkey_address_prefix": [
+            28,
+            184
+          ],
+          "b58_script_address_prefix": [
+            28,
+            189
+          ]
         },
         "check_point_block": {
           "height": 1900000,
@@ -1171,54 +1177,56 @@
     "required_confirmations": 1,
     "avg_blocktime": 10,
     "protocol": {
-        "type": "BCH",
-        "protocol_data": {
-            "slp_prefix": "simpleledger"
-        }
-    }
+      "type": "BCH",
+      "protocol_data": {
+        "slp_prefix": "simpleledger"
+      }
+    },
+    "derivation_path": "m/44'/145'",
+    "trezor_coin": "Bcash"
   },
   {
-    "coin":"USDT-SLP",
+    "coin": "USDT-SLP",
     "fname": "Tether",
-    "protocol":{
-        "type":"SLPTOKEN",
-        "protocol_data":{
-            "decimals":8,
-            "token_id":"9fc89d6b7d5be2eac0b3787c5b8236bca5de641b5bafafc8f450727b63615c11",
-            "platform":"BCH",
-            "required_confirmations": 1,
-            "slp_prefix": "simpleledger"
-        }
+    "protocol": {
+      "type": "SLPTOKEN",
+      "protocol_data": {
+        "decimals": 8,
+        "token_id": "9fc89d6b7d5be2eac0b3787c5b8236bca5de641b5bafafc8f450727b63615c11",
+        "platform": "BCH",
+        "required_confirmations": 1,
+        "slp_prefix": "simpleledger"
+      }
     },
     "mm2": 1
   },
   {
-    "coin":"HONK",
+    "coin": "HONK",
     "fname": "Honk Honk",
-    "protocol":{
-        "type":"SLPTOKEN",
-        "protocol_data": {
-            "decimals":0,
-            "token_id":"7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
-            "platform":"BCH",
-            "required_confirmations": 1,
-            "slp_prefix": "simpleledger"
-        }
+    "protocol": {
+      "type": "SLPTOKEN",
+      "protocol_data": {
+        "decimals": 0,
+        "token_id": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+        "platform": "BCH",
+        "required_confirmations": 1,
+        "slp_prefix": "simpleledger"
+      }
     },
     "mm2": 1
   },
   {
-    "coin":"ASLP",
+    "coin": "ASLP",
     "fname": "AtomicSLP",
-    "protocol":{
-        "type":"SLPTOKEN",
-        "protocol_data": {
-            "decimals":2,
-            "token_id":"926894cbf50269b15c97559b9acfc1bd88cd5f20703313ce0ea0683ecdb40911",
-            "platform":"BCH",
-            "required_confirmations": 1,
-            "slp_prefix": "simpleledger"
-        }
+    "protocol": {
+      "type": "SLPTOKEN",
+      "protocol_data": {
+        "decimals": 2,
+        "token_id": "926894cbf50269b15c97559b9acfc1bd88cd5f20703313ce0ea0683ecdb40911",
+        "platform": "BCH",
+        "required_confirmations": 1,
+        "slp_prefix": "simpleledger"
+      }
     },
     "mm2": 1
   },
@@ -1595,7 +1603,9 @@
     "txfee": 200000,
     "segwit": true,
     "bech32_hrp": "gb",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "BSTY",
     "mm2": 1,
     "required_confirmations": 1,
@@ -1629,7 +1639,9 @@
     "avg_blocktime": 10,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/0'",
+    "trezor_coin": "Bitcoin"
   },
   {
     "coin": "BTC-segwit",
@@ -1641,7 +1653,9 @@
     "wiftype": 128,
     "segwit": true,
     "bech32_hrp": "bc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "BTC",
     "txfee": 0,
     "estimate_fee_mode": "ECONOMICAL",
@@ -1741,7 +1755,9 @@
     "wiftype": 128,
     "segwit": true,
     "bech32_hrp": "web",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "BTE",
     "txfee": 20000,
     "mm2": 1,
@@ -1850,7 +1866,9 @@
     "wiftype": 128,
     "segwit": true,
     "bech32_hrp": "btx",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "BTX",
     "txfee": 20000,
     "mm2": 1,
@@ -2102,7 +2120,9 @@
     "dust": 54600,
     "segwit": true,
     "bech32_hrp": "cdn",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "CDN",
     "mm2": 1,
     "required_confirmations": 2,
@@ -2779,7 +2799,9 @@
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/5'",
+    "trezor_coin": "Dash"
   },
   {
     "coin": "DDD",
@@ -2847,7 +2869,9 @@
     "avg_blocktime": 0.25,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/20'",
+    "trezor_coin": "DigiByte"
   },
   {
     "coin": "DGB-segwit",
@@ -2860,7 +2884,9 @@
     "txfee": 100000,
     "segwit": true,
     "bech32_hrp": "dgb",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "DGB",
     "mm2": 1,
     "required_confirmations": 7,
@@ -3049,7 +3075,9 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/3'",
+    "trezor_coin": "Dogecoin"
   },
   {
     "coin": "DOGE-BEP20",
@@ -3170,7 +3198,7 @@
     "avg_blocktime": 10,
     "protocol": {
       "type": "UTXO"
-     }
+    }
   },
   {
     "coin": "DUST",
@@ -3752,7 +3780,9 @@
     "wiftype": 164,
     "segwit": true,
     "bech32_hrp": "fc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "FJC",
     "txfee": 0,
     "mm2": 1,
@@ -3907,7 +3937,9 @@
     "txfee": 1000000,
     "segwit": true,
     "bech32_hrp": "fc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "FTC",
     "mm2": 1,
     "required_confirmations": 5,
@@ -4215,7 +4247,9 @@
     "txfee": 0,
     "segwit": true,
     "bech32_hrp": "bc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "GRS",
     "mm2": 1,
     "required_confirmations": 5,
@@ -4597,22 +4631,22 @@
     }
   },
   {
-  "coin": "ILNSW-PLG20",
-  "name": "ilnsw_plg20",
-  "fname": "Ilien Swap",
-  "rpcport": 80,
-  "mm2": 1,
-  "chain_id": 137,
-  "decimals": 18,
-  "avg_blocktime": 0.03,
-  "required_confirmations": 3,
-  "protocol": {
-    "type": "ERC20",
-    "protocol_data": {
-      "platform": "MATIC",
-      "contract_address": "0x0483Ddbb510d22b206f2F3bDAC18528C952c4213"
-     }
-   }
+    "coin": "ILNSW-PLG20",
+    "name": "ilnsw_plg20",
+    "fname": "Ilien Swap",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x0483Ddbb510d22b206f2F3bDAC18528C952c4213"
+      }
+    }
   },
   {
     "coin": "INJ-BEP20",
@@ -4962,7 +4996,9 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
   },
   {
     "coin": "KMD-BEP20",
@@ -5129,7 +5165,9 @@
     "txfee": 10000,
     "segwit": true,
     "bech32_hrp": "lbc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "LBC",
     "mm2": 1,
     "required_confirmations": 3,
@@ -5173,7 +5211,9 @@
     "txfee": 20000,
     "segwit": true,
     "bech32_hrp": "lcc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "LCC",
     "mm2": 1,
     "required_confirmations": 4,
@@ -5499,7 +5539,9 @@
     "txfee": 0,
     "segwit": true,
     "bech32_hrp": "wc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "WCN",
     "mm2": 1,
     "required_confirmations": 2,
@@ -5578,7 +5620,9 @@
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/2'",
+    "trezor_coin": "Litecoin"
   },
   {
     "coin": "LTC-segwit",
@@ -5592,7 +5636,9 @@
     "dust": 5460,
     "segwit": true,
     "bech32_hrp": "ltc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "LTC",
     "mm2": 1,
     "required_confirmations": 2,
@@ -5634,7 +5680,9 @@
     "txfee": 20000,
     "segwit": true,
     "bech32_hrp": "ltfn",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "LTFN",
     "mm2": 1,
     "required_confirmations": 3,
@@ -5945,7 +5993,7 @@
     "protocol": {
       "type": "UTXO"
     }
-  },  
+  },
   {
     "coin": "MIR-ERC20",
     "name": "mir_erc20",
@@ -6173,7 +6221,9 @@
     "dust": 100000,
     "segwit": true,
     "bech32_hrp": "mona",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "MONA",
     "mm2": 1,
     "required_confirmations": 5,
@@ -6230,17 +6280,17 @@
     }
   },
   {
-      "coin": "GLMR",
-      "name": "moonbeam",
-      "fname": "Moonbeam",
-      "rpcport": 80,
-      "mm2": 1,
-      "chain_id": 1284,
-      "required_confirmations": 3,
-      "avg_blocktime": 0.25,
-      "protocol": {
-        "type": "ETH"
-      }
+    "coin": "GLMR",
+    "name": "moonbeam",
+    "fname": "Moonbeam",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1284,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.25,
+    "protocol": {
+      "type": "ETH"
+    }
   },
   {
     "coin": "MSHARK",
@@ -6428,7 +6478,9 @@
     "avg_blocktime": 10,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/7'",
+    "trezor_coin": "Namecoin"
   },
   {
     "coin": "NMC-segwit",
@@ -6441,7 +6493,9 @@
     "txfee": 0,
     "segwit": true,
     "bech32_hrp": "nc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "NMC",
     "mm2": 1,
     "required_confirmations": 2,
@@ -6577,7 +6631,7 @@
     "bech32_hrp": "ny",
     "mm2": 1,
     "required_confirmations": 10,
-    "avg_blocktime":1,
+    "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
     }
@@ -6915,7 +6969,9 @@
     "wiftype": 128,
     "segwit": true,
     "bech32_hrp": "bc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "PIC",
     "txfee": 0,
     "mm2": 1,
@@ -6976,7 +7032,9 @@
     "dust": 1000000,
     "segwit": true,
     "bech32_hrp": "pn",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "PND",
     "mm2": 1,
     "required_confirmations": 1,
@@ -7056,7 +7114,9 @@
     "dust": 10000,
     "segwit": true,
     "bech32_hrp": "pc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "PPC",
     "mm2": 1,
     "required_confirmations": 1,
@@ -7183,7 +7243,7 @@
     "bech32_hrp": "pr",
     "mm2": 1,
     "required_confirmations": 9,
-    "avg_blocktime":0.15,
+    "avg_blocktime": 0.15,
     "protocol": {
       "type": "UTXO"
     }
@@ -7400,7 +7460,7 @@
     "p2shtype": 50,
     "wiftype": 128,
     "segwit": false,
-    "txfee": 400000, 
+    "txfee": 400000,
     "mm2": 1,
     "is_testnet": true,
     "mature_confirmations": 2000,
@@ -7446,7 +7506,9 @@
     "wiftype": 128,
     "segwit": true,
     "bech32_hrp": "qc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "QTUM",
     "txfee": 0,
     "dust": 72800,
@@ -7506,7 +7568,9 @@
     "wiftype": 239,
     "segwit": true,
     "bech32_hrp": "tq",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "tQTUM",
     "txfee": 400000,
     "mm2": 1,
@@ -7650,7 +7714,9 @@
     "wiftype": 128,
     "segwit": true,
     "bech32_hrp": "ric",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "RIC",
     "txfee": 0,
     "mm2": 1,
@@ -7675,7 +7741,9 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
   },
   {
     "coin": "RLC-ERC20",
@@ -8365,7 +8433,9 @@
     "dust": 1820,
     "segwit": true,
     "bech32_hrp": "sys",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "SYS",
     "required_confirmations": 5,
     "avg_blocktime": 1,
@@ -8438,7 +8508,9 @@
     "wiftype": 239,
     "segwit": true,
     "bech32_hrp": "tb",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "tBTC",
     "txfee": 0,
     "estimate_fee_mode": "ECONOMICAL",
@@ -9467,7 +9539,9 @@
     "txfee": 100000,
     "segwit": true,
     "bech32_hrp": "via",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "VIA",
     "mm2": 1,
     "protocol": {
@@ -9555,7 +9629,9 @@
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/28'",
+    "trezor_coin": "Vertcoin"
   },
   {
     "coin": "VTC-segwit",
@@ -9568,7 +9644,9 @@
     "txfee": 0,
     "segwit": true,
     "bech32_hrp": "vtc",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "VTC",
     "mm2": 1,
     "required_confirmations": 4,
@@ -9769,7 +9847,9 @@
     "mm2": 1,
     "segwit": true,
     "bech32_hrp": "ep",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "XEP",
     "required_confirmations": 4,
     "avg_blocktime": 1.3,
@@ -9841,7 +9921,9 @@
     "txfee": 10000,
     "segwit": true,
     "bech32_hrp": "my",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "XMY",
     "mm2": 1,
     "required_confirmations": 3,
@@ -10399,28 +10481,28 @@
     "segwit": false,
     "decimals": 9
   },
-   {
-      "coin": "FLUX",
-      "name": "flux",
-      "fname": "Flux",
-      "rpcport": 16124,
-      "taddr": 28,
-      "pubtype": 184,
-      "p2shtype": 189,
-      "wiftype": 128,
-      "txversion": 4,
-      "overwintered": 1,
-      "version_group_id": "0x892f2085",
-      "consensus_branch_id": "0x76b809bb",
-      "txfee": 10000,
-      "mm2": 1,
-      "required_confirmations": 2,
-      "avg_blocktime": 1,
-      "protocol": {
-        "type": "UTXO"
-      }
-    },
-    {
+  {
+    "coin": "FLUX",
+    "name": "flux",
+    "fname": "Flux",
+    "rpcport": 16124,
+    "taddr": 28,
+    "pubtype": 184,
+    "p2shtype": 189,
+    "wiftype": 128,
+    "txversion": 4,
+    "overwintered": 1,
+    "version_group_id": "0x892f2085",
+    "consensus_branch_id": "0x76b809bb",
+    "txfee": 10000,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 1,
+    "protocol": {
+      "type": "UTXO"
+    }
+  },
+  {
     "coin": "FLUX-ERC20",
     "name": "flux_erc20",
     "fname": "Flux",
@@ -10438,7 +10520,7 @@
       }
     }
   },
-    {
+  {
     "coin": "FLUX-BEP20",
     "name": "flux_bep20",
     "fname": "Flux",
@@ -11539,7 +11621,9 @@
     "dust": 1000,
     "segwit": true,
     "bech32_hrp": "wv",
-    "address_format":{"format":"segwit"},
+    "address_format": {
+      "format": "segwit"
+    },
     "orderbook_ticker": "WHIVE",
     "mm2": 1,
     "required_confirmations": 1,
@@ -11582,7 +11666,7 @@
       "network": "ecash"
     },
     "mm2": 1,
-    "decimals":2,
+    "decimals": 2,
     "required_confirmations": 1,
     "avg_blocktime": 10,
     "protocol": {
@@ -11622,15 +11706,15 @@
     }
   },
   {
-    "coin":"ZOMBIE",
-    "asset":"ZOMBIE",
+    "coin": "ZOMBIE",
+    "asset": "ZOMBIE",
     "fname": "Zombie",
-    "txversion":4,
-    "overwintered":1,
+    "txversion": 4,
+    "overwintered": 1,
     "avg_blocktime": 1,
-    "mm2":1,
-    "protocol":{
-      "type":"ZHTLC",
+    "mm2": 1,
+    "protocol": {
+      "type": "ZHTLC",
       "protocol_data": {
         "consensus_params": {
           "overwinter_activation_height": 0,
@@ -11642,8 +11726,14 @@
           "hrp_sapling_extended_spending_key": "secret-extended-key-main",
           "hrp_sapling_extended_full_viewing_key": "zxviews",
           "hrp_sapling_payment_address": "zs",
-          "b58_pubkey_address_prefix": [ 28, 184 ],
-          "b58_script_address_prefix": [ 28, 189 ]
+          "b58_pubkey_address_prefix": [
+            28,
+            184
+          ],
+          "b58_script_address_prefix": [
+            28,
+            189
+          ]
         }
       }
     },
