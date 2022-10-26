@@ -11,7 +11,7 @@ os.chdir(script_path)
 
 # TODO: Check all coins have an icon.
 icons = [f for f in os.listdir(f"{repo_path}/icons") if os.path.isfile(f"{repo_path}/icons/{f}.png")]
-lightwallet_coins = [f for f in os.listdir(f"{repo_path}/electrums") if os.path.isfile(f"{repo_path}/light_wallet_d/{f}")]
+lightwallet_coins = [f for f in os.listdir(f"{repo_path}/light_wallet_d") if os.path.isfile(f"{repo_path}/light_wallet_d/{f}")]
 electrum_coins = [f for f in os.listdir(f"{repo_path}/electrums") if os.path.isfile(f"{repo_path}/electrums/{f}")]
 ethereum_coins = [f for f in os.listdir(f"{repo_path}/ethereum") if os.path.isfile(f"{repo_path}/ethereum/{f}")]
 explorer_coins = [f for f in os.listdir(f"{repo_path}/explorers") if os.path.isfile(f"{repo_path}/explorers/{f}")]
