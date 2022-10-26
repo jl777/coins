@@ -122,6 +122,10 @@ class CoinConfig:
                 self.data[self.ticker].update({
                     "light_wallet_d_servers": lightwallet_servers
                 })
+            else:
+                self.data[self.ticker].update({
+                    "light_wallet_d_servers": []
+                })
 
     def get_protocol_info(self):
         if "protocol_data" in self.coin_data["protocol"]:
@@ -346,7 +350,7 @@ class CoinConfig:
                 for p in explorer_paths:
                     if x.find(p) > -1:
                         self.data[self.ticker].update(explorer_paths[p])
-            self.data[self.ticker].update({"explorer_url": explorers})
+            self.data[self.ticker].update({"explorer_url": explorers[0]})
 
 def parse_coins_repo():
 
@@ -386,6 +390,9 @@ def parse_coins_repo():
                     nodata.append(coin)
             if "electrum" in coins_config[coin]:
                 if not coins_config[coin]["electrum"]:
+                    nodata.append(coin)
+            if "light_wallet_d_servers" in coins_config[coin]:
+                if not coins_config[coin]["light_wallet_d_servers"]:
                     nodata.append(coin)
             if "nodes" not in coins_config[coin] and "electrum" not in coins_config[coin]:
                 nodata.append(coin)

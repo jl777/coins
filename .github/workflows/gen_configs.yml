@@ -18,15 +18,25 @@ jobs:
       - name: Generate configs
         shell: bash
         run:  ${GITHUB_WORKSPACE}/utils/generate_app_configs.py
-            
-      - name: Update files in repo
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add ${GITHUB_WORKSPACE}/utils/coins_config.json ${GITHUB_WORKSPACE}/utils/electrum_scan_report.json
-          git commit -m "Update coin configs"
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: update coins json file
+          committer: GitHub <noreply@github.com>
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          branch: json-config-update
+          delete-branch: true
+          title: '[BOT] Update coins config json'
+          body: |
+            - Coins JSON config auto-generated on merge to master
+            - Electrum scan report updated
+          labels: |
+            config-update
+          assignees: cipig, smk762, gcharang
+          reviewers: cipig, smk762, gcharang
+          team-reviewers: |
+            owners
+            maintainers
+          draft: false
