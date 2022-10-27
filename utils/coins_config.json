@@ -19,7 +19,7 @@
         "wallet_only": false,
         "contract_address": "0xd501281565bf7789224523144Fe5D98e8B28f267",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -42,9 +42,7 @@
         "wallet_only": false,
         "contract_address": "0xaFf5Ed00c57b0E0c22123dbA28Cb6A5B26651Bbd",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -67,9 +65,7 @@
         "wallet_only": false,
         "contract_address": "0x0D6e16c7066421607F8D334D6C02A48031fc2Eba",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -93,9 +89,7 @@
         "wallet_only": false,
         "contract_address": "0x111111111117dC0aa78b770fA6A738034120C302",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -119,9 +113,7 @@
         "wallet_only": false,
         "contract_address": "0x111111111117dC0aa78b770fA6A738034120C302",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -145,8 +137,7 @@
         "wallet_only": false,
         "contract_address": "0x58f1b044d8308812881a1433d9Bbeff99975e70C",
         "nodes": [
-            "https://api.harmony.one",
-            "https://api.s0.t.hmny.io"
+            "https://node.komodo.live:8080/harmony"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -192,9 +183,7 @@
         "wallet_only": false,
         "contract_address": "0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -217,9 +206,7 @@
         "wallet_only": false,
         "contract_address": "0xc1c93D475dc82Fe72DBC7074d55f5a734F8cEEAE",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -243,7 +230,7 @@
         "wallet_only": false,
         "contract_address": "0x63a72806098Bd3D9520cC43356dD78afe5D386D9",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -266,9 +253,7 @@
         "wallet_only": false,
         "contract_address": "0xfb6115445Bff7b52FeB98650C87f44907E58f802",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -292,9 +277,7 @@
         "wallet_only": false,
         "contract_address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -318,7 +301,7 @@
         "wallet_only": false,
         "contract_address": "0x6a07A792ab2965C72a5B8088d3a069A7aC3a993B",
         "nodes": [
-            "https://rpc.ftm.tools/"
+            "https://node.komodo.live:8080/fantom"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -364,8 +347,7 @@
         "wallet_only": false,
         "contract_address": "0xcF323Aad9E522B93F11c352CaA519Ad0E14eB40F",
         "nodes": [
-            "https://api.harmony.one",
-            "https://api.s0.t.hmny.io"
+            "https://node.komodo.live:8080/harmony"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -411,9 +393,7 @@
         "wallet_only": false,
         "contract_address": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -481,9 +461,7 @@
         "wallet_only": false,
         "contract_address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -531,9 +509,7 @@
         "wallet_only": false,
         "contract_address": "0x28E0685cc4C57a1CCF27090678A34Ebd6a641AC3",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -557,9 +533,7 @@
         "wallet_only": false,
         "contract_address": "0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -583,9 +557,7 @@
         "wallet_only": false,
         "contract_address": "0xADE00C28244d5CE17D72E40330B1c318cD12B7c3",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -609,9 +581,7 @@
         "wallet_only": false,
         "contract_address": "0x5B7533812759B45C2B44C19e320ba2cD2681b542",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -635,9 +605,7 @@
         "wallet_only": false,
         "contract_address": "0x190Eb8a183D22a4bdf278c6791b152228857c033",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -660,9 +628,7 @@
         "wallet_only": false,
         "contract_address": "0xf307910A4c7bbc79691fD374889b36d8531B08e3",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -686,9 +652,7 @@
         "wallet_only": false,
         "contract_address": "0x8290333ceF9e6D528dD5618Fb97a76f268f3EDD4",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -697,9 +661,9 @@
         "coin": "ANKR-PLG20",
         "type": "Matic",
         "name": "Ankr",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "ankr-ankr-network",
+        "coingecko_id": "ankr",
+        "nomics_id": "ANKR",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -712,9 +676,7 @@
         "wallet_only": false,
         "contract_address": "0x101A023270368c0D50BFfb62780F4aFd4ea79C35",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -737,9 +699,7 @@
         "wallet_only": false,
         "contract_address": "0x4d224452801ACEd8B2F0aebE155379bb5D594381",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -763,9 +723,7 @@
         "wallet_only": false,
         "contract_address": "0xC762043E211571eB34f1ef377e5e8e76914962f9",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -774,9 +732,9 @@
         "coin": "APE-FTM20",
         "type": "FTM-20",
         "name": "ApeCoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "ape-apecoin",
+        "coingecko_id": "apecoin",
+        "nomics_id": "APE7",
         "explorer_url": [
             "https://ftmscan.com/"
         ],
@@ -789,7 +747,7 @@
         "wallet_only": false,
         "contract_address": "0x2d72A97a31Dc920dB03330780d30074626e39C8A",
         "nodes": [
-            "https://rpc.ftm.tools/"
+            "https://node.komodo.live:8080/fantom"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -797,9 +755,9 @@
         "coin": "APE-PLG20",
         "type": "Matic",
         "name": "ApeCoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "ape-apecoin",
+        "coingecko_id": "apecoin",
+        "nomics_id": "APE7",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -812,9 +770,7 @@
         "wallet_only": false,
         "contract_address": "0xB7b31a6BC18e48888545CE79e83E06003bE70930",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -837,9 +793,7 @@
         "wallet_only": false,
         "contract_address": "0x6F769E65c14Ebd1f68817F5f1DcDb61Cfa2D6f7e",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -863,9 +817,7 @@
         "wallet_only": false,
         "contract_address": "0xBA50933C268F567BDC86E1aC131BE072C6B0b71a",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -933,9 +885,7 @@
         "wallet_only": true,
         "contract_address": "0xCDAF240C90F989847c56aC9Dee754F76F41c5833",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -959,9 +909,7 @@
         "wallet_only": false,
         "contract_address": "0x0Eb3a705fc54725037CC9e008bDede697f62F335",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -970,9 +918,9 @@
         "coin": "ATOM-PLG20",
         "type": "Matic",
         "name": "Cosmos",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "atom-cosmos",
+        "coingecko_id": "cosmos",
+        "nomics_id": "ATOM",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -985,9 +933,7 @@
         "wallet_only": false,
         "contract_address": "0xac51C4c48Dc3116487eD4BC16542e27B5694Da1b",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -1043,9 +989,7 @@
         "wallet_only": false,
         "contract_address": "0x13616F44Ba82D63c8C0DC3Ff843D36a8ec1c05a9",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -1091,7 +1035,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -1114,9 +1058,7 @@
         "wallet_only": false,
         "contract_address": "0x1CE0c2827e2eF14D5C4f29a091d735A204794041",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -1179,9 +1121,7 @@
         "wallet_only": false,
         "contract_address": "0xaD22f63404f7305e4713CcBd4F296f34770513f4",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -1298,9 +1238,7 @@
         "wallet_only": false,
         "contract_address": "0x715D400F88C167884bbCc41C5FeA407ed4D2f8A0",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -1324,9 +1262,7 @@
         "wallet_only": false,
         "contract_address": "0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -1335,9 +1271,9 @@
         "coin": "AYA",
         "type": "UTXO",
         "name": "Aryacoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "aya-aryacoin",
+        "coingecko_id": "aryacoin",
+        "nomics_id": "AYA",
         "explorer_url": [
             "https://explorer.aryacoin.io/"
         ],
@@ -1409,9 +1345,7 @@
         "wallet_only": false,
         "contract_address": "0xc748673057861a797275CD8A068AbB95A902e8de",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -1435,9 +1369,7 @@
         "wallet_only": false,
         "contract_address": "0xd4ed60d8368a92b5F1ca33aF61eF2A94714B2d46",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -1461,9 +1393,7 @@
         "wallet_only": false,
         "contract_address": "0xba100000625a3754423978a60c9317c58a424e3D",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -1510,9 +1440,7 @@
         "wallet_only": false,
         "contract_address": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -1535,9 +1463,7 @@
         "wallet_only": false,
         "contract_address": "0xe20B9e246db5a0d21BF9209E4858Bc9A3ff7A034",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -1561,9 +1487,7 @@
         "wallet_only": false,
         "contract_address": "0xAD6cAEb32CD2c308980a548bD0Bc5AA4306c6c18",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -1587,9 +1511,7 @@
         "wallet_only": false,
         "contract_address": "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -1613,7 +1535,7 @@
         "wallet_only": false,
         "contract_address": "0x46E7628E8b4350b2716ab470eE0bA1fa9e76c6C5",
         "nodes": [
-            "https://rpc.ftm.tools/"
+            "https://node.komodo.live:8080/fantom"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -1636,9 +1558,7 @@
         "wallet_only": false,
         "contract_address": "0xA8b1E0764f85f53dfe21760e8AfE5446D82606ac",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -1662,7 +1582,7 @@
         "wallet_only": false,
         "contract_address": "0x98443B96EA4b0858FDF3219Cd13e98C7A4690588",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -1685,9 +1605,7 @@
         "wallet_only": false,
         "contract_address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -1711,9 +1629,7 @@
         "wallet_only": false,
         "contract_address": "0x101d82428437127bF1608F699CD651e6Abf9766E",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -1760,9 +1676,7 @@
         "wallet_only": false,
         "contract_address": "0x3Cef98bb43d732E2F285eE605a8158cDE967D219",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -1946,9 +1860,7 @@
         "wallet_only": false,
         "contract_address": "0x85c4EdC43724e954e5849cAAab61A26a9CB65F1B",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -1972,9 +1884,7 @@
         "wallet_only": false,
         "contract_address": "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -2116,9 +2026,7 @@
         "wallet_only": false,
         "contract_address": "0x9A2f5556e9A637e8fBcE886d8e3cf8b316a1D8a2",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a=",
@@ -2225,9 +2133,7 @@
         "wallet_only": false,
         "contract_address": "0xd2cDfD5d26dfA1D11116B9ED7DBd7C6B88C6e1D3",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -2332,9 +2238,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -2358,9 +2262,7 @@
         "wallet_only": false,
         "contract_address": "0x9813037ee2218799597d83D4a5B6F3b6778218d9",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -2430,9 +2332,7 @@
         "wallet_only": false,
         "contract_address": "0xA069008A669e2Af00a86673D9D584cfb524A42Cc",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -2456,9 +2356,7 @@
         "wallet_only": false,
         "contract_address": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -2482,9 +2380,7 @@
         "wallet_only": false,
         "contract_address": "0xc26D47d5c33aC71AC5CF9F776D63Ba292a4F7842",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -2602,9 +2498,7 @@
         "wallet_only": false,
         "contract_address": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a=",
@@ -2629,9 +2523,7 @@
         "wallet_only": false,
         "contract_address": "0x420412E765BFa6d85aaaC94b4f7b708C89be2e2B",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
@@ -2641,9 +2533,9 @@
         "coin": "BRZ-PLG20",
         "type": "Matic",
         "name": "Brazilian Digital Token",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "brz-brazilian-digital-token",
+        "coingecko_id": "brz",
+        "nomics_id": "BRZ",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -2656,19 +2548,18 @@
         "wallet_only": false,
         "contract_address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "forex_id": "BRL"
     },
     "BRZ-AVX20": {
         "coin": "BRZ-AVX20",
         "type": "AVX-20",
         "name": "Brazilian Digital Token",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "brz-brazilian-digital-token",
+        "coingecko_id": "brz",
+        "nomics_id": "BRZ",
         "explorer_url": [
             "https://cchain.explorer.avax.network/",
             "https://snowtrace.io/"
@@ -2682,9 +2573,10 @@
         "wallet_only": false,
         "contract_address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "forex_id": "BRL"
     },
     "BSTY": {
         "coin": "BSTY",
@@ -2839,9 +2731,7 @@
         "wallet_only": false,
         "contract_address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -2890,9 +2780,9 @@
         "coin": "BTCZ-BEP20",
         "type": "BEP-20",
         "name": "BitcoinZ",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "btcz-bitcoinz",
+        "coingecko_id": "bitcoinz",
+        "nomics_id": "BTCZ",
         "explorer_url": [
             "https://bscscan.com/"
         ],
@@ -2905,9 +2795,7 @@
         "wallet_only": false,
         "contract_address": "0xcBBB3e5099F769F6d4E2b8b92DC0e268f7E099D8",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -2984,9 +2872,7 @@
         "wallet_only": false,
         "contract_address": "0x8595F9dA7b868b1822194fAEd312235E43007b49",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -3010,9 +2896,7 @@
         "wallet_only": false,
         "contract_address": "0x352Cb5E19b12FC216548a2677bD0fce83BaE434B",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -3036,9 +2920,7 @@
         "wallet_only": false,
         "contract_address": "0xb683D83a532e2Cb7DFa5275eED3698436371cc9f",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -3062,9 +2944,7 @@
         "wallet_only": false,
         "contract_address": "0xFdc26CDA2d2440d0E83CD1DeE8E8bE48405806DC",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -3123,9 +3003,7 @@
         "wallet_only": false,
         "contract_address": "0x000000089fb24237dA101020Ff8e2AfD14624687",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -3150,7 +3028,7 @@
         "wallet_only": false,
         "contract_address": "0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -3197,9 +3075,7 @@
         "wallet_only": false,
         "contract_address": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -3223,9 +3099,7 @@
         "wallet_only": false,
         "contract_address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -3249,8 +3123,7 @@
         "wallet_only": false,
         "contract_address": "0xE176EBE47d621b984a73036B9DA5d834411ef734",
         "nodes": [
-            "https://api.harmony.one",
-            "https://api.s0.t.hmny.io"
+            "https://node.komodo.live:8080/harmony"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -3273,9 +3146,7 @@
         "wallet_only": false,
         "contract_address": "0xdAb529f40E671A1D4bF91361c21bf9f0C9712ab7",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -3298,9 +3169,7 @@
         "wallet_only": false,
         "contract_address": "0xcaDC0acd4B445166f12d2C07EAc6E2544FbE2Eef",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
@@ -3325,9 +3194,7 @@
         "wallet_only": false,
         "contract_address": "0x5d146d8B1dACb1EBBA5cb005ae1059DA8a1FbF57",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "forex_id": "CAD"
@@ -3351,9 +3218,7 @@
         "wallet_only": false,
         "contract_address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -3377,9 +3242,7 @@
         "wallet_only": false,
         "contract_address": "0x5cafe85d8983f61C059df359c504F1Bab8009e9e",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -3552,9 +3415,7 @@
         "wallet_only": false,
         "contract_address": "0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -3578,9 +3439,7 @@
         "wallet_only": false,
         "contract_address": "0xD85d1e945766Fea5Eda9103F918Bd915FbCa63E6",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -3603,9 +3462,7 @@
         "wallet_only": false,
         "contract_address": "0x4F9254C83EB525f9FCf346490bbb3ed28a81C667",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -3629,9 +3486,7 @@
         "wallet_only": false,
         "contract_address": "0x1f9f6a696C6Fd109cD3956F45dC709d2b3902163",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -3655,7 +3510,7 @@
         "wallet_only": true,
         "contract_address": "0x3a8B787f78D775AECFEEa15706D4221B40F345AB",
         "nodes": [
-            "https://arb1.arbitrum.io/rpc"
+            "https://node.komodo.live:8080/arbitrum"
         ],
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce"
@@ -3832,9 +3687,7 @@
         "wallet_only": false,
         "contract_address": "0xba9d4199faB4f26eFE3551D490E3821486f135Ba",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -3858,9 +3711,7 @@
         "wallet_only": false,
         "contract_address": "0x67Ce67ec4fCd4aCa0Fcb738dD080b2a21ff69D75",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -3883,9 +3734,7 @@
         "wallet_only": false,
         "contract_address": "0x3506424F91fD33084466F402d5D97f05F8e3b4AF",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -3932,9 +3781,7 @@
         "wallet_only": false,
         "contract_address": "0xf1938Ce12400f9a761084E7A80d37e732a4dA056",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -3991,7 +3838,7 @@
         "wallet_only": false,
         "contract_address": "0xc3048E19E76CB9a3Aa9d77D8C03c29Fc906e2437",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -4014,9 +3861,7 @@
         "wallet_only": false,
         "contract_address": "0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -4040,9 +3885,7 @@
         "wallet_only": false,
         "contract_address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -4089,9 +3932,7 @@
         "wallet_only": false,
         "contract_address": "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -4114,9 +3955,7 @@
         "wallet_only": false,
         "contract_address": "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -4163,9 +4002,7 @@
         "wallet_only": false,
         "contract_address": "0xAdA58DF0F643D959C2A47c9D4d4c1a4deFe3F11C",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -4188,9 +4025,7 @@
         "wallet_only": false,
         "contract_address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -4215,7 +4050,7 @@
         "wallet_only": false,
         "contract_address": "0x249848BeCA43aC405b8102Ec90Dd5F22CA513c06",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -4238,7 +4073,7 @@
         "wallet_only": false,
         "contract_address": "0x1E4F97b9f9F913c46F1632781732927B9019C68b",
         "nodes": [
-            "https://rpc.ftm.tools/"
+            "https://node.komodo.live:8080/fantom"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -4284,9 +4119,7 @@
         "wallet_only": false,
         "contract_address": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -4404,9 +4237,7 @@
         "wallet_only": false,
         "contract_address": "0x27Ae27110350B98d564b9A3eeD31bAeBc82d878d",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -4431,7 +4262,7 @@
         "wallet_only": false,
         "contract_address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -4454,9 +4285,7 @@
         "wallet_only": false,
         "contract_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -4480,9 +4309,7 @@
         "wallet_only": false,
         "contract_address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -4506,7 +4333,7 @@
         "wallet_only": false,
         "contract_address": "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E",
         "nodes": [
-            "https://rpc.ftm.tools/"
+            "https://node.komodo.live:8080/fantom"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -4552,8 +4379,7 @@
         "wallet_only": false,
         "contract_address": "0xEf977d2f931C1978Db5F6747666fa1eACB0d0339",
         "nodes": [
-            "https://api.harmony.one",
-            "https://api.s0.t.hmny.io"
+            "https://node.komodo.live:8080/harmony"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -4600,9 +4426,7 @@
         "wallet_only": false,
         "contract_address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -4718,9 +4542,7 @@
         "wallet_only": false,
         "contract_address": "0x9F5F3CFD7a32700C93F971637407ff17b91c7342",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -4744,9 +4566,7 @@
         "wallet_only": false,
         "contract_address": "0x3597bfD533a99c9aa083587B074434E61Eb0A258",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -4994,9 +4814,7 @@
         "wallet_only": false,
         "contract_address": "0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -5020,9 +4838,7 @@
         "wallet_only": false,
         "contract_address": "0x99956D38059cf7bEDA96Ec91Aa7BB2477E0901DD",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -5101,9 +4917,7 @@
         "wallet_only": false,
         "contract_address": "0xA33789a5478Add74e8D7628E817a281aAbD92dA9",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -5221,9 +5035,7 @@
         "wallet_only": false,
         "contract_address": "0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -5247,9 +5059,7 @@
         "wallet_only": false,
         "contract_address": "0x43Dfc4159D86F3A37A5A4B3D4580b888ad7d4DDd",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -5389,9 +5199,7 @@
         "wallet_only": false,
         "contract_address": "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -5415,9 +5223,7 @@
         "wallet_only": false,
         "contract_address": "0x7AE5709c585cCFB3e61fF312EC632C21A5F03F70",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -5441,9 +5247,7 @@
         "wallet_only": false,
         "contract_address": "0x74926B3d118a63F6958922d3DC05eB9C6E6E00c6",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -5467,9 +5271,7 @@
         "wallet_only": false,
         "contract_address": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -5751,9 +5553,7 @@
         "wallet_only": false,
         "contract_address": "0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -5777,9 +5577,7 @@
         "wallet_only": false,
         "contract_address": "0xb0DBa4BD6b6C4fC9A1263D8C19A57A6BdD740A52",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -5803,9 +5601,7 @@
         "wallet_only": false,
         "contract_address": "0xa3f020a5C92e15be13CAF0Ee5C95cF79585EeCC9",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -5829,9 +5625,7 @@
         "wallet_only": false,
         "contract_address": "0xbf2179859fc6D5BEE9Bf9158632Dc51678a4100e",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -5948,9 +5742,7 @@
         "wallet_only": false,
         "contract_address": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -5997,9 +5789,7 @@
         "wallet_only": false,
         "contract_address": "0x7eC26842F195c852Fa843bB9f6D8B583a274a157",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -6022,9 +5812,7 @@
         "wallet_only": false,
         "contract_address": "0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -6070,9 +5858,7 @@
         "wallet_only": false,
         "contract_address": "0x3d6545b08693daE087E957cb1180ee38B9e3c25E",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -6095,9 +5881,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -6122,7 +5906,7 @@
         "wallet_only": false,
         "contract_address": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -6144,7 +5928,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "nodes": [
-            "https://arb1.arbitrum.io/rpc"
+            "https://node.komodo.live:8080/arbitrum"
         ],
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce"
@@ -6168,9 +5952,7 @@
         "wallet_only": false,
         "contract_address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -6194,7 +5976,7 @@
         "wallet_only": false,
         "contract_address": "0x74b23882a30290451A17c44f4F05243b6b58C76d",
         "nodes": [
-            "https://rpc.ftm.tools/"
+            "https://node.komodo.live:8080/fantom"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -6240,8 +6022,7 @@
         "wallet_only": false,
         "contract_address": "0x6983D1E6DEf3690C4d616b13597A09e6193EA013",
         "nodes": [
-            "https://api.harmony.one",
-            "https://api.s0.t.hmny.io"
+            "https://node.komodo.live:8080/harmony"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -6287,9 +6068,7 @@
         "wallet_only": false,
         "contract_address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -6312,9 +6091,7 @@
         "wallet_only": false,
         "contract_address": "0xdB25f211AB05b1c97D595516F45794528a807ad8",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
@@ -6339,9 +6116,7 @@
         "wallet_only": false,
         "contract_address": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "forex_id": "EUR"
@@ -6365,9 +6140,7 @@
         "wallet_only": false,
         "contract_address": "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -6391,9 +6164,7 @@
         "wallet_only": false,
         "contract_address": "0x031b41e504677879370e9DBcF937283A8691Fa7f",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -6417,9 +6188,7 @@
         "wallet_only": false,
         "contract_address": "0x7583FEDDbceFA813dc18259940F76a02710A8905",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -6442,9 +6211,7 @@
         "wallet_only": false,
         "contract_address": "0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -6539,9 +6306,7 @@
         "wallet_only": false,
         "contract_address": "0xd5d0322b6bAb6a762C79f8c81A0B674778E13aeD",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -6626,9 +6391,7 @@
         "wallet_only": false,
         "contract_address": "0xd4451a8eE7D0978c60651a114b742Fa8d5857CDf",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -6652,9 +6415,7 @@
         "wallet_only": false,
         "contract_address": "0xda73AE86D38D9b5D22C64722320cCC071cB79ba3",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -6678,9 +6439,7 @@
         "wallet_only": false,
         "contract_address": "0xfb5B838b6cfEEdC2873aB27866079AC55363D37E",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -6704,9 +6463,7 @@
         "wallet_only": false,
         "contract_address": "0x160B1E5aaBFD70B2FC40Af815014925D71CEEd7E",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -6730,9 +6487,7 @@
         "wallet_only": false,
         "contract_address": "0xC943c5320B9c18C153d1e2d12cC3074bebfb31A2",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -6876,7 +6631,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "nodes": [
-            "https://rpc.ftm.tools/"
+            "https://node.komodo.live:8080/fantom"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -6899,9 +6654,7 @@
         "wallet_only": false,
         "contract_address": "0xAD29AbB318791D579433D831ed122aFeAf29dcfe",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -6925,9 +6678,7 @@
         "wallet_only": false,
         "contract_address": "0x4E15361FD6b4BB609Fa63C81A2be19d873717870",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -6951,9 +6702,7 @@
         "wallet_only": false,
         "contract_address": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -6977,9 +6726,7 @@
         "wallet_only": false,
         "contract_address": "0x7dDEE176F665cD201F93eEDE625770E2fD911990",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -7003,9 +6750,7 @@
         "wallet_only": false,
         "contract_address": "0x9ad03c34aAb604A9e0Fde41dbF8E383E11c416c4",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -7111,9 +6856,9 @@
         "coin": "GLM-ERC20",
         "type": "ERC-20",
         "name": "Golem",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "glm-golem",
+        "coingecko_id": "golem",
+        "nomics_id": "GLM",
         "explorer_url": [
             "https://etherscan.io/"
         ],
@@ -7126,9 +6871,7 @@
         "wallet_only": false,
         "contract_address": "0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -7137,9 +6880,9 @@
         "coin": "GLM-PLG20",
         "type": "Matic",
         "name": "Golem",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "glm-golem",
+        "coingecko_id": "golem",
+        "nomics_id": "GLM",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -7152,9 +6895,7 @@
         "wallet_only": false,
         "contract_address": "0x0B220b82F3eA3B7F6d9A1D8ab58930C064A2b5Bf",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -7177,9 +6918,7 @@
         "wallet_only": false,
         "contract_address": "0xA55C1e67039B6d59E91eb4cDa2bfc5A854989102",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -7203,9 +6942,7 @@
         "wallet_only": false,
         "contract_address": "0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -7214,9 +6951,9 @@
         "coin": "GMX-AVX20",
         "type": "AVX-20",
         "name": "GMX",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "gmx-gmx",
+        "coingecko_id": "gmx",
+        "nomics_id": "GMX4",
         "explorer_url": [
             "https://cchain.explorer.avax.network/",
             "https://snowtrace.io/"
@@ -7230,7 +6967,7 @@
         "wallet_only": false,
         "contract_address": "0x62edc0692BD897D2295872a9FFCac5425011c661",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -7253,9 +6990,7 @@
         "wallet_only": false,
         "contract_address": "0x6810e776880C02933D47DB1b9fc05908e5386b96",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -7279,9 +7014,7 @@
         "wallet_only": false,
         "contract_address": "0x5FFD62D3C3eE2E81C00A7b9079FB248e7dF024A8",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -7349,7 +7082,7 @@
         "wallet_only": false,
         "contract_address": "0x8a0cAc13c7da965a312f08ea4229c37869e85cB9",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -7372,9 +7105,7 @@
         "wallet_only": false,
         "contract_address": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -7421,9 +7152,7 @@
         "wallet_only": false,
         "contract_address": "0x5fe2B58c013d7601147DcdD68C143A77499f5531",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -7446,9 +7175,7 @@
         "wallet_only": false,
         "contract_address": "0x4a2c860cEC6471b9F5F5a336eB4F38bb21683c98",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -7472,9 +7199,7 @@
         "wallet_only": false,
         "contract_address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -7498,9 +7223,7 @@
         "wallet_only": false,
         "contract_address": "0x23D29D30e35C5e8D321e1dc9A8a61BFD846D4C5C",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -7618,9 +7341,7 @@
         "wallet_only": false,
         "contract_address": "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -7644,9 +7365,7 @@
         "wallet_only": false,
         "contract_address": "0x0C51f415cF478f8D08c246a6C6Ee180C5dC3A012",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -7691,9 +7410,7 @@
         "wallet_only": false,
         "contract_address": "0x6f259637dcD74C767781E37Bc6133cd6A68aa161",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -7717,9 +7434,7 @@
         "wallet_only": false,
         "contract_address": "0xdF574c24545E5FfEcb9a659c229253D4111d87e1",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -7789,9 +7504,7 @@
         "wallet_only": false,
         "contract_address": "0x2088C47Fc0c78356c622F79dBa4CbE1cCfA84A91",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -7928,9 +7641,7 @@
         "wallet_only": false,
         "contract_address": "0xb49a312677BA1E80DDe23C17E46E80B3E86b533d",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -7954,9 +7665,7 @@
         "wallet_only": false,
         "contract_address": "0x2bAa79e7C13C302210436455925E68aD8fA687F0",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -7979,9 +7688,7 @@
         "wallet_only": false,
         "contract_address": "0x0483Ddbb510d22b206f2F3bDAC18528C952c4213",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -8004,9 +7711,7 @@
         "wallet_only": false,
         "contract_address": "0xa2B726B1145A4773F68593CF171187d8EBe4d495",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -8030,9 +7735,7 @@
         "wallet_only": false,
         "contract_address": "0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -8056,9 +7759,7 @@
         "wallet_only": false,
         "contract_address": "0xd944f1D1e9d5f9Bb90b62f9D45e447D989580782",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -8082,9 +7783,7 @@
         "wallet_only": false,
         "contract_address": "0x9678E42ceBEb63F23197D726B29b1CB20d0064E5",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -8108,9 +7807,7 @@
         "wallet_only": false,
         "contract_address": "0xf6372cDb9c1d3674E83842e3800F2A62aC9F3C66",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -8133,9 +7830,7 @@
         "wallet_only": false,
         "contract_address": "0x53dfEa0A8CC2A2A2e425E1C174Bc162999723ea0",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
@@ -8160,9 +7855,7 @@
         "wallet_only": false,
         "contract_address": "0xbD1463F02f61676d53fd183C2B19282BFF93D099",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "forex_id": "CHF"
@@ -8186,9 +7879,7 @@
         "wallet_only": false,
         "contract_address": "0x0f17BC9a994b87b5225cFb6a2Cd4D667ADb4F20B",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
@@ -8213,9 +7904,7 @@
         "wallet_only": false,
         "contract_address": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "forex_id": "EUR"
@@ -8239,9 +7928,7 @@
         "wallet_only": false,
         "contract_address": "0x7409856CAE628f5d578B285B45669b36E7005283",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
@@ -8266,9 +7953,7 @@
         "wallet_only": false,
         "contract_address": "0x767058F11800FBA6A682E73A6e79ec5eB74Fac8c",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "forex_id": "GBP"
@@ -8292,9 +7977,7 @@
         "wallet_only": false,
         "contract_address": "0x8343091F2499FD4b6174A46D067A920a3b851FF9",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "forex_id": "JPY"
@@ -8319,7 +8002,7 @@
         "wallet_only": false,
         "contract_address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "forex_id": "JPY"
@@ -8343,9 +8026,7 @@
         "wallet_only": false,
         "contract_address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "forex_id": "JPY"
@@ -8369,9 +8050,7 @@
         "wallet_only": false,
         "contract_address": "0x8A9C67fee641579dEbA04928c4BC45F66e26343A",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -8395,9 +8074,7 @@
         "wallet_only": false,
         "contract_address": "0x596eBE76e2DB4470966ea395B0d063aC6197A8C5",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -8420,9 +8097,7 @@
         "wallet_only": false,
         "contract_address": "0xeA998D307ACA04D4f0A3B3036Aba84AE2E409C0A",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -8661,9 +8336,7 @@
         "wallet_only": false,
         "contract_address": "0x2003f7ba57Ea956B05B85C60B4B2Ceea9b111256",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -8687,9 +8360,7 @@
         "wallet_only": false,
         "contract_address": "0xfe56d5892BDffC7BF58f2E84BE1b2C32D21C308b",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -8713,9 +8384,7 @@
         "wallet_only": false,
         "contract_address": "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -8724,9 +8393,9 @@
         "coin": "KNC-PLG20",
         "type": "Matic",
         "name": "Kyber Network",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "knc-kyber-network",
+        "coingecko_id": "kyber-network-crystal",
+        "nomics_id": "KNC3",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -8739,9 +8408,7 @@
         "wallet_only": false,
         "contract_address": "0x1C954E8fe737F99f68Fa1CCda3e51ebDB291948C",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -8749,9 +8416,9 @@
         "coin": "KNC-AVX20",
         "type": "AVX-20",
         "name": "Kyber Network",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "knc-kyber-network",
+        "coingecko_id": "kyber-network-crystal",
+        "nomics_id": "KNC3",
         "explorer_url": [
             "https://cchain.explorer.avax.network/",
             "https://snowtrace.io/"
@@ -8765,7 +8432,7 @@
         "wallet_only": false,
         "contract_address": "0x39fC9e94Caeacb435842FADeDeCB783589F50f5f",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -8883,9 +8550,7 @@
         "wallet_only": false,
         "contract_address": "0x2aa69E8D25C045B659787BC1f03ce47a388DB6E8",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -9069,9 +8734,9 @@
         "coin": "LDO-ERC20",
         "type": "ERC-20",
         "name": "Lido DAO",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "ldo-lido-dao",
+        "coingecko_id": "lido-dao",
+        "nomics_id": "LDO",
         "explorer_url": [
             "https://etherscan.io/"
         ],
@@ -9084,9 +8749,7 @@
         "wallet_only": false,
         "contract_address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -9095,9 +8758,9 @@
         "coin": "LDO-PLG20",
         "type": "Matic",
         "name": "Lido DAO",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "ldo-lido-dao",
+        "coingecko_id": "lido-dao",
+        "nomics_id": "LDO",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -9110,51 +8773,9 @@
         "wallet_only": false,
         "contract_address": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
-    },
-    "LNC": {
-        "coin": "LNC",
-        "type": "UTXO",
-        "name": "LightningCash",
-        "coinpaprika_id": "lnc-lightningcash",
-        "coingecko_id": "lightningcash",
-        "nomics_id": "LNC3",
-        "explorer_url": [
-            "https://explorer.lightningcash-coin.com/"
-        ],
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "74.208.95.26:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "merlin@lightningcash-coin.com"
-                    },
-                    {
-                        "discord": "merlin#7125"
-                    },
-                    {
-                        "twitter": "LightningCash_1"
-                    }
-                ]
-            }
-        ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
     },
     "LEO-ERC20": {
         "coin": "LEO-ERC20",
@@ -9175,9 +8796,7 @@
         "wallet_only": false,
         "contract_address": "0x2AF5D2aD76741191D15Dfe7bF6aC92d4Bd912Ca3",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -9201,9 +8820,7 @@
         "wallet_only": false,
         "contract_address": "0x06D02e9D62A13fC76BB229373FB3BBBD1101D2fC",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -9226,9 +8843,7 @@
         "wallet_only": false,
         "contract_address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -9253,7 +8868,7 @@
         "wallet_only": false,
         "contract_address": "0x5947BB275c521040051D82396192181b413227A3",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -9276,9 +8891,7 @@
         "wallet_only": false,
         "contract_address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -9302,7 +8915,7 @@
         "wallet_only": false,
         "contract_address": "0xb3654dc3D10Ea7645f8319668E8F54d2574FBdC8",
         "nodes": [
-            "https://rpc.ftm.tools/"
+            "https://node.komodo.live:8080/fantom"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -9348,8 +8961,7 @@
         "wallet_only": false,
         "contract_address": "0x218532a12a389a4a92fC0C5Fb22901D1c19198aA",
         "nodes": [
-            "https://api.harmony.one",
-            "https://api.s0.t.hmny.io"
+            "https://node.komodo.live:8080/harmony"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -9395,9 +9007,7 @@
         "wallet_only": false,
         "contract_address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -9420,9 +9030,7 @@
         "wallet_only": false,
         "contract_address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -9446,9 +9054,7 @@
         "wallet_only": false,
         "contract_address": "0x66e4d38b20173F509A1fF5d82866949e4fE898da",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -9472,9 +9078,7 @@
         "wallet_only": false,
         "contract_address": "0x84e1670F61347CDaeD56dcc736FB990fBB47ddC1",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -9534,9 +9138,7 @@
         "wallet_only": false,
         "contract_address": "0x27C70Cd1946795B66be9d954418546998b546634",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -9560,9 +9162,7 @@
         "wallet_only": false,
         "contract_address": "0x42476F744292107e34519F9c357927074Ea3F75D",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -9586,9 +9186,7 @@
         "wallet_only": false,
         "contract_address": "0xE6Ce27025F13f5213bBc560dC275e292965a392F",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -9755,9 +9353,7 @@
         "wallet_only": false,
         "contract_address": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -9781,9 +9377,7 @@
         "wallet_only": false,
         "contract_address": "0x26433c8127d9b4e9B71Eaa15111DF99Ea2EeB2f8",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -9830,9 +9424,7 @@
         "wallet_only": false,
         "contract_address": "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -9878,9 +9470,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -9903,9 +9493,7 @@
         "wallet_only": false,
         "contract_address": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -9929,9 +9517,7 @@
         "wallet_only": false,
         "contract_address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -9978,8 +9564,7 @@
         "wallet_only": false,
         "contract_address": "0x301259f392B551CA8c592C9f676FCD2f9A0A84C5",
         "nodes": [
-            "https://api.harmony.one",
-            "https://api.s0.t.hmny.io"
+            "https://node.komodo.live:8080/harmony"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -10310,9 +9895,7 @@
         "wallet_only": false,
         "contract_address": "0xB26631c6dda06aD89B93C71400D25692de89c068",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -10336,9 +9919,7 @@
         "wallet_only": false,
         "contract_address": "0x09a3EcAFa817268f77BE1283176B946C4ff2E608",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -10362,9 +9943,7 @@
         "wallet_only": false,
         "contract_address": "0x5B6DcF557E2aBE2323c48445E8CC948910d8c2c9",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -10389,7 +9968,7 @@
         "wallet_only": false,
         "contract_address": "0x88128fd4b259552A9A1D457f435a6527AAb72d42",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -10412,9 +9991,7 @@
         "wallet_only": false,
         "contract_address": "0x5f0Da599BB2ccCfcf6Fdfd7D81743B6020864350",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -10438,9 +10015,7 @@
         "wallet_only": false,
         "contract_address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -10487,9 +10062,7 @@
         "wallet_only": false,
         "contract_address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -10514,7 +10087,7 @@
         "wallet_only": false,
         "contract_address": "0x993163CaD35162fB579D7B64e6695cB076EF5064",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -10537,9 +10110,7 @@
         "wallet_only": false,
         "contract_address": "0xBF05279F9Bf1CE69bBFEd670813b7e431142Afa4",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -10587,9 +10158,7 @@
         "wallet_only": false,
         "contract_address": "0x5647Fe4281F8F6F01E84BCE775AD4b828A7b8927",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -10618,12 +10187,6 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
-            },
-            {
-                "url": "electrumx1.monacoin.ninja:50001"
-            },
-            {
-                "url": "electrumx3.monacoin.nl:50001"
             }
         ],
         "is_segwit_on": false,
@@ -10744,9 +10307,7 @@
         "wallet_only": false,
         "contract_address": "0x06F979E4F04ec565Ae8d7479a94C60dEF8846832",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -10951,9 +10512,7 @@
         "wallet_only": false,
         "contract_address": "0xBFEf6cCFC830D3BaCA4F6766a0d4AaA242Ca9F3D",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -10977,9 +10536,7 @@
         "wallet_only": false,
         "contract_address": "0x1Fa4a73a3F0133f0025378af00236f3aBDEE5D63",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -11058,9 +10615,7 @@
         "wallet_only": false,
         "contract_address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -11107,9 +10662,7 @@
         "wallet_only": false,
         "contract_address": "0x41b3966B4FF7b427969ddf5da3627d6AEAE9a48E",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -11257,9 +10810,7 @@
         "wallet_only": false,
         "contract_address": "0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -11348,9 +10899,7 @@
         "wallet_only": false,
         "contract_address": "0xBF84720097de111A80f46f9D077643967042841A",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -11468,9 +11017,7 @@
         "wallet_only": false,
         "contract_address": "0xDa446fAd08277B4D2591536F204E018f32B6831c",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
@@ -11495,9 +11042,7 @@
         "wallet_only": false,
         "contract_address": "0xeaFE31Cd9e8E01C8f0073A2C974f728Fb80e9DcE",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "forex_id": "NZD"
@@ -11558,9 +11103,7 @@
         "wallet_only": false,
         "contract_address": "0xDCe07662CA8EbC241316a15B611c89711414Dd1a",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -11584,9 +11127,7 @@
         "wallet_only": false,
         "contract_address": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -11610,9 +11151,7 @@
         "wallet_only": false,
         "contract_address": "0x282d8efCe846A88B159800bd4130ad77443Fa1A1",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -11635,9 +11174,7 @@
         "wallet_only": false,
         "contract_address": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -11661,9 +11198,7 @@
         "wallet_only": false,
         "contract_address": "0x62414D03084EeB269E18C970a21f45D2967F0170",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -11685,8 +11220,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "nodes": [
-            "https://api.harmony.one",
-            "https://api.s0.t.hmny.io"
+            "https://node.komodo.live:8080/harmony"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -11709,9 +11243,7 @@
         "wallet_only": false,
         "contract_address": "0xFd7B3A77848f1C2D67E05E54d78d174a0C850335",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -11830,9 +11362,7 @@
         "wallet_only": false,
         "contract_address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -11856,9 +11386,7 @@
         "wallet_only": false,
         "contract_address": "0xb7F8Cd00C5A06c0537E2aBfF0b58033d02e5E094",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -11905,9 +11433,7 @@
         "wallet_only": false,
         "contract_address": "0x6F3B3286fd86d8b47EC737CEB3D0D354cc657B3e",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -11930,9 +11456,7 @@
         "wallet_only": false,
         "contract_address": "0x7950865a9140cB519342433146Ed5b40c6F210f7",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -11956,9 +11480,7 @@
         "wallet_only": true,
         "contract_address": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -11982,9 +11504,7 @@
         "wallet_only": false,
         "contract_address": "0x553d3D295e0f695B9228246232eDF400ed3560B5",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -12130,9 +11650,7 @@
         "wallet_only": false,
         "contract_address": "0x595832F8FC6BF59c85C527fEC3740A1b7a361269",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -12156,9 +11674,7 @@
         "wallet_only": false,
         "contract_address": "0x0AaB8DC887D34f00D50E19aee48371a941390d14",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -12218,9 +11734,7 @@
         "wallet_only": false,
         "contract_address": "0x044d078F1c86508e13328842Cc75AC021B272958",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -12244,9 +11758,7 @@
         "wallet_only": false,
         "contract_address": "0x91E7E32C710661C44ae44D10Aa86135d91C3Ed65",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -12269,9 +11781,7 @@
         "wallet_only": false,
         "contract_address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -12295,9 +11805,7 @@
         "wallet_only": false,
         "contract_address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -12321,48 +11829,9 @@
         "wallet_only": false,
         "contract_address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
-    },
-    "PRUX": {
-        "coin": "PRUX",
-        "type": "UTXO",
-        "name": "PRUX",
-        "coinpaprika_id": "prux-prux-coin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "PRUX",
-        "explorer_url": [
-            "https://explorer.prux.info/"
-        ],
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrumx.live:50010",
-                "protocol": "TCP"
-            },
-            {
-                "url": "txserver.live:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL"
-            },
-            {
-                "url": "txserver.live:50002",
-                "protocol": "SSL"
-            }
-        ]
     },
     "SHIB-BEP20": {
         "coin": "SHIB-BEP20",
@@ -12383,9 +11852,7 @@
         "wallet_only": false,
         "contract_address": "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -12409,9 +11876,7 @@
         "wallet_only": false,
         "contract_address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -12420,9 +11885,9 @@
         "coin": "SHIB-KRC20",
         "type": "KRC-20",
         "name": "Shiba Inu",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "shib-shiba-inu",
+        "coingecko_id": "shiba-inu",
+        "nomics_id": "SHIB",
         "explorer_url": [
             "https://explorer.kcc.io/en/"
         ],
@@ -12741,9 +12206,7 @@
         "wallet_only": false,
         "contract_address": "0xA1434F1FC3F437fa33F7a781E041961C0205B5Da",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -12767,9 +12230,7 @@
         "wallet_only": false,
         "contract_address": "0xEA26c4aC16D4a5A106820BC8AEE85fd0b7b2b664",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -12793,9 +12254,7 @@
         "wallet_only": false,
         "contract_address": "0x4a220E6096B25EADb88358cb44068A3248254675",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -13033,9 +12492,7 @@
         "wallet_only": false,
         "contract_address": "0x3103dF8F05c4D8aF16fD22AE63E406b97FeC6938",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -13156,9 +12613,7 @@
         "wallet_only": false,
         "contract_address": "0x408e41876cCCDC0F92210600ef50372656052a38",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -13182,8 +12637,7 @@
         "wallet_only": false,
         "contract_address": "0x451E129b6045b6E4F48E7247388f21163f7743B7",
         "nodes": [
-            "https://api.harmony.one",
-            "https://api.s0.t.hmny.io"
+            "https://node.komodo.live:8080/harmony"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -13229,9 +12683,7 @@
         "wallet_only": false,
         "contract_address": "0x221657776846890989a759BA2973e427DfF5C9bB",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -13350,9 +12802,7 @@
         "wallet_only": false,
         "contract_address": "0xa1d6Df714F91DeBF4e0802A542E13067f31b8262",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -13470,9 +12920,7 @@
         "wallet_only": false,
         "contract_address": "0x607F4C5BB672230e8672085532f7e901544a7375",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -13496,9 +12944,7 @@
         "wallet_only": false,
         "contract_address": "0xbe662058e00849C3Eef2AC9664f37fEfdF2cdbFE",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -13521,9 +12967,7 @@
         "wallet_only": false,
         "contract_address": "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -13671,9 +13115,7 @@
         "wallet_only": false,
         "contract_address": "0x3845badAde8e6dFF049820680d1F14bD3903a5d0",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -13697,9 +13139,7 @@
         "wallet_only": false,
         "contract_address": "0x67b725d7e342d7B611fa85e859Df9697D9378B2e",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -13723,9 +13163,7 @@
         "wallet_only": false,
         "contract_address": "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -13748,9 +13186,7 @@
         "wallet_only": false,
         "contract_address": "0xF07578E0B5226A99B0D530Ef4360DF4176f2820d",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -13774,9 +13210,7 @@
         "wallet_only": false,
         "contract_address": "0x11fD9ED04f1Eb43eF9df6425a6990609F2468895",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -13801,7 +13235,7 @@
         "wallet_only": false,
         "contract_address": "0xBeC243C995409E6520D7C41E404da5dEba4b209B",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -13824,9 +13258,7 @@
         "wallet_only": false,
         "contract_address": "0x9Ac983826058b8a9C7Aa1C9171441191232E8404",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -13850,9 +13282,7 @@
         "wallet_only": false,
         "contract_address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -13876,7 +13306,7 @@
         "wallet_only": false,
         "contract_address": "0x56ee926bD8c72B2d5fa1aF4d9E4Cbb515a1E3Adc",
         "nodes": [
-            "https://rpc.ftm.tools/"
+            "https://node.komodo.live:8080/fantom"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -13922,9 +13352,7 @@
         "wallet_only": false,
         "contract_address": "0x50B728D8D964fd00C2d0AAD81718b71311feF68a",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -13947,9 +13375,7 @@
         "wallet_only": false,
         "contract_address": "0x570A5D26f7765Ecb712C0924E4De545B89fD43dF",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -13958,9 +13384,9 @@
         "coin": "SOL-PLG20",
         "type": "Matic",
         "name": "Solana",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "sol-solana",
+        "coingecko_id": "solana",
+        "nomics_id": "SOL",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -13973,9 +13399,7 @@
         "wallet_only": false,
         "contract_address": "0x7DfF46370e9eA5f0Bad3C4E29711aD50062EA7A4",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -13998,9 +13422,7 @@
         "wallet_only": false,
         "contract_address": "0x446C9033E7516D820cc9a2ce2d0B7328b579406F",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -14214,9 +13636,7 @@
         "wallet_only": false,
         "contract_address": "0x476c5E26a75bd202a9683ffD34359C0CC15be0fF",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -14240,9 +13660,7 @@
         "wallet_only": false,
         "contract_address": "0x6Bf2eb299E51Fc5DF30Dec81D9445dDe70e3F185",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -14361,7 +13779,7 @@
         "wallet_only": false,
         "contract_address": "0x37B608519F91f70F2EeB0e5Ed9AF4061722e4F76",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -14384,9 +13802,7 @@
         "wallet_only": false,
         "contract_address": "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -14410,9 +13826,7 @@
         "wallet_only": false,
         "contract_address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -14436,7 +13850,7 @@
         "wallet_only": false,
         "contract_address": "0xae75A438b2E0cB8Bb01Ec1E1e376De11D44477CC",
         "nodes": [
-            "https://rpc.ftm.tools/"
+            "https://node.komodo.live:8080/fantom"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -14459,8 +13873,7 @@
         "wallet_only": false,
         "contract_address": "0xBEC775Cb42AbFa4288dE81F387a9b1A3c4Bc552A",
         "nodes": [
-            "https://api.harmony.one",
-            "https://api.s0.t.hmny.io"
+            "https://node.komodo.live:8080/harmony"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -14530,9 +13943,7 @@
         "wallet_only": false,
         "contract_address": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -14555,9 +13966,7 @@
         "wallet_only": false,
         "contract_address": "0xe56a473043EaAB7947c0a2408cEA623074500EE3",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -14581,9 +13990,7 @@
         "wallet_only": false,
         "contract_address": "0x47BEAd2563dCBf3bF2c9407fEa4dC236fAbA485A",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -14607,9 +14014,7 @@
         "wallet_only": false,
         "contract_address": "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -14818,9 +14223,7 @@
         "wallet_only": false,
         "contract_address": "0x12b6893cE26Ea6341919FE289212ef77e51688c8",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -14945,9 +14348,7 @@
         "wallet_only": false,
         "contract_address": "0x467Bccd9d29f223BcE8043b84E8C8B282827790F",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -14994,9 +14395,7 @@
         "wallet_only": false,
         "contract_address": "0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -15019,9 +14418,7 @@
         "wallet_only": false,
         "contract_address": "0x8f0FB159380176D324542b3a7933F0C2Fd0c2bbf",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -15052,14 +14449,6 @@
                         "discord": "CHMEX#0686"
                     }
                 ]
-            },
-            {
-                "url": "2.eu.thc.electrum.dexstats.info:10020",
-                "contact": [
-                    {
-                        "discord": "CHMEX#0686"
-                    }
-                ]
             }
         ],
         "asset": "THC"
@@ -15083,9 +14472,7 @@
         "wallet_only": false,
         "contract_address": "0xBD9a8CA934e673b874937761D7CFa7084ecBdd53",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -15217,9 +14604,7 @@
         "wallet_only": false,
         "contract_address": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -15244,7 +14629,7 @@
         "wallet_only": false,
         "contract_address": "0x564A341Df6C126f90cf3ECB92120FD7190ACb401",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "forex_id": "TRY"
@@ -15268,9 +14653,7 @@
         "wallet_only": false,
         "contract_address": "0xC1fdbed7Dac39caE2CcC0748f7a80dC446F6a594",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a=",
@@ -15295,9 +14678,7 @@
         "wallet_only": false,
         "contract_address": "0x4Fb71290Ac171E1d144F7221D882BECAc7196EB5",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "forex_id": "TRY"
@@ -15321,9 +14702,7 @@
         "wallet_only": false,
         "contract_address": "0x2C537E5624e4af88A7ae4060C022609376C8D0EB",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
@@ -15348,9 +14727,7 @@
         "wallet_only": false,
         "contract_address": "0x14016E85a25aeb13065688cAFB43044C2ef86784",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -15374,9 +14751,7 @@
         "wallet_only": false,
         "contract_address": "0x0000000000085d4780B73119b644AE5ecd22b376",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -15446,9 +14821,7 @@
         "wallet_only": false,
         "contract_address": "0x2e1AD108fF1D8C782fcBbB89AAd783aC49586756",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -15471,9 +14844,7 @@
         "wallet_only": false,
         "contract_address": "0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -15497,9 +14868,7 @@
         "wallet_only": false,
         "contract_address": "0x7FBc10850caE055B27039aF31bD258430e714c62",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -15555,7 +14924,7 @@
         "wallet_only": false,
         "contract_address": "0x3Bd2B1c7ED8D396dbb98DED3aEbb41350a5b2339",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -15578,9 +14947,7 @@
         "wallet_only": false,
         "contract_address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -15604,9 +14971,7 @@
         "wallet_only": false,
         "contract_address": "0x3066818837c5e6eD6601bd5a91B0762877A6B731",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -15630,7 +14995,7 @@
         "wallet_only": false,
         "contract_address": "0x8eBAf22B6F053dFFeaf46f4Dd9eFA95D89ba8580",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -15653,9 +15018,7 @@
         "wallet_only": false,
         "contract_address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -15679,9 +15042,7 @@
         "wallet_only": false,
         "contract_address": "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -15751,9 +15112,7 @@
         "wallet_only": false,
         "contract_address": "0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -15810,7 +15169,7 @@
         "wallet_only": false,
         "contract_address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -15833,9 +15192,7 @@
         "wallet_only": false,
         "contract_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -15859,9 +15216,7 @@
         "wallet_only": false,
         "contract_address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -15885,7 +15240,7 @@
         "wallet_only": false,
         "contract_address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
         "nodes": [
-            "https://rpc.ftm.tools/"
+            "https://node.komodo.live:8080/fantom"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -15931,8 +15286,7 @@
         "wallet_only": false,
         "contract_address": "0x985458E523dB3d53125813eD68c274899e9DfAb4",
         "nodes": [
-            "https://api.harmony.one",
-            "https://api.s0.t.hmny.io"
+            "https://node.komodo.live:8080/harmony"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -16002,9 +15356,7 @@
         "wallet_only": false,
         "contract_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -16051,7 +15403,7 @@
         "wallet_only": false,
         "contract_address": "0x049d68029688eAbF473097a2fC38ef61633A3C7A",
         "nodes": [
-            "https://rpc.ftm.tools/"
+            "https://node.komodo.live:8080/fantom"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -16097,8 +15449,7 @@
         "wallet_only": false,
         "contract_address": "0x3C2B8Be99c50593081EAA2A724F0B8285F5aba8f",
         "nodes": [
-            "https://api.harmony.one",
-            "https://api.s0.t.hmny.io"
+            "https://node.komodo.live:8080/harmony"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -16144,9 +15495,7 @@
         "wallet_only": false,
         "contract_address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -16169,7 +15518,7 @@
         "wallet_only": true,
         "contract_address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
         "nodes": [
-            "https://arb1.arbitrum.io/rpc"
+            "https://node.komodo.live:8080/arbitrum"
         ],
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce"
@@ -16194,7 +15543,7 @@
         "wallet_only": false,
         "contract_address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -16217,9 +15566,7 @@
         "wallet_only": false,
         "contract_address": "0x55d398326f99059fF775485246999027B3197955",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -16243,9 +15590,7 @@
         "wallet_only": true,
         "contract_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -16269,9 +15614,7 @@
         "wallet_only": false,
         "contract_address": "0x54a3017754BFba73F71F37d893A368814CbFf457",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -16373,9 +15716,7 @@
         "wallet_only": false,
         "contract_address": "0x6FDcdfef7c496407cCb0cEC90f9C5Aaa1Cc8D888",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -16399,9 +15740,7 @@
         "wallet_only": false,
         "contract_address": "0xF411903cbC70a74d22900a5DE66A2dda66507255",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -16425,9 +15764,7 @@
         "wallet_only": false,
         "contract_address": "0x3C4B6E6e1eA3D4863700D7F76b36B7f3D3f13E3d",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -16451,9 +15788,7 @@
         "wallet_only": false,
         "contract_address": "0x054c42b6414747F5263b4A86f21B1aFAD00326Bf",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -16476,9 +15811,7 @@
         "wallet_only": false,
         "contract_address": "0x2794DAD4077602eD25A88d03781528D1637898B4",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -16653,9 +15986,7 @@
         "wallet_only": false,
         "contract_address": "0xFC3E14af0f0c2129a84Cc013D48C70D682902874",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -16679,9 +16010,7 @@
         "wallet_only": false,
         "contract_address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -16705,8 +16034,7 @@
         "wallet_only": false,
         "contract_address": "0x3095c7557bCb296ccc6e363DE01b760bA031F2d9",
         "nodes": [
-            "https://api.harmony.one",
-            "https://api.s0.t.hmny.io"
+            "https://node.komodo.live:8080/harmony"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -16714,9 +16042,9 @@
         "coin": "WOO-ERC20",
         "type": "ERC-20",
         "name": "WOO Network",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "woo-wootrade",
+        "coingecko_id": "woo-network",
+        "nomics_id": "WOO",
         "explorer_url": [
             "https://etherscan.io/"
         ],
@@ -16729,9 +16057,7 @@
         "wallet_only": false,
         "contract_address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -16740,9 +16066,9 @@
         "coin": "WOO-AVX20",
         "type": "AVX-20",
         "name": "WOO Network",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "woo-wootrade",
+        "coingecko_id": "woo-network",
+        "nomics_id": "WOO",
         "explorer_url": [
             "https://cchain.explorer.avax.network/",
             "https://snowtrace.io/"
@@ -16756,7 +16082,7 @@
         "wallet_only": false,
         "contract_address": "0xaBC9547B534519fF73921b1FBA6E672b5f58D083",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -16764,9 +16090,9 @@
         "coin": "WOO-BEP20",
         "type": "BEP-20",
         "name": "WOO Network",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "woo-wootrade",
+        "coingecko_id": "woo-network",
+        "nomics_id": "WOO",
         "explorer_url": [
             "https://bscscan.com/"
         ],
@@ -16779,9 +16105,7 @@
         "wallet_only": false,
         "contract_address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -16790,9 +16114,9 @@
         "coin": "WOO-FTM20",
         "type": "FTM-20",
         "name": "WOO Network",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "woo-wootrade",
+        "coingecko_id": "woo-network",
+        "nomics_id": "WOO",
         "explorer_url": [
             "https://ftmscan.com/"
         ],
@@ -16805,7 +16129,7 @@
         "wallet_only": false,
         "contract_address": "0x6626c47c00F1D87902fc13EECfaC3ed06D5E8D8a",
         "nodes": [
-            "https://rpc.ftm.tools/"
+            "https://node.komodo.live:8080/fantom"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -16813,9 +16137,9 @@
         "coin": "WOO-PLG20",
         "type": "Matic",
         "name": "WOO Network",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "woo-wootrade",
+        "coingecko_id": "woo-network",
+        "nomics_id": "WOO",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -16828,9 +16152,7 @@
         "wallet_only": false,
         "contract_address": "0x1B815d120B3eF02039Ee11dC2d33DE7aA4a8C603",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -16947,9 +16269,7 @@
         "wallet_only": false,
         "contract_address": "0xb897D0a0f68800f8Be7D69ffDD1c24b69f57Bf3e",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -16973,9 +16293,7 @@
         "wallet_only": false,
         "contract_address": "0x43C934A845205F0b514417d757d7235B8f53f1B9",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -17094,9 +16412,7 @@
         "wallet_only": false,
         "contract_address": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -17120,9 +16436,7 @@
         "wallet_only": false,
         "contract_address": "0x70e8dE73cE538DA2bEEd35d14187F6959a8ecA96",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
@@ -17147,9 +16461,7 @@
         "wallet_only": false,
         "contract_address": "0x769434dcA303597C8fc4997Bf3DAB233e961Eda2",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "forex_id": "SGD"
@@ -17173,9 +16485,7 @@
         "wallet_only": false,
         "contract_address": "0x16939ef78684453bfDFb47825F8a5F714f12623a",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -17231,9 +16541,6 @@
             {
                 "url": "electrumx2.vanillacash.info:50011",
                 "ws_url": "electrumx2.vanillacash.info:50013"
-            },
-            {
-                "url": "failover.xvc.ewmcx.biz:50001"
             }
         ]
     },
@@ -17256,9 +16563,7 @@
         "wallet_only": false,
         "contract_address": "0xeBbfB9E5aF3172C7C0e1D4ff7106A8Bbb961F87B",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -17376,9 +16681,7 @@
         "wallet_only": false,
         "contract_address": "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -17403,7 +16706,7 @@
         "wallet_only": false,
         "contract_address": "0x9eAaC1B23d935365bD7b542Fe22cEEe2922f52dc",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -17426,9 +16729,7 @@
         "wallet_only": false,
         "contract_address": "0x88f1A5ae2A3BF98AEAF342D26B30a79438c9142e",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -17452,9 +16753,7 @@
         "wallet_only": false,
         "contract_address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -17478,7 +16777,7 @@
         "wallet_only": false,
         "contract_address": "0x29b0Da86e484E1C0029B56e817912d778aC0EC69",
         "nodes": [
-            "https://rpc.ftm.tools/"
+            "https://node.komodo.live:8080/fantom"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -17509,9 +16808,9 @@
         "coin": "YFI-PLG20",
         "type": "Matic",
         "name": "yearn.finance",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "yfi-yearnfinance",
+        "coingecko_id": "yearn-finance",
+        "nomics_id": "YFI",
         "explorer_url": [
             "https://polygonscan.com/"
         ],
@@ -17524,9 +16823,7 @@
         "wallet_only": false,
         "contract_address": "0xDA537104D6A5edd53c6fBba9A898708E465260b6",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -17549,9 +16846,7 @@
         "wallet_only": false,
         "contract_address": "0x7F70642d88cf1C4a3a7abb072B53B929b653edA5",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -17575,9 +16870,7 @@
         "wallet_only": false,
         "contract_address": "0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -17822,9 +17115,7 @@
         "wallet_only": false,
         "contract_address": "0xb86AbCb37C3A4B64f74f59301AFF131a1BEcC787",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -17944,7 +17235,7 @@
         "wallet_only": false,
         "contract_address": "0x596fA47043f99A4e0F122243B841E55375cdE0d2",
         "nodes": [
-            "https://api.avax.network/ext/bc/C/rpc"
+            "https://node.komodo.live:8080/avalanche"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -17967,9 +17258,7 @@
         "wallet_only": false,
         "contract_address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -17993,9 +17282,7 @@
         "wallet_only": false,
         "contract_address": "0x5559Edb74751A0edE9DeA4DC23aeE72cCA6bE3D5",
         "nodes": [
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            "https://node.komodo.live:8080/polygon"
         ],
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE"
     },
@@ -18144,9 +17431,7 @@
         "wallet_only": false,
         "contract_address": "0x720CD16b011b987Da3518fbf38c3071d4F0D1495",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -18170,9 +17455,7 @@
         "wallet_only": false,
         "contract_address": "0xaFF9084f2374585879e8B434C399E29E80ccE635",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -19888,9 +19171,7 @@
         "wallet_only": false,
         "contract_address": "0x75231F58b43240C9718Dd58B4967c5114342a86c",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -19914,9 +19195,7 @@
         "wallet_only": false,
         "contract_address": "0xB1e93236ab6073fdAC58adA5564897177D4bcC43",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -19940,9 +19219,7 @@
         "wallet_only": false,
         "contract_address": "0x8275eBF521Dc217aa79C88132017A5BCEf001dd9",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -19966,9 +19243,7 @@
         "wallet_only": false,
         "contract_address": "0x2ef52Ed7De8c5ce03a4eF0efbe9B7450F2D7Edc9",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -19992,9 +19267,7 @@
         "wallet_only": false,
         "contract_address": "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20018,9 +19291,7 @@
         "wallet_only": false,
         "contract_address": "0xa117000000f279D81A1D3cc75430fAA017FA5A2e",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20044,9 +19315,7 @@
         "wallet_only": false,
         "contract_address": "0x73C9275c3a2Dd84b5741fD59AEbF102C91Eb033F",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20070,9 +19339,7 @@
         "wallet_only": false,
         "contract_address": "0x1B073382E63411E3BcfFE90aC1B9A43feFa1Ec6F",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20096,9 +19363,7 @@
         "wallet_only": false,
         "contract_address": "0xBe428c3867F05deA2A89Fc76a102b544eaC7f772",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20122,9 +19387,7 @@
         "wallet_only": false,
         "contract_address": "0x973e52691176d36453868D9d86572788d27041A9",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20148,9 +19411,7 @@
         "wallet_only": false,
         "contract_address": "0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20174,9 +19435,7 @@
         "wallet_only": false,
         "contract_address": "0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20200,9 +19459,7 @@
         "wallet_only": false,
         "contract_address": "0x21aB6c9fAC80C59D401b37cB43F81ea9DDe7Fe34",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20248,9 +19505,7 @@
         "wallet_only": false,
         "contract_address": "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20274,9 +19529,7 @@
         "wallet_only": false,
         "contract_address": "0x00c83aeCC790e8a4453e5dD3B0B4b3680501a7A7",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20300,9 +19553,7 @@
         "wallet_only": false,
         "contract_address": "0x41e5560054824eA6B0732E656E3Ad64E20e94E45",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20326,9 +19577,7 @@
         "wallet_only": false,
         "contract_address": "0x10086399DD8c1e3De736724AF52587a2044c9fA2",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20352,9 +19601,7 @@
         "wallet_only": false,
         "contract_address": "0x1122B6a0E00DCe0563082b6e2953f3A943855c1F",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20378,9 +19625,7 @@
         "wallet_only": false,
         "contract_address": "0xdc9Ac3C20D1ed0B540dF9b1feDC10039Df13F99c",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20404,9 +19649,7 @@
         "wallet_only": false,
         "contract_address": "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20430,9 +19673,7 @@
         "wallet_only": false,
         "contract_address": "0x2494a68C1484376fEf880b4c24D91f049d29B02A",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20456,9 +19697,7 @@
         "wallet_only": false,
         "contract_address": "0x40FD72257597aA14C7231A7B1aaa29Fce868F677",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20482,9 +19721,7 @@
         "wallet_only": false,
         "contract_address": "0x6aB4A7d75B0A42B6Bc83E852daB9E121F9C610Aa",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20508,9 +19745,7 @@
         "wallet_only": false,
         "contract_address": "0x8806926Ab68EB5a7b909DcAf6FdBe5d93271D6e2",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20534,9 +19769,7 @@
         "wallet_only": false,
         "contract_address": "0xD13c7342e1ef687C5ad21b27c2b65D772cAb5C8c",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20560,9 +19793,7 @@
         "wallet_only": false,
         "contract_address": "0xd98F75b1A3261dab9eEd4956c93F33749027a964",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20586,9 +19817,7 @@
         "wallet_only": false,
         "contract_address": "0xAec7d1069e3a914a3EB50f0BFB1796751f2ce48a",
         "nodes": [
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
+            "https://node.komodo.live:8080/ethereum"
         ],
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871"
@@ -20641,6 +19870,15 @@
             },
             {
                 "url": "tbch.loping.net:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
+                "url": "testnet.bitcoincash.network:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -20884,9 +20122,7 @@
         "wallet_only": false,
         "contract_address": "0xee8EE60503fd0a735cC972A08E3a5B2026DDCe47",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -20934,9 +20170,7 @@
         "wallet_only": false,
         "contract_address": "0x21F9B5b2626603e3F40bfc13d01AfB8c431D382F",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
@@ -21037,7 +20271,15 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx1.actioncoin.com:10001"
+            },
+            {
                 "url": "electrumx2.actioncoin.com:10001"
+            },
+            {
+                "url": "electrumx1.actioncoin.com:30001",
+                "ws_url": "electrumx1.actioncoin.com:20001",
+                "protocol": "SSL"
             },
             {
                 "url": "electrumx2.actioncoin.com:30001",
@@ -21066,9 +20308,7 @@
         "wallet_only": false,
         "contract_address": "0xD7380b10bF3886B34Ab3422DEa42E408850375CA",
         "nodes": [
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            "https://node.komodo.live:8080/binance"
         ],
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "token_address_url": "tokentxns?a="
