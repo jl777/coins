@@ -324,9 +324,10 @@ class CoinConfig:
                     contract_data = json.load(f)
 
         if contract_data:
-            self.data[self.ticker].update({
-                "swap_contract_address": contract_data["swap_contract_address"]
-            })
+            if "swap_contract_address" in contract_data:
+                self.data[self.ticker].update({
+                    "swap_contract_address": contract_data["swap_contract_address"]
+                })
             if "fallback_swap_contract" in contract_data:
                 self.data[self.ticker].update({
                     "fallback_swap_contract": contract_data["fallback_swap_contract"]
