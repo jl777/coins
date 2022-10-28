@@ -1947,7 +1947,7 @@
         "tcp": {
             "74.208.95.26:50001": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ],
             "74.56.11.23:50001": [
                 false,
@@ -2017,7 +2017,7 @@
         "tcp": {
             "electrum.getlynx.io:50001": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -2047,7 +2047,7 @@
             ],
             "electrum.deliverypath.com:50002": [
                 false,
-                "[Errno 8] nodename nor servname provided, or not known"
+                "[Errno -5] No address associated with hostname"
             ],
             "electrum.dirtdivas.net:50002": [
                 false,
@@ -2249,11 +2249,11 @@
             ],
             "electrumx1.monacoin.ninja:50001": [
                 false,
-                "[Errno 8] nodename nor servname provided, or not known"
+                "[Errno 101] Network is unreachable"
             ],
             "electrumx3.monacoin.nl:50001": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -2483,23 +2483,23 @@
             ],
             "electrumx1.nmc.bitclc.net:50001": [
                 false,
-                "timed out"
+                "[Errno 101] Network is unreachable"
             ],
             "electrumx2.nmc.bitclc.net:50001": [
                 false,
-                "timed out"
+                "[Errno 101] Network is unreachable"
             ],
             "electrumx3.nmc.bitclc.net:50001": [
                 false,
-                "timed out"
+                "[Errno 101] Network is unreachable"
             ],
             "electrumx4.nmc.bitclc.net:50001": [
                 false,
-                "timed out"
+                "[Errno 101] Network is unreachable"
             ],
             "nmc.bitcoins.sk:50001": [
                 false,
-                "[Errno 51] Network is unreachable"
+                "timed out"
             ]
         },
         "ssl": {
@@ -2509,7 +2509,7 @@
             ],
             "nmc.bitcoins.sk:50002": [
                 false,
-                "[Errno 51] Network is unreachable"
+                "timed out"
             ]
         },
         "ws": {}
@@ -2668,21 +2668,21 @@
         "tcp": {
             "electrumx.live:50010": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50001": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrumx.live:50012": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50002": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
@@ -3061,7 +3061,7 @@
             ],
             "electrum3.smartcash.cc:50001": [
                 false,
-                "[Errno 51] Network is unreachable"
+                "timed out"
             ],
             "electrum4.smartcash.cc:50001": [
                 false,
