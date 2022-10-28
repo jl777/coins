@@ -11,7 +11,7 @@ os.chdir(script_path)
 
 # TODO: Check all coins have an icon.
 icons = [f for f in os.listdir(f"{repo_path}/icons") if os.path.isfile(f"{repo_path}/icons/{f}.png")]
-lightwallet_coins = [f for f in os.listdir(f"{repo_path}/electrums") if os.path.isfile(f"{repo_path}/light_wallet_d/{f}")]
+lightwallet_coins = [f for f in os.listdir(f"{repo_path}/light_wallet_d") if os.path.isfile(f"{repo_path}/light_wallet_d/{f}")]
 electrum_coins = [f for f in os.listdir(f"{repo_path}/electrums") if os.path.isfile(f"{repo_path}/electrums/{f}")]
 ethereum_coins = [f for f in os.listdir(f"{repo_path}/ethereum") if os.path.isfile(f"{repo_path}/ethereum/{f}")]
 explorer_coins = [f for f in os.listdir(f"{repo_path}/explorers") if os.path.isfile(f"{repo_path}/explorers/{f}")]
@@ -121,6 +121,10 @@ class CoinConfig:
                     lightwallet_servers = json.load(f)
                 self.data[self.ticker].update({
                     "light_wallet_d_servers": lightwallet_servers
+                })
+            else:
+                self.data[self.ticker].update({
+                    "light_wallet_d_servers": []
                 })
 
     def get_protocol_info(self):
@@ -346,7 +350,7 @@ class CoinConfig:
                 for p in explorer_paths:
                     if x.find(p) > -1:
                         self.data[self.ticker].update(explorer_paths[p])
-            self.data[self.ticker].update({"explorer_url": explorers})
+            self.data[self.ticker].update({"explorer_url": explorers[0]})
 
 def parse_coins_repo():
 
@@ -386,6 +390,9 @@ def parse_coins_repo():
                     nodata.append(coin)
             if "electrum" in coins_config[coin]:
                 if not coins_config[coin]["electrum"]:
+                    nodata.append(coin)
+            if "light_wallet_d_servers" in coins_config[coin]:
+                if not coins_config[coin]["light_wallet_d_servers"]:
                     nodata.append(coin)
             if "nodes" not in coins_config[coin] and "electrum" not in coins_config[coin]:
                 nodata.append(coin)
