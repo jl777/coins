@@ -139,7 +139,7 @@
             ],
             "lenoir.ecoincore.com:12343": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -225,11 +225,11 @@
     },
     "AYA": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 2,
         "electrums_working_tcp": 2,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrum1.aryacoin.io:2052": [
                 true,
@@ -242,12 +242,12 @@
         },
         "ssl": {
             "electrum1.aryacoin.io:2053": [
-                false,
-                "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:997)"
+                true,
+                "Passed"
             ],
             "electrum2.aryacoin.io:2053": [
-                false,
-                "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:997)"
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -471,7 +471,7 @@
         "tcp": {
             "66.172.33.175:50001": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -1251,11 +1251,11 @@
             ],
             "holland.ecoincore.com:11017": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ],
             "lenoir.ecoincore.com:11017": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -1357,11 +1357,11 @@
     },
     "FJC": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 2,
         "electrums_working_tcp": 2,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 2,
         "tcp": {
             "electrumx1.fujicoin.org:50001": [
                 true,
@@ -1374,12 +1374,12 @@
         },
         "ssl": {
             "electrumx1.fujicoin.org:50003": [
-                false,
-                "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:997)"
+                true,
+                "Passed"
             ],
             "electrumx2.fujicoin.org:50003": [
-                false,
-                "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:997)"
+                true,
+                "Passed"
             ]
         },
         "ws": {}
@@ -1947,7 +1947,7 @@
         "tcp": {
             "74.208.95.26:50001": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ],
             "74.56.11.23:50001": [
                 false,
@@ -2017,7 +2017,7 @@
         "tcp": {
             "electrum.getlynx.io:50001": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -2047,15 +2047,15 @@
             ],
             "electrum.deliverypath.com:50002": [
                 false,
-                "[Errno 8] nodename nor servname provided, or not known"
+                "[Errno -5] No address associated with hostname"
             ],
             "electrum.dirtdivas.net:50002": [
                 false,
-                "[Errno 8] nodename nor servname provided, or not known"
+                "[Errno -2] Name or service not known"
             ],
             "electrum.getlynx.club:50002": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2249,11 +2249,11 @@
             ],
             "electrumx1.monacoin.ninja:50001": [
                 false,
-                "[Errno 8] nodename nor servname provided, or not known"
+                "[Errno 101] Network is unreachable"
             ],
             "electrumx3.monacoin.nl:50001": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -2483,23 +2483,23 @@
             ],
             "electrumx1.nmc.bitclc.net:50001": [
                 false,
-                "timed out"
+                "[Errno 101] Network is unreachable"
             ],
             "electrumx2.nmc.bitclc.net:50001": [
                 false,
-                "timed out"
+                "[Errno 101] Network is unreachable"
             ],
             "electrumx3.nmc.bitclc.net:50001": [
                 false,
-                "timed out"
+                "[Errno 101] Network is unreachable"
             ],
             "electrumx4.nmc.bitclc.net:50001": [
                 false,
-                "timed out"
+                "[Errno 101] Network is unreachable"
             ],
             "nmc.bitcoins.sk:50001": [
                 false,
-                "[Errno 51] Network is unreachable"
+                "timed out"
             ]
         },
         "ssl": {
@@ -2509,7 +2509,7 @@
             ],
             "nmc.bitcoins.sk:50002": [
                 false,
-                "[Errno 51] Network is unreachable"
+                "timed out"
             ]
         },
         "ws": {}
@@ -2668,21 +2668,21 @@
         "tcp": {
             "electrumx.live:50010": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50001": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
             "electrumx.live:50012": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ],
             "txserver.live:50002": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {}
@@ -2875,11 +2875,11 @@
             ],
             "electrum2.runebase.io:50001": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ],
             "electrum4.runebase.io:50001": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -2893,11 +2893,11 @@
             ],
             "electrum2.runebase.io:50002": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ],
             "electrum4.runebase.io:50002": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -3061,7 +3061,7 @@
             ],
             "electrum3.smartcash.cc:50001": [
                 false,
-                "[Errno 51] Network is unreachable"
+                "timed out"
             ],
             "electrum4.smartcash.cc:50001": [
                 false,
@@ -3069,11 +3069,11 @@
             ],
             "electrum5.smartcash.cc:50001": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ],
             "electrum6.smartcash.cc:50001": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -3676,20 +3676,20 @@
     },
     "XEC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {},
         "ssl": {
-            "fulcrum.pepipierre.fr:50002": [
+            "electrum.bitcoinabc.org:50002": [
                 true,
                 "Passed"
             ],
-            "electrum.bitcoinabc.org:50002": [
-                false,
-                "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:997)"
+            "fulcrum.pepipierre.fr:50002": [
+                true,
+                "Passed"
             ]
         },
         "ws": {}
@@ -3807,7 +3807,7 @@
             ],
             "electrumx.xvc.ewmcx.org:50001": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -3929,7 +3929,7 @@
         "ssl": {
             "zeta-seed-c.zetacoin.tech:50012": [
                 false,
-                "[Errno 61] Connection refused"
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
