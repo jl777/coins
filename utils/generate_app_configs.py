@@ -319,19 +319,22 @@ class CoinConfig:
                 parent_coin = "RSK"
                 with open(f"../ethereum/{parent_coin}", "r") as f:
                     contract_data = json.load(f)
-            elif parent_coin not in ["QTUM", "tQTUM", "SLP", "tSLP", None]:
+            elif parent_coin not in ["SLP", "tSLP", None]:
                 with open(f"../ethereum/{parent_coin}", "r") as f:
                     contract_data = json.load(f)
 
         if contract_data:
-            nodes = [i["url"] for i in contract_data["rpc_nodes"]]
             self.data[self.ticker].update({
-                "nodes": nodes,
                 "swap_contract_address": contract_data["swap_contract_address"]
             })
             if "fallback_swap_contract" in contract_data:
                 self.data[self.ticker].update({
                     "fallback_swap_contract": contract_data["fallback_swap_contract"]
+                })
+            if "rpc_nodes" in contract_data:
+                nodes = [i["url"] for i in contract_data["rpc_nodes"]]
+                self.data[self.ticker].update({
+                    "nodes": nodes
                 })
 
     def get_explorers(self):
