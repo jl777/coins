@@ -3,6 +3,9 @@
   "rpc_nodes": [
     {
       "url": "https://node.komodo.live:8080/avalanche"
+    },
+    {
+      "url": "https://api.avax.network/ext/bc/C/rpc"
     }
   ]
 }
