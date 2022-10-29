@@ -11809,5 +11809,45 @@
         "contract_address": "0xD7380b10bF3886B34Ab3422DEa42E408850375CA"
       }
     }
+  },
+  {
+    "coin": "ATOM",
+    "avg_block_time": 7,
+    "protocol": {
+      "type": "TENDERMINT",
+      "protocol_data": {
+        "decimals": 6,
+        "denom": "uatom",
+        "account_prefix": "cosmos",
+        "chain_id": "cosmoshub-4"
+      }
+    }
+  },
+  {
+    "coin": "IRIS",
+    "avg_block_time": 7,
+    "protocol": {
+      "type": "TENDERMINT",
+      "protocol_data": {
+        "decimals": 6,
+        "denom": "uiris",
+        "account_prefix": "iaa",
+        "chain_id": "irishub-1",
+        "gas_price": 0.50
+      }
+    }
+  },
+  {
+    "coin": "ATOM-IBC_IRIS",
+    "avg_block_time": 7,
+    "protocol": {
+      "type": "TENDERMINTTOKEN",
+      "protocol_data": {
+        "platform": "IRIS",
+        "decimals": 6,
+        "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+        "gas_price": 0.50
+      }
+    }
   }
 ]
