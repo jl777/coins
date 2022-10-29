@@ -2802,8 +2802,8 @@
     "trezor_coin": "Dash"
   },
   {
-    "coin": "DDD",
-    "name": "scryinfo",
+    "coin": "DDD-ERC20",
+    "name": "ddd_erc20",
     "fname": "Scry.info",
     "required_confirmations": 3,
     "avg_blocktime": 0.25,
@@ -2819,9 +2819,9 @@
     }
   },
   {
-    "coin": "DENT",
-    "name": "dent",
-    "fname": "Dent Coin",
+    "coin": "DENT-ERC20",
+    "name": "dent_erc20",
+    "fname": "Dent",
     "required_confirmations": 3,
     "avg_blocktime": 0.25,
     "rpcport": 80,
@@ -4040,23 +4040,6 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0x7dDEE176F665cD201F93eEDE625770E2fD911990"
-      }
-    }
-  },
-  {
-    "coin": "GETH",
-    "name": "guarded-ether",
-    "fname": "Guarded Ether",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x9ad03c34aAb604A9e0Fde41dbF8E383E11c416c4"
       }
     }
   },
@@ -5959,8 +5942,8 @@
     }
   },
   {
-    "coin": "MINDS",
-    "name": "minds",
+    "coin": "MINDS-ERC20",
+    "name": "minds_erc20",
     "fname": "Minds",
     "rpcport": 80,
     "mm2": 1,
@@ -6250,23 +6233,6 @@
     "trezor_coin": "Komodo"
   },
   {
-    "coin": "MOVI",
-    "name": "movitoken",
-    "fname": "MoviToken",
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x06F979E4F04ec565Ae8d7479a94C60dEF8846832"
-      }
-    }
-  },
-  {
     "coin": "MOVR",
     "name": "moonriver",
     "fname": "Moonriver",
@@ -6502,23 +6468,6 @@
     "avg_blocktime": 10,
     "protocol": {
       "type": "UTXO"
-    }
-  },
-  {
-    "coin": "NPXS",
-    "name": "pundi-x",
-    "fname": "Pundi X",
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3"
-      }
     }
   },
   {
@@ -7637,8 +7586,8 @@
     }
   },
   {
-    "coin": "REP",
-    "name": "augur",
+    "coin": "REP-ERC20",
+    "name": "rep_erc20",
     "fname": "Augur",
     "required_confirmations": 3,
     "avg_blocktime": 0.25,
@@ -7667,23 +7616,6 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
-  },
-  {
-    "coin": "RFOX",
-    "name": "redfox",
-    "fname": "RedFOX",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0xa1d6Df714F91DeBF4e0802A542E13067f31b8262"
-      }
     }
   },
   {
@@ -8077,9 +8009,9 @@
     }
   },
   {
-    "coin": "SOLVE",
-    "name": "care-solve",
-    "fname": "Solve Token",
+    "coin": "SOLVE-ERC20",
+    "name": "solve_erc20",
+    "fname": "SOLVE",
     "required_confirmations": 3,
     "avg_blocktime": 0.25,
     "rpcport": 80,
@@ -8338,7 +8270,7 @@
   },
   {
     "coin": "SWAP-BEP20",
-    "name": "safeswap_bep20",
+    "name": "swap_bep20",
     "fname": "SafeSwap",
     "rpcport": 80,
     "mm2": 1,
@@ -9461,8 +9393,8 @@
     }
   },
   {
-    "coin": "VRA",
-    "name": "verasity",
+    "coin": "VRA-ERC20",
+    "name": "vra_erc20",
     "fname": "Verasity",
     "rpcport": 80,
     "mm2": 1,
