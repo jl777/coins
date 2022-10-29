@@ -10688,31 +10688,6 @@
     "decimals": 9
   },
   {
-    "coin": "MED",
-    "gui_coin": "MED",
-    "name": "qtum",
-    "fname": "med token",
-    "rpcport": 3889,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
-    "txfee": 0,
-    "dust": 72800,
-    "protocol": {
-      "type": "QRC20",
-      "protocol_data": {
-        "platform": "QTUM",
-        "contract_address": "0x2f65a0af11d50d2d15962db39d7f7b0619ed55ae"
-      }
-    },
-    "pubtype": 58,
-    "p2shtype": 50,
-    "wiftype": 128,
-    "segwit": false,
-    "decimals": 8
-  },
-  {
     "coin": "LSTR",
     "gui_coin": "LSTR",
     "name": "qtum",
@@ -10938,31 +10913,6 @@
     "decimals": 18
   },
   {
-    "coin": "ZAT",
-    "gui_coin": "ZAT",
-    "name": "qtum",
-    "fname": "zatgo token",
-    "rpcport": 3889,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
-    "txfee": 0,
-    "dust": 72800,
-    "protocol": {
-      "type": "QRC20",
-      "protocol_data": {
-        "platform": "QTUM",
-        "contract_address": "0xdd8ef078a5699ea3dac26b12cb5c5d8f0a2f6e4f"
-      }
-    },
-    "pubtype": 58,
-    "p2shtype": 50,
-    "wiftype": 128,
-    "segwit": false,
-    "decimals": 8
-  },
-  {
     "coin": "WID",
     "gui_coin": "WID",
     "name": "qtum",
@@ -10988,9 +10938,8 @@
     "decimals": 8
   },
   {
-    "coin": "OKB",
-    "gui_coin": "OKB",
-    "name": "ethereum",
+    "coin": "OKB-ERC20",
+    "name": "okb_erc20",
     "fname": "OKB",
     "rpcport": 80,
     "mm2": 1,
@@ -11007,27 +10956,9 @@
     "decimals": 18
   },
   {
-    "coin": "THX",
-    "gui_coin": "THX",
-    "name": "ethereum",
-    "fname": "thorenext",
-    "rpcport": 80,
-    "mm2": 0,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0xf08c68bD5f4194d994FD70726746Bf529eE5a617"
-      }
-    }
-  },
-  {
-    "coin": "SEELE",
-    "gui_coin": "SEELE",
-    "name": "ethereum",
-    "fname": "seele token",
+    "coin": "SEELE-ERC20",
+    "name": "seele_erc20",
+    "fname": "Seele",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11043,28 +10974,8 @@
     "decimals": 18
   },
   {
-    "coin": "JWL",
-    "gui_coin": "JWL",
-    "name": "ethereum",
-    "fname": "jewel",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x8275eBF521Dc217aa79C88132017A5BCEf001dd9"
-      }
-    },
-    "decimals": 18
-  },
-  {
-    "coin": "REV",
-    "gui_coin": "REV",
-    "name": "ethereum",
+    "coin": "REV-ERC20",
+    "name": "rev_erc20",
     "fname": "Revain",
     "rpcport": 80,
     "mm2": 1,
@@ -11081,10 +10992,9 @@
     "decimals": 6
   },
   {
-    "coin": "SNT",
-    "gui_coin": "SNT",
-    "name": "ethereum",
-    "fname": "StatusNetwork",
+    "coin": "SNT-ERC20",
+    "name": "snt_erc20",
+    "fname": "Status",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11100,9 +11010,8 @@
     "decimals": 18
   },
   {
-    "coin": "ANT",
-    "gui_coin": "ANT",
-    "name": "ethereum",
+    "coin": "ANT-ERC20",
+    "name": "ant_erc20",
     "fname": "Aragon",
     "rpcport": 80,
     "mm2": 1,
@@ -11119,29 +11028,9 @@
     "decimals": 18
   },
   {
-    "coin": "BTRS",
-    "gui_coin": "BTRS",
-    "name": "ethereum",
-    "fname": "bitball treasure",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x73C9275c3a2Dd84b5741fD59AEbF102C91Eb033F"
-      }
-    },
-    "decimals": 18
-  },
-  {
-    "coin": "BEST",
-    "gui_coin": "BEST",
-    "name": "ethereum",
-    "fname": "Bitpanda Ecosystem Token",
+    "coin": "BEST-ERC20",
+    "name": "best_erc20",
+    "fname": "Bitpanda Ecosystem",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11157,10 +11046,9 @@
     "decimals": 8
   },
   {
-    "coin": "CVT",
-    "gui_coin": "CVT",
-    "name": "ethereum",
-    "fname": "CyberVeinToken",
+    "coin": "CVT-ERC20",
+    "name": "cvt_erc20",
+    "fname": "CyberVein",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11176,9 +11064,8 @@
     "decimals": 18
   },
   {
-    "coin": "DX",
-    "gui_coin": "DX",
-    "name": "ethereum",
+    "coin": "DX-ERC20",
+    "name": "dx_erc20",
     "fname": "DxChain",
     "rpcport": 80,
     "mm2": 1,
@@ -11195,9 +11082,8 @@
     "decimals": 18
   },
   {
-    "coin": "STORJ",
-    "gui_coin": "STORJ",
-    "name": "ethereum",
+    "coin": "STORJ-ERC20",
+    "name": "storj_erc20",
     "fname": "Storj",
     "rpcport": 80,
     "mm2": 1,
@@ -11214,10 +11100,9 @@
     "decimals": 8
   },
   {
-    "coin": "TRAC",
-    "gui_coin": "TRAC",
-    "name": "ethereum",
-    "fname": "Trace",
+    "coin": "TRAC-ERC20",
+    "name": "trac_erc20",
+    "fname": "OriginTrail",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11233,25 +11118,6 @@
     "decimals": 18
   },
   {
-    "coin": "BRC",
-    "gui_coin": "BRC",
-    "name": "ethereum",
-    "fname": "baer chain",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x21aB6c9fAC80C59D401b37cB43F81ea9DDe7Fe34"
-      }
-    },
-    "decimals": 8
-  },
-  {
     "coin": "UBQ",
     "name": "ubiq",
     "fname": "Ubiq",
@@ -11265,10 +11131,9 @@
     }
   },
   {
-    "coin": "PNK",
-    "gui_coin": "PNK",
-    "name": "ethereum",
-    "fname": "Pinakion",
+    "coin": "PNK-ERC20",
+    "name": "pnk_erc20",
+    "fname": "Kleros",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11284,9 +11149,8 @@
     "decimals": 18
   },
   {
-    "coin": "SKL",
-    "gui_coin": "SKL",
-    "name": "ethereum",
+    "coin": "SKL-ERC20",
+    "name": "skl_erc20",
     "fname": "SKALE",
     "rpcport": 80,
     "mm2": 1,
@@ -11303,9 +11167,8 @@
     "decimals": 18
   },
   {
-    "coin": "CVC",
-    "gui_coin": "CVC",
-    "name": "ethereum",
+    "coin": "CVC-ERC20",
+    "name": "cvc_erc20",
     "fname": "Civic",
     "rpcport": 80,
     "mm2": 1,
@@ -11322,48 +11185,9 @@
     "decimals": 8
   },
   {
-    "coin": "TMTG",
-    "gui_coin": "TMTG",
-    "name": "ethereum",
-    "fname": "The Midas Touch Gold",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x10086399DD8c1e3De736724AF52587a2044c9fA2"
-      }
-    },
-    "decimals": 18
-  },
-  {
-    "coin": "CENNZ",
-    "gui_coin": "CENNZ",
-    "name": "ethereum",
-    "fname": "Centrality Token",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x1122B6a0E00DCe0563082b6e2953f3A943855c1F"
-      }
-    },
-    "decimals": 18
-  },
-  {
-    "coin": "UTK",
-    "gui_coin": "UTK",
-    "name": "ethereum",
-    "fname": "UTRUST",
+    "coin": "UTK-ERC20",
+    "name": "utk_erc20",
+    "fname": "Utrust",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11379,10 +11203,9 @@
     "decimals": 18
   },
   {
-    "coin": "MLN",
-    "gui_coin": "MLN",
-    "name": "ethereum",
-    "fname": "Melon Token",
+    "coin": "MLN-ERC20",
+    "name": "mln_erc20",
+    "fname": "Enzyme",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11398,29 +11221,9 @@
     "decimals": 18
   },
   {
-    "coin": "TTT",
-    "gui_coin": "TTT",
-    "name": "ethereum",
-    "fname": "The Transfer Token",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x2494a68C1484376fEf880b4c24D91f049d29B02A"
-      }
-    },
-    "decimals": 18
-  },
-  {
-    "coin": "XOR",
-    "gui_coin": "XOR",
-    "name": "ethereum",
-    "fname": "Sora Token",
+    "coin": "XOR-ERC20",
+    "name": "xor_erc20",
+    "fname": "Sora",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11436,28 +11239,8 @@
     "decimals": 18
   },
   {
-    "coin": "EUM",
-    "gui_coin": "EUM",
-    "name": "ethereum",
-    "fname": "elitium",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 0.25,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x6aB4A7d75B0A42B6Bc83E852daB9E121F9C610Aa"
-      }
-    },
-    "decimals": 18
-  },
-  {
-    "coin": "UQC",
-    "gui_coin": "UQC",
-    "name": "ethereum",
+    "coin": "UQC-ERC20",
+    "name": "uqc_erc20",
     "fname": "Uquid Coin",
     "rpcport": 80,
     "mm2": 1,
@@ -11474,10 +11257,9 @@
     "decimals": 18
   },
   {
-    "coin": "UOS",
-    "gui_coin": "UOS",
-    "name": "ethereum",
-    "fname": "Ultra Token",
+    "coin": "UOS-ERC20",
+    "name": "uos_erc20",
+    "fname": "Ultra",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11493,13 +11275,13 @@
     "decimals": 4
   },
   {
-    "coin": "SHR",
-    "gui_coin": "SHR",
-    "name": "ethereum",
-    "fname": "ShareToken",
+    "coin": "SHR-ERC20",
+    "name": "shr_erc20",
+    "fname": "Share",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
+    "decimals": 2,
     "required_confirmations": 3,
     "avg_blocktime": 0.25,
     "protocol": {
@@ -11508,17 +11290,34 @@
         "platform": "ETH",
         "contract_address": "0xd98F75b1A3261dab9eEd4956c93F33749027a964"
       }
-    },
-    "decimals": 2
+    }
   },
   {
-    "coin": "S4F",
-    "gui_coin": "S4F",
-    "name": "ethereum",
+    "coin": "SHR-BEP20",
+    "name": "shr_bep20",
+    "fname": "Share",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x5fb4968fC85868DF3aD2d6e59883a10570f01D18"
+      }
+    }
+  },
+  {
+    "coin": "S4F-ERC20",
+    "name": "s4f_erc20",
     "fname": "S4FE",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
+    "decimals": 18,
     "required_confirmations": 3,
     "avg_blocktime": 0.25,
     "protocol": {
@@ -11527,8 +11326,25 @@
         "platform": "ETH",
         "contract_address": "0xAec7d1069e3a914a3EB50f0BFB1796751f2ce48a"
       }
-    },
-    "decimals": 18
+    }
+  },
+  {
+    "coin": "S4F-BEP20",
+    "name": "s4f_bep20",
+    "fname": "S4FE",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x788D2780992222360f674cc12C36478870b8E6ED"
+      }
+    }
   },
   {
     "coin": "tBCH",
