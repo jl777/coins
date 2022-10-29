@@ -782,23 +782,23 @@
     },
     "CHTA": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum.shorelinecrypto.com:10007": [
-                true,
-                "Passed"
-            ],
-            "electrum1.mooo.com:10007": [
-                true,
-                "Passed"
-            ],
             "electrum2.mooo.com:10007": [
                 true,
                 "Passed"
+            ],
+            "electrum.shorelinecrypto.com:10007": [
+                false,
+                "[Errno 111] Connection refused"
+            ],
+            "electrum1.mooo.com:10007": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -3377,15 +3377,15 @@
     },
     "UIS": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
         "electrums_working_ssl": 1,
         "tcp": {
             "electrumx.uis.ewmcx.info:50001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -3915,11 +3915,11 @@
     },
     "ZET": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 1,
         "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {
             "207.180.252.200:50011": [
                 true,
@@ -3928,8 +3928,8 @@
         },
         "ssl": {
             "zeta-seed-c.zetacoin.tech:50012": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
