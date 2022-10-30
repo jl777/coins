@@ -3570,6 +3570,28 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum.shorelinecrypto.com:10007",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.mooo.com:10007",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.mooo.com:10007",
                 "contact": [
                     {
@@ -6749,31 +6771,6 @@
             "http://bsc3.cipig.net:8655"
         ],
         "token_address_url": "tokentxns?a="
-    },
-    "GETH": {
-        "coin": "GETH",
-        "type": "ERC-20",
-        "name": "Guarded Ether",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x9ad03c34aAb604A9e0Fde41dbF8E383E11c416c4",
-        "swap_contract_address": "0x34CB0da0ED7005870D28e41983F934D7205fC360",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            "https://node.komodo.live:8080/ethereum",
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
-        ]
     },
     "GLEEC": {
         "coin": "GLEEC",
@@ -10228,6 +10225,9 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
+            },
+            {
+                "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
         "is_segwit_on": false,
@@ -10327,33 +10327,6 @@
         ],
         "asset": "MORTY"
     },
-    "MOVI": {
-        "coin": "MOVI",
-        "type": "ERC-20",
-        "name": "MoviToken",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x06F979E4F04ec565Ae8d7479a94C60dEF8846832",
-        "swap_contract_address": "0x34CB0da0ED7005870D28e41983F934D7205fC360",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            "https://node.komodo.live:8080/ethereum",
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
-        ]
-    },
-=======
->>>>>>> master
     "MOVR": {
         "coin": "MOVR",
         "type": "Moonriver",
@@ -10616,6 +10589,17 @@
                         "discord": "honglu69#5911"
                     }
                 ]
+            },
+            {
+                "url": "electrum2.mooo.com:10001",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ]
             }
         ]
     },
@@ -10810,34 +10794,6 @@
             "format": "standard"
         }
     },
-<<<<<<< HEAD
-    "NPXS": {
-        "coin": "NPXS",
-        "type": "ERC-20",
-        "name": "Pundi X",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3",
-        "swap_contract_address": "0x34CB0da0ED7005870D28e41983F934D7205fC360",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            "https://node.komodo.live:8080/ethereum",
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
-        ]
-    },
-=======
->>>>>>> master
     "NVC": {
         "coin": "NVC",
         "type": "UTXO",
@@ -12544,7 +12500,7 @@
         "type": "QRC-20",
         "name": "QTUM Testnet",
         "coinpaprika_id": "test-coin",
-        "coingecko_id": "test-coin",
+        "coingecko_id": "",
         "nomics_id": "",
         "explorer_url": "https://testnet.qtum.info/",
         "explorer_tx_url": "",
@@ -12821,34 +12777,6 @@
         ],
         "asset": "REVS"
     },
-<<<<<<< HEAD
-    "RFOX": {
-        "coin": "RFOX",
-        "type": "ERC-20",
-        "name": "RedFOX",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0xa1d6Df714F91DeBF4e0802A542E13067f31b8262",
-        "swap_contract_address": "0x34CB0da0ED7005870D28e41983F934D7205fC360",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            "https://node.komodo.live:8080/ethereum",
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
-        ]
-    },
-=======
->>>>>>> master
     "RICK": {
         "coin": "RICK",
         "type": "Smart Chain",
@@ -14487,6 +14415,14 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "1.eu.thc.electrum.dexstats.info:10020",
+                "contact": [
+                    {
+                        "discord": "CHMEX#0686"
+                    }
+                ]
+            },
+            {
                 "url": "2.eu.thc.electrum.dexstats.info:10020",
                 "contact": [
                     {
@@ -14939,6 +14875,11 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "electrumx.uis.ewmcx.info:50001",
+                "protocol": "TCP",
+                "ws_url": "electrumx.uis.ewmcx.info:50004"
+            },
             {
                 "url": "failover.trc-uis.ewmcx.biz:50002",
                 "protocol": "SSL",
@@ -19124,38 +19065,8 @@
             "http://eth3.cipig.net:8555"
         ]
     },
-<<<<<<< HEAD
-    "JWL": {
-        "coin": "JWL",
-        "type": "ERC-20",
-        "name": "jewel",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x8275eBF521Dc217aa79C88132017A5BCEf001dd9",
-        "swap_contract_address": "0x34CB0da0ED7005870D28e41983F934D7205fC360",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            "https://node.komodo.live:8080/ethereum",
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
-        ]
-    },
-    "REV": {
-        "coin": "REV",
-=======
     "REV-ERC20": {
         "coin": "REV-ERC20",
->>>>>>> master
         "type": "ERC-20",
         "name": "Revain",
         "coinpaprika_id": "rev-revain",
@@ -19232,36 +19143,7 @@
     "BEST-ERC20": {
         "coin": "BEST-ERC20",
         "type": "ERC-20",
-<<<<<<< HEAD
-        "name": "bitball treasure",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x73C9275c3a2Dd84b5741fD59AEbF102C91Eb033F",
-        "swap_contract_address": "0x34CB0da0ED7005870D28e41983F934D7205fC360",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            "https://node.komodo.live:8080/ethereum",
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
-        ]
-    },
-    "BEST": {
-        "coin": "BEST",
-        "type": "ERC-20",
-        "name": "Bitpanda Ecosystem Token",
-=======
         "name": "Bitpanda Ecosystem",
->>>>>>> master
         "coinpaprika_id": "best-bitpanda-ecosystem-token",
         "coingecko_id": "bitpanda-ecosystem-token",
         "nomics_id": "BEST",
@@ -19383,34 +19265,6 @@
             "http://eth3.cipig.net:8555"
         ]
     },
-<<<<<<< HEAD
-    "BRC": {
-        "coin": "BRC",
-        "type": "ERC-20",
-        "name": "baer chain",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x21aB6c9fAC80C59D401b37cB43F81ea9DDe7Fe34",
-        "swap_contract_address": "0x34CB0da0ED7005870D28e41983F934D7205fC360",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            "https://node.komodo.live:8080/ethereum",
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
-        ]
-    },
-=======
->>>>>>> master
     "UBQ": {
         "coin": "UBQ",
         "type": "Ubiq",
@@ -19506,67 +19360,10 @@
             "http://eth3.cipig.net:8555"
         ]
     },
-<<<<<<< HEAD
-    "TMTG": {
-        "coin": "TMTG",
-        "type": "ERC-20",
-        "name": "The Midas Touch Gold",
-        "coinpaprika_id": "tmtg-the-midas-touch-gold",
-        "coingecko_id": "the-midas-touch-gold",
-        "nomics_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x10086399DD8c1e3De736724AF52587a2044c9fA2",
-        "swap_contract_address": "0x34CB0da0ED7005870D28e41983F934D7205fC360",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            "https://node.komodo.live:8080/ethereum",
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
-        ]
-    },
-    "CENNZ": {
-        "coin": "CENNZ",
-        "type": "ERC-20",
-        "name": "Centrality Token",
-        "coinpaprika_id": "cennz-centrality",
-        "coingecko_id": "centrality",
-        "nomics_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x1122B6a0E00DCe0563082b6e2953f3A943855c1F",
-        "swap_contract_address": "0x34CB0da0ED7005870D28e41983F934D7205fC360",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            "https://node.komodo.live:8080/ethereum",
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
-        ]
-    },
-    "UTK": {
-        "coin": "UTK",
-        "type": "ERC-20",
-        "name": "UTRUST",
-=======
     "UTK-ERC20": {
         "coin": "UTK-ERC20",
         "type": "ERC-20",
         "name": "Utrust",
->>>>>>> master
         "coinpaprika_id": "utk-utrust",
         "coingecko_id": "utrust",
         "nomics_id": "UTK",
@@ -19613,38 +19410,8 @@
             "http://eth3.cipig.net:8555"
         ]
     },
-<<<<<<< HEAD
-    "TTT": {
-        "coin": "TTT",
-        "type": "ERC-20",
-        "name": "The Transfer Token",
-        "coinpaprika_id": "ttt-the-transfer-token",
-        "coingecko_id": "the-transfer-token",
-        "nomics_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x2494a68C1484376fEf880b4c24D91f049d29B02A",
-        "swap_contract_address": "0x34CB0da0ED7005870D28e41983F934D7205fC360",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            "https://node.komodo.live:8080/ethereum",
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
-        ]
-    },
-    "XOR": {
-        "coin": "XOR",
-=======
     "XOR-ERC20": {
         "coin": "XOR-ERC20",
->>>>>>> master
         "type": "ERC-20",
         "name": "Sora",
         "coinpaprika_id": "xor-sora",
@@ -19668,38 +19435,8 @@
             "http://eth3.cipig.net:8555"
         ]
     },
-<<<<<<< HEAD
-    "EUM": {
-        "coin": "EUM",
-        "type": "ERC-20",
-        "name": "elitium",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x6aB4A7d75B0A42B6Bc83E852daB9E121F9C610Aa",
-        "swap_contract_address": "0x34CB0da0ED7005870D28e41983F934D7205fC360",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            "https://node.komodo.live:8080/ethereum",
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
-        ]
-    },
-    "UQC": {
-        "coin": "UQC",
-=======
     "UQC-ERC20": {
         "coin": "UQC-ERC20",
->>>>>>> master
         "type": "ERC-20",
         "name": "Uquid Coin",
         "coinpaprika_id": "uqc-uquid-coin",
@@ -19789,7 +19526,8 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x5fb4968fC85868DF3aD2d6e59883a10570f01D18",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "swap_contract_address": "0x5404A1F32C28fE2ee1819344a459c37fA8aC1f8F",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             "https://node.komodo.live:8080/binance",
             "http://bsc1.cipig.net:8655",
@@ -19839,7 +19577,8 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x788D2780992222360f674cc12C36478870b8E6ED",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "swap_contract_address": "0x5404A1F32C28fE2ee1819344a459c37fA8aC1f8F",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             "https://node.komodo.live:8080/binance",
             "http://bsc1.cipig.net:8655",

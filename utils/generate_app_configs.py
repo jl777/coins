@@ -76,6 +76,7 @@ class CoinConfig:
             "RBTC": "RSK Smart Bitcoin",
             "SBCH": "SmartBCH",
             "SLP": "SLPTOKEN",
+            "COSMOS": "TENDERMINTTOKEN",
             "UBQ": "Ubiq"
         }
         self.testnet_protocols = {
@@ -84,11 +85,14 @@ class CoinConfig:
             "FTMT": "FTM-20",
             "tSLP": "SLPTOKEN",
             "tQTUM": "QRC-20",
+            "tCOSMOS": "TENDERMINTTOKEN",
             "MATICTEST": "Matic",
             "UBQ": "Ubiq"
         }
 
         self.coin_type = coin_data["protocol"]["type"]
+        print(coin_data["protocol"])
+        print(coin_data["protocol"]["type"])
         self.data.update({
             self.ticker: {
                 "coin": self.ticker,
@@ -251,10 +255,16 @@ class CoinConfig:
     def get_parent_coin(self):
         ''' Used for getting filename for related coins/ethereum folder '''
         token_type = self.data[self.ticker]["type"]
+        print(self.data[self.ticker])
         if token_type in ["SLP"]:
             if self.data[self.ticker]["is_testnet"]:
                 return f"t{token_type}"
             return token_type
+        if token_type in ["TENDERMINTTOKEN", "TENDERMINT"]:
+            if self.data[self.ticker]["is_testnet"]:
+                return "tCOSMOS"
+            return "COSMOS"
+
 
         if self.coin_type not in ["UTXO", "ZHTLC", "BCH", "QTUM"]:
             if self.data[self.ticker]["is_testnet"]:
@@ -363,26 +373,37 @@ def parse_coins_repo():
         coins_data = json.load(f)
 
     for item in coins_data:
-
+        
         if item["mm2"] == 1 and item["coin"].find("-segwit") == -1:
-            config = CoinConfig(item)
-            config.get_protocol_info()
-            config.clean_name()
-            config.get_swap_contracts()
-            config.get_electrums()
-            config.get_explorers()
-            config.is_smartchain()
-            config.is_wallet_only()
-            config.get_address_format()
-            config.get_rewards_info()
-            config.get_alias_ticker()
-            config.get_asset()
-            config.get_forex_id()
-            config.get_coinpaprika_id()
-            config.get_coingecko_id()
-            config.get_nomics_id()
-            config.get_bchd_urls()
-            coins_config.update(config.data)
+            try:
+                config = CoinConfig(item)
+                print("Getting get_protocol_info")
+                config.get_protocol_info()
+                print(config.data)
+                print("Getting clean_name")
+                config.clean_name()
+                print(config.data)
+                print("Getting get_swap_contracts")
+                config.get_swap_contracts()
+                print(config.data)
+                print("Getting get_electrums")
+                config.get_electrums()
+                print("Getting get_explorers")
+                config.get_explorers()
+                config.is_smartchain()
+                config.is_wallet_only()
+                config.get_address_format()
+                config.get_rewards_info()
+                config.get_alias_ticker()
+                config.get_asset()
+                config.get_forex_id()
+                config.get_coinpaprika_id()
+                config.get_coingecko_id()
+                config.get_nomics_id()
+                config.get_bchd_urls()
+                coins_config.update(config.data)
+            except Exception as e:
+                print(f"Error with {item['coin']}, was not added to coins_config.json output")
 
     nodata = []
     for coin in coins_config:
