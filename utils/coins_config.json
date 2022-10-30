@@ -3519,6 +3519,28 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum.shorelinecrypto.com:10007",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.mooo.com:10007",
+                "contact": [
+                    {
+                        "email": "support@shorelinecrypto.com"
+                    },
+                    {
+                        "discord": "honglu69#5911"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.mooo.com:10007",
                 "contact": [
                     {
@@ -4469,13 +4491,13 @@
             }
         ]
     },
-    "DDD": {
-        "coin": "DDD",
+    "DDD-ERC20": {
+        "coin": "DDD-ERC20",
         "type": "ERC-20",
         "name": "Scry.info",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "ddd-scryinfo",
+        "coingecko_id": "scry-info",
+        "nomics_id": "DDD",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -4494,13 +4516,13 @@
             "http://eth3.cipig.net:8555"
         ]
     },
-    "DENT": {
-        "coin": "DENT",
+    "DENT-ERC20": {
+        "coin": "DENT-ERC20",
         "type": "ERC-20",
-        "name": "Dent Coin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "name": "Dent",
+        "coinpaprika_id": "dent-dent",
+        "coingecko_id": "dent",
+        "nomics_id": "DENT",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -5847,7 +5869,7 @@
     "ETH-ARB20": {
         "coin": "ETH-ARB20",
         "type": "Arbitrum",
-        "name": "Arbitrum Ethereum",
+        "name": "Ethereum",
         "coinpaprika_id": "eth-ethereum",
         "coingecko_id": "ethereum",
         "nomics_id": "ETH",
@@ -6664,31 +6686,6 @@
             "http://bsc3.cipig.net:8655"
         ],
         "token_address_url": "tokentxns?a="
-    },
-    "GETH": {
-        "coin": "GETH",
-        "type": "ERC-20",
-        "name": "Guarded Ether",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x9ad03c34aAb604A9e0Fde41dbF8E383E11c416c4",
-        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
-        "nodes": [
-            "https://node.komodo.live:8080/ethereum",
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
-        ]
     },
     "GLEEC": {
         "coin": "GLEEC",
@@ -9793,8 +9790,8 @@
         ],
         "asset": "MGW"
     },
-    "MINDS": {
-        "coin": "MINDS",
+    "MINDS-ERC20": {
+        "coin": "MINDS-ERC20",
         "type": "ERC-20",
         "name": "Minds",
         "coinpaprika_id": "minds-minds",
@@ -10200,31 +10197,6 @@
         ],
         "asset": "MORTY"
     },
-    "MOVI": {
-        "coin": "MOVI",
-        "type": "ERC-20",
-        "name": "MoviToken",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x06F979E4F04ec565Ae8d7479a94C60dEF8846832",
-        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
-        "nodes": [
-            "https://node.komodo.live:8080/ethereum",
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
-        ]
-    },
     "MOVR": {
         "coin": "MOVR",
         "type": "Moonriver",
@@ -10485,17 +10457,6 @@
                         "discord": "honglu69#5911"
                     }
                 ]
-            },
-            {
-                "url": "electrum2.mooo.com:10001",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ]
             }
         ]
     },
@@ -10688,31 +10649,6 @@
         "address_format": {
             "format": "standard"
         }
-    },
-    "NPXS": {
-        "coin": "NPXS",
-        "type": "ERC-20",
-        "name": "Pundi X",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3",
-        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
-        "nodes": [
-            "https://node.komodo.live:8080/ethereum",
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
-        ]
     },
     "NVC": {
         "coin": "NVC",
@@ -12564,13 +12500,13 @@
             "https://http-mainnet.hecochain.com"
         ]
     },
-    "REP": {
-        "coin": "REP",
+    "REP-ERC20": {
+        "coin": "REP-ERC20",
         "type": "ERC-20",
         "name": "Augur",
         "coinpaprika_id": "rep-augur",
         "coingecko_id": "augur",
-        "nomics_id": "",
+        "nomics_id": "REP",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -12680,31 +12616,6 @@
             }
         ],
         "asset": "REVS"
-    },
-    "RFOX": {
-        "coin": "RFOX",
-        "type": "ERC-20",
-        "name": "RedFOX",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0xa1d6Df714F91DeBF4e0802A542E13067f31b8262",
-        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
-        "nodes": [
-            "https://node.komodo.live:8080/ethereum",
-            "http://eth1.cipig.net:8555",
-            "http://eth2.cipig.net:8555",
-            "http://eth3.cipig.net:8555"
-        ]
     },
     "RICK": {
         "coin": "RICK",
@@ -13304,13 +13215,13 @@
             "https://rpc-mainnet.maticvigil.com"
         ]
     },
-    "SOLVE": {
-        "coin": "SOLVE",
+    "SOLVE-ERC20": {
+        "coin": "SOLVE-ERC20",
         "type": "ERC-20",
-        "name": "Solve Token",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "name": "SOLVE",
+        "coinpaprika_id": "solve-solve",
+        "coingecko_id": "solve-care",
+        "nomics_id": "SOLVE",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -13842,9 +13753,9 @@
         "coin": "SWAP-BEP20",
         "type": "BEP-20",
         "name": "SafeSwap",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "swap-safeswap-online",
+        "coingecko_id": "safeswap-online",
+        "nomics_id": "SWAP4",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -14327,14 +14238,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "1.eu.thc.electrum.dexstats.info:10020",
-                "contact": [
-                    {
-                        "discord": "CHMEX#0686"
-                    }
-                ]
-            },
             {
                 "url": "2.eu.thc.electrum.dexstats.info:10020",
                 "contact": [
@@ -15588,13 +15491,13 @@
         ],
         "token_address_url": "tokentxns?a="
     },
-    "VRA": {
-        "coin": "VRA",
+    "VRA-ERC20": {
+        "coin": "VRA-ERC20",
         "type": "ERC-20",
         "name": "Verasity",
         "coinpaprika_id": "vra-verasity",
         "coingecko_id": "verasity",
-        "nomics_id": "",
+        "nomics_id": "VRA",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -17867,6 +17770,99 @@
             }
         ]
     },
+    "MED": {
+        "coin": "MED",
+        "type": "QRC-20",
+        "name": "Medibloc",
+        "coinpaprika_id": "med-medibloc-qrc20",
+        "coingecko_id": "medibloc",
+        "nomics_id": "MED",
+        "explorer_url": "https://explorer.qtum.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "contract_address": "0x2f65a0af11d50d2d15962db39d7f7b0619ed55ae",
+        "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10050",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
+            },
+            {
+                "url": "electrum2.cipig.net:10050",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
+            },
+            {
+                "url": "electrum3.cipig.net:10050",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
+            },
+            {
+                "url": "electrum1.cipig.net:20050",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20050",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20050",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ]
+    },
     "LSTR": {
         "coin": "LSTR",
         "type": "QRC-20",
@@ -18801,9 +18797,9 @@
         "coin": "OKB-ERC20",
         "type": "ERC-20",
         "name": "OKB",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "okb-okb",
+        "coingecko_id": "okb",
+        "nomics_id": "OKB",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -18826,9 +18822,9 @@
         "coin": "SEELE-ERC20",
         "type": "ERC-20",
         "name": "Seele",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "seele-seele",
+        "coingecko_id": "seele",
+        "nomics_id": "SEELE",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -18851,9 +18847,9 @@
         "coin": "REV-ERC20",
         "type": "ERC-20",
         "name": "Revain",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "rev-revain",
+        "coingecko_id": "revain",
+        "nomics_id": "REVAIN",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -18876,9 +18872,9 @@
         "coin": "SNT-ERC20",
         "type": "ERC-20",
         "name": "Status",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "snt-status",
+        "coingecko_id": "status",
+        "nomics_id": "SNT",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -18901,9 +18897,9 @@
         "coin": "ANT-ERC20",
         "type": "ERC-20",
         "name": "Aragon",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "ant-aragon",
+        "coingecko_id": "aragon",
+        "nomics_id": "ANT",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -18926,9 +18922,9 @@
         "coin": "BEST-ERC20",
         "type": "ERC-20",
         "name": "Bitpanda Ecosystem",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "best-bitpanda-ecosystem-token",
+        "coingecko_id": "bitpanda-ecosystem-token",
+        "nomics_id": "BEST",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -18951,9 +18947,9 @@
         "coin": "CVT-ERC20",
         "type": "ERC-20",
         "name": "CyberVein",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "cvt-cybervein",
+        "coingecko_id": "cybervein",
+        "nomics_id": "CVT",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -18976,9 +18972,9 @@
         "coin": "DX-ERC20",
         "type": "ERC-20",
         "name": "DxChain",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "dx-dxchain-token",
+        "coingecko_id": "dxchain",
+        "nomics_id": "DX",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19001,9 +18997,9 @@
         "coin": "STORJ-ERC20",
         "type": "ERC-20",
         "name": "Storj",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "storj-storj",
+        "coingecko_id": "storj",
+        "nomics_id": "STORJ",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19026,9 +19022,9 @@
         "coin": "TRAC-ERC20",
         "type": "ERC-20",
         "name": "OriginTrail",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "trac-origintrail",
+        "coingecko_id": "origintrail",
+        "nomics_id": "TRAC",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19071,9 +19067,9 @@
         "coin": "PNK-ERC20",
         "type": "ERC-20",
         "name": "Kleros",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "pnk-kleros",
+        "coingecko_id": "kleros",
+        "nomics_id": "PNK",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19096,9 +19092,9 @@
         "coin": "SKL-ERC20",
         "type": "ERC-20",
         "name": "SKALE",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "skl-skale",
+        "coingecko_id": "skale",
+        "nomics_id": "SKL",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19121,9 +19117,9 @@
         "coin": "CVC-ERC20",
         "type": "ERC-20",
         "name": "Civic",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "cvc-civic",
+        "coingecko_id": "civic",
+        "nomics_id": "CVC",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19146,9 +19142,9 @@
         "coin": "UTK-ERC20",
         "type": "ERC-20",
         "name": "Utrust",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "utk-utrust",
+        "coingecko_id": "utrust",
+        "nomics_id": "UTK",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19171,9 +19167,9 @@
         "coin": "MLN-ERC20",
         "type": "ERC-20",
         "name": "Enzyme",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "mln-melon",
+        "coingecko_id": "melon",
+        "nomics_id": "MLN",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19196,9 +19192,9 @@
         "coin": "XOR-ERC20",
         "type": "ERC-20",
         "name": "Sora",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "xor-sora",
+        "coingecko_id": "sora",
+        "nomics_id": "XOR",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19221,9 +19217,9 @@
         "coin": "UQC-ERC20",
         "type": "ERC-20",
         "name": "Uquid Coin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "uqc-uquid-coin",
+        "coingecko_id": "uquid-coin",
+        "nomics_id": "UQC",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19246,9 +19242,9 @@
         "coin": "UOS-ERC20",
         "type": "ERC-20",
         "name": "Ultra",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "uos-ultra",
+        "coingecko_id": "ultra",
+        "nomics_id": "UOS",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19271,9 +19267,9 @@
         "coin": "SHR-ERC20",
         "type": "ERC-20",
         "name": "Share",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "shr-sharetoken",
+        "coingecko_id": "sharering",
+        "nomics_id": "SHR",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19296,9 +19292,9 @@
         "coin": "SHR-BEP20",
         "type": "BEP-20",
         "name": "Share",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "shr-sharetoken",
+        "coingecko_id": "sharering",
+        "nomics_id": "SHR",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -19321,9 +19317,9 @@
         "coin": "S4F-ERC20",
         "type": "ERC-20",
         "name": "S4FE",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "s4f-s4fe",
+        "coingecko_id": "s4fe",
+        "nomics_id": "S4F",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19346,9 +19342,9 @@
         "coin": "S4F-BEP20",
         "type": "BEP-20",
         "name": "S4FE",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
+        "coinpaprika_id": "s4f-s4fe",
+        "coingecko_id": "s4fe",
+        "nomics_id": "S4F",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
