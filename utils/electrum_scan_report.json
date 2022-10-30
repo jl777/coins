@@ -782,23 +782,23 @@
     },
     "CHTA": {
         "electrums_total_all": 3,
-        "electrums_working_all": 1,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "electrum2.mooo.com:10007": [
+            "electrum.shorelinecrypto.com:10007": [
                 true,
                 "Passed"
             ],
-            "electrum.shorelinecrypto.com:10007": [
-                false,
-                "[Errno 111] Connection refused"
-            ],
             "electrum1.mooo.com:10007": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
+            ],
+            "electrum2.mooo.com:10007": [
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -2406,9 +2406,9 @@
     },
     "NENG": {
         "electrums_total_all": 3,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -2421,8 +2421,8 @@
                 "Passed"
             ],
             "electrum2.mooo.com:10001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -3281,19 +3281,19 @@
     },
     "THC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "1.eu.thc.electrum.dexstats.info:10020": [
-                true,
-                "Passed"
-            ],
             "2.eu.thc.electrum.dexstats.info:10020": [
                 true,
                 "Passed"
+            ],
+            "1.eu.thc.electrum.dexstats.info:10020": [
+                false,
+                "timed out"
             ]
         },
         "ssl": {},
