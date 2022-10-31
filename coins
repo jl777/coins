@@ -4716,6 +4716,23 @@
     }
   },
   {
+    "coin": "JDB-BEP20",
+    "name": "jdb_bep20",
+    "fname": "Jeet Detector Bot",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x7874CAFf04AFB8B6f5cbBE3ebec3f83Fcd882272"
+      }
+    }
+  },
+  {
     "coin": "JCHF-ERC20",
     "name": "jchf_erc20",
     "fname": "Jarvis Swiss Franc",
@@ -5434,6 +5451,24 @@
       "protocol_data": {
         "platform": "MATIC",
         "contract_address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
+      }
+    }
+  },
+  {
+    "coin": "LOOP-BEP20",
+    "name": "loop_bep20",
+    "fname": "LoopNetwork",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xcE186ad6430E2Fe494a22C9eDbD4c68794a28B35"
       }
     }
   },
