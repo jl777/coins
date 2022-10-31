@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
@@ -16,13 +16,13 @@
                 true,
                 "Passed"
             ],
-            "electrumx-four.artbyte.live:50012": [
-                true,
-                "Passed"
-            ],
             "electrumx-three.artbyte.live:50012": [
                 true,
                 "Passed"
+            ],
+            "electrumx-four.artbyte.live:50012": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2047,7 +2047,7 @@
             ],
             "electrum.deliverypath.com:50002": [
                 false,
-                "[Errno -2] Name or service not known"
+                "[Errno -5] No address associated with hostname"
             ],
             "electrum.dirtdivas.net:50002": [
                 false,
@@ -2615,16 +2615,16 @@
     },
     "PND": {
         "electrums_total_all": 1,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {},
         "ssl": {
             "electrum.thepandacoin.net:50002": [
-                true,
-                "Passed"
+                false,
+                "HTTP/1.1 400 Bad Request\r\nContent-Type: text/plain; charset=utf-8\r\nConnection: close\r\n\r\n400 Bad Reques"
             ]
         },
         "ws": {}

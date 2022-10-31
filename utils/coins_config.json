@@ -432,12 +432,6 @@
                 "ws_url": "elec-seeder-two.artbytecoin.org:50013"
             },
             {
-                "url": "electrumx-four.artbyte.live:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "electrumx-four.artbyte.live:50013"
-            },
-            {
                 "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -11594,33 +11588,6 @@
         ],
         "forex_id": "USD"
     },
-    "PND": {
-        "coin": "PND",
-        "type": "UTXO",
-        "name": "Pandacoin",
-        "coinpaprika_id": "pnd-pandacoin",
-        "coingecko_id": "pandacoin",
-        "nomics_id": "PND",
-        "explorer_url": "https://chainz.cryptoid.info/pnd/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrum.thepandacoin.net:50002",
-                "protocol": "SSL"
-            }
-        ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
-    },
     "POWR-ERC20": {
         "coin": "POWR-ERC20",
         "type": "ERC-20",
@@ -20065,5 +20032,68 @@
             "http://bsc3.cipig.net:8655"
         ],
         "token_address_url": "tokentxns?a="
+    },
+    "ATOM": {
+        "coin": "ATOM",
+        "type": "TENDERMINT",
+        "name": "Cosmos",
+        "coinpaprika_id": "atom-cosmos",
+        "coingecko_id": "cosmos-hub",
+        "nomics_id": "",
+        "explorer_url": "https://www.mintscan.io/cosmos/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "swap_contract_address": "",
+        "nodes": [
+            "https://atom.komodo.live/",
+            "https://cosmos-mainnet-rpc.allthatnode.com:26657/"
+        ]
+    },
+    "IRIS": {
+        "coin": "IRIS",
+        "type": "TENDERMINTTOKEN",
+        "name": "Iris",
+        "coinpaprika_id": "iris-irisnet",
+        "coingecko_id": "irisnet",
+        "nomics_id": "",
+        "explorer_url": "https://irishub.iobscan.io/#",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "swap_contract_address": "",
+        "nodes": [
+            "https://iris.komodo.live/",
+            "https://rpc.irishub-1.irisnet.org"
+        ]
+    },
+    "ATOM-IBC_IRIS": {
+        "coin": "ATOM-IBC_IRIS",
+        "type": "TENDERMINTTOKEN",
+        "name": "Cosmos IBC-IRIS",
+        "coinpaprika_id": "atom-cosmos",
+        "coingecko_id": "cosmos-hub",
+        "nomics_id": "",
+        "explorer_url": "https://irishub.iobscan.io/#",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "swap_contract_address": "",
+        "nodes": [
+            "https://iris.komodo.live/",
+            "https://rpc.irishub-1.irisnet.org"
+        ]
     }
 }
