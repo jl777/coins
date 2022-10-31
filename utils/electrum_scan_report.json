@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
@@ -16,13 +16,13 @@
                 true,
                 "Passed"
             ],
-            "electrumx-four.artbyte.live:50012": [
-                true,
-                "Passed"
-            ],
             "electrumx-three.artbyte.live:50012": [
                 true,
                 "Passed"
+            ],
+            "electrumx-four.artbyte.live:50012": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2406,9 +2406,9 @@
     },
     "NENG": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -2421,8 +2421,8 @@
                 "Passed"
             ],
             "electrum2.mooo.com:10001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -3281,19 +3281,19 @@
     },
     "THC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "2.eu.thc.electrum.dexstats.info:10020": [
+            "1.eu.thc.electrum.dexstats.info:10020": [
                 true,
                 "Passed"
             ],
-            "1.eu.thc.electrum.dexstats.info:10020": [
-                false,
-                "timed out"
+            "2.eu.thc.electrum.dexstats.info:10020": [
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -3377,15 +3377,15 @@
     },
     "UIS": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
         "electrums_working_ssl": 1,
         "tcp": {
             "electrumx.uis.ewmcx.info:50001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
