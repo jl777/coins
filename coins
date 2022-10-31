@@ -807,6 +807,24 @@
     }
   },
   {
+    "coin": "AVN-PLG20",
+    "name": "avn_plg20",
+    "fname": "Avian",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x752DC265EAf6Da2Db0F8e4a32D5596D3f18e8701"
+      }
+    }
+  },
+  {
     "coin": "AWC",
     "name": "atomic-wallet-coin",
     "fname": "Atomic Wallet Coin",
@@ -7784,6 +7802,24 @@
     }
   },
   {
+    "coin": "RTM-BEP20",
+    "name": "rtm_bep20",
+    "fname": "Raptoreum",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 8,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xF7C71cab11E3694638Bb9A106E0F430565BD15F1"
+      }
+    }
+  },
+  {
     "coin": "RVN",
     "name": "raven",
     "fname": "RavenCoin",
@@ -10317,6 +10353,24 @@
     "avg_blocktime": 2,
     "protocol": {
       "type": "UTXO"
+    }
+  },
+  {
+    "coin": "ZER-BEP20",
+    "name": "zer_bep20",
+    "fname": "Zero",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x530e9346870E632A63E8d461bb3c3622e00782DE"
+      }
     }
   },
   {
