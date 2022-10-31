@@ -1468,6 +1468,40 @@
             }
         ]
     },
+    "AVN-PLG20": {
+        "coin": "AVN-PLG20",
+        "type": "Matic",
+        "name": "Avian",
+        "coinpaprika_id": "avn-avian",
+        "coingecko_id": "avian-network",
+        "nomics_id": "AVN3",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x752DC265EAf6Da2Db0F8e4a32D5596D3f18e8701",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            },
+            {
+                "url": "https://rpc-mainnet.maticvigil.com",
+                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
+            }
+        ]
+    },
     "AWC": {
         "coin": "AWC",
         "type": "ERC-20",
@@ -9748,6 +9782,40 @@
             }
         ]
     },
+    "JDB-BEP20": {
+        "coin": "JDB-BEP20",
+        "type": "BEP-20",
+        "name": "Jeet Detector Bot",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "JDB2",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x7874CAFf04AFB8B6f5cbBE3ebec3f83Fcd882272",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            }
+        ],
+        "token_address_url": "tokentxns?a="
+    },
     "JCHF-ERC20": {
         "coin": "JCHF-ERC20",
         "type": "ERC-20",
@@ -11263,6 +11331,40 @@
             }
         ]
     },
+    "LOOP-BEP20": {
+        "coin": "LOOP-BEP20",
+        "type": "BEP-20",
+        "name": "LoopNetwork",
+        "coinpaprika_id": "loop-loopnetwork",
+        "coingecko_id": "loopnetwork",
+        "nomics_id": "LOOP2",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xcE186ad6430E2Fe494a22C9eDbD4c68794a28B35",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            }
+        ],
+        "token_address_url": "tokentxns?a="
+    },
     "LRC-ERC20": {
         "coin": "LRC-ERC20",
         "type": "ERC-20",
@@ -12725,9 +12827,6 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
-            },
-            {
-                "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
         "is_segwit_on": false,
@@ -14328,6 +14427,33 @@
             }
         ],
         "forex_id": "USD"
+    },
+    "PND": {
+        "coin": "PND",
+        "type": "UTXO",
+        "name": "Pandacoin",
+        "coinpaprika_id": "pnd-pandacoin",
+        "coingecko_id": "pandacoin",
+        "nomics_id": "PND",
+        "explorer_url": "https://chainz.cryptoid.info/pnd/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum.thepandacoin.net:50002",
+                "protocol": "SSL"
+            }
+        ],
+        "is_segwit_on": false,
+        "address_format": {
+            "format": "standard"
+        }
     },
     "POWR-ERC20": {
         "coin": "POWR-ERC20",
@@ -15947,6 +16073,40 @@
                 "url": "209.50.52.239:50001"
             }
         ]
+    },
+    "RTM-BEP20": {
+        "coin": "RTM-BEP20",
+        "type": "BEP-20",
+        "name": "Raptoreum",
+        "coinpaprika_id": "rtm-raptoreum",
+        "coingecko_id": "raptoreum",
+        "nomics_id": "RTM",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xF7C71cab11E3694638Bb9A106E0F430565BD15F1",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            }
+        ],
+        "token_address_url": "tokentxns?a="
     },
     "RVN": {
         "coin": "RVN",
@@ -20969,6 +21129,40 @@
                 ]
             }
         ]
+    },
+    "ZER-BEP20": {
+        "coin": "ZER-BEP20",
+        "type": "BEP-20",
+        "name": "Zero",
+        "coinpaprika_id": "zer-zero",
+        "coingecko_id": "zero",
+        "nomics_id": "ZER",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x530e9346870E632A63E8d461bb3c3622e00782DE",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            }
+        ],
+        "token_address_url": "tokentxns?a="
     },
     "ZET": {
         "coin": "ZET",
