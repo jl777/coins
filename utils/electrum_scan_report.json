@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 4,
+        "electrums_working_ssl": 3,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
@@ -16,13 +16,13 @@
                 true,
                 "Passed"
             ],
-            "electrumx-four.artbyte.live:50012": [
-                true,
-                "Passed"
-            ],
             "electrumx-three.artbyte.live:50012": [
                 true,
                 "Passed"
+            ],
+            "electrumx-four.artbyte.live:50012": [
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2047,7 +2047,7 @@
             ],
             "electrum.deliverypath.com:50002": [
                 false,
-                "[Errno -5] No address associated with hostname"
+                "[Errno -2] Name or service not known"
             ],
             "electrum.dirtdivas.net:50002": [
                 false,
@@ -2233,9 +2233,9 @@
     },
     "MONA": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -2248,8 +2248,8 @@
                 "Passed"
             ],
             "electrumx1.monacoin.ninja:50001": [
-                false,
-                "[Errno 101] Network is unreachable"
+                true,
+                "Passed"
             ],
             "electrumx3.monacoin.nl:50001": [
                 false,
@@ -2406,9 +2406,9 @@
     },
     "NENG": {
         "electrums_total_all": 3,
-        "electrums_working_all": 2,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 3,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -2421,8 +2421,8 @@
                 "Passed"
             ],
             "electrum2.mooo.com:10001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -2483,23 +2483,23 @@
             ],
             "electrumx1.nmc.bitclc.net:50001": [
                 false,
-                "[Errno 101] Network is unreachable"
+                "timed out"
             ],
             "electrumx2.nmc.bitclc.net:50001": [
                 false,
-                "[Errno 101] Network is unreachable"
+                "timed out"
             ],
             "electrumx3.nmc.bitclc.net:50001": [
                 false,
-                "[Errno 101] Network is unreachable"
+                "timed out"
             ],
             "electrumx4.nmc.bitclc.net:50001": [
                 false,
-                "[Errno 101] Network is unreachable"
+                "timed out"
             ],
             "nmc.bitcoins.sk:50001": [
                 false,
-                "timed out"
+                "[Errno 113] No route to host"
             ]
         },
         "ssl": {
@@ -2509,7 +2509,7 @@
             ],
             "nmc.bitcoins.sk:50002": [
                 false,
-                "timed out"
+                "[Errno 113] No route to host"
             ]
         },
         "ws": {}
@@ -2615,16 +2615,16 @@
     },
     "PND": {
         "electrums_total_all": 1,
-        "electrums_working_all": 1,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {},
         "ssl": {
             "electrum.thepandacoin.net:50002": [
-                true,
-                "Passed"
+                false,
+                "EOF occurred in violation of protocol (_ssl.c:1131)"
             ]
         },
         "ws": {}
@@ -3061,7 +3061,7 @@
             ],
             "electrum3.smartcash.cc:50001": [
                 false,
-                "timed out"
+                "[Errno 113] No route to host"
             ],
             "electrum4.smartcash.cc:50001": [
                 false,
@@ -3281,19 +3281,19 @@
     },
     "THC": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
-            "2.eu.thc.electrum.dexstats.info:10020": [
+            "1.eu.thc.electrum.dexstats.info:10020": [
                 true,
                 "Passed"
             ],
-            "1.eu.thc.electrum.dexstats.info:10020": [
-                false,
-                "timed out"
+            "2.eu.thc.electrum.dexstats.info:10020": [
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
@@ -3377,15 +3377,15 @@
     },
     "UIS": {
         "electrums_total_all": 2,
-        "electrums_working_all": 1,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 1,
-        "electrums_working_tcp": 0,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 1,
         "electrums_working_ssl": 1,
         "tcp": {
             "electrumx.uis.ewmcx.info:50001": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
