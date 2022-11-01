@@ -357,36 +357,6 @@
     }
   },
   {
-    "coin": "ADEXBSCT",
-    "name": "adex_bsc_testnet",
-    "is_testnet": true,
-    "fname": "ADEX BSC Testnet",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 97,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNBT",
-        "contract_address": "0x464Ee03fBfC10f2FC8677Ee87d27bA3FD3aa4B09"
-      }
-    }
-  },
-  {
-    "coin": "ADEXBSC",
-    "name": "adex_bsc",
-    "fname": "ADEX BSC",
-    "rpcport": 80,
-    "mm2": 1,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x28E0685cc4C57a1CCF27090678A34Ebd6a641AC3"
-      }
-    }
-  },
-  {
     "coin": "ADX-BEP20",
     "name": "adx_bep20",
     "fname": "AdEx",
