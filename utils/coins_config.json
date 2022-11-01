@@ -1486,10 +1486,20 @@
         "contract_address": "0x752DC265EAf6Da2Db0F8e4a32D5596D3f18e8701",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            "https://node.komodo.live:8080/polygon",
-            "https://polygon-rpc.com",
-            "https://poly-rpc.gateway.pokt.network",
-            "https://rpc-mainnet.maticvigil.com"
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            },
+            {
+                "url": "https://rpc-mainnet.maticvigil.com",
+                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
+            }
         ]
     },
     "AWC": {
@@ -9790,10 +9800,19 @@
         "contract_address": "0x7874CAFf04AFB8B6f5cbBE3ebec3f83Fcd882272",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
-            "https://node.komodo.live:8080/binance",
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            }
         ],
         "token_address_url": "tokentxns?a="
     },
@@ -11330,10 +11349,19 @@
         "contract_address": "0xcE186ad6430E2Fe494a22C9eDbD4c68794a28B35",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
-            "https://node.komodo.live:8080/binance",
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            }
         ],
         "token_address_url": "tokentxns?a="
     },
@@ -12799,9 +12827,6 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
-            },
-            {
-                "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
         "is_segwit_on": false,
@@ -14402,6 +14427,33 @@
             }
         ],
         "forex_id": "USD"
+    },
+    "PND": {
+        "coin": "PND",
+        "type": "UTXO",
+        "name": "Pandacoin",
+        "coinpaprika_id": "pnd-pandacoin",
+        "coingecko_id": "pandacoin",
+        "nomics_id": "PND",
+        "explorer_url": "https://chainz.cryptoid.info/pnd/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum.thepandacoin.net:50002",
+                "protocol": "SSL"
+            }
+        ],
+        "is_segwit_on": false,
+        "address_format": {
+            "format": "standard"
+        }
     },
     "POWR-ERC20": {
         "coin": "POWR-ERC20",
@@ -16040,10 +16092,19 @@
         "contract_address": "0xF7C71cab11E3694638Bb9A106E0F430565BD15F1",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
-            "https://node.komodo.live:8080/binance",
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            }
         ],
         "token_address_url": "tokentxns?a="
     },
@@ -21087,10 +21148,19 @@
         "contract_address": "0x530e9346870E632A63E8d461bb3c3622e00782DE",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
-            "https://node.komodo.live:8080/binance",
-            "http://bsc1.cipig.net:8655",
-            "http://bsc2.cipig.net:8655",
-            "http://bsc3.cipig.net:8655"
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            }
         ],
         "token_address_url": "tokentxns?a="
     },

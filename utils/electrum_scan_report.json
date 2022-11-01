@@ -2047,7 +2047,7 @@
             ],
             "electrum.deliverypath.com:50002": [
                 false,
-                "[Errno -2] Name or service not known"
+                "[Errno -5] No address associated with hostname"
             ],
             "electrum.dirtdivas.net:50002": [
                 false,
@@ -2233,9 +2233,9 @@
     },
     "MONA": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 4,
-        "electrums_working_tcp": 3,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -2248,8 +2248,8 @@
                 "Passed"
             ],
             "electrumx1.monacoin.ninja:50001": [
-                true,
-                "Passed"
+                false,
+                "[Errno 101] Network is unreachable"
             ],
             "electrumx3.monacoin.nl:50001": [
                 false,
@@ -2483,23 +2483,23 @@
             ],
             "electrumx1.nmc.bitclc.net:50001": [
                 false,
-                "timed out"
+                "[Errno 101] Network is unreachable"
             ],
             "electrumx2.nmc.bitclc.net:50001": [
                 false,
-                "timed out"
+                "[Errno 101] Network is unreachable"
             ],
             "electrumx3.nmc.bitclc.net:50001": [
                 false,
-                "timed out"
+                "[Errno 101] Network is unreachable"
             ],
             "electrumx4.nmc.bitclc.net:50001": [
                 false,
-                "timed out"
+                "[Errno 101] Network is unreachable"
             ],
             "nmc.bitcoins.sk:50001": [
                 false,
-                "[Errno 113] No route to host"
+                "timed out"
             ]
         },
         "ssl": {
@@ -2509,7 +2509,7 @@
             ],
             "nmc.bitcoins.sk:50002": [
                 false,
-                "[Errno 113] No route to host"
+                "timed out"
             ]
         },
         "ws": {}
@@ -2615,16 +2615,16 @@
     },
     "PND": {
         "electrums_total_all": 1,
-        "electrums_working_all": 0,
+        "electrums_working_all": 1,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 1,
-        "electrums_working_ssl": 0,
+        "electrums_working_ssl": 1,
         "tcp": {},
         "ssl": {
             "electrum.thepandacoin.net:50002": [
-                false,
-                "EOF occurred in violation of protocol (_ssl.c:1131)"
+                true,
+                "Passed"
             ]
         },
         "ws": {}
@@ -3061,7 +3061,7 @@
             ],
             "electrum3.smartcash.cc:50001": [
                 false,
-                "[Errno 113] No route to host"
+                "timed out"
             ],
             "electrum4.smartcash.cc:50001": [
                 false,
