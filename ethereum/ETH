@@ -3,7 +3,8 @@
     "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
     "rpc_nodes": [
         {
-            "url": "https://node.komodo.live:8080/ethereum"
+            "url": "https://node.komodo.live:8080/ethereum",
+            "gui_auth": true
         },
         {
             "url": "http://eth1.cipig.net:8555",
