@@ -7882,6 +7882,24 @@
     }
   },
   {
+    "coin": "SCRT-BEP20",
+    "name": "scrt_bep20",
+    "fname": "Secret",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x02dd18E4981DA3fC7363fE56f3B81D1860b44ea7"
+      }
+    }
+  },
+  {
     "coin": "SIRX",
     "name": "sirius",
     "fname": "Sirius",
