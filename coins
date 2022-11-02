@@ -8602,6 +8602,42 @@
     }
   },
   {
+    "coin": "TON-ERC20",
+    "name": "ton_erc20",
+    "fname": "Toncoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 9,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1"
+      }
+    }
+  },
+  {
+    "coin": "TON-BEP20",
+    "name": "ton_bep20",
+    "fname": "Toncoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 9,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x76A797A59Ba2C17726896976B7B3747BfD1d220f"
+      }
+    }
+  },
+  {
     "coin": "TRC",
     "name": "terracoin",
     "fname": "Terracoin",
