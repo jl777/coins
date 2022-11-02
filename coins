@@ -357,36 +357,6 @@
     }
   },
   {
-    "coin": "ADEXBSCT",
-    "name": "adex_bsc_testnet",
-    "is_testnet": true,
-    "fname": "ADEX BSC Testnet",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 97,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNBT",
-        "contract_address": "0x464Ee03fBfC10f2FC8677Ee87d27bA3FD3aa4B09"
-      }
-    }
-  },
-  {
-    "coin": "ADEXBSC",
-    "name": "adex_bsc",
-    "fname": "ADEX BSC",
-    "rpcport": 80,
-    "mm2": 1,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x28E0685cc4C57a1CCF27090678A34Ebd6a641AC3"
-      }
-    }
-  },
-  {
     "coin": "ADX-BEP20",
     "name": "adx_bep20",
     "fname": "AdEx",
@@ -1217,21 +1187,6 @@
     "mm2": 1
   },
   {
-    "coin": "HONK",
-    "fname": "Honk Honk",
-    "protocol": {
-      "type": "SLPTOKEN",
-      "protocol_data": {
-        "decimals": 0,
-        "token_id": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
-        "platform": "BCH",
-        "required_confirmations": 1,
-        "slp_prefix": "simpleledger"
-      }
-    },
-    "mm2": 1
-  },
-  {
     "coin": "ASLP",
     "fname": "AtomicSLP",
     "protocol": {
@@ -1425,7 +1380,7 @@
     "name": "rsksmartbitcoin",
     "fname": "RSK Smart Bitcoin",
     "wallet_only": true,
-    "avg_blocktime": 0.10,
+    "avg_blocktime": 0.1,
     "rpcport": 80,
     "mm2": 1,
     "alias_ticker": "BTC",
@@ -4227,7 +4182,7 @@
     "wiftype": 128,
     "txfee": 0,
     "segwit": true,
-    "bech32_hrp": "bc",
+    "bech32_hrp": "grs",
     "mm2": 1,
     "required_confirmations": 5,
     "avg_blocktime": 1,
@@ -4245,7 +4200,7 @@
     "wiftype": 128,
     "txfee": 0,
     "segwit": true,
-    "bech32_hrp": "bc",
+    "bech32_hrp": "grs",
     "address_format": {
       "format": "segwit"
     },
@@ -10559,31 +10514,6 @@
     }
   },
   {
-    "coin": "FENIX",
-    "gui_coin": "FENIX",
-    "name": "qtum",
-    "fname": "fenix.cash",
-    "rpcport": 3889,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
-    "txfee": 0,
-    "dust": 72800,
-    "protocol": {
-      "type": "QRC20",
-      "protocol_data": {
-        "platform": "QTUM",
-        "contract_address": "0x5a4b7889cad562d6c099bf877c8f5e3d66d579f8"
-      }
-    },
-    "pubtype": 58,
-    "p2shtype": 50,
-    "wiftype": 128,
-    "segwit": false,
-    "decimals": 18
-  },
-  {
     "coin": "SPC",
     "gui_coin": "SPC",
     "name": "qtum",
@@ -10609,31 +10539,6 @@
     "decimals": 8
   },
   {
-    "coin": "BOT",
-    "gui_coin": "BOT",
-    "name": "qtum",
-    "fname": "bodhi token",
-    "rpcport": 3889,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
-    "txfee": 0,
-    "dust": 72800,
-    "protocol": {
-      "type": "QRC20",
-      "protocol_data": {
-        "platform": "QTUM",
-        "contract_address": "0x6b8bf98ff497c064e8f0bde13e0c4f5ed5bf8ce7"
-      }
-    },
-    "pubtype": 58,
-    "p2shtype": 50,
-    "wiftype": 128,
-    "segwit": false,
-    "decimals": 8
-  },
-  {
     "coin": "HPY",
     "gui_coin": "HPY",
     "name": "qtum",
@@ -10650,31 +10555,6 @@
       "protocol_data": {
         "platform": "QTUM",
         "contract_address": "0xf2703e93f87b846a7aacec1247beaec1c583daa4"
-      }
-    },
-    "pubtype": 58,
-    "p2shtype": 50,
-    "wiftype": 128,
-    "segwit": false,
-    "decimals": 8
-  },
-  {
-    "coin": "AWR",
-    "gui_coin": "AWR",
-    "name": "qtum",
-    "fname": "aware token",
-    "rpcport": 3889,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
-    "txfee": 0,
-    "dust": 72800,
-    "protocol": {
-      "type": "QRC20",
-      "protocol_data": {
-        "platform": "QTUM",
-        "contract_address": "0x49665919e437a4bedb92faa45ed33ebb5a33ee63"
       }
     },
     "pubtype": 58,
@@ -10783,31 +10663,6 @@
     "decimals": 8
   },
   {
-    "coin": "PLY",
-    "gui_coin": "PLY",
-    "name": "qtum",
-    "fname": "PlayCoin",
-    "rpcport": 3889,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
-    "txfee": 0,
-    "dust": 72800,
-    "protocol": {
-      "type": "QRC20",
-      "protocol_data": {
-        "platform": "QTUM",
-        "contract_address": "0xb6c48b3a7c888713dd96eed92a4ee0397dd64e71"
-      }
-    },
-    "pubtype": 58,
-    "p2shtype": 50,
-    "wiftype": 128,
-    "segwit": false,
-    "decimals": 9
-  },
-  {
     "coin": "TSL",
     "gui_coin": "TSL",
     "name": "qtum",
@@ -10858,56 +10713,6 @@
     "decimals": 8
   },
   {
-    "coin": "ENT",
-    "gui_coin": "ENT",
-    "name": "qtum",
-    "fname": "entertainment cash",
-    "rpcport": 3889,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
-    "txfee": 0,
-    "dust": 72800,
-    "protocol": {
-      "type": "QRC20",
-      "protocol_data": {
-        "platform": "QTUM",
-        "contract_address": "0xfdb9d0873ba524ef3ea67c1719666968e1eeb110"
-      }
-    },
-    "pubtype": 58,
-    "p2shtype": 50,
-    "wiftype": 128,
-    "segwit": false,
-    "decimals": 8
-  },
-  {
-    "coin": "CFUN",
-    "gui_coin": "CFUN",
-    "name": "qtum",
-    "fname": "cfun token",
-    "rpcport": 3889,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
-    "txfee": 0,
-    "dust": 72800,
-    "protocol": {
-      "type": "QRC20",
-      "protocol_data": {
-        "platform": "QTUM",
-        "contract_address": "0x8b9500e2b789e002c1d0e744bd0ac7aa60dbffcc"
-      }
-    },
-    "pubtype": 58,
-    "p2shtype": 50,
-    "wiftype": 128,
-    "segwit": false,
-    "decimals": 9
-  },
-  {
     "coin": "PUT",
     "gui_coin": "PUT",
     "name": "qtum",
@@ -10933,10 +10738,10 @@
     "decimals": 8
   },
   {
-    "coin": "EPC",
-    "gui_coin": "EPC",
+    "coin": "ZAT",
+    "gui_coin": "ZAT",
     "name": "qtum",
-    "fname": "epc",
+    "fname": "zatgo token",
     "rpcport": 3889,
     "mm2": 1,
     "required_confirmations": 3,
@@ -10948,32 +10753,7 @@
       "type": "QRC20",
       "protocol_data": {
         "platform": "QTUM",
-        "contract_address": "0x2e1b8528c07539b5dd9a76f3374adf09f1ab6075"
-      }
-    },
-    "pubtype": 58,
-    "p2shtype": 50,
-    "wiftype": 128,
-    "segwit": false,
-    "decimals": 18
-  },
-  {
-    "coin": "WID",
-    "gui_coin": "WID",
-    "name": "qtum",
-    "fname": "winechain",
-    "rpcport": 3889,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
-    "txfee": 0,
-    "dust": 72800,
-    "protocol": {
-      "type": "QRC20",
-      "protocol_data": {
-        "platform": "QTUM",
-        "contract_address": "0x59e7e07a4c7035a9df3f118b95ce6d64eee6ea35"
+        "contract_address": "0xdd8ef078a5699ea3dac26b12cb5c5d8f0a2f6e4f"
       }
     },
     "pubtype": 58,

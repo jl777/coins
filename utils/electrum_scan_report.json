@@ -2660,29 +2660,29 @@
     },
     "PRUX": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 0,
         "tcp": {
             "electrumx.live:50010": [
-                true,
-                "Passed"
+                false,
+                "[Errno 61] Connection refused"
             ],
             "txserver.live:50001": [
                 false,
-                "timed out"
+                "[Errno 61] Connection refused"
             ]
         },
         "ssl": {
             "electrumx.live:50012": [
-                true,
-                "Passed"
+                false,
+                "[Errno 61] Connection refused"
             ],
             "txserver.live:50002": [
                 false,
-                "The read operation timed out"
+                "[Errno 61] Connection refused"
             ]
         },
         "ws": {}
