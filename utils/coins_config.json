@@ -12777,6 +12777,9 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
+            },
+            {
+                "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
         "is_segwit_on": false,
@@ -23957,10 +23960,10 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "swap_contract_address": "",
-        "nodes": [
+        "rpc_urls": [
             {
-                "url": "https://atom.komodo.live/"
+                "url": "https://atom.komodo.live/",
+                "gui_auth": true
             },
             {
                 "url": "https://cosmos-mainnet-rpc.allthatnode.com:26657/"
@@ -23982,10 +23985,10 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "swap_contract_address": "",
-        "nodes": [
+        "rpc_urls": [
             {
-                "url": "https://iris.komodo.live/"
+                "url": "https://iris.komodo.live/",
+                "gui_auth": true
             },
             {
                 "url": "https://rpc.irishub-1.irisnet.org"
@@ -24007,10 +24010,10 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "swap_contract_address": "",
-        "nodes": [
+        "rpc_urls": [
             {
-                "url": "https://iris.komodo.live/"
+                "url": "https://iris.komodo.live/",
+                "gui_auth": true
             },
             {
                 "url": "https://rpc.irishub-1.irisnet.org"

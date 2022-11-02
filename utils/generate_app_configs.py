@@ -349,9 +349,9 @@ class CoinConfig:
                     "fallback_swap_contract": contract_data["fallback_swap_contract"]
                 })
             if "rpc_nodes" in contract_data:
-                self.data[self.ticker].update({
-                    "nodes": contract_data["rpc_nodes"]
-                })
+                if self.data[self.ticker]["type"] in ["TENDERMINT", "TENDERMINTTOKEN"]: key = "rpc_urls"
+                else: key = "nodes"
+                self.data[self.ticker].update({key: contract_data["rpc_nodes"]})
 
     def get_explorers(self):
         explorers = []
@@ -403,16 +403,11 @@ def parse_coins_repo():
         if not coins_config[coin]["explorer_url"]:
             print(f"{coin} has no explorers!")
         if coins_config[coin]["type"] not in ["SLP"]:
-            if "nodes" in coins_config[coin]:
-                if not coins_config[coin]["nodes"]:
-                    nodata.append(coin)
-            if "electrum" in coins_config[coin]:
-                if not coins_config[coin]["electrum"]:
-                    nodata.append(coin)
-            if "light_wallet_d_servers" in coins_config[coin]:
-                if not coins_config[coin]["light_wallet_d_servers"]:
-                    nodata.append(coin)
-            if "nodes" not in coins_config[coin] and "electrum" not in coins_config[coin]:
+            for field in ["nodes", "electrum", "light_wallet_d_servers", "rpc_urls"]:
+                if field in coins_config[coin]:
+                    if not coins_config[coin][field]:
+                        nodata.append(coin)
+            if "nodes" not in coins_config[coin] and "electrum" not in coins_config[coin] and "rpc_urls" not in coins_config[coin]:
                 nodata.append(coin)
 
     print(f"The following coins are missing required data or failing connections for nodes/electrums {nodata}")
