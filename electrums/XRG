@@ -8,5 +8,15 @@
     "url": "blackie.c3-soft.com:52138",
     "protocol": "SSL",
     "disable_cert_verification": false
+  },
+  {
+    "url": "la.ask.systems:52138",
+    "protocol": "SSL",
+    "disable_cert_verification": true
+  },
+  {
+    "url": "xrg_ful.googol.cash:52138",
+    "protocol": "SSL",
+    "disable_cert_verification": true
   }
 ]
