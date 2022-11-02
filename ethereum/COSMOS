@@ -1,8 +1,8 @@
 {
-  "swap_contract_address": "",
   "rpc_nodes": [
     {
-      "url": "https://atom.komodo.live/"
+      "url": "https://atom.komodo.live/",
+      "gui_auth": true
     },
     {
       "url": "https://cosmos-mainnet-rpc.allthatnode.com:26657/"
