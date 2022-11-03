@@ -5902,6 +5902,42 @@
     }
   },
   {
+    "coin": "MC-ERC20",
+    "name": "mc_erc20",
+    "fname": "Merit Circle",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x949D48EcA67b17269629c7194F4b727d4Ef9E5d6"
+      }
+    }
+  },
+  {
+    "coin": "MC-BEP20",
+    "name": "mc_bep20",
+    "fname": "Merit Circle",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x949D48EcA67b17269629c7194F4b727d4Ef9E5d6"
+      }
+    }
+  },
+  {
     "coin": "MCL",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "MCL",
@@ -7846,6 +7882,24 @@
     }
   },
   {
+    "coin": "SCRT-BEP20",
+    "name": "scrt_bep20",
+    "fname": "Secret",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x02dd18E4981DA3fC7363fE56f3B81D1860b44ea7"
+      }
+    }
+  },
+  {
     "coin": "SIRX",
     "name": "sirius",
     "fname": "Sirius",
@@ -8599,6 +8653,42 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
+    }
+  },
+  {
+    "coin": "TON-ERC20",
+    "name": "ton_erc20",
+    "fname": "Toncoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 9,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1"
+      }
+    }
+  },
+  {
+    "coin": "TON-BEP20",
+    "name": "ton_bep20",
+    "fname": "Toncoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 9,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x76A797A59Ba2C17726896976B7B3747BfD1d220f"
+      }
     }
   },
   {
