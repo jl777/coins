@@ -1644,19 +1644,19 @@
     },
     "ILN": {
         "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_working_all": 0,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 0,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
             "electrum1.ilien.io:65011": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ],
             "electrum2.ilien.io:65011": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {},
@@ -3745,12 +3745,12 @@
         "ws": {}
     },
     "XRG": {
-        "electrums_total_all": 2,
-        "electrums_working_all": 2,
+        "electrums_total_all": 4,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
-        "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_total_ssl": 4,
+        "electrums_working_ssl": 4,
         "tcp": {},
         "ssl": {
             "blackie.c3-soft.com:52138": [
@@ -3758,6 +3758,14 @@
                 "Passed"
             ],
             "fulcrum.ergon.network:52138": [
+                true,
+                "Passed"
+            ],
+            "la.ask.systems:52138": [
+                true,
+                "Passed"
+            ],
+            "xrg_ful.googol.cash:52138": [
                 true,
                 "Passed"
             ]
