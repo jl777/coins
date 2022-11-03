@@ -3301,19 +3301,19 @@
     },
     "TKL": {
         "electrums_total_all": 4,
-        "electrums_working_all": 4,
+        "electrums_working_all": 2,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_working_tcp": 1,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 2,
+        "electrums_working_ssl": 1,
         "tcp": {
             "1.eu.tokel.electrum.dexstats.info:10077": [
                 true,
                 "Passed"
             ],
             "2.eu.tokel.electrum.dexstats.info:10077": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ssl": {
@@ -3322,8 +3322,8 @@
                 "Passed"
             ],
             "2.eu.tokel.electrum.dexstats.info:11077": [
-                true,
-                "Passed"
+                false,
+                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
