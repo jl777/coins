@@ -12036,6 +12036,83 @@
             }
         ]
     },
+    "MC-ERC20": {
+        "coin": "MC-ERC20",
+        "type": "ERC-20",
+        "name": "Merit Circle",
+        "coinpaprika_id": "mc-merit-circle",
+        "coingecko_id": "merit-circle",
+        "nomics_id": "MC5",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x949D48EcA67b17269629c7194F4b727d4Ef9E5d6",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ]
+    },
+    "MC-BEP20": {
+        "coin": "MC-BEP20",
+        "type": "BEP-20",
+        "name": "Merit Circle",
+        "coinpaprika_id": "mc-merit-circle",
+        "coingecko_id": "merit-circle",
+        "nomics_id": "MC5",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x949D48EcA67b17269629c7194F4b727d4Ef9E5d6",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            }
+        ],
+        "token_address_url": "tokentxns?a="
+    },
     "MCL": {
         "coin": "MCL",
         "type": "Smart Chain",
@@ -16232,6 +16309,40 @@
             }
         ]
     },
+    "SCRT-BEP20": {
+        "coin": "SCRT-BEP20",
+        "type": "BEP-20",
+        "name": "Secret",
+        "coinpaprika_id": "scrt-secret",
+        "coingecko_id": "secret",
+        "nomics_id": "SCRT",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x02dd18E4981DA3fC7363fE56f3B81D1860b44ea7",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            }
+        ],
+        "token_address_url": "tokentxns?a="
+    },
     "SMTF-OLD": {
         "coin": "SMTF-OLD",
         "type": "BEP-20",
@@ -17871,31 +17982,7 @@
                 "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
             },
             {
-                "url": "2.eu.tokel.electrum.dexstats.info:10077",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ],
-                "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
-            },
-            {
                 "url": "1.eu.tokel.electrum.dexstats.info:11077",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ]
-            },
-            {
-                "url": "2.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -17908,6 +17995,83 @@
             }
         ],
         "asset": "TOKEL"
+    },
+    "TON-ERC20": {
+        "coin": "TON-ERC20",
+        "type": "ERC-20",
+        "name": "Toncoin",
+        "coinpaprika_id": "toncoin-the-open-network",
+        "coingecko_id": "the-open-network",
+        "nomics_id": "TONCOIN",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ]
+    },
+    "TON-BEP20": {
+        "coin": "TON-BEP20",
+        "type": "BEP-20",
+        "name": "Toncoin",
+        "coinpaprika_id": "toncoin-the-open-network",
+        "coingecko_id": "the-open-network",
+        "nomics_id": "TONCOIN",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x76A797A59Ba2C17726896976B7B3747BfD1d220f",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            }
+        ],
+        "token_address_url": "tokentxns?a="
     },
     "TRC": {
         "coin": "TRC",
