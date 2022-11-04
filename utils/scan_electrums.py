@@ -190,8 +190,26 @@ def get_repo_electrums():
     return repo_electrums
 
 
-def get_electrums_report():
+def get_existing_report():
+    if os.path.exists("electrum_scan_report.json"):
+        with open("electrum_scan_report.json", "r") as f:
+            return json.load(f)
+    return {}
 
+
+def get_last_connection(report, coin, protocol, server):
+    try:
+        return report[coin][protocol][server]["last_connection"]
+    except KeyError:
+        return 0
+    except TypeError:
+        return 0
+
+
+
+def get_electrums_report():
+    current_time = int(time.time())
+    existing_report = get_existing_report()
     electrum_dict = get_repo_electrums()
     electrum_coins_ssl, electrum_coins = scan_electrums(electrum_dict)
 
@@ -242,37 +260,67 @@ def get_electrums_report():
             x = list(passed_electrums[coin])
             x.sort()
             for i in x:
-                results[coin]["tcp"].update({i: [True, "Passed"]})
+                results[coin]["tcp"].update({
+                    i: {
+                        "last_connection": current_time,
+                        "result": "Passed"
+                    }
+                })
 
         if coin in failed_electrums:
             x = list(failed_electrums[coin].keys())
             x.sort()
             for i in x:
-                results[coin]["tcp"].update({i: [False, failed_electrums[coin][i]]})
+                results[coin]["tcp"].update({
+                    i: {
+                        "last_connection": get_last_connection(existing_report, coin, "tcp", i),
+                        "result": failed_electrums[coin][i]
+                    }
+                })
 
         if coin in passed_electrums_ssl:
             x = list(passed_electrums_ssl[coin])
             x.sort()
             for i in x:
-                results[coin]["ssl"].update({i: [True, "Passed"]})
+                results[coin]["ssl"].update({
+                    i: {
+                        "last_connection": current_time,
+                        "result": "Passed"
+                    }
+                })
 
         if coin in failed_electrums_ssl:
             x = list(failed_electrums_ssl[coin].keys())
             x.sort()
             for i in x:
-                results[coin]["ssl"].update({i: [False, failed_electrums_ssl[coin][i]]})
+                results[coin]["ssl"].update({
+                    i: {
+                        "last_connection": get_last_connection(existing_report, coin, "ssl", i),
+                        "result": failed_electrums_ssl[coin][i]
+                    }
+                })
 
         if coin in passed_ws:
             x = list(passed_ws[coin])
             x.sort()
             for i in x:
-                results[coin]["ws"].update({i: [True, "Passed"]})
+                results[coin]["ws"].update({
+                    i: {
+                        "last_connection": current_time,
+                        "result": "Passed"
+                    }
+                })
 
         if coin in failed_ws:
             x = list(failed_ws[coin].keys())
             x.sort()
             for i in x:
-                results[coin]["ws"].update({i: [False, failed_ws[coin][i]]})
+                results[coin]["ws"].update({
+                    i: {
+                        "last_connection": get_last_connection(existing_report, coin, "ws", i),
+                        "result": failed_ws[coin][i]
+                    }
+                })
 
     with open("electrum_scan_report.json", "w+") as f:
         f.write(json.dumps(results, indent=4))
