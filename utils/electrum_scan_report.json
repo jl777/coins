@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 4,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": [
@@ -16,13 +16,13 @@
                 true,
                 "Passed"
             ],
-            "electrumx-three.artbyte.live:50012": [
+            "electrumx-four.artbyte.live:50012": [
                 true,
                 "Passed"
             ],
-            "electrumx-four.artbyte.live:50012": [
-                false,
-                "[Errno 111] Connection refused"
+            "electrumx-three.artbyte.live:50012": [
+                true,
+                "Passed"
             ]
         },
         "ws": {
@@ -1545,6 +1545,10 @@
         },
         "ssl": {},
         "ws": {
+            "electrum10.groestlcoin.org:50004": [
+                true,
+                "Passed"
+            ],
             "electrum11.groestlcoin.org:50004": [
                 true,
                 "Passed"
@@ -2008,18 +2012,13 @@
         }
     },
     "LYNX": {
-        "electrums_total_all": 10,
+        "electrums_total_all": 5,
         "electrums_working_all": 5,
-        "electrums_total_tcp": 1,
+        "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
-        "electrums_total_ssl": 9,
+        "electrums_total_ssl": 5,
         "electrums_working_ssl": 5,
-        "tcp": {
-            "electrum.getlynx.io:50001": [
-                false,
-                "[Errno 111] Connection refused"
-            ]
-        },
+        "tcp": {},
         "ssl": {
             "electrum5.getlynx.io:50002": [
                 true,
@@ -2040,22 +2039,6 @@
             "electrum9.getlynx.io:50002": [
                 true,
                 "Passed"
-            ],
-            "electrum.atechhelp.com:50002": [
-                false,
-                "timed out"
-            ],
-            "electrum.deliverypath.com:50002": [
-                false,
-                "[Errno -5] No address associated with hostname"
-            ],
-            "electrum.dirtdivas.net:50002": [
-                false,
-                "[Errno -2] Name or service not known"
-            ],
-            "electrum.getlynx.club:50002": [
-                false,
-                "[Errno 111] Connection refused"
             ]
         },
         "ws": {
@@ -2466,12 +2449,12 @@
         "ws": {}
     },
     "NMC": {
-        "electrums_total_all": 9,
-        "electrums_working_all": 2,
-        "electrums_total_tcp": 7,
+        "electrums_total_all": 6,
+        "electrums_working_all": 3,
+        "electrums_total_tcp": 3,
         "electrums_working_tcp": 1,
-        "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "46.229.238.187:57001": [
                 true,
@@ -2481,28 +2464,16 @@
                 false,
                 "timed out"
             ],
-            "electrumx1.nmc.bitclc.net:50001": [
-                false,
-                "[Errno 101] Network is unreachable"
-            ],
-            "electrumx2.nmc.bitclc.net:50001": [
-                false,
-                "[Errno 101] Network is unreachable"
-            ],
-            "electrumx3.nmc.bitclc.net:50001": [
-                false,
-                "[Errno 101] Network is unreachable"
-            ],
-            "electrumx4.nmc.bitclc.net:50001": [
-                false,
-                "[Errno 101] Network is unreachable"
-            ],
             "nmc.bitcoins.sk:50001": [
                 false,
                 "timed out"
             ]
         },
         "ssl": {
+            "electrum.namebrow.se:50002": [
+                true,
+                "Passed"
+            ],
             "nmc2.bitcoins.sk:57002": [
                 true,
                 "Passed"
@@ -2512,7 +2483,12 @@
                 "timed out"
             ]
         },
-        "ws": {}
+        "ws": {
+            "electrum.namebrow.se:50004": [
+                true,
+                "Passed"
+            ]
+        }
     },
     "NVC": {
         "electrums_total_all": 2,
@@ -2838,10 +2814,10 @@
         }
     },
     "RTM": {
-        "electrums_total_all": 2,
-        "electrums_working_all": 2,
-        "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_total_all": 3,
+        "electrums_working_all": 3,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -2852,18 +2828,22 @@
             "209.50.52.239:50001": [
                 true,
                 "Passed"
+            ],
+            "209.50.61.246:50001": [
+                true,
+                "Passed"
             ]
         },
         "ssl": {},
         "ws": {}
     },
     "RUNES": {
-        "electrums_total_all": 8,
-        "electrums_working_all": 4,
+        "electrums_total_all": 7,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 4,
         "electrums_working_tcp": 2,
-        "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 1,
         "tcp": {
             "electrum1.runebase.io:50001": [
                 true,
@@ -2883,10 +2863,6 @@
             ]
         },
         "ssl": {
-            "electrum1.runebase.io:50002": [
-                true,
-                "Passed"
-            ],
             "electrum3.runebase.io:50002": [
                 true,
                 "Passed"
@@ -2901,10 +2877,6 @@
             ]
         },
         "ws": {
-            "electrum1.runebase.io:50004": [
-                true,
-                "Passed"
-            ],
             "electrum2.runebase.io:50004": [
                 true,
                 "Passed"
@@ -3301,19 +3273,19 @@
     },
     "TKL": {
         "electrums_total_all": 4,
-        "electrums_working_all": 2,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 2,
-        "electrums_working_tcp": 1,
+        "electrums_working_tcp": 2,
         "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_working_ssl": 2,
         "tcp": {
             "1.eu.tokel.electrum.dexstats.info:10077": [
                 true,
                 "Passed"
             ],
             "2.eu.tokel.electrum.dexstats.info:10077": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ssl": {
@@ -3322,8 +3294,8 @@
                 "Passed"
             ],
             "2.eu.tokel.electrum.dexstats.info:11077": [
-                false,
-                "[Errno 111] Connection refused"
+                true,
+                "Passed"
             ]
         },
         "ws": {

@@ -563,6 +563,12 @@
                 "ws_url": "elec-seeder-two.artbytecoin.org:50013"
             },
             {
+                "url": "electrumx-four.artbyte.live:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "electrumx-four.artbyte.live:50013"
+            },
+            {
                 "url": "electrumx-three.artbyte.live:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -8697,7 +8703,8 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrum10.groestlcoin.org:50001"
+                "url": "electrum10.groestlcoin.org:50001",
+                "ws_url": "electrum10.groestlcoin.org:50004"
             },
             {
                 "url": "electrum11.groestlcoin.org:50001",
@@ -13429,6 +13436,12 @@
                 "url": "46.229.238.187:57001"
             },
             {
+                "url": "electrum.namebrow.se:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrum.namebrow.se:50004"
+            },
+            {
                 "url": "nmc2.bitcoins.sk:57002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -16066,6 +16079,9 @@
             },
             {
                 "url": "209.50.52.239:50001"
+            },
+            {
+                "url": "209.50.61.246:50001"
             }
         ]
     },
@@ -17982,7 +17998,31 @@
                 "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
             },
             {
+                "url": "2.eu.tokel.electrum.dexstats.info:10077",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
+            },
+            {
                 "url": "1.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
+            {
+                "url": "2.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -23795,19 +23835,6 @@
                         "discord": "Bago#7842"
                     }
                 ]
-            },
-            {
-                "url": "electrum1.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ],
-                "ws_url": "electrum1.runebase.io:50004"
             },
             {
                 "url": "electrum3.runebase.io:50002",
