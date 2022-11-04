@@ -1170,13 +1170,118 @@
     "mm2": 1
   },
   {
-    "coin": "ASLP",
+    "coin": "ASLP-SLP",
     "fname": "AtomicSLP",
     "protocol": {
       "type": "SLPTOKEN",
       "protocol_data": {
         "decimals": 2,
         "token_id": "926894cbf50269b15c97559b9acfc1bd88cd5f20703313ce0ea0683ecdb40911",
+        "platform": "BCH",
+        "required_confirmations": 1,
+        "slp_prefix": "simpleledger"
+      }
+    },
+    "mm2": 1
+  },
+  {
+    "coin": "SPICE-SLP",
+    "fname": "Spice",
+    "protocol": {
+      "type": "SLPTOKEN",
+      "protocol_data": {
+        "decimals": 2,
+        "token_id": "4de69e374a8ed21cbddd47f2338cc0f479dc58daa2bbe11cd604ca488eca0ddf",
+        "platform": "BCH",
+        "required_confirmations": 1,
+        "slp_prefix": "simpleledger"
+      }
+    },
+    "mm2": 1
+  },
+  {
+    "coin": "FLEXUSD-SLP",
+    "fname": "FlexUSD",
+    "protocol": {
+      "type": "SLPTOKEN",
+      "protocol_data": {
+        "decimals": 2,
+        "token_id": "dd21be4532d93661e8ffe16db6535af0fb8ee1344d1fef81a193e2b4cfa9fbc9",
+        "platform": "BCH",
+        "required_confirmations": 1,
+        "slp_prefix": "simpleledger"
+      }
+    },
+    "mm2": 1
+  },
+  {
+    "coin": "SOUR-SLP",
+    "fname": "Sour",
+    "protocol": {
+      "type": "SLPTOKEN",
+      "protocol_data": {
+        "decimals": 2,
+        "token_id": "6448381f9649ecacd8c30189cfbfee71a91b6b9738ea494fe33f8b8b51cbfca0",
+        "platform": "BCH",
+        "required_confirmations": 1,
+        "slp_prefix": "simpleledger"
+      }
+    },
+    "mm2": 1
+  },
+  {
+    "coin": "ZAPT-SLP",
+    "fname": "Zapit",
+    "protocol": {
+      "type": "SLPTOKEN",
+      "protocol_data": {
+        "decimals": 2,
+        "token_id": "ff1b54b2141f81e07e0027d369db6484dea8d94429a635c35d17a7462a659239",
+        "platform": "BCH",
+        "required_confirmations": 1,
+        "slp_prefix": "simpleledger"
+      }
+    },
+    "mm2": 1
+  },
+  {
+    "coin": "JOY-SLP",
+    "fname": "Joystick.club",
+    "protocol": {
+      "type": "SLPTOKEN",
+      "protocol_data": {
+        "decimals": 2,
+        "token_id": "2624df798d76986231c7acb0f6923f537223da44ba6e25171186ab4056a58b64",
+        "platform": "BCH",
+        "required_confirmations": 1,
+        "slp_prefix": "simpleledger"
+      }
+    },
+    "mm2": 1
+  },
+  {
+    "coin": "MAZE-SLP",
+    "fname": "Maze",
+    "protocol": {
+      "type": "SLPTOKEN",
+      "protocol_data": {
+        "decimals": 2,
+        "token_id": "bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378",
+        "platform": "BCH",
+        "required_confirmations": 1,
+        "slp_prefix": "simpleledger"
+      }
+    },
+    "mm2": 1
+  },
+  {
+    "coin": "GTU-SLP",
+    "fname": "Global Trade Unit",
+    "protocol": {
+      "type": "SLPTOKEN",
+      "protocol_data": {
+        "decimals": 2,
+        "token_id": "2ca575523723450565586e71f3da16e7c28a0c9669738e1eaf3e62485ebdd164",
         "platform": "BCH",
         "required_confirmations": 1,
         "slp_prefix": "simpleledger"
