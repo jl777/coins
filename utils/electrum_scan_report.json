@@ -1,11 +1,11 @@
 {
     "ABY": {
         "electrums_total_all": 4,
-        "electrums_working_all": 3,
+        "electrums_working_all": 4,
         "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
         "electrums_total_ssl": 4,
-        "electrums_working_ssl": 3,
+        "electrums_working_ssl": 4,
         "tcp": {},
         "ssl": {
             "elec-seeder-one.artbytecoin.org:50012": {
@@ -2008,11 +2008,11 @@
         }
     },
     "LYNX": {
-        "electrums_total_all": 10,
+        "electrums_total_all": 5,
         "electrums_working_all": 5,
-        "electrums_total_tcp": 1,
+        "electrums_total_tcp": 0,
         "electrums_working_tcp": 0,
-        "electrums_total_ssl": 9,
+        "electrums_total_ssl": 5,
         "electrums_working_ssl": 5,
         "tcp": {
             "electrum.getlynx.io:50001": {
@@ -2466,12 +2466,12 @@
         "ws": {}
     },
     "NMC": {
-        "electrums_total_all": 9,
-        "electrums_working_all": 2,
-        "electrums_total_tcp": 7,
+        "electrums_total_all": 6,
+        "electrums_working_all": 3,
+        "electrums_total_tcp": 3,
         "electrums_working_tcp": 1,
-        "electrums_total_ssl": 2,
-        "electrums_working_ssl": 1,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 2,
         "tcp": {
             "46.229.238.187:57001": {
                 "last_connection": 1667492584,
@@ -2512,7 +2512,12 @@
                 "result": "[Errno 113] No route to host"
             }
         },
-        "ws": {}
+        "ws": {
+            "electrum.namebrow.se:50004": [
+                true,
+                "Passed"
+            ]
+        }
     },
     "NVC": {
         "electrums_total_all": 2,
@@ -2838,10 +2843,10 @@
         }
     },
     "RTM": {
-        "electrums_total_all": 2,
-        "electrums_working_all": 2,
-        "electrums_total_tcp": 2,
-        "electrums_working_tcp": 2,
+        "electrums_total_all": 3,
+        "electrums_working_all": 3,
+        "electrums_total_tcp": 3,
+        "electrums_working_tcp": 3,
         "electrums_total_ssl": 0,
         "electrums_working_ssl": 0,
         "tcp": {
@@ -2858,12 +2863,12 @@
         "ws": {}
     },
     "RUNES": {
-        "electrums_total_all": 8,
-        "electrums_working_all": 4,
+        "electrums_total_all": 7,
+        "electrums_working_all": 3,
         "electrums_total_tcp": 4,
         "electrums_working_tcp": 2,
-        "electrums_total_ssl": 4,
-        "electrums_working_ssl": 2,
+        "electrums_total_ssl": 3,
+        "electrums_working_ssl": 1,
         "tcp": {
             "electrum1.runebase.io:50001": {
                 "last_connection": 1667492584,
