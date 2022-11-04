@@ -1245,6 +1245,21 @@
     "mm2": 1
   },
   {
+    "coin": "PSF-SLP",
+    "fname": "PS Foundation",
+    "protocol": {
+      "type": "SLPTOKEN",
+      "protocol_data": {
+        "decimals": 2,
+        "token_id": "38e97c5d7d3585a2cbf3f9580c82ca33985f9cb0845d4dcce220cb709f9538b0",
+        "platform": "BCH",
+        "required_confirmations": 1,
+        "slp_prefix": "simpleledger"
+      }
+    },
+    "mm2": 1
+  },
+  {
     "coin": "JOY-SLP",
     "fname": "Joystick.club",
     "protocol": {
