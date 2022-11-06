@@ -1170,6 +1170,21 @@
     "mm2": 1
   },
   {
+    "coin": "TTT-SLP",
+    "fname": "Trinity Trust Token",
+    "protocol": {
+      "type": "SLPTOKEN",
+      "protocol_data": {
+        "decimals": 2,
+        "token_id": "5321508197ffed321c5fc9a1427e5c68b31d2c1ec92ae1c495f8acb08d8d66cd",
+        "platform": "BCH",
+        "required_confirmations": 1,
+        "slp_prefix": "simpleledger"
+      }
+    },
+    "mm2": 1
+  },
+  {
     "coin": "ASLP-SLP",
     "fname": "AtomicSLP",
     "protocol": {
