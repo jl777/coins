@@ -1215,6 +1215,24 @@
     "mm2": 1
   },
   {
+    "coin": "FLEXUSD-ERC20",
+    "name": "flexusd_erc20",
+    "fname": "flexUSD",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xa774FFB4AF6B0A91331C084E1aebAE6Ad535e6F3"
+      }
+    }
+  },
+  {
     "coin": "FLEXUSD-SLP",
     "fname": "FlexUSD",
     "protocol": {
