@@ -2326,7 +2326,7 @@
         "coingecko_id": "tether",
         "nomics_id": "",
         "explorer_url": "https://simpleledger.info/",
-        "explorer_tx_url": "#tx/",
+        "explorer_tx_url": "tx/",
         "explorer_address_url": "",
         "supported": [],
         "active": false,
@@ -2336,15 +2336,33 @@
         "slp_prefix": "simpleledger",
         "token_id": "9fc89d6b7d5be2eac0b3787c5b8236bca5de641b5bafafc8f450727b63615c11"
     },
-    "ASLP": {
-        "coin": "ASLP",
+    "TTT-SLP": {
+        "coin": "TTT-SLP",
+        "type": "SLP",
+        "name": "Trinity Trust Token",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://simpleledger.info/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "slp_prefix": "simpleledger",
+        "token_id": "5321508197ffed321c5fc9a1427e5c68b31d2c1ec92ae1c495f8acb08d8d66cd"
+    },
+    "ASLP-SLP": {
+        "coin": "ASLP-SLP",
         "type": "SLP",
         "name": "AtomicSLP",
         "coinpaprika_id": "test-coin",
         "coingecko_id": "test-coin",
         "nomics_id": "",
         "explorer_url": "https://simpleledger.info/",
-        "explorer_tx_url": "#tx/",
+        "explorer_tx_url": "tx/",
         "explorer_address_url": "",
         "supported": [],
         "active": false,
@@ -2353,6 +2371,193 @@
         "wallet_only": false,
         "slp_prefix": "simpleledger",
         "token_id": "926894cbf50269b15c97559b9acfc1bd88cd5f20703313ce0ea0683ecdb40911"
+    },
+    "SPICE-SLP": {
+        "coin": "SPICE-SLP",
+        "type": "SLP",
+        "name": "Spice",
+        "coinpaprika_id": "spice-spice",
+        "coingecko_id": "spice",
+        "nomics_id": "SPICE5",
+        "explorer_url": "https://simpleledger.info/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "slp_prefix": "simpleledger",
+        "token_id": "4de69e374a8ed21cbddd47f2338cc0f479dc58daa2bbe11cd604ca488eca0ddf"
+    },
+    "FLEXUSD-ERC20": {
+        "coin": "FLEXUSD-ERC20",
+        "type": "ERC-20",
+        "name": "flexUSD",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "flex-usd",
+        "nomics_id": "FLEXUSD",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xa774FFB4AF6B0A91331C084E1aebAE6Ad535e6F3",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ]
+    },
+    "FLEXUSD-SLP": {
+        "coin": "FLEXUSD-SLP",
+        "type": "SLP",
+        "name": "FlexUSD",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "flex-usd",
+        "nomics_id": "FLEXUSD",
+        "explorer_url": "https://simpleledger.info/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "slp_prefix": "simpleledger",
+        "token_id": "dd21be4532d93661e8ffe16db6535af0fb8ee1344d1fef81a193e2b4cfa9fbc9"
+    },
+    "SOUR-SLP": {
+        "coin": "SOUR-SLP",
+        "type": "SLP",
+        "name": "Sour",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://simpleledger.info/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "slp_prefix": "simpleledger",
+        "token_id": "6448381f9649ecacd8c30189cfbfee71a91b6b9738ea494fe33f8b8b51cbfca0"
+    },
+    "ZAPT-SLP": {
+        "coin": "ZAPT-SLP",
+        "type": "SLP",
+        "name": "Zapit",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://simpleledger.info/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "slp_prefix": "simpleledger",
+        "token_id": "ff1b54b2141f81e07e0027d369db6484dea8d94429a635c35d17a7462a659239"
+    },
+    "PSF-SLP": {
+        "coin": "PSF-SLP",
+        "type": "SLP",
+        "name": "PS Foundation",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://simpleledger.info/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "slp_prefix": "simpleledger",
+        "token_id": "38e97c5d7d3585a2cbf3f9580c82ca33985f9cb0845d4dcce220cb709f9538b0"
+    },
+    "JOY-SLP": {
+        "coin": "JOY-SLP",
+        "type": "SLP",
+        "name": "Joystick.club",
+        "coinpaprika_id": "",
+        "coingecko_id": "joystick-club",
+        "nomics_id": "",
+        "explorer_url": "https://simpleledger.info/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "slp_prefix": "simpleledger",
+        "token_id": "2624df798d76986231c7acb0f6923f537223da44ba6e25171186ab4056a58b64"
+    },
+    "MAZE-SLP": {
+        "coin": "MAZE-SLP",
+        "type": "SLP",
+        "name": "Maze",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://simpleledger.info/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "slp_prefix": "simpleledger",
+        "token_id": "bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378"
+    },
+    "GTU-SLP": {
+        "coin": "GTU-SLP",
+        "type": "SLP",
+        "name": "Global Trade Unit",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://simpleledger.info/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "slp_prefix": "simpleledger",
+        "token_id": "2ca575523723450565586e71f3da16e7c28a0c9669738e1eaf3e62485ebdd164"
     },
     "BCH-ERC20": {
         "coin": "BCH-ERC20",
@@ -3979,6 +4184,40 @@
         ],
         "forex_id": "CAD"
     },
+    "CADC-OLD": {
+        "coin": "CADC-OLD",
+        "type": "Matic",
+        "name": "CAD Coin (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x5d146d8B1dACb1EBBA5cb005ae1059DA8a1FbF57",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            },
+            {
+                "url": "https://rpc-mainnet.maticvigil.com",
+                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
+            }
+        ]
+    },
     "CADC-PLG20": {
         "coin": "CADC-PLG20",
         "type": "Matic",
@@ -3994,7 +4233,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "contract_address": "0x5d146d8B1dACb1EBBA5cb005ae1059DA8a1FbF57",
+        "contract_address": "0x9de41aFF9f55219D5bf4359F167d1D0c772A396D",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -20595,6 +20834,40 @@
         ],
         "forex_id": "SGD"
     },
+    "XSGD-OLD": {
+        "coin": "XSGD-OLD",
+        "type": "Matic",
+        "name": "StraitsX Singapore Dollar (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x769434dcA303597C8fc4997Bf3DAB233e961Eda2",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            },
+            {
+                "url": "https://rpc-mainnet.maticvigil.com",
+                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
+            }
+        ]
+    },
     "XSGD-PLG20": {
         "coin": "XSGD-PLG20",
         "type": "Matic",
@@ -20610,7 +20883,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "contract_address": "0x769434dcA303597C8fc4997Bf3DAB233e961Eda2",
+        "contract_address": "0xDC3326e71D45186F113a2F448984CA0e8D201995",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -23612,7 +23885,7 @@
         "coingecko_id": "test-coin",
         "nomics_id": "",
         "explorer_url": "https://testnet.simpleledger.info/",
-        "explorer_tx_url": "#tx/",
+        "explorer_tx_url": "tx/",
         "explorer_address_url": "",
         "supported": [],
         "active": false,
@@ -23711,7 +23984,7 @@
         "coingecko_id": "test-coin",
         "nomics_id": "",
         "explorer_url": "https://testnet.simpleledger.info/",
-        "explorer_tx_url": "#tx/",
+        "explorer_tx_url": "tx/",
         "explorer_address_url": "",
         "supported": [],
         "active": false,
