@@ -3979,6 +3979,40 @@
         ],
         "forex_id": "CAD"
     },
+    "CADC-OLD": {
+        "coin": "CADC-OLD",
+        "type": "Matic",
+        "name": "CAD Coin (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x5d146d8B1dACb1EBBA5cb005ae1059DA8a1FbF57",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            },
+            {
+                "url": "https://rpc-mainnet.maticvigil.com",
+                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
+            }
+        ]
+    },
     "CADC-PLG20": {
         "coin": "CADC-PLG20",
         "type": "Matic",
@@ -3994,7 +4028,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "contract_address": "0x5d146d8B1dACb1EBBA5cb005ae1059DA8a1FbF57",
+        "contract_address": "0x9de41aFF9f55219D5bf4359F167d1D0c772A396D",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -14766,6 +14800,41 @@
             }
         ]
     },
+    "PRUX": {
+        "coin": "PRUX",
+        "type": "UTXO",
+        "name": "PRUX",
+        "coinpaprika_id": "prux-prux-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "PRUX",
+        "explorer_url": "https://explorer.prux.info/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP"
+            },
+            {
+                "url": "txserver.live:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "txserver.live:50002",
+                "protocol": "SSL"
+            }
+        ]
+    },
     "SHIB-BEP20": {
         "coin": "SHIB-BEP20",
         "type": "BEP-20",
@@ -19925,6 +19994,32 @@
         ],
         "asset": "VRSC"
     },
+    "VTC": {
+        "coin": "VTC",
+        "type": "UTXO",
+        "name": "Vertcoin",
+        "coinpaprika_id": "vtc-vertcoin",
+        "coingecko_id": "vertcoin",
+        "nomics_id": "VTC",
+        "explorer_url": "https://chainz.cryptoid.info/vtc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrumx.javerity.com:5885"
+            }
+        ],
+        "is_segwit_on": false,
+        "address_format": {
+            "format": "standard"
+        }
+    },
     "WAVES-BEP20": {
         "coin": "WAVES-BEP20",
         "type": "BEP-20",
@@ -20534,6 +20629,40 @@
         ],
         "forex_id": "SGD"
     },
+    "XSGD-OLD": {
+        "coin": "XSGD-OLD",
+        "type": "Matic",
+        "name": "StraitsX Singapore Dollar (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x769434dcA303597C8fc4997Bf3DAB233e961Eda2",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            },
+            {
+                "url": "https://rpc-mainnet.maticvigil.com",
+                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
+            }
+        ]
+    },
     "XSGD-PLG20": {
         "coin": "XSGD-PLG20",
         "type": "Matic",
@@ -20549,7 +20678,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "contract_address": "0x769434dcA303597C8fc4997Bf3DAB233e961Eda2",
+        "contract_address": "0xDC3326e71D45186F113a2F448984CA0e8D201995",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
