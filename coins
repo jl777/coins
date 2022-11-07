@@ -1308,6 +1308,24 @@
     "mm2": 1
   },
   {
+    "coin": "JOY-PLG20",
+    "name": "joy_plg20",
+    "fname": "Joystick.club",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x218645F85Ff27FC456ef46c3CdacBF5c40B2F9E8"
+      }
+    }
+  },
+  {
     "coin": "MAZE-SLP",
     "fname": "Maze",
     "protocol": {
