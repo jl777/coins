@@ -2128,6 +2128,24 @@
     }
   },
   {
+    "coin": "CADC-OLD",
+    "name": "cadc_old",
+    "fname": "CAD Coin (OLD)",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x5d146d8B1dACb1EBBA5cb005ae1059DA8a1FbF57"
+      }
+    }
+  },
+  {
     "coin": "CADC-PLG20",
     "name": "cadc_plg20",
     "fname": "CAD Coin",
@@ -2141,7 +2159,7 @@
       "type": "ERC20",
       "protocol_data": {
         "platform": "MATIC",
-        "contract_address": "0x5d146d8B1dACb1EBBA5cb005ae1059DA8a1FbF57"
+        "contract_address": "0x9de41aFF9f55219D5bf4359F167d1D0c772A396D"
       }
     }
   },
@@ -10207,6 +10225,24 @@
     }
   },
   {
+    "coin": "XSGD-OLD",
+    "name": "xsgd_old",
+    "fname": "StraitsX Singapore Dollar (OLD)",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 6,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x769434dcA303597C8fc4997Bf3DAB233e961Eda2"
+      }
+    }
+  },
+  {
     "coin": "XSGD-PLG20",
     "name": "xsgd_plg20",
     "fname": "StraitsX Singapore Dollar",
@@ -10220,7 +10256,7 @@
       "type": "ERC20",
       "protocol_data": {
         "platform": "MATIC",
-        "contract_address": "0x769434dcA303597C8fc4997Bf3DAB233e961Eda2"
+        "contract_address": "0xDC3326e71D45186F113a2F448984CA0e8D201995"
       }
     }
   },
