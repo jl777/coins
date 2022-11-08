@@ -78,6 +78,8 @@ class CoinConfig:
             "RBTC": "RSK Smart Bitcoin",
             "SBCH": "SmartBCH",
             "SLP": "SLPTOKEN",
+            "COSMOS": "TENDERMINT",
+            "IRIS": "TENDERMINTTOKEN",
             "UBQ": "Ubiq"
         }
         self.testnet_protocols = {
@@ -86,10 +88,11 @@ class CoinConfig:
             "FTMT": "FTM-20",
             "tSLP": "SLPTOKEN",
             "tQTUM": "QRC-20",
+            "tCOSMOS": "TENDERMINT",
+            "tIRIS": "TENDERMINTTOKEN",
             "MATICTEST": "Matic",
             "UBQ": "Ubiq"
         }
-
         self.coin_type = coin_data["protocol"]["type"]
         self.data.update({
             self.ticker: {
@@ -172,11 +175,17 @@ class CoinConfig:
                 "type": self.coin_type
             })
 
-        if self.coin_data["protocol"]["type"] in ["ETH", "QTUM"]:
+        self.parent_coin = self.get_parent_coin()
+        if self.coin_data["protocol"]["type"] in ["ETH", "QTUM", "TENDERMINT", "TENDERMINTTOKEN"]:
             if self.ticker in self.protocols:
                 coin_type = self.protocols[self.ticker]
             elif self.ticker in self.testnet_protocols:
                 coin_type = self.testnet_protocols[self.ticker]
+            elif self.parent_coin in self.protocols:
+                coin_type = self.protocols[self.parent_coin]
+            elif self.parent_coin in self.testnet_protocols:
+                coin_type = self.testnet_protocols[self.parent_coin]
+
             self.data[self.ticker].update({
                 "type": coin_type
             })
@@ -253,10 +262,21 @@ class CoinConfig:
     def get_parent_coin(self):
         ''' Used for getting filename for related coins/ethereum folder '''
         token_type = self.data[self.ticker]["type"]
+        if self.ticker == "RBTC":
+            return "RSK"
         if token_type in ["SLP"]:
             if self.data[self.ticker]["is_testnet"]:
                 return f"t{token_type}"
             return token_type
+        if self.coin_type in ["TENDERMINTTOKEN", "TENDERMINT"]:
+            self.data[self.ticker]["type"] = self.coin_type
+            if self.ticker == "ATOM":
+                return "COSMOS"
+            if self.data[self.ticker]["is_testnet"]:
+                self.data[self.ticker]["type"]
+                return "tIRIS"
+                self.data[self.ticker]["type"]
+            return "IRIS"
 
         if self.coin_type not in ["UTXO", "ZHTLC", "BCH", "QTUM"]:
             if self.data[self.ticker]["is_testnet"]:
@@ -314,14 +334,10 @@ class CoinConfig:
         if self.ticker in ethereum_coins:
             with open(f"../ethereum/{self.ticker}", "r") as f:
                 contract_data = json.load(f)
+
         elif self.ticker not in electrum_coins:
-            parent_coin = self.get_parent_coin()
-            if self.ticker == "RBTC":
-                parent_coin = "RSK"
-                with open(f"../ethereum/{parent_coin}", "r") as f:
-                    contract_data = json.load(f)
-            elif parent_coin not in ["SLP", "tSLP", None]:
-                with open(f"../ethereum/{parent_coin}", "r") as f:
+            if self.parent_coin not in ["SLP", "tSLP", None]:
+                with open(f"../ethereum/{self.parent_coin}", "r") as f:
                     contract_data = json.load(f)
 
         if contract_data:
@@ -334,19 +350,18 @@ class CoinConfig:
                     "fallback_swap_contract": contract_data["fallback_swap_contract"]
                 })
             if "rpc_nodes" in contract_data:
-                self.data[self.ticker].update({
-                    "nodes": contract_data["rpc_nodes"]
-                })
+                if self.data[self.ticker]["type"] in ["TENDERMINT", "TENDERMINTTOKEN"]: key = "rpc_urls"
+                else: key = "nodes"
+                self.data[self.ticker].update({key: contract_data["rpc_nodes"]})
 
     def get_explorers(self):
         explorers = []
-        parent_coin = self.get_parent_coin()
         if self.ticker in explorer_coins:
             with open(f"../explorers/{self.ticker}", "r") as f:
                 explorers = json.load(f)
 
-        elif parent_coin in explorer_coins:
-            with open(f"../explorers/{parent_coin}", "r") as f:
+        elif self.parent_coin in explorer_coins:
+            with open(f"../explorers/{self.parent_coin}", "r") as f:
                 explorers = json.load(f)
 
         if explorers:
@@ -357,52 +372,51 @@ class CoinConfig:
             self.data[self.ticker].update({"explorer_url": explorers[0]})
 
 def parse_coins_repo():
-
+    errors = []
     coins_config = {}
     with open("../coins", "r") as f:
         coins_data = json.load(f)
 
     for item in coins_data:
-
+        
         if item["mm2"] == 1 and item["coin"].find("-segwit") == -1:
-            config = CoinConfig(item)
-            config.get_protocol_info()
-            config.clean_name()
-            config.get_swap_contracts()
-            config.get_electrums()
-            config.get_explorers()
-            config.is_smartchain()
-            config.is_wallet_only()
-            config.get_address_format()
-            config.get_rewards_info()
-            config.get_alias_ticker()
-            config.get_asset()
-            config.get_forex_id()
-            config.get_coinpaprika_id()
-            config.get_coingecko_id()
-            config.get_nomics_id()
-            config.get_bchd_urls()
-            coins_config.update(config.data)
+                config = CoinConfig(item)
+                config.get_protocol_info()
+                config.clean_name()
+                config.get_swap_contracts()
+                config.get_electrums()
+                config.get_explorers()
+                config.is_smartchain()
+                config.is_wallet_only()
+                config.get_address_format()
+                config.get_rewards_info()
+                config.get_alias_ticker()
+                config.get_asset()
+                config.get_forex_id()
+                config.get_coinpaprika_id()
+                config.get_coingecko_id()
+                config.get_nomics_id()
+                config.get_bchd_urls()
+                coins_config.update(config.data)
 
     nodata = []
     for coin in coins_config:
         if not coins_config[coin]["explorer_url"]:
             print(f"{coin} has no explorers!")
         if coins_config[coin]["type"] not in ["SLP"]:
-            if "nodes" in coins_config[coin]:
-                if not coins_config[coin]["nodes"]:
-                    nodata.append(coin)
-            if "electrum" in coins_config[coin]:
-                if not coins_config[coin]["electrum"]:
-                    nodata.append(coin)
-            if "light_wallet_d_servers" in coins_config[coin]:
-                if not coins_config[coin]["light_wallet_d_servers"]:
-                    nodata.append(coin)
-            if "nodes" not in coins_config[coin] and "electrum" not in coins_config[coin]:
+            for field in ["nodes", "electrum", "light_wallet_d_servers", "rpc_urls"]:
+                if field in coins_config[coin]:
+                    if not coins_config[coin][field]:
+                        nodata.append(coin)
+            if "nodes" not in coins_config[coin] and "electrum" not in coins_config[coin] and "rpc_urls" not in coins_config[coin]:
                 nodata.append(coin)
 
     print(f"The following coins are missing required data or failing connections for nodes/electrums {nodata}")
     print(f"They will not be included in the output")
+    if errors:
+        print(f"Errors:")
+        for error in errors:
+            print(error)
     for coin in nodata:
         del coins_config[coin]
     return coins_config
@@ -419,154 +433,7 @@ def get_desktop_repo_coins_data():
     with open(f"../../atomicDEX-Desktop/assets/config/{coins_fn}", "r") as f:
         return json.load(f)
 
-def get_api_ids_from_desktop():
-    desktop_repo_coins = get_desktop_repo_coins_data()
-    nomics_ids = {}
-    coinpaprika_ids = {}
-    coingecko_ids = {}
-    forex_ids = {}
-    for coin in desktop_repo_coins:
-        if "nomics_id" in desktop_repo_coins[coin]:
-            if desktop_repo_coins[coin]["nomics_id"]:
-                nomics_ids.update({coin: desktop_repo_coins[coin]["nomics_id"]})
-        if "coingecko_id" in desktop_repo_coins[coin]:
-            if desktop_repo_coins[coin]["coingecko_id"]:
-                coingecko_ids.update({coin: desktop_repo_coins[coin]["coingecko_id"]})
-        if "coinpaprika_id" in desktop_repo_coins[coin]:
-            if desktop_repo_coins[coin]["coinpaprika_id"]:
-                coinpaprika_ids.update({coin: desktop_repo_coins[coin]["coinpaprika_id"]})
-        if "forex_id" in desktop_repo_coins[coin]:
-            if desktop_repo_coins[coin]["forex_id"]:
-                forex_ids.update({coin: desktop_repo_coins[coin]["forex_id"]})
-
-    with open("../api_ids/coingecko_ids.json", "w+") as f:
-        json.dump(coingecko_ids, f, indent=4)
-    with open("../api_ids/coinpaprika_ids.json", "w+") as f:
-        json.dump(coinpaprika_ids, f, indent=4)
-    with open("../api_ids/nomics_ids.json", "w+") as f:
-        json.dump(nomics_ids, f, indent=4)
-    with open("../api_ids/forex_ids.json", "w+") as f:
-        json.dump(forex_ids, f, indent=4)
-
-
-def compare_output_vs_desktop_repo(coins_config):
-    desktop_repo_coins = get_desktop_repo_coins_data()
-    errors = {
-        "no_value": 0,
-        "missing_entry": 0,
-        "explorer_mismatch":0,
-        "name_mismatch":0,
-        "electrum_mismatch":0,
-        "ws_mismatch":0,
-        "value_mismatch": 0
-    }
-    for coin in desktop_repo_coins:
-        for k, v in desktop_repo_coins[coin].items():
-            if k not in coins_config[coin]:
-                errors["missing_entry"] += 1
-                print(colorize(f"{coin} is missing an entry for {k} in script output", 'blue'))
-            else:
-                if coins_config[coin][k]:
-                    try:
-                        if isinstance(coins_config[coin][k], list):
-                            # TODO: loop for electum comparison
-                            if not isinstance(v[0], dict):
-                                assert set(coins_config[coin][k]) == set(v)
-                            else:
-                                script_electrums = set([x["url"] for x in v])
-                                desktop_repo_electrums = set([x["url"] for x in coins_config[coin][k]])
-                                script_ws = set([x["ws_url"] for x in v if "ws_url" in x])
-                                desktop_repo_ws = set([x["ws_url"] for x in coins_config[coin][k] if "ws_url" in x])
-                                needs_update = False
-
-                                if not desktop_repo_electrums == script_electrums:
-                                    needs_update = True
-                                    errors["electrum_mismatch"] += 1
-                                    electrums_not_in_desktop = desktop_repo_electrums - script_electrums
-                                    electrums_not_in_output = script_electrums - desktop_repo_electrums
-                                    print(colorize(f"{coin} has mismatch on {k}:", 'red'))
-                                    if len(electrums_not_in_output):
-                                        print(colorize(f"script_output is missing: {electrums_not_in_output}", 'yellow'))
-                                    if len(electrums_not_in_desktop):
-                                        print(colorize(f"desktop_repo is missing: {electrums_not_in_desktop}", 'blue'))
-
-                                if not desktop_repo_ws == script_ws:
-                                    needs_update = True
-                                    errors["ws_mismatch"] += 1
-                                    ws_not_in_desktop = desktop_repo_ws - script_ws
-                                    ws_not_in_output = script_ws - desktop_repo_ws
-                                    print(colorize(f"{coin} has mismatch on {k} (ws):", 'red'))
-                                    if len(ws_not_in_output):
-                                        print(colorize(f"script_output is missing: {ws_not_in_output}", 'yellow'))
-                                    if len(ws_not_in_desktop):
-                                        print(colorize(f"desktop_repo is missing: {ws_not_in_desktop}", 'blue'))
-                                if needs_update:
-                                    new_electrum_list = []
-                                    for electrum in list(script_electrums.union(desktop_repo_electrums)):
-                                        script_electrum = [i for i in v if i["url"] == electrum]
-                                        desktop_electrum = [i for i in coins_config[coin][k] if i["url"] == electrum]
-                                        if desktop_electrum and script_electrum:
-                                            merged_electrum = dict(desktop_electrum[0])
-                                            merged_electrum.update(script_electrum[0])
-                                            new_electrum_list.append(merged_electrum)
-                                        elif script_electrum:
-                                            new_electrum_list.append(script_electrum[0])
-                                        elif desktop_electrum:
-                                            new_electrum_list.append(desktop_electrum[0])
-                                    print("\n")
-                                    print(coin)
-                                    print(colorize(json.dumps(new_electrum_list, indent=4), 'green'))
-                                    for i in new_electrum_list:
-                                        if "contact" in i:
-                                            del i["contact"]
-                                    print("\n")
-                                    print(coin)
-                                    print(colorize(json.dumps(new_electrum_list, indent=4), 'blue'))
-                                    print("\n")
-
-                    except AssertionError as e:
-                        if k == 'name':
-                            errors["name_mismatch"] += 1
-                            print(colorize(f"{coin} has mismatch on {k}: {v} (desktop_repo) != {coins_config[coin][k]} (script_output)", 'blue'))
-                        elif k == 'explorer_url':
-                            errors["explorer_mismatch"] += 1
-                            print(colorize(f"{coin} has mismatch on {k}: {v} (desktop_repo) != {coins_config[coin][k]} (script_output)", 'yellow'))
-                        else:
-                            errors["value_mismatch"] += 1
-                            print(colorize(f"{coin} has mismatch on {k}: {v} (desktop_repo) != {coins_config[coin][k]} (script_output)", 'magenta'))
-                else:
-                    if isinstance(v, bool):
-                        pass
-                    elif k in ["coingecko_id", "coinpaprika_id", "nomics_id", "forex_id"]:
-                        print(f"{coin} is missing price API ID for {k} in script_output")
-                        pass
-                    elif k in ["explorer_tx_url", "explorer_address_url"]:
-                        #print(f"{coin} is missing explorer suffix '{k}' in script_output")
-                        pass
-                    else:
-                        errors["no_value"] += 1
-                        print(colorize(f"{coin} has no value for {k} in script_output", "red"))
-
-    total_errors = sum(list(errors.values()))
-    print(f"\n{len(desktop_repo_coins)} desktop repo coins, {len(coins_config)} coins output")
-    print(f"\n{errors} errors found! ({total_errors} total)")
-
-
-
 if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        valid_params = ["update_apis", "compare_desktop"]
-        if sys.argv[1] not in valid_params:
-            print(f"Invalid option, select from {valid_params}")
-            sys.exit()
-        if sys.argv[1] == "update_apis":
-            get_api_ids_from_desktop()
-        elif sys.argv[1] == "compare_desktop":
-            coins_config = parse_coins_repo()
-            with open("coins_config.json", "w+") as f:
-                json.dump(coins_config, f, indent=4)
-            compare_output_vs_desktop_repo(coins_config)
-    else:
-        coins_config = parse_coins_repo()
-        with open("coins_config.json", "w+") as f:
-            json.dump(coins_config, f, indent=4)
+    coins_config = parse_coins_repo()
+    with open("coins_config.json", "w+") as f:
+        json.dump(coins_config, f, indent=4)

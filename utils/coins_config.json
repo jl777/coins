@@ -551,12 +551,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "elec-seeder-one.artbytecoin.org:50013"
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -2522,6 +2516,40 @@
         "wallet_only": false,
         "slp_prefix": "simpleledger",
         "token_id": "2624df798d76986231c7acb0f6923f537223da44ba6e25171186ab4056a58b64"
+    },
+    "JOY-PLG20": {
+        "coin": "JOY-PLG20",
+        "type": "Matic",
+        "name": "Joystick.club",
+        "coinpaprika_id": "",
+        "coingecko_id": "joystick-club",
+        "nomics_id": "",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x218645F85Ff27FC456ef46c3CdacBF5c40B2F9E8",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            },
+            {
+                "url": "https://rpc-mainnet.maticvigil.com",
+                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
+            }
+        ]
     },
     "MAZE-SLP": {
         "coin": "MAZE-SLP",
@@ -13068,9 +13096,6 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
-            },
-            {
-                "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
         "is_segwit_on": false,
@@ -15800,7 +15825,7 @@
         "type": "QRC-20",
         "name": "QTUM Testnet",
         "coinpaprika_id": "test-coin",
-        "coingecko_id": "test-coin",
+        "coingecko_id": "",
         "nomics_id": "",
         "explorer_url": "https://testnet.qtum.info/",
         "explorer_tx_url": "",
@@ -24261,5 +24286,77 @@
             }
         ],
         "token_address_url": "tokentxns?a="
+    },
+    "ATOM": {
+        "coin": "ATOM",
+        "type": "TENDERMINT",
+        "name": "Cosmos",
+        "coinpaprika_id": "atom-cosmos",
+        "coingecko_id": "cosmos",
+        "nomics_id": "",
+        "explorer_url": "https://www.mintscan.io/cosmos/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "rpc_urls": [
+            {
+                "url": "https://rpc.atomscan.com/"
+            },
+            {
+                "url": "https://cosmos-mainnet-rpc.allthatnode.com:26657/"
+            }
+        ]
+    },
+    "IRIS": {
+        "coin": "IRIS",
+        "type": "TENDERMINTTOKEN",
+        "name": "Iris",
+        "coinpaprika_id": "iris-irisnet",
+        "coingecko_id": "iris-network",
+        "nomics_id": "",
+        "explorer_url": "https://irishub.iobscan.io/#",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "rpc_urls": [
+            {
+                "url": "https://iris.komodo.live/"
+            },
+            {
+                "url": "https://rpc.irishub-1.irisnet.org"
+            }
+        ]
+    },
+    "ATOM-IBC_IRIS": {
+        "coin": "ATOM-IBC_IRIS",
+        "type": "TENDERMINTTOKEN",
+        "name": "Cosmos IBC-IRIS",
+        "coinpaprika_id": "atom-cosmos",
+        "coingecko_id": "cosmos-hub",
+        "nomics_id": "",
+        "explorer_url": "https://irishub.iobscan.io/#",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "rpc_urls": [
+            {
+                "url": "https://iris.komodo.live/"
+            },
+            {
+                "url": "https://rpc.irishub-1.irisnet.org"
+            }
+        ]
     }
 }
