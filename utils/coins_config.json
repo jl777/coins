@@ -2463,24 +2463,6 @@
         "slp_prefix": "simpleledger",
         "token_id": "6448381f9649ecacd8c30189cfbfee71a91b6b9738ea494fe33f8b8b51cbfca0"
     },
-    "ZAPT-SLP": {
-        "coin": "ZAPT-SLP",
-        "type": "SLP",
-        "name": "Zapit",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://simpleledger.info/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "slp_prefix": "simpleledger",
-        "token_id": "ff1b54b2141f81e07e0027d369db6484dea8d94429a635c35d17a7462a659239"
-    },
     "PSF-SLP": {
         "coin": "PSF-SLP",
         "type": "SLP",
@@ -2498,24 +2480,6 @@
         "wallet_only": false,
         "slp_prefix": "simpleledger",
         "token_id": "38e97c5d7d3585a2cbf3f9580c82ca33985f9cb0845d4dcce220cb709f9538b0"
-    },
-    "JOY-SLP": {
-        "coin": "JOY-SLP",
-        "type": "SLP",
-        "name": "Joystick.club",
-        "coinpaprika_id": "",
-        "coingecko_id": "joystick-club",
-        "nomics_id": "",
-        "explorer_url": "https://simpleledger.info/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "slp_prefix": "simpleledger",
-        "token_id": "2624df798d76986231c7acb0f6923f537223da44ba6e25171186ab4056a58b64"
     },
     "JOY-PLG20": {
         "coin": "JOY-PLG20",
@@ -2568,24 +2532,6 @@
         "wallet_only": false,
         "slp_prefix": "simpleledger",
         "token_id": "bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378"
-    },
-    "GTU-SLP": {
-        "coin": "GTU-SLP",
-        "type": "SLP",
-        "name": "Global Trade Unit",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://simpleledger.info/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "slp_prefix": "simpleledger",
-        "token_id": "2ca575523723450565586e71f3da16e7c28a0c9669738e1eaf3e62485ebdd164"
     },
     "BCH-ERC20": {
         "coin": "BCH-ERC20",
