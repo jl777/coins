@@ -551,12 +551,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "elec-seeder-one.artbytecoin.org:50013"
-            },
-            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -567,12 +561,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "ws_url": "electrumx-four.artbyte.live:50013"
-            },
-            {
-                "url": "electrumx-three.artbyte.live:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ]
     },
@@ -7982,15 +7970,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx01.firo.org:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrum-xzc/issues"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx02.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -13068,9 +13047,6 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
-            },
-            {
-                "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
         "is_segwit_on": false,
@@ -18411,11 +18387,6 @@
                 "url": "electrum.southofheaven.ca:50001",
                 "protocol": "TCP",
                 "ws_url": "electrum.southofheaven.ca:50004"
-            },
-            {
-                "url": "electrum.terracoin.io:50001",
-                "protocol": "TCP",
-                "ws_url": "electrum.terracoin.io:50004"
             },
             {
                 "url": "failover.trc-uis.ewmcx.biz:50006",
@@ -24073,31 +24044,6 @@
         ],
         "token_address_url": "tokentxns?a="
     },
-    "ZOMBIE": {
-        "coin": "ZOMBIE",
-        "type": "ZHTLC",
-        "name": "Zombie",
-        "coinpaprika_id": "test-coin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "",
-        "explorer_url": "https://zombie.explorer.lordofthechains.com/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "light_wallet_d_servers": [
-            "https://zombie.sirseven.me:443"
-        ],
-        "electrum": [
-            {
-                "url": "zombie.sirseven.me:10033"
-            }
-        ],
-        "asset": "ZOMBIE"
-    },
     "ZINU-BEP20": {
         "coin": "ZINU-BEP20",
         "type": "BEP-20",
@@ -24276,7 +24222,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "rpc_urls": [
             {
                 "url": "https://atom.komodo.live/"

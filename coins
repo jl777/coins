@@ -11661,6 +11661,7 @@
     "name": "cosmos",
     "fname": "Cosmos",
     "mm2": 1,
+    "wallet_only": true,
     "protocol": {
       "type": "TENDERMINT",
       "protocol_data": {
