@@ -11663,6 +11663,23 @@
     }
   },
   {
+    "coin": "OSMO",
+    "avg_block_time": 6,
+    "name": "osmosis",
+    "fname": "Osmosis",
+    "mm2": 1,
+    "protocol": {
+      "type": "TENDERMINT",
+      "protocol_data": {
+        "decimals": 6,
+        "denom": "uosmo",
+        "account_prefix": "osmo",
+        "chain_id": "osmosis-1",
+        "gas_price": 0.50
+      }
+    }
+  },
+  {
     "coin": "ATOM-IBC_IRIS",
     "name": "cosmos_ibc_iris",
     "fname": "Cosmos IBC-IRIS",
