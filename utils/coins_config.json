@@ -1256,6 +1256,11 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "failover.aur.ewmcx.biz:50003"
+            },
+            {
+                "url": "lenoir.ecoincore.com:12343",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ]
     },
@@ -3438,6 +3443,10 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "66.172.33.175:50001",
+                "protocol": "TCP"
+            },
             {
                 "url": "bsty-bkp.coinmunity.gold:50012",
                 "protocol": "SSL",
@@ -6986,6 +6995,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "electrum2.egulden.org:50004"
+            },
+            {
+                "url": "lenoir.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:11019"
             }
         ]
     },
@@ -13311,6 +13326,11 @@
                 "url": "electrum4.nav.community:40002",
                 "protocol": "SSL",
                 "ws_url": "electrum4.nav.community:40004"
+            },
+            {
+                "url": "electrum.nav.community:40002",
+                "protocol": "SSL",
+                "ws_url": "electrum.nav.community:40004"
             }
         ]
     },
@@ -24273,6 +24293,27 @@
             },
             {
                 "url": "https://rpc.irishub-1.irisnet.org"
+            }
+        ]
+    },
+    "OSMO": {
+        "coin": "OSMO",
+        "type": "TENDERMINT",
+        "name": "Osmosis",
+        "coinpaprika_id": "osmo-osmosis",
+        "coingecko_id": "osmosis",
+        "nomics_id": "osmo-osmosis",
+        "explorer_url": "https://www.mintscan.io/osmosis/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "rpc_urls": [
+            {
+                "url": "https://osmosis-mainnet-rpc.allthatnode.com:26657/"
             }
         ]
     },
