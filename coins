@@ -11668,6 +11668,7 @@
     "name": "osmosis",
     "fname": "Osmosis",
     "mm2": 1,
+    "wallet_only": true,
     "protocol": {
       "type": "TENDERMINT",
       "protocol_data": {
