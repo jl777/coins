@@ -79,6 +79,7 @@ class CoinConfig:
             "SBCH": "SmartBCH",
             "SLP": "SLPTOKEN",
             "COSMOS": "TENDERMINT",
+            "OSMO": "TENDERMINT",
             "IRIS": "TENDERMINTTOKEN",
             "UBQ": "Ubiq"
         }
