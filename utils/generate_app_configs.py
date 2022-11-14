@@ -89,7 +89,6 @@ class CoinConfig:
             "FTMT": "FTM-20",
             "tSLP": "SLPTOKEN",
             "tQTUM": "QRC-20",
-            "tCOSMOS": "TENDERMINT",
             "tIRIS": "TENDERMINT",
             "MATICTEST": "Matic",
             "UBQ": "Ubiq"
