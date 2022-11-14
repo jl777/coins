@@ -15,6 +15,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xd501281565bf7789224523144Fe5D98e8B28f267",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -42,6 +43,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xaFf5Ed00c57b0E0c22123dbA28Cb6A5B26651Bbd",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -76,6 +78,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x0D6e16c7066421607F8D334D6C02A48031fc2Eba",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -110,6 +113,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x111111111117dC0aa78b770fA6A738034120C302",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -144,6 +148,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x111111111117dC0aa78b770fA6A738034120C302",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -187,6 +192,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x58f1b044d8308812881a1433d9Bbeff99975e70C",
+        "parent_coin": "ONE",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -217,6 +223,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x79f3244F3FFd7500A31a90Bb83C7D56649c2C7C5",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -240,6 +247,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -274,6 +282,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xc1c93D475dc82Fe72DBC7074d55f5a734F8cEEAE",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -308,6 +317,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x63a72806098Bd3D9520cC43356dD78afe5D386D9",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -335,6 +345,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xfb6115445Bff7b52FeB98650C87f44907E58f802",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -369,6 +380,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -412,6 +424,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x6a07A792ab2965C72a5B8088d3a069A7aC3a993B",
+        "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -439,6 +452,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x202b4936fE1a82A4965220860aE46d7d3939Bb25",
+        "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -462,6 +476,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xcF323Aad9E522B93F11c352CaA519Ad0E14eB40F",
+        "parent_coin": "ONE",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -492,6 +507,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xE76e97C157658004eE22e01C03a5e21A4655A2Fd",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -515,6 +531,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -551,6 +568,12 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "elec-seeder-one.artbytecoin.org:50013"
+            },
+            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -586,6 +609,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -620,6 +644,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -654,6 +679,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xADE00C28244d5CE17D72E40330B1c318cD12B7c3",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -697,6 +723,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x5B7533812759B45C2B44C19e320ba2cD2681b542",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -740,6 +767,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x190Eb8a183D22a4bdf278c6791b152228857c033",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -774,6 +802,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xf307910A4c7bbc79691fD374889b36d8531B08e3",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -808,6 +837,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x8290333ceF9e6D528dD5618Fb97a76f268f3EDD4",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -851,6 +881,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x101A023270368c0D50BFfb62780F4aFd4ea79C35",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -885,6 +916,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x4d224452801ACEd8B2F0aebE155379bb5D594381",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -928,6 +960,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xC762043E211571eB34f1ef377e5e8e76914962f9",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -962,6 +995,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x2d72A97a31Dc920dB03330780d30074626e39C8A",
+        "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -989,6 +1023,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xB7b31a6BC18e48888545CE79e83E06003bE70930",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -1023,6 +1058,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x6F769E65c14Ebd1f68817F5f1DcDb61Cfa2D6f7e",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -1057,6 +1093,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xBA50933C268F567BDC86E1aC131BE072C6B0b71a",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -1142,6 +1179,7 @@
         "currently_enabled": false,
         "wallet_only": true,
         "contract_address": "0xCDAF240C90F989847c56aC9Dee754F76F41c5833",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -1176,6 +1214,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x0Eb3a705fc54725037CC9e008bDede697f62F335",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -1210,6 +1249,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xac51C4c48Dc3116487eD4BC16542e27B5694Da1b",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -1280,6 +1320,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x13616F44Ba82D63c8C0DC3Ff843D36a8ec1c05a9",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -1362,6 +1403,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x1CE0c2827e2eF14D5C4f29a091d735A204794041",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -1431,6 +1473,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x752DC265EAf6Da2Db0F8e4a32D5596D3f18e8701",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -1465,6 +1508,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xaD22f63404f7305e4713CcBd4F296f34770513f4",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -1599,6 +1643,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x715D400F88C167884bbCc41C5FeA407ed4D2f8A0",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -1633,6 +1678,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -1733,6 +1779,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xc748673057861a797275CD8A068AbB95A902e8de",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -1767,6 +1814,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xd4ed60d8368a92b5F1ca33aF61eF2A94714B2d46",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -1801,6 +1849,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xba100000625a3754423978a60c9317c58a424e3D",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -1844,6 +1893,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xFC31366Be1795c1Ff444b9fBF55759733aD4d26D",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -1867,6 +1917,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -1901,6 +1952,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xe20B9e246db5a0d21BF9209E4858Bc9A3ff7A034",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -1935,6 +1987,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xAD6cAEb32CD2c308980a548bD0Bc5AA4306c6c18",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -1969,6 +2022,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -2012,6 +2066,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x46E7628E8b4350b2716ab470eE0bA1fa9e76c6C5",
+        "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -2039,6 +2094,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xA8b1E0764f85f53dfe21760e8AfE5446D82606ac",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -2073,6 +2129,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x98443B96EA4b0858FDF3219Cd13e98C7A4690588",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -2100,6 +2157,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -2143,6 +2201,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x101d82428437127bF1608F699CD651e6Abf9766E",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -2177,6 +2236,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x0bF46C86Ce3B904660aE85677EaA20B0C1b24064",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -2200,6 +2260,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x3Cef98bb43d732E2F285eE605a8158cDE967D219",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -2333,7 +2394,8 @@
         "currently_enabled": false,
         "wallet_only": false,
         "slp_prefix": "simpleledger",
-        "token_id": "9fc89d6b7d5be2eac0b3787c5b8236bca5de641b5bafafc8f450727b63615c11"
+        "token_id": "9fc89d6b7d5be2eac0b3787c5b8236bca5de641b5bafafc8f450727b63615c11",
+        "parent_coin": "SLP"
     },
     "TTT-SLP": {
         "coin": "TTT-SLP",
@@ -2351,7 +2413,8 @@
         "currently_enabled": false,
         "wallet_only": false,
         "slp_prefix": "simpleledger",
-        "token_id": "5321508197ffed321c5fc9a1427e5c68b31d2c1ec92ae1c495f8acb08d8d66cd"
+        "token_id": "5321508197ffed321c5fc9a1427e5c68b31d2c1ec92ae1c495f8acb08d8d66cd",
+        "parent_coin": "SLP"
     },
     "ASLP-SLP": {
         "coin": "ASLP-SLP",
@@ -2369,7 +2432,8 @@
         "currently_enabled": false,
         "wallet_only": false,
         "slp_prefix": "simpleledger",
-        "token_id": "926894cbf50269b15c97559b9acfc1bd88cd5f20703313ce0ea0683ecdb40911"
+        "token_id": "926894cbf50269b15c97559b9acfc1bd88cd5f20703313ce0ea0683ecdb40911",
+        "parent_coin": "SLP"
     },
     "SPICE-SLP": {
         "coin": "SPICE-SLP",
@@ -2387,7 +2451,8 @@
         "currently_enabled": false,
         "wallet_only": false,
         "slp_prefix": "simpleledger",
-        "token_id": "4de69e374a8ed21cbddd47f2338cc0f479dc58daa2bbe11cd604ca488eca0ddf"
+        "token_id": "4de69e374a8ed21cbddd47f2338cc0f479dc58daa2bbe11cd604ca488eca0ddf",
+        "parent_coin": "SLP"
     },
     "FLEXUSD-ERC20": {
         "coin": "FLEXUSD-ERC20",
@@ -2405,6 +2470,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xa774FFB4AF6B0A91331C084E1aebAE6Ad535e6F3",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -2448,7 +2514,8 @@
         "currently_enabled": false,
         "wallet_only": false,
         "slp_prefix": "simpleledger",
-        "token_id": "dd21be4532d93661e8ffe16db6535af0fb8ee1344d1fef81a193e2b4cfa9fbc9"
+        "token_id": "dd21be4532d93661e8ffe16db6535af0fb8ee1344d1fef81a193e2b4cfa9fbc9",
+        "parent_coin": "SLP"
     },
     "SOUR-SLP": {
         "coin": "SOUR-SLP",
@@ -2466,7 +2533,8 @@
         "currently_enabled": false,
         "wallet_only": false,
         "slp_prefix": "simpleledger",
-        "token_id": "6448381f9649ecacd8c30189cfbfee71a91b6b9738ea494fe33f8b8b51cbfca0"
+        "token_id": "6448381f9649ecacd8c30189cfbfee71a91b6b9738ea494fe33f8b8b51cbfca0",
+        "parent_coin": "SLP"
     },
     "PSF-SLP": {
         "coin": "PSF-SLP",
@@ -2484,7 +2552,8 @@
         "currently_enabled": false,
         "wallet_only": false,
         "slp_prefix": "simpleledger",
-        "token_id": "38e97c5d7d3585a2cbf3f9580c82ca33985f9cb0845d4dcce220cb709f9538b0"
+        "token_id": "38e97c5d7d3585a2cbf3f9580c82ca33985f9cb0845d4dcce220cb709f9538b0",
+        "parent_coin": "SLP"
     },
     "JOY-PLG20": {
         "coin": "JOY-PLG20",
@@ -2502,6 +2571,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x218645F85Ff27FC456ef46c3CdacBF5c40B2F9E8",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -2536,7 +2606,8 @@
         "currently_enabled": false,
         "wallet_only": false,
         "slp_prefix": "simpleledger",
-        "token_id": "bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378"
+        "token_id": "bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378",
+        "parent_coin": "SLP"
     },
     "BCH-ERC20": {
         "coin": "BCH-ERC20",
@@ -2554,6 +2625,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x85c4EdC43724e954e5849cAAab61A26a9CB65F1B",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -2597,6 +2669,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -2631,6 +2704,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xeF3CEBD77E0C52cb6f60875d9306397B5Caca375",
+        "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -2746,6 +2820,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x9A2f5556e9A637e8fBcE886d8e3cf8b316a1D8a2",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -2861,6 +2936,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xd2cDfD5d26dfA1D11116B9ED7DBd7C6B88C6e1D3",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -3008,6 +3084,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x9813037ee2218799597d83D4a5B6F3b6778218d9",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -3050,6 +3127,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
+        "parent_coin": "RSK",
         "swap_contract_address": "0x6D9CE4bD298de38Bafefd15F5C6F5c95313B1d94",
         "nodes": [
             {
@@ -3097,6 +3175,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xA069008A669e2Af00a86673D9D584cfb524A42Cc",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -3131,6 +3210,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -3174,6 +3254,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xc26D47d5c33aC71AC5CF9F776D63Ba292a4F7842",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -3300,6 +3381,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x71be881e9C5d4465B3FfF61e89c6f3651E69B5bb",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -3335,6 +3417,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x420412E765BFa6d85aaaC94b4f7b708C89be2e2B",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -3379,6 +3462,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -3414,6 +3498,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -3576,6 +3661,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -3647,6 +3733,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xcBBB3e5099F769F6d4E2b8b92DC0e268f7E099D8",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -3732,6 +3819,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x8595F9dA7b868b1822194fAEd312235E43007b49",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -3766,6 +3854,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x352Cb5E19b12FC216548a2677bD0fce83BaE434B",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -3800,6 +3889,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xb683D83a532e2Cb7DFa5275eED3698436371cc9f",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -3843,6 +3933,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xFdc26CDA2d2440d0E83CD1DeE8E8bE48405806DC",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -3911,6 +4002,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x000000089fb24237dA101020Ff8e2AfD14624687",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -3945,6 +4037,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -3972,6 +4065,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x5D9ab5522c64E1F6ef5e3627ECCc093f56167818",
+        "parent_coin": "MOVR",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -3998,6 +4092,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -4041,6 +4136,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -4075,6 +4171,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xE176EBE47d621b984a73036B9DA5d834411ef734",
+        "parent_coin": "ONE",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -4105,6 +4202,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xdAb529f40E671A1D4bF91361c21bf9f0C9712ab7",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -4139,6 +4237,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xcaDC0acd4B445166f12d2C07EAc6E2544FbE2Eef",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -4183,6 +4282,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x5d146d8B1dACb1EBBA5cb005ae1059DA8a1FbF57",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -4217,6 +4317,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x9de41aFF9f55219D5bf4359F167d1D0c772A396D",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -4252,6 +4353,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -4286,6 +4388,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x5cafe85d8983f61C059df359c504F1Bab8009e9e",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -4464,6 +4567,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -4507,6 +4611,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xD85d1e945766Fea5Eda9103F918Bd915FbCa63E6",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -4541,6 +4646,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x4F9254C83EB525f9FCf346490bbb3ed28a81C667",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -4584,6 +4690,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x1f9f6a696C6Fd109cD3956F45dC709d2b3902163",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -4618,6 +4725,7 @@
         "currently_enabled": false,
         "wallet_only": true,
         "contract_address": "0x3a8B787f78D775AECFEEa15706D4221B40F345AB",
+        "parent_coin": "ETH-ARB20",
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
@@ -4793,6 +4901,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xba9d4199faB4f26eFE3551D490E3821486f135Ba",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -4836,6 +4945,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x67Ce67ec4fCd4aCa0Fcb738dD080b2a21ff69D75",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -4870,6 +4980,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x3506424F91fD33084466F402d5D97f05F8e3b4AF",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -4913,6 +5024,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x6E8ce0519B7e4d691BaCE464099547E5fC17679c",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -4936,6 +5048,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xf1938Ce12400f9a761084E7A80d37e732a4dA056",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -5001,6 +5114,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xc3048E19E76CB9a3Aa9d77D8C03c29Fc906e2437",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -5028,6 +5142,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -5062,6 +5177,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -5105,6 +5221,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x16c4106966cE30e06E806A7c40eEFb46d84cE7e5",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -5128,6 +5245,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -5162,6 +5280,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -5205,6 +5324,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x652D253b7Ca91810A4a05ACFc39729387c5090C0",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -5228,6 +5348,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xAdA58DF0F643D959C2A47c9D4d4c1a4deFe3F11C",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -5262,6 +5383,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -5305,6 +5427,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x249848BeCA43aC405b8102Ec90Dd5F22CA513c06",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -5332,6 +5455,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x1E4F97b9f9F913c46F1632781732927B9019C68b",
+        "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -5359,6 +5483,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x4500E16dA66b99e0C55D7B46EBBD59bc413BA171",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -5382,6 +5507,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -5508,6 +5634,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x27Ae27110350B98d564b9A3eeD31bAeBc82d878d",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -5542,6 +5669,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -5569,6 +5697,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -5612,6 +5741,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -5646,6 +5776,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E",
+        "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -5673,6 +5804,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x3D760a45D0887DFD89A2F5385a236B29Cb46ED2a",
+        "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -5696,6 +5828,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xEf977d2f931C1978Db5F6747666fa1eACB0d0339",
+        "parent_coin": "ONE",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -5726,6 +5859,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844",
+        "parent_coin": "MOVR",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -5752,6 +5886,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -5877,6 +6012,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x9F5F3CFD7a32700C93F971637407ff17b91c7342",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -5920,6 +6056,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x3597bfD533a99c9aa083587B074434E61Eb0A258",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -6180,6 +6317,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -6223,6 +6361,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x99956D38059cf7bEDA96Ec91Aa7BB2477E0901DD",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -6310,6 +6449,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xA33789a5478Add74e8D7628E817a281aAbD92dA9",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -6345,6 +6485,7 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "contract_address": "0x2c660b0d4d53382aeef855d3010d697970fa0bd5",
+        "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
         "electrum": [
             {
@@ -6437,6 +6578,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -6471,6 +6613,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x43Dfc4159D86F3A37A5A4B3D4580b888ad7d4DDd",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -6514,6 +6657,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x8724F9FB7B3f1bb6f2c90B3Ad3Fd6B3c20A06429",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -6628,6 +6772,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -6662,6 +6807,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x7AE5709c585cCFB3e61fF312EC632C21A5F03F70",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -6696,6 +6842,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x74926B3d118a63F6958922d3DC05eB9C6E6E00c6",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -6730,6 +6877,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -6764,6 +6912,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xA2c49cEe16a5E5bDEFDe931107dc1fae9f7773E3",
+        "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -7020,6 +7169,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -7054,6 +7204,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xb0DBa4BD6b6C4fC9A1263D8C19A57A6BdD740A52",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -7097,6 +7248,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xa3f020a5C92e15be13CAF0Ee5C95cF79585EeCC9",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -7131,6 +7283,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xbf2179859fc6D5BEE9Bf9158632Dc51678a4100e",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -7265,6 +7418,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -7308,6 +7462,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x6e2D990C8e718E7b6D86ed08eBf0FF2dEc05253B",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -7331,6 +7486,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x7eC26842F195c852Fa843bB9f6D8B583a274a157",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -7365,6 +7521,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -7421,6 +7578,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x3d6545b08693daE087E957cb1180ee38B9e3c25E",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -7497,6 +7655,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -7551,6 +7710,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -7585,6 +7745,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x74b23882a30290451A17c44f4F05243b6b58C76d",
+        "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -7612,6 +7773,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x64FF637fB478863B7468bc97D30a5bF3A428a1fD",
+        "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -7635,6 +7797,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x6983D1E6DEf3690C4d616b13597A09e6193EA013",
+        "parent_coin": "ONE",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -7665,6 +7828,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xf55aF137A98607F7ED2eFEfA4cd2DfE70E4253b1",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -7688,6 +7852,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -7722,6 +7887,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xdB25f211AB05b1c97D595516F45794528a807ad8",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -7766,6 +7932,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -7801,6 +7968,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -7844,6 +8012,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x031b41e504677879370e9DBcF937283A8691Fa7f",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -7878,6 +8047,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x7583FEDDbceFA813dc18259940F76a02710A8905",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -7912,6 +8082,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -7946,6 +8117,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xae3a768f9aB104c69A7CD6041fE16fFa235d1810",
+        "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -7971,15 +8143,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx01.firo.org:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrum-xzc/issues"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx02.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -7990,6 +8153,15 @@
             },
             {
                 "url": "electrumx03.firo.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrum-xzc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx01.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -8015,6 +8187,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xd5d0322b6bAb6a762C79f8c81A0B674778E13aeD",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -8108,6 +8281,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xd4451a8eE7D0978c60651a114b742Fa8d5857CDf",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -8142,6 +8316,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xda73AE86D38D9b5D22C64722320cCC071cB79ba3",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -8176,6 +8351,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xfb5B838b6cfEEdC2873aB27866079AC55363D37E",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -8210,6 +8386,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x160B1E5aaBFD70B2FC40Af815014925D71CEEd7E",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -8253,6 +8430,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xC943c5320B9c18C153d1e2d12cC3074bebfb31A2",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -8431,6 +8609,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xAD29AbB318791D579433D831ed122aFeAf29dcfe",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -8465,6 +8644,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x4E15361FD6b4BB609Fa63C81A2be19d873717870",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -8508,6 +8688,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -8551,6 +8732,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x7dDEE176F665cD201F93eEDE625770E2fD911990",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -8680,6 +8862,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -8723,6 +8906,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x0B220b82F3eA3B7F6d9A1D8ab58930C064A2b5Bf",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -8757,6 +8941,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xA55C1e67039B6d59E91eb4cDa2bfc5A854989102",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -8791,6 +8976,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -8825,6 +9011,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x62edc0692BD897D2295872a9FFCac5425011c661",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -8852,6 +9039,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x6810e776880C02933D47DB1b9fc05908e5386b96",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -8895,6 +9083,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x5FFD62D3C3eE2E81C00A7b9079FB248e7dF024A8",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -8972,6 +9161,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x8a0cAc13c7da965a312f08ea4229c37869e85cB9",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -8999,6 +9189,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -9042,6 +9233,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xb49dd3eDB98FBe82A01DFcb556Cd016964baf5A3",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -9065,6 +9257,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x5fe2B58c013d7601147DcdD68C143A77499f5531",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -9099,6 +9292,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x4a2c860cEC6471b9F5F5a336eB4F38bb21683c98",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -9133,6 +9327,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -9176,6 +9371,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x23D29D30e35C5e8D321e1dc9A8a61BFD846D4C5C",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -9302,6 +9498,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -9345,6 +9542,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x0C51f415cF478f8D08c246a6C6Ee180C5dC3A012",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -9401,6 +9599,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x6f259637dcD74C767781E37Bc6133cd6A68aa161",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -9444,6 +9643,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xdF574c24545E5FfEcb9a659c229253D4111d87e1",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -9487,6 +9687,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047",
+        "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -9510,6 +9711,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xBEc1e1009CE00ECf7F16372451Ac849b39C32897",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -9533,6 +9735,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x2088C47Fc0c78356c622F79dBa4CbE1cCfA84A91",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -9632,6 +9835,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xb49a312677BA1E80DDe23C17E46E80B3E86b533d",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -9666,6 +9870,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x2bAa79e7C13C302210436455925E68aD8fA687F0",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -9700,6 +9905,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x0483Ddbb510d22b206f2F3bDAC18528C952c4213",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -9734,6 +9940,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xa2B726B1145A4773F68593CF171187d8EBe4d495",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -9768,6 +9975,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -9811,6 +10019,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xd944f1D1e9d5f9Bb90b62f9D45e447D989580782",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -9845,6 +10054,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x9678E42ceBEb63F23197D726B29b1CB20d0064E5",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -9879,6 +10089,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xf6372cDb9c1d3674E83842e3800F2A62aC9F3C66",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -9913,6 +10124,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x7874CAFf04AFB8B6f5cbBE3ebec3f83Fcd882272",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -9947,6 +10159,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x53dfEa0A8CC2A2A2e425E1C174Bc162999723ea0",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -9991,6 +10204,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xbD1463F02f61676d53fd183C2B19282BFF93D099",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -10026,6 +10240,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x0f17BC9a994b87b5225cFb6a2Cd4D667ADb4F20B",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -10070,6 +10285,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -10105,6 +10321,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x7409856CAE628f5d578B285B45669b36E7005283",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -10149,6 +10366,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x767058F11800FBA6A682E73A6e79ec5eB74Fac8c",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -10184,6 +10402,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x8343091F2499FD4b6174A46D067A920a3b851FF9",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -10219,6 +10438,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -10247,6 +10467,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -10282,6 +10503,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x8A9C67fee641579dEbA04928c4BC45F66e26343A",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -10325,6 +10547,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x596eBE76e2DB4470966ea395B0d063aC6197A8C5",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -10359,6 +10582,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xeA998D307ACA04D4f0A3B3036Aba84AE2E409C0A",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -10600,6 +10824,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x2003f7ba57Ea956B05B85C60B4B2Ceea9b111256",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -10634,6 +10859,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xfe56d5892BDffC7BF58f2E84BE1b2C32D21C308b",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -10668,6 +10894,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -10711,6 +10938,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x1C954E8fe737F99f68Fa1CCda3e51ebDB291948C",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -10745,6 +10973,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x39fC9e94Caeacb435842FADeDeCB783589F50f5f",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -10864,6 +11093,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x2aa69E8D25C045B659787BC1f03ce47a388DB6E8",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -11067,6 +11297,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -11110,6 +11341,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -11182,6 +11414,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x2AF5D2aD76741191D15Dfe7bF6aC92d4Bd912Ca3",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -11225,6 +11458,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x06D02e9D62A13fC76BB229373FB3BBBD1101D2fC",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -11259,6 +11493,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -11302,6 +11537,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x5947BB275c521040051D82396192181b413227A3",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -11329,6 +11565,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -11363,6 +11600,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xb3654dc3D10Ea7645f8319668E8F54d2574FBdC8",
+        "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -11390,6 +11628,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x9e004545c59D359F6B7BFB06a26390b087717b42",
+        "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -11413,6 +11652,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x218532a12a389a4a92fC0C5Fb22901D1c19198aA",
+        "parent_coin": "ONE",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -11443,6 +11683,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x47841910329aaa6b88D5e9DcdE9000195151dc72",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -11466,6 +11707,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -11500,6 +11742,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xcE186ad6430E2Fe494a22C9eDbD4c68794a28B35",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -11534,6 +11777,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -11577,6 +11821,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x66e4d38b20173F509A1fF5d82866949e4fE898da",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -11611,6 +11856,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x84e1670F61347CDaeD56dcc736FB990fBB47ddC1",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -11680,6 +11926,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x27C70Cd1946795B66be9d954418546998b546634",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -11723,6 +11970,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x42476F744292107e34519F9c357927074Ea3F75D",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -11766,6 +12014,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xE6Ce27025F13f5213bBc560dC275e292965a392F",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -11939,6 +12188,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -11982,6 +12232,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x26433c8127d9b4e9B71Eaa15111DF99Ea2EeB2f8",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -12016,6 +12267,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xC19a5caCC2bb68Ff09f2Fcc695F31493A039Fa5e",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -12039,6 +12291,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -12134,6 +12387,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -12168,6 +12422,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -12211,6 +12466,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xdB11743fe8B129b49b11236E8a715004BDabe7e5",
+        "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -12234,6 +12490,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x301259f392B551CA8c592C9f676FCD2f9A0A84C5",
+        "parent_coin": "ONE",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -12264,6 +12521,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x1B8e27ABA297466fc6765Ce55BD12A8E216759da",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -12287,6 +12545,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x949D48EcA67b17269629c7194F4b727d4Ef9E5d6",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -12330,6 +12589,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x949D48EcA67b17269629c7194F4b727d4Ef9E5d6",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -12640,6 +12900,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xB26631c6dda06aD89B93C71400D25692de89c068",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -12683,6 +12944,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x09a3EcAFa817268f77BE1283176B946C4ff2E608",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -12726,6 +12988,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x5B6DcF557E2aBE2323c48445E8CC948910d8c2c9",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -12760,6 +13023,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x88128fd4b259552A9A1D457f435a6527AAb72d42",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -12787,6 +13051,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x5f0Da599BB2ccCfcf6Fdfd7D81743B6020864350",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -12821,6 +13086,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -12864,6 +13130,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xdE81028C743f5304fe2cdEfac588f572d629a687",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -12887,6 +13154,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -12930,6 +13198,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x993163CaD35162fB579D7B64e6695cB076EF5064",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -12957,6 +13226,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xBF05279F9Bf1CE69bBFEd670813b7e431142Afa4",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -12991,6 +13261,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x95bf7E307BC1ab0BA38ae10fc27084bC36FcD605",
+        "parent_coin": "MOVR",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -13017,6 +13288,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x5647Fe4281F8F6F01E84BCE775AD4b828A7b8927",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -13057,6 +13329,9 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
+            },
+            {
+                "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
         "is_segwit_on": false,
@@ -13326,11 +13601,6 @@
                 "url": "electrum4.nav.community:40002",
                 "protocol": "SSL",
                 "ws_url": "electrum4.nav.community:40004"
-            },
-            {
-                "url": "electrum.nav.community:40002",
-                "protocol": "SSL",
-                "ws_url": "electrum.nav.community:40004"
             }
         ]
     },
@@ -13350,6 +13620,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xBFEf6cCFC830D3BaCA4F6766a0d4AaA242Ca9F3D",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -13384,6 +13655,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x1Fa4a73a3F0133f0025378af00236f3aBDEE5D63",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -13470,6 +13742,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -13513,6 +13786,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xb7A18bd55e8E3E2262d7c8Ee7b4DD9B216Df0Faf",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -13536,6 +13810,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x41b3966B4FF7b427969ddf5da3627d6AEAE9a48E",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -13759,6 +14034,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xBF84720097de111A80f46f9D077643967042841A",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -13794,6 +14070,7 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "contract_address": "0xffb67c56c42b71144ae394dbfe298d863fbb3b9e",
+        "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
         "electrum": [
             {
@@ -13886,6 +14163,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xDa446fAd08277B4D2591536F204E018f32B6831c",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -13930,6 +14208,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xeaFE31Cd9e8E01C8f0073A2C974f728Fb80e9DcE",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -14000,6 +14279,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xDCe07662CA8EbC241316a15B611c89711414Dd1a",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -14034,6 +14314,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -14077,6 +14358,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x282d8efCe846A88B159800bd4130ad77443Fa1A1",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -14111,6 +14393,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -14154,6 +14437,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x62414D03084EeB269E18C970a21f45D2967F0170",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -14217,6 +14501,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xFd7B3A77848f1C2D67E05E54d78d174a0C850335",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -14343,6 +14628,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -14386,6 +14672,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xb7F8Cd00C5A06c0537E2aBfF0b58033d02e5E094",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -14420,6 +14707,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x69a7169F9Da9BBa04b982e49Ffd8d6a16c70c590",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -14443,6 +14731,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x6F3B3286fd86d8b47EC737CEB3D0D354cc657B3e",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -14477,6 +14766,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x7950865a9140cB519342433146Ed5b40c6F210f7",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -14511,6 +14801,7 @@
         "currently_enabled": false,
         "wallet_only": true,
         "contract_address": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -14554,6 +14845,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x553d3D295e0f695B9228246232eDF400ed3560B5",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -14707,6 +14999,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x595832F8FC6BF59c85C527fEC3740A1b7a361269",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -14750,6 +15043,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x0AaB8DC887D34f00D50E19aee48371a941390d14",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -14819,6 +15113,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x044d078F1c86508e13328842Cc75AC021B272958",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -14862,6 +15157,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x91E7E32C710661C44ae44D10Aa86135d91C3Ed65",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -14896,6 +15192,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -14930,6 +15227,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -14973,6 +15271,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -15042,6 +15341,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -15076,6 +15376,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -15119,6 +15420,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x73b6086955c820370A18002F60E9b51FB67d7e1A",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -15143,6 +15445,7 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "contract_address": "0xf2033ede578e17fa6231047265010445bca8cf1c",
+        "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
         "electrum": [
             {
@@ -15237,6 +15540,7 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "contract_address": "0x60f33e17d8d2dba280cf85b6c35880dedd8ed728",
+        "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
         "electrum": [
             {
@@ -15330,6 +15634,7 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "contract_address": "0x54fefdb5b31164f66ddb68becd7bdd864cacd65b",
+        "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
         "electrum": [
             {
@@ -15422,6 +15727,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xA1434F1FC3F437fa33F7a781E041961C0205B5Da",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -15456,6 +15762,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xEA26c4aC16D4a5A106820BC8AEE85fd0b7b2b664",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -15499,6 +15806,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x4a220E6096B25EADb88358cb44068A3248254675",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -15542,6 +15850,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x791630C11c7159A748d8c2267a66780B3DDC40a7",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -15566,6 +15875,7 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "contract_address": "0xd362e096e873eb7907e205fadc6175c6fec7bc44",
+        "parent_coin": "tQTUM",
         "swap_contract_address": "0xba8b71f3544b93e2f681f996da519a98ace0107a",
         "electrum": [
             {
@@ -15754,6 +16064,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x3103dF8F05c4D8aF16fD22AE63E406b97FeC6938",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -15893,6 +16204,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x408e41876cCCDC0F92210600ef50372656052a38",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -15936,6 +16248,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x451E129b6045b6E4F48E7247388f21163f7743B7",
+        "parent_coin": "ONE",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -15966,6 +16279,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x212208bcc81F3a2D0188afF76A2d39351eb53b96",
+        "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -15989,6 +16303,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x221657776846890989a759BA2973e427DfF5C9bB",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -16216,6 +16531,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x607F4C5BB672230e8672085532f7e901544a7375",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -16259,6 +16575,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xbe662058e00849C3Eef2AC9664f37fEfdF2cdbFE",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -16293,6 +16610,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -16364,6 +16682,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xF7C71cab11E3694638Bb9A106E0F430565BD15F1",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -16493,6 +16812,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x3845badAde8e6dFF049820680d1F14bD3903a5d0",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -16536,6 +16856,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x67b725d7e342d7B611fa85e859Df9697D9378B2e",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -16570,6 +16891,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -16604,6 +16926,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x02dd18E4981DA3fC7363fE56f3B81D1860b44ea7",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -16638,6 +16961,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xF07578E0B5226A99B0D530Ef4360DF4176f2820d",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -16672,6 +16996,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x11fD9ED04f1Eb43eF9df6425a6990609F2468895",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -16706,6 +17031,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xBeC243C995409E6520D7C41E404da5dEba4b209B",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -16733,6 +17059,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x9Ac983826058b8a9C7Aa1C9171441191232E8404",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -16767,6 +17094,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -16810,6 +17138,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x56ee926bD8c72B2d5fa1aF4d9E4Cbb515a1E3Adc",
+        "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -16837,6 +17166,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x31965b5c9c55f5579eb49F4b3AcC59aA10a7B98E",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -16860,6 +17190,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x50B728D8D964fd00C2d0AAD81718b71311feF68a",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -16894,6 +17225,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x570A5D26f7765Ecb712C0924E4De545B89fD43dF",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -16928,6 +17260,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x7DfF46370e9eA5f0Bad3C4E29711aD50062EA7A4",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -16962,6 +17295,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x446C9033E7516D820cc9a2ce2d0B7328b579406F",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -17189,6 +17523,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x476c5E26a75bd202a9683ffD34359C0CC15be0fF",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -17232,6 +17567,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x6Bf2eb299E51Fc5DF30Dec81D9445dDe70e3F185",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -17358,6 +17694,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x37B608519F91f70F2EeB0e5Ed9AF4061722e4F76",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -17385,6 +17722,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -17419,6 +17757,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -17462,6 +17801,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xae75A438b2E0cB8Bb01Ec1E1e376De11D44477CC",
+        "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -17489,6 +17829,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xBEC775Cb42AbFa4288dE81F387a9b1A3c4Bc552A",
+        "parent_coin": "ONE",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -17519,6 +17860,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xE0a60890BB7F9250089455620063fb6fe4DC159a",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -17542,6 +17884,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xf390830DF829cf22c53c8840554B98eafC5dCBc2",
+        "parent_coin": "MOVR",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -17568,6 +17911,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -17602,6 +17946,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xe56a473043EaAB7947c0a2408cEA623074500EE3",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -17636,6 +17981,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x47BEAd2563dCBf3bF2c9407fEa4dC236fAbA485A",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -17670,6 +18016,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -17901,6 +18248,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x12b6893cE26Ea6341919FE289212ef77e51688c8",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -18043,6 +18391,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x467Bccd9d29f223BcE8043b84E8C8B282827790F",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -18086,6 +18435,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x621C1E8610e4B9b7fc9F043203C008EDe52E92F5",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -18109,6 +18459,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -18143,6 +18494,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x8f0FB159380176D324542b3a7933F0C2Fd0c2bbf",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -18213,6 +18565,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xBD9a8CA934e673b874937761D7CFa7084ecBdd53",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -18315,6 +18668,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -18358,6 +18712,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x76A797A59Ba2C17726896976B7B3747BfD1d220f",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -18427,6 +18782,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -18461,6 +18817,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x564A341Df6C126f90cf3ECB92120FD7190ACb401",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -18489,6 +18846,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xC1fdbed7Dac39caE2CcC0748f7a80dC446F6a594",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -18524,6 +18882,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x4Fb71290Ac171E1d144F7221D882BECAc7196EB5",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -18559,6 +18918,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x2C537E5624e4af88A7ae4060C022609376C8D0EB",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -18603,6 +18963,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x14016E85a25aeb13065688cAFB43044C2ef86784",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -18637,6 +18998,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x0000000000085d4780B73119b644AE5ecd22b376",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -18680,6 +19042,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x5eE41aB6edd38cDfB9f6B4e6Cf7F75c87E170d98",
+        "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -18703,6 +19066,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xD17027b85Abf02721F953EE528721A980fa58941",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -18726,6 +19090,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x2e1AD108fF1D8C782fcBbB89AAd783aC49586756",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -18760,6 +19125,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -18803,6 +19169,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x7FBc10850caE055B27039aF31bD258430e714c62",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -18867,6 +19234,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x3Bd2B1c7ED8D396dbb98DED3aEbb41350a5b2339",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -18894,6 +19262,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -18937,6 +19306,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x3066818837c5e6eD6601bd5a91B0762877A6B731",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -18971,6 +19341,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x8eBAf22B6F053dFFeaf46f4Dd9eFA95D89ba8580",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -18998,6 +19369,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -19041,6 +19413,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -19075,6 +19448,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x22C54cE8321A4015740eE1109D9cBc25815C46E6",
+        "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -19098,6 +19472,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xEe58E4D62b10A92dB1089d4D040B759C28aE16Cd",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -19121,6 +19496,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -19186,6 +19562,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -19213,6 +19590,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -19256,6 +19634,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -19290,6 +19669,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
+        "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -19317,6 +19697,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x9362Bbef4B8313A8Aa9f0c9808B80577Aa26B73B",
+        "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -19340,6 +19721,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x985458E523dB3d53125813eD68c274899e9DfAb4",
+        "parent_coin": "ONE",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -19370,6 +19752,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x980a5AfEf3D17aD98635F6C5aebCBAedEd3c3430",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -19393,6 +19776,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
+        "parent_coin": "MOVR",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -19419,6 +19803,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -19453,6 +19838,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
+        "parent_coin": "MOVR",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -19479,6 +19865,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x049d68029688eAbF473097a2fC38ef61633A3C7A",
+        "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -19506,6 +19893,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xa71EdC38d189767582C38A3145b5873052c3e47a",
+        "parent_coin": "HT",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -19529,6 +19917,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x3C2B8Be99c50593081EAA2A724F0B8285F5aba8f",
+        "parent_coin": "ONE",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -19559,6 +19948,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x0039f574eE5cC39bdD162E9A88e3EB1f111bAF48",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -19582,6 +19972,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -19616,6 +20007,7 @@
         "currently_enabled": false,
         "wallet_only": true,
         "contract_address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "parent_coin": "ETH-ARB20",
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [
@@ -19644,6 +20036,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -19671,6 +20064,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x55d398326f99059fF775485246999027B3197955",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -19705,6 +20099,7 @@
         "currently_enabled": false,
         "wallet_only": true,
         "contract_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -19748,6 +20143,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x54a3017754BFba73F71F37d893A368814CbFf457",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -19867,6 +20263,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x6FDcdfef7c496407cCb0cEC90f9C5Aaa1Cc8D888",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -19901,6 +20298,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xF411903cbC70a74d22900a5DE66A2dda66507255",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -19944,6 +20342,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x3C4B6E6e1eA3D4863700D7F76b36B7f3D3f13E3d",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -19987,6 +20386,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x054c42b6414747F5263b4A86f21B1aFAD00326Bf",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -20021,6 +20421,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x2794DAD4077602eD25A88d03781528D1637898B4",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -20227,6 +20628,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xFC3E14af0f0c2129a84Cc013D48C70D682902874",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -20261,6 +20663,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -20304,6 +20707,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x3095c7557bCb296ccc6e363DE01b760bA031F2d9",
+        "parent_coin": "ONE",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -20334,6 +20738,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -20377,6 +20782,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xaBC9547B534519fF73921b1FBA6E672b5f58D083",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -20404,6 +20810,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -20438,6 +20845,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x6626c47c00F1D87902fc13EECfaC3ed06D5E8D8a",
+        "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -20465,6 +20873,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x1B815d120B3eF02039Ee11dC2d33DE7aA4a8C603",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -20591,6 +21000,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xb897D0a0f68800f8Be7D69ffDD1c24b69f57Bf3e",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -20625,6 +21035,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x43C934A845205F0b514417d757d7235B8f53f1B9",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -20758,6 +21169,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -20792,6 +21204,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x70e8dE73cE538DA2bEEd35d14187F6959a8ecA96",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -20836,6 +21249,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x769434dcA303597C8fc4997Bf3DAB233e961Eda2",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -20870,6 +21284,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xDC3326e71D45186F113a2F448984CA0e8D201995",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -20905,6 +21320,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x16939ef78684453bfDFb47825F8a5F714f12623a",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -20989,6 +21405,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xeBbfB9E5aF3172C7C0e1D4ff7106A8Bbb961F87B",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -21024,6 +21441,7 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "contract_address": "0x4cdaa46741af44c68179c54c4fcb02c2bf646d30",
+        "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
         "electrum": [
             {
@@ -21116,6 +21534,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -21150,6 +21569,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x9eAaC1B23d935365bD7b542Fe22cEEe2922f52dc",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -21177,6 +21597,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x88f1A5ae2A3BF98AEAF342D26B30a79438c9142e",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -21211,6 +21632,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -21254,6 +21676,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x29b0Da86e484E1C0029B56e817912d778aC0EC69",
+        "parent_coin": "FTM",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -21281,6 +21704,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xdfa3Ef49d357c6b0B2DfBB88701af2b7A053fD0A",
+        "parent_coin": "KCS",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -21304,6 +21728,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xDA537104D6A5edd53c6fBba9A898708E465260b6",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -21338,6 +21763,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x7F70642d88cf1C4a3a7abb072B53B929b653edA5",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -21372,6 +21798,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -21601,6 +22028,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x530e9346870E632A63E8d461bb3c3622e00782DE",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -21659,6 +22087,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xb86AbCb37C3A4B64f74f59301AFF131a1BEcC787",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -21785,6 +22214,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x596fA47043f99A4e0F122243B841E55375cdE0d2",
+        "parent_coin": "AVAX",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -21812,6 +22242,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -21855,6 +22286,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x5559Edb74751A0edE9DeA4DC23aeE72cCA6bE3D5",
+        "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
@@ -21890,6 +22322,7 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "contract_address": "0xfe59cbc1704e89a698571413a81f0de9d8f00c69",
+        "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
         "electrum": [
             {
@@ -22012,6 +22445,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x720CD16b011b987Da3518fbf38c3071d4F0D1495",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -22055,6 +22489,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xaFF9084f2374585879e8B434C399E29E80ccE635",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -22090,6 +22525,7 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "contract_address": "0xf2703e93f87b846a7aacec1247beaec1c583daa4",
+        "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
         "electrum": [
             {
@@ -22183,6 +22619,7 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "contract_address": "0xb27d7bf95b03e02b55d5eb63d3f1692762101bf9",
+        "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
         "electrum": [
             {
@@ -22276,6 +22713,7 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "contract_address": "0x2f65a0af11d50d2d15962db39d7f7b0619ed55ae",
+        "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
         "electrum": [
             {
@@ -22369,6 +22807,7 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "contract_address": "0x72e531e37c31ecbe336208fd66e93b48df3af420",
+        "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
         "electrum": [
             {
@@ -22462,6 +22901,7 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "contract_address": "0x09800417b097c61b9fd26b3ddde4238304a110d5",
+        "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
         "electrum": [
             {
@@ -22555,6 +22995,7 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "contract_address": "0xd8dec2b605005749abbf4b060edad3070e23cf5c",
+        "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
         "electrum": [
             {
@@ -22648,6 +23089,7 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "contract_address": "0xf397f39ce992b0f5bdc7ec1109d676d07f7af2f9",
+        "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
         "electrum": [
             {
@@ -22741,6 +23183,7 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "contract_address": "0x4060e21ac01b5c5d2a3f01cecd7cbf820f50be95",
+        "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
         "electrum": [
             {
@@ -22833,6 +23276,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x75231F58b43240C9718Dd58B4967c5114342a86c",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -22876,6 +23320,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xB1e93236ab6073fdAC58adA5564897177D4bcC43",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -22919,6 +23364,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x2ef52Ed7De8c5ce03a4eF0efbe9B7450F2D7Edc9",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -22962,6 +23408,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -23005,6 +23452,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xa117000000f279D81A1D3cc75430fAA017FA5A2e",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -23048,6 +23496,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x1B073382E63411E3BcfFE90aC1B9A43feFa1Ec6F",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -23091,6 +23540,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xBe428c3867F05deA2A89Fc76a102b544eaC7f772",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -23134,6 +23584,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x973e52691176d36453868D9d86572788d27041A9",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -23177,6 +23628,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -23220,6 +23672,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -23285,6 +23738,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -23328,6 +23782,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x00c83aeCC790e8a4453e5dD3B0B4b3680501a7A7",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -23371,6 +23826,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x41e5560054824eA6B0732E656E3Ad64E20e94E45",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -23414,6 +23870,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xdc9Ac3C20D1ed0B540dF9b1feDC10039Df13F99c",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -23457,6 +23914,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -23500,6 +23958,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x40FD72257597aA14C7231A7B1aaa29Fce868F677",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -23543,6 +24002,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x8806926Ab68EB5a7b909DcAf6FdBe5d93271D6e2",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -23586,6 +24046,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xD13c7342e1ef687C5ad21b27c2b65D772cAb5C8c",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -23629,6 +24090,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xd98F75b1A3261dab9eEd4956c93F33749027a964",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -23672,6 +24134,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x5fb4968fC85868DF3aD2d6e59883a10570f01D18",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -23706,6 +24169,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xAec7d1069e3a914a3EB50f0BFB1796751f2ce48a",
+        "parent_coin": "ETH",
         "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
@@ -23749,6 +24213,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x788D2780992222360f674cc12C36478870b8E6ED",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -23879,7 +24344,8 @@
         "currently_enabled": false,
         "wallet_only": false,
         "slp_prefix": "slptest",
-        "token_id": "bb309e48930671582bea508f9a1d9b491e49b69be3d6f372dc08da2ac6e90eb7"
+        "token_id": "bb309e48930671582bea508f9a1d9b491e49b69be3d6f372dc08da2ac6e90eb7",
+        "parent_coin": "tSLP"
     },
     "WHIVE": {
         "coin": "WHIVE",
@@ -23978,7 +24444,8 @@
         "currently_enabled": false,
         "wallet_only": false,
         "slp_prefix": "slptest",
-        "token_id": "037eb9fc8a5f0faed4e5c15c15e69cd9f5d8a87b5f11e0ba3dce17b562705d6c"
+        "token_id": "037eb9fc8a5f0faed4e5c15c15e69cd9f5d8a87b5f11e0ba3dce17b562705d6c",
+        "parent_coin": "tSLP"
     },
     "XEC": {
         "coin": "XEC",
@@ -24041,6 +24508,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xee8EE60503fd0a735cC972A08E3a5B2026DDCe47",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -24100,6 +24568,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x21F9B5b2626603e3F40bfc13d01AfB8c431D382F",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -24230,6 +24699,7 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0xD7380b10bF3886B34Ab3422DEa42E408850375CA",
+        "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
             {
@@ -24274,7 +24744,7 @@
     },
     "IRIS": {
         "coin": "IRIS",
-        "type": "TENDERMINTTOKEN",
+        "type": "TENDERMINT",
         "name": "Iris",
         "coinpaprika_id": "iris-irisnet",
         "coingecko_id": "iris-network",
@@ -24332,6 +24802,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "parent_coin": "IRIS",
         "rpc_urls": [
             {
                 "url": "https://iris.komodo.live/"

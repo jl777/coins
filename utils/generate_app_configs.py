@@ -78,9 +78,9 @@ class CoinConfig:
             "RBTC": "RSK Smart Bitcoin",
             "SBCH": "SmartBCH",
             "SLP": "SLPTOKEN",
-            "COSMOS": "TENDERMINT",
+            "ATOM": "TENDERMINT",
             "OSMO": "TENDERMINT",
-            "IRIS": "TENDERMINTTOKEN",
+            "IRIS": "TENDERMINT",
             "UBQ": "Ubiq"
         }
         self.testnet_protocols = {
@@ -90,7 +90,7 @@ class CoinConfig:
             "tSLP": "SLPTOKEN",
             "tQTUM": "QRC-20",
             "tCOSMOS": "TENDERMINT",
-            "tIRIS": "TENDERMINTTOKEN",
+            "tIRIS": "TENDERMINT",
             "MATICTEST": "Matic",
             "UBQ": "Ubiq"
         }
@@ -177,7 +177,13 @@ class CoinConfig:
             })
 
         self.parent_coin = self.get_parent_coin()
-        if self.coin_data["protocol"]["type"] in ["ETH", "QTUM", "TENDERMINT", "TENDERMINTTOKEN"]:
+        if self.parent_coin:
+            if self.parent_coin != self.ticker:
+                self.data[self.ticker].update({
+                    "parent_coin": self.parent_coin
+                })
+
+        if self.coin_data["protocol"]["type"] in ["ETH", "QTUM"]:
             if self.ticker in self.protocols:
                 coin_type = self.protocols[self.ticker]
             elif self.ticker in self.testnet_protocols:
@@ -186,10 +192,13 @@ class CoinConfig:
                 coin_type = self.protocols[self.parent_coin]
             elif self.parent_coin in self.testnet_protocols:
                 coin_type = self.testnet_protocols[self.parent_coin]
+            else:
+                coin_type = self.coin_data["protocol"]["type"]
+            self.data[self.ticker].update({"type": coin_type})
 
-            self.data[self.ticker].update({
-                "type": coin_type
-            })
+        elif self.coin_data["protocol"]["type"] in ["TENDERMINT", "TENDERMINTTOKEN"]:
+            coin_type = self.coin_data["protocol"]["type"]
+            self.data[self.ticker].update({"type": coin_type})
 
     def is_testnet_network(self):
         if "is_testnet" in self.coin_data:
@@ -269,15 +278,16 @@ class CoinConfig:
             if self.data[self.ticker]["is_testnet"]:
                 return f"t{token_type}"
             return token_type
+
         if self.coin_type in ["TENDERMINTTOKEN", "TENDERMINT"]:
-            self.data[self.ticker]["type"] = self.coin_type
-            if self.ticker == "ATOM":
-                return "COSMOS"
-            if self.data[self.ticker]["is_testnet"]:
-                self.data[self.ticker]["type"]
-                return "tIRIS"
-                self.data[self.ticker]["type"]
-            return "IRIS"
+            if self.ticker.find("_ATOM") > -1:
+                return "ATOM"
+            elif self.ticker.find("_IRIS") > -1:
+                if self.data[self.ticker]["is_testnet"]:
+                    return "tIRIS"
+                return "IRIS"
+            elif self.ticker.find("_OSMO") > -1:
+                return "OSMO"
 
         if self.coin_type not in ["UTXO", "ZHTLC", "BCH", "QTUM"]:
             if self.data[self.ticker]["is_testnet"]:
@@ -290,8 +300,10 @@ class CoinConfig:
                 return self.ticker
             
             if self.ticker == "RBTC": token_type = "RSK Smart Bitcoin"
-            i = value_list.index(token_type)
-            return key_list[i]
+            if token_type in value_list:
+                i = value_list.index(token_type)
+                return key_list[i]
+            print(f"{token_type} not in value_list")
         return None
 
     def clean_name(self):
