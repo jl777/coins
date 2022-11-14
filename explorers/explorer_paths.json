@@ -61,5 +61,17 @@
     },
     "https://openchains.info/coin/ltfn/": {
         "explorer_tx_url": "tx/"
+    },
+    "https://irishub.iobscan.io/": {
+        "explorer_tx_url": "#/txs/",
+        "explorer_address_url": "#/address/"
+    },
+    "https://www.mintscan.io/cosmos/": {
+        "explorer_tx_url": "txs/",
+        "explorer_address_url": "account/"
+    },
+    "https://www.mintscan.io/osmosis/": {
+        "explorer_tx_url": "txs/",
+        "explorer_address_url": "account/"
     }
 }
