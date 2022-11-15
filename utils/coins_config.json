@@ -551,6 +551,12 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "elec-seeder-one.artbytecoin.org:50013"
+            },
+            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -1256,6 +1262,11 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "failover.aur.ewmcx.biz:50003"
+            },
+            {
+                "url": "lenoir.ecoincore.com:12343",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ]
     },
@@ -3438,6 +3449,10 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "66.172.33.175:50001",
+                "protocol": "TCP"
+            },
             {
                 "url": "bsty-bkp.coinmunity.gold:50012",
                 "protocol": "SSL",
@@ -6986,6 +7001,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "electrum2.egulden.org:50004"
+            },
+            {
+                "url": "lenoir.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:11019"
             }
         ]
     },
@@ -7956,15 +7977,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx01.firo.org:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrum-xzc/issues"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx02.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -7975,6 +7987,15 @@
             },
             {
                 "url": "electrumx03.firo.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrum-xzc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx01.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -13042,6 +13063,9 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
+            },
+            {
+                "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
         "is_segwit_on": false,
@@ -20164,6 +20188,34 @@
             }
         ],
         "asset": "VRSC"
+    },
+    "GRMS": {
+        "coin": "GRMS",
+        "type": "Smart Chain",
+        "name": "GRMS",
+        "coinpaprika_id": "grms-grms",
+        "coingecko_id": "test-coin",
+        "nomics_id": "GRMS",
+        "explorer_url": "https://explorer.grms.pw/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum.grms.pw:17485",
+                "contact": [
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            }
+        ],
+        "asset": "GRMS"
     },
     "VTC": {
         "coin": "VTC",
