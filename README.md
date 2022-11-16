@@ -295,3 +295,24 @@ You need the following info in JSON format added to the [coins](coins) file:
 - At least minimum 2 or more URLs of RPC nodes must be provided.
 - Contact information must be provided in case the server admin needs to be contacted in urgent cases. It can be any contact information out of the examples provided. Or may be add your own service/contact information as suites you.
 - The RPC node URL can either be a DNS or an IP address with port.
+
+## 5. Forex, Nomics, CoinGecko & CoinPaprika Price IDs (optional)
+
+The API IDs are stored in json files within the `/api_ids` folder
+
+For [CoinGecko](https://www.coingecko.com/en/coins/komodo) it is conveniently displayed on the right had side of a coins page as below -
+
+![gecko_api](utils/img/gecko_api.png)
+
+For [CoinPaprika](https://coinpaprika.com/coin/kmd-komodo/) it is the same as displayed in a coin's URL -
+
+![paprika_api](utils/img/paprika_api.png)
+
+For [Nomics](https://nomics.com/assets/kmd-komodo/widget) you can find it under the "widget" tab for a coin. This API ID is also used to show charts in [AtomicDEX Desktop](https://atomicdex.io/en/desktop/)
+
+![nomics_api](utils/img/nomics_api.png)
+
+For Forex the API ID is the same as the [ISO 4217 currency code](https://en.wikipedia.org/wiki/ISO_4217)
+
+Add these IDs to their respective json file within the `/api_ids` folder in the format `"TICKER": "API_ID"`
+
