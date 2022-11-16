@@ -89,24 +89,6 @@
     }
   },
   {
-    "coin": "1INCH-HRC20",
-    "name": "1inch_hrc20",
-    "fname": "1Inch",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1666600000,
-    "decimals": 18,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ONE",
-        "contract_address": "0x58f1b044d8308812881a1433d9Bbeff99975e70C"
-      }
-    }
-  },
-  {
     "coin": "1INCH-KRC20",
     "name": "1inch_krc20",
     "fname": "1Inch",
@@ -246,24 +228,6 @@
       "protocol_data": {
         "platform": "HT",
         "contract_address": "0x202b4936fE1a82A4965220860aE46d7d3939Bb25"
-      }
-    }
-  },
-  {
-    "coin": "AAVE-HRC20",
-    "name": "aave_hrc20",
-    "fname": "AAVE",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1666600000,
-    "decimals": 18,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ONE",
-        "contract_address": "0xcF323Aad9E522B93F11c352CaA519Ad0E14eB40F"
       }
     }
   },
@@ -2047,24 +2011,6 @@
     }
   },
   {
-    "coin": "BUSD-HRC20",
-    "name": "busd_hrc20",
-    "fname": "Binance USD",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1666600000,
-    "decimals": 18,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ONE",
-        "contract_address": "0xE176EBE47d621b984a73036B9DA5d834411ef734"
-      }
-    }
-  },
-  {
     "coin": "BUSD-PLG20",
     "name": "busd_plg20",
     "fname": "Binance USD",
@@ -2825,24 +2771,6 @@
       "protocol_data": {
         "platform": "HT",
         "contract_address": "0x3D760a45D0887DFD89A2F5385a236B29Cb46ED2a"
-      }
-    }
-  },
-  {
-    "coin": "DAI-HRC20",
-    "name": "dai_hrc20",
-    "fname": "Dai",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1666600000,
-    "decimals": 18,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ONE",
-        "contract_address": "0xEf977d2f931C1978Db5F6747666fa1eACB0d0339"
       }
     }
   },
@@ -3635,24 +3563,6 @@
       "protocol_data": {
         "platform": "HT",
         "contract_address": "0x64FF637fB478863B7468bc97D30a5bF3A428a1fD"
-      }
-    }
-  },
-  {
-    "coin": "ETH-HRC20",
-    "name": "eth_hrc20",
-    "fname": "Ethereum",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1666600000,
-    "decimals": 18,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ONE",
-        "contract_address": "0x6983D1E6DEf3690C4d616b13597A09e6193EA013"
       }
     }
   },
@@ -5501,24 +5411,6 @@
     }
   },
   {
-    "coin": "LINK-HRC20",
-    "name": "link_hrc20",
-    "fname": "Chainlink",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1666600000,
-    "decimals": 18,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ONE",
-        "contract_address": "0x218532a12a389a4a92fC0C5Fb22901D1c19198aA"
-      }
-    }
-  },
-  {
     "coin": "LINK-KRC20",
     "name": "link_krc20",
     "fname": "Chainlink",
@@ -5989,24 +5881,6 @@
       "protocol_data": {
         "platform": "HT",
         "contract_address": "0xdB11743fe8B129b49b11236E8a715004BDabe7e5"
-      }
-    }
-  },
-  {
-    "coin": "MATIC-HRC20",
-    "name": "matic_hrc20",
-    "fname": "Polygon",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1666600000,
-    "decimals": 18,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ONE",
-        "contract_address": "0x301259f392B551CA8c592C9f676FCD2f9A0A84C5"
       }
     }
   },
@@ -7721,24 +7595,6 @@
     }
   },
   {
-    "coin": "REN-HRC20",
-    "name": "ren_hrc20",
-    "fname": "Ren",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1666600000,
-    "decimals": 18,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ONE",
-        "contract_address": "0x451E129b6045b6E4F48E7247388f21163f7743B7"
-      }
-    }
-  },
-  {
     "coin": "REN-HCO20",
     "name": "ren_hco20",
     "fname": "Ren",
@@ -8400,24 +8256,6 @@
       "protocol_data": {
         "platform": "FTM",
         "contract_address": "0xae75A438b2E0cB8Bb01Ec1E1e376De11D44477CC"
-      }
-    }
-  },
-  {
-    "coin": "SUSHI-HRC20",
-    "name": "sushi_hrc20",
-    "fname": "Sushi",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1666600000,
-    "decimals": 18,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ONE",
-        "contract_address": "0xBEC775Cb42AbFa4288dE81F387a9b1A3c4Bc552A"
       }
     }
   },
@@ -9329,24 +9167,6 @@
     }
   },
   {
-    "coin": "USDC-HRC20",
-    "name": "usdc_hrc20",
-    "fname": "USD Coin",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1666600000,
-    "decimals": 6,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ONE",
-        "contract_address": "0x985458E523dB3d53125813eD68c274899e9DfAb4"
-      }
-    }
-  },
-  {
     "coin": "USDC-KRC20",
     "name": "usdc_krc20",
     "fname": "USD Coin",
@@ -9451,24 +9271,6 @@
       "protocol_data": {
         "platform": "HT",
         "contract_address": "0xa71EdC38d189767582C38A3145b5873052c3e47a"
-      }
-    }
-  },
-  {
-    "coin": "USDT-HRC20",
-    "name": "usdt_hrc20",
-    "fname": "Tether",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1666600000,
-    "decimals": 6,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ONE",
-        "contract_address": "0x3C2B8Be99c50593081EAA2A724F0B8285F5aba8f"
       }
     }
   },
@@ -9863,24 +9665,6 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
-      }
-    }
-  },
-  {
-    "coin": "WBTC-HRC20",
-    "name": "wbtc_hrc20",
-    "fname": "Wrapped Bitcoin",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1666600000,
-    "decimals": 8,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ONE",
-        "contract_address": "0x3095c7557bCb296ccc6e363DE01b760bA031F2d9"
       }
     }
   },
