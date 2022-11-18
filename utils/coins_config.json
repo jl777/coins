@@ -212,37 +212,6 @@
             }
         ]
     },
-    "1INCH-HRC20": {
-        "coin": "1INCH-HRC20",
-        "type": "HRC-20",
-        "name": "1Inch",
-        "coinpaprika_id": "1inch-1inch",
-        "coingecko_id": "1inch",
-        "nomics_id": "1INCH",
-        "explorer_url": "https://explorer.harmony.one/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x58f1b044d8308812881a1433d9Bbeff99975e70C",
-        "parent_coin": "ONE",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://node.komodo.live:8080/harmony",
-                "gui_auth": true
-            },
-            {
-                "url": "https://api.harmony.one"
-            },
-            {
-                "url": "https://api.s0.t.hmny.io"
-            }
-        ]
-    },
     "1INCH-KRC20": {
         "coin": "1INCH-KRC20",
         "type": "KRC-20",
@@ -520,37 +489,6 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
-            }
-        ]
-    },
-    "AAVE-HRC20": {
-        "coin": "AAVE-HRC20",
-        "type": "HRC-20",
-        "name": "AAVE",
-        "coinpaprika_id": "aave-new",
-        "coingecko_id": "aave",
-        "nomics_id": "AAVE",
-        "explorer_url": "https://explorer.harmony.one/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0xcF323Aad9E522B93F11c352CaA519Ad0E14eB40F",
-        "parent_coin": "ONE",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://node.komodo.live:8080/harmony",
-                "gui_auth": true
-            },
-            {
-                "url": "https://api.harmony.one"
-            },
-            {
-                "url": "https://api.s0.t.hmny.io"
             }
         ]
     },
@@ -4767,37 +4705,6 @@
         ],
         "token_address_url": "tokentxns?a="
     },
-    "BUSD-HRC20": {
-        "coin": "BUSD-HRC20",
-        "type": "HRC-20",
-        "name": "Binance USD",
-        "coinpaprika_id": "busd-binance-usd",
-        "coingecko_id": "binance-usd",
-        "nomics_id": "BUSD",
-        "explorer_url": "https://explorer.harmony.one/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0xE176EBE47d621b984a73036B9DA5d834411ef734",
-        "parent_coin": "ONE",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://node.komodo.live:8080/harmony",
-                "gui_auth": true
-            },
-            {
-                "url": "https://api.harmony.one"
-            },
-            {
-                "url": "https://api.s0.t.hmny.io"
-            }
-        ]
-    },
     "BUSD-PLG20": {
         "coin": "BUSD-PLG20",
         "type": "Matic",
@@ -6637,37 +6544,6 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
-            }
-        ]
-    },
-    "DAI-HRC20": {
-        "coin": "DAI-HRC20",
-        "type": "HRC-20",
-        "name": "Dai",
-        "coinpaprika_id": "dai-dai",
-        "coingecko_id": "dai",
-        "nomics_id": "DAI",
-        "explorer_url": "https://explorer.harmony.one/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0xEf977d2f931C1978Db5F6747666fa1eACB0d0339",
-        "parent_coin": "ONE",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://node.komodo.live:8080/harmony",
-                "gui_auth": true
-            },
-            {
-                "url": "https://api.harmony.one"
-            },
-            {
-                "url": "https://api.s0.t.hmny.io"
             }
         ]
     },
@@ -8861,37 +8737,6 @@
             }
         ]
     },
-    "ETH-HRC20": {
-        "coin": "ETH-HRC20",
-        "type": "HRC-20",
-        "name": "Ethereum",
-        "coinpaprika_id": "eth-ethereum",
-        "coingecko_id": "ethereum",
-        "nomics_id": "ETH",
-        "explorer_url": "https://explorer.harmony.one/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x6983D1E6DEf3690C4d616b13597A09e6193EA013",
-        "parent_coin": "ONE",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://node.komodo.live:8080/harmony",
-                "gui_auth": true
-            },
-            {
-                "url": "https://api.harmony.one"
-            },
-            {
-                "url": "https://api.s0.t.hmny.io"
-            }
-        ]
-    },
     "ETH-KRC20": {
         "coin": "ETH-KRC20",
         "type": "KRC-20",
@@ -9277,25 +9122,7 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx02.firo.org:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrum-xzc/issues"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx03.firo.org:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "github": "https://github.com/firoorg/electrum-xzc/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx01.firo.org:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -12989,8 +12816,9 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "74.208.95.26:50001",
-                "protocol": "TCP",
+                "url": "electrumx2.lightningcash-coin.com:50001",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
                 "contact": [
                     {
                         "email": "merlin@lightningcash-coin.com"
@@ -13289,37 +13117,6 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
-            }
-        ]
-    },
-    "LINK-HRC20": {
-        "coin": "LINK-HRC20",
-        "type": "HRC-20",
-        "name": "Chainlink",
-        "coinpaprika_id": "link-chainlink",
-        "coingecko_id": "chainlink",
-        "nomics_id": "LINK",
-        "explorer_url": "https://explorer.harmony.one/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x218532a12a389a4a92fC0C5Fb22901D1c19198aA",
-        "parent_coin": "ONE",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://node.komodo.live:8080/harmony",
-                "gui_auth": true
-            },
-            {
-                "url": "https://api.harmony.one"
-            },
-            {
-                "url": "https://api.s0.t.hmny.io"
             }
         ]
     },
@@ -14262,37 +14059,6 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
-            }
-        ]
-    },
-    "MATIC-HRC20": {
-        "coin": "MATIC-HRC20",
-        "type": "HRC-20",
-        "name": "Polygon",
-        "coinpaprika_id": "matic-matic-network",
-        "coingecko_id": "matic-network",
-        "nomics_id": "MATIC",
-        "explorer_url": "https://explorer.harmony.one/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x301259f392B551CA8c592C9f676FCD2f9A0A84C5",
-        "parent_coin": "ONE",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://node.komodo.live:8080/harmony",
-                "gui_auth": true
-            },
-            {
-                "url": "https://api.harmony.one"
-            },
-            {
-                "url": "https://api.s0.t.hmny.io"
             }
         ]
     },
@@ -15246,9 +15012,6 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
-            },
-            {
-                "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
         "is_segwit_on": false,
@@ -18491,37 +18254,6 @@
             }
         ]
     },
-    "REN-HRC20": {
-        "coin": "REN-HRC20",
-        "type": "HRC-20",
-        "name": "Ren",
-        "coinpaprika_id": "ren-republic-protocol",
-        "coingecko_id": "republic-protocol",
-        "nomics_id": "REN",
-        "explorer_url": "https://explorer.harmony.one/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x451E129b6045b6E4F48E7247388f21163f7743B7",
-        "parent_coin": "ONE",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://node.komodo.live:8080/harmony",
-                "gui_auth": true
-            },
-            {
-                "url": "https://api.harmony.one"
-            },
-            {
-                "url": "https://api.s0.t.hmny.io"
-            }
-        ]
-    },
     "REN-HCO20": {
         "coin": "REN-HCO20",
         "type": "HecoChain",
@@ -20288,37 +20020,6 @@
             }
         ]
     },
-    "SUSHI-HRC20": {
-        "coin": "SUSHI-HRC20",
-        "type": "HRC-20",
-        "name": "Sushi",
-        "coinpaprika_id": "sushi-sushi",
-        "coingecko_id": "sushi",
-        "nomics_id": "SUSHI",
-        "explorer_url": "https://explorer.harmony.one/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0xBEC775Cb42AbFa4288dE81F387a9b1A3c4Bc552A",
-        "parent_coin": "ONE",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://node.komodo.live:8080/harmony",
-                "gui_auth": true
-            },
-            {
-                "url": "https://api.harmony.one"
-            },
-            {
-                "url": "https://api.s0.t.hmny.io"
-            }
-        ]
-    },
     "SUSHI-KRC20": {
         "coin": "SUSHI-KRC20",
         "type": "KRC-20",
@@ -21167,18 +20868,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "1.eu.tokel.electrum.dexstats.info:10077",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ],
-                "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
-            },
-            {
                 "url": "2.eu.tokel.electrum.dexstats.info:10077",
                 "contact": [
                     {
@@ -21189,18 +20878,6 @@
                     }
                 ],
                 "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
-            },
-            {
-                "url": "1.eu.tokel.electrum.dexstats.info:11077",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ]
             },
             {
                 "url": "2.eu.tokel.electrum.dexstats.info:11077",
@@ -22450,37 +22127,6 @@
             }
         ]
     },
-    "USDC-HRC20": {
-        "coin": "USDC-HRC20",
-        "type": "HRC-20",
-        "name": "USD Coin",
-        "coinpaprika_id": "usdc-usd-coin",
-        "coingecko_id": "usd-coin",
-        "nomics_id": "USDC",
-        "explorer_url": "https://explorer.harmony.one/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x985458E523dB3d53125813eD68c274899e9DfAb4",
-        "parent_coin": "ONE",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://node.komodo.live:8080/harmony",
-                "gui_auth": true
-            },
-            {
-                "url": "https://api.harmony.one"
-            },
-            {
-                "url": "https://api.s0.t.hmny.io"
-            }
-        ]
-    },
     "USDC-KRC20": {
         "coin": "USDC-KRC20",
         "type": "KRC-20",
@@ -22643,37 +22289,6 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
-            }
-        ]
-    },
-    "USDT-HRC20": {
-        "coin": "USDT-HRC20",
-        "type": "HRC-20",
-        "name": "Tether",
-        "coinpaprika_id": "usdt-tether",
-        "coingecko_id": "tether",
-        "nomics_id": "USDT",
-        "explorer_url": "https://explorer.harmony.one/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x3C2B8Be99c50593081EAA2A724F0B8285F5aba8f",
-        "parent_coin": "ONE",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://node.komodo.live:8080/harmony",
-                "gui_auth": true
-            },
-            {
-                "url": "https://api.harmony.one"
-            },
-            {
-                "url": "https://api.s0.t.hmny.io"
             }
         ]
     },
@@ -23559,37 +23174,6 @@
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
-            }
-        ]
-    },
-    "WBTC-HRC20": {
-        "coin": "WBTC-HRC20",
-        "type": "HRC-20",
-        "name": "Wrapped Bitcoin",
-        "coinpaprika_id": "wbtc-wrapped-bitcoin",
-        "coingecko_id": "wrapped-bitcoin",
-        "nomics_id": "WBTC",
-        "explorer_url": "https://explorer.harmony.one/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x3095c7557bCb296ccc6e363DE01b760bA031F2d9",
-        "parent_coin": "ONE",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://node.komodo.live:8080/harmony",
-                "gui_auth": true
-            },
-            {
-                "url": "https://api.harmony.one"
-            },
-            {
-                "url": "https://api.s0.t.hmny.io"
             }
         ]
     },
@@ -24857,9 +24441,9 @@
         "coinpaprika_id": "zec-zcash",
         "coingecko_id": "zcash",
         "nomics_id": "ZEC",
-        "explorer_url": "https://explorer.zcha.in/",
-        "explorer_tx_url": "transactions/",
-        "explorer_address_url": "accounts/",
+        "explorer_url": "https://blockchair.com/zcash/",
+        "explorer_tx_url": "transaction/",
+        "explorer_address_url": "",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -24867,6 +24451,18 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "electrum1.cipig.net:10058",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30058"
+            },
             {
                 "url": "electrum2.cipig.net:10058",
                 "contact": [
@@ -24892,7 +24488,8 @@
                 "ws_url": "electrum3.cipig.net:30058"
             },
             {
-                "url": "electrum1.cipig.net:10058",
+                "url": "electrum1.cipig.net:20058",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "cipi@komodoplatform.com"
@@ -24900,8 +24497,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30058"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:20058",
@@ -24917,18 +24513,6 @@
             },
             {
                 "url": "electrum3.cipig.net:20058",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.cipig.net:20058",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -27724,15 +27308,6 @@
         "electrum": [
             {
                 "url": "electrs.electroncash.de:60002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
-                "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
