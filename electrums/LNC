@@ -1,7 +1,8 @@
 [
   {
-    "url": "74.208.95.26:50001",
-    "protocol": "TCP",
+    "url": "electrumx1.lightningcash-coin.com:50002",
+    "protocol": "SSL",
+    "disable_cert_verification": true,
     "contact": [
       { "email": "merlin@lightningcash-coin.com" },
       { "discord": "merlin#7125" },
@@ -9,8 +10,9 @@
     ]
   },
   {
-    "url": "74.56.11.23:50001",
-    "protocol": "TCP",
+    "url": "electrumx2.lightningcash-coin.com:50001",
+    "protocol": "SSL",
+    "disable_cert_verification": true,
     "contact": [
       { "email": "merlin@lightningcash-coin.com" },
       { "discord": "merlin#7125" },
