@@ -7973,6 +7973,12 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "lenoir.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:11019"
+            },
+            {
                 "url": "electrum1.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -7983,12 +7989,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "electrum2.egulden.org:50004"
-            },
-            {
-                "url": "lenoir.ecoincore.com:11017",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "lenoir.ecoincore.com:11019"
             }
         ]
     },
@@ -9121,6 +9121,24 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
+            {
+                "url": "electrumx01.firo.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrum-xzc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx02.firo.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrum-xzc/issues"
+                    }
+                ]
+            },
             {
                 "url": "electrumx03.firo.org:50001",
                 "protocol": "TCP",
@@ -12816,6 +12834,22 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx1.lightningcash-coin.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "merlin@lightningcash-coin.com"
+                    },
+                    {
+                        "discord": "merlin#7125"
+                    },
+                    {
+                        "twitter": "LightningCash_1"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx2.lightningcash-coin.com:50001",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -15012,6 +15046,9 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
+            },
+            {
+                "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
         "is_segwit_on": false,
@@ -15997,11 +16034,11 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx.live:50022",
+                "url": "txserver.live:50022",
                 "protocol": "SSL"
             },
             {
-                "url": "txserver.live:50022",
+                "url": "electrumx.live:50022",
                 "protocol": "SSL"
             }
         ]
@@ -20880,7 +20917,31 @@
                 "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
             },
             {
+                "url": "1.eu.tokel.electrum.dexstats.info:10077",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
+            },
+            {
                 "url": "2.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            },
+            {
+                "url": "1.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -23044,6 +23105,58 @@
             }
         ],
         "asset": "VRSC"
+    },
+    "GRMS": {
+        "coin": "GRMS",
+        "type": "Smart Chain",
+        "name": "GRMS",
+        "coinpaprika_id": "grms-grms",
+        "coingecko_id": "test-coin",
+        "nomics_id": "GRMS",
+        "explorer_url": "https://explorer.grms.pw/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum.grms.pw:17485",
+                "contact": [
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.grms.pw:17485",
+                "contact": [
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.grms.pw:17485",
+                "contact": [
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.grms.pw:17485",
+                "contact": [
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            }
+        ],
+        "asset": "GRMS"
     },
     "VTC": {
         "coin": "VTC",
@@ -27308,6 +27421,15 @@
         "electrum": [
             {
                 "url": "electrs.electroncash.de:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
+                "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
