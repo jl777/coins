@@ -3989,10 +3989,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "66.172.33.175:50001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "bsty-bkp.coinmunity.gold:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -7973,12 +7969,6 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "lenoir.ecoincore.com:11017",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "lenoir.ecoincore.com:11019"
-            },
-            {
                 "url": "electrum1.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -7989,6 +7979,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "electrum2.egulden.org:50004"
+            },
+            {
+                "url": "lenoir.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:11019"
             }
         ]
     },
@@ -11792,7 +11788,7 @@
         "coin": "JPYC-AVX20",
         "type": "AVX-20",
         "name": "JPY Coin",
-        "coinpaprika_id": "fetch-ai",
+        "coinpaprika_id": "jpyc-jpy-coin-v2",
         "coingecko_id": "jpy-coin",
         "nomics_id": "JPYC2",
         "explorer_url": "https://cchain.explorer.avax.network/",
@@ -11821,7 +11817,7 @@
         "coin": "JPYC-PLG20",
         "type": "Matic",
         "name": "JPY Coin",
-        "coinpaprika_id": "test-coin",
+        "coinpaprika_id": "jpyc-jpy-coin-v2",
         "coingecko_id": "jpy-coin",
         "nomics_id": "JPYC2",
         "explorer_url": "https://polygonscan.com/",
@@ -15046,9 +15042,6 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
-            },
-            {
-                "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
         "is_segwit_on": false,
@@ -16034,11 +16027,11 @@
                 "protocol": "TCP"
             },
             {
-                "url": "txserver.live:50022",
+                "url": "electrumx.live:50022",
                 "protocol": "SSL"
             },
             {
-                "url": "electrumx.live:50022",
+                "url": "txserver.live:50022",
                 "protocol": "SSL"
             }
         ]
@@ -20917,31 +20910,7 @@
                 "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
             },
             {
-                "url": "1.eu.tokel.electrum.dexstats.info:10077",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ],
-                "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
-            },
-            {
                 "url": "2.eu.tokel.electrum.dexstats.info:11077",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ]
-            },
-            {
-                "url": "1.eu.tokel.electrum.dexstats.info:11077",
                 "protocol": "SSL",
                 "contact": [
                     {
