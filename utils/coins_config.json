@@ -585,12 +585,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "ws_url": "electrumx-four.artbyte.live:50013"
-            },
-            {
-                "url": "electrumx-three.artbyte.live:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ]
     },
@@ -3989,6 +3983,10 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "66.172.33.175:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "bsty-bkp.coinmunity.gold:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -5364,17 +5362,6 @@
             },
             {
                 "url": "electrum1.mooo.com:10007",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.mooo.com:10007",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
@@ -7160,29 +7147,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "electrumx1.diminutivecoin.com:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "support@diminutivecoin.com"
-                    },
-                    {
-                        "twitter": "coin_dimi"
-                    },
-                    {
-                        "reddit": "DiminutiveCoin_DIMI"
-                    },
-                    {
-                        "github": "MadCatMining"
-                    },
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ],
-                "ws_url": "electrumx1.diminutivecoin.com:50013"
-            },
             {
                 "url": "electrumx2.diminutivecoin.com:50012",
                 "protocol": "SSL",
@@ -11064,6 +11028,38 @@
             }
         ]
     },
+    "ILN": {
+        "coin": "ILN",
+        "type": "Smart Chain",
+        "name": "Ilien",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "ILNPOS",
+        "explorer_url": "https://explorer.ilien.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum2.ilien.io:65011",
+                "contact": [
+                    {
+                        "email": "support@chainmake.rs"
+                    },
+                    {
+                        "discord": "siu - Chainmakers#3920"
+                    }
+                ],
+                "ws_url": "electrum2.ilien.io:30069"
+            }
+        ],
+        "asset": "ILN"
+    },
     "ILN-BEP20": {
         "coin": "ILN-BEP20",
         "type": "BEP-20",
@@ -12681,33 +12677,6 @@
                 "url": "electrum3.cipig.net:20067",
                 "disable_cert_verification": false,
                 "protocol": "SSL"
-            }
-        ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
-    },
-    "LCC": {
-        "coin": "LCC",
-        "type": "UTXO",
-        "name": "Litecoin Cash",
-        "coinpaprika_id": "lcc-litecoin-cash",
-        "coingecko_id": "litecoin-cash",
-        "nomics_id": "LCC",
-        "explorer_url": "https://chainz.cryptoid.info/lcc/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "188.166.117.139:50001",
-                "protocol": "TCP"
             }
         ],
         "is_segwit_on": false,
@@ -15440,17 +15409,6 @@
                         "discord": "honglu69#5911"
                     }
                 ]
-            },
-            {
-                "url": "electrum2.mooo.com:10001",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ]
             }
         ]
     },
@@ -17252,16 +17210,8 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx.live:50010",
-                "protocol": "TCP"
-            },
-            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL"
             },
             {
                 "url": "txserver.live:50002",
@@ -19037,50 +18987,6 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x02dd18E4981DA3fC7363fE56f3B81D1860b44ea7",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://node.komodo.live:8080/binance",
-                "gui_auth": true
-            },
-            {
-                "url": "http://bsc1.cipig.net:8655"
-            },
-            {
-                "url": "http://bsc2.cipig.net:8655"
-            },
-            {
-                "url": "http://bsc3.cipig.net:8655"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655"
-            },
-            {
-                "url": "https://bsc2.cipig.net:18655"
-            },
-            {
-                "url": "https://bsc3.cipig.net:18655"
-            }
-        ],
-        "token_address_url": "tokentxns?a="
-    },
-    "SMTF-OLD": {
-        "coin": "SMTF-OLD",
-        "type": "BEP-20",
-        "name": "SmartFi Old",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0xF07578E0B5226A99B0D530Ef4360DF4176f2820d",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
@@ -27687,7 +27593,54 @@
         ],
         "electrum": [
             {
-                "url": "zombie.sirseven.me:10033"
+                "url": "zombie.sirseven.me:10033",
+                "contact": [
+                    {
+                        "email": "igor@komodoplatform.com"
+                    },
+                    {
+                        "discord": "Sir Seven#7158"
+                    }
+                ],
+                "ws_url": "zombie.sirseven.me:30058"
+            },
+            {
+                "url": "zombie.sirseven.me:10133",
+                "contact": [
+                    {
+                        "email": "igor@komodoplatform.com"
+                    },
+                    {
+                        "discord": "Sir Seven#7158"
+                    }
+                ],
+                "ws_url": "zombie.sirseven.me:30059"
+            },
+            {
+                "url": "zombie.sirseven.me:20033",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "igor@komodoplatform.com"
+                    },
+                    {
+                        "discord": "Sir Seven#7158"
+                    }
+                ],
+                "ws_url": "zombie.sirseven.me:30058"
+            },
+            {
+                "url": "zombie.sirseven.me:20133",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "igor@komodoplatform.com"
+                    },
+                    {
+                        "discord": "Sir Seven#7158"
+                    }
+                ],
+                "ws_url": "zombie.sirseven.me:30059"
             }
         ],
         "asset": "ZOMBIE"
@@ -27817,16 +27770,8 @@
                 "url": "electrumx1.actioncoin.com:10001"
             },
             {
-                "url": "electrumx2.actioncoin.com:10001"
-            },
-            {
                 "url": "electrumx1.actioncoin.com:30001",
                 "ws_url": "electrumx1.actioncoin.com:20001",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrumx2.actioncoin.com:30001",
-                "ws_url": "electrumx2.actioncoin.com:20001",
                 "protocol": "SSL"
             }
         ],
