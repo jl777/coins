@@ -1,3 +1,52 @@
 [
-      {"url":"zombie.sirseven.me:10033"}
+   {
+      "url":"zombie.sirseven.me:10033",
+      "contact":[
+         {
+            "email":"igor@komodoplatform.com"
+         },
+         {
+            "discord":"Sir Seven#7158"
+         }
+      ],
+      "ws_url":"zombie.sirseven.me:30058"
+   },
+   {
+      "url":"zombie.sirseven.me:20033",
+      "protocol":"SSL",
+      "contact":[
+         {
+            "email":"igor@komodoplatform.com"
+         },
+         {
+            "discord":"Sir Seven#7158"
+         }
+      ],
+      "ws_url":"zombie.sirseven.me:30058"
+   },
+   {
+      "url":"zombie.sirseven.me:10133",
+      "contact":[
+         {
+            "email":"igor@komodoplatform.com"
+         },
+         {
+            "discord":"Sir Seven#7158"
+         }
+      ],
+      "ws_url":"zombie.sirseven.me:30059"
+   },
+   {
+      "url":"zombie.sirseven.me:20133",
+      "protocol":"SSL",
+      "contact":[
+         {
+            "email":"igor@komodoplatform.com"
+         },
+         {
+            "discord":"Sir Seven#7158"
+         }
+      ],
+      "ws_url":"zombie.sirseven.me:30059"
+   }
 ]
