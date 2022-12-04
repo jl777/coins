@@ -7488,7 +7488,9 @@
     "avg_blocktime": 0.53,
     "protocol": {
       "type": "QTUM"
-    }
+    },
+    "derivation_path": "m/44'/2301'",
+    "trezor_coin": "Qtum"
   },
   {
     "coin": "QTUM-segwit",
