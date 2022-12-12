@@ -1612,14 +1612,6 @@
                         "email": "alamshafil@pm.me"
                     }
                 ]
-            },
-            {
-                "url": "electrum-us.avn.network:50001",
-                "contact": [
-                    {
-                        "email": "alamshafil@pm.me"
-                    }
-                ]
             }
         ]
     },
@@ -5065,12 +5057,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "holland.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "holland.ecoincore.com:34335"
-            },
             {
                 "url": "lenoir.ecoincore.com:34333",
                 "protocol": "SSL",
@@ -15310,6 +15296,11 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum.nav.community:40002",
+                "protocol": "SSL",
+                "ws_url": "electrum.nav.community:40004"
+            },
+            {
                 "url": "electrum2.nav.community:40002",
                 "protocol": "SSL",
                 "ws_url": "electrum2.nav.community:40004"
@@ -17264,8 +17255,16 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP"
+            },
+            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "txserver.live:50002",
@@ -20833,14 +20832,6 @@
         "wallet_only": false,
         "sign_message_prefix": "",
         "electrum": [
-            {
-                "url": "1.eu.thc.electrum.dexstats.info:10020",
-                "contact": [
-                    {
-                        "discord": "CHMEX#0686"
-                    }
-                ]
-            },
             {
                 "url": "2.eu.thc.electrum.dexstats.info:10020",
                 "contact": [
@@ -27904,8 +27895,16 @@
                 "url": "electrumx1.actioncoin.com:10001"
             },
             {
+                "url": "electrumx2.actioncoin.com:10001"
+            },
+            {
                 "url": "electrumx1.actioncoin.com:30001",
                 "ws_url": "electrumx1.actioncoin.com:20001",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumx2.actioncoin.com:30001",
+                "ws_url": "electrumx2.actioncoin.com:20001",
                 "protocol": "SSL"
             }
         ],
