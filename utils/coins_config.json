@@ -7963,6 +7963,18 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "lenoir.ecoincore.com:11019"
+            },
+            {
+                "url": "electrum1.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrum1.egulden.org:50004"
+            },
+            {
+                "url": "electrum2.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrum2.egulden.org:50004"
             }
         ]
     },
@@ -15025,6 +15037,9 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
+            },
+            {
+                "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
         "is_segwit_on": false,
@@ -19052,6 +19067,62 @@
             }
         ],
         "token_address_url": "tokentxns?a="
+    },
+    "SIX": {
+        "coin": "SIX",
+        "type": "Smart Chain",
+        "name": "End Time Currency",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": [],
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum1.sixcoin.site:10001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "admin@sixcoin.site"
+                    },
+                    {
+                        "discord": "Aniquel#1721"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.sixcoin.site:10001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "admin@godstabernacle.xyz"
+                    },
+                    {
+                        "discord": "Aniquel#1721"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.sixcoin.site:10001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "ebarimjesus1@gmail.com"
+                    },
+                    {
+                        "discord": "Aniquel#1721"
+                    }
+                ]
+            }
+        ],
+        "asset": "SIX"
     },
     "SMTF-v2": {
         "coin": "SMTF-v2",
