@@ -2,17 +2,37 @@
     {
         "url": "electrumx1.actioncoin.com:30001",
         "ws_url": "electrumx1.actioncoin.com:20001",
-        "protocol": "SSL"
+        "protocol": "SSL",
+        "contact": [
+            {
+                "email": "support@actioncoin.com"
+            }
+        ]
     },
     {
         "url": "electrumx2.actioncoin.com:30001",
         "ws_url": "electrumx2.actioncoin.com:20001",
-        "protocol": "SSL"
+        "protocol": "SSL",
+        "contact": [
+            {
+                "email": "support@actioncoin.com"
+            }
+        ]
     },  
     {
-        "url": "electrumx1.actioncoin.com:10001"
+        "url": "electrumx1.actioncoin.com:10001",
+        "contact": [
+            {
+                "email": "support@actioncoin.com"
+            }
+        ]
     },
     {
-        "url": "electrumx2.actioncoin.com:10001"
+        "url": "electrumx2.actioncoin.com:10001",
+        "contact": [
+            {
+                "email": "support@actioncoin.com"
+            }
+        ]
     }
 ]
