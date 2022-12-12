@@ -1612,6 +1612,14 @@
                         "email": "alamshafil@pm.me"
                     }
                 ]
+            },
+            {
+                "url": "electrum-us.avn.network:50001",
+                "contact": [
+                    {
+                        "email": "alamshafil@pm.me"
+                    }
+                ]
             }
         ]
     },
@@ -7771,7 +7779,7 @@
         "coin": "DOI",
         "type": "UTXO",
         "name": "Doichain",
-        "coinpaprika_id": "doi-doicoin",
+        "coinpaprika_id": "doi-doichain",
         "coingecko_id": "doichain",
         "nomics_id": "DOI",
         "explorer_url": "https://explorer.doichain.org/",
@@ -7963,18 +7971,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "lenoir.ecoincore.com:11019"
-            },
-            {
-                "url": "electrum1.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "electrum1.egulden.org:50004"
-            },
-            {
-                "url": "electrum2.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "electrum2.egulden.org:50004"
             }
         ]
     },
@@ -12811,7 +12807,7 @@
         "coin": "LNC",
         "type": "UTXO",
         "name": "LightningCash",
-        "coinpaprika_id": "lnc-lightningcash",
+        "coinpaprika_id": "ltncg-lightningcash-gold",
         "coingecko_id": "lightningcash-gold",
         "nomics_id": "LNC3",
         "explorer_url": "https://explorer.lightningcash-coin.com/",
@@ -15037,9 +15033,6 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
-            },
-            {
-                "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
         "is_segwit_on": false,
@@ -15277,6 +15270,59 @@
             }
         ],
         "asset": "MSHARK"
+    },
+    "NATURE": {
+        "coin": "NATURE",
+        "type": "Smart Chain",
+        "name": "Nature Digital Currency",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://explorer.gf4n.xyz/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrum1.gf4n.xyz:10002",
+                "contact": [
+                    {
+                        "email": "admin@gf4n.xyz"
+                    },
+                    {
+                        "discord": "Aniquel#1721"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.gf4n.xyz:10002",
+                "contact": [
+                    {
+                        "email": "admin@gf4n.xyz"
+                    },
+                    {
+                        "discord": "Aniquel#1721"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.gf4n.xyz:10002",
+                "contact": [
+                    {
+                        "email": "admin@gf4n.xyz"
+                    },
+                    {
+                        "discord": "Aniquel#1721"
+                    }
+                ]
+            }
+        ],
+        "asset": "NATURE"
     },
     "NAV": {
         "coin": "NAV",
@@ -19075,7 +19121,7 @@
         "coinpaprika_id": "",
         "coingecko_id": "",
         "nomics_id": "",
-        "explorer_url": [],
+        "explorer_url": "https://explorer.sixcoin.site/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -27892,20 +27938,40 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx1.actioncoin.com:10001"
+                "url": "electrumx1.actioncoin.com:10001",
+                "contact": [
+                    {
+                        "email": "support@actioncoin.com"
+                    }
+                ]
             },
             {
-                "url": "electrumx2.actioncoin.com:10001"
+                "url": "electrumx2.actioncoin.com:10001",
+                "contact": [
+                    {
+                        "email": "support@actioncoin.com"
+                    }
+                ]
             },
             {
                 "url": "electrumx1.actioncoin.com:30001",
                 "ws_url": "electrumx1.actioncoin.com:20001",
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@actioncoin.com"
+                    }
+                ]
             },
             {
                 "url": "electrumx2.actioncoin.com:30001",
                 "ws_url": "electrumx2.actioncoin.com:20001",
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@actioncoin.com"
+                    }
+                ]
             }
         ],
         "asset": "ACTN"
