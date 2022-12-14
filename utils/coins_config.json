@@ -4097,7 +4097,9 @@
         "is_segwit_on": false,
         "address_format": {
             "format": "standard"
-        }
+        },
+        "derivation_path": "m/44'/0'",
+        "trezor_coin": "Bitcoin"
     },
     "BTC-BEP20": {
         "coin": "BTC-BEP20",
@@ -6686,7 +6688,9 @@
                     }
                 ]
             }
-        ]
+        ],
+        "derivation_path": "m/44'/5'",
+        "trezor_coin": "Dash"
     },
     "DDD-ERC20": {
         "coin": "DDD-ERC20",
@@ -6997,7 +7001,9 @@
         "is_segwit_on": false,
         "address_format": {
             "format": "standard"
-        }
+        },
+        "derivation_path": "m/44'/20'",
+        "trezor_coin": "DigiByte"
     },
     "DGC": {
         "coin": "DGC",
@@ -7545,7 +7551,9 @@
                     }
                 ]
             }
-        ]
+        ],
+        "derivation_path": "m/44'/3'",
+        "trezor_coin": "Dogecoin"
     },
     "DOGE-BEP20": {
         "coin": "DOGE-BEP20",
@@ -12213,7 +12221,9 @@
             }
         ],
         "is_claimable": true,
-        "minimal_claim_amount": "10"
+        "minimal_claim_amount": "10",
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "KMD-BEP20": {
         "coin": "KMD-BEP20",
@@ -13681,7 +13691,9 @@
         "is_segwit_on": false,
         "address_format": {
             "format": "standard"
-        }
+        },
+        "derivation_path": "m/44'/2'",
+        "trezor_coin": "Litecoin"
     },
     "LYNX": {
         "coin": "LYNX",
@@ -15130,7 +15142,9 @@
                 ]
             }
         ],
-        "asset": "MORTY"
+        "asset": "MORTY",
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "MOVR": {
         "coin": "MOVR",
@@ -15748,7 +15762,9 @@
         "is_segwit_on": false,
         "address_format": {
             "format": "standard"
-        }
+        },
+        "derivation_path": "m/44'/7'",
+        "trezor_coin": "Namecoin"
     },
     "NVC": {
         "coin": "NVC",
@@ -16049,41 +16065,6 @@
             }
         ],
         "forex_id": "NZD"
-    },
-    "NYAN": {
-        "coin": "NYAN",
-        "type": "UTXO",
-        "name": "Nyancoin",
-        "coinpaprika_id": "nyan-nyancoin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "NYAN",
-        "explorer_url": "https://www.nyanchain.com/",
-        "explorer_tx_url": "tx.nyan?",
-        "explorer_address_url": "ad.nyan?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrumx.live:50020",
-                "protocol": "TCP"
-            },
-            {
-                "url": "txserver.live:50020",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.live:50022",
-                "protocol": "SSL"
-            },
-            {
-                "url": "txserver.live:50022",
-                "protocol": "SSL"
-            }
-        ]
     },
     "OCEAN-BEP20": {
         "coin": "OCEAN-BEP20",
@@ -17301,16 +17282,8 @@
         "sign_message_prefix": "",
         "electrum": [
             {
-                "url": "electrumx.live:50010",
-                "protocol": "TCP"
-            },
-            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL"
             },
             {
                 "url": "txserver.live:50002",
@@ -18111,7 +18084,9 @@
         "is_segwit_on": false,
         "address_format": {
             "format": "standard"
-        }
+        },
+        "derivation_path": "m/44'/2301'",
+        "trezor_coin": "Qtum"
     },
     "QTUM-ERC20": {
         "coin": "QTUM-ERC20",
@@ -18601,7 +18576,9 @@
                 ]
             }
         ],
-        "asset": "RICK"
+        "asset": "RICK",
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "RLC-ERC20": {
         "coin": "RLC-ERC20",
@@ -23228,7 +23205,9 @@
         "is_segwit_on": false,
         "address_format": {
             "format": "standard"
-        }
+        },
+        "derivation_path": "m/44'/28'",
+        "trezor_coin": "Vertcoin"
     },
     "WAVES-BEP20": {
         "coin": "WAVES-BEP20",
