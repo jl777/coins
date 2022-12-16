@@ -9211,25 +9211,7 @@
                 ]
             },
             {
-                "url": "electrumx2.fujicoin.org:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx1.fujicoin.org:50003",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.fujicoin.org:50003",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -27446,15 +27428,6 @@
         "electrum": [
             {
                 "url": "electrs.electroncash.de:60002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
-                "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
