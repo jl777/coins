@@ -7969,6 +7969,12 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrum3.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrum3.egulden.org:50004"
+            },
+            {
                 "url": "holland.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -15267,59 +15273,6 @@
         ],
         "asset": "MSHARK"
     },
-    "NATURE": {
-        "coin": "NATURE",
-        "type": "Smart Chain",
-        "name": "Nature Digital Currency",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://explorer.gf4n.xyz/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrum1.gf4n.xyz:10002",
-                "contact": [
-                    {
-                        "email": "admin@gf4n.xyz"
-                    },
-                    {
-                        "discord": "Aniquel#1721"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.gf4n.xyz:10002",
-                "contact": [
-                    {
-                        "email": "admin@gf4n.xyz"
-                    },
-                    {
-                        "discord": "Aniquel#1721"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.gf4n.xyz:10002",
-                "contact": [
-                    {
-                        "email": "admin@gf4n.xyz"
-                    },
-                    {
-                        "discord": "Aniquel#1721"
-                    }
-                ]
-            }
-        ],
-        "asset": "NATURE"
-    },
     "NAV": {
         "coin": "NAV",
         "type": "UTXO",
@@ -16047,6 +16000,41 @@
             }
         ],
         "forex_id": "NZD"
+    },
+    "NYAN": {
+        "coin": "NYAN",
+        "type": "UTXO",
+        "name": "Nyancoin",
+        "coinpaprika_id": "nyan-nyancoin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "NYAN",
+        "explorer_url": "https://www.nyanchain.com/",
+        "explorer_tx_url": "tx.nyan?",
+        "explorer_address_url": "ad.nyan?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "",
+        "electrum": [
+            {
+                "url": "electrumx.live:50020",
+                "protocol": "TCP"
+            },
+            {
+                "url": "txserver.live:50020",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.live:50022",
+                "protocol": "SSL"
+            },
+            {
+                "url": "txserver.live:50022",
+                "protocol": "SSL"
+            }
+        ]
     },
     "OCEAN-BEP20": {
         "coin": "OCEAN-BEP20",
@@ -17264,8 +17252,16 @@
         "sign_message_prefix": "",
         "electrum": [
             {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP"
+            },
+            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "txserver.live:50002",
@@ -19072,62 +19068,6 @@
             }
         ],
         "token_address_url": "tokentxns?a="
-    },
-    "SIX": {
-        "coin": "SIX",
-        "type": "Smart Chain",
-        "name": "End Time Currency",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://explorer.sixcoin.site/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrum1.sixcoin.site:10001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "admin@sixcoin.site"
-                    },
-                    {
-                        "discord": "Aniquel#1721"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.sixcoin.site:10001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "admin@godstabernacle.xyz"
-                    },
-                    {
-                        "discord": "Aniquel#1721"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.sixcoin.site:10001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "ebarimjesus1@gmail.com"
-                    },
-                    {
-                        "discord": "Aniquel#1721"
-                    }
-                ]
-            }
-        ],
-        "asset": "SIX"
     },
     "SMTF-v2": {
         "coin": "SMTF-v2",
@@ -23762,11 +23702,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "la.ask.systems:52138",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "xrg_ful.googol.cash:52138",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -27428,6 +27363,15 @@
         "electrum": [
             {
                 "url": "electrs.electroncash.de:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
+                "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
