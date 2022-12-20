@@ -18,7 +18,7 @@ electrum_coins = [f for f in os.listdir(f"{repo_path}/electrums") if os.path.isf
 ethereum_coins = [f for f in os.listdir(f"{repo_path}/ethereum") if os.path.isfile(f"{repo_path}/ethereum/{f}")]
 explorer_coins = [f for f in os.listdir(f"{repo_path}/explorers") if os.path.isfile(f"{repo_path}/explorers/{f}")]
 
-# get_electrums_report()
+get_electrums_report()
 with open("electrum_scan_report.json", "r") as f:
     electrum_scan_report = json.load(f)
 
