@@ -113,7 +113,13 @@ class CoinConfig:
             }
         })
         if self.coin_type in ["UTXO", "QRC20", "BCH", "QTUM"]:
-            self.data[self.ticker].update({"sign_message_prefix": ""})
+            try:
+                if self.coin_data["sign_message_prefix"]:
+                    self.data[self.ticker].update({"sign_message_prefix": coin_data["sign_message_prefix"]})
+                else:
+                    self.data[self.ticker].update({"sign_message_prefix": ""})
+            except KeyError as e:
+                print(self.ticker + ': Sign message was not found\n')
             if self.ticker in ["BCH", "tBCH"]:
                 self.data[self.ticker].update({
                     "type": "UTXO",
@@ -239,7 +245,6 @@ class CoinConfig:
             self.data[self.ticker].update({
                 "asset": self.coin_data["asset"]
             })
-
 
     def get_hd_info(self):
         if "derivation_path" in self.coin_data:
