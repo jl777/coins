@@ -566,7 +566,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
@@ -1431,7 +1430,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "AuroraCoin Signed Message:\n",
         "electrum": [
             {
                 "url": "electrumx.aur.ewmcx.info:50002",
@@ -1603,7 +1602,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrum-eu.avn.network:50001",
@@ -1735,7 +1733,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10057",
@@ -1932,7 +1929,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Aryacoin Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.aryacoin.io:2052",
@@ -2604,7 +2601,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Bitcoin Signed Message:\n",
         "bchd_urls": [
             "https://bchd.fountainhead.cash:443"
         ],
@@ -3082,7 +3079,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10012",
@@ -3219,7 +3216,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "BlackCoin Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.blackcoin.nl:10001",
@@ -3343,7 +3340,6 @@
         "is_testnet": true,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrum1.blackcoin.nl:10011",
@@ -3715,7 +3711,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10007",
@@ -3980,7 +3976,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "66.172.33.175:50001",
@@ -4019,7 +4014,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Bitcoin Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10000",
@@ -4160,7 +4155,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "BitcoinZ Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.btcz.rocks:50001",
@@ -4241,7 +4236,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrumx6.scalaris.info:20001",
@@ -4477,7 +4471,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "btx-electrumx.coinsmunity.com:50002",
@@ -4973,7 +4966,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10029",
@@ -5065,7 +5058,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Canada eCoin Signed Message:\n",
         "electrum": [
             {
                 "url": "lenoir.ecoincore.com:34333",
@@ -5343,7 +5336,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrum.shorelinecrypto.com:10007",
@@ -5395,7 +5387,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10053",
@@ -5708,7 +5699,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrumx.cryptocollider.com:10001",
@@ -6230,7 +6221,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10008",
@@ -6614,7 +6605,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10061",
@@ -6831,7 +6821,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10006",
@@ -6923,7 +6913,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "DigiByte Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10059",
@@ -7020,7 +7010,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Digitalcoin Signed Message:\n",
         "electrum": [
             {
                 "url": "electrumx.dgc.ewmcx.org:50001",
@@ -7156,7 +7146,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrumx1.diminutivecoin.com:50012",
@@ -7253,7 +7242,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "contract_address": "0x2c660b0d4d53382aeef855d3010d697970fa0bd5",
         "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
@@ -7477,7 +7465,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Dogecoin Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10060",
@@ -7770,7 +7758,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "1.eu.dp.electrum.dexstats.info:10021",
@@ -7798,7 +7786,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "pink-deer-69.doi.works:50001",
@@ -7875,7 +7862,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10052",
@@ -7966,7 +7952,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrum3.egulden.org:50002",
@@ -8215,7 +8200,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Einsteinium Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10062",
@@ -9115,7 +9100,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Firo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrumx01.firo.org:50001",
@@ -9205,7 +9190,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "FujiCoin Signed Message:\n",
         "electrum": [
             {
                 "url": "electrumx1.fujicoin.org:50001",
@@ -9217,7 +9202,25 @@
                 ]
             },
             {
+                "url": "electrumx2.fujicoin.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx1.fujicoin.org:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.fujicoin.org:50003",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -9484,7 +9487,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Feathercoin Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10054",
@@ -9840,7 +9843,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10022",
@@ -10245,7 +10248,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "GroestCoin Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum10.groestlcoin.org:50001",
@@ -10578,7 +10581,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10009",
@@ -10996,7 +10999,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "il8p.electrumx.transcenders.name:50002",
@@ -11061,7 +11063,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum2.ilien.io:65011",
@@ -12019,7 +12021,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10004",
@@ -12133,7 +12135,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10001",
@@ -12441,7 +12443,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10024",
@@ -12577,7 +12579,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10019",
@@ -12669,7 +12671,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "LBRYcrd Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10067",
@@ -12816,7 +12818,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrumx1.lightningcash-coin.com:50002",
@@ -13398,7 +13399,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrumx.widecoin.org:50001",
@@ -13601,7 +13601,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Litecoin Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10063",
@@ -13698,7 +13698,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Lynx Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum5.getlynx.io:50002",
@@ -14228,7 +14228,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10023",
@@ -14320,7 +14320,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10016",
@@ -14412,7 +14412,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10015",
@@ -15026,11 +15026,8 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Monacoin Signed Message:\n",
         "electrum": [
-            {
-                "url": "103.125.218.246:50001"
-            },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
             }
@@ -15055,7 +15052,7 @@
         "is_testnet": true,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10018",
@@ -15196,7 +15193,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10013",
@@ -15273,6 +15270,48 @@
         ],
         "asset": "MSHARK"
     },
+    "NATURE": {
+        "coin": "NATURE",
+        "type": "Smart Chain",
+        "name": "Nature Digital Currency",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://explorer.gf4n.xyz/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "electrum": [
+            {
+                "url": "electrum1.gf4n.xyz:10002",
+                "contact": [
+                    {
+                        "email": "admin@gf4n.xyz"
+                    },
+                    {
+                        "discord": "Aniquel#1721"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.gf4n.xyz:10002",
+                "contact": [
+                    {
+                        "email": "admin@gf4n.xyz"
+                    },
+                    {
+                        "discord": "Aniquel#1721"
+                    }
+                ]
+            }
+        ],
+        "asset": "NATURE"
+    },
     "NAV": {
         "coin": "NAV",
         "type": "UTXO",
@@ -15288,17 +15327,12 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Navcoin Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum.nav.community:40002",
                 "protocol": "SSL",
                 "ws_url": "electrum.nav.community:40004"
-            },
-            {
-                "url": "electrum2.nav.community:40002",
-                "protocol": "SSL",
-                "ws_url": "electrum2.nav.community:40004"
             },
             {
                 "url": "electrum3.nav.community:40002",
@@ -15415,7 +15449,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrum.shorelinecrypto.com:10001",
@@ -15588,7 +15621,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10036",
@@ -15677,7 +15710,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "46.229.238.187:57001"
@@ -15716,7 +15748,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Novacoin Signed Message:\n",
         "electrum": [
             {
                 "url": "electrumx.nvc.ewmcx.org:50002",
@@ -15823,7 +15855,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "contract_address": "0xffb67c56c42b71144ae394dbfe298d863fbb3b9e",
         "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
@@ -16016,7 +16047,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrumx.live:50020",
@@ -16362,7 +16392,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10010",
@@ -16760,7 +16790,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10070",
@@ -16852,7 +16881,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrum.thepandacoin.net:50002",
@@ -16976,7 +17004,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "allingas.peercoinexplorer.net:50002",
@@ -17249,7 +17276,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrumx.live:50010",
@@ -17414,7 +17440,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "contract_address": "0xf2033ede578e17fa6231047265010445bca8cf1c",
         "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
@@ -17509,7 +17534,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "contract_address": "0x60f33e17d8d2dba280cf85b6c35880dedd8ed728",
         "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
@@ -17603,7 +17627,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "contract_address": "0x54fefdb5b31164f66ddb68becd7bdd864cacd65b",
         "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
@@ -17889,7 +17912,6 @@
         "is_testnet": true,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "contract_address": "0xd362e096e873eb7907e205fadc6175c6fec7bc44",
         "parent_coin": "tQTUM",
         "swap_contract_address": "0xba8b71f3544b93e2f681f996da519a98ace0107a",
@@ -17983,7 +18005,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Qtum Signed Message:\n",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
         "electrum": [
             {
@@ -18143,7 +18165,6 @@
         "is_testnet": true,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "swap_contract_address": "0xba8b71f3544b93e2f681f996da519a98ace0107a",
         "electrum": [
             {
@@ -18387,7 +18408,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10003",
@@ -18479,7 +18500,7 @@
         "is_testnet": true,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10017",
@@ -18732,7 +18753,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "209.151.151.21:50001"
@@ -18804,7 +18824,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Raven Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10051",
@@ -19068,6 +19088,62 @@
             }
         ],
         "token_address_url": "tokentxns?a="
+    },
+    "SIX": {
+        "coin": "SIX",
+        "type": "Smart Chain",
+        "name": "End Time Currency",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://explorer.sixcoin.site/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "electrum": [
+            {
+                "url": "electrum1.sixcoin.site:10001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "admin@sixcoin.site"
+                    },
+                    {
+                        "discord": "Aniquel#1721"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.sixcoin.site:10001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "admin@godstabernacle.xyz"
+                    },
+                    {
+                        "discord": "Aniquel#1721"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.sixcoin.site:10001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "ebarimjesus1@gmail.com"
+                    },
+                    {
+                        "discord": "Aniquel#1721"
+                    }
+                ]
+            }
+        ],
+        "asset": "SIX"
     },
     "SMTF-v2": {
         "coin": "SMTF-v2",
@@ -19490,7 +19566,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10035",
@@ -19582,7 +19658,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10011",
@@ -19771,7 +19847,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10005",
@@ -20293,7 +20369,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Syscoin Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10064",
@@ -20388,7 +20464,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrum1.scalaris.info:10001",
@@ -20511,7 +20586,6 @@
         "is_testnet": true,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10068",
@@ -20775,7 +20849,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "2.eu.thc.electrum.dexstats.info:10020",
@@ -20847,7 +20921,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "1.eu.tokel.electrum.dexstats.info:10077",
@@ -21021,7 +21095,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrum.southofheaven.ca:50001",
@@ -21559,7 +21632,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrumx.uis.ewmcx.info:50001",
@@ -21931,7 +22003,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Unobtanium Signed Message:\n",
         "electrum": [
             {
                 "url": "uno-bkp.coinmunity.gold:50002",
@@ -22597,7 +22669,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "e1.validitytech.com:11001",
@@ -22905,39 +22976,6 @@
         ],
         "token_address_url": "tokentxns?a="
     },
-    "VRM": {
-        "coin": "VRM",
-        "type": "UTXO",
-        "name": "Verium Reserve",
-        "coinpaprika_id": "vrm-veriumreserve",
-        "coingecko_id": "test-coin",
-        "nomics_id": "VRM",
-        "explorer_url": "https://explorer-vrm.vericonomy.com/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "",
-        "electrum": [
-            {
-                "url": "electrum01-vrm.vericonomy.com:50001",
-                "contact": [
-                    {
-                        "email": "dev@vericoin.info"
-                    },
-                    {
-                        "twitter": "vericonomy"
-                    },
-                    {
-                        "github": "VeriConomy"
-                    }
-                ]
-            }
-        ]
-    },
     "VRSC": {
         "coin": "VRSC",
         "type": "Smart Chain",
@@ -22953,7 +22991,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "el0.verus.io:17485",
@@ -23066,7 +23104,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum.grms.pw:17485",
@@ -23118,7 +23156,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Vertcoin Signed Message:\n",
         "electrum": [
             {
                 "url": "electrumx.javerity.com:5885"
@@ -23449,7 +23487,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10033",
@@ -23629,7 +23667,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "lenoir.ecoincore.com:10891",
@@ -23661,7 +23698,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrumx.gemmer.primecoin.org:50011"
@@ -23689,7 +23725,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "blackie.c3-soft.com:52138",
@@ -23945,7 +23980,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "failover.xvc.ewmcx.biz:50001",
@@ -23968,7 +24002,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrumx1.vanillacash.info:50011",
@@ -24039,7 +24072,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "contract_address": "0x4cdaa46741af44c68179c54c4fcb02c2bf646d30",
         "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
@@ -24504,7 +24536,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Zcash Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10058",
@@ -24599,7 +24631,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10065",
@@ -24734,7 +24765,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Zetacoin Signed Message:\n",
         "electrum": [
             {
                 "url": "207.180.252.200:50011",
@@ -24802,7 +24833,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10028",
@@ -25019,7 +25050,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "contract_address": "0xfe59cbc1704e89a698571413a81f0de9d8f00c69",
         "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
@@ -25113,7 +25143,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrumx2.runonflux.io:50001",
@@ -25249,7 +25278,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "contract_address": "0xf2703e93f87b846a7aacec1247beaec1c583daa4",
         "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
@@ -25343,7 +25371,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "contract_address": "0xb27d7bf95b03e02b55d5eb63d3f1692762101bf9",
         "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
@@ -25437,7 +25464,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "contract_address": "0x2f65a0af11d50d2d15962db39d7f7b0619ed55ae",
         "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
@@ -25531,7 +25557,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "contract_address": "0x72e531e37c31ecbe336208fd66e93b48df3af420",
         "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
@@ -25625,7 +25650,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "contract_address": "0x09800417b097c61b9fd26b3ddde4238304a110d5",
         "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
@@ -25719,7 +25743,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "contract_address": "0xd8dec2b605005749abbf4b060edad3070e23cf5c",
         "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
@@ -25813,7 +25836,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "contract_address": "0xf397f39ce992b0f5bdc7ec1109d676d07f7af2f9",
         "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
@@ -25907,7 +25929,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "contract_address": "0x4060e21ac01b5c5d2a3f01cecd7cbf820f50be95",
         "parent_coin": "QTUM",
         "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
@@ -27351,7 +27372,6 @@
         "is_testnet": true,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "bchd_urls": [
             "https://bchd-testnet.greyh.at:18335"
         ],
@@ -27405,7 +27425,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "swap.softbalanced.com:50001",
@@ -27466,7 +27485,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrumx1.cointest.com:50001",
@@ -27566,7 +27584,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrum.bitcoinabc.org:50002",
@@ -27672,18 +27689,6 @@
                 "ws_url": "zombie.sirseven.me:30058"
             },
             {
-                "url": "zombie.sirseven.me:10133",
-                "contact": [
-                    {
-                        "email": "igor@komodoplatform.com"
-                    },
-                    {
-                        "discord": "Sir Seven#7158"
-                    }
-                ],
-                "ws_url": "zombie.sirseven.me:30059"
-            },
-            {
                 "url": "zombie.sirseven.me:20033",
                 "protocol": "SSL",
                 "contact": [
@@ -27695,19 +27700,6 @@
                     }
                 ],
                 "ws_url": "zombie.sirseven.me:30058"
-            },
-            {
-                "url": "zombie.sirseven.me:20133",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "igor@komodoplatform.com"
-                    },
-                    {
-                        "discord": "Sir Seven#7158"
-                    }
-                ],
-                "ws_url": "zombie.sirseven.me:30059"
             }
         ],
         "asset": "ZOMBIE"
@@ -27771,7 +27763,6 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
         "electrum": [
             {
                 "url": "electrum1.runebase.io:50001",
@@ -27831,7 +27822,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "",
+        "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
                 "url": "electrumx1.actioncoin.com:10001",
