@@ -642,7 +642,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/85'"
   },
   {
     "coin": "AVA-BEP20",
@@ -686,7 +687,8 @@
     "avg_blocktime": 0.04,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/9000'"
   },
   {
     "coin": "AVAX-BEP20",
@@ -722,7 +724,8 @@
     "avg_blocktime": 0.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/921'"
   },
   {
     "coin": "AVN-PLG20",
@@ -775,7 +778,8 @@
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/4242'"
   },
   {
     "coin": "AXS-BEP20",
@@ -828,7 +832,8 @@
     "avg_blocktime": 0.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/357'"
   },
   {
     "coin": "BABYDOGE-BEP20",
@@ -1118,7 +1123,8 @@
       "protocol_data": {
         "slp_prefix": "simpleledger"
       }
-    }
+    },
+    "derivation_path": "m/44'/145'"
   },
   {
     "coin": "USDT-SLP",
@@ -1381,7 +1387,8 @@
     "avg_blocktime": 1.1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/10'"
   },
   {
     "coin": "BLK-BEP20",
@@ -1432,7 +1439,8 @@
     "required_confirmations": 3,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/714'"
   },
   {
     "coin": "BONE-ERC20",
@@ -1465,7 +1473,8 @@
     "required_confirmations": 1,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/137'"
   },
   {
     "coin": "BNBT",
@@ -1756,7 +1765,8 @@
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/177'"
   },
   {
     "coin": "BTCZ-BEP20",
@@ -1903,7 +1913,8 @@
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/160'"
   },
   {
     "coin": "BTX-segwit",
@@ -2156,7 +2167,8 @@
     "avg_blocktime": 5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/34'"
   },
   {
     "coin": "CDN-segwit",
@@ -2286,7 +2298,8 @@
     "avg_blocktime": 2,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/682'"
   },
   {
     "coin": "CHIPS",
@@ -2410,7 +2423,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/1901'"
   },
   {
     "coin": "COLX",
@@ -2424,7 +2438,8 @@
     "mm2": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/1999'"
   },
   {
     "coin": "COMP-AVX20",
@@ -2943,7 +2958,8 @@
     "avg_blocktime": 0.6,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/18'"
   },
   {
     "coin": "DIA-ERC20",
@@ -3268,7 +3284,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/249'"
   },
   {
     "coin": "EFL",
@@ -3286,7 +3303,8 @@
     "avg_blocktime": 2,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/78'"
   },
   {
     "coin": "EGLD-BEP20",
@@ -3375,7 +3393,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/41'"
   },
   {
     "coin": "ENJ-ERC20",
@@ -3459,7 +3478,8 @@
     "avg_blocktime": 0.25,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/61'"
   },
   {
     "coin": "ETC-BEP20",
@@ -3490,7 +3510,8 @@
     "avg_blocktime": 0.25,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "ETH-AVX20",
@@ -3788,7 +3809,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/75'"
   },
   {
     "coin": "FJC-segwit",
@@ -3895,7 +3917,8 @@
     "mm2": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/120'"
   },
   {
     "coin": "FLO",
@@ -3909,7 +3932,8 @@
     "mm2": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/216'"
   },
   {
     "coin": "FLOW-BEP20",
@@ -3946,7 +3970,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/8'"
   },
   {
     "coin": "FTC-segwit",
@@ -3995,7 +4020,8 @@
     "avg_blocktime": 0.03,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/1007'"
   },
   {
     "coin": "FTM-BEP20",
@@ -4080,7 +4106,8 @@
     "mm2": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/2000'"
   },
   {
     "coin": "GLEEC",
@@ -4096,7 +4123,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/476'"
   },
   {
     "coin": "GLM-ERC20",
@@ -4240,7 +4268,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/17'"
   },
   {
     "coin": "GRS-segwit",
@@ -4404,7 +4433,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/1989'"
   },
   {
     "coin": "HOT-ERC20",
@@ -4453,7 +4483,8 @@
     "avg_blocktime": 0.05,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/1010'"
   },
   {
     "coin": "HT-ERC20",
@@ -4999,7 +5030,8 @@
     "avg_blocktime": 0.05,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/641'"
   },
   {
     "coin": "KMD",
@@ -5124,7 +5156,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/659'"
   },
   {
     "coin": "KSM-BEP20",
@@ -5176,7 +5209,8 @@
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/140'"
   },
   {
     "coin": "LBC-segwit",
@@ -5220,7 +5254,8 @@
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/192'"
   },
   {
     "coin": "LCC-segwit",
@@ -5551,7 +5586,8 @@
     "avg_blocktime": 0.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/613'"
   },
   {
     "coin": "WCN-segwit",
@@ -5730,7 +5766,8 @@
     "mm2": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/3003'"
   },
   {
     "coin": "LYNX",
@@ -5848,7 +5885,8 @@
     "required_confirmations": 3,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/966'"
   },
   {
     "coin": "MATIC-BEP20",
@@ -6253,7 +6291,8 @@
     "avg_blocktime": 1.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/22'"
   },
   {
     "coin": "MONA-segwit",
@@ -6308,7 +6347,8 @@
     "avg_blocktime": 0.25,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/1285'"
   },
   {
     "coin": "GLMR",
@@ -6321,7 +6361,8 @@
     "avg_blocktime": 0.25,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/1284'"
   },
   {
     "coin": "MSHARK",
@@ -6352,7 +6393,7 @@
     "sign_message_prefix": "Komodo Signed Message:\n",
     "avg_blocktime": 2,
     "protocol": {
-        "type": "UTXO"
+      "type": "UTXO"
     }
   },
   {
@@ -6373,7 +6414,8 @@
     "avg_blocktime": 0.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/130'"
   },
   {
     "coin": "NAV-BEP20",
@@ -6424,7 +6466,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/681'"
   },
   {
     "coin": "NEXO-ERC20",
@@ -6509,7 +6552,8 @@
     "mm2": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/400'"
   },
   {
     "coin": "NMC",
@@ -6573,7 +6617,8 @@
     "avg_blocktime": 7.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/50'"
   },
   {
     "coin": "NVC-BEP20",
@@ -6768,7 +6813,8 @@
     "avg_blocktime": 0.25,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/1023'"
   },
   {
     "coin": "ONT-BEP20",
@@ -7028,7 +7074,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/119'"
   },
   {
     "coin": "PND",
@@ -7049,7 +7096,8 @@
     "avg_blocktime": 10,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/37'"
   },
   {
     "coin": "PND-segwit",
@@ -7131,7 +7179,8 @@
     "avg_blocktime": 8.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/6'"
   },
   {
     "coin": "PPC-segwit",
@@ -7208,7 +7257,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/853'"
   },
   {
     "coin": "PRCY-BEP20",
@@ -7702,7 +7752,8 @@
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/143'"
   },
   {
     "coin": "RIC-segwit",
@@ -7814,7 +7865,8 @@
     "avg_blocktime": 2,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/10226'"
   },
   {
     "coin": "RTM-BEP20",
@@ -7850,7 +7902,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/175'"
   },
   {
     "coin": "SAND-ERC20",
@@ -8439,7 +8492,8 @@
     "mm2": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/57'"
   },
   {
     "coin": "SYS-segwit",
@@ -8627,7 +8681,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/113'"
   },
   {
     "coin": "THC-BEP20",
@@ -8715,7 +8770,8 @@
     "avg_blocktime": 2,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/83'"
   },
   {
     "coin": "TRX-BEP20",
@@ -9121,7 +9177,8 @@
     "avg_blocktime": 2.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/92'"
   },
   {
     "coin": "USDC-AVX20",
@@ -9461,7 +9518,8 @@
     "mature_confirmations": 60,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/634'"
   },
   {
     "coin": "VET-BEP20",
@@ -9548,7 +9606,8 @@
     "mm2": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/14'"
   },
   {
     "coin": "VIA-segwit",
@@ -9837,7 +9896,8 @@
     "avg_blocktime": 1.3,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/597'"
   },
   {
     "coin": "XEP-segwit",
@@ -9913,7 +9973,8 @@
     "avg_blocktime": 4,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/90'"
   },
   {
     "coin": "XMY-segwit",
@@ -9953,7 +10014,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/24'"
   },
   {
     "coin": "XSN",
@@ -9968,7 +10030,8 @@
     "mm2": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/384'"
   },
   {
     "coin": "XRG",
@@ -9990,7 +10053,8 @@
     "avg_blocktime": 10,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/2137'"
   },
   {
     "coin": "XRP-BEP20",
@@ -10188,7 +10252,8 @@
     "mm2": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/449'"
   },
   {
     "coin": "YFI-AVX20",
@@ -10353,7 +10418,8 @@
     "avg_blocktime": 1.25,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/133'"
   },
   {
     "coin": "ZER",
@@ -10374,7 +10440,8 @@
     "avg_blocktime": 2,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/323'"
   },
   {
     "coin": "ZER-BEP20",
@@ -10443,7 +10510,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/266'"
   },
   {
     "coin": "ZRX-AVX20",
@@ -10542,7 +10610,8 @@
     "avg_blocktime": 1,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/19167'"
   },
   {
     "coin": "FLUX-ERC20",
@@ -10649,7 +10718,8 @@
     "p2shtype": 50,
     "wiftype": 128,
     "segwit": false,
-    "decimals": 8
+    "decimals": 8,
+    "derivation_path": "m/44'/371'"
   },
   {
     "coin": "LSTR",
@@ -10769,7 +10839,8 @@
     "p2shtype": 50,
     "wiftype": 128,
     "segwit": false,
-    "decimals": 8
+    "decimals": 8,
+    "derivation_path": "m/44'/122'"
   },
   {
     "coin": "OKB-ERC20",
@@ -10962,7 +11033,8 @@
     "avg_blocktime": 0.25,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/108'"
   },
   {
     "coin": "PNK-ERC20",
@@ -11321,7 +11393,8 @@
     "avg_blocktime": 10,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/1899'"
   },
   {
     "coin": "SIBM-BEP20",
@@ -11475,7 +11548,8 @@
         "account_prefix": "cosmos",
         "chain_id": "cosmoshub-4"
       }
-    }
+    },
+    "derivation_path": "m/44'/118'"
   },
   {
     "coin": "IRIS",
@@ -11490,9 +11564,10 @@
         "denom": "uiris",
         "account_prefix": "iaa",
         "chain_id": "irishub-1",
-        "gas_price": 0.50
+        "gas_price": 0.5
       }
-    }
+    },
+    "derivation_path": "m/44'/566'"
   },
   {
     "coin": "OSMO",
@@ -11508,7 +11583,7 @@
         "denom": "uosmo",
         "account_prefix": "osmo",
         "chain_id": "osmosis-1",
-        "gas_price": 0.50
+        "gas_price": 0.5
       }
     }
   },
@@ -11524,7 +11599,7 @@
         "platform": "IRIS",
         "decimals": 6,
         "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-        "gas_price": 0.50
+        "gas_price": 0.5
       }
     }
   }
