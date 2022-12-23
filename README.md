@@ -316,3 +316,14 @@ For Forex the API ID is the same as the [ISO 4217 currency code](https://en.wiki
 
 Add these IDs to their respective json file within the `/api_ids` folder in the format `"TICKER": "API_ID"`
 
+
+## 6. Derivation Path
+
+The [BIP44 derivation path](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki) os now required to ensure Heirarchical deterministic wallet functionality. The best source for this data is via [Satoshi Labs SLP-044](https://github.com/satoshilabs/slips/blob/master/slip-0044.md)
+
+## 7. Trezor coin name (optional)
+
+For Trezor compatibility, this field is required. You can find this value at https://trezor.io/coins. Not all coins are listed on this page by default, but if compatible can be found by searching the supported coins. The value is the name of the coin in larger black text (not the grey text in brackets). E.g. for the image below, the Trezor coin name would be `Qtum`.
+
+![QTUM trezor name](utils/img/qtum.png)
+
