@@ -137,7 +137,7 @@ You need the following info in JSON format added to the [coins](coins) file:
 
 ```json
         {
-                "coin": "QC",
+                "coin": "QC-QRC20",
                 "name": "qtum",
                 "fname": "Qcash",
                 "rpcport": 3889,
