@@ -319,7 +319,7 @@ Add these IDs to their respective json file within the `/api_ids` folder in the 
 
 ## 6. Derivation Path
 
-The [BIP44 derivation path](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki) os now required to ensure Heirarchical deterministic wallet functionality. The best source for this data is via [Satoshi Labs SLP-044](https://github.com/satoshilabs/slips/blob/master/slip-0044.md)
+The [BIP44 derivation path](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki) is now required to ensure Heirarchical deterministic wallet functionality. The best source for this data is via [Satoshi Labs SLP-044](https://github.com/satoshilabs/slips/blob/master/slip-0044.md)
 
 ## 7. Trezor coin name (optional)
 
