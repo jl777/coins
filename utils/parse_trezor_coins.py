@@ -18,14 +18,11 @@ for i in trezor_data['coins']:
 	if len(split) == 2:
 		if split[0] in ["bitcoin", "eth"]:
 			clean_ticker = split[1]
-		else:
-			pass
-			# print(i)
 	else:
 		if split[0] == "erc20":
 			if split[1] == "eth":
 				clean_ticker = f"{split[2]}-ERC20"
-				# print(clean_ticker)
+
 	if clean_ticker:
 		if clean_ticker in coins_tickers:
 			print(f"{i} {clean_ticker} found in coins file! Trezor_name is {trezor_data['coins'][i]['name']}")
@@ -35,9 +32,6 @@ for i in trezor_data['coins']:
 				})
 			else:
 				print(f"{i} already in dict!")
-				pass
-	else:
-		pass
 
 for i in trezor_data['coins']:
 	split = i.split(":")
@@ -54,16 +48,9 @@ for i in trezor_data['coins']:
 				})
 			else:
 				print(f"{i} already in dict!")
-				pass
-	else:
-		pass
-		
-		# print(i)
 
 for ticker in clean_trezor_data:
 	for i in coins_data:
-		# print(f">>> {ticker}")
-		# print(i["coin"])
 		if ticker == i["coin"]:
 			i.update({
 				"trezor_coin": clean_trezor_data[ticker]["name"],
@@ -77,7 +64,6 @@ for ticker in clean_trezor_data:
 					i["links"].update({
 						link.lower(): clean_trezor_data[ticker]["links"][link]
 					})
-			# print(i)
 			break
 
 with open('../coins', 'w') as f:
