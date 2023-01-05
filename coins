@@ -204,7 +204,12 @@
         "contract_address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Aave",
+    "links": {
+      "github": "https://github.com/aave",
+      "homepage": "https://aave.com/ "
+    }
   },
   {
     "coin": "AAVE-FTM20",
@@ -353,7 +358,12 @@
         "contract_address": "0xADE00C28244d5CE17D72E40330B1c318cD12B7c3"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "AdEx Network",
+    "links": {
+      "github": "https://github.com/AdExNetwork",
+      "homepage": "https://www.adex.network"
+    }
   },
   {
     "coin": "AGIX-ERC20",
@@ -721,7 +731,11 @@
     "protocol": {
       "type": "ETH"
     },
-    "derivation_path": "m/44'/9000'"
+    "derivation_path": "m/44'/9000'",
+    "trezor_coin": "Avalanche C-Chain",
+    "links": {
+      "homepage": "https://www.avax.network/"
+    }
   },
   {
     "coin": "AVAX-BEP20",
@@ -815,7 +829,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/4242'"
+    "derivation_path": "m/44'/4242'",
+    "trezor_coin": "Axe",
+    "links": {
+      "github": "https://github.com/axerunners/axe",
+      "homepage": "https://axerunners.com"
+    }
   },
   {
     "coin": "AXS-BEP20",
@@ -851,7 +870,12 @@
         "contract_address": "0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Axie Infinity Shards",
+    "links": {
+      "github": "https://github.com/axieinfinity",
+      "homepage": "https://axieinfinity.com/"
+    }
   },
   {
     "coin": "AYA",
@@ -926,7 +950,12 @@
         "contract_address": "0xba100000625a3754423978a60c9317c58a424e3D"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Balancer",
+    "links": {
+      "github": "https://github.com/balancer-labs",
+      "homepage": "https://balancer.finance"
+    }
   },
   {
     "coin": "BAL-KRC20",
@@ -1094,7 +1123,11 @@
         "contract_address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Basic Attention Token",
+    "links": {
+      "homepage": "https://basicattentiontoken.org"
+    }
   },
   {
     "coin": "BAT-BEP20",
@@ -1177,7 +1210,12 @@
         "slp_prefix": "simpleledger"
       }
     },
-    "derivation_path": "m/44'/145'"
+    "derivation_path": "m/44'/145'",
+    "trezor_coin": "Bitcoin Cash",
+    "links": {
+      "github": "https://github.com/Bitcoin-ABC/bitcoin-abc",
+      "homepage": "https://www.bitcoincash.org"
+    }
   },
   {
     "coin": "USDT-SLP",
@@ -1509,7 +1547,11 @@
     "protocol": {
       "type": "ETH"
     },
-    "derivation_path": "m/44'/714'"
+    "derivation_path": "m/44'/714'",
+    "trezor_coin": "Binance Smart Chain",
+    "links": {
+      "homepage": "https://www.binance.org"
+    }
   },
   {
     "coin": "BONE-ERC20",
@@ -1544,7 +1586,11 @@
     "protocol": {
       "type": "ETH"
     },
-    "derivation_path": "m/44'/137'"
+    "derivation_path": "m/44'/137'",
+    "trezor_coin": "RSK",
+    "links": {
+      "homepage": "https://rsk.co"
+    }
   },
   {
     "coin": "BNBT",
@@ -1595,7 +1641,12 @@
         "contract_address": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Bancor Network Token",
+    "links": {
+      "github": "https://github.com/bancorprotocol",
+      "homepage": "https://www.bancor.network"
+    }
   },
   {
     "coin": "BNT-PLG20",
@@ -1776,7 +1827,11 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/0'",
-    "trezor_coin": "Bitcoin"
+    "trezor_coin": "Bitcoin",
+    "links": {
+      "github": "https://github.com/bitcoin/bitcoin",
+      "homepage": "https://bitcoin.org"
+    }
   },
   {
     "coin": "BTC-segwit",
@@ -1807,7 +1862,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/0'"
+    "derivation_path": "m/44'/0'",
+    "trezor_coin": "Bitcoin",
+    "links": {
+      "github": "https://github.com/bitcoin/bitcoin",
+      "homepage": "https://bitcoin.org"
+    }
   },
   {
     "coin": "BTC-BEP20",
@@ -1961,7 +2021,12 @@
         "contract_address": "0xb683D83a532e2Cb7DFa5275eED3698436371cc9f"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "BTU Protocol",
+    "links": {
+      "github": "https://github.com/btuprotocol",
+      "homepage": "https://btu-protocol.com"
+    }
   },
   {
     "coin": "BTU-PLG20",
@@ -1999,7 +2064,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/160'"
+    "derivation_path": "m/44'/160'",
+    "trezor_coin": "Bitcore",
+    "links": {
+      "github": "https://github.com/LIMXTEC/BitCore",
+      "homepage": "https://bitcore.cc"
+    }
   },
   {
     "coin": "BTX-segwit",
@@ -2022,7 +2092,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/160'"
+    "derivation_path": "m/44'/160'",
+    "trezor_coin": "Bitcore",
+    "links": {
+      "github": "https://github.com/LIMXTEC/BitCore",
+      "homepage": "https://bitcore.cc"
+    }
   },
   {
     "coin": "BTX-BEP20",
@@ -2097,7 +2172,12 @@
         "contract_address": "0x4Fabb145d64652a948d72533023f6E7A623C7C53"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Binance USD (BUSD)",
+    "links": {
+      "github": "https://github.com/paxosglobal/busd-contract",
+      "homepage": "https://www.paxos.com/busd"
+    }
   },
   {
     "coin": "BUSD-BEP20",
@@ -2346,7 +2426,12 @@
         "contract_address": "0x4F9254C83EB525f9FCf346490bbb3ed28a81C667"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "CelerToken",
+    "links": {
+      "github": "https://github.com/celer-network",
+      "homepage": "https://www.celer.network/"
+    }
   },
   {
     "coin": "CELR-BEP20",
@@ -2438,7 +2523,11 @@
         "contract_address": "0xba9d4199faB4f26eFE3551D490E3821486f135Ba"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "SwissBorg",
+    "links": {
+      "homepage": "https://swissborg.com"
+    }
   },
   {
     "coin": "CHSB-PLG20",
@@ -2602,7 +2691,12 @@
         "contract_address": "0xc00e94Cb662C3520282E6f5717214004A7f26888"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Compound",
+    "links": {
+      "github": "https://github.com/compound-finance",
+      "homepage": "https://compound.finance"
+    }
   },
   {
     "coin": "COMP-KRC20",
@@ -2864,7 +2958,12 @@
         "contract_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Dai Stablecoin v2.0",
+    "links": {
+      "github": "https://github.com/makerdao",
+      "homepage": "https://makerdao.com"
+    }
   },
   {
     "coin": "DAI-BEP20",
@@ -2977,7 +3076,11 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/5'",
-    "trezor_coin": "Dash"
+    "trezor_coin": "Dash",
+    "links": {
+      "github": "https://github.com/dashpay/dash",
+      "homepage": "https://www.dash.org"
+    }
   },
   {
     "coin": "DDD-ERC20",
@@ -3013,7 +3116,11 @@
         "contract_address": "0x3597bfD533a99c9aa083587B074434E61Eb0A258"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "DENT",
+    "links": {
+      "homepage": "https://www.dentwireless.com"
+    }
   },
   {
     "coin": "DEX",
@@ -3051,7 +3158,11 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/20'",
-    "trezor_coin": "DigiByte"
+    "trezor_coin": "DigiByte",
+    "links": {
+      "github": "https://github.com/digibyte/digibyte",
+      "homepage": "https://digibyte.io"
+    }
   },
   {
     "coin": "DGB-segwit",
@@ -3074,7 +3185,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/20'"
+    "derivation_path": "m/44'/20'",
+    "trezor_coin": "DigiByte",
+    "links": {
+      "github": "https://github.com/digibyte/digibyte",
+      "homepage": "https://digibyte.io"
+    }
   },
   {
     "coin": "DGC",
@@ -3268,7 +3384,11 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/3'",
-    "trezor_coin": "Dogecoin"
+    "trezor_coin": "Dogecoin",
+    "links": {
+      "github": "https://github.com/dogecoin/dogecoin",
+      "homepage": "https://dogecoin.com"
+    }
   },
   {
     "coin": "DOGE-BEP20",
@@ -3525,7 +3645,12 @@
         "contract_address": "0xbf2179859fc6D5BEE9Bf9158632Dc51678a4100e"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "ELF Token",
+    "links": {
+      "github": "https://github.com/aelfProject",
+      "homepage": "https://aelf.io/"
+    }
   },
   {
     "coin": "EMC2",
@@ -3564,7 +3689,12 @@
         "contract_address": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "ENJIN",
+    "links": {
+      "github": "https://github.com/enjin/contracts",
+      "homepage": "https://enjincoin.io"
+    }
   },
   {
     "coin": "ENJ-KRC20",
@@ -3634,7 +3764,11 @@
     "protocol": {
       "type": "ETH"
     },
-    "derivation_path": "m/44'/61'"
+    "derivation_path": "m/44'/61'",
+    "trezor_coin": "Ethereum Classic",
+    "links": {
+      "homepage": "https://ethereumclassic.org"
+    }
   },
   {
     "coin": "ETC-BEP20",
@@ -3812,7 +3946,12 @@
         "contract_address": "0xdB25f211AB05b1c97D595516F45794528a807ad8"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "STASIS EURS",
+    "links": {
+      "github": "https://github.com/stasisnet",
+      "homepage": "https://stasis.net"
+    }
   },
   {
     "coin": "EURS-PLG20",
@@ -3942,6 +4081,11 @@
     "avg_blocktime": 5,
     "protocol": {
       "type": "UTXO"
+    },
+    "trezor_coin": "Firo",
+    "links": {
+      "github": "https://github.com/firoorg/firo",
+      "homepage": "https://firo.org"
     }
   },
   {
@@ -3980,7 +4124,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/75'"
+    "derivation_path": "m/44'/75'",
+    "trezor_coin": "Fujicoin",
+    "links": {
+      "github": "https://github.com/fujicoin/fujicoin",
+      "homepage": "https://fujicoin.org"
+    }
   },
   {
     "coin": "FJC-segwit",
@@ -4003,7 +4152,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/75'"
+    "derivation_path": "m/44'/75'",
+    "trezor_coin": "Fujicoin",
+    "links": {
+      "github": "https://github.com/fujicoin/fujicoin",
+      "homepage": "https://fujicoin.org"
+    }
   },
   {
     "coin": "FJC-BEP20",
@@ -4108,7 +4262,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/216'"
+    "derivation_path": "m/44'/216'",
+    "trezor_coin": "Flo",
+    "links": {
+      "github": "https://github.com/floblockchain/flo",
+      "homepage": "https://flo.cash"
+    }
   },
   {
     "coin": "FLOW-BEP20",
@@ -4147,7 +4306,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/8'"
+    "derivation_path": "m/44'/8'",
+    "trezor_coin": "Feathercoin",
+    "links": {
+      "github": "https://github.com/FeatherCoin/Feathercoin",
+      "homepage": "https://feathercoin.com"
+    }
   },
   {
     "coin": "FTC-segwit",
@@ -4170,7 +4334,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/8'"
+    "derivation_path": "m/44'/8'",
+    "trezor_coin": "Feathercoin",
+    "links": {
+      "github": "https://github.com/FeatherCoin/Feathercoin",
+      "homepage": "https://feathercoin.com"
+    }
   },
   {
     "coin": "FTMT",
@@ -4198,7 +4367,11 @@
     "protocol": {
       "type": "ETH"
     },
-    "derivation_path": "m/44'/1007'"
+    "derivation_path": "m/44'/1007'",
+    "trezor_coin": "Fantom Opera",
+    "links": {
+      "homepage": "https://fantom.foundation"
+    }
   },
   {
     "coin": "FTM-BEP20",
@@ -4234,7 +4407,12 @@
         "contract_address": "0x4E15361FD6b4BB609Fa63C81A2be19d873717870"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Fantom Token",
+    "links": {
+      "github": "https://github.com/Fantom-foundation/",
+      "homepage": "https://fantom.foundation/"
+    }
   },
   {
     "coin": "GALA-ERC20",
@@ -4418,7 +4596,11 @@
         "contract_address": "0x6810e776880C02933D47DB1b9fc05908e5386b96"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Gnosis",
+    "links": {
+      "homepage": "https://gnosis.pm"
+    }
   },
   {
     "coin": "GNO-PLG20",
@@ -4457,7 +4639,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/17'"
+    "derivation_path": "m/44'/17'",
+    "trezor_coin": "Groestlcoin",
+    "links": {
+      "github": "https://github.com/Groestlcoin/groestlcoin",
+      "homepage": "https://www.groestlcoin.org"
+    }
   },
   {
     "coin": "GRS-segwit",
@@ -4480,7 +4667,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/17'"
+    "derivation_path": "m/44'/17'",
+    "trezor_coin": "Groestlcoin",
+    "links": {
+      "github": "https://github.com/Groestlcoin/groestlcoin",
+      "homepage": "https://www.groestlcoin.org"
+    }
   },
   {
     "coin": "GRT-AVX20",
@@ -4518,7 +4710,12 @@
         "contract_address": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Graph Token",
+    "links": {
+      "github": "https://github.com/graphprotocol",
+      "homepage": "https://thegraph.com"
+    }
   },
   {
     "coin": "GRT-KRC20",
@@ -4594,7 +4791,12 @@
         "contract_address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "HEX",
+    "links": {
+      "github": "https://github.com/bitcoinHEX",
+      "homepage": "https://hex.win"
+    }
   },
   {
     "coin": "HEX-PLG20",
@@ -4682,7 +4884,11 @@
     "protocol": {
       "type": "ETH"
     },
-    "derivation_path": "m/44'/1010'"
+    "derivation_path": "m/44'/1010'",
+    "trezor_coin": "Huobi ECO Chain",
+    "links": {
+      "homepage": "https://www.hecochain.com"
+    }
   },
   {
     "coin": "HT-ERC20",
@@ -4700,7 +4906,11 @@
         "contract_address": "0x6f259637dcD74C767781E37Bc6133cd6A68aa161"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Huobi Token",
+    "links": {
+      "homepage": "https://www.hbg.com"
+    }
   },
   {
     "coin": "HUSD-ERC20",
@@ -5257,7 +5467,11 @@
     "protocol": {
       "type": "ETH"
     },
-    "derivation_path": "m/44'/641'"
+    "derivation_path": "m/44'/641'",
+    "trezor_coin": "KCC",
+    "links": {
+      "homepage": "https://kcc.io"
+    }
   },
   {
     "coin": "KMD",
@@ -5279,7 +5493,11 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
+    "trezor_coin": "Komodo",
+    "links": {
+      "github": "https://github.com/komodoplatform/komodo",
+      "homepage": "https://komodoplatform.com"
+    }
   },
   {
     "coin": "KMD-BEP20",
@@ -5333,7 +5551,12 @@
         "contract_address": "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Kyber Network",
+    "links": {
+      "github": "https://github.com/KyberNetwork",
+      "homepage": "https://kyber.network"
+    }
   },
   {
     "coin": "KNC-PLG20",
@@ -5592,7 +5815,11 @@
         "contract_address": "0x2AF5D2aD76741191D15Dfe7bF6aC92d4Bd912Ca3"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "LEOcoin",
+    "links": {
+      "homepage": "https://www.leocoin.org/"
+    }
   },
   {
     "coin": "LEO-PLG20",
@@ -5780,7 +6007,12 @@
         "contract_address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Loopring",
+    "links": {
+      "github": "https://github.com/loopring",
+      "homepage": "https://loopring.org"
+    }
   },
   {
     "coin": "LRC-BEP20",
@@ -5897,7 +6129,12 @@
         "contract_address": "0x42476F744292107e34519F9c357927074Ea3F75D"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "LOOM",
+    "links": {
+      "github": "github.com/loomnetwork/",
+      "homepage": "https://loomx.io"
+    }
   },
   {
     "coin": "LOOM-BEP20",
@@ -5938,7 +6175,11 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/2'",
-    "trezor_coin": "Litecoin"
+    "trezor_coin": "Litecoin",
+    "links": {
+      "github": "https://github.com/litecoin-project/litecoin",
+      "homepage": "https://litecoin.org"
+    }
   },
   {
     "coin": "LTC-segwit",
@@ -5962,7 +6203,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/2'"
+    "derivation_path": "m/44'/2'",
+    "trezor_coin": "Litecoin",
+    "links": {
+      "github": "https://github.com/litecoin-project/litecoin",
+      "homepage": "https://litecoin.org"
+    }
   },
   {
     "coin": "LTFN",
@@ -6060,7 +6306,12 @@
         "contract_address": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Decentraland MANA",
+    "links": {
+      "github": "https://github.com/decentraland",
+      "homepage": "https://decentraland.org"
+    }
   },
   {
     "coin": "MANA-BEP20",
@@ -6145,7 +6396,11 @@
     "protocol": {
       "type": "ETH"
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/966'",
+    "trezor_coin": "Polygon",
+    "links": {
+      "homepage": "https://polygon.technology/"
+    }
   },
   {
     "coin": "MATIC-BEP20",
@@ -6182,7 +6437,11 @@
         "contract_address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Matic Token",
+    "links": {
+      "homepage": "https://polygon.technology/"
+    }
   },
   {
     "coin": "MATIC-HCO20",
@@ -6328,7 +6587,11 @@
         "contract_address": "0xB26631c6dda06aD89B93C71400D25692de89c068"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Minds Token",
+    "links": {
+      "homepage": "https://www.minds.com/"
+    }
   },
   {
     "coin": "MIL",
@@ -6438,7 +6701,12 @@
         "contract_address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "MakerDAO",
+    "links": {
+      "github": "https://github.com/makerdao",
+      "homepage": "https://makerdao.com"
+    }
   },
   {
     "coin": "MKR-KRC20",
@@ -6475,7 +6743,11 @@
         "contract_address": "0x6B4c7A5e3f0B99FCD83e9c089BDDD6c7FCe5c611"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Million",
+    "links": {
+      "homepage": "https://www.milliontoken.org"
+    }
   },
   {
     "coin": "MM-AVX20",
@@ -6572,7 +6844,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/22'"
+    "derivation_path": "m/44'/22'",
+    "trezor_coin": "Monacoin",
+    "links": {
+      "github": "https://github.com/monacoinproject/monacoin",
+      "homepage": "https://monacoin.org"
+    }
   },
   {
     "coin": "MONA-segwit",
@@ -6596,7 +6873,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/22'"
+    "derivation_path": "m/44'/22'",
+    "trezor_coin": "Monacoin",
+    "links": {
+      "github": "https://github.com/monacoinproject/monacoin",
+      "homepage": "https://monacoin.org"
+    }
   },
   {
     "coin": "MORTY",
@@ -6629,7 +6911,11 @@
     "protocol": {
       "type": "ETH"
     },
-    "derivation_path": "m/44'/1285'"
+    "derivation_path": "m/44'/1285'",
+    "trezor_coin": "Moonriver",
+    "links": {
+      "homepage": "https://moonbeam.network/networks/moonriver/"
+    }
   },
   {
     "coin": "GLMR",
@@ -6643,7 +6929,11 @@
     "protocol": {
       "type": "ETH"
     },
-    "derivation_path": "m/44'/1284'"
+    "derivation_path": "m/44'/1284'",
+    "trezor_coin": "Moonbeam",
+    "links": {
+      "homepage": "https://moonbeam.network/networks/moonbeam/"
+    }
   },
   {
     "coin": "MSHARK",
@@ -6771,7 +7061,11 @@
         "contract_address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Nexo",
+    "links": {
+      "homepage": "http://nexo.io"
+    }
   },
   {
     "coin": "NEXO-KRC20",
@@ -6862,7 +7156,11 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/7'",
-    "trezor_coin": "Namecoin"
+    "trezor_coin": "Namecoin",
+    "links": {
+      "github": "https://github.com/namecoin/namecoin-core",
+      "homepage": "https://namecoin.org"
+    }
   },
   {
     "coin": "NMC-segwit",
@@ -6885,7 +7183,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/7'"
+    "derivation_path": "m/44'/7'",
+    "trezor_coin": "Namecoin",
+    "links": {
+      "github": "https://github.com/namecoin/namecoin-core",
+      "homepage": "https://namecoin.org"
+    }
   },
   {
     "coin": "NVC",
@@ -7042,7 +7345,12 @@
         "contract_address": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Ocean Token",
+    "links": {
+      "github": "https://github.com/oceanprotocol",
+      "homepage": "https://oceanprotocol.com"
+    }
   },
   {
     "coin": "OCEAN-PLG20",
@@ -7080,7 +7388,12 @@
         "contract_address": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "OmiseGO",
+    "links": {
+      "github": "https://github.com/omisego",
+      "homepage": "https://omg.omise.co"
+    }
   },
   {
     "coin": "OMG-PLG20",
@@ -7166,7 +7479,12 @@
         "contract_address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Paxos Standard (PAX)",
+    "links": {
+      "github": "https://github.com/paxosglobal",
+      "homepage": "https://www.paxos.com/standard"
+    }
   },
   {
     "coin": "PAX-BEP20",
@@ -7260,7 +7578,12 @@
         "contract_address": "0x45804880De22913dAFE09f4980848ECE6EcbAf78"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Paxos Gold",
+    "links": {
+      "github": "https://github.com/paxosglobal/paxos-gold-contract",
+      "homepage": "https://www.paxos.com/paxgold"
+    }
   },
   {
     "coin": "PAXG-PLG20",
@@ -7451,7 +7774,11 @@
         "contract_address": "0x595832F8FC6BF59c85C527fEC3740A1b7a361269"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "PowerLedger",
+    "links": {
+      "homepage": "https://powerledger.io"
+    }
   },
   {
     "coin": "POWR-PLG20",
@@ -7492,7 +7819,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/6'"
+    "derivation_path": "m/44'/6'",
+    "trezor_coin": "Peercoin",
+    "links": {
+      "github": "https://github.com/peercoin/peercoin",
+      "homepage": "https://peercoin.net"
+    }
   },
   {
     "coin": "PPC-segwit",
@@ -7518,7 +7850,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/6'"
+    "derivation_path": "m/44'/6'",
+    "trezor_coin": "Peercoin",
+    "links": {
+      "github": "https://github.com/peercoin/peercoin",
+      "homepage": "https://peercoin.net"
+    }
   },
   {
     "coin": "PPC-ERC20",
@@ -7698,7 +8035,11 @@
         "contract_address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "SHIBA INU",
+    "links": {
+      "homepage": "https://shibatoken.com"
+    }
   },
   {
     "coin": "SHIB-KRC20",
@@ -7825,7 +8166,11 @@
         "contract_address": "0xEA26c4aC16D4a5A106820BC8AEE85fd0b7b2b664"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "QuarkChain",
+    "links": {
+      "homepage": "https://quarkchain.io"
+    }
   },
   {
     "coin": "QNT-ERC20",
@@ -7844,7 +8189,12 @@
         "contract_address": "0x4a220E6096B25EADb88358cb44068A3248254675"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Quant",
+    "links": {
+      "github": "https://github.com/quantnetwork",
+      "homepage": "https://www.quant.network/"
+    }
   },
   {
     "coin": "QNT-KRC20",
@@ -7908,7 +8258,11 @@
       "type": "QTUM"
     },
     "derivation_path": "m/44'/2301'",
-    "trezor_coin": "Qtum"
+    "trezor_coin": "Qtum",
+    "links": {
+      "github": "https://github.com/qtumproject/qtum",
+      "homepage": "https://qtum.org"
+    }
   },
   {
     "coin": "QTUM-segwit",
@@ -7934,7 +8288,12 @@
     "protocol": {
       "type": "QTUM"
     },
-    "derivation_path": "m/44'/2301'"
+    "derivation_path": "m/44'/2301'",
+    "trezor_coin": "Qtum",
+    "links": {
+      "github": "https://github.com/qtumproject/qtum",
+      "homepage": "https://qtum.org"
+    }
   },
   {
     "coin": "QTUM-ERC20",
@@ -7952,7 +8311,12 @@
         "contract_address": "0x3103dF8F05c4D8aF16fD22AE63E406b97FeC6938"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Qtum",
+    "links": {
+      "github": "https://github.com/qtumproject",
+      "homepage": "https://qtum.org/"
+    }
   },
   {
     "coin": "tQTUM",
@@ -8015,7 +8379,12 @@
         "contract_address": "0x408e41876cCCDC0F92210600ef50372656052a38"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Republic Token",
+    "links": {
+      "github": "https://github.com/renproject",
+      "homepage": "https://renproject.io/"
+    }
   },
   {
     "coin": "REN-HCO20",
@@ -8052,7 +8421,11 @@
         "contract_address": "0x221657776846890989a759BA2973e427DfF5C9bB"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Augur",
+    "links": {
+      "homepage": "https://augur.net"
+    }
   },
   {
     "coin": "REVS",
@@ -8149,7 +8522,11 @@
         "contract_address": "0x607F4C5BB672230e8672085532f7e901544a7375"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "IEx.ec",
+    "links": {
+      "homepage": "http://iex.ec/"
+    }
   },
   {
     "coin": "RLC-PLG20",
@@ -8187,7 +8564,12 @@
         "contract_address": "0x320623b8E4fF03373931769A31Fc52A4E78B5d70"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Reserve Rights",
+    "links": {
+      "github": "https://github.com/reserve-protocol/rsr-mainnet",
+      "homepage": "https://reserve.org"
+    }
   },
   {
     "coin": "RTM",
@@ -8243,7 +8625,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/175'"
+    "derivation_path": "m/44'/175'",
+    "trezor_coin": "Ravencoin",
+    "links": {
+      "github": "https://github.com/RavenProject/Ravencoin",
+      "homepage": "https://ravencoin.org"
+    }
   },
   {
     "coin": "SAND-ERC20",
@@ -8422,7 +8809,12 @@
         "contract_address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Synthetix Network Token",
+    "links": {
+      "github": "https://github.com/havven/havven",
+      "homepage": "https://synthetix.io"
+    }
   },
   {
     "coin": "SNX-FTM20",
@@ -8697,7 +9089,12 @@
         "contract_address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "SushiToken",
+    "links": {
+      "github": "https://github.com/sushiswap",
+      "homepage": "https://sushiswapclassic.org/"
+    }
   },
   {
     "coin": "SUSHI-FTM20",
@@ -8863,7 +9260,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/57'"
+    "derivation_path": "m/44'/57'",
+    "trezor_coin": "Syscoin",
+    "links": {
+      "github": "https://github.com/syscoin/syscoin",
+      "homepage": "https://syscoin.org"
+    }
   },
   {
     "coin": "SYS-segwit",
@@ -8887,7 +9289,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/57'"
+    "derivation_path": "m/44'/57'",
+    "trezor_coin": "Syscoin",
+    "links": {
+      "github": "https://github.com/syscoin/syscoin",
+      "homepage": "https://syscoin.org"
+    }
   },
   {
     "coin": "SCA",
@@ -9279,7 +9686,12 @@
         "contract_address": "0x0000000000085d4780B73119b644AE5ecd22b376"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "TrueUSD",
+    "links": {
+      "github": "https://github.com/trusttoken",
+      "homepage": "https://www.trusttoken.com"
+    }
   },
   {
     "coin": "TUSD-HCO20",
@@ -9355,7 +9767,11 @@
         "contract_address": "0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Unibright",
+    "links": {
+      "homepage": "https://unibright.io"
+    }
   },
   {
     "coin": "UBT-PLG20",
@@ -9486,7 +9902,11 @@
         "contract_address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Uniswap",
+    "links": {
+      "homepage": "https://uniswap.org/"
+    }
   },
   {
     "coin": "UNI-BEP20",
@@ -9579,7 +9999,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/92'"
+    "derivation_path": "m/44'/92'",
+    "trezor_coin": "Unobtanium",
+    "links": {
+      "github": "https://github.com/unobtanium-official/unobtanium",
+      "homepage": "https://unobtanium.uno"
+    }
   },
   {
     "coin": "USDC-AVX20",
@@ -9616,7 +10041,12 @@
         "contract_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "USD//Coin",
+    "links": {
+      "github": "https://github.com/centrehq/centre-tokens",
+      "homepage": "https://www.centre.io"
+    }
   },
   {
     "coin": "USDC-BEP20",
@@ -9898,7 +10328,11 @@
         "contract_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "USD Tether (erc20)",
+    "links": {
+      "homepage": "https://tether.to"
+    }
   },
   {
     "coin": "WWCN-ERC20",
@@ -9937,7 +10371,11 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/634'"
+    "derivation_path": "m/44'/634'",
+    "trezor_coin": "Valorbit",
+    "links": {
+      "homepage": "https://valorbit.com"
+    }
   },
   {
     "coin": "VET-BEP20",
@@ -10029,7 +10467,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/14'"
+    "derivation_path": "m/44'/14'",
+    "trezor_coin": "Viacoin",
+    "links": {
+      "github": "https://github.com/viacoin",
+      "homepage": "https://viacoin.org"
+    }
   },
   {
     "coin": "VIA-segwit",
@@ -10050,7 +10493,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/14'"
+    "derivation_path": "m/44'/14'",
+    "trezor_coin": "Viacoin",
+    "links": {
+      "github": "https://github.com/viacoin",
+      "homepage": "https://viacoin.org"
+    }
   },
   {
     "coin": "VITE-BEP20",
@@ -10139,7 +10587,11 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/28'",
-    "trezor_coin": "Vertcoin"
+    "trezor_coin": "Vertcoin",
+    "links": {
+      "github": "https://github.com/vertcoin-project/vertcoin-core",
+      "homepage": "https://vertcoin.org"
+    }
   },
   {
     "coin": "VTC-segwit",
@@ -10162,7 +10614,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/28'"
+    "derivation_path": "m/44'/28'",
+    "trezor_coin": "Vertcoin",
+    "links": {
+      "github": "https://github.com/vertcoin-project/vertcoin-core",
+      "homepage": "https://vertcoin.org"
+    }
   },
   {
     "coin": "WAVES-BEP20",
@@ -10200,7 +10657,12 @@
         "contract_address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Wrapped Bitcoin",
+    "links": {
+      "github": "https://github.com/WrappedBTC",
+      "homepage": "https://wbtc.network"
+    }
   },
   {
     "coin": "WOO-ERC20",
@@ -10454,7 +10916,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/24'"
+    "derivation_path": "m/44'/24'",
+    "trezor_coin": "Primecoin",
+    "links": {
+      "github": "https://github.com/primecoin/primecoin",
+      "homepage": "https://primecoin.io"
+    }
   },
   {
     "coin": "XSN",
@@ -10470,7 +10937,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/384'"
+    "derivation_path": "m/44'/384'",
+    "trezor_coin": "Stakenet",
+    "links": {
+      "github": "https://github.com/X9Developers/XSN",
+      "homepage": "https://stakenet.io"
+    }
   },
   {
     "coin": "XRG",
@@ -10530,7 +11002,12 @@
         "contract_address": "0x70e8dE73cE538DA2bEEd35d14187F6959a8ecA96"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Singapore-Dollar Backed Stablecoin",
+    "links": {
+      "github": "https://github.com/Xfers/StraitsX-tokens",
+      "homepage": "https://xfers.com/sg/stablecoin"
+    }
   },
   {
     "coin": "XSGD-OLD",
@@ -10755,7 +11232,12 @@
         "contract_address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "yearn.finance",
+    "links": {
+      "github": "https://github.com/iearn-finance",
+      "homepage": "https://yearn.finance/"
+    }
   },
   {
     "coin": "YFI-FTM20",
@@ -10849,7 +11331,12 @@
         "contract_address": "0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "YFII.finance",
+    "links": {
+      "github": "https://github.com/yfii/vault",
+      "homepage": "https://dfi.money/"
+    }
   },
   {
     "coin": "ZEC",
@@ -10873,7 +11360,12 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/133'"
+    "derivation_path": "m/44'/133'",
+    "trezor_coin": "Zcash",
+    "links": {
+      "github": "https://github.com/zcash/zcash",
+      "homepage": "https://z.cash"
+    }
   },
   {
     "coin": "ZER",
@@ -11005,7 +11497,12 @@
         "contract_address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "0x Project",
+    "links": {
+      "github": "https://github.com/0xProject",
+      "homepage": "https://0xproject.com"
+    }
   },
   {
     "coin": "ZRX-PLG20",
@@ -11327,7 +11824,12 @@
       }
     },
     "decimals": 18,
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "OKB",
+    "links": {
+      "github": "https://github.com/okex/okberc20token",
+      "homepage": "https://www.okex.com/"
+    }
   },
   {
     "coin": "SEELE-ERC20",
@@ -11346,7 +11848,11 @@
       }
     },
     "decimals": 18,
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Seele",
+    "links": {
+      "homepage": "http://seele.pro"
+    }
   },
   {
     "coin": "REV-ERC20",
@@ -11365,7 +11871,12 @@
       }
     },
     "decimals": 6,
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Revain",
+    "links": {
+      "github": "https://github.com/Revain",
+      "homepage": "https://revain.org"
+    }
   },
   {
     "coin": "SNT-ERC20",
@@ -11384,7 +11895,12 @@
       }
     },
     "decimals": 18,
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Status Network Token",
+    "links": {
+      "github": "https://github.com/status-im",
+      "homepage": "https://status.im"
+    }
   },
   {
     "coin": "ANT-ERC20",
@@ -11441,7 +11957,11 @@
       }
     },
     "decimals": 18,
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "CyberVein",
+    "links": {
+      "homepage": "http://www.cybervein.org"
+    }
   },
   {
     "coin": "DX-ERC20",
@@ -11479,7 +11999,12 @@
       }
     },
     "decimals": 8,
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "STORJ",
+    "links": {
+      "github": "https://github.com/Storj",
+      "homepage": "https://storj.io"
+    }
   },
   {
     "coin": "TRAC-ERC20",
@@ -11498,7 +12023,11 @@
       }
     },
     "decimals": 18,
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "OriginTrail",
+    "links": {
+      "homepage": "https://origintrail.io"
+    }
   },
   {
     "coin": "UBQ",
@@ -11512,7 +12041,11 @@
     "protocol": {
       "type": "ETH"
     },
-    "derivation_path": "m/44'/108'"
+    "derivation_path": "m/44'/108'",
+    "trezor_coin": "Ubiq",
+    "links": {
+      "homepage": "https://ubiqsmart.com"
+    }
   },
   {
     "coin": "PNK-ERC20",
@@ -11531,7 +12064,12 @@
       }
     },
     "decimals": 18,
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Pinakion",
+    "links": {
+      "github": "https://github.com/kleros",
+      "homepage": "https://kleros.io"
+    }
   },
   {
     "coin": "SKL-ERC20",
@@ -11569,7 +12107,11 @@
       }
     },
     "decimals": 8,
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Civic",
+    "links": {
+      "homepage": "https://www.civic.com"
+    }
   },
   {
     "coin": "UTK-ERC20",
@@ -11588,7 +12130,12 @@
       }
     },
     "decimals": 18,
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Utrust",
+    "links": {
+      "github": "https://github.com/utrustdev/",
+      "homepage": "https://utrust.com"
+    }
   },
   {
     "coin": "MLN-ERC20",
@@ -11645,7 +12192,11 @@
       }
     },
     "decimals": 18,
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Uquid Coin",
+    "links": {
+      "homepage": "https://uquidcoin.com"
+    }
   },
   {
     "coin": "UOS-ERC20",
