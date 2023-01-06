@@ -7435,6 +7435,44 @@
     "derivation_path": "m/44'/37'"
   },
   {
+    "coin": "POT-ERC20",
+    "name": "pot_erc20",
+    "fname": "PotCoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x390603F023A33C76e3A4bf7B6Cc9Fba5E87dd05D"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "POT-PLG20",
+    "name": "pot_plg20",
+    "fname": "PotCoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xd7c8469c7eC40f853dA5f651DE81b45aeD47e5aB"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "POWR-ERC20",
     "name": "powr_erc20",
     "fname": "Power Ledger",
