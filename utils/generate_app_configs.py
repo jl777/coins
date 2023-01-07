@@ -246,6 +246,12 @@ class CoinConfig:
                 "asset": self.coin_data["asset"]
             })
 
+    def get_links(self):
+        if "links" in self.coin_data:
+            self.data[self.ticker].update({
+                "links": self.coin_data["links"]
+            })
+
     def get_hd_info(self):
         if "derivation_path" in self.coin_data:
             self.data[self.ticker].update({
@@ -427,6 +433,7 @@ def parse_coins_repo():
                 config.get_nomics_id()
                 config.get_bchd_urls()
                 config.get_hd_info()
+                config.get_links()
                 coins_config.update(config.data)
 
     nodata = []
