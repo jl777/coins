@@ -17,6 +17,7 @@ lightwallet_coins = [f for f in os.listdir(f"{repo_path}/light_wallet_d") if os.
 electrum_coins = [f for f in os.listdir(f"{repo_path}/electrums") if os.path.isfile(f"{repo_path}/electrums/{f}")]
 ethereum_coins = [f for f in os.listdir(f"{repo_path}/ethereum") if os.path.isfile(f"{repo_path}/ethereum/{f}")]
 explorer_coins = [f for f in os.listdir(f"{repo_path}/explorers") if os.path.isfile(f"{repo_path}/explorers/{f}")]
+supported_segwit_coins = ["BTC", "tBTC"]
 
 get_electrums_report()
 with open("electrum_scan_report.json", "r") as f:
@@ -414,7 +415,7 @@ def parse_coins_repo():
 
     for item in coins_data:
         
-        if item["mm2"] == 1 and (item["coin"].find("-segwit") == -1 or item["coin"].find("BTC-segwit") or item["coin"].find("tBTC-segwit")): 
+        if item["mm2"] == 1 and (item["coin"].find("-segwit") == -1 or item["coin"].rstrip("-segwit") in supported_segwit_coins): 
                 config = CoinConfig(item)
                 config.get_protocol_info()
                 config.clean_name()
