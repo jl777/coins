@@ -414,7 +414,7 @@ def parse_coins_repo():
 
     for item in coins_data:
         
-        if item["mm2"] == 1 and item["coin"].find("-segwit") == -1:
+        if item["mm2"] == 1 and (item["coin"].find("-segwit") == -1 or item["coin"].find("BTC-segwit") or item["coin"].find("tBTC-segwit")): 
                 config = CoinConfig(item)
                 config.get_protocol_info()
                 config.clean_name()

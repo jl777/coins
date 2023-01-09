@@ -598,12 +598,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "elec-seeder-two.artbytecoin.org:50013"
-            },
-            {
-                "url": "electrumx-four.artbyte.live:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "electrumx-four.artbyte.live:50013"
             }
         ]
     },
@@ -4233,6 +4227,106 @@
             "homepage": "https://bitcoin.org"
         }
     },
+    "BTC-segwit": {
+        "coin": "BTC-segwit",
+        "type": "UTXO",
+        "name": "Bitcoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://blockchair.com/bitcoin/",
+        "explorer_tx_url": "transaction/",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10000",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30000"
+            },
+            {
+                "url": "electrum2.cipig.net:10000",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30000"
+            },
+            {
+                "url": "electrum3.cipig.net:10000",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30000"
+            },
+            {
+                "url": "electrum1.cipig.net:20000",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20000",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20000",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
+        "is_segwit_on": false,
+        "address_format": {
+            "format": "standard"
+        },
+        "derivation_path": "m/44'/0'",
+        "trezor_coin": "Bitcoin",
+        "links": {
+            "github": "https://github.com/bitcoin/bitcoin",
+            "homepage": "https://bitcoin.org"
+        }
+    },
     "BTC-BEP20": {
         "coin": "BTC-BEP20",
         "type": "BEP-20",
@@ -5182,15 +5276,49 @@
         "sign_message_prefix": "Canada eCoin Signed Message:\n",
         "electrum": [
             {
+                "url": "chicago.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "holland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "holland.ecoincore.com:34335"
             },
             {
+                "url": "lenoir.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:34335"
+            },
+            {
+                "url": "miami.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "miami.ecoincore.com:34335"
+            },
+            {
+                "url": "mumbai.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "mumbai.ecoincore.com:34335"
+            },
+            {
+                "url": "oakland.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "seattle.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "woolloomooloo.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "woolloomooloo.ecoincore.com:34335"
             }
         ],
         "is_segwit_on": false,
@@ -19548,6 +19676,18 @@
                 "ws_url": "electrum2.cipig.net:30051"
             },
             {
+                "url": "electrum3.cipig.net:10051",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30051"
+            },
+            {
                 "url": "electrum1.cipig.net:20051",
                 "protocol": "SSL",
                 "contact": [
@@ -19561,6 +19701,18 @@
             },
             {
                 "url": "electrum2.cipig.net:20051",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20051",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -21240,6 +21392,104 @@
         "coin": "tBTC",
         "type": "UTXO",
         "name": "BTC Testnet",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://blockstream.info/testnet/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": true,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10068",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30068"
+            },
+            {
+                "url": "electrum2.cipig.net:10068",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30068"
+            },
+            {
+                "url": "electrum3.cipig.net:10068",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30068"
+            },
+            {
+                "url": "testnet.aranguren.org:51001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.cipig.net:20068",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20068",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20068",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
+        "is_segwit_on": false,
+        "address_format": {
+            "format": "standard"
+        }
+    },
+    "tBTC-segwit": {
+        "coin": "tBTC-segwit",
+        "type": "UTXO",
+        "name": "tBitcoin",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "nomics_id": "",
@@ -24516,12 +24766,12 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "la.ask.systems:52138",
+                "url": "xrg_ful.googol.cash:52138",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
-                "url": "xrg_ful.googol.cash:52138",
+                "url": "la.ask.systems:52138",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -28314,15 +28564,6 @@
             },
             {
                 "url": "tbch.loping.net:60002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
-                "url": "testnet.bitcoincash.network:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
