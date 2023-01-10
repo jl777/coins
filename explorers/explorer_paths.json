@@ -9,7 +9,8 @@
         "token_address_url": "tokentxns?a="
     },
     "https://blockchair.com/": {
-        "explorer_tx_url": "transaction/"
+        "explorer_tx_url": "transaction/",
+        "explorer_address_url": "address/"
     },
     "https://explorer.zcha.in/": {
         "explorer_address_url": "accounts/",
