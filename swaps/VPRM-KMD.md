@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/a40b1d79004a6f898c3a5feade9034c0fed0658f88492cfdcbe5744c08f1079b)  
+[maker payment (VPRM)](http://explorer.vaporumcoin.us/tx/d8483e5de3b1be7bdd40a1853742a915c3bbf7dd4c67080c32d793116e64018d)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/bdc8ab335a7dc9deda0cba2f5f4c1507a66c88bf24317a347c7f9e89cd249b2f)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/9f589ba0acf991f9855804549952235e5ef54be957b77bd5dc0ee5c2093f0223)  
+[maker payment spent (VPRM)](http://explorer.vaporumcoin.us/tx/b28815e958c5b520fa144255c0bb55491992a3b07e7e17582327d71f040c5ce2)

@@ -10606,6 +10606,22 @@
     },
     "derivation_path": "m/44'/141'"
   },
+    {
+    "coin": "VPRM",
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "asset": "VPRM",
+    "fname": "Vaporum",
+    "rpcport": 51609,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 5,
+    "avg_blocktime": 1,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'"
+  },
   {
     "coin": "VTC",
     "name": "vertcoin",
