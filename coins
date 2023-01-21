@@ -6599,6 +6599,63 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "MASK-BEP20",
+    "name": "mask_bep20",
+    "fname": "Mask Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x2eD9a5C8C13b93955103B9a7C167B67Ef4d568a3"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
+    "coin": "MASK-ERC20",
+    "name": "mask_erc20",
+    "fname": "Mask Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "MASK-PLG20",
+    "name": "mask_plg20",
+    "fname": "Mask Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x2B9E7ccDF0F4e5B24757c1E1a80e311E34Cb10c7"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "MATICTEST",
     "name": "matic testnet",
     "fname": "Matic Testnet",
