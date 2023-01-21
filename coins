@@ -11024,6 +11024,25 @@
     }
   },
   {
+    "coin": "WBTC-PLG20",
+    "name": "wbtc_plg20",
+    "fname": "Wrapped Bitcoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 8,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "WOO-ERC20",
     "name": "woo_erc20",
     "fname": "WOO Network",
