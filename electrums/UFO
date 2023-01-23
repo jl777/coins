@@ -1,0 +1,18 @@
+[
+  {
+    "url": "ufo-e1.calcium.cloud:50001",
+    "protocol": "SSL",
+    "disable_cert_verification": true,
+    "contact": [
+      {"email": "electrum1_admin_email@example.com"},
+    ]
+  },
+  {
+    "url": "ufo-e2.calcium.cloud:50001",
+    "protocol": "SSL",
+    "disable_cert_verification": true,
+    "contact": [
+      {"email": "electrum2_admin_email@example.com"}
+    ]
+  }
+]
