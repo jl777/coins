@@ -5516,6 +5516,44 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "JCHF-AVX20",
+    "name": "jchf_avx20",
+    "fname": "Jarvis Swiss Franc",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "decimals": 18,
+    "avg_blocktime": 0.04,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x2d5563da42b06FbBF9c67b7DC073cF6A7842239e"
+      }
+    },
+    "derivation_path": "m/44'/9000'"
+  },
+  {
+    "coin": "JCHF-BEP20",
+    "name": "jchf_bep20",
+    "fname": "Jarvis Swiss Franc",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x7c869b5A294b1314E985283d01C702B62224a05f"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "JCHF-ERC20",
     "name": "jchf_erc20",
     "fname": "Jarvis Swiss Franc",
@@ -5573,6 +5611,44 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "JEUR-AVX20",
+    "name": "jeur_avx20",
+    "fname": "Jarvis Euro",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "decimals": 18,
+    "avg_blocktime": 0.04,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x9fB1d52596c44603198fB0aee434fac3a679f702"
+      }
+    },
+    "derivation_path": "m/44'/9000'"
+  },
+  {
+    "coin": "JEUR-BEP20",
+    "name": "jeur_bep20",
+    "fname": "Jarvis Euro",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x23b8683Ff98F9E4781552DFE6f12Aa32814924e8"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "JEUR-ERC20",
     "name": "jeur_erc20",
     "fname": "Jarvis Euro",
@@ -5609,6 +5685,25 @@
       }
     },
     "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "JGBP-BEP20",
+    "name": "jgbp_bep20",
+    "fname": "Jarvis British Pound",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x048E9b1ddF9EBbb224812372280e94Ccac443f9e"
+      }
+    },
+    "derivation_path": "m/44'/714'"
   },
   {
     "coin": "JGBP-ERC20",
@@ -5725,6 +5820,44 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "JPHP-PLG20",
+    "name": "jphp_plg20",
+    "fname": "Jarvis Philippine Peso",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x486880FB16408b47f928F472f57beC55AC6089d1"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "JPLN-PLG20",
+    "name": "jpln_plg20",
+    "fname": "Jarvis Polish Zloty",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x08E6d1F0c4877Ef2993Ad733Fc6F1D022d0E9DBf"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "JPYC-AVX20",
     "name": "jpyc_avx20",
     "fname": "JPY Coin",
@@ -5833,6 +5966,25 @@
       "protocol_data": {
         "platform": "MATIC",
         "contract_address": "0xa926db7a4CC0cb1736D5ac60495ca8Eb7214B503"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "JTRY-PLG20",
+    "name": "jtry_plg20",
+    "fname": "Jarvis Turkish Lira",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x2A227fc77Bb2cf8f1881a04eCC8fA01EC57EC9fc"
       }
     },
     "derivation_path": "m/44'/966'"
