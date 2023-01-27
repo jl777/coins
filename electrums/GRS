@@ -1,22 +1,64 @@
 [
     {
         "url": "electrum12.groestlcoin.org:50001",
-        "ws_url": "electrum12.groestlcoin.org:50004"
+        "ws_url": "electrum12.groestlcoin.org:50004",
+        "contact": [
+            {
+                "email": "jackielove4u@hotmail.com"
+            },
+            {
+                "discord": "jackielove4u#0412"
+            }
+        ]
     },
     {
         "url": "electrum10.groestlcoin.org:50001",
-        "ws_url": "electrum10.groestlcoin.org:50004"
+        "ws_url": "electrum10.groestlcoin.org:50004",
+        "contact": [
+            {
+                "email": "jackielove4u@hotmail.com"
+            },
+            {
+                "discord": "jackielove4u#0412"
+            }
+        ]
     },
     {
-        "url": "electrum11.groestlcoin.org:50001",
-        "ws_url": "electrum11.groestlcoin.org:50004"
+        "url": "electrum11.groestlcoin.org:50002",
+        "protocol": "SSL",
+        "disable_cert_verification": true,
+        "ws_url": "electrum11.groestlcoin.org:50004",
+        "contact": [
+            {
+                "email": "jackielove4u@hotmail.com"
+            },
+            {
+                "discord": "jackielove4u#0412"
+            }
+        ]
     },
     {
         "url": "electrum13.groestlcoin.org:50001",
-        "ws_url": "electrum13.groestlcoin.org:50004"
+        "ws_url": "electrum13.groestlcoin.org:50004",
+        "contact": [
+            {
+                "email": "jackielove4u@hotmail.com"
+            },
+            {
+                "discord": "jackielove4u#0412"
+            }
+        ]
     },
     {
         "url": "electrum14.groestlcoin.org:50001",
-        "ws_url": "electrum14.groestlcoin.org:50004"
+        "ws_url": "electrum14.groestlcoin.org:50004",
+        "contact": [
+            {
+                "email": "jackielove4u@hotmail.com"
+            },
+            {
+                "discord": "jackielove4u#0412"
+            }
+        ]
     }
 ]
