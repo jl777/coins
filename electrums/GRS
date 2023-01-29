@@ -26,7 +26,7 @@
     {
         "url": "electrum11.groestlcoin.org:50002",
         "protocol": "SSL",
-        "disable_cert_verification": true,
+        "disable_cert_verification": false,
         "ws_url": "electrum11.groestlcoin.org:50004",
         "contact": [
             {
