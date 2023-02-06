@@ -56,10 +56,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -270,10 +266,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -306,10 +298,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -563,10 +551,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -856,10 +840,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -1000,10 +980,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -1173,10 +1149,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -1449,10 +1421,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -1485,6 +1453,11 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "failover.aur.ewmcx.biz:50003"
+            },
+            {
+                "url": "lenoir.ecoincore.com:12343",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ],
         "derivation_path": "m/44'/85'"
@@ -1655,14 +1628,6 @@
                         "email": "alamshafil@pm.me"
                     }
                 ]
-            },
-            {
-                "url": "electrum-us.avn.network:50001",
-                "contact": [
-                    {
-                        "email": "alamshafil@pm.me"
-                    }
-                ]
             }
         ],
         "derivation_path": "m/44'/921'"
@@ -1695,10 +1660,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -2244,10 +2205,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -2462,10 +2419,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -2664,10 +2617,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -2681,7 +2630,7 @@
         "nomics_id": "BCH",
         "explorer_url": "https://blockchair.com/bitcoin-cash/",
         "explorer_tx_url": "transaction/",
-        "explorer_address_url": "",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -2770,6 +2719,10 @@
                 ]
             }
         ],
+        "address_format": {
+            "format": "cashaddress",
+            "network": "bitcoincash"
+        },
         "derivation_path": "m/44'/145'",
         "trezor_coin": "Bitcoin Cash",
         "links": {
@@ -3008,10 +2961,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -3260,7 +3209,8 @@
             }
         ],
         "asset": "BET",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "BIDR-BEP20": {
         "coin": "BIDR-BEP20",
@@ -3383,10 +3333,6 @@
                 "ws_url": "electrum3.blackcoin.nl:30004"
             }
         ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        },
         "derivation_path": "m/44'/10'"
     },
     "BLK-BEP20": {
@@ -3507,11 +3453,7 @@
                 ],
                 "ws_url": "electrum3.blackcoin.nl:30014"
             }
-        ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
+        ]
     },
     "BNB": {
         "coin": "BNB",
@@ -3816,10 +3758,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -3915,7 +3853,8 @@
             }
         ],
         "asset": "BOTS",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "BRZ-BEP20": {
         "coin": "BRZ-BEP20",
@@ -4055,10 +3994,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "forex_id": "BRL",
@@ -4126,10 +4061,43 @@
                 "disable_cert_verification": true,
                 "ws_url": "bsty-main.coinmunity.gold:50013"
             }
+        ]
+    },
+    "BSTY-segwit": {
+        "coin": "BSTY-segwit",
+        "type": "UTXO",
+        "name": "GlobalBoost-Y",
+        "coinpaprika_id": "bsty-globalboost-y",
+        "coingecko_id": "globalboost",
+        "nomics_id": "BSTY",
+        "explorer_url": "https://insight.globalboost.info/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "66.172.33.175:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "bsty-bkp.coinmunity.gold:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "bsty-bkp.coinmunity.gold:50013"
+            },
+            {
+                "url": "bsty-main.coinmunity.gold:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "bsty-main.coinmunity.gold:50013"
+            }
         ],
-        "is_segwit_on": false,
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         }
     },
     "BTC": {
@@ -4141,7 +4109,7 @@
         "nomics_id": "BTC",
         "explorer_url": "https://blockchair.com/bitcoin/",
         "explorer_tx_url": "transaction/",
-        "explorer_address_url": "",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -4222,9 +4190,104 @@
                 ]
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/0'",
+        "trezor_coin": "Bitcoin",
+        "links": {
+            "github": "https://github.com/bitcoin/bitcoin",
+            "homepage": "https://bitcoin.org"
+        }
+    },
+    "BTC-segwit": {
+        "coin": "BTC-segwit",
+        "type": "UTXO",
+        "name": "Bitcoin",
+        "coinpaprika_id": "btc-bitcoin",
+        "coingecko_id": "bitcoin",
+        "nomics_id": "BTC",
+        "explorer_url": "https://blockchair.com/bitcoin/",
+        "explorer_tx_url": "transaction/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10000",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30000"
+            },
+            {
+                "url": "electrum2.cipig.net:10000",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30000"
+            },
+            {
+                "url": "electrum3.cipig.net:10000",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30000"
+            },
+            {
+                "url": "electrum1.cipig.net:20000",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20000",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20000",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/0'",
         "trezor_coin": "Bitcoin",
@@ -4547,10 +4610,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -4583,9 +4642,43 @@
                 "ws_url": "btx-electrumx.coinsmunity.com:50003"
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/160'",
+        "trezor_coin": "Bitcore",
+        "links": {
+            "github": "https://github.com/LIMXTEC/BitCore",
+            "homepage": "https://bitcore.cc"
+        }
+    },
+    "BTX-segwit": {
+        "coin": "BTX-segwit",
+        "type": "UTXO",
+        "name": "BitCore",
+        "coinpaprika_id": "btx-bitcore",
+        "coingecko_id": "bitcore",
+        "nomics_id": "BTX",
+        "explorer_url": "https://chainz.cryptoid.info/btx/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "btx-electrumx.coinsmunity.com:50003"
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/160'",
         "trezor_coin": "Bitcore",
@@ -4837,10 +4930,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -4937,10 +5026,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ]
     },
@@ -4972,10 +5057,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "forex_id": "CAD",
@@ -5162,7 +5243,8 @@
             }
         ],
         "asset": "CCL",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "CDN": {
         "coin": "CDN",
@@ -5182,20 +5264,117 @@
         "sign_message_prefix": "Canada eCoin Signed Message:\n",
         "electrum": [
             {
+                "url": "chicago.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "holland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "holland.ecoincore.com:34335"
             },
             {
+                "url": "lenoir.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:34335"
+            },
+            {
+                "url": "miami.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "miami.ecoincore.com:34335"
+            },
+            {
+                "url": "mumbai.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "mumbai.ecoincore.com:34335"
+            },
+            {
+                "url": "oakland.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "seattle.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "woolloomooloo.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "woolloomooloo.ecoincore.com:34335"
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/34'"
+    },
+    "CDN-segwit": {
+        "coin": "CDN-segwit",
+        "type": "UTXO",
+        "name": "Canada eCoin",
+        "coinpaprika_id": "cdn-canada-ecoin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "CDN",
+        "explorer_url": "https://chainz.cryptoid.info/cdn/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "chicago.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "holland.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "holland.ecoincore.com:34335"
+            },
+            {
+                "url": "lenoir.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:34335"
+            },
+            {
+                "url": "miami.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "miami.ecoincore.com:34335"
+            },
+            {
+                "url": "mumbai.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "mumbai.ecoincore.com:34335"
+            },
+            {
+                "url": "oakland.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "seattle.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "woolloomooloo.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "woolloomooloo.ecoincore.com:34335"
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/34'"
     },
@@ -5290,10 +5469,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -5580,11 +5755,7 @@
                     }
                 ]
             }
-        ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
+        ]
     },
     "CHSB-ERC20": {
         "coin": "CHSB-ERC20",
@@ -5681,10 +5852,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -5805,10 +5972,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -5843,7 +6006,8 @@
             }
         ],
         "asset": "CLC",
-        "derivation_path": "m/44'/1901'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "COMP-AVX20": {
         "coin": "COMP-AVX20",
@@ -6040,10 +6204,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -6164,10 +6324,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -6346,10 +6502,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -6445,7 +6597,8 @@
             }
         ],
         "asset": "CRYPTO",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "CUMMIES-BEP20": {
         "coin": "CUMMIES-BEP20",
@@ -6491,6 +6644,69 @@
         ],
         "token_address_url": "tokentxns?a=",
         "derivation_path": "m/44'/714'"
+    },
+    "CVX-ERC20": {
+        "coin": "CVX-ERC20",
+        "type": "ERC-20",
+        "name": "Convex Finance",
+        "coinpaprika_id": "cvx-convex-finance",
+        "coingecko_id": "convex-finance",
+        "nomics_id": "CVX",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "derivation_path": "m/44'/60'"
     },
     "DAI-AVX20": {
         "coin": "DAI-AVX20",
@@ -6744,10 +6960,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -6761,7 +6973,7 @@
         "nomics_id": "DASH",
         "explorer_url": "https://blockchair.com/dash/",
         "explorer_tx_url": "transaction/",
-        "explorer_address_url": "",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -7069,7 +7281,8 @@
             }
         ],
         "asset": "DEX",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "DGB": {
         "coin": "DGB",
@@ -7161,9 +7374,104 @@
                 ]
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/20'",
+        "trezor_coin": "DigiByte",
+        "links": {
+            "github": "https://github.com/digibyte/digibyte",
+            "homepage": "https://digibyte.io"
+        }
+    },
+    "DGB-segwit": {
+        "coin": "DGB-segwit",
+        "type": "UTXO",
+        "name": "Digibyte",
+        "coinpaprika_id": "dgb-digibyte",
+        "coingecko_id": "digibyte",
+        "nomics_id": "DGB",
+        "explorer_url": "https://digiexplorer.info/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10059",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30059"
+            },
+            {
+                "url": "electrum2.cipig.net:10059",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30059"
+            },
+            {
+                "url": "electrum3.cipig.net:10059",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30059"
+            },
+            {
+                "url": "electrum1.cipig.net:20059",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20059",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20059",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/20'",
         "trezor_coin": "DigiByte",
@@ -7964,7 +8272,8 @@
             }
         ],
         "asset": "DP",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "DOI": {
         "coin": "DOI",
@@ -8036,11 +8345,7 @@
                 ],
                 "ws-url": "ugly-bird-70.doi.works:50004"
             }
-        ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
+        ]
     },
     "ECA": {
         "coin": "ECA",
@@ -8149,6 +8454,12 @@
         "currently_enabled": false,
         "wallet_only": false,
         "electrum": [
+            {
+                "url": "electrum3.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrum3.egulden.org:50004"
+            },
             {
                 "url": "holland.ecoincore.com:11017",
                 "protocol": "SSL",
@@ -8598,10 +8909,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -8992,10 +9299,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -9097,14 +9400,73 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "forex_id": "EUR",
         "derivation_path": "m/44'/966'"
+    },
+    "FEI-ERC20": {
+        "coin": "FEI-ERC20",
+        "type": "ERC-20",
+        "name": "Fei USD",
+        "coinpaprika_id": "fei-fei-protocol",
+        "coingecko_id": "fei-usd",
+        "nomics_id": "FEI",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x956F47F50A910163D8BF957Cf5846D573E7f87CA",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "derivation_path": "m/44'/60'"
     },
     "FET-ERC20": {
         "coin": "FET-ERC20",
@@ -9242,10 +9604,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -9294,6 +9652,69 @@
         ],
         "token_address_url": "tokentxns?a=",
         "derivation_path": "m/44'/714'"
+    },
+    "FIL-ERC20": {
+        "coin": "FIL-ERC20",
+        "type": "ERC-20",
+        "name": "Filecoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "FIL",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x8E16bf47065Fe843A82f4399bAF5aBac4E0822B7",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "derivation_path": "m/44'/60'"
     },
     "FIL-HCO20": {
         "coin": "FIL-HCO20",
@@ -9470,9 +9891,68 @@
                 ]
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/75'",
+        "trezor_coin": "Fujicoin",
+        "links": {
+            "github": "https://github.com/fujicoin/fujicoin",
+            "homepage": "https://fujicoin.org"
+        }
+    },
+    "FJC-segwit": {
+        "coin": "FJC-segwit",
+        "type": "UTXO",
+        "name": "Fujicoin",
+        "coinpaprika_id": "fjc-fujicoin",
+        "coingecko_id": "fujicoin",
+        "nomics_id": "FJC",
+        "explorer_url": "https://explorer.fujicoin.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrumx1.fujicoin.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.fujicoin.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.fujicoin.org:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.fujicoin.org:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/fujicoin/electrum-fjc/issues"
+                    }
+                ]
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/75'",
         "trezor_coin": "Fujicoin",
@@ -9814,9 +10294,104 @@
                 ]
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/8'",
+        "trezor_coin": "Feathercoin",
+        "links": {
+            "github": "https://github.com/FeatherCoin/Feathercoin",
+            "homepage": "https://feathercoin.com"
+        }
+    },
+    "FTC-segwit": {
+        "coin": "FTC-segwit",
+        "type": "UTXO",
+        "name": "Feathercoin",
+        "coinpaprika_id": "ftc-feathercoin",
+        "coingecko_id": "feathercoin",
+        "nomics_id": "FTC",
+        "explorer_url": "http://explorer.feathercoin.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10054",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30054"
+            },
+            {
+                "url": "electrum2.cipig.net:10054",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30054"
+            },
+            {
+                "url": "electrum3.cipig.net:10054",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30054"
+            },
+            {
+                "url": "electrum1.cipig.net:20054",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20054",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20054",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/8'",
         "trezor_coin": "Feathercoin",
@@ -9991,6 +10566,232 @@
             "github": "https://github.com/Fantom-foundation/",
             "homepage": "https://fantom.foundation/"
         }
+    },
+    "FXS-BEP20": {
+        "coin": "FXS-BEP20",
+        "type": "BEP-20",
+        "name": "Frax Share",
+        "coinpaprika_id": "fxs-frax-share",
+        "coingecko_id": "frax-share",
+        "nomics_id": "FXS",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xDE2F075f6F14EB9D96755b24E416A53E736Ca363",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "derivation_path": "m/44'/714'"
+    },
+    "FXS-ERC20": {
+        "coin": "FXS-ERC20",
+        "type": "ERC-20",
+        "name": "Frax Share",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "FXS",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "derivation_path": "m/44'/60'"
+    },
+    "FXS-PLG20": {
+        "coin": "FXS-PLG20",
+        "type": "Matic",
+        "name": "Frax Share",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "FXS",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x1a3acf6D19267E2d3e7f898f42803e90C9219062",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "derivation_path": "m/44'/966'"
+    },
+    "FXS-AVX20": {
+        "coin": "FXS-AVX20",
+        "type": "AVX-20",
+        "name": "Frax Share",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "FXS",
+        "explorer_url": "https://cchain.explorer.avax.network/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x214DB107654fF987AD859F34125307783fC8e387",
+        "parent_coin": "AVAX",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/avalanche",
+                "gui_auth": true
+            },
+            {
+                "url": "https://api.avax.network/ext/bc/C/rpc"
+            }
+        ],
+        "derivation_path": "m/44'/9000'"
+    },
+    "FXS-MVR20": {
+        "coin": "FXS-MVR20",
+        "type": "Moonriver",
+        "name": "Frax Share",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "FXS",
+        "explorer_url": "https://moonriver.moonscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x6f1D1Ee50846Fcbc3de91723E61cb68CFa6D0E98",
+        "parent_coin": "MOVR",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://rpc.moonriver.moonbeam.network"
+            },
+            {
+                "url": "https://rpc.api.moonriver.moonbeam.network"
+            }
+        ],
+        "derivation_path": "m/44'/1285'"
+    },
+    "FXS-FTM20": {
+        "coin": "FXS-FTM20",
+        "type": "FTM-20",
+        "name": "Frax Share",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "FXS",
+        "explorer_url": "https://ftmscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x7d016eec9c25232b01F23EF992D98ca97fc2AF5a",
+        "parent_coin": "FTM",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/fantom",
+                "gui_auth": true
+            },
+            {
+                "url": "https://rpc.ftm.tools/"
+            }
+        ],
+        "derivation_path": "m/44'/1007'"
     },
     "GALA-ERC20": {
         "coin": "GALA-ERC20",
@@ -10194,7 +10995,8 @@
             }
         ],
         "asset": "GLEEC",
-        "derivation_path": "m/44'/476'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "GLM-ERC20": {
         "coin": "GLM-ERC20",
@@ -10287,10 +11089,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -10509,10 +11307,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -10536,28 +11330,155 @@
         "electrum": [
             {
                 "url": "electrum10.groestlcoin.org:50001",
-                "ws_url": "electrum10.groestlcoin.org:50004"
-            },
-            {
-                "url": "electrum11.groestlcoin.org:50001",
-                "ws_url": "electrum11.groestlcoin.org:50004"
+                "ws_url": "electrum10.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
             },
             {
                 "url": "electrum12.groestlcoin.org:50001",
-                "ws_url": "electrum12.groestlcoin.org:50004"
+                "ws_url": "electrum12.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
             },
             {
                 "url": "electrum13.groestlcoin.org:50001",
-                "ws_url": "electrum13.groestlcoin.org:50004"
+                "ws_url": "electrum13.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
             },
             {
                 "url": "electrum14.groestlcoin.org:50001",
-                "ws_url": "electrum14.groestlcoin.org:50004"
+                "ws_url": "electrum14.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum11.groestlcoin.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "electrum11.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/17'",
+        "trezor_coin": "Groestlcoin",
+        "links": {
+            "github": "https://github.com/Groestlcoin/groestlcoin",
+            "homepage": "https://www.groestlcoin.org"
+        }
+    },
+    "GRS-segwit": {
+        "coin": "GRS-segwit",
+        "type": "UTXO",
+        "name": "Groestlcoin",
+        "coinpaprika_id": "grs-groestlcoin",
+        "coingecko_id": "groestlcoin",
+        "nomics_id": "GRS",
+        "explorer_url": "http://groestlsight.groestlcoin.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrum10.groestlcoin.org:50001",
+                "ws_url": "electrum10.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum12.groestlcoin.org:50001",
+                "ws_url": "electrum12.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum13.groestlcoin.org:50001",
+                "ws_url": "electrum13.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum14.groestlcoin.org:50001",
+                "ws_url": "electrum14.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum11.groestlcoin.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "electrum11.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/17'",
         "trezor_coin": "Groestlcoin",
@@ -10716,10 +11637,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -10768,6 +11685,132 @@
         ],
         "token_address_url": "tokentxns?a=",
         "derivation_path": "m/44'/714'"
+    },
+    "GT-ERC20": {
+        "coin": "GT-ERC20",
+        "type": "ERC-20",
+        "name": "Gate",
+        "coinpaprika_id": "gt-gatechain-token",
+        "coingecko_id": "gatechain-token",
+        "nomics_id": "GT",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xE66747a101bFF2dBA3697199DCcE5b743b454759",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "derivation_path": "m/44'/60'"
+    },
+    "GUSD-ERC20": {
+        "coin": "GUSD-ERC20",
+        "type": "ERC-20",
+        "name": "Gemini Dollar",
+        "coinpaprika_id": "gusd-gemini-dollar",
+        "coingecko_id": "gemini-dollar",
+        "nomics_id": "GUSD",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "derivation_path": "m/44'/60'"
     },
     "HEX-ERC20": {
         "coin": "HEX-ERC20",
@@ -10865,10 +11908,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -10964,7 +12003,8 @@
             }
         ],
         "asset": "HODL",
-        "derivation_path": "m/44'/1989'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "HOT-ERC20": {
         "coin": "HOT-ERC20",
@@ -11057,10 +12097,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -11300,10 +12336,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -11376,7 +12408,7 @@
         "coin": "ILN",
         "type": "Smart Chain",
         "name": "Ilien",
-        "coinpaprika_id": "test-coin",
+        "coinpaprika_id": "iln-ilien9195",
         "coingecko_id": "test-coin",
         "nomics_id": "ILNPOS",
         "explorer_url": "https://explorer.ilien.io/",
@@ -11393,7 +12425,7 @@
                 "url": "electrum1.ilien.io:65011",
                 "contact": [
                     {
-                        "email": "support@chainmake.rs"
+                        "email": "admin@ilien.io"
                     },
                     {
                         "discord": "siu - Chainmakers#3920"
@@ -11405,7 +12437,7 @@
                 "url": "electrum2.ilien.io:65011",
                 "contact": [
                     {
-                        "email": "support@chainmake.rs"
+                        "email": "admin@ilien.io"
                     },
                     {
                         "discord": "siu - Chainmakers#3920"
@@ -11415,13 +12447,14 @@
             }
         ],
         "asset": "ILN",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "ILN-BEP20": {
         "coin": "ILN-BEP20",
         "type": "BEP-20",
         "name": "Ilien",
-        "coinpaprika_id": "test-coin",
+        "coinpaprika_id": "iln-ilien9195",
         "coingecko_id": "test-coin",
         "nomics_id": "ILNPOS",
         "explorer_url": "https://bscscan.com/",
@@ -11466,7 +12499,7 @@
         "coin": "ILN-PLG20",
         "type": "Matic",
         "name": "Ilien",
-        "coinpaprika_id": "test-coin",
+        "coinpaprika_id": "iln-ilien9195",
         "coingecko_id": "test-coin",
         "nomics_id": "ILNPOS",
         "explorer_url": "https://polygonscan.com/",
@@ -11490,10 +12523,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -11526,13 +12555,72 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
+    },
+    "IMX-ERC20": {
+        "coin": "IMX-ERC20",
+        "type": "ERC-20",
+        "name": "ImmutableX",
+        "coinpaprika_id": "imx-immutable-x",
+        "coingecko_id": "immutable-x",
+        "nomics_id": "IMX3",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xF57e7e7C23978C3cAEC3C3548E3D615c346e79fF",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "derivation_path": "m/44'/60'"
     },
     "INJ-BEP20": {
         "coin": "INJ-BEP20",
@@ -11760,10 +12848,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -11784,6 +12868,225 @@
         "currently_enabled": false,
         "wallet_only": false,
         "contract_address": "0x7874CAFf04AFB8B6f5cbBE3ebec3f83Fcd882272",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "derivation_path": "m/44'/714'"
+    },
+    "JAUD-PLG20": {
+        "coin": "JAUD-PLG20",
+        "type": "Matic",
+        "name": "Jarvis Australian Dollar",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "JAUD",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xCB7F1Ef7246D1497b985f7FC45A1A31F04346133",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "forex_id": "AUD",
+        "derivation_path": "m/44'/966'"
+    },
+    "JBRL-BEP20": {
+        "coin": "JBRL-BEP20",
+        "type": "BEP-20",
+        "name": "Jarvis Brazilian Real",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x316622977073BBC3dF32E7d2A9B3c77596a0a603",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "forex_id": "BRL",
+        "derivation_path": "m/44'/714'"
+    },
+    "JBRL-PLG20": {
+        "coin": "JBRL-PLG20",
+        "type": "Matic",
+        "name": "Jarvis Brazilian Real",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xf2f77FE7b8e66571E0fca7104c4d670BF1C8d722",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "forex_id": "BRL",
+        "derivation_path": "m/44'/966'"
+    },
+    "JCAD-PLG20": {
+        "coin": "JCAD-PLG20",
+        "type": "Matic",
+        "name": "Jarvis Canadian Dollar",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "JCAD",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x8ca194A3b22077359b5732DE53373D4afC11DeE3",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "forex_id": "CAD",
+        "derivation_path": "m/44'/966'"
+    },
+    "JCHF-AVX20": {
+        "coin": "JCHF-AVX20",
+        "type": "AVX-20",
+        "name": "Jarvis Swiss Franc",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "JCHF",
+        "explorer_url": "https://cchain.explorer.avax.network/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x2d5563da42b06FbBF9c67b7DC073cF6A7842239e",
+        "parent_coin": "AVAX",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/avalanche",
+                "gui_auth": true
+            },
+            {
+                "url": "https://api.avax.network/ext/bc/C/rpc"
+            }
+        ],
+        "derivation_path": "m/44'/9000'"
+    },
+    "JCHF-BEP20": {
+        "coin": "JCHF-BEP20",
+        "type": "BEP-20",
+        "name": "Jarvis Swiss Franc",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "JCHF",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x7c869b5A294b1314E985283d01C702B62224a05f",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "nodes": [
@@ -11905,14 +13208,117 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "forex_id": "CHF",
         "derivation_path": "m/44'/966'"
+    },
+    "JCNY-PLG20": {
+        "coin": "JCNY-PLG20",
+        "type": "Matic",
+        "name": "Jarvis Chinese Yuan",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "JCNY",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x84526c812D8f6c4fD6C1a5B68713AFF50733E772",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "forex_id": "CNY",
+        "derivation_path": "m/44'/966'"
+    },
+    "JEUR-AVX20": {
+        "coin": "JEUR-AVX20",
+        "type": "AVX-20",
+        "name": "Jarvis Euro",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "JEUR",
+        "explorer_url": "https://cchain.explorer.avax.network/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x9fB1d52596c44603198fB0aee434fac3a679f702",
+        "parent_coin": "AVAX",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/avalanche",
+                "gui_auth": true
+            },
+            {
+                "url": "https://api.avax.network/ext/bc/C/rpc"
+            }
+        ],
+        "derivation_path": "m/44'/9000'"
+    },
+    "JEUR-BEP20": {
+        "coin": "JEUR-BEP20",
+        "type": "BEP-20",
+        "name": "Jarvis Euro",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "JEUR",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x23b8683Ff98F9E4781552DFE6f12Aa32814924e8",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "derivation_path": "m/44'/714'"
     },
     "JEUR-ERC20": {
         "coin": "JEUR-ERC20",
@@ -12006,14 +13412,55 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "forex_id": "EUR",
         "derivation_path": "m/44'/966'"
+    },
+    "JGBP-BEP20": {
+        "coin": "JGBP-BEP20",
+        "type": "BEP-20",
+        "name": "Jarvis British Pound",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "JGBP",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x048E9b1ddF9EBbb224812372280e94Ccac443f9e",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "derivation_path": "m/44'/714'"
     },
     "JGBP-ERC20": {
         "coin": "JGBP-ERC20",
@@ -12107,10 +13554,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "forex_id": "GBP",
@@ -12144,13 +13587,174 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "forex_id": "JPY",
+        "derivation_path": "m/44'/966'"
+    },
+    "JKRW-PLG20": {
+        "coin": "JKRW-PLG20",
+        "type": "Matic",
+        "name": "Jarvis South Korean Won",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xa22f6bc96f13bcC84dF36109c973d3c0505a067E",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "forex_id": "KRW",
+        "derivation_path": "m/44'/966'"
+    },
+    "JMXN-PLG20": {
+        "coin": "JMXN-PLG20",
+        "type": "Matic",
+        "name": "Jarvis Mexican Peso",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "JMXN",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xBD1fe73e1f12bD2bc237De9b626F056f21f86427",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "forex_id": "MXN",
+        "derivation_path": "m/44'/966'"
+    },
+    "JNZD-PLG20": {
+        "coin": "JNZD-PLG20",
+        "type": "Matic",
+        "name": "Jarvis New Zealand Dollar",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x6b526Daf03B4C47AF2bcc5860B12151823Ff70E0",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "forex_id": "NZD",
+        "derivation_path": "m/44'/966'"
+    },
+    "JPHP-PLG20": {
+        "coin": "JPHP-PLG20",
+        "type": "Matic",
+        "name": "Jarvis Philippine Peso",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x486880FB16408b47f928F472f57beC55AC6089d1",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "forex_id": "PHP",
+        "derivation_path": "m/44'/966'"
+    },
+    "JPLN-PLG20": {
+        "coin": "JPLN-PLG20",
+        "type": "Matic",
+        "name": "Jarvis Polish Zloty",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x08E6d1F0c4877Ef2993Ad733Fc6F1D022d0E9DBf",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "forex_id": "PLN",
         "derivation_path": "m/44'/966'"
     },
     "JPYC-AVX20": {
@@ -12211,10 +13815,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "forex_id": "JPY",
@@ -12311,12 +13911,107 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
+        "derivation_path": "m/44'/966'"
+    },
+    "JSEK-PLG20": {
+        "coin": "JSEK-PLG20",
+        "type": "Matic",
+        "name": "Jarvis Swedish Krona",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "JSEK",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x197E5d6CcfF265AC3E303a34Db360ee1429f5d1A",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "forex_id": "SEK",
+        "derivation_path": "m/44'/966'"
+    },
+    "JSGD-PLG20": {
+        "coin": "JSGD-PLG20",
+        "type": "Matic",
+        "name": "Jarvis Singapore Dollar",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "JSGD",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xa926db7a4CC0cb1736D5ac60495ca8Eb7214B503",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "forex_id": "SGD",
+        "derivation_path": "m/44'/966'"
+    },
+    "JTRY-PLG20": {
+        "coin": "JTRY-PLG20",
+        "type": "Matic",
+        "name": "Jarvis Turkish Lira",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x2A227fc77Bb2cf8f1881a04eCC8fA01EC57EC9fc",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "forex_id": "TRY",
         "derivation_path": "m/44'/966'"
     },
     "JST-BEP20": {
@@ -12455,7 +14150,8 @@
             }
         ],
         "asset": "JUMBLR",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "KCS": {
         "coin": "KCS",
@@ -12769,10 +14465,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -12897,7 +14589,8 @@
             }
         ],
         "asset": "KOIN",
-        "derivation_path": "m/44'/659'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "KSM-BEP20": {
         "coin": "KSM-BEP20",
@@ -13035,7 +14728,8 @@
             }
         ],
         "asset": "LABS",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "LBC": {
         "coin": "LBC",
@@ -13082,9 +14776,54 @@
                 "protocol": "SSL"
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/140'"
+    },
+    "LBC-segwit": {
+        "coin": "LBC-segwit",
+        "type": "UTXO",
+        "name": "LBRY Credits",
+        "coinpaprika_id": "lbc-lbry-credits",
+        "coingecko_id": "lbry-credits",
+        "nomics_id": "LBC",
+        "explorer_url": "https://explorer.lbry.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10067",
+                "ws_url": "electrum1.cipig.net:30067"
+            },
+            {
+                "url": "electrum2.cipig.net:10067",
+                "ws_url": "electrum2.cipig.net:30067"
+            },
+            {
+                "url": "electrum3.cipig.net:10067",
+                "ws_url": "electrum3.cipig.net:30067"
+            },
+            {
+                "url": "electrum1.cipig.net:20067",
+                "disable_cert_verification": false,
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum2.cipig.net:20067",
+                "disable_cert_verification": false,
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum3.cipig.net:20067",
+                "disable_cert_verification": false,
+                "protocol": "SSL"
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/140'"
     },
@@ -13110,9 +14849,31 @@
                 "protocol": "TCP"
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/192'"
+    },
+    "LCC-segwit": {
+        "coin": "LCC-segwit",
+        "type": "UTXO",
+        "name": "Litecoin Cash",
+        "coinpaprika_id": "lcc-litecoin-cash",
+        "coingecko_id": "litecoin-cash",
+        "nomics_id": "LCC",
+        "explorer_url": "https://chainz.cryptoid.info/lcc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "188.166.117.139:50001",
+                "protocol": "TCP"
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/192'"
     },
@@ -13207,10 +14968,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -13310,10 +15067,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -13562,10 +15315,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -13756,10 +15505,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -13793,9 +15538,39 @@
                 "protocol": "TCP"
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/613'"
+    },
+    "WCN-segwit": {
+        "coin": "WCN-segwit",
+        "type": "UTXO",
+        "name": "Widecoin",
+        "coinpaprika_id": "wcn-widecoin",
+        "coingecko_id": "widecoin",
+        "nomics_id": "WCN2",
+        "explorer_url": "https://explorer.widecoin.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrumx.widecoin.org:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx2.widecoin.org:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx3.widecoin.org:50001",
+                "protocol": "TCP"
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/613'"
     },
@@ -13984,7 +15759,7 @@
         "nomics_id": "LTC",
         "explorer_url": "https://blockchair.com/litecoin/",
         "explorer_tx_url": "transaction/",
-        "explorer_address_url": "",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -14065,9 +15840,104 @@
                 ]
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/2'",
+        "trezor_coin": "Litecoin",
+        "links": {
+            "github": "https://github.com/litecoin-project/litecoin",
+            "homepage": "https://litecoin.org"
+        }
+    },
+    "LTC-segwit": {
+        "coin": "LTC-segwit",
+        "type": "UTXO",
+        "name": "Litecoin",
+        "coinpaprika_id": "ltc-litecoin",
+        "coingecko_id": "litecoin",
+        "nomics_id": "LTC",
+        "explorer_url": "https://blockchair.com/litecoin/",
+        "explorer_tx_url": "transaction/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10063",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30063"
+            },
+            {
+                "url": "electrum2.cipig.net:10063",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30063"
+            },
+            {
+                "url": "electrum3.cipig.net:10063",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30063"
+            },
+            {
+                "url": "electrum1.cipig.net:20063",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20063",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20063",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/2'",
         "trezor_coin": "Litecoin",
@@ -14286,10 +16156,146 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "derivation_path": "m/44'/966'"
+    },
+    "MASK-BEP20": {
+        "coin": "MASK-BEP20",
+        "type": "BEP-20",
+        "name": "Mask Network",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "MASK2",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x2eD9a5C8C13b93955103B9a7C167B67Ef4d568a3",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
             },
             {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "derivation_path": "m/44'/714'"
+    },
+    "MASK-ERC20": {
+        "coin": "MASK-ERC20",
+        "type": "ERC-20",
+        "name": "Mask Network",
+        "coinpaprika_id": "mask-mask-network",
+        "coingecko_id": "mask-network",
+        "nomics_id": "MASK2",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "derivation_path": "m/44'/60'"
+    },
+    "MASK-PLG20": {
+        "coin": "MASK-PLG20",
+        "type": "Matic",
+        "name": "Mask Network",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "MASK2",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x2B9E7ccDF0F4e5B24757c1E1a80e311E34Cb10c7",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -14348,10 +16354,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'",
@@ -14721,7 +16723,8 @@
             }
         ],
         "asset": "MCL",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "MESH": {
         "coin": "MESH",
@@ -14814,7 +16817,8 @@
             }
         ],
         "asset": "MESH",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "MGW": {
         "coin": "MGW",
@@ -14907,7 +16911,8 @@
             }
         ],
         "asset": "MGW",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "MINDS-ERC20": {
         "coin": "MINDS-ERC20",
@@ -15448,10 +17453,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -15480,9 +17481,38 @@
                 "url": "electrumx.tamami-foundation.org:50001"
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/22'",
+        "trezor_coin": "Monacoin",
+        "links": {
+            "github": "https://github.com/monacoinproject/monacoin",
+            "homepage": "https://monacoin.org"
+        }
+    },
+    "MONA-segwit": {
+        "coin": "MONA-segwit",
+        "type": "UTXO",
+        "name": "MonaCoin",
+        "coinpaprika_id": "mona-monacoin",
+        "coingecko_id": "monacoin",
+        "nomics_id": "MONA",
+        "explorer_url": "https://blockbook.electrum-mona.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "133.167.67.203:50001"
+            },
+            {
+                "url": "electrumx.tamami-foundation.org:50001"
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/22'",
         "trezor_coin": "Monacoin",
@@ -15733,7 +17763,8 @@
             }
         ],
         "asset": "MSHARK",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "NATURE": {
         "coin": "NATURE",
@@ -15776,7 +17807,8 @@
             }
         ],
         "asset": "NATURE",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "NAV": {
         "coin": "NAV",
@@ -16080,10 +18112,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -16176,7 +18204,8 @@
             }
         ],
         "asset": "NINJA",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "NMC": {
         "coin": "NMC",
@@ -16203,9 +18232,40 @@
                 "disable_cert_verification": true
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/7'",
+        "trezor_coin": "Namecoin",
+        "links": {
+            "github": "https://github.com/namecoin/namecoin-core",
+            "homepage": "https://namecoin.org"
+        }
+    },
+    "NMC-segwit": {
+        "coin": "NMC-segwit",
+        "type": "UTXO",
+        "name": "Namecoin",
+        "coinpaprika_id": "nmc-namecoin",
+        "coingecko_id": "namecoin",
+        "nomics_id": "NMC",
+        "explorer_url": "https://nmc.tokenview.com/en/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "46.229.238.187:57001"
+            },
+            {
+                "url": "nmc2.bitcoins.sk:57002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/7'",
         "trezor_coin": "Namecoin",
@@ -16509,10 +18569,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "forex_id": "NZD",
@@ -16693,10 +18749,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -16797,10 +18849,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -16971,7 +19019,8 @@
             }
         ],
         "asset": "PANGEA",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "PAX-ERC20": {
         "coin": "PAX-ERC20",
@@ -17139,10 +19188,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -17288,104 +19333,9 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
-    },
-    "SFUSD": {
-        "coin": "SFUSD",
-        "type": "UTXO",
-        "name": "SmartUSD",
-        "coinpaprika_id": "test-coin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "",
-        "explorer_url": "https://explorer.sfusd.kmd.sh/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "electrum": [
-            {
-                "url": "electrum1.cipig.net:10070",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum1.cipig.net:30070"
-            },
-            {
-                "url": "electrum2.cipig.net:10070",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30070"
-            },
-            {
-                "url": "electrum3.cipig.net:10070",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum3.cipig.net:30070"
-            },
-            {
-                "url": "electrum1.cipig.net:20070",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:20070",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.cipig.net:20070",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            }
-        ],
-        "forex_id": "USD"
     },
     "PND": {
         "coin": "PND",
@@ -17408,9 +19358,31 @@
                 "protocol": "SSL"
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/37'"
+    },
+    "PND-segwit": {
+        "coin": "PND-segwit",
+        "type": "UTXO",
+        "name": "Pandacoin",
+        "coinpaprika_id": "pnd-pandacoin",
+        "coingecko_id": "pandacoin",
+        "nomics_id": "PND",
+        "explorer_url": "https://chainz.cryptoid.info/pnd/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrum.thepandacoin.net:50002",
+                "protocol": "SSL"
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/37'"
     },
@@ -17505,10 +19477,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -17608,10 +19576,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -17645,9 +19609,44 @@
                 "ws_url": "electrum.peercoinexplorer.net:50004"
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/6'",
+        "trezor_coin": "Peercoin",
+        "links": {
+            "github": "https://github.com/peercoin/peercoin",
+            "homepage": "https://peercoin.net"
+        }
+    },
+    "PPC-segwit": {
+        "coin": "PPC-segwit",
+        "type": "UTXO",
+        "name": "Peercoin",
+        "coinpaprika_id": "ppc-peercoin",
+        "coingecko_id": "peercoin",
+        "nomics_id": "PPC",
+        "explorer_url": "https://chainz.cryptoid.info/ppc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "allingas.peercoinexplorer.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "allingas.peercoinexplorer.net:50004"
+            },
+            {
+                "url": "electrum.peercoinexplorer.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "electrum.peercoinexplorer.net:50004"
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/6'",
         "trezor_coin": "Peercoin",
@@ -17747,10 +19746,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -17891,10 +19886,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -18741,9 +20732,104 @@
                 ]
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/2301'",
+        "trezor_coin": "Qtum",
+        "links": {
+            "github": "https://github.com/qtumproject/qtum",
+            "homepage": "https://qtum.org"
+        }
+    },
+    "QTUM-segwit": {
+        "coin": "QTUM-segwit",
+        "type": "QTUM",
+        "name": "Qtum",
+        "coinpaprika_id": "qtum-qtum",
+        "coingecko_id": "qtum",
+        "nomics_id": "QTUM",
+        "explorer_url": "https://explorer.qtum.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10050",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
+            },
+            {
+                "url": "electrum2.cipig.net:10050",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
+            },
+            {
+                "url": "electrum3.cipig.net:10050",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
+            },
+            {
+                "url": "electrum1.cipig.net:20050",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20050",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20050",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/2301'",
         "trezor_coin": "Qtum",
@@ -18909,10 +20995,99 @@
                     }
                 ]
             }
+        ]
+    },
+    "tQTUM-segwit": {
+        "coin": "tQTUM-segwit",
+        "type": "QTUM",
+        "name": "QTUM Testnet",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://testnet.qtum.info/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": true,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10071",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30071"
+            },
+            {
+                "url": "electrum2.cipig.net:10071",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30071"
+            },
+            {
+                "url": "electrum3.cipig.net:10071",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30071"
+            },
+            {
+                "url": "electrum1.cipig.net:20071",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20071",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20071",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
         ],
-        "is_segwit_on": false,
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         }
     },
     "REN-ERC20": {
@@ -19166,7 +21341,8 @@
             }
         ],
         "asset": "REVS",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "RICK": {
         "coin": "RICK",
@@ -19357,13 +21533,72 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
+    },
+    "RPL-ERC20": {
+        "coin": "RPL-ERC20",
+        "type": "ERC-20",
+        "name": "Rocket Pool",
+        "coinpaprika_id": "rpl-rocket-pool",
+        "coingecko_id": "rocket-pool",
+        "nomics_id": "RPL",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "derivation_path": "m/44'/60'"
     },
     "RSR-ERC20": {
         "coin": "RSR-ERC20",
@@ -19548,6 +21783,18 @@
                 "ws_url": "electrum2.cipig.net:30051"
             },
             {
+                "url": "electrum3.cipig.net:10051",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30051"
+            },
+            {
                 "url": "electrum1.cipig.net:20051",
                 "protocol": "SSL",
                 "contact": [
@@ -19570,12 +21817,20 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "electrum3.cipig.net:20051",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
             }
         ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        },
         "derivation_path": "m/44'/175'",
         "trezor_coin": "Ravencoin",
         "links": {
@@ -19719,10 +21974,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -19827,51 +22078,8 @@
             }
         ],
         "asset": "SIX",
-        "derivation_path": "m/44'/141'"
-    },
-    "SMTF-v2": {
-        "coin": "SMTF-v2",
-        "type": "BEP-20",
-        "name": "SmartFi",
-        "coinpaprika_id": "smtf-smartfi",
-        "coingecko_id": "smartfi",
-        "nomics_id": "SMTF",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x11fD9ED04f1Eb43eF9df6425a6990609F2468895",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://node.komodo.live:8080/binance",
-                "gui_auth": true
-            },
-            {
-                "url": "http://bsc1.cipig.net:8655"
-            },
-            {
-                "url": "http://bsc2.cipig.net:8655"
-            },
-            {
-                "url": "http://bsc3.cipig.net:8655"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655"
-            },
-            {
-                "url": "https://bsc2.cipig.net:18655"
-            },
-            {
-                "url": "https://bsc3.cipig.net:18655"
-            }
-        ],
-        "token_address_url": "tokentxns?a="
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "SNX-AVX20": {
         "coin": "SNX-AVX20",
@@ -20097,10 +22305,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -20178,10 +22382,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -20340,7 +22540,8 @@
             }
         ],
         "asset": "SOULJA",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "SPACE": {
         "coin": "SPACE",
@@ -20433,7 +22634,8 @@
             }
         ],
         "asset": "SPACE",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "SRM-ERC20": {
         "coin": "SRM-ERC20",
@@ -20526,10 +22728,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -20625,7 +22823,8 @@
             }
         ],
         "asset": "SUPERNET",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "SUSHI-AVX20": {
         "coin": "SUSHI-AVX20",
@@ -20879,10 +23078,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -21162,9 +23357,104 @@
                 ]
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/57'",
+        "trezor_coin": "Syscoin",
+        "links": {
+            "github": "https://github.com/syscoin/syscoin",
+            "homepage": "https://syscoin.org"
+        }
+    },
+    "SYS-segwit": {
+        "coin": "SYS-segwit",
+        "type": "UTXO",
+        "name": "Syscoin",
+        "coinpaprika_id": "sys-syscoin",
+        "coingecko_id": "syscoin",
+        "nomics_id": "SYS",
+        "explorer_url": "https://chainz.cryptoid.info/sys/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10064",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30064"
+            },
+            {
+                "url": "electrum2.cipig.net:10064",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30064"
+            },
+            {
+                "url": "electrum3.cipig.net:10064",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30064"
+            },
+            {
+                "url": "electrum1.cipig.net:20064",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20064",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20064",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/57'",
         "trezor_coin": "Syscoin",
@@ -21328,10 +23618,103 @@
                     }
                 ]
             }
+        ]
+    },
+    "tBTC-segwit": {
+        "coin": "tBTC-segwit",
+        "type": "UTXO",
+        "name": "tBitcoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://blockstream.info/testnet/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": true,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10068",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum1.cipig.net:30068"
+            },
+            {
+                "url": "electrum2.cipig.net:10068",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum2.cipig.net:30068"
+            },
+            {
+                "url": "electrum3.cipig.net:10068",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "ws_url": "electrum3.cipig.net:30068"
+            },
+            {
+                "url": "testnet.aranguren.org:51001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.cipig.net:20068",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20068",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20068",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
         ],
-        "is_segwit_on": false,
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         }
     },
     "TEL-ERC20": {
@@ -21450,10 +23833,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -21521,6 +23900,14 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
+                "url": "1.eu.thc.electrum.dexstats.info:10020",
+                "contact": [
+                    {
+                        "discord": "CHMEX#0686"
+                    }
+                ]
+            },
+            {
                 "url": "2.eu.thc.electrum.dexstats.info:10020",
                 "contact": [
                     {
@@ -21530,7 +23917,8 @@
             }
         ],
         "asset": "THC",
-        "derivation_path": "m/44'/113'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "THC-BEP20": {
         "coin": "THC-BEP20",
@@ -21644,7 +24032,8 @@
             }
         ],
         "asset": "TOKEL",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "TON-ERC20": {
         "coin": "TON-ERC20",
@@ -21938,10 +24327,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "forex_id": "TRY",
@@ -22202,13 +24587,54 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
+    },
+    "TWT-BEP20": {
+        "coin": "TWT-BEP20",
+        "type": "BEP-20",
+        "name": "Trust Wallet",
+        "coinpaprika_id": "twt-trust-wallet-token",
+        "coingecko_id": "trust-wallet-token",
+        "nomics_id": "TWT",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x4B0F1812e5Df2A09796481Ff14017e6005508003",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "derivation_path": "m/44'/714'"
     },
     "UBT-ERC20": {
         "coin": "UBT-ERC20",
@@ -22305,10 +24731,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -22462,10 +24884,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -22689,10 +25107,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -23011,13 +25425,117 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
+    },
+    "USDD-BEP20": {
+        "coin": "USDD-BEP20",
+        "type": "BEP-20",
+        "name": "USDD",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "USDD2",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xd17479997F34dd9156Deef8F95A52D81D265be9c",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "derivation_path": "m/44'/714'"
+    },
+    "USDD-ERC20": {
+        "coin": "USDD-ERC20",
+        "type": "ERC-20",
+        "name": "USDD",
+        "coinpaprika_id": "usdd-usdd",
+        "coingecko_id": "usdd",
+        "nomics_id": "USDD2",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "derivation_path": "m/44'/60'"
     },
     "USDT-MVR20": {
         "coin": "USDT-MVR20",
@@ -23154,10 +25672,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -23468,12 +25982,7 @@
                 ],
                 "ws_url": "e3.validitytech.com:11004"
             }
-        ],
-        "derivation_path": "m/44'/634'",
-        "trezor_coin": "Valorbit",
-        "links": {
-            "homepage": "https://valorbit.com"
-        }
+        ]
     },
     "VET-BEP20": {
         "coin": "VET-BEP20",
@@ -23674,10 +26183,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -23839,7 +26344,8 @@
             }
         ],
         "asset": "VRSC",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "GRMS": {
         "coin": "GRMS",
@@ -23892,7 +26398,46 @@
             }
         ],
         "asset": "GRMS",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
+    },
+    "VPRM": {
+        "coin": "VPRM",
+        "type": "Smart Chain",
+        "name": "Vaporum",
+        "coinpaprika_id": "vprm-vaporum-coin",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "http://explorer.vaporumcoin.us/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "electrum": [
+            {
+                "url": "electrumx1.vaporumcoin.us:50001",
+                "contact": [
+                    {
+                        "github": "VaporumCoin"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.vaporumcoin.us:50001",
+                "contact": [
+                    {
+                        "github": "VaporumCoin"
+                    }
+                ]
+            }
+        ],
+        "asset": "VPRM",
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "VTC": {
         "coin": "VTC",
@@ -23915,9 +26460,35 @@
                 "url": "electrumx.javerity.com:5885"
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/28'",
+        "trezor_coin": "Vertcoin",
+        "links": {
+            "github": "https://github.com/vertcoin-project/vertcoin-core",
+            "homepage": "https://vertcoin.org"
+        }
+    },
+    "VTC-segwit": {
+        "coin": "VTC-segwit",
+        "type": "UTXO",
+        "name": "Vertcoin",
+        "coinpaprika_id": "vtc-vertcoin",
+        "coingecko_id": "vertcoin",
+        "nomics_id": "VTC",
+        "explorer_url": "https://chainz.cryptoid.info/vtc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrumx.javerity.com:5885"
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/28'",
         "trezor_coin": "Vertcoin",
@@ -24038,6 +26609,38 @@
             "github": "https://github.com/WrappedBTC",
             "homepage": "https://wbtc.network"
         }
+    },
+    "WBTC-PLG20": {
+        "coin": "WBTC-PLG20",
+        "type": "Matic",
+        "name": "Wrapped Bitcoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "WBTC",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "derivation_path": "m/44'/966'"
     },
     "WOO-ERC20": {
         "coin": "WOO-ERC20",
@@ -24233,10 +26836,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -24332,7 +26931,8 @@
             }
         ],
         "asset": "WSB",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "XEP-BEP20": {
         "coin": "XEP-BEP20",
@@ -24450,9 +27050,36 @@
                 "protocol": "SSL"
             }
         ],
-        "is_segwit_on": false,
+        "derivation_path": "m/44'/90'"
+    },
+    "XMY-segwit": {
+        "coin": "XMY-segwit",
+        "type": "UTXO",
+        "name": "Myriad",
+        "coinpaprika_id": "xmy-myriad",
+        "coingecko_id": "myriadcoin",
+        "nomics_id": "XMY",
+        "explorer_url": "https://chainz.cryptoid.info/xmy/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "lenoir.ecoincore.com:10891",
+                "protocol": "TCP",
+                "ws_url": "lenoir.ecoincore.com:10894"
+            },
+            {
+                "url": "lenoir.ecoincore.com:10892",
+                "protocol": "SSL"
+            }
+        ],
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         },
         "derivation_path": "m/44'/90'"
     },
@@ -24516,16 +27143,15 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "la.ask.systems:52138",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "xrg_ful.googol.cash:52138",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
         ],
+        "address_format": {
+            "format": "cashaddress",
+            "network": "ergon"
+        },
         "derivation_path": "m/44'/2137'"
     },
     "XRP-BEP20": {
@@ -24572,6 +27198,69 @@
         ],
         "token_address_url": "tokentxns?a=",
         "derivation_path": "m/44'/714'"
+    },
+    "XRP-ERC20": {
+        "coin": "XRP-ERC20",
+        "type": "ERC-20",
+        "name": "XRP",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "XRP",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x39fBBABf11738317a448031930706cd3e612e1B9",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "derivation_path": "m/44'/60'"
     },
     "XSGD-ERC20": {
         "coin": "XSGD-ERC20",
@@ -24670,10 +27359,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ]
     },
@@ -24705,10 +27390,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "forex_id": "SGD",
@@ -25215,10 +27896,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -25345,7 +28022,7 @@
         "nomics_id": "ZEC",
         "explorer_url": "https://blockchair.com/zcash/",
         "explorer_tx_url": "transaction/",
-        "explorer_address_url": "",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -25426,10 +28103,6 @@
                 ]
             }
         ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        },
         "derivation_path": "m/44'/133'",
         "trezor_coin": "Zcash",
         "links": {
@@ -25733,7 +28406,8 @@
             }
         ],
         "asset": "ZILLA",
-        "derivation_path": "m/44'/266'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "ZRX-AVX20": {
         "coin": "ZRX-AVX20",
@@ -25860,10 +28534,6 @@
             },
             {
                 "url": "https://poly-rpc.gateway.pokt.network"
-            },
-            {
-                "url": "https://rpc-mainnet.maticvigil.com",
-                "comment": "Add the URL to Metamask or Web3 provider. Signup at rpc.maticvigil.com for dApps"
             }
         ],
         "derivation_path": "m/44'/966'"
@@ -28304,15 +30974,6 @@
         "slp_prefix": "slptest",
         "electrum": [
             {
-                "url": "electrs.electroncash.de:60002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
@@ -28330,7 +30991,11 @@
                     }
                 ]
             }
-        ]
+        ],
+        "address_format": {
+            "format": "cashaddress",
+            "network": "bchtest"
+        }
     },
     "USBL": {
         "coin": "USBL",
@@ -28466,10 +31131,85 @@
                     }
                 ]
             }
+        ]
+    },
+    "WHIVE-segwit": {
+        "coin": "WHIVE-segwit",
+        "type": "UTXO",
+        "name": "Whive",
+        "coinpaprika_id": "whive-the-whive-protocol",
+        "coingecko_id": "whive",
+        "nomics_id": "WHIVE",
+        "explorer_url": "https://whiveexplorer.cointest.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrumx1.cointest.com:50001",
+                "contact": [
+                    {
+                        "email": "protocol@whive.io"
+                    },
+                    {
+                        "discord": "whiveio#9340"
+                    },
+                    {
+                        "twitter": "whiveio"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.cointest.com:50001",
+                "contact": [
+                    {
+                        "email": "protocol@whive.io"
+                    },
+                    {
+                        "discord": "whiveio#9340"
+                    },
+                    {
+                        "twitter": "whiveio"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.cointest.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "protocol@whive.io"
+                    },
+                    {
+                        "discord": "whiveio#9340"
+                    },
+                    {
+                        "twitter": "whiveio"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.cointest.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "protocol@whive.io"
+                    },
+                    {
+                        "discord": "whiveio#9340"
+                    },
+                    {
+                        "twitter": "whiveio"
+                    }
+                ]
+            }
         ],
-        "is_segwit_on": false,
         "address_format": {
-            "format": "standard"
+            "format": "segwit"
         }
     },
     "sTST": {
@@ -28500,7 +31240,7 @@
         "nomics_id": "XEC",
         "explorer_url": "https://blockchair.com/ecash/",
         "explorer_tx_url": "transaction/",
-        "explorer_address_url": "",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -28534,6 +31274,10 @@
                 ]
             }
         ],
+        "address_format": {
+            "format": "cashaddress",
+            "network": "ecash"
+        },
         "derivation_path": "m/44'/1899'"
     },
     "SIBM-BEP20": {
@@ -28601,6 +31345,18 @@
         ],
         "electrum": [
             {
+                "url": "zombie.sirseven.me:10033",
+                "contact": [
+                    {
+                        "email": "igor@komodoplatform.com"
+                    },
+                    {
+                        "discord": "Sir Seven#7158"
+                    }
+                ],
+                "ws_url": "zombie.sirseven.me:30058"
+            },
+            {
                 "url": "zombie.sirseven.me:10133",
                 "contact": [
                     {
@@ -28611,6 +31367,19 @@
                     }
                 ],
                 "ws_url": "zombie.sirseven.me:30059"
+            },
+            {
+                "url": "zombie.sirseven.me:20033",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "igor@komodoplatform.com"
+                    },
+                    {
+                        "discord": "Sir Seven#7158"
+                    }
+                ],
+                "ws_url": "zombie.sirseven.me:30058"
             },
             {
                 "url": "zombie.sirseven.me:20133",
@@ -28726,11 +31495,7 @@
                 ],
                 "ws_url": "electrum3.runebase.io:50004"
             }
-        ],
-        "is_segwit_on": false,
-        "address_format": {
-            "format": "standard"
-        }
+        ]
     },
     "ACTN": {
         "coin": "ACTN",
@@ -28787,7 +31552,8 @@
             }
         ],
         "asset": "ACTN",
-        "derivation_path": "m/44'/141'"
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "ACTN-BEP20": {
         "coin": "ACTN-BEP20",

@@ -102,7 +102,7 @@ class CoinConfig:
                 "coinpaprika_id": "",
                 "coingecko_id": "",
                 "nomics_id": "",
-                "explorer_url": [],
+                "explorer_url": "",
                 "explorer_tx_url": "",
                 "explorer_address_url": "",
                 "supported": [],
@@ -211,27 +211,31 @@ class CoinConfig:
         return False
 
     def get_forex_id(self):
-        if self.ticker in forex_ids:
+        coin = self.ticker.replace('-segwit', '')
+        if coin in forex_ids:
             self.data[self.ticker].update({
-                "forex_id": forex_ids[self.ticker]
+                "forex_id": forex_ids[coin]
             })
 
     def get_coinpaprika_id(self):
-        if self.ticker in coinpaprika_ids:
+        coin = self.ticker.replace('-segwit', '')
+        if coin in coinpaprika_ids:
             self.data[self.ticker].update({
-                "coinpaprika_id": coinpaprika_ids[self.ticker]
+                "coinpaprika_id": coinpaprika_ids[coin]
             })
 
     def get_coingecko_id(self):
-        if self.ticker in coingecko_ids:
+        coin = self.ticker.replace('-segwit', '')
+        if coin in coingecko_ids:
             self.data[self.ticker].update({
-                "coingecko_id": coingecko_ids[self.ticker]
+                "coingecko_id": coingecko_ids[coin]
             })
 
     def get_nomics_id(self):
-        if self.ticker in nomics_ids:
+        coin = self.ticker.replace('-segwit', '')
+        if coin in nomics_ids:
             self.data[self.ticker].update({
-                "nomics_id": nomics_ids[self.ticker]
+                "nomics_id": nomics_ids[coin]
             })
 
     def get_alias_ticker(self):
@@ -271,14 +275,11 @@ class CoinConfig:
             })
 
     def get_address_format(self):
-        if "segwit" in self.coin_data:
-            if self.coin_data["segwit"]:
-                self.data[self.ticker].update({
-                    "is_segwit_on": False,
-                    "address_format": {"format":"standard"}
-                })
-        elif "address_format" in self.coin_data:
-            self.data[self.ticker]["address_format"].update(self.coin_data["address_format"])
+        if "address_format" in self.coin_data:
+            self.data[self.ticker].update({"address_format": self.coin_data["address_format"]})
+
+        if self.ticker.find('-segwit') > -1:
+            self.data[self.ticker].update({"address_format": {"format":"segwit"}})
 
     def is_smartchain(self):
         if "sign_message_prefix" in self.coin_data:
@@ -332,13 +333,12 @@ class CoinConfig:
         self.data[self.ticker].update({"name":self.coin_data["fname"]})
 
     def get_electrums(self):
+        coin = self.ticker.replace('-segwit', '')
         if self.data[self.ticker]["type"] == "QRC-20":
             if self.is_testnet:
                 coin = "tQTUM"
             else:
                 coin = "QTUM"
-        else:
-            coin = self.ticker
 
         if coin in electrum_scan_report:
             with open(f"../electrums/{coin}", "r") as f:
@@ -390,9 +390,10 @@ class CoinConfig:
                 self.data[self.ticker].update({key: contract_data["rpc_nodes"]})
 
     def get_explorers(self):
-        explorers = []
-        if self.ticker in explorer_coins:
-            with open(f"../explorers/{self.ticker}", "r") as f:
+        explorers = None
+        coin = self.ticker.replace('-segwit', '')
+        if coin in explorer_coins:
+            with open(f"../explorers/{coin}", "r") as f:
                 explorers = json.load(f)
 
         elif self.parent_coin in explorer_coins:
@@ -414,7 +415,7 @@ def parse_coins_repo():
 
     for item in coins_data:
         
-        if item["mm2"] == 1 and item["coin"].find("-segwit") == -1:
+        if item["mm2"] == 1:
                 config = CoinConfig(item)
                 config.get_protocol_info()
                 config.clean_name()
