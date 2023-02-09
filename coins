@@ -11520,6 +11520,44 @@
     "trezor_coin": "Komodo"
   },
   {
+    "coin": "XCN-ERC20",
+    "name": "xcn_erc20",
+    "fname": "Onyxcoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xA2cd3D43c775978A96BdBf12d733D5A1ED94fb18"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "XCN-BEP20",
+    "name": "xcn_bep20",
+    "fname": "Onyxcoin,
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x7324c7C0d95CEBC73eEa7E85CbAac0dBdf88a05b"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "XEP",
     "name": "xep",
     "fname": "Electra Protocol",
