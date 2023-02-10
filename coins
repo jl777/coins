@@ -4632,6 +4632,25 @@
     "derivation_path": "m/44'/714'"
   },
   {
+    "coin": "GFT-BEP20",
+    "name": "gft_bep20",
+    "fname": "Gifto",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x72fF5742319eF07061836F5C924aC6D72c919080"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "GIN",
     "name": "gincoin",
     "fname": "GINcoin",
