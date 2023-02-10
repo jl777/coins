@@ -5323,6 +5323,44 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "ILV-ERC20",
+    "name": "ilv_erc20",
+    "fname": "Illuvium",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x767FE9EDC9E0dF98E07454847909b5E959D7ca0E"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "ILV-BEP20",
+    "name": "ilv_bep20",
+    "fname": "Illuvium,
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x4d5AC5cc4f8aBdf2EC2Cb986C00C382369f787D4"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "IMX-ERC20",
     "name": "imx_erc20",
     "fname": "ImmutableX",
