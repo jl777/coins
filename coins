@@ -9247,6 +9247,44 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "RNDR-ERC20",
+    "name": "rndr_erc20",
+    "fname": "Render",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x6De037ef9aD2725EB40118Bb1702EBb27e4Aeb24"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "RNDR-PLG20",
+    "name": "rndr_plg20",
+    "fname": "Render",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x61299774020dA444Af134c82fa83E3810b309991"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "RPL-ERC20",
     "name": "rpl_erc20",
     "fname": "Rocket Pool",
