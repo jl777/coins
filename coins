@@ -2140,6 +2140,25 @@
     "derivation_path": "m/44'/9000'"
   },
   {
+    "coin": "BUSD-AVX20_OLD",
+    "name": "busd_avx20_old",
+    "fname": "Binance USD (OLD)",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.04,
+    "decimals": 18,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98"
+      }
+    },
+    "derivation_path": "m/44'/9000'"
+  },
+  {
     "coin": "BUSD-MVR20",
     "name": "busd_mvr20",
     "fname": "Binance USD",
@@ -10697,6 +10716,25 @@
     "derivation_path": "m/44'/9000'"
   },
   {
+    "coin": "USDC-AVX20_OLD",
+    "name": "usdc_avx20_old",
+    "fname": "USD Coin (OLD)",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.04,
+    "decimals": 6,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664"
+      }
+    },
+    "derivation_path": "m/44'/9000'"
+  },
+  {
     "coin": "USDC-ERC20",
     "name": "usdc_erc20",
     "fname": "USD Coin",
@@ -11003,6 +11041,24 @@
     "derivation_path": "m/44'/9000'"
   },
   {
+    "coin": "USDT-AVX20_OLD",
+    "name": "usdt_avx20_old",
+    "fname": "Tether (OLD)",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "required_confirmations": 3,
+    "avg_blocktime": 0.04,
+    "decimals": 6,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118"
+      }
+    },
+    "derivation_path": "m/44'/9000'"
+  },
   {
     "coin": "USDT-BEP20",
     "name": "usdt_bep20",
