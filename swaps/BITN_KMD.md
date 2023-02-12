@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/78a35832c72a1fd4705b06097c7d6d1b533873127f220154782b7ebb670fa6d2)  
+[maker payment (BITN)](http://bitexplorer.io/tx/08548395e776b9f4458fc4aa44e3861690e09982e6c3e3be26261fa2568a59a6)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/dfdc0f18cdc7674c4be34874a4b9d26847a53d870507f6093899dd9e5f14e345)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/7e78c35e3d9eea5c5507a3ab2c62885e87f07a1e8045bd569c05a115cc2f5aec)  
+[maker payment spent (BITN)](http://bitexplorer.io/tx/a420cc1558252517c58ae24cfdae58685a0fa87b738961e46ccdf8eedad4d508)  
