@@ -5830,6 +5830,25 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "JGOLD-PLG20",
+    "name": "jgold_plg20",
+    "fname": "Jarvis Gold",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x192Ef3FFF1708456D3A1F21354FA8d6bFd86b45c"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "JJPY-PLG20",
     "name": "jjpy_plg20",
     "fname": "Jarvis Japanese Yen",
@@ -6071,6 +6090,25 @@
       "protocol_data": {
         "platform": "MATIC",
         "contract_address": "0x2A227fc77Bb2cf8f1881a04eCC8fA01EC57EC9fc"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "JUSD-PLG20",
+    "name": "jusd_plg20",
+    "fname": "Jarvis United States Dollar",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xc948EE9a0687C292ac4d8C1e2557aD652D6baf44"
       }
     },
     "derivation_path": "m/44'/966'"
