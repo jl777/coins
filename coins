@@ -10213,9 +10213,9 @@
     "derivation_path": "m/44'/83'"
   },
   {
-    "coin": "TRX-BEP20",
-    "name": "trx_bep20",
-    "fname": "TRON",
+    "coin": "TRX-BEP20_OLD",
+    "name": "trx_bep20_old",
+    "fname": "TRON (OLD)",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
@@ -10226,6 +10226,25 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
+    "coin": "TRX-BEP20",
+    "name": "trx_bep20",
+    "fname": "TRON",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 6,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xCE7de646e7208a4Ef112cb6ed5038FA6cC6b12e3"
       }
     },
     "derivation_path": "m/44'/714'"
