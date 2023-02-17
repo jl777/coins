@@ -33,9 +33,5 @@ jobs:
             - Electrum scan report updated
           labels: |
             config-update
-          assignees: cipig, smk762, gcharang
           reviewers: cipig, smk762, gcharang
-          team-reviewers: |
-            owners
-            maintainers
           draft: false
