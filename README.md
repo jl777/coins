@@ -207,9 +207,9 @@ You need the following info in JSON format added to the [coins](coins) file:
 
 - The icon file is required.
 - Icon must be a .png format file.
-- Dimentions of icon file is 82x82 pixels.
+- Dimensions of icon file is at least 128x128 pixels.
 - Icon file name MUST be in **small letters**.
-- Icon file location is [icons](icons) directory.
+- Icon file location is [icons_original](icons_original) directory.
 
 ## 3. Explorer URL (Required)
 
