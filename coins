@@ -1816,7 +1816,7 @@
     "estimate_fee_mode": "ECONOMICAL",
     "mm2": 1,
     "sign_message_prefix": "Bitcoin Signed Message:\n",
-    "enable_spv_proof": true,
+    "enable_spv_proof": false,
     "block_headers_verification_params": {
       "difficulty_check": true,
       "constant_difficulty": false,
@@ -1852,7 +1852,7 @@
     "txfee": 0,
     "estimate_fee_mode": "ECONOMICAL",
     "mm2": 1,
-    "enable_spv_proof": true,
+    "enable_spv_proof": false,
     "block_headers_verification_params": {
       "difficulty_check": true,
       "constant_difficulty": false,
