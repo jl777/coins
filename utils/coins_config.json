@@ -8609,6 +8609,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "holland.ecoincore.com:11019"
+            },
+            {
+                "url": "lenoir.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:11019"
             }
         ],
         "derivation_path": "m/44'/78'"
@@ -20127,6 +20133,40 @@
             }
         ],
         "derivation_path": "m/44'/966'"
+    },
+    "PRUX": {
+        "coin": "PRUX",
+        "type": "UTXO",
+        "name": "PRUX",
+        "coinpaprika_id": "prux-prux-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "PRUX",
+        "explorer_url": "https://explorer.prux.info/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP"
+            },
+            {
+                "url": "txserver.live:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "txserver.live:50002",
+                "protocol": "SSL"
+            }
+        ]
     },
     "SHIB-BEP20": {
         "coin": "SHIB-BEP20",
