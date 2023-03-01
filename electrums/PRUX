@@ -1,18 +1,40 @@
 [
   {
     "url": "txserver.live:50002",
-    "protocol": "SSL"
+    "protocol": "SSL",
+    "ws_url": "txserver.live:30001",
+    "contact": [
+        {
+            "discord": "PRUX-Coin#1668"
+        }
+    ]
   },
   {
     "url": "txserver.live:50001",
-    "protocol": "TCP"
+    "protocol": "TCP",
+    "contact": [
+        {
+            "discord": "PRUX-Coin#1668"
+        }
+    ]
   },  
   {
     "url": "electrumx.live:50012",
-    "protocol": "SSL"
+    "protocol": "SSL",
+    "ws_url": "electrumx.live:30010",
+    "contact": [
+        {
+            "discord": "PRUX-Coin#1668"
+        }
+    ]
   },
   {
     "url": "electrumx.live:50010",
-    "protocol": "TCP"
+    "protocol": "TCP",
+    "contact": [
+        {
+            "discord": "PRUX-Coin#1668"
+        }
+    ]
   } 
 ]
