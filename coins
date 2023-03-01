@@ -366,6 +366,63 @@
     }
   },
   {
+    "coin": "AGEUR-AVX20",
+    "name": "ageur_avx20",
+    "fname": "agEUR",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "decimals": 18,
+    "avg_blocktime": 0.04,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0xAEC8318a9a59bAEb39861d10ff6C7f7bf1F96C57"
+      }
+    },
+    "derivation_path": "m/44'/9000'"
+  },
+  {
+    "coin": "AGEUR-ERC20",
+    "name": "ageur_erc20",
+    "fname": "agEUR",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "AGEUR-PLG20",
+    "name": "ageur_plg20",
+    "fname": "agEUR",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "AGIX-ERC20",
     "name": "agix_erc20",
     "fname": "SingularityNET",
@@ -3978,6 +4035,25 @@
       }
     },
     "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "EUROE-ERC20",
+    "name": "euroe_erc20",
+    "fname": "EUROe Stablecoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 6,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x820802Fa8a99901F52e39acD21177b0BE6EE2974"
+      }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "EURS-ERC20",
@@ -11833,6 +11909,44 @@
       }
     },
     "derivation_path": "m/44'/714'"
+  },
+  {
+    "coin": "XIDR-ERC20",
+    "name": "xidr_erc20",
+    "fname": "StraitsX Indonesian Rupiah",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 6,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xebF2096E01455108bAdCbAF86cE30b6e5A72aa52"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "XIDR-PLG20",
+    "name": "xidr_plg20",
+    "fname": "StraitsX Indonesian Rupiah",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 6,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x2c826035c1C36986117A0e949bD6ad4baB54afE2"
+      }
+    },
+    "derivation_path": "m/44'/966'"
   },
   {
     "coin": "XLM-BEP20",
