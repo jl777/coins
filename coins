@@ -6251,6 +6251,25 @@
     }
   },
   {
+    "coin": "KIP0001",
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "asset": "KIP0001",
+    "fname": "KIP0001",
+    "rpcport": 46856,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "wallet_only": true,
+    "required_confirmations": 2,
+    "requires_notarization": false,
+    "avg_blocktime": 1,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
+  },
+  {
     "coin": "KMD",
     "name": "komodo",
     "fname": "Komodo",
