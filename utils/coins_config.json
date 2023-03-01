@@ -578,12 +578,6 @@
                 "ws_url": "elec-seeder-one.artbytecoin.org:50013"
             },
             {
-                "url": "elec-seeder-two.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "elec-seeder-two.artbytecoin.org:50013"
-            },
-            {
                 "url": "electrumx-four.artbyte.live:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -754,6 +748,131 @@
             "github": "https://github.com/AdExNetwork",
             "homepage": "https://www.adex.network"
         }
+    },
+    "AGEUR-AVX20": {
+        "coin": "AGEUR-AVX20",
+        "type": "AVX-20",
+        "name": "agEUR",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "AGEUR",
+        "explorer_url": "https://cchain.explorer.avax.network/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xAEC8318a9a59bAEb39861d10ff6C7f7bf1F96C57",
+        "parent_coin": "AVAX",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/avalanche",
+                "gui_auth": true
+            },
+            {
+                "url": "https://api.avax.network/ext/bc/C/rpc"
+            }
+        ],
+        "derivation_path": "m/44'/9000'"
+    },
+    "AGEUR-ERC20": {
+        "coin": "AGEUR-ERC20",
+        "type": "ERC-20",
+        "name": "agEUR",
+        "coinpaprika_id": "ageur-ageur",
+        "coingecko_id": "ageur",
+        "nomics_id": "AGEUR",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "forex_id": "EUR",
+        "derivation_path": "m/44'/60'"
+    },
+    "AGEUR-PLG20": {
+        "coin": "AGEUR-PLG20",
+        "type": "Matic",
+        "name": "agEUR",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "AGEUR",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "derivation_path": "m/44'/966'"
     },
     "AGIX-ERC20": {
         "coin": "AGIX-ERC20",
@@ -4484,7 +4603,8 @@
         "wallet_only": false,
         "electrum": [
             {
-                "url": "electrumx6.scalaris.info:20001",
+                "url": "electrumx.bitwebcore.net:20002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "mraksoll@gmail.com"
@@ -4495,10 +4615,12 @@
                     {
                         "github": "https://github.com/bitweb-project/electrumx/issues"
                     }
-                ]
+                ],
+                "ws_url": "electrumx.bitwebcore.net:20003"
             },
             {
-                "url": "electrumx7.scalaris.info:20001",
+                "url": "electrumx6.scalaris.info:20002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "mraksoll@gmail.com"
@@ -4509,7 +4631,24 @@
                     {
                         "github": "https://github.com/bitweb-project/electrumx/issues"
                     }
-                ]
+                ],
+                "ws_url": "electrumx6.scalaris.info:20003"
+            },
+            {
+                "url": "electrumx7.scalaris.info:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll#0596"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ],
+                "ws_url": "electrumx7.scalaris.info:20003"
             }
         ]
     },
@@ -4530,7 +4669,8 @@
         "wallet_only": false,
         "electrum": [
             {
-                "url": "electrumx6.scalaris.info:20001",
+                "url": "electrumx.bitwebcore.net:20002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "mraksoll@gmail.com"
@@ -4541,10 +4681,12 @@
                     {
                         "github": "https://github.com/bitweb-project/electrumx/issues"
                     }
-                ]
+                ],
+                "ws_url": "electrumx.bitwebcore.net:20003"
             },
             {
-                "url": "electrumx7.scalaris.info:20001",
+                "url": "electrumx6.scalaris.info:20002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "mraksoll@gmail.com"
@@ -4555,7 +4697,24 @@
                     {
                         "github": "https://github.com/bitweb-project/electrumx/issues"
                     }
-                ]
+                ],
+                "ws_url": "electrumx6.scalaris.info:20003"
+            },
+            {
+                "url": "electrumx7.scalaris.info:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll#0596"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ],
+                "ws_url": "electrumx7.scalaris.info:20003"
             }
         ],
         "address_format": {
@@ -4751,79 +4910,6 @@
             }
         ],
         "derivation_path": "m/44'/966'"
-    },
-    "BTX": {
-        "coin": "BTX",
-        "type": "UTXO",
-        "name": "BitCore",
-        "coinpaprika_id": "btx-bitcore",
-        "coingecko_id": "bitcore",
-        "nomics_id": "BTX",
-        "explorer_url": "https://chainz.cryptoid.info/btx/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "electrum": [
-            {
-                "url": "btx-electrumx.coinsmunity.com:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ],
-                "ws_url": "btx-electrumx.coinsmunity.com:50003"
-            }
-        ],
-        "derivation_path": "m/44'/160'",
-        "trezor_coin": "Bitcore",
-        "links": {
-            "github": "https://github.com/LIMXTEC/BitCore",
-            "homepage": "https://bitcore.cc"
-        }
-    },
-    "BTX-segwit": {
-        "coin": "BTX-segwit",
-        "type": "UTXO",
-        "name": "BitCore",
-        "coinpaprika_id": "btx-bitcore",
-        "coingecko_id": "bitcore",
-        "nomics_id": "BTX",
-        "explorer_url": "https://chainz.cryptoid.info/btx/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "electrum": [
-            {
-                "url": "btx-electrumx.coinsmunity.com:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ],
-                "ws_url": "btx-electrumx.coinsmunity.com:50003"
-            }
-        ],
-        "address_format": {
-            "format": "segwit"
-        },
-        "derivation_path": "m/44'/160'",
-        "trezor_coin": "Bitcore",
-        "links": {
-            "github": "https://github.com/LIMXTEC/BitCore",
-            "homepage": "https://bitcore.cc"
-        }
     },
     "BTX-BEP20": {
         "coin": "BTX-BEP20",
@@ -7803,6 +7889,29 @@
         "wallet_only": false,
         "electrum": [
             {
+                "url": "electrumx1.diminutivecoin.com:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    },
+                    {
+                        "twitter": "coin_dimi"
+                    },
+                    {
+                        "reddit": "DiminutiveCoin_DIMI"
+                    },
+                    {
+                        "github": "MadCatMining"
+                    },
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "electrumx1.diminutivecoin.com:50013"
+            },
+            {
                 "url": "electrumx2.diminutivecoin.com:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -9120,7 +9229,10 @@
         "swap_contract_address": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
             {
-                "url": "https://www.ethercluster.com/etc"
+                "url": "https://geth-de.etc-network.info"
+            },
+            {
+                "url": "https://besu-at.etc-network.info"
             }
         ],
         "derivation_path": "m/44'/61'",
@@ -9446,6 +9558,70 @@
             }
         ],
         "derivation_path": "m/44'/966'"
+    },
+    "EUROE-ERC20": {
+        "coin": "EUROE-ERC20",
+        "type": "ERC-20",
+        "name": "EUROe Stablecoin",
+        "coinpaprika_id": "euroe-euroe-stablecoin",
+        "coingecko_id": "euroe-stablecoin",
+        "nomics_id": "EUROE",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x820802Fa8a99901F52e39acD21177b0BE6EE2974",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "forex_id": "EUR",
+        "derivation_path": "m/44'/60'"
     },
     "EURS-ERC20": {
         "coin": "EURS-ERC20",
@@ -12587,7 +12763,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "electrum": [
             {
-                "url": "electrum2.ilien.io:65011",
+                "url": "electrum1.ilien.io:65011",
                 "contact": [
                     {
                         "email": "admin@ilien.io"
@@ -12596,7 +12772,7 @@
                         "discord": "siu - Chainmakers#3920"
                     }
                 ],
-                "ws_url": "electrum2.ilien.io:30069"
+                "ws_url": "electrum1.ilien.io:30069"
             }
         ],
         "asset": "ILN",
@@ -14506,6 +14682,100 @@
         "links": {
             "homepage": "https://kcc.io"
         }
+    },
+    "KIP0001": {
+        "coin": "KIP0001",
+        "type": "Smart Chain",
+        "name": "KIP0001",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "",
+        "explorer_url": "https://kip0001.explorer.kmd.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:10014",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:10014",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:10014",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.cipig.net:20014",
+                "protocol": "SSL",
+                "ws_url": "electrum1.cipig.net:30014",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20014",
+                "protocol": "SSL",
+                "ws_url": "electrum2.cipig.net:30014",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20014",
+                "protocol": "SSL",
+                "ws_url": "electrum3.cipig.net:30014",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
+        "asset": "KIP0001",
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
     },
     "KMD": {
         "coin": "KMD",
@@ -20152,19 +20422,41 @@
         "electrum": [
             {
                 "url": "electrumx.live:50010",
-                "protocol": "TCP"
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
             },
             {
                 "url": "txserver.live:50001",
-                "protocol": "TCP"
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
             },
             {
                 "url": "electrumx.live:50012",
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "ws_url": "electrumx.live:30010",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
             },
             {
                 "url": "txserver.live:50002",
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "ws_url": "txserver.live:30001",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
             }
         ]
     },
@@ -26731,6 +27023,60 @@
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo"
     },
+    "GRMS": {
+        "coin": "GRMS",
+        "type": "Smart Chain",
+        "name": "GRMS",
+        "coinpaprika_id": "grms-grms",
+        "coingecko_id": "test-coin",
+        "nomics_id": "GRMS",
+        "explorer_url": "https://explorer.grms.pw/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "electrum": [
+            {
+                "url": "electrum.grms.pw:17485",
+                "contact": [
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.grms.pw:17485",
+                "contact": [
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.grms.pw:17485",
+                "contact": [
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.grms.pw:17485",
+                "contact": [
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            }
+        ],
+        "asset": "GRMS",
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo"
+    },
     "VPRM": {
         "coin": "VPRM",
         "type": "Smart Chain",
@@ -27416,6 +27762,102 @@
         ],
         "token_address_url": "tokentxns?a=",
         "derivation_path": "m/44'/714'"
+    },
+    "XIDR-ERC20": {
+        "coin": "XIDR-ERC20",
+        "type": "ERC-20",
+        "name": "StraitsX Indonesian Rupiah",
+        "coinpaprika_id": "xidr-straitsx-indonesia-rupiah",
+        "coingecko_id": "straitsx-indonesia-rupiah",
+        "nomics_id": "XIDRERC20",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0xebF2096E01455108bAdCbAF86cE30b6e5A72aa52",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "forex_id": "IDR",
+        "derivation_path": "m/44'/60'"
+    },
+    "XIDR-PLG20": {
+        "coin": "XIDR-PLG20",
+        "type": "Matic",
+        "name": "StraitsX Indonesian Rupiah",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "XIDRERC20",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x2c826035c1C36986117A0e949bD6ad4baB54afE2",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ],
+        "derivation_path": "m/44'/966'"
     },
     "XLM-BEP20": {
         "coin": "XLM-BEP20",
@@ -31434,47 +31876,6 @@
             "format": "cashaddress",
             "network": "bchtest"
         }
-    },
-    "USBL": {
-        "coin": "USBL",
-        "type": "UTXO",
-        "name": "Balanced Dollar",
-        "coinpaprika_id": "test-coin",
-        "coingecko_id": "test-coin",
-        "nomics_id": "USBL",
-        "explorer_url": "https://softbalanced.com:3001/insight/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "electrum": [
-            {
-                "url": "swap.softbalanced.com:50001",
-                "contact": [
-                    {
-                        "email": "dev@softbalanced.com"
-                    },
-                    {
-                        "discord": "softbalanced#4045"
-                    }
-                ]
-            },
-            {
-                "url": "swap.softbalanced.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "dev@softbalanced.com"
-                    },
-                    {
-                        "discord": "softbalanced#4045"
-                    }
-                ]
-            }
-        ]
     },
     "USDF": {
         "coin": "USDF",
