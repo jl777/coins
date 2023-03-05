@@ -12773,6 +12773,18 @@
                     }
                 ],
                 "ws_url": "electrum1.ilien.io:30069"
+            },
+            {
+                "url": "electrum2.ilien.io:65011",
+                "contact": [
+                    {
+                        "email": "admin@ilien.io"
+                    },
+                    {
+                        "discord": "siu - Chainmakers#3920"
+                    }
+                ],
+                "ws_url": "electrum2.ilien.io:30069"
             }
         ],
         "asset": "ILN",
@@ -16571,11 +16583,6 @@
                 "ws_url": "electrum6.getlynx.io:50004"
             },
             {
-                "url": "electrum7.getlynx.io:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum7.getlynx.io:50004"
-            },
-            {
                 "url": "electrum8.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum8.getlynx.io:50004"
@@ -18391,11 +18398,6 @@
                 "ws_url": "electrum2.nav.community:40004"
             },
             {
-                "url": "electrum3.nav.community:40002",
-                "protocol": "SSL",
-                "ws_url": "electrum3.nav.community:40004"
-            },
-            {
                 "url": "electrum4.nav.community:40002",
                 "protocol": "SSL",
                 "ws_url": "electrum4.nav.community:40004"
@@ -19908,7 +19910,8 @@
         "electrum": [
             {
                 "url": "electrum.thepandacoin.net:50002",
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "ws_url": "electrum.thepandacoin.net:443"
             }
         ],
         "derivation_path": "m/44'/37'"
@@ -19931,7 +19934,8 @@
         "electrum": [
             {
                 "url": "electrum.thepandacoin.net:50002",
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "ws_url": "electrum.thepandacoin.net:443"
             }
         ],
         "address_format": {
@@ -28023,6 +28027,11 @@
                 "disable_cert_verification": true
             },
             {
+                "url": "la.ask.systems:52138",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "xrg_ful.googol.cash:52138",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -31876,6 +31885,133 @@
             "format": "cashaddress",
             "network": "bchtest"
         }
+    },
+    "UFO": {
+        "coin": "UFO",
+        "type": "UTXO",
+        "name": "Uniform Fiscal Object",
+        "coinpaprika_id": "ufo-uniform-fiscal-object",
+        "coingecko_id": "ufocoin",
+        "nomics_id": "UFO",
+        "explorer_url": "https://explorer.ufobject.com/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "UFO Signed Message:\n",
+        "electrum": [
+            {
+                "url": "seed1.ufocoin.net:55002",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "pr@ufobject.com"
+                    }
+                ]
+            },
+            {
+                "url": "seed2.ufocoin.net:55002",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "pr@ufobject.com"
+                    }
+                ]
+            }
+        ],
+        "derivation_path": "m/44'/202'",
+        "links": {
+            "github": "https://github.com/fiscalobject/ufo",
+            "homepage": "https://ufobject.com"
+        }
+    },
+    "UFO-segwit": {
+        "coin": "UFO-segwit",
+        "type": "UTXO",
+        "name": "Uniform Fiscal Object",
+        "coinpaprika_id": "ufo-uniform-fiscal-object",
+        "coingecko_id": "ufocoin",
+        "nomics_id": "UFO",
+        "explorer_url": "https://explorer.ufobject.com/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "seed1.ufocoin.net:55002",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "pr@ufobject.com"
+                    }
+                ]
+            },
+            {
+                "url": "seed2.ufocoin.net:55002",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "pr@ufobject.com"
+                    }
+                ]
+            }
+        ],
+        "address_format": {
+            "format": "segwit"
+        },
+        "derivation_path": "m/44'/202'",
+        "links": {
+            "github": "https://github.com/fiscalobject/ufo",
+            "homepage": "https://ufobject.com"
+        }
+    },
+    "USBL": {
+        "coin": "USBL",
+        "type": "UTXO",
+        "name": "Balanced Dollar",
+        "coinpaprika_id": "test-coin",
+        "coingecko_id": "test-coin",
+        "nomics_id": "USBL",
+        "explorer_url": "https://softbalanced.com:3001/insight/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "electrum": [
+            {
+                "url": "swap.softbalanced.com:50001",
+                "contact": [
+                    {
+                        "email": "dev@softbalanced.com"
+                    },
+                    {
+                        "discord": "softbalanced#4045"
+                    }
+                ]
+            },
+            {
+                "url": "swap.softbalanced.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "dev@softbalanced.com"
+                    },
+                    {
+                        "discord": "softbalanced#4045"
+                    }
+                ]
+            }
+        ]
     },
     "USDF": {
         "coin": "USDF",
