@@ -1,0 +1,5 @@
+[taker fee (MORTY)](https://morty.explorer.dexstats.info/tx/ecbd4e0d409e5b0c4944ab677a460f062cae8321e162835b2922f4adab399c53)  
+[maker payment (UFO)](https://ufo1.e4pool.com/tx/3daf68e660afdff385c4304efae5d3d857dff09c912a8f477b98355d0028f826)  
+[taker payment (MORTY)](https://morty.explorer.dexstats.info/tx/62c2eaccc254585938903b0ff8ba88f1ef6763fbe07891c089fd56616489d57c)  
+[taker payment spent (MORTY)](https://morty.explorer.dexstats.info/tx/3aa6b24a84a15872712341d4eba941fb5e18f4f065450a7a894dc5f68830ca06)  
+[maker payment spent (UFO)](https://ufo1.e4pool.com/tx/a4e3f83fb8ac940738f6e49936660531649b493de8592f1324225620a2993074)  

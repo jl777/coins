@@ -13468,6 +13468,57 @@
     }
   },
   {
+    "coin": "UFO",
+    "name": "ufo",
+    "fname": "Uniform Fiscal Object",
+    "sign_message_prefix": "UFO Signed Message:\n",
+    "rpcport": 8087,
+    "pubtype": 27,
+    "p2shtype": 68,
+    "wiftype": 155,
+    "txfee": 100000,
+    "segwit": true,
+    "bech32_hrp": "uf",
+    "mm2": 1,
+    "required_confirmations": 6,
+    "avg_blocktime": 1.5,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/202'",
+    "links": {
+      "github": "https://github.com/fiscalobject/ufo",
+      "homepage": "https://ufobject.com"
+    }
+  },
+  {
+    "coin": "UFO-segwit",
+    "name": "ufo",
+    "fname": "Uniform Fiscal Object",
+    "rpcport": 8087,
+    "pubtype": 27,
+    "p2shtype": 68,
+    "wiftype": 155,
+    "txfee": 100000,
+    "segwit": true,
+    "bech32_hrp": "uf",
+    "address_format": {
+      "format": "segwit"
+    },
+    "orderbook_ticker": "UFO",
+    "mm2": 1,
+    "required_confirmations": 6,
+    "avg_blocktime": 1.5,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/202'",
+    "links": {
+      "github": "https://github.com/fiscalobject/ufo",
+      "homepage": "https://ufobject.com"
+    }
+  },
+  {
     "coin": "USBL",
     "name": "bitdollar",
     "fname": "Balanced Dollar",
