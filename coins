@@ -8579,32 +8579,6 @@
     "derivation_path": "m/44'/37'"
   },
   {
-    "coin": "PND-segwit",
-    "name": "pandacoin",
-    "fname": "Pandacoin",
-    "isPoS": 1,
-    "rpcport": 22444,
-    "pubtype": 55,
-    "p2shtype": 22,
-    "wiftype": 183,
-    "decimals": 6,
-    "txfee": 10000000,
-    "dust": 1000000,
-    "segwit": true,
-    "bech32_hrp": "pn",
-    "address_format": {
-      "format": "segwit"
-    },
-    "orderbook_ticker": "PND",
-    "mm2": 1,
-    "required_confirmations": 1,
-    "avg_blocktime": 10,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/37'"
-  },
-  {
     "coin": "POT-ERC20",
     "name": "pot_erc20",
     "fname": "PotCoin",
