@@ -9597,6 +9597,25 @@
     "derivation_path": "m/44'/714'"
   },
   {
+    "coin": "SIGNA-BEP20",
+    "name": "signa_bep20",
+    "fname": "Signum",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 8,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x7b0E7E40eE4672599F7095D1DdD730b0805195BA"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "SIRX",
     "name": "sirius",
     "fname": "Sirius",
