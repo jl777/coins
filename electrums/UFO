@@ -1,13 +1,48 @@
 [
   {
-    "url": "seed1.ufocoin.net:55002",
+    "url": "seed1.ufocoin.net:50001",
     "protocol": "TCP",
     "contact": [
       {"email": "pr@ufobject.com"}
     ]
   },
   {
-    "url": "seed2.ufocoin.net:55002",
+    "url": "seed2.ufocoin.net:50001",
+    "protocol": "TCP",
+    "contact": [
+      {"email": "pr@ufobject.com"}
+    ]
+  },
+  {
+    "url": "electrumx1.ufobject.com:50001",
+    "protocol": "TCP",
+    "contact": [
+      {"email": "pr@ufobject.com"}
+    ]
+  },
+  {
+    "url": "electrumx2.ufobject.com:50001",
+    "protocol": "TCP",
+    "contact": [
+      {"email": "pr@ufobject.com"}
+    ]
+  },
+  {
+    "url": "electrumx3.ufobject.com:50001",
+    "protocol": "TCP",
+    "contact": [
+      {"email": "pr@ufobject.com"}
+    ]
+  },
+  {
+    "url": "electrumx4.ufobject.com:50001",
+    "protocol": "TCP",
+    "contact": [
+      {"email": "pr@ufobject.com"}
+    ]
+  },
+  {
+    "url": "electrumx5.ufobject.com:50001",
     "protocol": "TCP",
     "contact": [
       {"email": "pr@ufobject.com"}
