@@ -1,23 +1,37 @@
 [
   {
+    "url": "electrumx.firo.org:50001",
+    "protocol": "TCP",
+    "contact": [
+      { "github": "https://github.com/firoorg/electrumx-firo/issues" }
+    ]
+  },
+  {
     "url": "electrumx01.firo.org:50001",
     "protocol": "TCP",
     "contact": [
-      { "github": "https://github.com/firoorg/electrum-xzc/issues" }
+      { "github": "https://github.com/firoorg/electrumx-firo/issues" }
     ]
   },
   {
     "url": "electrumx02.firo.org:50001",
     "protocol": "TCP",
     "contact": [
-      { "github": "https://github.com/firoorg/electrum-xzc/issues" }
+      { "github": "https://github.com/firoorg/electrumx-firo/issues" }
     ]
   },
   {
     "url": "electrumx03.firo.org:50001",
     "protocol": "TCP",
     "contact": [
-      {  "github": "https://github.com/firoorg/electrum-xzc/issues" } 
+      {  "github": "https://github.com/firoorg/electrumx-firo/issues" }
+    ]
+  },
+  {
+    "url": "electrumx05.firo.org:50001",
+    "protocol": "TCP",
+    "contact": [
+      { "github": "https://github.com/firoorg/electrumx-firo/issues" }
     ]
   }
 ]
