@@ -9258,6 +9258,44 @@
     }
   },
   {
+    "coin": "REQ-ERC20",
+    "name": "req_erc20",
+    "fname": "Request",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x8f8221aFbB33998d8584A2B05749bA73c37a938a"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "REQ-PLG20",
+    "name": "req_plg20",
+    "fname": "Request",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xB25e20De2F2eBb4CfFD4D16a55C7B395e8a94762"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "REVS",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "REVS",
