@@ -4921,6 +4921,25 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "GNS-PLG20",
+    "name": "gns_plg20",
+    "fname": "Gains Network",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xE5417Af564e4bFDA1c483642db72007871397896"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "GRS",
     "name": "groestlcoin",
     "fname": "Groestlcoin",
