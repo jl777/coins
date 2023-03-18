@@ -2,13 +2,18 @@
 
 This repository is the coins database which is used to define parameters for coins compatible with the [AtomicDEX API](https://github.com/KomodoPlatform/atomicDEX-API/), and listed within the apps below:
 
-[AtomicDEX Mobile](https://atomicdex.io/en/mobile/), [atomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop) & [atomicDEX-Web](https://app.atomicdex.io) to enable coins for trading.
+[![atomicdex-mobile](https://user-images.githubusercontent.com/35845239/226103567-6d6872de-b0aa-4b87-9ba6-b692be314861.png)](https://atomicdex.io/en/mobile/)
 
+[![atomicdex-desktop](https://user-images.githubusercontent.com/35845239/226103576-a0336fcb-0d8e-47db-bf66-6ec779c35f1c.png)](https://github.com/KomodoPlatform/atomicDEX-Desktop)
+
+[![atomicdex-browser](https://user-images.githubusercontent.com/35845239/226103583-0c1f1b73-80a0-4123-8a4a-bdc2bccd9594.png)](https://app.atomicdex.io)
+ 
 Refer to the guide at [Dev docs link](http://Dev.docs.link) for details of the information required for a successful listing.
 
 The status of currently listed [ElectrumX](https://electrumx.readthedocs.io/en/latest/) servers is monitored via a public [API](https://electrum-status.dragonhound.info/api/v1/electrums_status) and [Dashboard](https://stats.kmd.io/atomicdex/electrum_status/). For help setting up Telegram or Discord alerts for your servers, join the #dev-support channel in the [Komodo Platform Discord](https://komodoplatform.com/discord).
 
 **Note:** _Where ElectrumX or other infrastructure servers are maintained by third party service providers, contact details for service alerts must be provided. It is also recommended to set up monitoring via [Zabbix](https://www.zabbix.com/) and/or [https://1209k.com/bitcoin-eye/ele.php](https://1209k.com/bitcoin-eye/ele.php)_
+
 
 
 ### Currently supported coins & protocols
