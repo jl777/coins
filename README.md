@@ -20,20 +20,20 @@ The status of currently listed [ElectrumX](https://electrumx.readthedocs.io/en/l
 
 AtomicDEX is a true non-custodial, cross-chain, cross-protocol Decentralized Exchange (DEX), allowing for trades between coins and tokens across many platforms and ecosystems, including:
 
-- UTXO based (e.g. KMD, BTC, LTC, DASH, DOGE & DGB)
-- Binance Smart Chain & BEP20 tokens
-- Fantom & FTM20 tokens
-- Harmony & HRC20 tokens
-- Ethereum & ERC20 tokens
-- KuCoin & KRC20 tokens
-- Polygon & PLG20 tokens
-- Avalanche & AVX20 tokens
-- Heco Chain & HCO20 tokens
-- Moonriver & MVR20 tokens
-- QTUM & QRC20 tokens
-- "ZHTLC" coins (e.g. ARRR & ZOMBIE)
-- COSMOS / Tendermint
-- SmartBCH & SLP tokens
+- UTXO based (e.g. [KMD](https://komodoplatform.com/), [BTC](https://www.bitcoin.com/), [LTC](https://litecoin.com/en/), [DASH](https://www.dash.org/), [DOGE](https://dogecoin.com/) & [DGB](https://digibyte.org/en-us/))
+- [Binance Smart Chain](https://www.binance.com/en/blog/ecosystem/introducing-bnb-chain-the-evolution-of-binance-smart-chain-421499824684903436) & BEP20 tokens
+- [Fantom](https://fantom.foundation/) & FTM20 tokens
+- [Harmony](https://github.com/harmony-one/HRC) & HRC20 tokens
+- [Ethereum](https://ethereum.org/en/) & ERC20 tokens
+- [KuCoin](https://www.kucoin.com/) & KRC20 tokens
+- [Polygon](https://polygon.technology/) & PLG20 tokens
+- [Avalanche](https://www.avax.com/) & AVX20 tokens
+- [Heco Chain](https://www.hecochain.com/en-us/) & HCO20 tokens
+- [Moonriver](https://moonbeam.network/networks/moonriver/) & MVR20 tokens
+- [QTUM](https://www.qtum.org/) & QRC20 tokens
+- "ZHTLC" coins (e.g. [ARRR](https://pirate.black/) & ZOMBIE)
+- [COSMOS](https://cosmos.network/) / [Tendermint](https://tendermint.com/)
+- [SmartBCH](https://smartbch.org/) & SLP tokens
 
 
 ### Future coins & protocols
