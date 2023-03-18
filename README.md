@@ -1,9 +1,4 @@
-
-> NOTE
->
-> The filename in each subdirectory needs to match the coin's symbol exactly, it is the unique field by which different coins are indexed. Please use .png files for icons
-
-## About this repository
+## What is the coins repository for?
 
 This repository is the coins database which is used to define parameters for coins compatible with the [AtomicDEX API](https://github.com/KomodoPlatform/atomicDEX-API/), and listed within the apps below:
 
@@ -11,12 +6,14 @@ This repository is the coins database which is used to define parameters for coi
 
 Refer to the guide at [Dev docs link](http://Dev.docs.link) for details of the information required for a successful listing.
 
-The status of currently listed ElectrumX servers is monitored via a public [API](https://electrum-status.dragonhound.info/api/v1/electrums_status) and [Dashboard](https://stats.kmd.io/atomicdex/electrum_status/). For help setting up Telegram or Discord alerts for your servers, join the #dev-support channel in the [Komodo Platform Discord](https://komodoplatform.com/discord).
+The status of currently listed [ElectrumX](https://electrumx.readthedocs.io/en/latest/) servers is monitored via a public [API](https://electrum-status.dragonhound.info/api/v1/electrums_status) and [Dashboard](https://stats.kmd.io/atomicdex/electrum_status/). For help setting up Telegram or Discord alerts for your servers, join the #dev-support channel in the [Komodo Platform Discord](https://komodoplatform.com/discord).
 
-**Note:** Where ElectrumX or other infrastructure servers are maintained by third party service providers, contact details for service alerts must be provided. It is also recommended to set up monitoring via [Zabbix] and/or [https://1209k.com/bitcoin-eye/ele.php](https://1209k.com/bitcoin-eye/ele.php)
+**Note:** _Where ElectrumX or other infrastructure servers are maintained by third party service providers, contact details for service alerts must be provided. It is also recommended to set up monitoring via [Zabbix](https://www.zabbix.com/) and/or [https://1209k.com/bitcoin-eye/ele.php](https://1209k.com/bitcoin-eye/ele.php)_
 
 
-### Currently supported protocols
+### Currently supported coins & protocols
+
+AtomicDEX is a true non-custodial, cross-chain, cross-protocol Decentralized Exchange (DEX), allowing for trades between coins and tokens across many platforms and ecosystems, including:
 
 - UTXO based (e.g. KMD, BTC, LTC, DASH, DOGE & DGB)
 - Binance Smart Chain & BEP20 tokens
