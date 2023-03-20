@@ -10668,6 +10668,44 @@
     }
   },
   {
+    "coin": "TUSD-AVX20",
+    "name": "tusd_avx20",
+    "fname": "TrueUSD",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "decimals": 18,
+    "avg_blocktime": 0.04,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x1C20E891Bab6b1727d14Da358FAe2984Ed9B59EB"
+      }
+    },
+    "derivation_path": "m/44'/9000'"
+  },
+  {
+    "coin": "TUSD-FTM20",
+    "name": "tusd_ftm20",
+    "fname": "TrueUSD",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 250,
+    "decimals": 18,
+    "avg_blocktime": 0.03,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "FTM",
+        "contract_address": "0x9879aBDea01a879644185341F7aF7d8343556B7a"
+      }
+    },
+    "derivation_path": "m/44'/1007'"
+  },
+  {
     "coin": "TUSD-HCO20",
     "name": "tusd_hco20",
     "fname": "TrueUSD",
