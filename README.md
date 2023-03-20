@@ -8,7 +8,7 @@ This repository is the coins database which is used to define parameters for coi
 
 [![atomicdex-browser](https://user-images.githubusercontent.com/35845239/226103583-0c1f1b73-80a0-4123-8a4a-bdc2bccd9594.png)](https://app.atomicdex.io)
  
-Refer to the guide at [Dev docs link](http://Dev.docs.link) for details of the information required for a successful listing.
+Refer to the [coin listing guide](https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/listing-a-coin-on-atomicdex.html) on the Komodo Developer Documentation website for details about the information required for a successful listing.
 
 The status of currently listed [ElectrumX](https://electrumx.readthedocs.io/en/latest/) servers is monitored via a public [API](https://electrum-status.dragonhound.info/api/v1/electrums_status) and [Dashboard](https://stats.kmd.io/atomicdex/electrum_status/). For help setting up Telegram or Discord alerts for your servers, join the `#dev-support` channel in the [Komodo Platform Discord](https://komodoplatform.com/discord).
 
