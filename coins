@@ -2556,6 +2556,25 @@
     }
   },
   {
+    "coin": "CFX-BEP20",
+    "name": "cfx_bep20",
+    "fname": "Conflux",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x045c4324039dA91c52C55DF5D785385Aab073DcF"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "CHTA",
     "name": "cheetahcoin",
     "fname": "Cheetahcoin",
