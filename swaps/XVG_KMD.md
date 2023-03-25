@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/009673e4ae9c73c82a01fb31579adc639377e75a5ebe341c19e7da881f2bd148)  
+[maker payment (XVG)](https://xvgblockexplorer.com/tx/39292e25bb977ec10559c261162ae01534249cbf1156e1f8452ff5bef00e1bf6)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/1a8ff91c552a84aa9b5a5c419462edc292851e300b0ea667362a0028abe6db64)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/e7c360b12e91a3c40a64727225b799d743a806cdd84abddb980a01f1fae27b7f)  
+[maker payment spent (XVG)](https://xvgblockexplorer.com/tx/ccdc1e8950a5ec54023156b7a2b63460a11f33fa6b49cf963c4d9971d65ea35b)  
