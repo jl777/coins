@@ -10,7 +10,7 @@ This repository is the coins database which is used to define parameters for coi
  
 Refer to the [coin listing guide](https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/listing-a-coin-on-atomicdex.html) on the Komodo Developer Documentation website for details about the information required for a successful listing.
 
-The status of currently listed [ElectrumX](https://electrumx.readthedocs.io/en/latest/) servers is monitored via a public [API](https://electrum-status.dragonhound.info/api/v1/electrums_status) and [Dashboard](https://stats.kmd.io/atomicdex/electrum_status/). For help setting up Telegram or Discord alerts for your servers, join the `#dev-support` channel in the [Komodo Platform Discord](https://komodoplatform.com/discord).
+The status of currently listed [ElectrumX](https://electrumx.readthedocs.io/en/latest/) servers is monitored via a public [API](https://electrum-status.dragonhound.info/api/v1/electrums_status) and [Dashboard](https://stats.kmd.io/atomicdex/electrum_status/). Discord status alerts are available in the [AtomicDEX Electrum Status channel](https://discord.gg/rTkjADfnjt) (please contact smk to register and recieve pings when your servers have an issue).
 
 **Note:** _Where ElectrumX or other infrastructure servers are maintained by third party service providers, contact details for service alerts must be provided. It is also recommended to set up monitoring via [Zabbix](https://www.zabbix.com/) and/or [https://1209k.com/bitcoin-eye/ele.php](https://1209k.com/bitcoin-eye/ele.php)_
 
