@@ -839,7 +839,6 @@
                 }
             }
         ],
-        "forex_id": "EUR",
         "derivation_path": "m/44'/60'"
     },
     "AGEUR-PLG20": {
@@ -3438,6 +3437,14 @@
         "sign_message_prefix": "BlackCoin Signed Message:\n",
         "electrum": [
             {
+                "url": "electrum1.blackcoin.nl:10001",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
                 "url": "electrum2.blackcoin.nl:20001",
                 "contact": [
                     {
@@ -3452,6 +3459,17 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
+            },
+            {
+                "url": "electrum1.blackcoin.nl:10002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "ws_url": "electrum1.blackcoin.nl:10004"
             },
             {
                 "url": "electrum2.blackcoin.nl:20002",
@@ -5305,37 +5323,6 @@
         "forex_id": "CAD",
         "derivation_path": "m/44'/60'"
     },
-    "CADC-OLD": {
-        "coin": "CADC-OLD",
-        "type": "Matic",
-        "name": "CAD Coin (OLD)",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x5d146d8B1dACb1EBBA5cb005ae1059DA8a1FbF57",
-        "parent_coin": "MATIC",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://node.komodo.live:8080/polygon",
-                "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
-            },
-            {
-                "url": "https://poly-rpc.gateway.pokt.network"
-            }
-        ]
-    },
     "CADC-PLG20": {
         "coin": "CADC-PLG20",
         "type": "Matic",
@@ -5921,6 +5908,51 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             }
         ]
+    },
+    "CFX-BEP20": {
+        "coin": "CFX-BEP20",
+        "type": "BEP-20",
+        "name": "Conflux",
+        "coinpaprika_id": "cfx-conflux-network",
+        "coingecko_id": "conflux-token",
+        "nomics_id": "CFX2",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x045c4324039dA91c52C55DF5D785385Aab073DcF",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "derivation_path": "m/44'/714'"
     },
     "CHTA": {
         "coin": "CHTA",
@@ -26135,6 +26167,64 @@
             "homepage": "https://www.trusttoken.com"
         }
     },
+    "TUSD-AVX20": {
+        "coin": "TUSD-AVX20",
+        "type": "AVX-20",
+        "name": "TrueUSD",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "TUSD",
+        "explorer_url": "https://cchain.explorer.avax.network/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x1C20E891Bab6b1727d14Da358FAe2984Ed9B59EB",
+        "parent_coin": "AVAX",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/avalanche",
+                "gui_auth": true
+            },
+            {
+                "url": "https://api.avax.network/ext/bc/C/rpc"
+            }
+        ],
+        "derivation_path": "m/44'/9000'"
+    },
+    "TUSD-FTM20": {
+        "coin": "TUSD-FTM20",
+        "type": "FTM-20",
+        "name": "TrueUSD",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "nomics_id": "TUSD",
+        "explorer_url": "https://ftmscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "contract_address": "0x9879aBDea01a879644185341F7aF7d8343556B7a",
+        "parent_coin": "FTM",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/fantom",
+                "gui_auth": true
+            },
+            {
+                "url": "https://rpc.ftm.tools/"
+            }
+        ],
+        "derivation_path": "m/44'/1007'"
+    },
     "TUSD-HCO20": {
         "coin": "TUSD-HCO20",
         "type": "HecoChain",
@@ -29236,37 +29326,6 @@
             "homepage": "https://xfers.com/sg/stablecoin"
         }
     },
-    "XSGD-OLD": {
-        "coin": "XSGD-OLD",
-        "type": "Matic",
-        "name": "StraitsX Singapore Dollar (OLD)",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "nomics_id": "",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "contract_address": "0x769434dcA303597C8fc4997Bf3DAB233e961Eda2",
-        "parent_coin": "MATIC",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://node.komodo.live:8080/polygon",
-                "gui_auth": true
-            },
-            {
-                "url": "https://polygon-rpc.com"
-            },
-            {
-                "url": "https://poly-rpc.gateway.pokt.network"
-            }
-        ]
-    },
     "XSGD-PLG20": {
         "coin": "XSGD-PLG20",
         "type": "Matic",
@@ -29509,6 +29568,28 @@
             }
         ],
         "derivation_path": "m/44'/2301'"
+    },
+    "XVG": {
+        "coin": "XVG",
+        "type": "UTXO",
+        "name": "Verge",
+        "coinpaprika_id": "xvg-verge",
+        "coingecko_id": "verge",
+        "nomics_id": "XVG",
+        "explorer_url": "https://xvgblockexplorer.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "VERGE Signed Message:\n",
+        "electrum": [
+            {
+                "url": "88.99.26.209:5036"
+            }
+        ]
     },
     "XVS-BEP20": {
         "coin": "XVS-BEP20",
@@ -33511,6 +33592,18 @@
                 "ws_url": "zombie.dragonhound.info:30058"
             },
             {
+                "url": "zombie.dragonhound.info:10133",
+                "contact": [
+                    {
+                        "email": "smk@komodoplatform.com"
+                    },
+                    {
+                        "discord": "smk#7640"
+                    }
+                ],
+                "ws_url": "zombie.dragonhound.info:30059"
+            },
+            {
                 "url": "zombie.sirseven.me:10033",
                 "contact": [
                     {
@@ -33521,6 +33614,18 @@
                     }
                 ],
                 "ws_url": "zombie.sirseven.me:30058"
+            },
+            {
+                "url": "zombie.sirseven.me:10133",
+                "contact": [
+                    {
+                        "email": "igor@komodoplatform.com"
+                    },
+                    {
+                        "discord": "Sir Seven#7158"
+                    }
+                ],
+                "ws_url": "zombie.sirseven.me:30059"
             },
             {
                 "url": "zombie.dragonhound.info:20033",
@@ -33536,6 +33641,19 @@
                 "ws_url": "zombie.dragonhound.info:30058"
             },
             {
+                "url": "zombie.dragonhound.info:20133",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "smk@komodoplatform.com"
+                    },
+                    {
+                        "discord": "smk#7640"
+                    }
+                ],
+                "ws_url": "zombie.dragonhound.info:30059"
+            },
+            {
                 "url": "zombie.sirseven.me:20033",
                 "protocol": "SSL",
                 "contact": [
@@ -33547,6 +33665,19 @@
                     }
                 ],
                 "ws_url": "zombie.sirseven.me:30058"
+            },
+            {
+                "url": "zombie.sirseven.me:20133",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "igor@komodoplatform.com"
+                    },
+                    {
+                        "discord": "Sir Seven#7158"
+                    }
+                ],
+                "ws_url": "zombie.sirseven.me:30059"
             }
         ],
         "asset": "ZOMBIE"
