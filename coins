@@ -2319,24 +2319,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "CADC-OLD",
-    "name": "cadc_old",
-    "fname": "CAD Coin (OLD)",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 18,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0x5d146d8B1dACb1EBBA5cb005ae1059DA8a1FbF57"
-      }
-    }
-  },
-  {
     "coin": "CADC-PLG20",
     "name": "cadc_plg20",
     "fname": "CAD Coin",
@@ -7834,24 +7816,6 @@
     "trezor_coin": "Komodo"
   },
   {
-    "coin": "NATURE",
-    "asset": "NATURE",
-    "fname": "Nature Digital Currency",
-    "rpcport": 63380,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": false,
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "avg_blocktime": 2,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
-  },
-  {
     "coin": "NAV",
     "name": "navcoin",
     "fname": "Navcoin",
@@ -9686,24 +9650,6 @@
     "protocol": {
       "type": "UTXO"
     }
-  },
-  {
-    "coin": "SIX",
-    "asset": "SIX",
-    "fname": "End Time Currency",
-    "rpcport": 20020,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": false,
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "avg_blocktime": 2,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
   },
   {
     "coin": "SNX-AVX20",
@@ -12206,24 +12152,6 @@
     "links": {
       "github": "https://github.com/Xfers/StraitsX-tokens",
       "homepage": "https://xfers.com/sg/stablecoin"
-    }
-  },
-  {
-    "coin": "XSGD-OLD",
-    "name": "xsgd_old",
-    "fname": "StraitsX Singapore Dollar (OLD)",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 137,
-    "decimals": 6,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0x769434dcA303597C8fc4997Bf3DAB233e961Eda2"
-      }
     }
   },
   {
