@@ -6206,8 +6206,27 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 3,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xc948EE9a0687C292ac4d8C1e2557aD652D6baf44"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "JST-BEP20",
+    "name": "jst_bep20",
+    "fname": "JUST",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.05,
+    "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
