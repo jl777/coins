@@ -48,5 +48,55 @@
          }
       ],
       "ws_url":"zombie.sirseven.me:30059"
+   },
+   {
+      "url":"zombie.dragonhound.info:10033",
+      "contact":[
+         {
+            "email":"smk@komodoplatform.com"
+         },
+         {
+            "discord":"smk#7640"
+         }
+      ],
+      "ws_url":"zombie.dragonhound.info:30058"
+   },
+   {
+      "url":"zombie.dragonhound.info:20033",
+      "protocol":"SSL",
+      "contact":[
+         {
+            "email":"smk@komodoplatform.com"
+         },
+         {
+            "discord":"smk#7640"
+         }
+      ],
+      "ws_url":"zombie.dragonhound.info:30058"
+   },
+   {
+      "url":"zombie.dragonhound.info:10133",
+      "contact":[
+         {
+            "email":"smk@komodoplatform.com"
+         },
+         {
+            "discord":"smk#7640"
+         }
+      ],
+      "ws_url":"zombie.dragonhound.info:30059"
+   },
+   {
+      "url":"zombie.dragonhound.info:20133",
+      "protocol":"SSL",
+      "contact":[
+         {
+            "email":"smk@komodoplatform.com"
+         },
+         {
+            "discord":"smk#7640"
+         }
+      ],
+      "ws_url":"zombie.dragonhound.info:30059"
    }
 ]
