@@ -7,7 +7,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -26,7 +26,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -45,7 +45,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -63,7 +63,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -81,7 +81,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -101,7 +101,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -120,7 +120,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -139,7 +139,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -158,7 +158,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -176,7 +176,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -194,7 +194,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -219,7 +219,7 @@
     "mm2": 1,
     "chain_id": 250,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -238,7 +238,7 @@
     "mm2": 1,
     "chain_id": 128,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -257,7 +257,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -276,7 +276,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -301,7 +301,7 @@
     "mm2": 1,
     "mature_confirmations": 550,
     "required_confirmations": 7,
-    "avg_blocktime": 0.75,
+    "avg_blocktime": 45,
     "protocol": {
       "type": "UTXO"
     }
@@ -313,7 +313,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -331,7 +331,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -349,7 +349,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -430,7 +430,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 8,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -449,7 +449,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 8,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -467,7 +467,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -485,7 +485,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -504,7 +504,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -523,7 +523,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -542,7 +542,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -561,7 +561,7 @@
     "mm2": 1,
     "chain_id": 250,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -580,7 +580,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -598,7 +598,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -616,7 +616,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -634,7 +634,7 @@
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "ZHTLC",
       "protocol_data": {
@@ -676,7 +676,7 @@
     "wallet_only": true,
     "decimals": 8,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -694,7 +694,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -713,7 +713,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 6,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -738,7 +738,7 @@
     "bech32_hrp": "aur",
     "mm2": 1,
     "required_confirmations": 5,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -751,7 +751,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -771,7 +771,7 @@
     "mm2": 1,
     "chain_id": 43113,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "protocol": {
       "type": "ETH"
     }
@@ -784,7 +784,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "protocol": {
       "type": "ETH"
     },
@@ -801,7 +801,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -826,7 +826,7 @@
     "txfee": 1000000,
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.5,
+    "avg_blocktime": 30,
     "protocol": {
       "type": "UTXO"
     },
@@ -840,7 +840,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -859,7 +859,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -882,7 +882,7 @@
     "mm2": 1,
     "mature_confirmations": 101,
     "required_confirmations": 3,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     },
@@ -900,7 +900,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -918,7 +918,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -948,7 +948,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 0.5,
+    "avg_blocktime": 30,
     "protocol": {
       "type": "UTXO"
     },
@@ -961,7 +961,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -979,7 +979,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -997,7 +997,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -1022,7 +1022,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -1041,7 +1041,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -1059,7 +1059,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -1077,7 +1077,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -1095,7 +1095,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -1115,7 +1115,7 @@
     "mm2": 1,
     "chain_id": 250,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -1134,7 +1134,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -1153,7 +1153,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -1172,7 +1172,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -1193,7 +1193,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -1212,7 +1212,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -1231,7 +1231,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -1260,7 +1260,7 @@
     "mm2": 1,
     "sign_message_prefix": "Bitcoin Signed Message:\n",
     "required_confirmations": 1,
-    "avg_blocktime": 10,
+    "avg_blocktime": 600,
     "protocol": {
       "type": "BCH",
       "protocol_data": {
@@ -1346,7 +1346,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -1413,7 +1413,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -1448,7 +1448,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 8,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -1467,7 +1467,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -1485,7 +1485,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 128,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "decimals": 18,
     "required_confirmations": 3,
     "protocol": {
@@ -1508,7 +1508,7 @@
     "sign_message_prefix": "Komodo Signed Message:\n",
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -1521,7 +1521,7 @@
     "fname": "BIDR",
     "rpcport": 80,
     "mm2": 1,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -1567,7 +1567,7 @@
     "mm2": 1,
     "required_confirmations": 5,
     "mature_confirmations": 500,
-    "avg_blocktime": 1.1,
+    "avg_blocktime": 66,
     "protocol": {
       "type": "UTXO"
     },
@@ -1581,7 +1581,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -1607,7 +1607,7 @@
     "is_testnet": true,
     "required_confirmations": 5,
     "mature_confirmations": 10,
-    "avg_blocktime": 1.1,
+    "avg_blocktime": 66,
     "protocol": {
       "type": "UTXO"
     }
@@ -1616,7 +1616,7 @@
     "coin": "BNB",
     "name": "binancesmartchain",
     "fname": "Binance Coin",
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
@@ -1637,7 +1637,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -1654,7 +1654,7 @@
     "fname": "RSK Smart Bitcoin",
     "sign_message_prefix": "RSK Signed Message:\n",
     "wallet_only": true,
-    "avg_blocktime": 0.1,
+    "avg_blocktime": 6,
     "rpcport": 80,
     "mm2": 1,
     "alias_ticker": "BTC",
@@ -1673,7 +1673,7 @@
     "coin": "BNBT",
     "name": "binancesmartchaintest",
     "fname": "Binance Coin Testnet",
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "rpcport": 80,
     "chain_id": 97,
     "mm2": 1,
@@ -1690,7 +1690,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -1708,7 +1708,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -1733,7 +1733,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -1755,7 +1755,7 @@
     "sign_message_prefix": "Komodo Signed Message:\n",
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -1770,7 +1770,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 4,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -1789,7 +1789,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 4,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -1808,7 +1808,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 4,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -1827,7 +1827,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "decimals": 4,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -1851,7 +1851,7 @@
     "bech32_hrp": "gb",
     "mm2": 1,
     "required_confirmations": 1,
-    "avg_blocktime": 10,
+    "avg_blocktime": 600,
     "protocol": {
       "type": "UTXO"
     }
@@ -1873,7 +1873,7 @@
     "orderbook_ticker": "BSTY",
     "mm2": 1,
     "required_confirmations": 1,
-    "avg_blocktime": 10,
+    "avg_blocktime": 600,
     "protocol": {
       "type": "UTXO"
     }
@@ -1893,7 +1893,7 @@
     "mm2": 1,
     "sign_message_prefix": "Bitcoin Signed Message:\n",
     "required_confirmations": 1,
-    "avg_blocktime": 10,
+    "avg_blocktime": 600,
     "protocol": {
       "type": "UTXO"
     },
@@ -1922,7 +1922,7 @@
     "estimate_fee_mode": "ECONOMICAL",
     "mm2": 1,
     "required_confirmations": 1,
-    "avg_blocktime": 10,
+    "avg_blocktime": 600,
     "protocol": {
       "type": "UTXO"
     },
@@ -1940,7 +1940,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -1966,7 +1966,7 @@
     "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     },
@@ -1980,7 +1980,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 8,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2004,7 +2004,7 @@
     "txfee": 20000,
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     }
@@ -2026,7 +2026,7 @@
     "txfee": 20000,
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     }
@@ -2038,7 +2038,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2057,7 +2057,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2076,7 +2076,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2100,7 +2100,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -2124,7 +2124,7 @@
     "txfee": 20000,
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     },
@@ -2152,7 +2152,7 @@
     "txfee": 20000,
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     },
@@ -2171,7 +2171,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 8,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2190,7 +2190,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -2227,7 +2227,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1285,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "decimals": 18,
     "required_confirmations": 3,
     "protocol": {
@@ -2247,7 +2247,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -2269,7 +2269,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2288,7 +2288,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -2307,7 +2307,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2326,7 +2326,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -2344,7 +2344,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2363,7 +2363,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 8,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2385,7 +2385,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -2407,7 +2407,7 @@
     "bech32_hrp": "cdn",
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 5,
+    "avg_blocktime": 300,
     "protocol": {
       "type": "UTXO"
     },
@@ -2431,7 +2431,7 @@
     "orderbook_ticker": "CDN",
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 5,
+    "avg_blocktime": 300,
     "protocol": {
       "type": "UTXO"
     },
@@ -2445,7 +2445,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 4,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2464,7 +2464,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 4,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -2483,7 +2483,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2507,7 +2507,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2527,7 +2527,7 @@
     "wallet_only": true,
     "chain_id": 42161,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2567,7 +2567,7 @@
     "txfee": 40000,
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 2,
+    "avg_blocktime": 120,
     "protocol": {
       "type": "UTXO"
     },
@@ -2586,7 +2586,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 0.166,
+    "avg_blocktime": 10,
     "protocol": {
       "type": "UTXO"
     }
@@ -2599,7 +2599,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 8,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2622,7 +2622,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 8,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -2641,7 +2641,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2660,7 +2660,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2679,7 +2679,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -2701,7 +2701,7 @@
     "mm2": 1,
     "required_confirmations": 5,
     "requires_notarization": false,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -2731,7 +2731,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -2749,7 +2749,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2767,7 +2767,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -2792,7 +2792,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2811,7 +2811,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -2830,7 +2830,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 8,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2849,7 +2849,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2868,7 +2868,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 8,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -2887,7 +2887,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2906,7 +2906,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -2925,7 +2925,7 @@
     "mm2": 1,
     "chain_id": 250,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2944,7 +2944,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -2963,7 +2963,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -2985,7 +2985,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -2999,7 +2999,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3037,7 +3037,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -3055,7 +3055,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3078,7 +3078,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3097,7 +3097,7 @@
     "mm2": 1,
     "chain_id": 250,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3116,7 +3116,7 @@
     "mm2": 1,
     "chain_id": 128,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3134,7 +3134,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1285,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "decimals": 18,
     "required_confirmations": 3,
     "protocol": {
@@ -3154,7 +3154,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -3178,7 +3178,7 @@
     "force_min_relay_fee": true,
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     },
@@ -3194,7 +3194,7 @@
     "name": "ddd_erc20",
     "fname": "Scry.info",
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -3212,7 +3212,7 @@
     "name": "dent_erc20",
     "fname": "Dent",
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -3240,7 +3240,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -3261,7 +3261,7 @@
     "bech32_hrp": "dgb",
     "mm2": 1,
     "required_confirmations": 7,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "UTXO"
     },
@@ -3289,7 +3289,7 @@
     "orderbook_ticker": "DGB",
     "mm2": 1,
     "required_confirmations": 7,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "UTXO"
     },
@@ -3312,7 +3312,7 @@
     "txfee": 10000,
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.6,
+    "avg_blocktime": 36,
     "protocol": {
       "type": "UTXO"
     },
@@ -3326,7 +3326,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3345,7 +3345,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3370,7 +3370,7 @@
     "mm2": 1,
     "mature_confirmations": 75,
     "required_confirmations": 7,
-    "avg_blocktime": 1.25,
+    "avg_blocktime": 75,
     "protocol": {
       "type": "UTXO"
     }
@@ -3382,7 +3382,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3407,7 +3407,7 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -3424,7 +3424,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3442,7 +3442,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -3462,7 +3462,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3487,7 +3487,7 @@
     "dust": 1000000,
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -3505,7 +3505,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3523,7 +3523,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3541,7 +3541,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3559,7 +3559,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3578,7 +3578,7 @@
     "mm2": 1,
     "chain_id": 128,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3600,7 +3600,7 @@
     "mm2": 1,
     "required_confirmations": 5,
     "requires_notarization": false,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -3621,7 +3621,7 @@
     "bech32_hrp": "dc",
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 10,
+    "avg_blocktime": 600,
     "protocol": {
       "type": "UTXO"
     }
@@ -3637,7 +3637,7 @@
     "mm2": 1,
     "required_confirmations": 3,
     "requires_notarization": false,
-    "avg_blocktime": 0.5,
+    "avg_blocktime": 30,
     "protocol": {
       "type": "UTXO"
     },
@@ -3658,7 +3658,7 @@
     "mm2": 1,
     "confpath": "USERHOME/.electra/Electra.conf",
     "required_confirmations": 5,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -3677,7 +3677,7 @@
     "dust": 54600,
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 2,
+    "avg_blocktime": 120,
     "protocol": {
       "type": "UTXO"
     },
@@ -3690,7 +3690,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3709,7 +3709,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3727,7 +3727,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3745,7 +3745,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -3776,7 +3776,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -3790,7 +3790,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3814,7 +3814,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3833,7 +3833,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -3851,7 +3851,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3870,7 +3870,7 @@
     "mm2": 1,
     "chain_id": 61,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ETH"
     },
@@ -3887,7 +3887,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3907,7 +3907,7 @@
     "chain_id": 1,
     "sign_message_prefix": "Ethereum Signed Message:\n",
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ETH"
     },
@@ -3921,7 +3921,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -3940,7 +3940,7 @@
     "mm2": 1,
     "chain_id": 42161,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ETH"
     }
@@ -3952,7 +3952,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3971,7 +3971,7 @@
     "mm2": 1,
     "chain_id": 250,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -3990,7 +3990,7 @@
     "mm2": 1,
     "chain_id": 128,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4009,7 +4009,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4028,7 +4028,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -4066,7 +4066,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 2,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4090,7 +4090,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 2,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -4128,7 +4128,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4147,7 +4147,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4166,7 +4166,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -4184,7 +4184,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4222,7 +4222,7 @@
     "mm2": 1,
     "chain_id": 128,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4245,7 +4245,7 @@
     "txfee": 1000,
     "mm2": 1,
     "required_confirmations": 1,
-    "avg_blocktime": 5,
+    "avg_blocktime": 300,
     "protocol": {
       "type": "UTXO"
     },
@@ -4262,7 +4262,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4287,7 +4287,7 @@
     "txfee": 0,
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -4315,7 +4315,7 @@
     "txfee": 0,
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -4333,7 +4333,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4351,7 +4351,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4369,7 +4369,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4387,7 +4387,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 8,
     "protocol": {
@@ -4444,7 +4444,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4469,7 +4469,7 @@
     "bech32_hrp": "fc",
     "mm2": 1,
     "required_confirmations": 5,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -4497,7 +4497,7 @@
     "orderbook_ticker": "FTC",
     "mm2": 1,
     "required_confirmations": 5,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -4517,7 +4517,7 @@
     "mm2": 1,
     "chain_id": 4002,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ETH"
     }
@@ -4530,7 +4530,7 @@
     "mm2": 1,
     "chain_id": 250,
     "required_confirmations": 3,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "protocol": {
       "type": "ETH"
     },
@@ -4547,7 +4547,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4565,7 +4565,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4703,7 +4703,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 8,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4722,7 +4722,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4780,7 +4780,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -4795,7 +4795,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4814,7 +4814,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -4832,7 +4832,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4851,7 +4851,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 8,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4870,7 +4870,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "decimals": 18,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4889,7 +4889,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -4912,7 +4912,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -4956,7 +4956,7 @@
     "bech32_hrp": "grs",
     "mm2": 1,
     "required_confirmations": 5,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -4984,7 +4984,7 @@
     "orderbook_ticker": "GRS",
     "mm2": 1,
     "required_confirmations": 5,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -5003,7 +5003,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -5022,7 +5022,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -5046,7 +5046,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -5065,7 +5065,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -5084,7 +5084,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 8,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -5141,7 +5141,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 8,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -5165,7 +5165,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 8,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -5187,7 +5187,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -5202,7 +5202,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -5221,7 +5221,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -5240,7 +5240,7 @@
     "mm2": 1,
     "chain_id": 128,
     "required_confirmations": 3,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "protocol": {
       "type": "ETH"
     },
@@ -5255,7 +5255,7 @@
     "name": "huobi-token",
     "fname": "Huobi Token",
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -5280,7 +5280,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 8,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -5299,7 +5299,7 @@
     "mm2": 1,
     "chain_id": 128,
     "decimals": 8,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -5318,7 +5318,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -5337,7 +5337,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 8,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -5361,7 +5361,7 @@
     "isPoS": 1,
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 4,
+    "avg_blocktime": 240,
     "protocol": {
       "type": "UTXO"
     }
@@ -5380,7 +5380,7 @@
     "mm2": 1,
     "mature_confirmations": 500,
     "required_confirmations": 7,
-    "avg_blocktime": 0.75,
+    "avg_blocktime": 45,
     "protocol": {
       "type": "UTXO"
     }
@@ -5399,7 +5399,7 @@
     "nSPV": "5.9.102.210, 5.9.253.195, 5.9.253.196, 5.9.253.197, 5.9.253.198, 5.9.253.199, 5.9.253.200, 5.9.253.201, 5.9.253.202, 5.9.253.203",
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -5414,7 +5414,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -5433,7 +5433,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -5452,7 +5452,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -5527,7 +5527,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -5545,7 +5545,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -5563,7 +5563,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -5581,7 +5581,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -5600,7 +5600,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -5618,7 +5618,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -5751,7 +5751,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -5770,7 +5770,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -5846,7 +5846,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -5865,7 +5865,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -5903,7 +5903,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -5922,7 +5922,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -5960,7 +5960,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -6074,7 +6074,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "decimals": 18,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6093,7 +6093,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -6112,7 +6112,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -6130,7 +6130,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -6206,27 +6206,8 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 3,
     "required_confirmations": 20,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "MATIC",
-        "contract_address": "0xc948EE9a0687C292ac4d8C1e2557aD652D6baf44"
-      }
-    },
-    "derivation_path": "m/44'/966'"
-  },
-  {
-    "coin": "JST-BEP20",
-    "name": "jst_bep20",
-    "fname": "JUST",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "decimals": 18,
-    "avg_blocktime": 0.05,
-    "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -6247,7 +6228,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -6262,7 +6243,7 @@
     "mm2": 1,
     "chain_id": 321,
     "required_confirmations": 3,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "protocol": {
       "type": "ETH"
     },
@@ -6306,7 +6287,7 @@
     "sign_message_prefix": "Komodo Signed Message:\n",
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -6324,7 +6305,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6342,7 +6323,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6360,7 +6341,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6384,7 +6365,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -6403,7 +6384,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "decimals": 18,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6425,7 +6406,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -6440,7 +6421,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6461,7 +6442,7 @@
     "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 5,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -6482,7 +6463,7 @@
     "bech32_hrp": "lbc",
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     },
@@ -6505,7 +6486,7 @@
     "orderbook_ticker": "LBC",
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     },
@@ -6528,7 +6509,7 @@
     "bech32_hrp": "lcc",
     "mm2": 1,
     "required_confirmations": 4,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     },
@@ -6554,7 +6535,7 @@
     "orderbook_ticker": "LCC",
     "mm2": 1,
     "required_confirmations": 4,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     },
@@ -6568,7 +6549,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6587,7 +6568,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -6613,7 +6594,7 @@
     "bech32_hrp": "lnc",
     "mm2": 1,
     "required_confirmations": 6,
-    "avg_blocktime": 0.0834,
+    "avg_blocktime": 5,
     "protocol": {
       "type": "UTXO"
     }
@@ -6626,7 +6607,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6649,7 +6630,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -6665,7 +6646,7 @@
     "name": "link_erc20",
     "fname": "Chainlink",
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -6686,7 +6667,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -6704,7 +6685,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6723,7 +6704,7 @@
     "mm2": 1,
     "chain_id": 250,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6742,7 +6723,7 @@
     "mm2": 1,
     "chain_id": 128,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6761,7 +6742,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6780,7 +6761,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -6799,7 +6780,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6818,7 +6799,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6842,7 +6823,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6861,7 +6842,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -6885,7 +6866,7 @@
     "bech32_hrp": "wc",
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 0.5,
+    "avg_blocktime": 30,
     "protocol": {
       "type": "UTXO"
     },
@@ -6908,7 +6889,7 @@
     "orderbook_ticker": "WCN",
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 0.5,
+    "avg_blocktime": 30,
     "protocol": {
       "type": "UTXO"
     },
@@ -6921,7 +6902,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6940,7 +6921,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6964,7 +6945,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -6990,7 +6971,7 @@
     "bech32_hrp": "ltc",
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     },
@@ -7019,7 +7000,7 @@
     "orderbook_ticker": "LTC",
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     },
@@ -7045,7 +7026,7 @@
     "bech32_hrp": "ltfn",
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     }
@@ -7069,7 +7050,7 @@
     "orderbook_ticker": "LTFN",
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     }
@@ -7104,7 +7085,7 @@
     "segwit": false,
     "mm2": 1,
     "required_confirmations": 1,
-    "avg_blocktime": 20,
+    "avg_blocktime": 1200,
     "protocol": {
       "type": "UTXO"
     }
@@ -7117,7 +7098,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7141,7 +7122,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7160,7 +7141,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7179,7 +7160,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -7255,7 +7236,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 80001,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 3,
     "protocol": {
       "type": "ETH"
@@ -7268,8 +7249,8 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 137,
-    "avg_blocktime": 0.03,
-    "required_confirmations": 20,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 3,
     "protocol": {
       "type": "ETH"
     },
@@ -7286,7 +7267,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7304,7 +7285,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -7328,7 +7309,7 @@
     "mm2": 1,
     "chain_id": 128,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7347,7 +7328,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7366,7 +7347,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7385,7 +7366,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7407,7 +7388,7 @@
     "mm2": 1,
     "required_confirmations": 5,
     "requires_notarization": false,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -7425,7 +7406,7 @@
     "mm2": 1,
     "required_confirmations": 4,
     "requires_notarization": false,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -7443,7 +7424,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -7457,7 +7438,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -7485,7 +7466,7 @@
     "dust": 54600,
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     }
@@ -7498,7 +7479,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7517,7 +7498,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7536,7 +7517,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -7554,7 +7535,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7572,7 +7553,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -7597,7 +7578,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7615,7 +7596,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7638,7 +7619,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -7657,7 +7638,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7675,7 +7656,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1285,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "decimals": 18,
     "required_confirmations": 3,
     "protocol": {
@@ -7695,7 +7676,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -7721,7 +7702,7 @@
     "bech32_hrp": "mona",
     "mm2": 1,
     "required_confirmations": 5,
-    "avg_blocktime": 1.5,
+    "avg_blocktime": 90,
     "protocol": {
       "type": "UTXO"
     },
@@ -7750,7 +7731,7 @@
     "orderbook_ticker": "MONA",
     "mm2": 1,
     "required_confirmations": 5,
-    "avg_blocktime": 1.5,
+    "avg_blocktime": 90,
     "protocol": {
       "type": "UTXO"
     },
@@ -7773,7 +7754,7 @@
     "mm2": 1,
     "required_confirmations": 1,
     "requires_notarization": false,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -7788,7 +7769,7 @@
     "mm2": 1,
     "chain_id": 1285,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ETH"
     },
@@ -7806,7 +7787,7 @@
     "mm2": 1,
     "chain_id": 1284,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ETH"
     },
@@ -7827,7 +7808,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -7849,7 +7830,7 @@
     "txfee": 10000,
     "mm2": 1,
     "required_confirmations": 10,
-    "avg_blocktime": 0.5,
+    "avg_blocktime": 30,
     "protocol": {
       "type": "UTXO"
     },
@@ -7863,7 +7844,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 8,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7881,7 +7862,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7903,7 +7884,7 @@
     "txfee": 200000,
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -7917,7 +7898,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7940,7 +7921,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -7959,7 +7940,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -7981,7 +7962,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -8017,7 +7998,7 @@
     "bech32_hrp": "nc",
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 10,
+    "avg_blocktime": 600,
     "protocol": {
       "type": "UTXO"
     },
@@ -8045,7 +8026,7 @@
     "orderbook_ticker": "NMC",
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 10,
+    "avg_blocktime": 600,
     "protocol": {
       "type": "UTXO"
     },
@@ -8073,7 +8054,7 @@
     "wallet_only": true,
     "mature_confirmations": 500,
     "required_confirmations": 1,
-    "avg_blocktime": 7.5,
+    "avg_blocktime": 450,
     "protocol": {
       "type": "UTXO"
     },
@@ -8086,7 +8067,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -8111,7 +8092,7 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -8129,7 +8110,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 6,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -8148,7 +8129,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 6,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -8172,7 +8153,7 @@
     "bech32_hrp": "ny",
     "mm2": 1,
     "required_confirmations": 10,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     }
@@ -8184,7 +8165,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -8202,7 +8183,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -8226,7 +8207,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -8245,7 +8226,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -8269,7 +8250,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -8288,7 +8269,7 @@
     "mm2": 1,
     "chain_id": 1666600000,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ETH"
     },
@@ -8301,7 +8282,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -8323,7 +8304,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -8338,7 +8319,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -8360,7 +8341,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -8379,7 +8360,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -8398,7 +8379,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -8416,7 +8397,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -8435,7 +8416,7 @@
     "mm2": 1,
     "wallet_only": true,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -8460,7 +8441,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -8516,7 +8497,7 @@
     "txfee": 0,
     "mm2": 1,
     "required_confirmations": 1,
-    "avg_blocktime": 10,
+    "avg_blocktime": 600,
     "protocol": {
       "type": "UTXO"
     }
@@ -8538,7 +8519,7 @@
     "txfee": 0,
     "mm2": 1,
     "required_confirmations": 1,
-    "avg_blocktime": 10,
+    "avg_blocktime": 600,
     "protocol": {
       "type": "UTXO"
     }
@@ -8554,7 +8535,7 @@
     "txfee": 100000,
     "mm2": 1,
     "required_confirmations": 5,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -8576,7 +8557,7 @@
     "bech32_hrp": "pn",
     "mm2": 1,
     "required_confirmations": 1,
-    "avg_blocktime": 10,
+    "avg_blocktime": 600,
     "protocol": {
       "type": "UTXO"
     },
@@ -8628,7 +8609,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 6,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -8651,7 +8632,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 6,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -8678,7 +8659,7 @@
     "bech32_hrp": "pc",
     "mm2": 1,
     "required_confirmations": 1,
-    "avg_blocktime": 8.5,
+    "avg_blocktime": 510,
     "protocol": {
       "type": "UTXO"
     },
@@ -8697,7 +8678,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 6,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -8716,7 +8697,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 6,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -8738,7 +8719,7 @@
     "txfee": 0,
     "mm2": 1,
     "required_confirmations": 5,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -8751,7 +8732,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -8769,7 +8750,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 8,
     "protocol": {
@@ -8789,7 +8770,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 8,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -8812,8 +8793,8 @@
     "segwit": false,
     "bech32_hrp": "pr",
     "mm2": 1,
-    "required_confirmations": 20,
-    "avg_blocktime": 0.15,
+    "required_confirmations": 9,
+    "avg_blocktime": 9,
     "protocol": {
       "type": "UTXO"
     }
@@ -8841,7 +8822,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -8859,7 +8840,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -8882,7 +8863,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -8907,7 +8888,7 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -8931,7 +8912,7 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -8955,7 +8936,7 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -8972,7 +8953,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -8990,7 +8971,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9013,7 +8994,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9037,7 +9018,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9060,7 +9041,7 @@
     "is_testnet": true,
     "mature_confirmations": 2000,
     "required_confirmations": 1,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -9086,7 +9067,7 @@
     "force_min_relay_fee": true,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "protocol": {
       "type": "QTUM"
     },
@@ -9117,7 +9098,7 @@
     "force_min_relay_fee": true,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "protocol": {
       "type": "QTUM"
     },
@@ -9135,7 +9116,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9166,7 +9147,7 @@
     "mm2": 1,
     "required_confirmations": 1,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "protocol": {
       "type": "QTUM"
     }
@@ -9190,7 +9171,7 @@
     "is_testnet": true,
     "required_confirmations": 1,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "protocol": {
       "type": "QTUM"
     }
@@ -9203,7 +9184,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9227,7 +9208,7 @@
     "mm2": 1,
     "chain_id": 128,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9243,7 +9224,7 @@
     "name": "rep_erc20",
     "fname": "Augur",
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -9309,7 +9290,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -9329,7 +9310,7 @@
     "txfee": 0,
     "mm2": 1,
     "required_confirmations": 4,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     },
@@ -9352,7 +9333,7 @@
     "txfee": 0,
     "mm2": 1,
     "required_confirmations": 4,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     },
@@ -9370,7 +9351,7 @@
     "is_testnet": true,
     "required_confirmations": 1,
     "requires_notarization": false,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -9385,7 +9366,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 9,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9408,7 +9389,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 9,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -9484,7 +9465,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9512,7 +9493,7 @@
     "mm2": 1,
     "confpath": "USERHOME/.raptoreumcore/raptoreum.conf",
     "required_confirmations": 3,
-    "avg_blocktime": 2,
+    "avg_blocktime": 120,
     "protocol": {
       "type": "UTXO"
     },
@@ -9526,7 +9507,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 8,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9550,7 +9531,7 @@
     "txfee": 1000000,
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -9569,7 +9550,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9588,7 +9569,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9607,7 +9588,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -9626,7 +9607,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9678,7 +9659,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -9696,7 +9677,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9714,7 +9695,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -9739,7 +9720,7 @@
     "mm2": 1,
     "chain_id": 250,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9758,7 +9739,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9777,7 +9758,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -9796,7 +9777,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9815,7 +9796,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -9831,7 +9812,7 @@
     "name": "solve_erc20",
     "fname": "SOLVE",
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -9855,7 +9836,7 @@
     "mm2": 1,
     "required_confirmations": 1,
     "requires_notarization": false,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -9873,7 +9854,7 @@
     "mm2": 1,
     "required_confirmations": 6,
     "requires_notarization": false,
-    "avg_blocktime": 0.5,
+    "avg_blocktime": 30,
     "protocol": {
       "type": "UTXO"
     },
@@ -9891,7 +9872,7 @@
     "mm2": 1,
     "required_confirmations": 6,
     "requires_notarization": false,
-    "avg_blocktime": 0.5,
+    "avg_blocktime": 30,
     "protocol": {
       "type": "UTXO"
     },
@@ -9906,7 +9887,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 6,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9925,7 +9906,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 6,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -9947,7 +9928,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -9962,7 +9943,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -9980,7 +9961,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -9998,7 +9979,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -10023,7 +10004,7 @@
     "mm2": 1,
     "chain_id": 250,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10042,7 +10023,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10060,7 +10041,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1285,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "decimals": 18,
     "required_confirmations": 3,
     "protocol": {
@@ -10080,7 +10061,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -10098,7 +10079,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10116,7 +10097,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10134,7 +10115,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -10155,7 +10136,7 @@
     "alias_ticker": "BCH",
     "chain_id": 10000,
     "required_confirmations": 3,
-    "avg_blocktime": 0.1,
+    "avg_blocktime": 6,
     "protocol": {
       "type": "ETH"
     }
@@ -10174,7 +10155,7 @@
     "segwit": true,
     "bech32_hrp": "sys",
     "required_confirmations": 5,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "mm2": 1,
     "protocol": {
       "type": "UTXO"
@@ -10203,7 +10184,7 @@
     },
     "orderbook_ticker": "SYS",
     "required_confirmations": 5,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "mm2": 1,
     "protocol": {
       "type": "UTXO"
@@ -10226,7 +10207,7 @@
     "wiftype": 154,
     "txfee": 200000,
     "required_confirmations": 3,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "mm2": 1,
     "protocol": {
       "type": "UTXO"
@@ -10239,7 +10220,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -10301,7 +10282,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 2,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10320,7 +10301,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10339,7 +10320,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 2,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -10358,7 +10339,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 7,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10380,7 +10361,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -10395,7 +10376,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10417,7 +10398,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": true,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -10432,7 +10413,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 9,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10451,7 +10432,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 9,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10475,7 +10456,7 @@
     "dust": 5460,
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 2,
+    "avg_blocktime": 120,
     "protocol": {
       "type": "UTXO"
     },
@@ -10506,8 +10487,8 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
+    "avg_blocktime": 3,
     "decimals": 6,
-    "avg_blocktime": 0.05,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10526,7 +10507,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 6,
     "protocol": {
       "type": "ERC20",
@@ -10544,7 +10525,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10563,7 +10544,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 6,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -10581,7 +10562,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10599,7 +10580,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10618,7 +10599,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -10679,7 +10660,7 @@
     "mm2": 1,
     "chain_id": 128,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10698,7 +10679,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10717,7 +10698,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -10755,7 +10736,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 8,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10778,7 +10759,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 8,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -10801,7 +10782,7 @@
     "dust": 6000000,
     "mm2": 1,
     "required_confirmations": 5,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     }
@@ -10814,7 +10795,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -10833,7 +10814,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10852,7 +10833,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -10871,7 +10852,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -10889,7 +10870,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -10912,7 +10893,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10931,7 +10912,7 @@
     "mm2": 1,
     "chain_id": 128,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10950,7 +10931,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -10969,7 +10950,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -10992,7 +10973,7 @@
     "txfee": 0,
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     },
@@ -11011,7 +10992,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 6,
     "protocol": {
       "type": "ERC20",
@@ -11049,7 +11030,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -11071,7 +11052,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -11089,7 +11070,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 250,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -11107,7 +11088,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 128,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "decimals": 6,
     "required_confirmations": 3,
     "protocol": {
@@ -11126,7 +11107,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 321,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "decimals": 18,
     "required_confirmations": 3,
     "protocol": {
@@ -11145,7 +11126,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1285,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "decimals": 6,
     "required_confirmations": 3,
     "protocol": {
@@ -11165,7 +11146,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 6,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -11221,7 +11202,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1285,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "decimals": 6,
     "required_confirmations": 3,
     "protocol": {
@@ -11241,7 +11222,7 @@
     "mm2": 1,
     "chain_id": 250,
     "decimals": 6,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -11259,7 +11240,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 128,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "decimals": 18,
     "required_confirmations": 3,
     "protocol": {
@@ -11278,7 +11259,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 321,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "decimals": 18,
     "required_confirmations": 3,
     "protocol": {
@@ -11298,7 +11279,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 6,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -11317,7 +11298,7 @@
     "mm2": 1,
     "wallet_only": true,
     "chain_id": 42161,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "decimals": 6,
     "required_confirmations": 3,
     "protocol": {
@@ -11336,7 +11317,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 6,
     "protocol": {
       "type": "ERC20",
@@ -11373,7 +11354,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -11392,7 +11373,7 @@
     "mm2": 1,
     "wallet_only": true,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -11414,7 +11395,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -11439,7 +11420,7 @@
     "dust": 300000,
     "mm2": 1,
     "required_confirmations": 5,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "mature_confirmations": 60,
     "protocol": {
       "type": "UTXO"
@@ -11453,7 +11434,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -11471,7 +11452,7 @@
     "rpcport": 80,
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -11489,7 +11470,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 8,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -11508,7 +11489,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 8,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -11575,7 +11556,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -11599,7 +11580,7 @@
     "isPoS": 1,
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 4,
+    "avg_blocktime": 240,
     "protocol": {
       "type": "UTXO"
     }
@@ -11614,7 +11595,7 @@
     "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 5,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -11631,7 +11612,7 @@
     "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 5,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -11669,7 +11650,7 @@
     "bech32_hrp": "vtc",
     "mm2": 1,
     "required_confirmations": 4,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     },
@@ -11697,7 +11678,7 @@
     "orderbook_ticker": "VTC",
     "mm2": 1,
     "required_confirmations": 4,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     },
@@ -11716,7 +11697,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -11735,7 +11716,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 8,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -11778,7 +11759,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -11797,7 +11778,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "decimals": 18,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -11816,7 +11797,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -11835,7 +11816,7 @@
     "mm2": 1,
     "chain_id": 250,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -11854,7 +11835,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -11876,7 +11857,7 @@
     "mm2": 1,
     "required_confirmations": 1,
     "requires_notarization": false,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -11935,7 +11916,7 @@
     "segwit": true,
     "bech32_hrp": "ep",
     "required_confirmations": 4,
-    "avg_blocktime": 1.3,
+    "avg_blocktime": 78,
     "protocol": {
       "type": "UTXO"
     },
@@ -11959,7 +11940,7 @@
     },
     "orderbook_ticker": "XEP",
     "required_confirmations": 4,
-    "avg_blocktime": 1.3,
+    "avg_blocktime": 78,
     "protocol": {
       "type": "UTXO"
     },
@@ -11973,7 +11954,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 8,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -12029,7 +12010,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -12053,7 +12034,7 @@
     "bech32_hrp": "my",
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 4,
+    "avg_blocktime": 240,
     "protocol": {
       "type": "UTXO"
     },
@@ -12076,7 +12057,7 @@
     "orderbook_ticker": "XMY",
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 4,
+    "avg_blocktime": 240,
     "protocol": {
       "type": "UTXO"
     },
@@ -12095,7 +12076,7 @@
     "mm2": 1,
     "wallet_only": true,
     "required_confirmations": 5,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -12144,7 +12125,7 @@
     },
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 10,
+    "avg_blocktime": 600,
     "protocol": {
       "type": "UTXO"
     },
@@ -12157,7 +12138,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -12195,7 +12176,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 6,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -12219,7 +12200,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 6,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -12237,7 +12218,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -12263,7 +12244,7 @@
     "mm2": 1,
     "wallet_only": true,
     "required_confirmations": 3,
-    "avg_blocktime": 2,
+    "avg_blocktime": 120,
     "protocol": {
       "type": "UTXO"
     }
@@ -12281,7 +12262,7 @@
     "dust": 10000,
     "mm2": 1,
     "required_confirmations": 7,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     }
@@ -12293,7 +12274,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -12318,7 +12299,7 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "protocol": {
       "type": "QRC20",
       "protocol_data": {
@@ -12356,7 +12337,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -12391,7 +12372,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -12409,7 +12390,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -12427,7 +12408,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -12452,7 +12433,7 @@
     "mm2": 1,
     "chain_id": 250,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -12471,7 +12452,7 @@
     "mm2": 1,
     "chain_id": 321,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -12490,7 +12471,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -12508,7 +12489,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -12526,7 +12507,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "decimals": 18,
     "protocol": {
@@ -12561,7 +12542,7 @@
     "txfee": 10000,
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 1.25,
+    "avg_blocktime": 75,
     "protocol": {
       "type": "UTXO"
     },
@@ -12588,7 +12569,7 @@
     "txfee": 1000,
     "mm2": 1,
     "required_confirmations": 4,
-    "avg_blocktime": 2,
+    "avg_blocktime": 120,
     "protocol": {
       "type": "UTXO"
     },
@@ -12602,7 +12583,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -12628,7 +12609,7 @@
     "mm2": 1,
     "mature_confirmations": 500,
     "required_confirmations": 7,
-    "avg_blocktime": 0.75,
+    "avg_blocktime": 45,
     "protocol": {
       "type": "UTXO"
     }
@@ -12640,7 +12621,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -12660,7 +12641,7 @@
     "mm2": 1,
     "required_confirmations": 4,
     "requires_notarization": false,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -12675,7 +12656,7 @@
     "mm2": 1,
     "chain_id": 43114,
     "required_confirmations": 3,
-    "avg_blocktime": 0.04,
+    "avg_blocktime": 2.4,
     "decimals": 18,
     "protocol": {
       "type": "ERC20",
@@ -12694,7 +12675,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -12718,7 +12699,7 @@
     "mm2": 1,
     "chain_id": 137,
     "decimals": 18,
-    "avg_blocktime": 0.03,
+    "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
@@ -12737,7 +12718,7 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "txfee": 0,
     "dust": 72800,
     "protocol": {
@@ -12770,7 +12751,7 @@
     "txfee": 10000,
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -12784,7 +12765,7 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -12802,7 +12783,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -12821,7 +12802,7 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "txfee": 0,
     "dust": 72800,
     "protocol": {
@@ -12846,7 +12827,7 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "txfee": 0,
     "dust": 72800,
     "protocol": {
@@ -12871,7 +12852,7 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "txfee": 0,
     "dust": 72800,
     "protocol": {
@@ -12896,7 +12877,7 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "txfee": 0,
     "dust": 72800,
     "protocol": {
@@ -12921,7 +12902,7 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "txfee": 0,
     "dust": 72800,
     "protocol": {
@@ -12946,7 +12927,7 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "txfee": 0,
     "dust": 72800,
     "protocol": {
@@ -12971,7 +12952,7 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "txfee": 0,
     "dust": 72800,
     "protocol": {
@@ -12996,7 +12977,7 @@
     "mm2": 1,
     "required_confirmations": 3,
     "mature_confirmations": 2000,
-    "avg_blocktime": 0.53,
+    "avg_blocktime": 32,
     "txfee": 0,
     "dust": 72800,
     "protocol": {
@@ -13021,7 +13002,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13045,7 +13026,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13068,7 +13049,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13092,7 +13073,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13116,7 +13097,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13135,7 +13116,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13154,7 +13135,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13177,7 +13158,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13196,7 +13177,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13220,7 +13201,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13243,7 +13224,7 @@
     "mm2": 1,
     "chain_id": 8,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ETH"
     },
@@ -13261,7 +13242,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13285,7 +13266,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13304,7 +13285,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13327,7 +13308,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13351,7 +13332,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13370,7 +13351,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13389,7 +13370,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13412,7 +13393,7 @@
     "mm2": 1,
     "chain_id": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13432,7 +13413,7 @@
     "chain_id": 1,
     "decimals": 2,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13450,7 +13431,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -13470,7 +13451,7 @@
     "chain_id": 1,
     "decimals": 18,
     "required_confirmations": 3,
-    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
@@ -13488,7 +13469,7 @@
     "mm2": 1,
     "chain_id": 56,
     "decimals": 18,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -13517,7 +13498,7 @@
     },
     "mm2": 1,
     "required_confirmations": 1,
-    "avg_blocktime": 10,
+    "avg_blocktime": 600,
     "protocol": {
       "type": "BCH",
       "protocol_data": {
@@ -13588,7 +13569,7 @@
     "txfee": 0,
     "mm2": 1,
     "required_confirmations": 2,
-    "avg_blocktime": 2.5,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     }
@@ -13624,7 +13605,7 @@
     "mm2": 1,
     "required_confirmations": 1,
     "mature_confirmations": 100,
-    "avg_blocktime": 10,
+    "avg_blocktime": 600,
     "protocol": {
       "type": "UTXO"
     }
@@ -13648,7 +13629,7 @@
     "mm2": 1,
     "required_confirmations": 1,
     "mature_confirmations": 100,
-    "avg_blocktime": 10,
+    "avg_blocktime": 600,
     "protocol": {
       "type": "UTXO"
     }
@@ -13688,7 +13669,7 @@
     "mm2": 1,
     "decimals": 2,
     "required_confirmations": 1,
-    "avg_blocktime": 10,
+    "avg_blocktime": 600,
     "protocol": {
       "type": "UTXO"
     },
@@ -13701,7 +13682,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -13722,7 +13703,7 @@
     "overwintered": 1,
     "mm2": 1,
     "required_confirmations": 5,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -13755,7 +13736,7 @@
     "fname": "Zombie",
     "txversion": 4,
     "overwintered": 1,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "mm2": 1,
     "protocol": {
       "type": "ZHTLC",
@@ -13790,7 +13771,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
@@ -13816,7 +13797,7 @@
     "bech32_hrp": "rc",
     "mm2": 1,
     "required_confirmations": 6,
-    "avg_blocktime": 2,
+    "avg_blocktime": 120,
     "protocol": {
       "type": "UTXO"
     }
@@ -13833,7 +13814,7 @@
     "mm2": 1,
     "required_confirmations": 2,
     "requires_notarization": false,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
@@ -13847,7 +13828,7 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
-    "avg_blocktime": 0.05,
+    "avg_blocktime": 3,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
