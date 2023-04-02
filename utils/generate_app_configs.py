@@ -266,7 +266,6 @@ class CoinConfig:
                 "trezor_coin": self.coin_data["trezor_coin"]
             })
 
-
     def get_rewards_info(self):
         if self.ticker in ["KMD"]:
             self.data[self.ticker].update({
@@ -331,6 +330,11 @@ class CoinConfig:
 
     def clean_name(self):
         self.data[self.ticker].update({"name":self.coin_data["fname"]})
+
+    def get_generics(self):
+        for i in self.coin_data:
+            if i not in self.data[self.ticker]:
+                self.data[self.ticker].update({i:self.coin_data[i]})
 
     def get_electrums(self):
         coin = self.ticker.replace('-segwit', '')
@@ -417,6 +421,7 @@ def parse_coins_repo():
         
         if item["mm2"] == 1:
                 config = CoinConfig(item)
+                config.get_generics()
                 config.get_protocol_info()
                 config.clean_name()
                 config.get_swap_contracts()
