@@ -7107,7 +7107,8 @@
     "avg_blocktime": 1200,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/191'",
   },
   {
     "coin": "MANA-ERC20",
@@ -12349,7 +12350,8 @@
     "avg_blocktime": 0.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/77'"
   },
   {
     "coin": "XVS-BEP20",
