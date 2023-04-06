@@ -28,8 +28,8 @@ with open("../explorers/explorer_paths.json", "r") as f:
 with open("../api_ids/forex_ids.json", "r") as f:
     forex_ids = json.load(f)
 
-with open("../api_ids/nomics_ids.json", "r") as f:
-    nomics_ids = json.load(f)
+with open("../api_ids/livecoinwatch_ids.json", "r") as f:
+    livecoinwatch_ids = json.load(f)
 
 with open("../api_ids/coingecko_ids.json", "r") as f:
     coingecko_ids = json.load(f)
@@ -101,7 +101,7 @@ class CoinConfig:
                 "name": "",
                 "coinpaprika_id": "",
                 "coingecko_id": "",
-                "nomics_id": "",
+                "livecoinwatch_id": "",
                 "explorer_url": "",
                 "explorer_tx_url": "",
                 "explorer_address_url": "",
@@ -231,11 +231,11 @@ class CoinConfig:
                 "coingecko_id": coingecko_ids[coin]
             })
 
-    def get_nomics_id(self):
-        coin = self.ticker.replace('-segwit', '')
-        if coin in nomics_ids:
+    def get_livecoinwatch_id(self):
+        coin = self.ticker.split('-')[0]
+        if coin in livecoinwatch_ids:
             self.data[self.ticker].update({
-                "nomics_id": nomics_ids[coin]
+                "livecoinwatch_id": livecoinwatch_ids[coin]
             })
 
     def get_alias_ticker(self):
@@ -436,7 +436,7 @@ def parse_coins_repo():
                 config.get_forex_id()
                 config.get_coinpaprika_id()
                 config.get_coingecko_id()
-                config.get_nomics_id()
+                config.get_livecoinwatch_id()
                 config.get_bchd_urls()
                 config.get_hd_info()
                 config.get_links()
