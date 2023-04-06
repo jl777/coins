@@ -6957,6 +6957,25 @@
     "derivation_path": "m/44'/714'"
   },
   {
+    "coin": "LSWAP-BEP20",
+    "name": "lswap_bep20",
+    "fname": "LoopSwap",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x3F8a14f5a3Ee2F4A3Ed61cCF5EEA3c9535C090C8"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "LTC",
     "name": "litecoin",
     "fname": "Litecoin",
