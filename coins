@@ -7458,6 +7458,7 @@
     "coin": "MIL",
     "name": "mil",
     "fname": "Milevium",
+    "sign_message_prefix": "MIL Signed Message:\n",
     "rpcport": 41889,
     "pubtype": 50,
     "p2shtype": 196,
@@ -7465,7 +7466,8 @@
     "txfee": 100000,
     "dust": 54600,
     "mm2": 1,
-    "required_confirmations": 3,
+    "required_confirmations": 2,
+    "requires_notarization": true,
     "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
