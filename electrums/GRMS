@@ -1,34 +1,122 @@
 [
-    {
-       "url": "electrum.grms.pw:17485",
-        "contact": [
-            {
-                "github": "Miner113"
+                {
+                "url": "electrum.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+					{
+                        "github": "Miner113"
+                    }
+                ]
+            },
+			{
+                "url": "electrum.grms.pw:17485",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+					{
+                        "github": "Miner113"
+                    }
+                ],
+                "ws_url": "electrum.grms.pw:50004"
+            },
+			{
+                "url": "electrum1.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+					{
+                        "github": "Miner113"
+                    }
+                ]
+            },
+			{
+                "url": "electrum1.grms.pw:17485",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+					{
+                        "github": "Miner113"
+                    }
+                ],
+                "ws_url": "electrum1.grms.pw:50004"
+            },
+			{
+                "url": "electrum2.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+					{
+                        "github": "Miner113"
+                    }
+                ]
+            },
+			{
+                "url": "electrum2.grms.pw:17485",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+					{
+                        "github": "Miner113"
+                    }
+                ],
+                "ws_url": "electrum2.grms.pw:50004"
+            },
+			{
+                "url": "electrum3.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+					{
+                        "github": "Miner113"
+                    }
+                ]
+            },
+			{
+                "url": "electrum3.grms.pw:17485",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+					{
+                        "github": "Miner113"
+                    }
+                ],
+                "ws_url": "electrum3.grms.pw:50004"
             }
-        ]
-    },
-    {
-        "url": "electrum1.grms.pw:17485",
-        "contact": [
-            {
-                "github": "Miner113"
-            }
-        ]
-    },
-    {
-        "url": "electrum2.grms.pw:17485",
-        "contact": [
-            {
-                "github": "Miner113"
-            }
-        ]
-    },
-    {
-        "url": "electrum3.grms.pw:17485",
-        "contact": [
-            {
-                "github": "Miner113"
-            }
-        ]
-    }
 ]

@@ -4943,6 +4943,65 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "GRLC",
+    "name": "garlicoin",
+    "fname": "Garlicoin",
+    "sign_message_prefix": "Garlicoin Signed Message:\n",
+    "rpcport": 42068,
+    "pubtype": 38,
+    "p2shtype": 50,
+    "wiftype": 176,
+    "segwit": true,
+    "bech32_hrp": "grlc",
+    "txfee": 100000,
+    "dust": 54600,
+    "mm2": 1,
+    "required_confirmations": 5,
+    "avg_blocktime": 41,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/69420'"
+  },
+  {
+    "coin": "GRLC-ERC20",
+    "name": "grlc_erc20",
+    "fname": "Garlicoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 8,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x58f7345b5295E43aA454911571f13be186655BE9"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "GRLC-BEP20",
+    "name": "grlc_bep20",
+    "fname": "Garlicoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 8,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x7283DfA2d8D7e277b148cc263B5d8Ae02f1076D3"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "GRS",
     "name": "groestlcoin",
     "fname": "Groestlcoin",
@@ -6957,6 +7016,25 @@
     "derivation_path": "m/44'/714'"
   },
   {
+    "coin": "LSWAP-BEP20",
+    "name": "lswap_bep20",
+    "fname": "LoopSwap",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x3F8a14f5a3Ee2F4A3Ed61cCF5EEA3c9535C090C8"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "LTC",
     "name": "litecoin",
     "fname": "Litecoin",
@@ -7088,7 +7166,8 @@
     "avg_blocktime": 1200,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/191'"
   },
   {
     "coin": "MANA-ERC20",
@@ -12330,7 +12409,8 @@
     "avg_blocktime": 0.5,
     "protocol": {
       "type": "UTXO"
-    }
+    },
+    "derivation_path": "m/44'/77'"
   },
   {
     "coin": "XVS-BEP20",
