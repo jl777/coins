@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/f181ea49b4743139f084685b267f4bda33e60e753884040b2c01ee2f93f720a9)  
+[maker payment (GRLC)](https://garlicblocks.com/tx/f07488c90c283d51d2c0b298d3d4115718b8bef9c48f54a64bfd15402ffac179)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/a9f1aaad4096fdbd670057e8ba512cf40bd299d7b8a1fb7387a14493336f86f0)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/dc96a40053e08448fc27b76e703365bb61d853e073c4bb5e0b60862d5a09eae7)  
+[maker payment spent (GRLC)](https://garlicblocks.com/tx/aa3a3f601c6745a1690955d9a0fd75aa3a1103a322e866b5ba035810fb0bb167)  
