@@ -12311,26 +12311,6 @@
     "derivation_path": "m/44'/714'"
   },
   {
-    "coin": "XVC-OLD",
-    "name": "vanillacash",
-    "fname": "VanillaCash (old)",
-    "isPoS": 1,
-    "rpcport": 9195,
-    "pubtype": 71,
-    "p2shtype": 8,
-    "wiftype": 199,
-    "decimals": 6,
-    "txfee": 500,
-    "dust": 500,
-    "mm2": 1,
-    "wallet_only": true,
-    "required_confirmations": 3,
-    "avg_blocktime": 120,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "XVC",
     "name": "vanillacash",
     "fname": "VanillaCash",
