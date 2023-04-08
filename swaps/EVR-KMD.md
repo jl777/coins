@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/0f3cc26f5cfc9964cda2576a44f6f7ff52ca5fd9f1c05d624430790f927a6df6)  
+[maker payment (EVR)](https://evr.cryptoscope.io/tx/?txid=be13eccd7a0a6aa0739f94f319b32815ce9a4592938f161f8465497e32f2b06a)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/63720ee13d2177446f079c19aae3807f67cbd995026dc5a601bc506ea5423155)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/84196b3955fbcb46e74d233b00b281faeddbce5e9d7ee3215fcad9ac9263874b)  
+[maker payment spent (EVR)](https://evr.cryptoscope.io/tx/?txid=00dc95166f6ed594bab475c6b80444b81822294f358b14e86bfa7379affbc448)  
