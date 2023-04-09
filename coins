@@ -13556,22 +13556,6 @@
     }
   },
   {
-    "coin": "sTST",
-    "fname": "sTST",
-    "is_testnet": true,
-    "protocol": {
-      "type": "SLPTOKEN",
-      "protocol_data": {
-        "decimals": 4,
-        "token_id": "037eb9fc8a5f0faed4e5c15c15e69cd9f5d8a87b5f11e0ba3dce17b562705d6c",
-        "platform": "tBCH",
-        "required_confirmations": 1,
-        "slp_prefix": "slptest"
-      }
-    },
-    "mm2": 1
-  },
-  {
     "coin": "XEC",
     "name": "xec",
     "fname": "eCash",
