@@ -1908,6 +1908,7 @@
     "coin": "BTC-segwit",
     "name": "bitcoin",
     "fname": "Bitcoin",
+    "sign_message_prefix": "Bitcoin Signed Message:\n",
     "rpcport": 8332,
     "pubtype": 0,
     "p2shtype": 5,
@@ -2417,6 +2418,7 @@
     "coin": "CDN-segwit",
     "name": "canadaecoin",
     "fname": "Canada eCoin",
+    "sign_message_prefix": "Canada eCoin Signed Message:\n",
     "rpcport": 34330,
     "pubtype": 28,
     "p2shtype": 5,
@@ -3276,6 +3278,7 @@
     "coin": "DGB-segwit",
     "name": "digibyte",
     "fname": "Digibyte",
+    "sign_message_prefix": "DigiByte Signed Message:\n",
     "rpcport": 14022,
     "pubtype": 30,
     "p2shtype": 63,
@@ -4302,6 +4305,7 @@
     "coin": "FJC-segwit",
     "name": "fujicoin",
     "fname": "Fujicoin",
+    "sign_message_prefix": "FujiCoin Signed Message:\n",
     "rpcport": 3776,
     "pubtype": 36,
     "p2shtype": 16,
@@ -4400,23 +4404,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "FLASH",
-    "name": "flashcoin",
-    "fname": "Flashcoin",
-    "sign_message_prefix": "Flashcoin Signed Message:\n",
-    "rpcport": 9332,
-    "pubtype": 68,
-    "p2shtype": 130,
-    "wiftype": 196,
-    "txfee": 10000000,
-    "decimals": 10,
-    "mm2": 1,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/120'"
-  },
-  {
     "coin": "FLO",
     "name": "flo",
     "fname": "Florincoin",
@@ -4484,6 +4471,7 @@
     "coin": "FTC-segwit",
     "name": "feathercoin",
     "fname": "Feathercoin",
+    "sign_message_prefix": "Feathercoin Signed Message:\n",
     "rpcport": 9337,
     "pubtype": 14,
     "p2shtype": 5,
@@ -4754,22 +4742,6 @@
     "derivation_path": "m/44'/714'"
   },
   {
-    "coin": "GIN",
-    "name": "gincoin",
-    "fname": "GINcoin",
-    "rpcport": 10211,
-    "pubtype": 38,
-    "p2shtype": 10,
-    "wiftype": 198,
-    "txfee": 10000,
-    "confpath": "USERHOME/.gincoincore/gincoin.conf",
-    "mm2": 1,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/2000'"
-  },
-  {
     "coin": "GLEEC",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "GLEEC",
@@ -4957,7 +4929,7 @@
     "dust": 54600,
     "mm2": 1,
     "required_confirmations": 5,
-    "avg_blocktime": 41,
+    "avg_blocktime": 40,
     "protocol": {
       "type": "UTXO"
     },
@@ -5030,6 +5002,7 @@
     "coin": "GRS-segwit",
     "name": "groestlcoin",
     "fname": "Groestlcoin",
+    "sign_message_prefix": "GroestCoin Signed Message:\n",
     "rpcport": 1441,
     "pubtype": 36,
     "p2shtype": 5,
@@ -6532,6 +6505,7 @@
     "coin": "LBC-segwit",
     "name": "lbrycrd",
     "fname": "LBRY Credits",
+    "sign_message_prefix": "LBRYcrd Signed Message:\n",
     "rpcport": 9245,
     "pubtype": 85,
     "p2shtype": 122,
@@ -6578,6 +6552,7 @@
     "coin": "LCC-segwit",
     "name": "litecoincash",
     "fname": "Litecoin Cash",
+    "sign_message_prefix": "Litecoin Signed Message:\n",
     "rpcport": 62457,
     "pubtype": 28,
     "p2shtype": 5,
@@ -7064,6 +7039,7 @@
     "coin": "LTC-segwit",
     "name": "litecoin",
     "fname": "Litecoin",
+    "sign_message_prefix": "Litecoin Signed Message:\n",
     "rpcport": 9332,
     "pubtype": 48,
     "p2shtype": 50,
@@ -7132,22 +7108,6 @@
     "protocol": {
       "type": "UTXO"
     }
-  },
-  {
-    "coin": "LUX",
-    "name": "lux",
-    "fname": "LUXCoin",
-    "rpcport": 9888,
-    "isPoS": 1,
-    "pubtype": 48,
-    "p2shtype": 63,
-    "wiftype": 155,
-    "txfee": 10000,
-    "mm2": 1,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/3003'"
   },
   {
     "coin": "LYNX",
@@ -7798,6 +7758,7 @@
     "coin": "MONA-segwit",
     "name": "monacoin",
     "fname": "MonaCoin",
+    "sign_message_prefix": "Monacoin Signed Message:\n",
     "rpcport": 9402,
     "pubtype": 50,
     "p2shtype": 5,
@@ -8049,22 +8010,6 @@
     },
     "derivation_path": "m/44'/141'",
     "trezor_coin": "Komodo"
-  },
-  {
-    "coin": "NIX",
-    "name": "nix",
-    "fname": "NIX",
-    "sign_message_prefix": "Nix Signed Message:\n",
-    "rpcport": 6215,
-    "pubtype": 38,
-    "p2shtype": 53,
-    "wiftype": 128,
-    "txfee": 10000,
-    "mm2": 1,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/400'"
   },
   {
     "coin": "NMC",
@@ -8534,38 +8479,6 @@
     "derivation_path": "m/44'/966'"
   },
   {
-    "coin": "PEO",
-    "name": "proelio",
-    "fname": "Proelio",
-    "confpath": "USERHOME/.ProelioCore/proelio.conf",
-    "rpcport": 5655,
-    "pubtype": 56,
-    "p2shtype": 33,
-    "wiftype": 115,
-    "txfee": 10000,
-    "mm2": 1,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
-    "coin": "PGT",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "PGT",
-    "fname": "Pungo Token",
-    "rpcport": 46705,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": false,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
-  },
-  {
     "coin": "PIC",
     "name": "picacoin",
     "fname": "Picacoin",
@@ -8881,22 +8794,6 @@
     }
   },
   {
-    "coin": "PTX",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "PTX",
-    "fname": "PatentTX",
-    "rpcport": 61939,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 5,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
-  },
-  {
     "coin": "SHIB-BEP20",
     "name": "shib_bep20",
     "fname": "Shiba Inu",
@@ -9163,6 +9060,7 @@
     "coin": "QTUM-segwit",
     "name": "qtum",
     "fname": "Qtum",
+    "sign_message_prefix": "Qtum Signed Message:\n",
     "rpcport": 3889,
     "pubtype": 58,
     "p2shtype": 50,
@@ -9719,20 +9617,6 @@
     "derivation_path": "m/44'/714'"
   },
   {
-    "coin": "SIRX",
-    "name": "sirius",
-    "fname": "Sirius",
-    "rpcport": 4001,
-    "pubtype": 63,
-    "p2shtype": 50,
-    "wiftype": 128,
-    "txfee": 200000,
-    "mm2": 1,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "SNX-AVX20",
     "name": "snx_avx20",
     "fname": "Synthetix",
@@ -9930,24 +9814,6 @@
     "asset": "SPACE",
     "fname": "Spacecoin",
     "rpcport": 35593,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 6,
-    "requires_notarization": false,
-    "avg_blocktime": 30,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
-  },
-  {
-    "coin": "CIPHS",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "CIPHS",
-    "fname": "Ciphscoin",
-    "rpcport": 50601,
     "txversion": 4,
     "overwintered": 1,
     "mm2": 1,
@@ -10252,6 +10118,7 @@
     "coin": "SYS-segwit",
     "name": "syscoin",
     "fname": "Syscoin",
+    "sign_message_prefix": "Syscoin Signed Message:\n",
     "rpcport": 8370,
     "pubtype": 63,
     "p2shtype": 5,
@@ -11608,6 +11475,7 @@
     "coin": "VIA-segwit",
     "name": "viacoin",
     "fname": "Viacoin",
+    "sign_message_prefix": "Viacoin Signed Message:\n",
     "rpcport": 5222,
     "pubtype": 71,
     "p2shtype": 33,
@@ -11746,6 +11614,7 @@
     "coin": "VTC-segwit",
     "name": "vertcoin",
     "fname": "Vertcoin",
+    "sign_message_prefix": "Vertcoin Signed Message:\n",
     "rpcport": 5888,
     "pubtype": 71,
     "p2shtype": 5,
@@ -11984,50 +11853,6 @@
     "derivation_path": "m/44'/714'"
   },
   {
-    "coin": "XEP",
-    "name": "xep",
-    "fname": "Electra Protocol",
-    "rpcport": 16816,
-    "pubtype": 55,
-    "p2shtype": 137,
-    "wiftype": 162,
-    "txversion": 2,
-    "txfee": 100000,
-    "mm2": 1,
-    "segwit": true,
-    "bech32_hrp": "ep",
-    "required_confirmations": 4,
-    "avg_blocktime": 78,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/597'"
-  },
-  {
-    "coin": "XEP-segwit",
-    "name": "xep",
-    "fname": "Electra Protocol",
-    "rpcport": 16816,
-    "pubtype": 55,
-    "p2shtype": 137,
-    "wiftype": 162,
-    "txversion": 2,
-    "txfee": 100000,
-    "mm2": 1,
-    "segwit": true,
-    "bech32_hrp": "ep",
-    "address_format": {
-      "format": "segwit"
-    },
-    "orderbook_ticker": "XEP",
-    "required_confirmations": 4,
-    "avg_blocktime": 78,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/597'"
-  },
-  {
     "coin": "XEP-BEP20",
     "name": "xep_bep20",
     "fname": "Electra Protocol",
@@ -12166,27 +11991,6 @@
     "links": {
       "github": "https://github.com/primecoin/primecoin",
       "homepage": "https://primecoin.io"
-    }
-  },
-  {
-    "coin": "XSN",
-    "name": "xsn",
-    "fname": "Stakenet",
-    "rpcport": 51473,
-    "pubtype": 76,
-    "p2shtype": 16,
-    "wiftype": 204,
-    "txfee": 10000,
-    "confpath": "USERHOME/.xsncore/xsn.conf",
-    "mm2": 1,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/384'",
-    "trezor_coin": "Stakenet",
-    "links": {
-      "github": "https://github.com/X9Developers/XSN",
-      "homepage": "https://stakenet.io"
     }
   },
   {
@@ -12429,22 +12233,6 @@
       }
     },
     "derivation_path": "m/44'/714'"
-  },
-  {
-    "coin": "YCE",
-    "name": "myce",
-    "fname": "MYCE",
-    "rpcport": 23512,
-    "pubtype": 50,
-    "p2shtype": 85,
-    "wiftype": 153,
-    "txfee": 10000,
-    "txversion": 3,
-    "mm2": 1,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/449'"
   },
   {
     "coin": "YFI-AVX20",
@@ -13616,6 +13404,7 @@
     "coin": "UFO-segwit",
     "name": "ufo",
     "fname": "Uniform Fiscal Object",
+    "sign_message_prefix": "UFO Signed Message:\n",
     "rpcport": 8087,
     "pubtype": 27,
     "p2shtype": 68,
@@ -13717,22 +13506,6 @@
     }
   },
   {
-    "coin": "sTST",
-    "fname": "sTST",
-    "is_testnet": true,
-    "protocol": {
-      "type": "SLPTOKEN",
-      "protocol_data": {
-        "decimals": 4,
-        "token_id": "037eb9fc8a5f0faed4e5c15c15e69cd9f5d8a87b5f11e0ba3dce17b562705d6c",
-        "platform": "tBCH",
-        "required_confirmations": 1,
-        "slp_prefix": "slptest"
-      }
-    },
-    "mm2": 1
-  },
-  {
     "coin": "XEC",
     "name": "xec",
     "fname": "eCash",
@@ -13774,23 +13547,6 @@
       }
     },
     "derivation_path": "m/44'/714'"
-  },
-  {
-    "coin": "GMS",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "GMS",
-    "fname": "GMSmining",
-    "rpcport": 58911,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 5,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
   },
   {
     "coin": "VOTE2023",
