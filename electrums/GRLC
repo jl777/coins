@@ -57,5 +57,15 @@
                 "discord": "mecs#4770"
             }
         ]
+    },
+    {
+        "url": "electrum.maxpuig.com:50002",
+        "protocol": "SSL",
+        "contact": [
+            {
+                "discord": "orpheas#1503"
+            }
+        ],
+        "ws_url": "electrum.maxpuig.com:50004"
     }
 ]
