@@ -2324,7 +2324,7 @@
         "name": "Avian",
         "coinpaprika_id": "avn-avian",
         "coingecko_id": "avian-network",
-        "livecoinwatch_id": "AVN",
+        "livecoinwatch_id": "_AVN",
         "explorer_url": "https://explorer-us.avn.network/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -2374,7 +2374,7 @@
         "name": "Avian",
         "coinpaprika_id": "avn-avian",
         "coingecko_id": "avian-network",
-        "livecoinwatch_id": "AVN",
+        "livecoinwatch_id": "_AVN",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -3100,7 +3100,7 @@
         "name": "Banano",
         "coinpaprika_id": "ban-banano",
         "coingecko_id": "banano",
-        "livecoinwatch_id": "BANANO",
+        "livecoinwatch_id": "BAN",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -3806,7 +3806,7 @@
         "name": "Trinity Trust Token",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "TTT",
+        "livecoinwatch_id": "",
         "explorer_url": "https://simpleledger.info/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "",
@@ -4011,7 +4011,7 @@
         "name": "Sour",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "SOUR",
+        "livecoinwatch_id": "",
         "explorer_url": "https://simpleledger.info/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "",
@@ -4043,7 +4043,7 @@
         "name": "PS Foundation",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "PSF",
+        "livecoinwatch_id": "",
         "explorer_url": "https://simpleledger.info/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "",
@@ -4832,7 +4832,7 @@
         "name": "Bone ShibaSwap",
         "coinpaprika_id": "bone-bone-shibaswap",
         "coingecko_id": "bone-shibaswap",
-        "livecoinwatch_id": "BONE",
+        "livecoinwatch_id": "___BONE",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -5499,7 +5499,7 @@
         "name": "GlobalBoost-Y",
         "coinpaprika_id": "bsty-globalboost-y",
         "coingecko_id": "globalboost",
-        "livecoinwatch_id": "BSTY",
+        "livecoinwatch_id": "",
         "explorer_url": "https://insight.globalboost.info/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -5547,7 +5547,7 @@
         "name": "GlobalBoost-Y",
         "coinpaprika_id": "bsty-globalboost-y",
         "coingecko_id": "globalboost",
-        "livecoinwatch_id": "BSTY",
+        "livecoinwatch_id": "",
         "explorer_url": "https://insight.globalboost.info/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -5720,6 +5720,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Bitcoin Signed Message:\n",
         "fname": "Bitcoin",
         "rpcport": 8332,
         "pubtype": 0,
@@ -6879,7 +6880,7 @@
         "name": "CAD Coin",
         "coinpaprika_id": "cadc-cad-coin",
         "coingecko_id": "cad-coin",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "CAD",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -6957,7 +6958,7 @@
         "name": "CAD Coin",
         "coinpaprika_id": "cadc-cad-coin",
         "coingecko_id": "cad-coin",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "CAD",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -7315,6 +7316,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Canada eCoin Signed Message:\n",
         "fname": "Canada eCoin",
         "rpcport": 34330,
         "pubtype": 28,
@@ -9792,7 +9794,7 @@
         "name": "DEX",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "DEX",
+        "livecoinwatch_id": "",
         "explorer_url": "https://dex.kmdexplorer.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -10017,6 +10019,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "DigiByte Signed Message:\n",
         "fname": "Digibyte",
         "rpcport": 14022,
         "pubtype": 30,
@@ -10940,7 +10943,7 @@
         "name": "Doggy",
         "coinpaprika_id": "doggy-doggy",
         "coingecko_id": "doggy",
-        "livecoinwatch_id": "DOGGY",
+        "livecoinwatch_id": "_DOGGY",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -13340,6 +13343,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "FujiCoin Signed Message:\n",
         "fname": "Fujicoin",
         "rpcport": 3776,
         "pubtype": 36,
@@ -13839,6 +13843,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Feathercoin Signed Message:\n",
         "fname": "Feathercoin",
         "rpcport": 9337,
         "pubtype": 14,
@@ -14601,7 +14606,7 @@
         "name": "Gifto",
         "coinpaprika_id": "gto-gifto",
         "coingecko_id": "gifto",
-        "livecoinwatch_id": "GFT",
+        "livecoinwatch_id": "____GFT",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -14891,7 +14896,7 @@
         "name": "GM Wagmi",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "GM",
+        "livecoinwatch_id": "_GM",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -14949,7 +14954,7 @@
         "name": "STEPN",
         "coinpaprika_id": "",
         "coingecko_id": "stepn",
-        "livecoinwatch_id": "GMT",
+        "livecoinwatch_id": "____GMT",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -15008,7 +15013,7 @@
         "name": "GMX",
         "coinpaprika_id": "gmx-gmx",
         "coingecko_id": "gmx",
-        "livecoinwatch_id": "GMX",
+        "livecoinwatch_id": "__GMX",
         "explorer_url": "https://cchain.explorer.avax.network/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -15217,6 +15222,246 @@
                 "url": "https://poly-rpc.gateway.pokt.network"
             }
         ]
+    },
+    "GRLC": {
+        "coin": "GRLC",
+        "type": "UTXO",
+        "name": "Garlicoin",
+        "coinpaprika_id": "grlc-garlicoin",
+        "coingecko_id": "garlicoin",
+        "livecoinwatch_id": "GRLC",
+        "explorer_url": "https://garlicblocks.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Garlicoin Signed Message:\n",
+        "fname": "Garlicoin",
+        "rpcport": 42068,
+        "pubtype": 38,
+        "p2shtype": 50,
+        "wiftype": 176,
+        "segwit": true,
+        "bech32_hrp": "grlc",
+        "txfee": 100000,
+        "dust": 54600,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 40,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/69420'",
+        "electrum": [
+            {
+                "url": "electrum.maxpuig.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "mecs#4770"
+                    }
+                ]
+            },
+            {
+                "url": "au.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
+                "url": "ca.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.maxpuig.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ],
+                "ws_url": "electrum.maxpuig.com:50004"
+            },
+            {
+                "url": "fr.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
+                "url": "pl.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
+                "url": "uk.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            }
+        ]
+    },
+    "GRLC-ERC20": {
+        "coin": "GRLC-ERC20",
+        "type": "ERC-20",
+        "name": "Garlicoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "GRLC",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Garlicoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 8,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x58f7345b5295E43aA454911571f13be186655BE9"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x58f7345b5295E43aA454911571f13be186655BE9",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ]
+    },
+    "GRLC-BEP20": {
+        "coin": "GRLC-BEP20",
+        "type": "BEP-20",
+        "name": "Garlicoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "GRLC",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Garlicoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 8,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0x7283DfA2d8D7e277b148cc263B5d8Ae02f1076D3"
+            }
+        },
+        "derivation_path": "m/44'/714'",
+        "contract_address": "0x7283DfA2d8D7e277b148cc263B5d8Ae02f1076D3",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a="
     },
     "GRS": {
         "coin": "GRS",
@@ -15730,6 +15975,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "GroestCoin Signed Message:\n",
         "fname": "Groestlcoin",
         "rpcport": 1441,
         "pubtype": 36,
@@ -16431,7 +16677,7 @@
         "name": "Green Satoshi Token",
         "coinpaprika_id": "gst-gst",
         "coingecko_id": "green-satoshi-token",
-        "livecoinwatch_id": "GST",
+        "livecoinwatch_id": "____GST",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -16877,7 +17123,7 @@
         "name": "Holo",
         "coinpaprika_id": "hot-holo",
         "coingecko_id": "holotoken",
-        "livecoinwatch_id": "HOT",
+        "livecoinwatch_id": "_HOT",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -16954,7 +17200,7 @@
         "name": "Holo",
         "coinpaprika_id": "hot-holo",
         "coingecko_id": "holotoken",
-        "livecoinwatch_id": "HOT",
+        "livecoinwatch_id": "_HOT",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -17396,7 +17642,7 @@
         "name": "Ilien",
         "coinpaprika_id": "iln-ilien9195",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "ILN",
         "explorer_url": "https://explorer.ilien.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -17456,7 +17702,7 @@
         "name": "Ilien",
         "coinpaprika_id": "iln-ilien9195",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "ILN",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -17515,7 +17761,7 @@
         "name": "Ilien",
         "coinpaprika_id": "iln-ilien9195",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "ILN",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -17743,7 +17989,7 @@
         "name": "ImmutableX",
         "coinpaprika_id": "imx-immutable-x",
         "coingecko_id": "immutable-x",
-        "livecoinwatch_id": "IMX",
+        "livecoinwatch_id": "_IMX",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -17954,7 +18200,7 @@
         "name": "IOTA",
         "coinpaprika_id": "miota-iota",
         "coingecko_id": "iota",
-        "livecoinwatch_id": "IOTA",
+        "livecoinwatch_id": "MIOTA",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -18114,8 +18360,8 @@
         "coin": "JDB-BEP20",
         "type": "BEP-20",
         "name": "Jeet Detector Bot",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
+        "coinpaprika_id": "jdb-jeet-detector-bot",
+        "coingecko_id": "jeet-detector-bot",
         "livecoinwatch_id": "JDB",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
@@ -18174,7 +18420,7 @@
         "name": "Jarvis Australian Dollar",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "AUD",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -18221,7 +18467,7 @@
         "name": "Jarvis Brazilian Real",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "BRL",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -18281,7 +18527,7 @@
         "name": "Jarvis Brazilian Real",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "BRL",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -18328,7 +18574,7 @@
         "name": "Jarvis Canadian Dollar",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "CAD",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -18375,7 +18621,7 @@
         "name": "Jarvis Swiss Franc",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "CHF",
         "explorer_url": "https://cchain.explorer.avax.network/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -18418,7 +18664,7 @@
         "name": "Jarvis Swiss Franc",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "CHF",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -18477,7 +18723,7 @@
         "name": "Jarvis Swiss Franc",
         "coinpaprika_id": "",
         "coingecko_id": "jarvis-synthetic-swiss-franc",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "CHF",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -18555,7 +18801,7 @@
         "name": "Jarvis Swiss Franc",
         "coinpaprika_id": "",
         "coingecko_id": "jarvis-synthetic-swiss-franc",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "CHF",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -18602,7 +18848,7 @@
         "name": "Jarvis Chinese Yuan",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "CNY",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -18876,7 +19122,7 @@
         "name": "Jarvis British Pound",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "GBP",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -18935,7 +19181,7 @@
         "name": "Jarvis British Pound",
         "coinpaprika_id": "",
         "coingecko_id": "jarvis-synthetic-british-pound",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "GBP",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19013,7 +19259,7 @@
         "name": "Jarvis British Pound",
         "coinpaprika_id": "",
         "coingecko_id": "jarvis-synthetic-british-pound",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "GBP",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19060,7 +19306,7 @@
         "name": "Jarvis Gold",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "XAU",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19105,9 +19351,9 @@
         "coin": "JJPY-PLG20",
         "type": "Matic",
         "name": "Jarvis Japanese Yen",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "jjpy-jarvis-synthetic-japanese-yen",
         "coingecko_id": "jarvis-synthetic-japanese-yen",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "JPY",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19154,7 +19400,7 @@
         "name": "Jarvis South Korean Won",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "KRW",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19201,7 +19447,7 @@
         "name": "Jarvis Mexican Peso",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "MXN",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19248,7 +19494,7 @@
         "name": "Jarvis New Zealand Dollar",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "NZD",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19295,7 +19541,7 @@
         "name": "Jarvis Philippine Peso",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "PHP",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19342,7 +19588,7 @@
         "name": "Jarvis Polish Zloty",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "PLN",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19602,7 +19848,7 @@
         "name": "Jarvis Swedish Krona",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "SEK",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19649,7 +19895,7 @@
         "name": "Jarvis Singapore Dollar",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "SGD",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19696,7 +19942,7 @@
         "name": "Jarvis Turkish Lira",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "TRY",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -19743,7 +19989,7 @@
         "name": "Jarvis United States Dollar",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "USD",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -20728,6 +20974,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "LBRYcrd Signed Message:\n",
         "fname": "LBRY Credits",
         "rpcport": 9245,
         "pubtype": 85,
@@ -21377,7 +21624,7 @@
         "name": "LoopNetwork",
         "coinpaprika_id": "loop-loopnetwork",
         "coingecko_id": "loopnetwork",
-        "livecoinwatch_id": "LOOP",
+        "livecoinwatch_id": "_LOOP",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -21928,6 +22175,65 @@
         ],
         "token_address_url": "tokentxns?a="
     },
+    "LSWAP-BEP20": {
+        "coin": "LSWAP-BEP20",
+        "type": "BEP-20",
+        "name": "LoopSwap",
+        "coinpaprika_id": "lswap-loopswap",
+        "coingecko_id": "loopswap",
+        "livecoinwatch_id": "LSWAP",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "LoopSwap",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0x3F8a14f5a3Ee2F4A3Ed61cCF5EEA3c9535C090C8"
+            }
+        },
+        "derivation_path": "m/44'/714'",
+        "contract_address": "0x3F8a14f5a3Ee2F4A3Ed61cCF5EEA3c9535C090C8",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "http://bsc1.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc2.cipig.net:8655"
+            },
+            {
+                "url": "http://bsc3.cipig.net:8655"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a="
+    },
     "LTC": {
         "coin": "LTC",
         "type": "UTXO",
@@ -22055,6 +22361,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Litecoin Signed Message:\n",
         "fname": "Litecoin",
         "rpcport": 9332,
         "pubtype": 48,
@@ -22185,6 +22492,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/191'",
         "electrum": [
             {
                 "url": "electrum5.getlynx.io:50002",
@@ -22445,7 +22753,7 @@
         "name": "Mask Network",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "MASK",
+        "livecoinwatch_id": "_MASK",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -22504,7 +22812,7 @@
         "name": "Mask Network",
         "coinpaprika_id": "mask-mask-network",
         "coingecko_id": "mask-network",
-        "livecoinwatch_id": "MASK",
+        "livecoinwatch_id": "_MASK",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -22581,7 +22889,7 @@
         "name": "Mask Network",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "MASK",
+        "livecoinwatch_id": "_MASK",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -22924,7 +23232,7 @@
         "name": "Merit Circle",
         "coinpaprika_id": "mc-merit-circle",
         "coingecko_id": "merit-circle",
-        "livecoinwatch_id": "MC",
+        "livecoinwatch_id": "_MC",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -23001,7 +23309,7 @@
         "name": "Merit Circle",
         "coinpaprika_id": "mc-merit-circle",
         "coingecko_id": "merit-circle",
-        "livecoinwatch_id": "MC",
+        "livecoinwatch_id": "_MC",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -24244,6 +24552,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Monacoin Signed Message:\n",
         "fname": "MonaCoin",
         "rpcport": 9402,
         "pubtype": 50,
@@ -24389,7 +24698,7 @@
         "name": "Moonriver",
         "coinpaprika_id": "movr-moonriver",
         "coingecko_id": "moonriver",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "MOVR",
         "explorer_url": "https://moonriver.moonscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -25420,7 +25729,7 @@
         "name": "NZD Stablecoin",
         "coinpaprika_id": "",
         "coingecko_id": "nzd-stablecoin",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "NZD",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -25498,7 +25807,7 @@
         "name": "NZD Stablecoin",
         "coinpaprika_id": "",
         "coingecko_id": "nzd-stablecoin",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "NZD",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -25538,6 +25847,54 @@
             }
         ],
         "forex_id": "NZD"
+    },
+    "NYAN": {
+        "coin": "NYAN",
+        "type": "UTXO",
+        "name": "Nyancoin",
+        "coinpaprika_id": "nyan-nyancoin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "__NYAN",
+        "explorer_url": "https://www.nyanchain.com/",
+        "explorer_tx_url": "tx.nyan?",
+        "explorer_address_url": "ad.nyan?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Nyancoin",
+        "rpcport": 33700,
+        "pubtype": 45,
+        "p2shtype": 5,
+        "wiftype": 173,
+        "txfee": 10000,
+        "segwit": false,
+        "bech32_hrp": "ny",
+        "mm2": 1,
+        "required_confirmations": 10,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx.live:50020",
+                "protocol": "TCP"
+            },
+            {
+                "url": "txserver.live:50020",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.live:50022",
+                "protocol": "SSL"
+            },
+            {
+                "url": "txserver.live:50022",
+                "protocol": "SSL"
+            }
+        ]
     },
     "OCEAN-BEP20": {
         "coin": "OCEAN-BEP20",
@@ -26511,7 +26868,7 @@
         "name": "PotCoin",
         "coinpaprika_id": "pot-potcoin",
         "coingecko_id": "potcoin",
-        "livecoinwatch_id": "POT",
+        "livecoinwatch_id": "_POT",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -26588,7 +26945,7 @@
         "name": "PotCoin",
         "coinpaprika_id": "pot-potcoin",
         "coingecko_id": "potcoin",
-        "livecoinwatch_id": "POT",
+        "livecoinwatch_id": "_POT",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -27143,8 +27500,27 @@
         },
         "electrum": [
             {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL",
+                "ws_url": "electrumx.live:30010",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -28178,6 +28554,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Qtum Signed Message:\n",
         "fname": "Qtum",
         "rpcport": 3889,
         "pubtype": 58,
@@ -31318,7 +31695,7 @@
         "name": "SafeSwap",
         "coinpaprika_id": "swap-safeswap-online",
         "coingecko_id": "safeswap-online",
-        "livecoinwatch_id": "SWAP",
+        "livecoinwatch_id": "_SWAP",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -31673,6 +32050,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Syscoin Signed Message:\n",
         "fname": "Syscoin",
         "rpcport": 8370,
         "pubtype": 63,
@@ -31779,7 +32157,7 @@
         "name": "Tamadoge",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "TAMA",
+        "livecoinwatch_id": "__TAMA",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -32486,7 +32864,7 @@
         "name": "Toncoin",
         "coinpaprika_id": "toncoin-the-open-network",
         "coingecko_id": "the-open-network",
-        "livecoinwatch_id": "TON",
+        "livecoinwatch_id": "TONCOIN",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -32563,7 +32941,7 @@
         "name": "Toncoin",
         "coinpaprika_id": "toncoin-the-open-network",
         "coingecko_id": "the-open-network",
-        "livecoinwatch_id": "TON",
+        "livecoinwatch_id": "TONCOIN",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -33573,11 +33951,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "electrumx.uis.ewmcx.info:50001",
-                "protocol": "TCP",
-                "ws_url": "electrumx.uis.ewmcx.info:50004"
-            },
             {
                 "url": "failover.trc-uis.ewmcx.biz:50002",
                 "protocol": "SSL",
@@ -35765,7 +36138,7 @@
         "name": "GRMS",
         "coinpaprika_id": "grms-grms",
         "coingecko_id": "",
-        "livecoinwatch_id": "GRMS",
+        "livecoinwatch_id": "",
         "explorer_url": "https://explorer.grms.pw/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -35997,13 +36370,10 @@
         },
         "electrum": [
             {
+                "url": "88.99.26.209:5028"
+            },
+            {
                 "url": "electrumx.javerity.com:5885"
-            },
-            {
-                "url": "vtc-cce-1.coinomi.net:5028"
-            },
-            {
-                "url": "vtc-cce-2.coinomi.net:5028"
             }
         ]
     },
@@ -36022,6 +36392,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "Vertcoin Signed Message:\n",
         "fname": "Vertcoin",
         "rpcport": 5888,
         "pubtype": 71,
@@ -36048,13 +36419,10 @@
         },
         "electrum": [
             {
+                "url": "88.99.26.209:5028"
+            },
+            {
                 "url": "electrumx.javerity.com:5885"
-            },
-            {
-                "url": "vtc-cce-1.coinomi.net:5028"
-            },
-            {
-                "url": "vtc-cce-2.coinomi.net:5028"
             }
         ]
     },
@@ -37515,7 +37883,7 @@
         "name": "VanillaCash",
         "coinpaprika_id": "xvc-vcash",
         "coingecko_id": "vcash",
-        "livecoinwatch_id": "XVC",
+        "livecoinwatch_id": "",
         "explorer_url": "https://chainz.cryptoid.info/xvc/",
         "explorer_tx_url": "tx.dws?",
         "explorer_address_url": "address.dws?",
@@ -37555,7 +37923,7 @@
         "name": "VanillaCash",
         "coinpaprika_id": "xvc-vcash",
         "coingecko_id": "vcash",
-        "livecoinwatch_id": "XVC",
+        "livecoinwatch_id": "",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -37613,7 +37981,7 @@
         "name": "VanillaCash",
         "coinpaprika_id": "xvc-vcash",
         "coingecko_id": "vcash",
-        "livecoinwatch_id": "XVC",
+        "livecoinwatch_id": "",
         "explorer_url": "https://explorer.qtum.org/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -37752,6 +38120,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/77'",
         "electrum": [
             {
                 "url": "88.99.26.209:5036"
@@ -39040,7 +39409,7 @@
         "name": "Flux",
         "coinpaprika_id": "zel-zelcash",
         "coingecko_id": "zelcash",
-        "livecoinwatch_id": "FLUX",
+        "livecoinwatch_id": "_FLUX",
         "explorer_url": "https://explorer.runonflux.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -39087,7 +39456,7 @@
         "name": "Flux",
         "coinpaprika_id": "zel-zelcash",
         "coingecko_id": "zelcash",
-        "livecoinwatch_id": "FLUX",
+        "livecoinwatch_id": "_FLUX",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -39164,7 +39533,7 @@
         "name": "Flux",
         "coinpaprika_id": "zel-zelcash",
         "coingecko_id": "zelcash",
-        "livecoinwatch_id": "FLUX",
+        "livecoinwatch_id": "_FLUX",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -39564,7 +39933,7 @@
         "name": "Luna Stars",
         "coinpaprika_id": "lstr-luna-stars",
         "coingecko_id": "meetluna",
-        "livecoinwatch_id": "LSTR",
+        "livecoinwatch_id": "",
         "explorer_url": "https://explorer.qtum.org/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -42053,6 +42422,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
+        "sign_message_prefix": "UFO Signed Message:\n",
         "fname": "Uniform Fiscal Object",
         "rpcport": 8087,
         "pubtype": 27,
@@ -42202,7 +42572,7 @@
         "name": "Fake USD",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "USDF",
+        "livecoinwatch_id": "",
         "explorer_url": "https://testnet.simpleledger.info/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "",
@@ -42414,37 +42784,6 @@
                 ]
             }
         ]
-    },
-    "sTST": {
-        "coin": "sTST",
-        "type": "SLP",
-        "name": "sTST",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://testnet.simpleledger.info/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": true,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "sTST",
-        "protocol": {
-            "type": "SLPTOKEN",
-            "protocol_data": {
-                "decimals": 4,
-                "token_id": "037eb9fc8a5f0faed4e5c15c15e69cd9f5d8a87b5f11e0ba3dce17b562705d6c",
-                "platform": "tBCH",
-                "required_confirmations": 1,
-                "slp_prefix": "slptest"
-            }
-        },
-        "mm2": 1,
-        "slp_prefix": "slptest",
-        "token_id": "037eb9fc8a5f0faed4e5c15c15e69cd9f5d8a87b5f11e0ba3dce17b562705d6c",
-        "parent_coin": "tSLP"
     },
     "XEC": {
         "coin": "XEC",
