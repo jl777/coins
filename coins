@@ -12188,6 +12188,7 @@
     "segwit": true,
     "bech32_hrp": "vg",
     "txfee": 0,
+    "force_min_relay_fee": true,
     "mm2": 1,
     "required_confirmations": 10,
     "avg_blocktime": 0.5,
