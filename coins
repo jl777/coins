@@ -13727,5 +13727,28 @@
       }
     },
     "derivation_path": "m/44'/566'"
+  },
+  {
+    "coin": "EVR",
+    "name": "evrmore",
+    "fname": "Evrmore Coin",
+    "sign_message_prefix": "Evrmore Signed Message:\n",
+    "rpcport": 8819,
+    "pubtype": 33,
+    "p2shtype": 92,
+    "wiftype": 128,
+    "segwit": true,
+    "txfee": 1000000,
+    "mm2": 1,
+    "required_confirmations": 3,
+    "avg_blocktime": 1,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/175'",
+    "links": {
+      "github": "https://github.com/EvrmoreOrg/Evrmore",
+      "homepage": "https://evrmorecoin.org"
+    }
   }
 ]
