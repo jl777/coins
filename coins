@@ -9338,6 +9338,44 @@
     "trezor_coin": "Komodo"
   },
   {
+    "coin": "DOC",
+    "asset": "DOC",
+    "fname": "DOC",
+    "rpcport": 62415,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "is_testnet": true,
+    "required_confirmations": 1,
+    "requires_notarization": false,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
+  },
+  {
+    "coin": "MARTY",
+    "asset": "MARTY",
+    "fname": "MARTY",
+    "rpcport": 52592,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "is_testnet": true,
+    "required_confirmations": 1,
+    "requires_notarization": false,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
+  },
+  {
     "coin": "RLC-ERC20",
     "name": "rlc_erc20",
     "fname": "iExec RLC",
