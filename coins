@@ -9847,24 +9847,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "SOULJA",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "SOULJA",
-    "fname": "SouljaCoin",
-    "rpcport": 53604,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 1,
-    "requires_notarization": false,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
-  },
-  {
     "coin": "SPACE",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "SPACE",
@@ -11851,24 +11833,6 @@
       }
     },
     "derivation_path": "m/44'/966'"
-  },
-  {
-    "coin": "WSB",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "WSB",
-    "fname": "WallStreetBets",
-    "rpcport": 52043,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 1,
-    "requires_notarization": false,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
   },
   {
     "coin": "XCN-ERC20",
