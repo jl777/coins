@@ -4062,6 +4062,25 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "EUROE-PLG20",
+    "name": "euroe_plg20",
+    "fname": "EUROe Stablecoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 6,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x820802Fa8a99901F52e39acD21177b0BE6EE2974"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "EURS-ERC20",
     "name": "eurs_erc20",
     "fname": "STASIS EURO",
