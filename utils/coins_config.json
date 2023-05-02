@@ -7839,7 +7839,7 @@
         "name": "Chips",
         "coinpaprika_id": "chips-chips",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "__CHIPS",
         "explorer_url": "https://explorer.chips.cash/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -12579,6 +12579,52 @@
         ],
         "forex_id": "EUR"
     },
+    "EUROE-PLG20": {
+        "coin": "EUROE-PLG20",
+        "type": "Matic",
+        "name": "EUROe Stablecoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "EUROE",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "EUROe Stablecoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 137,
+        "decimals": 6,
+        "avg_blocktime": 1.8,
+        "required_confirmations": 20,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MATIC",
+                "contract_address": "0x820802Fa8a99901F52e39acD21177b0BE6EE2974"
+            }
+        },
+        "derivation_path": "m/44'/966'",
+        "contract_address": "0x820802Fa8a99901F52e39acD21177b0BE6EE2974",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.live:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://poly-rpc.gateway.pokt.network"
+            }
+        ]
+    },
     "EURS-ERC20": {
         "coin": "EURS-ERC20",
         "type": "ERC-20",
@@ -15326,16 +15372,6 @@
                     }
                 ],
                 "ws_url": "electrum.maxpuig.com:50004"
-            },
-            {
-                "url": "fr.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
             },
             {
                 "url": "pl.garlium.crapules.org:50002",
@@ -29439,159 +29475,6 @@
             }
         ]
     },
-    "NFTX": {
-        "coin": "NFTX",
-        "type": "Smart Chain",
-        "name": "NFTX",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "_NFTX",
-        "explorer_url": "https://explorer.nftx.pw/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "NFTX",
-        "fname": "NFTX",
-        "rpcport": 53959,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 4,
-        "requires_notarization": false,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "electrum.nftx.pw:17485",
-                "contact": [
-                    {
-                        "email": "contact@nftx.pw"
-                    },
-                    {
-                        "discord": "nftx-sergei#1197"
-                    },
-                    {
-                        "github": "nftx-sergei"
-                    }
-                ],
-                "ws_url": "electrum.nftx.pw:50004"
-            },
-            {
-                "url": "electrum1.nftx.pw:17485",
-                "contact": [
-                    {
-                        "email": "contact@nftx.pw"
-                    },
-                    {
-                        "discord": "nftx-sergei#1197"
-                    },
-                    {
-                        "github": "nftx-sergei"
-                    }
-                ],
-                "ws_url": "electrum1.nftx.pw:50004"
-            },
-            {
-                "url": "electrum2.nftx.pw:17485",
-                "contact": [
-                    {
-                        "email": "contact@nftx.pw"
-                    },
-                    {
-                        "discord": "nftx-sergei#1197"
-                    },
-                    {
-                        "github": "nftx-sergei"
-                    }
-                ],
-                "ws_url": "electrum2.nftx.pw:50004"
-            },
-            {
-                "url": "electrum3.nftx.pw:17485",
-                "contact": [
-                    {
-                        "email": "contact@nftx.pw"
-                    },
-                    {
-                        "discord": "nftx-sergei#1197"
-                    },
-                    {
-                        "github": "nftx-sergei"
-                    }
-                ],
-                "ws_url": "electrum3.nftx.pw:50004"
-            },
-            {
-                "url": "electrum.nftx.pw:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@nftx.pw"
-                    },
-                    {
-                        "discord": "nftx-sergei#1197"
-                    },
-                    {
-                        "github": "nftx-sergei"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.nftx.pw:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@nftx.pw"
-                    },
-                    {
-                        "discord": "nftx-sergei#1197"
-                    },
-                    {
-                        "github": "nftx-sergei"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.nftx.pw:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@nftx.pw"
-                    },
-                    {
-                        "discord": "nftx-sergei#1197"
-                    },
-                    {
-                        "github": "nftx-sergei"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.nftx.pw:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@nftx.pw"
-                    },
-                    {
-                        "discord": "nftx-sergei#1197"
-                    },
-                    {
-                        "github": "nftx-sergei"
-                    }
-                ]
-            }
-        ]
-    },
     "RICK": {
         "coin": "RICK",
         "type": "Smart Chain",
@@ -37763,9 +37646,6 @@
             "homepage": "https://primecoin.io"
         },
         "electrum": [
-            {
-                "url": "electrumx.gemmer.primecoin.org:50011"
-            },
             {
                 "url": "electrumx.mainnet.primecoin.org:50011"
             },
