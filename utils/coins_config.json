@@ -21229,6 +21229,56 @@
             }
         ]
     },
+    "LNC": {
+        "coin": "LNC",
+        "type": "UTXO",
+        "name": "LightningCash",
+        "coinpaprika_id": "ltncg-lightningcash-gold",
+        "coingecko_id": "lightningcash-gold",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.lightningcash-coin.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "LightningCash",
+        "rpcport": 9110,
+        "pubtype": 28,
+        "p2shtype": 50,
+        "wiftype": 176,
+        "decimals": 8,
+        "signature_version": "base",
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "lnc",
+        "mm2": 1,
+        "required_confirmations": 6,
+        "avg_blocktime": 5,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx2.lightningcash-coin.com:50001",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "merlin@lightningcash-coin.com"
+                    },
+                    {
+                        "discord": "merlin#7125"
+                    },
+                    {
+                        "twitter": "LightningCash_1"
+                    }
+                ]
+            }
+        ]
+    },
     "LEO-ERC20": {
         "coin": "LEO-ERC20",
         "type": "ERC-20",
