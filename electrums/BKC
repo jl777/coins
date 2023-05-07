@@ -1,9 +1,7 @@
 [
     {
         "url": "bunkerelectrum.bunker.mt:50004",
-        "protocol": "SSL",
-        "disable_cert_verification": true,
-        "ws_url": "bunkerelectron.bunker.mt:50003",
+        "protocol": "TCP",
         "contact": [
             {
                 "discord": "bunkermatty#5308"
