@@ -13768,6 +13768,50 @@
     "derivation_path": "m/44'/566'"
   },
   {
+     "coin": "MAZA",
+     "type": "UTXO",
+     "name": "Maza Coin",
+     "coinpaprika_id": "maza",
+     "coingecko_id": "maza",
+     "nomics_id": "maza",
+     "explorer_url": "https://mazacha.in/",
+     "explorer_tx_url": "https://mazacha.in/tx/",
+     "explorer_address_url": "https://mazacha.in/address/",
+     "supported": [],
+     "active": false,
+     "is_testnet": false,
+     "currently_enabled": false,
+     "wallet_only": false,
+     "sign_message_prefix": "",
+     "electrum": [
+       {
+            "url": "electrumx1.mazacha.in:50050",
+            "protocol": "SSL",
+            "contact": [
+                 {
+                    "email": "sherman@sherman.com"
+                 },
+                 {
+                     "discord": "sherman#5555"
+                 }
+             ]
+         },
+         {
+             "url": "electrumx2.mazacha.in:50050",
+             "protocol": "SSL",
+             "contact": [
+                 {
+                     "email": "sherman@sherman.com"
+                 }
+             ]
+         }
+     ],
+      "is_segwit_on": false,
+     "address_format": {
+         "format": "standard"
+     }
+  },
+  {
     "coin": "EVR",
     "name": "evrmore",
     "fname": "Evrmore Coin",
