@@ -1,4 +1,4 @@
-[taker fee (AVN)](https://explorer.avn.network/tx/?txid=2cea93769cc87000f8e1579cc98ed20cf92bbb3619ab280142fa8d851fae4d1b)  
+[taker fee (AVN)](https://explorer.avn.network/tx/?txid=2cea93769cc87000f8e1579cc98ed20cf92bbb3619ab280142fa8d851fae4d1b)   
 
 [maker payment (MAZA)](https://mazacha.in/tx/9ebcbb0e1d13fb9af6cb7d99581be3846d9e476fee03dd5f156d812b4a041c6b)  
 
