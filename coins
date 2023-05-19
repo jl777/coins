@@ -8577,6 +8577,29 @@
     "derivation_path": "m/44'/37'"
   },
   {
+    "coin": "POT",
+    "name": "potcoin",
+    "fname": "PotCoin",
+    "sign_message_prefix": "Potcoin Signed Message:\n",
+    "isPoSV": 1,
+    "rpcport": 42000,
+    "pubtype": 55,
+    "p2shtype": 5,
+    "wiftype": 183,
+    "txversion": 4,
+    "txfee": 100000,
+    "dust": 100000,
+    "mm2": 1,
+    "wallet_only": true,
+    "mature_confirmations": 240,
+    "required_confirmations": 5,
+    "avg_blocktime": 40,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/81'"
+  },
+  {
     "coin": "POT-ERC20",
     "name": "pot_erc20",
     "fname": "PotCoin",
@@ -9172,6 +9195,34 @@
     "avg_blocktime": 32,
     "protocol": {
       "type": "QTUM"
+    }
+  },
+  {
+    "coin": "RDD",
+    "name": "reddcoin",
+    "fname": "ReddCoin",
+    "isPoSV": 1,
+    "rpcport": 45443,
+    "pubtype": 61,
+    "p2shtype": 5,
+    "wiftype": 189,
+    "txversion": 2,
+    "txfee": 100000,
+    "dust": 100000,
+    "segwit": false,
+    "mm2": 1,
+    "wallet_only": true,
+    "mature_confirmations": 30,
+    "required_confirmations": 5,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/4'",
+    "trezor_coin": "Reddcoin",
+    "links": {
+      "github": "https://github.com/reddcoin-project/reddcoin",
+      "homepage": "https://reddcoin.com"
     }
   },
   {
