@@ -1631,6 +1631,30 @@
     }
   },
   {
+    "coin": "BOLI",
+    "name": "bolivarcoin",
+    "fname": "Bolivarcoin",
+    "confpath": "USERHOME/.bolivarcoincore/bolivarcoin.conf",
+    "rpcport": 3563,
+    "pubtype": 85,
+    "p2shtype": 5,
+    "wiftype": 213,
+    "segwit": false,
+    "txfee": 10000,
+    "mm2": 1,
+    "sign_message_prefix": "DarkCoin Signed Message:\n",
+    "required_confirmations": 3,
+    "avg_blocktime": 180,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/278'",
+    "links": {
+      "github": "https://github.com/BOLI-Project/BolivarCoin",
+      "homepage": "https://bolis.info"
+    }
+  },
+  {
     "coin": "BONE-ERC20",
     "name": "bone_erc20",
     "fname": "Bone ShibaSwap",

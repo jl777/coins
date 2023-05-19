@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/e36b047f982271d116f323bf586e7e89a544865ab72c6c54bb761a50dd815375)  
+[maker payment (BOLI)](https://chainz.cryptoid.info/boli/tx.dws?390758c06f463d6c290b55832a87217ea2b63c9783a32db018031df1e411aa96.htm)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/af4a59413b51f79ed462107d8e652f6e65d7e2ab2d8d1249db54da464fc43c0f)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/1cd2f334936bf50408b29f231f1f66ac8ceb2c960bd469e906d1a464307c6515)  
+[maker payment spent (BOLI)](https://chainz.cryptoid.info/boli/tx.dws?042a1ef8c851cddb895f0bac8722d90ec7ddf7014c4be662da07e7afeaf39bb7.htm)  
