@@ -2,5 +2,11 @@
     {
         "url": "62.171.189.243:50001",
         "protocol": "TCP"
+    },
+    {
+        "url": "pot-duo.ewmcx.net:50012",
+        "protocol": "SSL",
+        "disable_cert_verification": false,
+        "ws_url": "pot-duo.ewmcx.net:50013"
     }
 ]
