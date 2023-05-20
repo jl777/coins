@@ -4124,6 +4124,24 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "EWT",
+    "name": "ewt",
+    "fname": "Energy Web",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 246,
+    "required_confirmations": 3,
+    "avg_blocktime": 5,
+    "protocol": {
+      "type": "ETH"
+    },
+    "derivation_path": "m/44'/246'",
+    "trezor_coin": "Energy Web",
+    "links": {
+      "homepage": "https://www.energyweb.org"
+    }
+  },
+  {
     "coin": "FEI-ERC20",
     "name": "fei_erc20",
     "fname": "Fei USD",
