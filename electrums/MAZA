@@ -20,9 +20,20 @@
                     {
                         "discord": "sherm77#5923"
                     }
-                ]
+                ],
+                "ws_url": "electrumx1.mazacha.in:50005"
             },
-           
+            {
+                "url": "electrumx2.mazacha.in:50001",
+                "contact": [
+                    {
+                        "email": "contact@mazacoin.org"
+                    },
+                    {
+                        "discord": "sherm77#5923"
+                    }
+                ]
+            },           
             {
                 "url": "electrumx2.mazacha.in:50002",
                 "protocol": "SSL",
@@ -33,6 +44,7 @@
                     {
                         "discord": "sherm77#5923"
                     }
-                ]
+                ],
+                "ws_url": "electrumx2.mazacha.in:50005"
             }
         ]
