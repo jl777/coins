@@ -1,22 +1,37 @@
        [
            {
-                "url": "electrumx1.mazacha.in:50050",
-                "protocol": "SSL",
+                "url": "electrumx1.mazacha.in:50001",
                 "contact": [
                     {
-                        "email": "sherman@sherman.com"
+                        "email": "contact@mazacoin.org"
                     },
                     {
-                        "discord": "sherman#5555"
+                        "discord": "sherm77#5923"
                     }
                 ]
             },
             {
-                "url": "electrumx2.mazacha.in:50050",
+                "url": "electrumx1.mazacha.in:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "email": "sherman@sherman.com"
+                        "email": "contact@mazacoin.org"
+                    },
+                    {
+                        "discord": "sherm77#5923"
+                    }
+                ]
+            },
+           
+            {
+                "url": "electrumx2.mazacha.in:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@mazacoin.org"
+                    }
+                    {
+                        "discord": "sherm77#5923"
                     }
                 ]
             }
