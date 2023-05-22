@@ -13869,6 +13869,32 @@
     "derivation_path": "m/44'/566'"
   },
   {
+    "coin": "MAZA",
+    "name": "mazacoin",
+    "fname": "MazaCoin",
+    "sign_message_prefix": "Mazacoin Signed Message:\n",
+    "rpcport": 12832,
+    "pubtype": 50,
+    "p2shtype": 9,
+    "wiftype": 244,
+    "decimals": 8,
+    "signature_version": "base",
+    "txfee": 10000,
+    "segwit": true,
+    "bech32_hrp": "maza",
+    "mm2": 1,
+    "required_confirmations": 3,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/13'",
+    "links": {
+      "github": "https://github.com/Mazacoin",
+      "homepage": "https://www.mazacoin.org"
+    }
+  },
+  {
     "coin": "EVR",
     "name": "evrmore",
     "fname": "Evrmore Coin",
