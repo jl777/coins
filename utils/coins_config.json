@@ -678,6 +678,9 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
+            },
+            {
+                "url": "https://http-mainnet-node.huobichain.com"
             }
         ]
     },
@@ -2779,42 +2782,7 @@
         "derivation_path": "m/44'/357'",
         "electrum": [
             {
-                "url": "electrum1.aryacoin.io:2052",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "sales@aryacoin.io"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.aryacoin.io:2052",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "sales@aryacoin.io"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.aryacoin.io:2053",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "sales@aryacoin.io"
-                    }
-                ],
-                "ws_url": "electrum1.aryacoin.io:2051"
-            },
-            {
-                "url": "electrum2.aryacoin.io:2053",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "sales@aryacoin.io"
-                    }
-                ],
-                "ws_url": "electrum2.aryacoin.io:2051"
+                "url": "88.99.26.209:5151"
             }
         ]
     },
@@ -4332,6 +4300,9 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
+            },
+            {
+                "url": "https://http-mainnet-node.huobichain.com"
             }
         ]
     },
@@ -4505,7 +4476,7 @@
         "coinpaprika_id": "bit-bitnet",
         "coingecko_id": "",
         "livecoinwatch_id": "________BIT",
-        "explorer_url": "http://bitexplorer.io/",
+        "explorer_url": "https://bitexplorer.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -4838,6 +4809,48 @@
             }
         ],
         "token_address_url": "tokentxns?a="
+    },
+    "BOLI": {
+        "coin": "BOLI",
+        "type": "UTXO",
+        "name": "Bolivarcoin",
+        "coinpaprika_id": "boli-bolivarcoin",
+        "coingecko_id": "bolivarcoin",
+        "livecoinwatch_id": "BOLI",
+        "explorer_url": "https://chainz.cryptoid.info/boli/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "DarkCoin Signed Message:\n",
+        "fname": "Bolivarcoin",
+        "confpath": "USERHOME/.bolivarcoincore/bolivarcoin.conf",
+        "rpcport": 3563,
+        "pubtype": 85,
+        "p2shtype": 5,
+        "wiftype": 213,
+        "segwit": false,
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 180,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/278'",
+        "links": {
+            "github": "https://github.com/BOLI-Project/BolivarCoin",
+            "homepage": "https://bolis.info"
+        },
+        "electrum": [
+            {
+                "url": "electrum2.bolivarcoin.tech:23001",
+                "protocol": "TCP"
+            }
+        ]
     },
     "BONE-ERC20": {
         "coin": "BONE-ERC20",
@@ -7291,12 +7304,6 @@
                 "ws_url": "miami.ecoincore.com:34335"
             },
             {
-                "url": "mumbai.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "mumbai.ecoincore.com:34335"
-            },
-            {
                 "url": "oakland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -7373,12 +7380,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "miami.ecoincore.com:34335"
-            },
-            {
-                "url": "mumbai.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "mumbai.ecoincore.com:34335"
             },
             {
                 "url": "oakland.ecoincore.com:34333",
@@ -9456,6 +9457,9 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
+            },
+            {
+                "url": "https://http-mainnet-node.huobichain.com"
             }
         ]
     },
@@ -11117,6 +11121,9 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
+            },
+            {
+                "url": "https://http-mainnet-node.huobichain.com"
             }
         ]
     },
@@ -12405,6 +12412,9 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
+            },
+            {
+                "url": "https://http-mainnet-node.huobichain.com"
             }
         ]
     },
@@ -12749,6 +12759,42 @@
             }
         ],
         "forex_id": "EUR"
+    },
+    "EWT": {
+        "coin": "EWT",
+        "type": "EWT",
+        "name": "Energy Web",
+        "coinpaprika_id": "ewt-energy-web-token",
+        "coingecko_id": "energy-web-token",
+        "livecoinwatch_id": "EWT",
+        "explorer_url": "https://explorer.energyweb.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Energy Web",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 246,
+        "required_confirmations": 3,
+        "avg_blocktime": 5,
+        "protocol": {
+            "type": "ETH"
+        },
+        "derivation_path": "m/44'/246'",
+        "trezor_coin": "Energy Web",
+        "links": {
+            "homepage": "https://www.energyweb.org"
+        },
+        "swap_contract_address": "0x304896fc2F242f13dd852b412E7B60C5F495B79c",
+        "nodes": [
+            {
+                "url": "https://rpc.energyweb.org"
+            }
+        ]
     },
     "FEI-ERC20": {
         "coin": "FEI-ERC20",
@@ -13180,6 +13226,9 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
+            },
+            {
+                "url": "https://http-mainnet-node.huobichain.com"
             }
         ]
     },
@@ -13601,8 +13650,8 @@
         "type": "BEP-20",
         "name": "Floki Inu",
         "coinpaprika_id": "floki-floki-inu",
-        "coingecko_id": "floki-inu",
-        "livecoinwatch_id": "FLOKI",
+        "coingecko_id": "floki",
+        "livecoinwatch_id": "_FLOKI",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -13797,7 +13846,7 @@
         "coinpaprika_id": "ftc-feathercoin",
         "coingecko_id": "feathercoin",
         "livecoinwatch_id": "FTC",
-        "explorer_url": "http://explorer.feathercoin.com/",
+        "explorer_url": "https://explorer.feathercoin.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -13908,7 +13957,7 @@
         "coinpaprika_id": "ftc-feathercoin",
         "coingecko_id": "feathercoin",
         "livecoinwatch_id": "FTC",
-        "explorer_url": "http://explorer.feathercoin.com/",
+        "explorer_url": "https://explorer.feathercoin.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -15349,16 +15398,6 @@
                 ]
             },
             {
-                "url": "ca.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
-            },
-            {
                 "url": "electrum.maxpuig.com:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -15543,7 +15582,7 @@
         "coinpaprika_id": "grs-groestlcoin",
         "coingecko_id": "groestlcoin",
         "livecoinwatch_id": "GRS",
-        "explorer_url": "http://groestlsight.groestlcoin.org/",
+        "explorer_url": "https://groestlsight.groestlcoin.org/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -15696,18 +15735,6 @@
             {
                 "url": "electrum20.groestlcoin.org:50001",
                 "ws_url": "electrum20.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum21.groestlcoin.org:50001",
-                "ws_url": "electrum21.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -16040,7 +16067,7 @@
         "coinpaprika_id": "grs-groestlcoin",
         "coingecko_id": "groestlcoin",
         "livecoinwatch_id": "GRS",
-        "explorer_url": "http://groestlsight.groestlcoin.org/",
+        "explorer_url": "https://groestlsight.groestlcoin.org/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -16197,18 +16224,6 @@
             {
                 "url": "electrum20.groestlcoin.org:50001",
                 "ws_url": "electrum20.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum21.groestlcoin.org:50001",
-                "ws_url": "electrum21.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -17349,6 +17364,9 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
+            },
+            {
+                "url": "https://http-mainnet-node.huobichain.com"
             }
         ]
     },
@@ -17545,6 +17563,9 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
+            },
+            {
+                "url": "https://http-mainnet-node.huobichain.com"
             }
         ]
     },
@@ -18700,7 +18721,7 @@
         "name": "Jarvis Swiss Franc",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "CHF",
+        "livecoinwatch_id": "JCHF",
         "explorer_url": "https://cchain.explorer.avax.network/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -18743,7 +18764,7 @@
         "name": "Jarvis Swiss Franc",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "CHF",
+        "livecoinwatch_id": "JCHF",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -18802,7 +18823,7 @@
         "name": "Jarvis Swiss Franc",
         "coinpaprika_id": "",
         "coingecko_id": "jarvis-synthetic-swiss-franc",
-        "livecoinwatch_id": "CHF",
+        "livecoinwatch_id": "JCHF",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -18880,7 +18901,7 @@
         "name": "Jarvis Swiss Franc",
         "coinpaprika_id": "",
         "coingecko_id": "jarvis-synthetic-swiss-franc",
-        "livecoinwatch_id": "CHF",
+        "livecoinwatch_id": "JCHF",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -21106,6 +21127,92 @@
             }
         ]
     },
+    "LCC": {
+        "coin": "LCC",
+        "type": "UTXO",
+        "name": "Litecoin Cash",
+        "coinpaprika_id": "lcc-litecoin-cash",
+        "coingecko_id": "litecoin-cash",
+        "livecoinwatch_id": "LCC",
+        "explorer_url": "https://chainz.cryptoid.info/lcc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Litecoin Signed Message:\n",
+        "fname": "Litecoin Cash",
+        "rpcport": 62457,
+        "pubtype": 28,
+        "p2shtype": 50,
+        "wiftype": 176,
+        "decimals": 7,
+        "fork_id": "0x40",
+        "signature_version": "base",
+        "txfee": 20000,
+        "segwit": true,
+        "bech32_hrp": "lcc",
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/192'",
+        "electrum": [
+            {
+                "url": "88.99.26.209:5140",
+                "protocol": "TCP"
+            }
+        ]
+    },
+    "LCC-segwit": {
+        "coin": "LCC-segwit",
+        "type": "UTXO",
+        "name": "Litecoin Cash",
+        "coinpaprika_id": "lcc-litecoin-cash",
+        "coingecko_id": "litecoin-cash",
+        "livecoinwatch_id": "LCC",
+        "explorer_url": "https://chainz.cryptoid.info/lcc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Litecoin Signed Message:\n",
+        "fname": "Litecoin Cash",
+        "rpcport": 62457,
+        "pubtype": 28,
+        "p2shtype": 5,
+        "wiftype": 176,
+        "decimals": 7,
+        "fork_id": "0x40",
+        "signature_version": "base",
+        "txfee": 20000,
+        "segwit": true,
+        "bech32_hrp": "lcc",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "LCC",
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/192'",
+        "electrum": [
+            {
+                "url": "88.99.26.209:5140",
+                "protocol": "TCP"
+            }
+        ]
+    },
     "LDO-ERC20": {
         "coin": "LDO-ERC20",
         "type": "ERC-20",
@@ -21662,6 +21769,9 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
+            },
+            {
+                "url": "https://http-mainnet-node.huobichain.com"
             }
         ]
     },
@@ -23314,6 +23424,9 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
+            },
+            {
+                "url": "https://http-mainnet-node.huobichain.com"
             }
         ]
     },
@@ -23502,7 +23615,7 @@
         "coinpaprika_id": "mcl-marmara-credit-loops",
         "coingecko_id": "",
         "livecoinwatch_id": "_MCL",
-        "explorer_url": "http://explorer.marmara.io/",
+        "explorer_url": "https://explorer.marmara.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -26007,7 +26120,7 @@
         "pubtype": 45,
         "p2shtype": 5,
         "wiftype": 173,
-        "txfee": 10000,
+        "txfee": 100000,
         "segwit": false,
         "bech32_hrp": "ny",
         "mm2": 1,
@@ -27004,12 +27117,58 @@
             }
         ]
     },
+    "POT": {
+        "coin": "POT",
+        "type": "UTXO",
+        "name": "PotCoin",
+        "coinpaprika_id": "pot-potcoin",
+        "coingecko_id": "potcoin",
+        "livecoinwatch_id": "_POT",
+        "explorer_url": "https://chainz.cryptoid.info/pot/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "sign_message_prefix": "Potcoin Signed Message:\n",
+        "fname": "PotCoin",
+        "isPoSV": 1,
+        "rpcport": 42000,
+        "pubtype": 55,
+        "p2shtype": 5,
+        "wiftype": 183,
+        "txversion": 4,
+        "txfee": 100000,
+        "dust": 100000,
+        "mm2": 1,
+        "mature_confirmations": 240,
+        "required_confirmations": 5,
+        "avg_blocktime": 40,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/81'",
+        "electrum": [
+            {
+                "url": "62.171.189.243:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "pot-duo.ewmcx.net:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "pot-duo.ewmcx.net:50013"
+            }
+        ]
+    },
     "POT-ERC20": {
         "coin": "POT-ERC20",
         "type": "ERC-20",
         "name": "PotCoin",
-        "coinpaprika_id": "pot-potcoin",
-        "coingecko_id": "potcoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
         "livecoinwatch_id": "_POT",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "",
@@ -27085,8 +27244,8 @@
         "coin": "POT-PLG20",
         "type": "Matic",
         "name": "PotCoin",
-        "coinpaprika_id": "pot-potcoin",
-        "coingecko_id": "potcoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
         "livecoinwatch_id": "_POT",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "",
@@ -29101,6 +29260,62 @@
             }
         ]
     },
+    "RDD": {
+        "coin": "RDD",
+        "type": "UTXO",
+        "name": "ReddCoin",
+        "coinpaprika_id": "rdd-reddcoin",
+        "coingecko_id": "reddcoin",
+        "livecoinwatch_id": "RDD",
+        "explorer_url": "https://live.reddcoin.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "ReddCoin",
+        "isPoSV": 1,
+        "rpcport": 45443,
+        "pubtype": 61,
+        "p2shtype": 5,
+        "wiftype": 189,
+        "txversion": 2,
+        "txfee": 100000,
+        "dust": 100000,
+        "segwit": false,
+        "mm2": 1,
+        "mature_confirmations": 30,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/4'",
+        "trezor_coin": "Reddcoin",
+        "links": {
+            "github": "https://github.com/reddcoin-project/reddcoin",
+            "homepage": "https://reddcoin.com"
+        },
+        "electrum": [
+            {
+                "url": "electrum01.reddcoin.com:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum01.reddcoin.com:50004"
+            },
+            {
+                "url": "electrum02.reddcoin.com:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum02.reddcoin.com:50004"
+            },
+            {
+                "url": "electrum03.reddcoin.com:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum03.reddcoin.com:50004"
+            }
+        ]
+    },
     "REN-ERC20": {
         "coin": "REN-ERC20",
         "type": "ERC-20",
@@ -29219,6 +29434,9 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
+            },
+            {
+                "url": "https://http-mainnet-node.huobichain.com"
             }
         ]
     },
@@ -33910,6 +34128,9 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
+            },
+            {
+                "url": "https://http-mainnet-node.huobichain.com"
             }
         ]
     },
@@ -34219,8 +34440,14 @@
             {
                 "url": "failover.trc-uis.ewmcx.biz:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true,
+                "disable_cert_verification": false,
                 "ws_url": "failover.trc-uis.ewmcx.biz:50003"
+            },
+            {
+                "url": "uis-uno.ewmcx.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "uis-uno.ewmcx.net:50003"
             }
         ]
     },
@@ -34608,6 +34835,9 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
+            },
+            {
+                "url": "https://http-mainnet-node.huobichain.com"
             }
         ]
     },
@@ -35051,6 +35281,9 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
+            },
+            {
+                "url": "https://http-mainnet-node.huobichain.com"
             }
         ]
     },
@@ -35441,6 +35674,9 @@
         "nodes": [
             {
                 "url": "https://http-mainnet.hecochain.com"
+            },
+            {
+                "url": "https://http-mainnet-node.huobichain.com"
             }
         ]
     },
@@ -36223,6 +36459,98 @@
             }
         ]
     },
+    "VIA": {
+        "coin": "VIA",
+        "type": "UTXO",
+        "name": "Viacoin",
+        "coinpaprika_id": "via-viacoin",
+        "coingecko_id": "viacoin",
+        "livecoinwatch_id": "VIA",
+        "explorer_url": "https://explorer.viacoin.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Viacoin Signed Message:\n",
+        "fname": "Viacoin",
+        "rpcport": 5222,
+        "pubtype": 71,
+        "p2shtype": 33,
+        "wiftype": 199,
+        "txfee": 100000,
+        "dust": 54600,
+        "required_confirmations": 7,
+        "mature_confirmations": 3600,
+        "avg_blocktime": 24,
+        "segwit": true,
+        "bech32_hrp": "via",
+        "mm2": 1,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/14'",
+        "trezor_coin": "Viacoin",
+        "links": {
+            "github": "https://github.com/viacoin",
+            "homepage": "https://viacoin.org"
+        },
+        "electrum": [
+            {
+                "url": "88.99.26.209:5102"
+            }
+        ]
+    },
+    "VIA-segwit": {
+        "coin": "VIA-segwit",
+        "type": "UTXO",
+        "name": "Viacoin",
+        "coinpaprika_id": "via-viacoin",
+        "coingecko_id": "viacoin",
+        "livecoinwatch_id": "VIA",
+        "explorer_url": "https://explorer.viacoin.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Viacoin Signed Message:\n",
+        "fname": "Viacoin",
+        "rpcport": 5222,
+        "pubtype": 71,
+        "p2shtype": 33,
+        "wiftype": 199,
+        "txfee": 100000,
+        "dust": 54600,
+        "required_confirmations": 7,
+        "mature_confirmations": 3600,
+        "avg_blocktime": 24,
+        "segwit": true,
+        "bech32_hrp": "via",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "VIA",
+        "mm2": 1,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/14'",
+        "trezor_coin": "Viacoin",
+        "links": {
+            "github": "https://github.com/viacoin",
+            "homepage": "https://viacoin.org"
+        },
+        "electrum": [
+            {
+                "url": "88.99.26.209:5102"
+            }
+        ]
+    },
     "VITE-BEP20": {
         "coin": "VITE-BEP20",
         "type": "BEP-20",
@@ -36693,7 +37021,13 @@
                 "url": "88.99.26.209:5028"
             },
             {
-                "url": "electrumx.javerity.com:5885"
+                "url": "electrumx.javerity.com:5885",
+                "ws_url": "electrumx.javerity.com:5887",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
+                    }
+                ]
             }
         ]
     },
@@ -36742,7 +37076,13 @@
                 "url": "88.99.26.209:5028"
             },
             {
-                "url": "electrumx.javerity.com:5885"
+                "url": "electrumx.javerity.com:5885",
+                "ws_url": "electrumx.javerity.com:5887",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
+                    }
+                ]
             }
         ]
     },
@@ -42510,15 +42850,6 @@
                         "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
                     }
                 ]
-            },
-            {
-                "url": "testnet.bitcoincash.network:60002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
             }
         ]
     },
@@ -42860,36 +43191,7 @@
                 ]
             },
             {
-                "url": "electrumx2.cointest.com:50001",
-                "contact": [
-                    {
-                        "email": "protocol@whive.io"
-                    },
-                    {
-                        "discord": "whiveio#9340"
-                    },
-                    {
-                        "twitter": "whiveio"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx1.cointest.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "protocol@whive.io"
-                    },
-                    {
-                        "discord": "whiveio#9340"
-                    },
-                    {
-                        "twitter": "whiveio"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.cointest.com:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -42956,36 +43258,7 @@
                 ]
             },
             {
-                "url": "electrumx2.cointest.com:50001",
-                "contact": [
-                    {
-                        "email": "protocol@whive.io"
-                    },
-                    {
-                        "discord": "whiveio#9340"
-                    },
-                    {
-                        "twitter": "whiveio"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx1.cointest.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "protocol@whive.io"
-                    },
-                    {
-                        "discord": "whiveio#9340"
-                    },
-                    {
-                        "twitter": "whiveio"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.cointest.com:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -43732,6 +44005,83 @@
             },
             {
                 "url": "https://rpc.irishub-1.irisnet.org"
+            }
+        ]
+    },
+    "MAZA": {
+        "coin": "MAZA",
+        "type": "UTXO",
+        "name": "MazaCoin",
+        "coinpaprika_id": "maza-maza",
+        "coingecko_id": "maza",
+        "livecoinwatch_id": "MAZA",
+        "explorer_url": "http://mazacha.in/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Mazacoin Signed Message:\n",
+        "fname": "MazaCoin",
+        "rpcport": 12832,
+        "pubtype": 50,
+        "p2shtype": 9,
+        "wiftype": 244,
+        "decimals": 8,
+        "signature_version": "base",
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "maza",
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/13'",
+        "links": {
+            "github": "https://github.com/Mazacoin",
+            "homepage": "https://www.mazacoin.org"
+        },
+        "electrum": [
+            {
+                "url": "electrumx1.mazacha.in:50001",
+                "contact": [
+                    {
+                        "email": "contact@mazacoin.org"
+                    },
+                    {
+                        "discord": "sherm77#5923"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.mazacha.in:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@mazacoin.org"
+                    },
+                    {
+                        "discord": "sherm77#5923"
+                    }
+                ],
+                "ws_url": "electrumx1.mazacha.in:50005"
+            },
+            {
+                "url": "electrumx2.mazacha.in:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@mazacoin.org"
+                    },
+                    {
+                        "discord": "sherm77#5923"
+                    }
+                ],
+                "ws_url": "electrumx2.mazacha.in:50005"
             }
         ]
     },
