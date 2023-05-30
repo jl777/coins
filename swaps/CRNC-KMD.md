@@ -4,4 +4,6 @@
 
 [taker payment (CRNC)](https://explorer.crionic.org/tx/657684c62029ddc487e54993df723fb1ee14abb59b2cdae9cc69b4c036cd1dc7)  
 
-[maker payment (CRNC)](https://explorer.crionic.org/tx/c5e325c300e645271347442cb9351fb90c7e0dd4ed0467a074cb8796fc31db87)  
+[taker payment spent (CRNC)](https://explorer.crionic.org/tx/c5e325c300e645271347442cb9351fb90c7e0dd4ed0467a074cb8796fc31db87)  
+
+[maker payment spent (KMD)](https://komodoblockexplorer.com/tx/4af80a7e2c4bd718b3ef6959c4dd2d5d4ca115033fe90309b1633ba4d93cfcfa)  
