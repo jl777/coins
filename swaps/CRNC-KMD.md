@@ -1,9 +1,9 @@
-[taker fee (CRNC)](https://explorer.crionic.org/tx/62289b77643b8ca04932a4c8c7c4937b9c5e5daee4b4e30ff9636f10f69e0fbd)   
+[taker fee (KMD)](https://komodoblockexplorer.com/tx/379e3ebaa46fb87ce3f7f1379509dcf287cc01787c148a12fa8d38a9c004440e)   
 
-[maker payment (KMD)](https://komodoblockexplorer.com/tx/34cada29775797d9391a3d072b90e677a5247792944d241fb4269017af7fb0df)  
+[maker payment (CRNC)](https://explorer.crionic.org/tx/0428f76ff271fb0ace6259980441896c36468ebc03db595c333655e8933ed338)  
 
-[taker payment (CRNC)](https://explorer.crionic.org/tx/657684c62029ddc487e54993df723fb1ee14abb59b2cdae9cc69b4c036cd1dc7)  
+[taker payment (KMD)](https://komodoblockexplorer.com/tx/e53460f842e52701218299238a6fb0838b0cb9c5eaee5c9a4171dee39465b1db)  
 
-[taker payment spent (CRNC)](https://explorer.crionic.org/tx/c5e325c300e645271347442cb9351fb90c7e0dd4ed0467a074cb8796fc31db87)  
+[taker payment spent (KMD)](https://komodoblockexplorer.com/tx/3410127174dd469355c614f7a7d5e44afd5541e76a32b76b451572b8ba885dfc)  
 
-[maker payment spent (KMD)](https://komodoblockexplorer.com/tx/4af80a7e2c4bd718b3ef6959c4dd2d5d4ca115033fe90309b1633ba4d93cfcfa)  
+[maker payment spent (CRNC)](https://explorer.crionic.org/tx/e2000d9bf20778a91a2180afbebaeea0b69827dee2aea6b54d3f0cbee9a67159)  
