@@ -7304,6 +7304,12 @@
                 "ws_url": "miami.ecoincore.com:34335"
             },
             {
+                "url": "mumbai.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "mumbai.ecoincore.com:34335"
+            },
+            {
                 "url": "oakland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -7380,6 +7386,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "miami.ecoincore.com:34335"
+            },
+            {
+                "url": "mumbai.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "mumbai.ecoincore.com:34335"
             },
             {
                 "url": "oakland.ecoincore.com:34333",
@@ -11404,12 +11416,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "holland.ecoincore.com:11019"
-            },
-            {
-                "url": "lenoir.ecoincore.com:11017",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "lenoir.ecoincore.com:11019"
             }
         ]
     },
@@ -22115,7 +22121,7 @@
         "name": "Widecoin",
         "coinpaprika_id": "wcn-widecoin",
         "coingecko_id": "widecoin",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "WCN",
         "explorer_url": "https://explorer.widecoin.org/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -22156,7 +22162,7 @@
         "name": "Widecoin",
         "coinpaprika_id": "wcn-widecoin",
         "coingecko_id": "widecoin",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "WCN",
         "explorer_url": "https://explorer.widecoin.org/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -26099,54 +26105,6 @@
             }
         ],
         "forex_id": "NZD"
-    },
-    "NYAN": {
-        "coin": "NYAN",
-        "type": "UTXO",
-        "name": "Nyancoin",
-        "coinpaprika_id": "nyan-nyancoin",
-        "coingecko_id": "nyancoin",
-        "livecoinwatch_id": "__NYAN",
-        "explorer_url": "https://www.nyanchain.com/",
-        "explorer_tx_url": "tx.nyan?",
-        "explorer_address_url": "ad.nyan?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Nyancoin",
-        "rpcport": 33700,
-        "pubtype": 45,
-        "p2shtype": 5,
-        "wiftype": 173,
-        "txfee": 100000,
-        "segwit": false,
-        "bech32_hrp": "ny",
-        "mm2": 1,
-        "required_confirmations": 10,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "electrumx.live:50020",
-                "protocol": "TCP"
-            },
-            {
-                "url": "txserver.live:50020",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx.live:50022",
-                "protocol": "SSL"
-            },
-            {
-                "url": "txserver.live:50022",
-                "protocol": "SSL"
-            }
-        ]
     },
     "OCEAN-BEP20": {
         "coin": "OCEAN-BEP20",
@@ -30507,9 +30465,6 @@
             },
             {
                 "url": "209.50.52.239:50001"
-            },
-            {
-                "url": "209.50.61.246:50001"
             }
         ]
     },
@@ -42844,6 +42799,15 @@
         "electrum": [
             {
                 "url": "tbch.loping.net:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
+                "url": "testnet.bitcoincash.network:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
