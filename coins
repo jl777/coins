@@ -13895,6 +13895,32 @@
     }
   },
   {
+    "coin": "CRNC",
+    "name": "crioniccoin",
+    "fname": "CrionicCoin",
+    "sign_message_prefix": "Crioniccoin Signed Message:\n",
+    "rpcport": 4466,
+    "pubtype": 28,
+    "p2shtype": 45,
+    "wiftype": 176,
+    "decimals": 8,
+    "signature_version": "base",
+    "txfee": 10000,
+    "segwit": true,
+    "bech32_hrp": "crnc",
+    "mm2": 1,
+    "required_confirmations": 3,
+    "avg_blocktime": 20,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/192'",
+    "links": {
+      "github": "https://github.com/diabaths/Crionic-Coin",
+      "homepage": "https://coin.crionic.org"
+    }
+  },
+  {
     "coin": "EVR",
     "name": "evrmore",
     "fname": "Evrmore Coin",
