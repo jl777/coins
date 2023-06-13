@@ -3056,6 +3056,58 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "CY",
+    "name": "cyberyen",
+    "fname": "Cyberyen",
+    "sign_message_prefix": "Cyberyen Signed Message:\n",
+    "rpcport": 58382,
+    "pubtype": 28,
+    "p2shtype": 77,
+    "wiftype": 156,
+    "txfee": 0,
+    "segwit": true,
+    "bech32_hrp": "cy",
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/802'",
+    "links": {
+      "github": "https://github.com/cyberyen/cyberyen",
+      "homepage": "https://cyberyen.org"
+    }
+  },
+  {
+    "coin": "CY-segwit",
+    "name": "cyberyen",
+    "fname": "Cyberyen",
+    "sign_message_prefix": "Cyberyen Signed Message:\n",
+    "rpcport": 58382,
+    "pubtype": 28,
+    "p2shtype": 77,
+    "wiftype": 156,
+    "txfee": 0,
+    "segwit": true,
+    "bech32_hrp": "cy",
+    "address_format": {
+      "format": "segwit"
+    },
+    "orderbook_ticker": "CY",
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/802'",
+    "links": {
+      "github": "https://github.com/cyberyen/cyberyen",
+      "homepage": "https://cyberyen.org"
+    }
+  },
+  {
     "coin": "DAI-AVX20",
     "name": "dai_avx20",
     "fname": "Dai",
