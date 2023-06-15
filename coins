@@ -10672,9 +10672,9 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "TUSD-BEP20",
-    "name": "tusd_bep20",
-    "fname": "TrueUSD",
+    "coin": "TUSD-BEP20_OLD",
+    "name": "tusd_bep20_old",
+    "fname": "TrueUSD (OLD)",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
@@ -10685,6 +10685,25 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0x14016E85a25aeb13065688cAFB43044C2ef86784"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
+    "coin": "TUSD-BEP20",
+    "name": "tusd_bep20",
+    "fname": "TrueUSD",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9"
       }
     },
     "derivation_path": "m/44'/714'"
