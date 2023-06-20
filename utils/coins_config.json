@@ -15664,16 +15664,6 @@
                 "ws_url": "electrum.maxpuig.com:50004"
             },
             {
-                "url": "fr.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
-            },
-            {
                 "url": "pl.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -39052,6 +39042,47 @@
             }
         ]
     },
+    "XVG": {
+        "coin": "XVG",
+        "type": "UTXO",
+        "name": "Verge",
+        "coinpaprika_id": "xvg-verge",
+        "coingecko_id": "verge",
+        "livecoinwatch_id": "XVG",
+        "explorer_url": "https://xvgblockexplorer.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "VERGE Signed Message:\n",
+        "fname": "Verge",
+        "isPoS": 1,
+        "rpcport": 20102,
+        "pubtype": 30,
+        "p2shtype": 33,
+        "wiftype": 158,
+        "decimals": 6,
+        "segwit": true,
+        "bech32_hrp": "vg",
+        "txfee": 400000,
+        "dust": 400000,
+        "force_min_relay_fee": true,
+        "mm2": 1,
+        "required_confirmations": 10,
+        "avg_blocktime": 30,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/77'",
+        "electrum": [
+            {
+                "url": "88.99.26.209:5036"
+            }
+        ]
+    },
     "XVS-BEP20": {
         "coin": "XVS-BEP20",
         "type": "BEP-20",
@@ -44173,25 +44204,7 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "electrumx1.actioncoin.com:10001",
-                "contact": [
-                    {
-                        "email": "support@actioncoin.com"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx2.actioncoin.com:10001",
-                "contact": [
-                    {
-                        "email": "support@actioncoin.com"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx1.actioncoin.com:30001",
-                "ws_url": "electrumx1.actioncoin.com:20001",
-                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "support@actioncoin.com"
