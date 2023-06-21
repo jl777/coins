@@ -12064,6 +12064,31 @@
     "derivation_path": "m/44'/714'"
   },
   {
+    "coin": "XEP-segwit",
+    "name": "xep",
+    "fname": "Electra Protocol",
+    "rpcport": 16816,
+    "pubtype": 55,
+    "p2shtype": 137,
+    "wiftype": 162,
+    "txversion": 2,
+    "txfee": 100000,
+    "mm2": 1,
+    "segwit": true,
+    "signature_version": "witness_v0",
+    "bech32_hrp": "ep",
+    "address_format": {
+      "format": "segwit"
+    },
+    "orderbook_ticker": "XEP",
+    "required_confirmations": 4,
+    "avg_blocktime": 80,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/597'"
+  },
+  {
     "coin": "XEP-BEP20",
     "name": "xep_bep20",
     "fname": "Electra Protocol",
