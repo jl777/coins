@@ -12,6 +12,10 @@
 	"explorer_tx_url": "transaction/",
 	"explorer_address_url": "address/"
     },
+    "https://electraprotocol.network/": {
+        "explorer_tx_url": "transaction/",
+        "explorer_address_url": "address/"
+    },
     "https://explorer.zcha.in/": {
 	"explorer_address_url": "accounts/",
 	"explorer_tx_url": "transactions/"

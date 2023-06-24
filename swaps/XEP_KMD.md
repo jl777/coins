@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/ae921c73554d03b3632b0cb602e546ad2833be8b2f8ddf80555da658b653e1ee)  
+[maker payment (XEP-segwit)](https://electraprotocol.network/transaction/8c65c8473ad15a1686b1fe7d44b2d2a3445c3ef066b7c543314e527db63df0ef)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/31c6acf12c5642ff116a055492627f846fa4caaf354a3c3a19a2a212d662aac4)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/8e5580caba51e9c264e38bf7de4a921f8b39bd6c880cb8cb9fe044c4b12bdb23)  
+[maker payment spent (XEP-segwit)](https://electraprotocol.network/transaction/5a95f8b81d78f6e749fe00558c8174df2de1c8042db24fbe210b949e8a2a6c95)  
