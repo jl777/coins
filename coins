@@ -3326,6 +3326,45 @@
     "trezor_coin": "Komodo"
   },
   {
+    "coin": "DFX-ERC20",
+    "name": "dfx_erc20",
+    "fname": "DFX Finance",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x888888435FDe8e7d4c54cAb67f206e4199454c60"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "DFX-PLG20",
+    "name": "dfx_plg20",
+    "fname": "DFX Finance",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xE7804D91dfCDE7F776c90043E03eAa6Df87E6395"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "DGB",
     "name": "digibyte",
     "fname": "DigiByte",
