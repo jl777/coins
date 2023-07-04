@@ -4257,6 +4257,25 @@
     }
   },
   {
+    "coin": "EXN-BEP20",
+    "name": "exn_bep20",
+    "fname": "Expoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 8,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xc88f6F4C400321FAd5c26d574f9933a991011360"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "FEI-ERC20",
     "name": "fei_erc20",
     "fname": "Fei USD",
