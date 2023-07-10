@@ -1,13 +1,13 @@
 ## What is the coins repository for?
 
-This repository is the coins database which is used to define parameters for coins compatible with the [AtomicDEX API](https://github.com/KomodoPlatform/atomicDEX-API/), and listed within the apps below:
+This repository is the coins database which is used to define parameters for coins compatible with the [Komodo DeFi Framework](https://github.com/KomodoPlatform/komodo-defi-framework/), and listed within the apps below:
 
-[![atomicdex-mobile](https://user-images.githubusercontent.com/35845239/226103567-6d6872de-b0aa-4b87-9ba6-b692be314861.png)](https://atomicdex.io/en/mobile/)
+[![Komodo Wallet Mobile](https://user-images.githubusercontent.com/35845239/226103567-6d6872de-b0aa-4b87-9ba6-b692be314861.png)](https://github.com/KomodoPlatform/komodo-wallet-mobile)
 
-[![atomicdex-desktop](https://user-images.githubusercontent.com/35845239/226103576-a0336fcb-0d8e-47db-bf66-6ec779c35f1c.png)](https://github.com/KomodoPlatform/atomicDEX-Desktop)
+[![Komodo Wallet Desktop](https://user-images.githubusercontent.com/35845239/226103576-a0336fcb-0d8e-47db-bf66-6ec779c35f1c.png)](https://github.com/KomodoPlatform/komodo-wallet-desktop)
 
-[![atomicdex-browser](https://user-images.githubusercontent.com/35845239/226103583-0c1f1b73-80a0-4123-8a4a-bdc2bccd9594.png)](https://app.atomicdex.io)
- 
+[![Komodo Wallet Web](https://user-images.githubusercontent.com/35845239/226103583-0c1f1b73-80a0-4123-8a4a-bdc2bccd9594.png)](https://app.atomicdex.io)
+
 Refer to the [coin listing guide](https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/listing-a-coin-on-atomicdex.html) on the Komodo Developer Documentation website for details about the information required for a successful listing.
 
 The status of currently listed [ElectrumX](https://electrumx.readthedocs.io/en/latest/) servers is monitored via a public [API](https://electrum-status.dragonhound.info/api/v1/electrums_status) and [Dashboard](https://stats.kmd.io/atomicdex/electrum_status/). Discord status alerts are available in the [AtomicDEX Electrum Status channel](https://discord.gg/rTkjADfnjt) (please contact smk to register and recieve pings when your servers have an issue).
@@ -38,16 +38,16 @@ AtomicDEX is a true non-custodial, cross-chain, cross-protocol Decentralized Exc
 
 ### Future coins & protocols
 
-- [Emercoin](https://github.com/KomodoPlatform/atomicDEX-API/issues/1700)
-- [TRON & TRC20 tokens](https://github.com/KomodoPlatform/atomicDEX-API/issues/1542)
-- [TON](https://github.com/KomodoPlatform/atomicDEX-API/issues/1531)
-- [Liquid](https://github.com/KomodoPlatform/atomicDEX-API/issues/1267)
-- [Dash Instasend](https://github.com/KomodoPlatform/atomicDEX-API/issues/1136)
-- [OmniLayer](https://github.com/KomodoPlatform/atomicDEX-API/issues/1087)
-- [Lightning network](https://github.com/KomodoPlatform/atomicDEX-API/issues/1045)
-- [Hedera Hashgraph](https://github.com/KomodoPlatform/atomicDEX-API/issues/979)
-- [XMR](https://github.com/KomodoPlatform/atomicDEX-API/issues/956)
-- [Zano](https://github.com/KomodoPlatform/atomicDEX-API/issues/942)
-- [SysCoin Tokens](https://github.com/KomodoPlatform/atomicDEX-API/issues/938)
-- [ERC721 / ERC1155 NFTs](https://github.com/KomodoPlatform/atomicDEX-API/issues/900)
-- [XTZ](https://github.com/KomodoPlatform/atomicDEX-API/issues/632)
+- [Emercoin](https://github.com/KomodoPlatform/komodo-defi-framework/issues/1700)
+- [TRON & TRC20 tokens](https://github.com/KomodoPlatform/komodo-defi-framework/issues/1542)
+- [TON](https://github.com/KomodoPlatform/komodo-defi-framework/issues/1531)
+- [Liquid](https://github.com/KomodoPlatform/komodo-defi-framework/issues/1267)
+- [Dash Instasend](https://github.com/KomodoPlatform/komodo-defi-framework/issues/1136)
+- [OmniLayer](https://github.com/KomodoPlatform/komodo-defi-framework/issues/1087)
+- [Lightning network](https://github.com/KomodoPlatform/komodo-defi-framework/issues/1045)
+- [Hedera Hashgraph](https://github.com/KomodoPlatform/komodo-defi-framework/issues/979)
+- [XMR](https://github.com/KomodoPlatform/komodo-defi-framework/issues/956)
+- [Zano](https://github.com/KomodoPlatform/komodo-defi-framework/issues/942)
+- [SysCoin Tokens](https://github.com/KomodoPlatform/komodo-defi-framework/issues/938)
+- [ERC721 / ERC1155 NFTs](https://github.com/KomodoPlatform/komodo-defi-framework/issues/900)
+- [XTZ](https://github.com/KomodoPlatform/komodo-defi-framework/issues/632)
