@@ -3001,24 +3001,6 @@
     "derivation_path": "m/44'/966'"
   },
   {
-    "coin": "CRYPTO",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "CRYPTO",
-    "fname": "Crypto777",
-    "rpcport": 8516,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": true,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
-  },
-  {
     "coin": "CUMMIES-BEP20",
     "name": "cummies_bep20",
     "fname": "CumRocket",
@@ -3333,7 +3315,6 @@
     "mm2": 1,
     "chain_id": 1,
     "decimals": 18,
-    "avg_blocktime": 0.25,
     "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
