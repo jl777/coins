@@ -410,7 +410,14 @@ class CoinConfig:
                 for p in explorer_paths:
                     if x.find(p) > -1:
                         self.data[self.ticker].update(explorer_paths[p])
+                        break
+
             self.data[self.ticker].update({"explorer_url": explorers[0]})
+            for i in [("explorer_tx_url", "tx/"), ("explorer_address_url", "address/"), ("explorer_block_url", "block/")]:
+                if i[0] not in self.data[self.ticker]:
+                    self.data[self.ticker].update({i[0]: i[1]})
+
+
 
 def parse_coins_repo():
     errors = []
