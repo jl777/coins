@@ -27716,6 +27716,46 @@
         ],
         "explorer_block_url": "block/"
     },
+    "PIVX": {
+        "coin": "PIVX",
+        "type": "UTXO",
+        "name": "PIVX",
+        "coinpaprika_id": "pivx-pivx",
+        "coingecko_id": "pivx",
+        "livecoinwatch_id": "PIVX",
+        "explorer_url": "https://chainz.cryptoid.info/pivx/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "PIVX",
+        "rpcport": 51473,
+        "pubtype": 30,
+        "p2shtype": 13,
+        "wiftype": 212,
+        "txfee": 100000,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/119'",
+        "electrum": [
+            {
+                "url": "electrum01.pivx.org:50001",
+                "contact": [
+                    {
+                        "discord": "312541186793406465"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "PND": {
         "coin": "PND",
         "type": "UTXO",
