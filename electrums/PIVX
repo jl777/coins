@@ -1,13 +1,14 @@
 [
   {
-    "url": "electrum01.pivx.org:50001",
+    "url": "electrum01.chainster.org:50001",
+    "ws_url": "electrum01.chainster.org:50003",
     "contact": [
       { "discord": "312541186793406465" }
     ]
   },
   {
-    "url": "electrum01.chainster.org:50001",
-    "ws_url": "electrum01.chainster.org:50003",
+    "url": "electrum02.chainster.org:50001",
+    "ws_url": "electrum02.chainster.org:50003",
     "contact": [
       { "discord": "312541186793406465" }
     ]
