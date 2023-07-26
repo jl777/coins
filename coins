@@ -11970,6 +11970,25 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "WLD-ERC20",
+    "name": "wld_erc20",
+    "fname": "Worldcoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x163f8C2467924be0ae7B5347228CABF260318753"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "WOO-ERC20",
     "name": "woo_erc20",
     "fname": "WOO Network",
