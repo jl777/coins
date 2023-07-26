@@ -1906,7 +1906,7 @@
         "coinpaprika_id": "arrr-pirate",
         "coingecko_id": "pirate-chain",
         "livecoinwatch_id": "ARRR",
-        "explorer_url": "https://pirate.explorer.dexstats.info/",
+        "explorer_url": "https://pirate.komodo.earth/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -2190,11 +2190,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "failover.aur.ewmcx.biz:50003"
-            },
-            {
-                "url": "lenoir.ecoincore.com:12343",
-                "protocol": "SSL",
-                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -15867,15 +15862,6 @@
         "derivation_path": "m/44'/69420'",
         "electrum": [
             {
-                "url": "electrum.maxpuig.com:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "mecs#4770"
-                    }
-                ]
-            },
-            {
                 "url": "au.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -15884,16 +15870,6 @@
                         "discord": "orpheas#1503"
                     }
                 ]
-            },
-            {
-                "url": "electrum.maxpuig.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ],
-                "ws_url": "electrum.maxpuig.com:50004"
             },
             {
                 "url": "fr.garlium.crapules.org:50002",
@@ -16359,18 +16335,6 @@
             {
                 "url": "electrum31.groestlcoin.org:50001",
                 "ws_url": "electrum31.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum32.groestlcoin.org:50001",
-                "ws_url": "electrum32.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -16849,18 +16813,6 @@
             {
                 "url": "electrum31.groestlcoin.org:50001",
                 "ws_url": "electrum31.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum32.groestlcoin.org:50001",
-                "ws_url": "electrum32.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -26209,7 +26161,7 @@
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
-        "explorer_url": "https://ninja.kmdexplorer.io/",
+        "explorer_url": "https://ninja.komodo.earth/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -30066,11 +30018,6 @@
                 "url": "electrum02.reddcoin.com:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum02.reddcoin.com:50004"
-            },
-            {
-                "url": "electrum03.reddcoin.com:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum03.reddcoin.com:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -30628,7 +30575,7 @@
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
-        "explorer_url": "https://doc.dragonhound.info/",
+        "explorer_url": "https://doc.komodo.earth/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -30734,7 +30681,7 @@
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
-        "explorer_url": "https://marty.dragonhound.info/",
+        "explorer_url": "https://marty.komodo.earth/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -38199,6 +38146,84 @@
         ],
         "explorer_block_url": "block/"
     },
+    "WLD-ERC20": {
+        "coin": "WLD-ERC20",
+        "type": "ERC-20",
+        "name": "Worldcoin",
+        "coinpaprika_id": "wld-worldcoin",
+        "coingecko_id": "worldcoin-wld",
+        "livecoinwatch_id": "__WLD",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Worldcoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x163f8C2467924be0ae7B5347228CABF260318753"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x163f8C2467924be0ae7B5347228CABF260318753",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "http://eth1.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth2.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "http://eth3.cipig.net:8555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "WOO-ERC20": {
         "coin": "WOO-ERC20",
         "type": "ERC-20",
@@ -44008,24 +44033,6 @@
                 ]
             },
             {
-                "url": "electrumx2.ufobject.com:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "pr@ufobject.com"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx3.ufobject.com:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "pr@ufobject.com"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx4.ufobject.com:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -44045,15 +44052,6 @@
             },
             {
                 "url": "seed1.ufocoin.net:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "pr@ufobject.com"
-                    }
-                ]
-            },
-            {
-                "url": "seed2.ufocoin.net:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -44114,24 +44112,6 @@
                 ]
             },
             {
-                "url": "electrumx2.ufobject.com:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "pr@ufobject.com"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx3.ufobject.com:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "pr@ufobject.com"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx4.ufobject.com:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -44157,18 +44137,64 @@
                         "email": "pr@ufobject.com"
                     }
                 ]
-            },
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
+    "USBL": {
+        "coin": "USBL",
+        "type": "UTXO",
+        "name": "Balanced Dollar",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://softbalanced.com:3001/insight/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Balanced Dollar",
+        "confpath": "USERHOME/.bitdollar/bitdollar.conf",
+        "rpcport": 35573,
+        "pubtype": 65,
+        "p2shtype": 66,
+        "wiftype": 193,
+        "txfee": 0,
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
             {
-                "url": "seed2.ufocoin.net:50001",
-                "protocol": "TCP",
+                "url": "swap.softbalanced.com:50001",
                 "contact": [
                     {
-                        "email": "pr@ufobject.com"
+                        "email": "dev@softbalanced.com"
+                    },
+                    {
+                        "discord": "softbalanced#4045"
+                    }
+                ]
+            },
+            {
+                "url": "swap.softbalanced.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "dev@softbalanced.com"
+                    },
+                    {
+                        "discord": "softbalanced#4045"
                     }
                 ]
             }
         ],
-        "explorer_block_url": "block.dws?"
+        "explorer_block_url": "block/"
     },
     "USDF": {
         "coin": "USDF",
@@ -44579,7 +44605,7 @@
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
-        "explorer_url": "https://zombie.explorer.lordofthechains.com/",
+        "explorer_url": "https://zombie.komodo.earth/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
