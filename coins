@@ -665,7 +665,8 @@
         }
       }
     },
-    "required_confirmations": 3
+    "required_confirmations": 2,
+    "requires_notarization": true
   },
   {
     "coin": "ARRR-BEP20",
