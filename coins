@@ -3616,6 +3616,29 @@
     "derivation_path": "m/44'/714'"
   },
   {
+    "coin": "DOGEC",
+    "name": "dogecash",
+    "fname": "DogeCash",
+    "rpcport": 56750,
+    "pubtype": 30,
+    "p2shtype": 19,
+    "wiftype": 122,
+    "txfee": 10000,
+    "dust": 5460,
+    "mm2": 1,
+    "sign_message_prefix": "DarkNet Signed Message:\n",
+    "required_confirmations": 5,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/385'",
+    "links": {
+      "github": "https://github.com/dogecash/dogecash",
+      "homepage": "https://dogecash.net"
+    }
+  },
+  {
     "coin": "DOGEDASH-BEP20",
     "name": "dogedash_bep20",
     "fname": "Doge Dash",
