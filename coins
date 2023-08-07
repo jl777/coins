@@ -1463,6 +1463,44 @@
     }
   },
   {
+    "coin": "BBK-BEP20",
+    "name": "bbk_bep20",
+    "fname": "BitBlocks",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x9045B0eda6B6A556cf9B3d81C2db47411714f847"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
+    "coin": "BBK-PLG20",
+    "name": "bbk_plg20",
+    "fname": "BitBlocks",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x2C8a46eF99Cb64928eB3Dd50A925327e02296F63"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "BCH-ERC20",
     "name": "bch_erc20",
     "fname": "Bitcoin Cash",
