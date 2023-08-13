@@ -2190,6 +2190,11 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "failover.aur.ewmcx.biz:50003"
+            },
+            {
+                "url": "lenoir.ecoincore.com:12343",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -4793,6 +4798,97 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "tBLK": {
+        "coin": "tBLK",
+        "type": "UTXO",
+        "name": "BlackCoin Testnet",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.blackcoin.nl/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": true,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "BlackCoin Testnet",
+        "isPoS": 1,
+        "rpcport": 25715,
+        "pubtype": 111,
+        "p2shtype": 196,
+        "wiftype": 239,
+        "txfee": 100000,
+        "segwit": true,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "mature_confirmations": 10,
+        "avg_blocktime": 66,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.blackcoin.nl:10011",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.blackcoin.nl:20011",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.blackcoin.nl:30011",
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.blackcoin.nl:10012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "ws_url": "electrum1.blackcoin.nl:10014"
+            },
+            {
+                "url": "electrum2.blackcoin.nl:20012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "ws_url": "electrum2.blackcoin.nl:20014"
+            },
+            {
+                "url": "electrum3.blackcoin.nl:30012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ],
+                "ws_url": "electrum3.blackcoin.nl:30014"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "BNB": {
         "coin": "BNB",
         "type": "BEP-20",
@@ -6114,38 +6210,6 @@
                     }
                 ],
                 "ws_url": "electrumx.bitwebcore.net:20003"
-            },
-            {
-                "url": "electrumx6.scalaris.info:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx6.scalaris.info:20003"
-            },
-            {
-                "url": "electrumx7.scalaris.info:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx7.scalaris.info:20003"
             }
         ],
         "explorer_block_url": "block/"
@@ -6199,38 +6263,6 @@
                     }
                 ],
                 "ws_url": "electrumx.bitwebcore.net:20003"
-            },
-            {
-                "url": "electrumx6.scalaris.info:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx6.scalaris.info:20003"
-            },
-            {
-                "url": "electrumx7.scalaris.info:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx7.scalaris.info:20003"
             }
         ],
         "explorer_block_url": "block/"
@@ -15862,44 +15894,23 @@
         "derivation_path": "m/44'/69420'",
         "electrum": [
             {
-                "url": "au.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
+                "url": "electrum.maxpuig.com:50001",
+                "protocol": "TCP",
                 "contact": [
                     {
-                        "discord": "orpheas#1503"
+                        "discord": "mecs#4770"
                     }
                 ]
             },
             {
-                "url": "fr.garlium.crapules.org:50002",
+                "url": "electrum.maxpuig.com:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "orpheas#1503"
                     }
-                ]
-            },
-            {
-                "url": "pl.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
-            },
-            {
-                "url": "uk.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
+                ],
+                "ws_url": "electrum.maxpuig.com:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -16201,18 +16212,6 @@
                 ]
             },
             {
-                "url": "electrum21.groestlcoin.org:50001",
-                "ws_url": "electrum21.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum22.groestlcoin.org:50001",
                 "ws_url": "electrum22.groestlcoin.org:50004",
                 "contact": [
@@ -16335,6 +16334,18 @@
             {
                 "url": "electrum31.groestlcoin.org:50001",
                 "ws_url": "electrum31.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum32.groestlcoin.org:50001",
+                "ws_url": "electrum32.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -16679,18 +16690,6 @@
                 ]
             },
             {
-                "url": "electrum21.groestlcoin.org:50001",
-                "ws_url": "electrum21.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum22.groestlcoin.org:50001",
                 "ws_url": "electrum22.groestlcoin.org:50004",
                 "contact": [
@@ -16813,6 +16812,18 @@
             {
                 "url": "electrum31.groestlcoin.org:50001",
                 "ws_url": "electrum31.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum32.groestlcoin.org:50001",
+                "ws_url": "electrum32.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -21739,6 +21750,10 @@
         "derivation_path": "m/44'/192'",
         "electrum": [
             {
+                "url": "188.166.117.139:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "88.99.26.209:5140",
                 "protocol": "TCP"
             }
@@ -21784,6 +21799,10 @@
         },
         "derivation_path": "m/44'/192'",
         "electrum": [
+            {
+                "url": "188.166.117.139:50001",
+                "protocol": "TCP"
+            },
             {
                 "url": "88.99.26.209:5140",
                 "protocol": "TCP"
@@ -25397,6 +25416,9 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
+            },
+            {
+                "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
         "explorer_block_url": "block/"
@@ -25448,6 +25470,9 @@
             },
             {
                 "url": "electrumx.tamami-foundation.org:50001"
+            },
+            {
+                "url": "electrumx1.monacoin.ninja:50001"
             }
         ],
         "explorer_block_url": "block/"
@@ -25785,11 +25810,6 @@
                 "url": "electrum3.nav.community:40002",
                 "protocol": "SSL",
                 "ws_url": "electrum3.nav.community:40004"
-            },
-            {
-                "url": "electrum4.nav.community:40002",
-                "protocol": "SSL",
-                "ws_url": "electrum4.nav.community:40004"
             }
         ],
         "explorer_block_url": "block/"
@@ -27721,15 +27741,6 @@
         },
         "derivation_path": "m/44'/119'",
         "electrum": [
-            {
-                "url": "electrum01.chainster.org:50001",
-                "ws_url": "electrum01.chainster.org:50003",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ]
-            },
             {
                 "url": "electrum02.chainster.org:50001",
                 "ws_url": "electrum02.chainster.org:50003",
@@ -30018,6 +30029,11 @@
                 "url": "electrum02.reddcoin.com:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum02.reddcoin.com:50004"
+            },
+            {
+                "url": "electrum03.reddcoin.com:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum03.reddcoin.com:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -35320,12 +35336,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "ws_url": "failover.trc-uis.ewmcx.biz:50003"
-            },
-            {
-                "url": "uis-uno.ewmcx.net:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "uis-uno.ewmcx.net:50003"
             }
         ],
         "explorer_block_url": "block/"
@@ -39124,11 +39134,6 @@
         },
         "derivation_path": "m/44'/2137'",
         "electrum": [
-            {
-                "url": "blackie.c3-soft.com:52138",
-                "protocol": "SSL",
-                "disable_cert_verification": false
-            },
             {
                 "url": "fulcrum.ergon.network:52138",
                 "protocol": "SSL",
@@ -43976,220 +43981,20 @@
         "slp_prefix": "slptest",
         "electrum": [
             {
-                "url": "tbch.loping.net:60002",
+                "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
                         "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
                     }
                 ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "UFO": {
-        "coin": "UFO",
-        "type": "UTXO",
-        "name": "Uniform Fiscal Object",
-        "coinpaprika_id": "ufo-uniform-fiscal-object",
-        "coingecko_id": "ufocoin",
-        "livecoinwatch_id": "UFO",
-        "explorer_url": "https://chainz.cryptoid.info/ufo/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "UFO Signed Message:\n",
-        "fname": "Uniform Fiscal Object",
-        "rpcport": 8087,
-        "pubtype": 27,
-        "p2shtype": 68,
-        "wiftype": 155,
-        "txfee": 100000,
-        "segwit": true,
-        "bech32_hrp": "uf",
-        "mm2": 1,
-        "required_confirmations": 6,
-        "avg_blocktime": 1.5,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/202'",
-        "links": {
-            "github": "https://github.com/fiscalobject/ufo",
-            "homepage": "https://ufobject.com"
-        },
-        "electrum": [
-            {
-                "url": "electrumx1.ufobject.com:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "pr@ufobject.com"
-                    }
-                ]
             },
             {
-                "url": "electrumx4.ufobject.com:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "pr@ufobject.com"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx5.ufobject.com:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "pr@ufobject.com"
-                    }
-                ]
-            },
-            {
-                "url": "seed1.ufocoin.net:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "pr@ufobject.com"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
-    "UFO-segwit": {
-        "coin": "UFO-segwit",
-        "type": "UTXO",
-        "name": "Uniform Fiscal Object",
-        "coinpaprika_id": "ufo-uniform-fiscal-object",
-        "coingecko_id": "ufocoin",
-        "livecoinwatch_id": "UFO",
-        "explorer_url": "https://chainz.cryptoid.info/ufo/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "UFO Signed Message:\n",
-        "fname": "Uniform Fiscal Object",
-        "rpcport": 8087,
-        "pubtype": 27,
-        "p2shtype": 68,
-        "wiftype": 155,
-        "txfee": 100000,
-        "segwit": true,
-        "bech32_hrp": "uf",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "UFO",
-        "mm2": 1,
-        "required_confirmations": 6,
-        "avg_blocktime": 1.5,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/202'",
-        "links": {
-            "github": "https://github.com/fiscalobject/ufo",
-            "homepage": "https://ufobject.com"
-        },
-        "electrum": [
-            {
-                "url": "electrumx1.ufobject.com:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "pr@ufobject.com"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx4.ufobject.com:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "pr@ufobject.com"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx5.ufobject.com:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "pr@ufobject.com"
-                    }
-                ]
-            },
-            {
-                "url": "seed1.ufocoin.net:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "pr@ufobject.com"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
-    "USBL": {
-        "coin": "USBL",
-        "type": "UTXO",
-        "name": "Balanced Dollar",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://softbalanced.com:3001/insight/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Balanced Dollar",
-        "confpath": "USERHOME/.bitdollar/bitdollar.conf",
-        "rpcport": 35573,
-        "pubtype": 65,
-        "p2shtype": 66,
-        "wiftype": 193,
-        "txfee": 0,
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 150,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "swap.softbalanced.com:50001",
-                "contact": [
-                    {
-                        "email": "dev@softbalanced.com"
-                    },
-                    {
-                        "discord": "softbalanced#4045"
-                    }
-                ]
-            },
-            {
-                "url": "swap.softbalanced.com:50002",
+                "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "email": "dev@softbalanced.com"
-                    },
-                    {
-                        "discord": "softbalanced#4045"
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
                     }
                 ]
             }
@@ -45068,6 +44873,9 @@
         },
         "rpc_urls": [
             {
+                "url": "https://rpc.osmosis.zone/"
+            },
+            {
                 "url": "https://osmosis-mainnet-rpc.allthatnode.com:26657/"
             }
         ],
@@ -45372,6 +45180,54 @@
                     }
                 ],
                 "ws_url": "electrum2-mainnet.evrmorecoin.org:50004"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BKC": {
+        "coin": "BKC",
+        "type": "UTXO",
+        "name": "Bunkercoin",
+        "coinpaprika_id": "bkc-bunkercoin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://bkcexplorer.bunker.mt/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bunkercoin Signed Message:\n",
+        "fname": "Bunkercoin",
+        "rpcport": 22555,
+        "pubtype": 25,
+        "p2shtype": 22,
+        "wiftype": 158,
+        "txfee": 1000000,
+        "force_min_relay_fee": true,
+        "dust": 1000000,
+        "mm2": 1,
+        "required_confirmations": 14,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/3'",
+        "links": {
+            "github": "https://github.com/bunkercoin/bunkercoin",
+            "homepage": "https://bunkercoin.org"
+        },
+        "electrum": [
+            {
+                "url": "bunkerelectrum.bunker.mt:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "bunkermatty#5308"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
