@@ -1441,6 +1441,66 @@
     "derivation_path": "m/44'/145'"
   },
   {
+    "coin": "BBK",
+    "name": "bitblocks",
+    "fname": "BitBlocks",
+    "rpcport": 59768,
+    "pubtype": 25,
+    "p2shtype": 85,
+    "wiftype": 107,
+    "txfee": 10000,
+    "mm2": 1,
+    "wallet_only": true,
+    "sign_message_prefix": "DarkNet Signed Message:\n",
+    "required_confirmations": 5,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "links": {
+      "github": "https://github.com/BitBlocksProject/BitBlocks",
+      "homepage": "https://bitblocksproject.com"
+    }
+  },
+  {
+    "coin": "BBK-BEP20",
+    "name": "bbk_bep20",
+    "fname": "BitBlocks",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x9045B0eda6B6A556cf9B3d81C2db47411714f847"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
+    "coin": "BBK-PLG20",
+    "name": "bbk_plg20",
+    "fname": "BitBlocks",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x2C8a46eF99Cb64928eB3Dd50A925327e02296F63"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "BCH-ERC20",
     "name": "bch_erc20",
     "fname": "Bitcoin Cash",
@@ -3614,6 +3674,29 @@
       }
     },
     "derivation_path": "m/44'/714'"
+  },
+  {
+    "coin": "DOGEC",
+    "name": "dogecash",
+    "fname": "DogeCash",
+    "rpcport": 56750,
+    "pubtype": 30,
+    "p2shtype": 19,
+    "wiftype": 122,
+    "txfee": 10000,
+    "dust": 5460,
+    "mm2": 1,
+    "sign_message_prefix": "DarkNet Signed Message:\n",
+    "required_confirmations": 5,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/385'",
+    "links": {
+      "github": "https://github.com/dogecash/dogecash",
+      "homepage": "https://dogecash.net"
+    }
   },
   {
     "coin": "DOGEDASH-BEP20",
@@ -8668,6 +8751,30 @@
     "avg_blocktime": 600,
     "protocol": {
       "type": "UTXO"
+    }
+  },
+  {
+    "coin": "PINK",
+    "name": "pink",
+    "fname": "Pinkcoin",
+    "rpcport": 9135,
+    "isPoS": 1,
+    "pubtype": 3,
+    "p2shtype": 28,
+    "wiftype": 131,
+    "txfee": 10000,
+    "mm2": 1,
+    "wallet_only": true,
+    "sign_message_prefix": "Pinkcoin Signed Message:\n",
+    "required_confirmations": 5,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/117'",
+    "links": {
+      "github": "https://github.com/Pink2Dev/Pink2",
+      "homepage": "https://getstarted.with.pink"
     }
   },
   {
@@ -14111,7 +14218,7 @@
     "force_min_relay_fee": true,
     "dust": 1000000,
     "mm2": 1,
-    "required_confirmations": 14,
+    "required_confirmations": 10,
     "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
