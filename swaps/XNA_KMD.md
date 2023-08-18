@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/817cbf69b29b5a69fc14e9d38196eda59b4c49b38a8100e64763970719207420)
+[maker payment (XNA)](https://neuraiexplorer.com/tx/7b45e26de2cbf2d027c261f2fd90c7b9d1ec7cad8eddd466616c7f704ad44bb3)
+[taker payment (KMD)](https://kmdexplorer.io/tx/a658beafc2745e25bdcc1b2b645deef99002b969a18e73f87cf62b0ecbc96648)
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/8f9b0ae2679083eab4694e361cbc67e79c66c369df85e0bb68783cd6de4dceff)  
+[maker payment spent (XNA)](https://neuraiexplorer.com/tx/2c6b4c9688f128106d1e2aab0279df82863a8555f51ae106e63ab771f02b1ed2)

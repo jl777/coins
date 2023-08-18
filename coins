@@ -12372,6 +12372,29 @@
     "derivation_path": "m/44'/90'"
   },
   {
+    "coin": "XNA",
+    "name": "neurai",
+    "fname": "Neurai",
+    "sign_message_prefix": "Neurai Signed Message:\n",
+    "rpcport": 19001,
+    "pubtype": 53,
+    "p2shtype": 117,
+    "wiftype": 128,
+    "segwit": true,
+    "txfee": 1000000,
+    "mm2": 1,
+    "required_confirmations": 5,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/0'",
+    "links": {
+      "github": "https://github.com/NeuraiProject/Neurai",
+      "homepage": "https://neurai.org"
+    }
+  },
+  {
     "coin": "XPM",
     "name": "primecoin",
     "fname": "Primecoin",
