@@ -2402,9 +2402,9 @@
         "coinpaprika_id": "avn-avian",
         "coingecko_id": "avian-network",
         "livecoinwatch_id": "_AVN",
-        "explorer_url": "https://explorer-us.avn.network/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_url": "https://explorer.avn.network/",
+        "explorer_tx_url": "tx/?txid=",
+        "explorer_address_url": "address/?address=",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -2431,7 +2431,7 @@
                 "url": "electrum-eu.avn.network:50001",
                 "contact": [
                     {
-                        "email": "alamshafil@pm.me"
+                        "email": "contact@avn.network"
                     }
                 ]
             },
@@ -2439,12 +2439,50 @@
                 "url": "electrum-us.avn.network:50001",
                 "contact": [
                     {
-                        "email": "alamshafil@pm.me"
+                        "email": "contact@avn.network"
                     }
                 ]
+            },
+            {
+                "url": "electrum-ca.avn.network:50001",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ]
+            },
+            {
+                "url": "electrum-eu.avn.network:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ],
+                "ws_url": "electrum-eu.avn.network:50004"
+            },
+            {
+                "url": "electrum-us.avn.network:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ],
+                "ws_url": "electrum-us.avn.network:50004"
+            },
+            {
+                "url": "electrum-ca.avn.network:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ],
+                "ws_url": "electrum-ca.avn.network:50004"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/?blockhash="
     },
     "AVN-PLG20": {
         "coin": "AVN-PLG20",

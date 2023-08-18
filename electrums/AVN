@@ -2,13 +2,43 @@
   {
     "url": "electrum-us.avn.network:50001",
     "contact": [
-      { "email": "alamshafil@pm.me" }
+      { "email": "contact@avn.network" }
     ]
+  },
+  {
+    "url": "electrum-us.avn.network:50002",
+    "protocol": "SSL",        
+    "contact": [
+      { "email": "contact@avn.network" }
+    ],
+    "ws_url": "electrum-us.avn.network:50004"
   },
   {
     "url": "electrum-eu.avn.network:50001",
     "contact": [
-      { "email": "alamshafil@pm.me" }
+      { "email": "contact@avn.network" }
     ]
-  }
+  },
+  {
+    "url": "electrum-eu.avn.network:50002",
+    "protocol": "SSL",        
+    "contact": [
+      { "email": "contact@avn.network" }
+    ],
+    "ws_url": "electrum-eu.avn.network:50004"
+  },
+  {
+    "url": "electrum-ca.avn.network:50001",
+    "contact": [
+      { "email": "contact@avn.network" }
+    ]
+  },
+  {
+    "url": "electrum-ca.avn.network:50002",
+    "protocol": "SSL",        
+    "contact": [
+      { "email": "contact@avn.network" }
+    ],
+    "ws_url": "electrum-ca.avn.network:50004"
+  } 
 ]
