@@ -1831,9 +1831,9 @@
     "derivation_path": "m/44'/714'"
   },
   {
-    "coin": "BRZ-ERC20",
-    "name": "brz_erc20",
-    "fname": "Brazilian Digital Token",
+    "coin": "BRZ-ERC20_OLD",
+    "name": "brz_erc20_old",
+    "fname": "Brazilian Digital Token (OLD)",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -1850,9 +1850,28 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "BRZ-PLG20",
-    "name": "brz_plg20",
+    "coin": "BRZ-ERC20",
+    "name": "brz_erc20",
     "fname": "Brazilian Digital Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x01d33FD36ec67c6Ada32cf36b31e88EE190B1839"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "BRZ-PLG20_OLD",
+    "name": "brz_plg20_old",
+    "fname": "Brazilian Digital Token (OLD)",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 137,
@@ -1864,6 +1883,25 @@
       "protocol_data": {
         "platform": "MATIC",
         "contract_address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "BRZ-PLG20",
+    "name": "brz_plg20",
+    "fname": "Brazilian Digital Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x4eD141110F6EeeAbA9A1df36d8c26f684d2475Dc"
       }
     },
     "derivation_path": "m/44'/966'"
