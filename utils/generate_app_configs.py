@@ -147,6 +147,12 @@ class CoinConfig:
                 self.data[self.ticker].update({
                     "type": self.coin_type
                 })
+            if "check_point_block" in protocol_data:
+                # ZHTLC only
+                if "height" in protocol_data["check_point_block"]:
+                    self.data[self.ticker].update({
+                        "check_point_block": protocol_data["check_point_block"]["height"]
+                    })
 
             if "slp_prefix" in protocol_data:
                 if self.ticker in ["BCH", "tBCH"]:
