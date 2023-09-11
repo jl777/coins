@@ -1918,9 +1918,12 @@
             "https://pirate.spyglass.quest:9447",
             "https://lightd1.pirate.black:443",
             "https://piratelightd1.cryptoforge.cc:443",
-            "https://piratelightd2.cryptoforge.cc:443 ",
+            "https://piratelightd2.cryptoforge.cc:443",
             "https://piratelightd3.cryptoforge.cc:443",
-            "https://piratelightd4.cryptoforge.cc:443"
+            "https://piratelightd4.cryptoforge.cc:443",
+            "https://electrum1.cipig.net:9447",
+            "https://electrum2.cipig.net:9447",
+            "https://electrum3.cipig.net:9447"
         ],
         "asset": "PIRATE",
         "fname": "Pirate",
@@ -1960,6 +1963,7 @@
         },
         "required_confirmations": 2,
         "requires_notarization": true,
+        "check_point_block": 1900000,
         "electrum": [
             {
                 "url": "electrum1.cipig.net:10008",
@@ -6315,22 +6319,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx.bitwebcore.net:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx.bitwebcore.net:20003"
-            },
-            {
                 "url": "electrumx6.scalaris.info:20002",
                 "protocol": "SSL",
                 "contact": [
@@ -6399,22 +6387,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "electrumx.bitwebcore.net:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx.bitwebcore.net:20003"
-            },
             {
                 "url": "electrumx6.scalaris.info:20002",
                 "protocol": "SSL",
@@ -9465,6 +9437,20 @@
             {
                 "url": "electrum01.cyberyen.work:50002",
                 "protocol": "SSL",
+                "ws_url": "electrum01.cyberyen.work:50004",
+                "contact": [
+                    {
+                        "email": "ruaxxx@ruaxxx.com"
+                    },
+                    {
+                        "discord": "ruaxxx#3151"
+                    }
+                ]
+            },
+            {
+                "url": "electrum03.cyberyen.work:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum03.cyberyen.work:50004",
                 "contact": [
                     {
                         "email": "ruaxxx@ruaxxx.com"
@@ -9520,6 +9506,20 @@
             {
                 "url": "electrum01.cyberyen.work:50002",
                 "protocol": "SSL",
+                "ws_url": "electrum01.cyberyen.work:50004",
+                "contact": [
+                    {
+                        "email": "ruaxxx@ruaxxx.com"
+                    },
+                    {
+                        "discord": "ruaxxx#3151"
+                    }
+                ]
+            },
+            {
+                "url": "electrum03.cyberyen.work:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum03.cyberyen.work:50004",
                 "contact": [
                     {
                         "email": "ruaxxx@ruaxxx.com"
@@ -11800,6 +11800,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "electrum2.egulden.org:50004"
+            },
+            {
+                "url": "holland.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "holland.ecoincore.com:11019"
             },
             {
                 "url": "lenoir.ecoincore.com:11017",
@@ -16265,30 +16271,6 @@
                 ]
             },
             {
-                "url": "electrum2.groestlcoin.org:50001",
-                "ws_url": "electrum2.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum20.groestlcoin.org:50001",
-                "ws_url": "electrum20.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum21.groestlcoin.org:50001",
                 "ws_url": "electrum21.groestlcoin.org:50004",
                 "contact": [
@@ -16303,18 +16285,6 @@
             {
                 "url": "electrum22.groestlcoin.org:50001",
                 "ws_url": "electrum22.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum23.groestlcoin.org:50001",
-                "ws_url": "electrum23.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -16361,18 +16331,6 @@
                 ]
             },
             {
-                "url": "electrum27.groestlcoin.org:50001",
-                "ws_url": "electrum27.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum28.groestlcoin.org:50001",
                 "ws_url": "electrum28.groestlcoin.org:50004",
                 "contact": [
@@ -16397,44 +16355,8 @@
                 ]
             },
             {
-                "url": "electrum3.groestlcoin.org:50001",
-                "ws_url": "electrum3.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum30.groestlcoin.org:50001",
                 "ws_url": "electrum30.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum31.groestlcoin.org:50001",
-                "ws_url": "electrum31.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum32.groestlcoin.org:50001",
-                "ws_url": "electrum32.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -16531,54 +16453,6 @@
             {
                 "url": "electrum40.groestlcoin.org:50001",
                 "ws_url": "electrum40.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum5.groestlcoin.org:50001",
-                "ws_url": "electrum5.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum7.groestlcoin.org:50001",
-                "ws_url": "electrum7.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum8.groestlcoin.org:50001",
-                "ws_url": "electrum8.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum9.groestlcoin.org:50001",
-                "ws_url": "electrum9.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -16743,30 +16617,6 @@
                 ]
             },
             {
-                "url": "electrum2.groestlcoin.org:50001",
-                "ws_url": "electrum2.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum20.groestlcoin.org:50001",
-                "ws_url": "electrum20.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum21.groestlcoin.org:50001",
                 "ws_url": "electrum21.groestlcoin.org:50004",
                 "contact": [
@@ -16781,18 +16631,6 @@
             {
                 "url": "electrum22.groestlcoin.org:50001",
                 "ws_url": "electrum22.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum23.groestlcoin.org:50001",
-                "ws_url": "electrum23.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -16839,18 +16677,6 @@
                 ]
             },
             {
-                "url": "electrum27.groestlcoin.org:50001",
-                "ws_url": "electrum27.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum28.groestlcoin.org:50001",
                 "ws_url": "electrum28.groestlcoin.org:50004",
                 "contact": [
@@ -16875,44 +16701,8 @@
                 ]
             },
             {
-                "url": "electrum3.groestlcoin.org:50001",
-                "ws_url": "electrum3.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum30.groestlcoin.org:50001",
                 "ws_url": "electrum30.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum31.groestlcoin.org:50001",
-                "ws_url": "electrum31.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum32.groestlcoin.org:50001",
-                "ws_url": "electrum32.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -17009,54 +16799,6 @@
             {
                 "url": "electrum40.groestlcoin.org:50001",
                 "ws_url": "electrum40.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum5.groestlcoin.org:50001",
-                "ws_url": "electrum5.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum7.groestlcoin.org:50001",
-                "ws_url": "electrum7.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum8.groestlcoin.org:50001",
-                "ws_url": "electrum8.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum9.groestlcoin.org:50001",
-                "ws_url": "electrum9.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -27174,8 +26916,7 @@
         "derivation_path": "m/44'/37'",
         "electrum": [
             {
-                "url": "electrum.thepandacoin.net:50002",
-                "protocol": "SSL",
+                "url": "electrum.thepandacoin.net:50001",
                 "ws_url": "electrum.thepandacoin.net:443"
             }
         ],
@@ -29406,11 +29147,6 @@
             "homepage": "https://reddcoin.com"
         },
         "electrum": [
-            {
-                "url": "electrum01.reddcoin.com:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum01.reddcoin.com:50004"
-            },
             {
                 "url": "electrum02.reddcoin.com:50002",
                 "protocol": "SSL",
@@ -36263,14 +35999,6 @@
         },
         "electrum": [
             {
-                "url": "e1.validitytech.com:11001",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
                 "url": "e2.validitytech.com:11001",
                 "contact": [
                     {
@@ -36285,17 +36013,6 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
-            },
-            {
-                "url": "e1.validitytech.com:11002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "ws_url": "e1.validitytech.com:11004"
             },
             {
                 "url": "e2.validitytech.com:11002",
@@ -36912,14 +36629,14 @@
         ],
         "explorer_block_url": "block/"
     },
-    "GRMS": {
-        "coin": "GRMS",
+    "VPRM": {
+        "coin": "VPRM",
         "type": "Smart Chain",
-        "name": "GRMS",
-        "coinpaprika_id": "grms-grms",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://explorer.grms.pw/",
+        "name": "Vaporum",
+        "coinpaprika_id": "vprm-vaporum-coin",
+        "coingecko_id": "vaporum-coin",
+        "livecoinwatch_id": "VPRM",
+        "explorer_url": "http://explorer.vaporumcoin.us/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -36928,14 +36645,14 @@
         "currently_enabled": false,
         "wallet_only": false,
         "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "GRMS",
-        "fname": "GRMS",
-        "rpcport": 21687,
+        "asset": "VPRM",
+        "fname": "Vaporum",
+        "rpcport": 51609,
         "txversion": 4,
         "overwintered": 1,
         "mm2": 1,
         "required_confirmations": 5,
-        "avg_blocktime": 60,
+        "avg_blocktime": 30,
         "protocol": {
             "type": "UTXO"
         },
@@ -36943,32 +36660,18 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "electrum1.grms.pw:17485",
+                "url": "electrumx1.vaporumcoin.us:50001",
                 "contact": [
                     {
-                        "email": "contact@grms.pw"
-                    },
-                    {
-                        "discord": "miner113#7864"
-                    },
-                    {
-                        "github": "Miner113"
+                        "github": "VaporumCoin"
                     }
-                ],
-                "ws_url": "electrum1.grms.pw:50004"
+                ]
             },
             {
-                "url": "electrum1.grms.pw:50002",
-                "protocol": "SSL",
+                "url": "electrumx2.vaporumcoin.us:50001",
                 "contact": [
                     {
-                        "email": "contact@grms.pw"
-                    },
-                    {
-                        "discord": "miner113#7864"
-                    },
-                    {
-                        "github": "Miner113"
+                        "github": "VaporumCoin"
                     }
                 ]
             }
@@ -38685,7 +38388,7 @@
         "name": "VanillaCash",
         "coinpaprika_id": "xvc-vcash",
         "coingecko_id": "vcash",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "XVC",
         "explorer_url": "https://chainz.cryptoid.info/xvc/",
         "explorer_tx_url": "tx.dws?",
         "explorer_address_url": "address.dws?",
@@ -38726,7 +38429,7 @@
         "name": "VanillaCash",
         "coinpaprika_id": "xvc-vcash",
         "coingecko_id": "vcash",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "XVC",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -38786,7 +38489,7 @@
         "name": "VanillaCash",
         "coinpaprika_id": "xvc-vcash",
         "coingecko_id": "vcash",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "XVC",
         "explorer_url": "https://explorer.qtum.org/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -38891,48 +38594,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "XVG": {
-        "coin": "XVG",
-        "type": "UTXO",
-        "name": "Verge",
-        "coinpaprika_id": "xvg-verge",
-        "coingecko_id": "verge",
-        "livecoinwatch_id": "XVG",
-        "explorer_url": "https://xvgblockexplorer.com/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "VERGE Signed Message:\n",
-        "fname": "Verge",
-        "isPoS": 1,
-        "rpcport": 20102,
-        "pubtype": 30,
-        "p2shtype": 33,
-        "wiftype": 158,
-        "decimals": 6,
-        "segwit": true,
-        "bech32_hrp": "vg",
-        "txfee": 400000,
-        "dust": 400000,
-        "force_min_relay_fee": true,
-        "mm2": 1,
-        "required_confirmations": 10,
-        "avg_blocktime": 30,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/77'",
-        "electrum": [
-            {
-                "url": "88.99.26.209:5036"
             }
         ],
         "explorer_block_url": "block/"
@@ -43073,15 +42734,6 @@
         "slp_prefix": "slptest",
         "electrum": [
             {
-                "url": "electrs.electroncash.de:60002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
@@ -44164,6 +43816,22 @@
         },
         "electrum": [
             {
+                "url": "electrum.seed.mazanode.com:50001",
+                "contact": [
+                    {
+                        "email": "brian@mazacoin.org"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.mazanode.com:50001",
+                "contact": [
+                    {
+                        "email": "brian@mazacoin.org"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx1.mazacha.in:50001",
                 "contact": [
                     {
@@ -44184,6 +43852,26 @@
                         "discord": "sherm77#5923"
                     }
                 ]
+            },
+            {
+                "url": "electrum.seed.mazanode.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "brian@mazacoin.org"
+                    }
+                ],
+                "ws_url": "electrum.seed.mazanode.com:50005"
+            },
+            {
+                "url": "electrumx.mazanode.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "brian@mazacoin.org"
+                    }
+                ],
+                "ws_url": "electrumx.mazanode.com:50005"
             },
             {
                 "url": "electrumx1.mazacha.in:50002",
@@ -44385,6 +44073,54 @@
                     }
                 ],
                 "ws_url": "electrum2-mainnet.evrmorecoin.org:50004"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BKC": {
+        "coin": "BKC",
+        "type": "UTXO",
+        "name": "Bunkercoin",
+        "coinpaprika_id": "bkc-bunkercoin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://bkcexplorer.bunker.mt/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bunkercoin Signed Message:\n",
+        "fname": "Bunkercoin",
+        "rpcport": 22555,
+        "pubtype": 25,
+        "p2shtype": 22,
+        "wiftype": 158,
+        "txfee": 1000000,
+        "force_min_relay_fee": true,
+        "dust": 1000000,
+        "mm2": 1,
+        "required_confirmations": 10,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/3'",
+        "links": {
+            "github": "https://github.com/bunkercoin/bunkercoin",
+            "homepage": "https://bunkercoin.org"
+        },
+        "electrum": [
+            {
+                "url": "bunkerelectrum.bunker.mt:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "bunkermatty#5308"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
