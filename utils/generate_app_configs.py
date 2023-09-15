@@ -494,3 +494,25 @@ if __name__ == "__main__":
     coins_config = parse_coins_repo()
     with open("coins_config.json", "w+") as f:
         json.dump(coins_config, f, indent=4)
+    coins_config_ssl = {}
+    for coin in coins_config:
+        coins_config_ssl.update({coin: coins_config[coin]})
+        if "electrum" in coins_config[coin]:
+            electrums = []
+            for i in coins_config[coin]["electrum"]:
+                if 'ws_url' in i:
+                    electrums.append(i)
+                elif 'protocol' in i:
+                    if i['protocol'] == "SSL":
+                        electrums.append(i)
+            coins_config_ssl[coin]['electrum'] = electrums
+        if 'nodes' in coins_config[coin]:
+            coins_config_ssl[coin]['nodes'] = [
+                i for i in coins_config[coin]["nodes"] if i['url'].startswith("https")
+            ]
+        if 'light_wallet_d_servers' in coins_config[coin]:
+            coins_config_ssl[coin]['light_wallet_d_servers'] = [
+                i for i in coins_config[coin]["light_wallet_d_servers"] if i.startswith("https")
+            ]
+    with open("coins_config_ssl.json", "w+") as f:
+        json.dump(coins_config_ssl, f, indent=4)
