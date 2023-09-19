@@ -151,7 +151,11 @@ class CoinConfig:
                 # ZHTLC only
                 if "height" in protocol_data["check_point_block"]:
                     self.data[self.ticker].update({
-                        "check_point_block": protocol_data["check_point_block"]["height"]
+                        "checkpoint_height": protocol_data["check_point_block"]["height"]
+                    })
+                if "time" in protocol_data["check_point_block"]:
+                    self.data[self.ticker].update({
+                        "checkpoint_blocktime": protocol_data["check_point_block"]["time"]
                     })
 
             if "slp_prefix" in protocol_data:
