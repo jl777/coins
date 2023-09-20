@@ -536,6 +536,8 @@ def filter_tcp(coins_config):
                     # SSL is ok for legacy desktop so we allow them, else some coins with only SSL will be omited.
                     if i['protocol'] != "WSS":
                         electrums.append(i)
+                else:
+                    electrums.append(i)
             coins_config_tcp[coin]['electrum'] = electrums[:3]
             if len(coins_config_tcp[coin]['electrum']) == 0:
                 del coins_config_tcp[coin]
