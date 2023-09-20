@@ -504,11 +504,13 @@ if __name__ == "__main__":
         if "electrum" in coins_config[coin]:
             electrums = []
             for i in coins_config[coin]["electrum"]:
-                if 'ws_url' in i:
-                    electrums.append(i)
-                elif 'protocol' in i:
+                if 'protocol' in i:
                     if i['protocol'] == "SSL":
                         electrums.append(i)
+                    elif 'ws_url' in i:
+                        print(f"{coin} WSS URL found in non SSL electrum: {i}")
+                elif 'ws_url' in i:
+                    print(f"{coin} WSS URL found in non SSL electrum: {i}")
             coins_config_ssl[coin]['electrum'] = electrums
         if 'nodes' in coins_config[coin]:
             coins_config_ssl[coin]['nodes'] = [

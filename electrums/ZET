@@ -2,11 +2,11 @@
     {
         "url": "zeta-seed-c.zetacoin.tech:50012",
         "protocol": "SSL",
-        "disable_cert_verification": false
+        "disable_cert_verification": false,
+        "ws_url": "207.180.252.200:50013"
     },
     {
         "url": "207.180.252.200:50011",
-        "protocol": "TCP",
-        "ws_url": "207.180.252.200:50013"
+        "protocol": "TCP"
     }
 ]
