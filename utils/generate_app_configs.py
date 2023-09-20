@@ -3,6 +3,7 @@ import os
 import sys
 import time
 import json
+from copy import deepcopy
 import requests
 from scan_electrums import get_electrums_report
 
@@ -573,9 +574,9 @@ if __name__ == "__main__":
     coins_config, nodata = parse_coins_repo()
     with open("coins_config.json", "w+") as f:
         json.dump(coins_config, f, indent=4)
-    coins_config_tcp = filter_tcp(coins_config)
-    coins_config_ssl = filter_ssl(coins_config)
-    coins_config_wss = filter_wss(coins_config)
+    coins_config_tcp = filter_tcp(deepcopy(coins_config))
+    coins_config_ssl = filter_ssl(deepcopy(coins_config))
+    coins_config_wss = filter_wss(deepcopy(coins_config))
     for coin in coins_config:
         if coin in coins_config_ssl and coin in coins_config_ssl and coin in coins_config_ssl:
             color = "green"
