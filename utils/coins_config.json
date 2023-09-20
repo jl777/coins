@@ -8538,6 +8538,51 @@
         ],
         "explorer_block_url": "block/"
     },
+    "CLC": {
+        "coin": "CLC",
+        "type": "Smart Chain",
+        "name": "Collider Coin",
+        "coinpaprika_id": "clc-collider-coin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://clc.explorer.dexstats.info/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "CLC",
+        "fname": "Collider Coin",
+        "rpcport": 31034,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "requires_notarization": false,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrumx.cryptocollider.com:10001",
+                "contact": [
+                    {
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "COMP-AVX20": {
         "coin": "COMP-AVX20",
         "type": "AVX-20",
@@ -9425,7 +9470,7 @@
             {
                 "url": "electrum02.cyberyen.work:50002",
                 "protocol": "SSL",
-                "ws_url": "electrum03.cyberyen.work:50004",
+                "ws_url": "electrum02.cyberyen.work:50004",
                 "contact": [
                     {
                         "email": "ruaxxx@ruaxxx.com"
@@ -9436,9 +9481,9 @@
                 ]
             },
             {
-                "url": "electrum01.cyberyen.work:50002",
+                "url": "electrum03.cyberyen.work:50002",
                 "protocol": "SSL",
-                "ws_url": "electrum01.cyberyen.work:50004",
+                "ws_url": "electrum03.cyberyen.work:50004",
                 "contact": [
                     {
                         "email": "ruaxxx@ruaxxx.com"
@@ -9494,7 +9539,7 @@
             {
                 "url": "electrum02.cyberyen.work:50002",
                 "protocol": "SSL",
-                "ws_url": "electrum03.cyberyen.work:50004",
+                "ws_url": "electrum02.cyberyen.work:50004",
                 "contact": [
                     {
                         "email": "ruaxxx@ruaxxx.com"
@@ -9505,9 +9550,9 @@
                 ]
             },
             {
-                "url": "electrum01.cyberyen.work:50002",
+                "url": "electrum03.cyberyen.work:50002",
                 "protocol": "SSL",
-                "ws_url": "electrum01.cyberyen.work:50004",
+                "ws_url": "electrum03.cyberyen.work:50004",
                 "contact": [
                     {
                         "email": "ruaxxx@ruaxxx.com"
@@ -16569,18 +16614,6 @@
                 ]
             },
             {
-                "url": "electrum32.groestlcoin.org:50001",
-                "ws_url": "electrum32.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
                 "url": "electrum11.groestlcoin.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -17025,18 +17058,6 @@
             {
                 "url": "electrum9.groestlcoin.org:50001",
                 "ws_url": "electrum9.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum32.groestlcoin.org:50001",
-                "ws_url": "electrum32.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -44029,7 +44050,7 @@
     },
     "MAZA": {
         "coin": "MAZA",
-        "type": "UTXO",
+ 74       "type": "UTXO",
         "name": "MazaCoin",
         "coinpaprika_id": "maza-maza",
         "coingecko_id": "maza",
@@ -44069,10 +44090,7 @@
                 "url": "electrumx.mazanode.com:50001",
                 "contact": [
                     {
-                        "email": "contact@mazacoin.org"
-                    },
-                    {
-                        "discord": "sherm77#5923"
+                        "email": "brian@mazacoin.org"
                     }
                 ]
             },
@@ -44092,13 +44110,10 @@
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "email": "contact@mazacoin.org"
-                    },
-                    {
-                        "discord": "sherm77#5923"
+                        "email": "brian@mazacoin.org"
                     }
                 ],
-                "ws_url": "electrumx2.mazacha.in:50005"
+                "ws_url": "electrumx.mazanode.com:50005"
             },
             {
                 "url": "electrumx2.mazacha.in:50002",
@@ -44111,7 +44126,7 @@
                         "discord": "sherm77#5923"
                     }
                 ],
-                "ws_url": "electrumx1.mazacha.in:50005"
+                "ws_url": "electrumx2.mazacha.in:50005"
             }
         ],
         "explorer_block_url": "block/"
