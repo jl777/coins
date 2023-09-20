@@ -526,12 +526,16 @@ def filter_ssl(coins_config):
     return coins_config_ssl
 
 
-def filter_tcp(coins_config):
+def filter_tcp(coins_config, coins_config_ssl):
     coins_config_tcp = {}
     for coin in coins_config:
         coins_config_tcp.update({coin: coins_config[coin]})
         if "electrum" in coins_config[coin]:
             electrums = []
+            # Prefer SSL
+            if coin in coins_config_ssl:
+                if len(coins_config_ssl[coin]['electrum']) > 0:
+                    electrums = coins_config_ssl[coin]['electrum']
             for i in coins_config[coin]["electrum"]:
                 if 'protocol' in i:
                     # SSL is ok for legacy desktop so we allow them, else some coins with only SSL will be omited.
@@ -574,9 +578,9 @@ if __name__ == "__main__":
     coins_config, nodata = parse_coins_repo()
     with open("coins_config.json", "w+") as f:
         json.dump(coins_config, f, indent=4)
-    coins_config_tcp = filter_tcp(deepcopy(coins_config))
     coins_config_ssl = filter_ssl(deepcopy(coins_config))
     coins_config_wss = filter_wss(deepcopy(coins_config))
+    coins_config_tcp = filter_tcp(deepcopy(coins_config), coins_config_ssl)
     for coin in coins_config:
         if coin in coins_config_ssl and coin in coins_config_ssl and coin in coins_config_ssl:
             color = "green"
