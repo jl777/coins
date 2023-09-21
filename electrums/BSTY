@@ -2,17 +2,5 @@
     {
         "url": "66.172.33.56:50001",
         "protocol": "TCP"
-    },
-    {
-        "url": "bsty-main.coinmunity.gold:50012",
-        "protocol": "SSL",
-        "disable_cert_verification": true,
-        "ws_url": "bsty-main.coinmunity.gold:50013"
-    },
-    {
-        "url": "bsty-bkp.coinmunity.gold:50012",
-        "protocol": "SSL",
-        "disable_cert_verification": true,
-        "ws_url": "bsty-bkp.coinmunity.gold:50013"
     }
 ]
