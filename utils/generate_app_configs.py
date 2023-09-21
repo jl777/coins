@@ -526,6 +526,13 @@ def filter_ssl(coins_config):
     return coins_config_ssl
 
 
+def item_exists(i, electrums):
+    for e in electrums:
+        if i['url'] == e['url']:
+            return True
+    return False
+
+
 def filter_tcp(coins_config, coins_config_ssl):
     coins_config_tcp = {}
     for coin in coins_config:
@@ -537,16 +544,18 @@ def filter_tcp(coins_config, coins_config_ssl):
                 if len(coins_config_ssl[coin]['electrum']) > 0:
                     electrums = coins_config_ssl[coin]['electrum']
             for i in coins_config[coin]["electrum"]:
-                if 'protocol' in i:
-                    # SSL is ok for legacy desktop so we allow them, else some coins with only SSL will be omited.
-                    if i['protocol'] != "WSS":
+                if item_exists(i, electrums) == False:
+                    if 'protocol' in i:
+                        # SSL is ok for legacy desktop so we allow them, else some coins with only SSL will be omited.
+                        if i['protocol'] != "WSS":
+                            electrums.append(i)
+                    else:
                         electrums.append(i)
-                else:
-                    electrums.append(i)
+     
             coins_config_tcp[coin]['electrum'] = electrums[:3]
             if len(coins_config_tcp[coin]['electrum']) == 0:
                 del coins_config_tcp[coin]
-        
+
     with open("coins_config_tcp.json", "w+") as f:
         json.dump(coins_config_tcp, f, indent=4)
     return coins_config_tcp

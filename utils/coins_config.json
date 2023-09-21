@@ -1975,8 +1975,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30008"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10008",
@@ -1987,8 +1986,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30008"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10008",
@@ -1999,8 +1997,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30008"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20008",
@@ -2012,7 +2009,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30008"
             },
             {
                 "url": "electrum2.cipig.net:20008",
@@ -2024,7 +2022,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30008"
             },
             {
                 "url": "electrum3.cipig.net:20008",
@@ -2036,7 +2035,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30008"
             }
         ],
         "explorer_block_url": "block/"
@@ -2716,8 +2716,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30057"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10057",
@@ -2728,8 +2727,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30057"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10057",
@@ -2740,8 +2738,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30057"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20057",
@@ -2753,7 +2750,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30057"
             },
             {
                 "url": "electrum2.cipig.net:20057",
@@ -2765,7 +2763,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30057"
             },
             {
                 "url": "electrum3.cipig.net:20057",
@@ -2777,7 +2776,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30057"
             }
         ],
         "explorer_block_url": "block/"
@@ -3887,8 +3887,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30055"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10055",
@@ -3899,8 +3898,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30055"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10055",
@@ -3911,8 +3909,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30055"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20055",
@@ -3924,7 +3921,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30055"
             },
             {
                 "url": "electrum2.cipig.net:20055",
@@ -3936,7 +3934,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30055"
             },
             {
                 "url": "electrum3.cipig.net:20055",
@@ -3948,7 +3947,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30055"
             }
         ],
         "explorer_block_url": "block/"
@@ -4349,6 +4349,46 @@
         "token_id": "bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378",
         "parent_coin": "SLP",
         "token_address_url": "token/",
+        "explorer_block_url": "block/"
+    },
+    "BBK": {
+        "coin": "BBK",
+        "type": "UTXO",
+        "name": "BitBlocks",
+        "coinpaprika_id": "bbk-bitblocks",
+        "coingecko_id": "",
+        "livecoinwatch_id": "BBK",
+        "explorer_url": "https://bbk.ccore.online/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "sign_message_prefix": "DarkNet Signed Message:\n",
+        "fname": "BitBlocks",
+        "rpcport": 59768,
+        "pubtype": 25,
+        "p2shtype": 85,
+        "wiftype": 107,
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "links": {
+            "github": "https://github.com/BitBlocksProject/BitBlocks",
+            "homepage": "https://bitblocksproject.com"
+        },
+        "electrum": [
+            {
+                "url": "bbk-one.ewm-cx.net:50001",
+                "protocol": "TCP"
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "BBK-BEP20": {
@@ -5940,8 +5980,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30000"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10000",
@@ -5952,8 +5991,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30000"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10000",
@@ -5964,8 +6002,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30000"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20000",
@@ -5977,7 +6014,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30000"
             },
             {
                 "url": "electrum2.cipig.net:20000",
@@ -5989,7 +6027,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30000"
             },
             {
                 "url": "electrum3.cipig.net:20000",
@@ -6001,7 +6040,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30000"
             }
         ],
         "explorer_block_url": "block/"
@@ -6057,8 +6097,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30000"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10000",
@@ -6069,8 +6108,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30000"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10000",
@@ -6081,8 +6119,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30000"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20000",
@@ -6094,7 +6131,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30000"
             },
             {
                 "url": "electrum2.cipig.net:20000",
@@ -6106,7 +6144,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30000"
             },
             {
                 "url": "electrum3.cipig.net:20000",
@@ -6118,7 +6157,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30000"
             }
         ],
         "explorer_block_url": "block/"
@@ -7485,8 +7525,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30029"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10029",
@@ -7497,8 +7536,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30029"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10029",
@@ -7509,8 +7547,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30029"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20029",
@@ -7522,7 +7559,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30029"
             },
             {
                 "url": "electrum2.cipig.net:20029",
@@ -7534,7 +7572,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30029"
             },
             {
                 "url": "electrum3.cipig.net:20029",
@@ -7546,7 +7585,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30029"
             }
         ],
         "explorer_block_url": "block/"
@@ -7590,12 +7630,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "lenoir.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "lenoir.ecoincore.com:34335"
-            },
-            {
                 "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -7616,6 +7650,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "woolloomooloo.ecoincore.com:34335"
+            },
+            {
+                "url": "lenoir.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:34335"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -7663,12 +7703,6 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "lenoir.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "lenoir.ecoincore.com:34335"
-            },
-            {
                 "url": "miami.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -7689,6 +7723,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "woolloomooloo.ecoincore.com:34335"
+            },
+            {
+                "url": "lenoir.ecoincore.com:34333",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:34335"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -8172,8 +8212,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30053"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10053",
@@ -8184,8 +8223,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30053"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10053",
@@ -8196,8 +8234,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30053"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20053",
@@ -8209,7 +8246,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30053"
             },
             {
                 "url": "electrum2.cipig.net:20053",
@@ -8221,7 +8259,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30053"
             },
             {
                 "url": "electrum3.cipig.net:20053",
@@ -8233,7 +8272,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30053"
             }
         ],
         "explorer_block_url": "block/"
@@ -9492,6 +9532,19 @@
                         "discord": "ruaxxx#3151"
                     }
                 ]
+            },
+            {
+                "url": "electrum01.cyberyen.work:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum01.cyberyen.work:50004",
+                "contact": [
+                    {
+                        "email": "ruaxxx@ruaxxx.com"
+                    },
+                    {
+                        "discord": "ruaxxx#3151"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -9553,6 +9606,19 @@
                 "url": "electrum03.cyberyen.work:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum03.cyberyen.work:50004",
+                "contact": [
+                    {
+                        "email": "ruaxxx@ruaxxx.com"
+                    },
+                    {
+                        "discord": "ruaxxx#3151"
+                    }
+                ]
+            },
+            {
+                "url": "electrum01.cyberyen.work:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum01.cyberyen.work:50004",
                 "contact": [
                     {
                         "email": "ruaxxx@ruaxxx.com"
@@ -9978,8 +10044,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30061"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10061",
@@ -9990,8 +10055,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30061"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10061",
@@ -10002,8 +10066,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30061"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20061",
@@ -10015,7 +10078,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30061"
             },
             {
                 "url": "electrum2.cipig.net:20061",
@@ -10027,7 +10091,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30061"
             },
             {
                 "url": "electrum3.cipig.net:20061",
@@ -10039,7 +10104,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30061"
             }
         ],
         "explorer_block_url": "block/"
@@ -10374,8 +10440,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30059"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10059",
@@ -10386,8 +10451,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30059"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10059",
@@ -10398,8 +10462,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30059"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20059",
@@ -10411,7 +10474,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30059"
             },
             {
                 "url": "electrum2.cipig.net:20059",
@@ -10423,7 +10487,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30059"
             },
             {
                 "url": "electrum3.cipig.net:20059",
@@ -10435,7 +10500,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30059"
             }
         ],
         "explorer_block_url": "block/"
@@ -10490,8 +10556,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30059"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10059",
@@ -10502,8 +10567,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30059"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10059",
@@ -10514,8 +10578,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30059"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20059",
@@ -10527,7 +10590,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30059"
             },
             {
                 "url": "electrum2.cipig.net:20059",
@@ -10539,7 +10603,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30059"
             },
             {
                 "url": "electrum3.cipig.net:20059",
@@ -10551,7 +10616,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30059"
             }
         ],
         "explorer_block_url": "block/"
@@ -10916,8 +10982,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10050",
@@ -10928,8 +10993,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10050",
@@ -10940,8 +11004,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20050",
@@ -10953,7 +11016,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
             },
             {
                 "url": "electrum2.cipig.net:20050",
@@ -10965,7 +11029,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
             },
             {
                 "url": "electrum3.cipig.net:20050",
@@ -10977,7 +11042,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
             }
         ],
         "explorer_block_url": "block/"
@@ -11210,8 +11276,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30060"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10060",
@@ -11222,8 +11287,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30060"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10060",
@@ -11234,8 +11298,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30060"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20060",
@@ -11247,7 +11310,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30060"
             },
             {
                 "url": "electrum2.cipig.net:20060",
@@ -11259,7 +11323,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30060"
             },
             {
                 "url": "electrum3.cipig.net:20060",
@@ -11271,7 +11336,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30060"
             }
         ],
         "explorer_block_url": "block/"
@@ -11731,8 +11797,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30052"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10052",
@@ -11743,8 +11808,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30052"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10052",
@@ -11755,8 +11819,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30052"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20052",
@@ -11768,7 +11831,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30052"
             },
             {
                 "url": "electrum2.cipig.net:20052",
@@ -11780,7 +11844,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30052"
             },
             {
                 "url": "electrum3.cipig.net:20052",
@@ -11792,7 +11857,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30052"
             }
         ],
         "explorer_block_url": "block/"
@@ -12171,8 +12237,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30062"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10062",
@@ -12183,8 +12248,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30062"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10062",
@@ -12195,8 +12259,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30062"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20062",
@@ -12208,7 +12271,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30062"
             },
             {
                 "url": "electrum2.cipig.net:20062",
@@ -12220,7 +12284,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30062"
             },
             {
                 "url": "electrum3.cipig.net:20062",
@@ -12232,7 +12297,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30062"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -14447,8 +14513,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30054"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10054",
@@ -14459,8 +14524,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30054"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10054",
@@ -14471,8 +14535,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30054"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20054",
@@ -14484,7 +14547,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30054"
             },
             {
                 "url": "electrum2.cipig.net:20054",
@@ -14496,7 +14560,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30054"
             },
             {
                 "url": "electrum3.cipig.net:20054",
@@ -14508,7 +14573,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30054"
             }
         ],
         "explorer_block_url": "block/"
@@ -14563,8 +14629,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30054"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10054",
@@ -14575,8 +14640,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30054"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10054",
@@ -14587,8 +14651,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30054"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20054",
@@ -14600,7 +14663,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30054"
             },
             {
                 "url": "electrum2.cipig.net:20054",
@@ -14612,7 +14676,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30054"
             },
             {
                 "url": "electrum3.cipig.net:20054",
@@ -14624,7 +14689,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30054"
             }
         ],
         "explorer_block_url": "block/"
@@ -15408,8 +15474,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30022"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10022",
@@ -15421,8 +15486,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30022"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10022",
@@ -15434,8 +15498,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30022"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20022",
@@ -15447,7 +15510,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30022"
             },
             {
                 "url": "electrum2.cipig.net:20022",
@@ -15459,7 +15523,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30022"
             },
             {
                 "url": "electrum3.cipig.net:20022",
@@ -15471,7 +15536,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30022"
             }
         ],
         "explorer_block_url": "block/"
@@ -16614,6 +16680,18 @@
                 ]
             },
             {
+                "url": "electrum32.groestlcoin.org:50001",
+                "ws_url": "electrum32.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
                 "url": "electrum11.groestlcoin.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
@@ -17058,6 +17136,18 @@
             {
                 "url": "electrum9.groestlcoin.org:50001",
                 "ws_url": "electrum9.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum32.groestlcoin.org:50001",
+                "ws_url": "electrum32.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -20817,8 +20907,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30001"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10001",
@@ -20829,8 +20918,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30001"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10001",
@@ -20841,8 +20929,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30001"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20001",
@@ -20854,7 +20941,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30001"
             },
             {
                 "url": "electrum2.cipig.net:20001",
@@ -20866,7 +20954,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30001"
             },
             {
                 "url": "electrum3.cipig.net:20001",
@@ -20878,7 +20967,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30001"
             }
         ],
         "explorer_block_url": "block/",
@@ -21220,8 +21310,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30024"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10024",
@@ -21232,8 +21321,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30024"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10024",
@@ -21244,8 +21332,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30024"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20024",
@@ -21257,7 +21344,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30024"
             },
             {
                 "url": "electrum2.cipig.net:20024",
@@ -21269,7 +21357,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30024"
             },
             {
                 "url": "electrum3.cipig.net:20024",
@@ -21281,7 +21370,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30024"
             }
         ],
         "explorer_block_url": "block/"
@@ -21386,8 +21476,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30019"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10019",
@@ -21398,8 +21487,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30019"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10019",
@@ -21410,8 +21498,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30019"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20019",
@@ -21423,7 +21510,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30019"
             },
             {
                 "url": "electrum2.cipig.net:20019",
@@ -21435,7 +21523,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30019"
             },
             {
                 "url": "electrum3.cipig.net:20019",
@@ -21447,7 +21536,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30019"
             }
         ],
         "explorer_block_url": "block/"
@@ -21485,31 +21575,31 @@
         "derivation_path": "m/44'/140'",
         "electrum": [
             {
-                "url": "electrum1.cipig.net:10067",
-                "ws_url": "electrum1.cipig.net:30067"
+                "url": "electrum1.cipig.net:10067"
             },
             {
-                "url": "electrum2.cipig.net:10067",
-                "ws_url": "electrum2.cipig.net:30067"
+                "url": "electrum2.cipig.net:10067"
             },
             {
-                "url": "electrum3.cipig.net:10067",
-                "ws_url": "electrum3.cipig.net:30067"
+                "url": "electrum3.cipig.net:10067"
             },
             {
                 "url": "electrum1.cipig.net:20067",
                 "disable_cert_verification": false,
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "ws_url": "electrum1.cipig.net:30067"
             },
             {
                 "url": "electrum2.cipig.net:20067",
                 "disable_cert_verification": false,
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "ws_url": "electrum2.cipig.net:30067"
             },
             {
                 "url": "electrum3.cipig.net:20067",
                 "disable_cert_verification": false,
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "ws_url": "electrum3.cipig.net:30067"
             }
         ],
         "explorer_block_url": "block/"
@@ -21551,31 +21641,31 @@
         "derivation_path": "m/44'/140'",
         "electrum": [
             {
-                "url": "electrum1.cipig.net:10067",
-                "ws_url": "electrum1.cipig.net:30067"
+                "url": "electrum1.cipig.net:10067"
             },
             {
-                "url": "electrum2.cipig.net:10067",
-                "ws_url": "electrum2.cipig.net:30067"
+                "url": "electrum2.cipig.net:10067"
             },
             {
-                "url": "electrum3.cipig.net:10067",
-                "ws_url": "electrum3.cipig.net:30067"
+                "url": "electrum3.cipig.net:10067"
             },
             {
                 "url": "electrum1.cipig.net:20067",
                 "disable_cert_verification": false,
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "ws_url": "electrum1.cipig.net:30067"
             },
             {
                 "url": "electrum2.cipig.net:20067",
                 "disable_cert_verification": false,
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "ws_url": "electrum2.cipig.net:30067"
             },
             {
                 "url": "electrum3.cipig.net:20067",
                 "disable_cert_verification": false,
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "ws_url": "electrum3.cipig.net:30067"
             }
         ],
         "explorer_block_url": "block/"
@@ -22965,8 +23055,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30063"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10063",
@@ -22977,8 +23066,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30063"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10063",
@@ -22989,8 +23077,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30063"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20063",
@@ -23002,7 +23089,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30063"
             },
             {
                 "url": "electrum2.cipig.net:20063",
@@ -23014,7 +23102,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30063"
             },
             {
                 "url": "electrum3.cipig.net:20063",
@@ -23026,7 +23115,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30063"
             }
         ],
         "explorer_block_url": "block/"
@@ -23082,8 +23172,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30063"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10063",
@@ -23094,8 +23183,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30063"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10063",
@@ -23106,8 +23194,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30063"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20063",
@@ -23119,7 +23206,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30063"
             },
             {
                 "url": "electrum2.cipig.net:20063",
@@ -23131,7 +23219,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30063"
             },
             {
                 "url": "electrum3.cipig.net:20063",
@@ -23143,7 +23232,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30063"
             }
         ],
         "explorer_block_url": "block/"
@@ -24123,8 +24213,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30023"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10023",
@@ -24135,8 +24224,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30023"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10023",
@@ -24147,8 +24235,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30023"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20023",
@@ -24160,7 +24247,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30023"
             },
             {
                 "url": "electrum2.cipig.net:20023",
@@ -24172,7 +24260,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30023"
             },
             {
                 "url": "electrum3.cipig.net:20023",
@@ -24184,7 +24273,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30023"
             }
         ],
         "explorer_block_url": "block/"
@@ -26007,8 +26097,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10050",
@@ -26019,8 +26108,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10050",
@@ -26031,8 +26119,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20050",
@@ -26044,7 +26131,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
             },
             {
                 "url": "electrum2.cipig.net:20050",
@@ -26056,7 +26144,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
             },
             {
                 "url": "electrum3.cipig.net:20050",
@@ -26068,7 +26157,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
             }
         ],
         "explorer_block_url": "block/"
@@ -28155,8 +28245,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10050",
@@ -28167,8 +28256,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10050",
@@ -28179,8 +28267,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20050",
@@ -28192,7 +28279,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
             },
             {
                 "url": "electrum2.cipig.net:20050",
@@ -28204,7 +28292,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
             },
             {
                 "url": "electrum3.cipig.net:20050",
@@ -28216,7 +28305,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
             }
         ],
         "explorer_block_url": "block/"
@@ -28270,8 +28360,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10050",
@@ -28282,8 +28371,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10050",
@@ -28294,8 +28382,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20050",
@@ -28307,7 +28394,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
             },
             {
                 "url": "electrum2.cipig.net:20050",
@@ -28319,7 +28407,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
             },
             {
                 "url": "electrum3.cipig.net:20050",
@@ -28331,7 +28420,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
             }
         ],
         "explorer_block_url": "block/"
@@ -28385,8 +28475,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10050",
@@ -28397,8 +28486,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10050",
@@ -28409,8 +28497,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20050",
@@ -28422,7 +28509,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
             },
             {
                 "url": "electrum2.cipig.net:20050",
@@ -28434,7 +28522,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
             },
             {
                 "url": "electrum3.cipig.net:20050",
@@ -28446,7 +28535,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
             }
         ],
         "explorer_block_url": "block/"
@@ -28765,8 +28855,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30071"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10071",
@@ -28777,8 +28866,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30071"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10071",
@@ -28789,8 +28877,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30071"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20071",
@@ -28802,7 +28889,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30071"
             },
             {
                 "url": "electrum2.cipig.net:20071",
@@ -28814,7 +28902,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30071"
             },
             {
                 "url": "electrum3.cipig.net:20071",
@@ -28826,7 +28915,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30071"
             }
         ],
         "explorer_block_url": "block/"
@@ -28882,8 +28972,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10050",
@@ -28894,8 +28983,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10050",
@@ -28906,8 +28994,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20050",
@@ -28919,7 +29006,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
             },
             {
                 "url": "electrum2.cipig.net:20050",
@@ -28931,7 +29019,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
             },
             {
                 "url": "electrum3.cipig.net:20050",
@@ -28943,7 +29032,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
             }
         ],
         "explorer_block_url": "block/"
@@ -29001,8 +29091,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10050",
@@ -29013,8 +29102,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10050",
@@ -29025,8 +29113,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20050",
@@ -29038,7 +29125,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
             },
             {
                 "url": "electrum2.cipig.net:20050",
@@ -29050,7 +29138,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
             },
             {
                 "url": "electrum3.cipig.net:20050",
@@ -29062,7 +29151,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
             }
         ],
         "explorer_block_url": "block/"
@@ -29191,8 +29281,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30071"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10071",
@@ -29203,8 +29292,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30071"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10071",
@@ -29215,8 +29303,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30071"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20071",
@@ -29228,7 +29315,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30071"
             },
             {
                 "url": "electrum2.cipig.net:20071",
@@ -29240,7 +29328,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30071"
             },
             {
                 "url": "electrum3.cipig.net:20071",
@@ -29252,7 +29341,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30071"
             }
         ],
         "explorer_block_url": "block/"
@@ -29301,8 +29391,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30071"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10071",
@@ -29313,8 +29402,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30071"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10071",
@@ -29325,8 +29413,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30071"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20071",
@@ -29338,7 +29425,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30071"
             },
             {
                 "url": "electrum2.cipig.net:20071",
@@ -29350,7 +29438,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30071"
             },
             {
                 "url": "electrum3.cipig.net:20071",
@@ -29362,7 +29451,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30071"
             }
         ],
         "explorer_block_url": "block/"
@@ -30529,8 +30619,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30051"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10051",
@@ -30541,8 +30630,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30051"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10051",
@@ -30553,8 +30641,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30051"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20051",
@@ -30566,7 +30653,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30051"
             },
             {
                 "url": "electrum2.cipig.net:20051",
@@ -30578,7 +30666,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30051"
             },
             {
                 "url": "electrum3.cipig.net:20051",
@@ -30590,7 +30679,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30051"
             }
         ],
         "explorer_block_url": "block/"
@@ -31455,8 +31545,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30011"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10011",
@@ -31467,8 +31556,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30011"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10011",
@@ -31479,8 +31567,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30011"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20011",
@@ -31492,7 +31579,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30011"
             },
             {
                 "url": "electrum2.cipig.net:20011",
@@ -31504,7 +31592,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30011"
             },
             {
                 "url": "electrum3.cipig.net:20011",
@@ -31516,7 +31605,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30011"
             }
         ],
         "explorer_block_url": "block/"
@@ -31687,8 +31777,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30005"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10005",
@@ -31699,8 +31788,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30005"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10005",
@@ -31711,8 +31799,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30005"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20005",
@@ -31724,7 +31811,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30005"
             },
             {
                 "url": "electrum2.cipig.net:20005",
@@ -31736,7 +31824,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30005"
             },
             {
                 "url": "electrum3.cipig.net:20005",
@@ -31748,7 +31837,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30005"
             }
         ],
         "explorer_block_url": "block/"
@@ -32410,8 +32500,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30064"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10064",
@@ -32422,8 +32511,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30064"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10064",
@@ -32434,8 +32522,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30064"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20064",
@@ -32447,7 +32534,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30064"
             },
             {
                 "url": "electrum2.cipig.net:20064",
@@ -32459,7 +32547,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30064"
             },
             {
                 "url": "electrum3.cipig.net:20064",
@@ -32471,7 +32560,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30064"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -32527,8 +32617,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30064"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10064",
@@ -32539,8 +32628,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30064"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10064",
@@ -32551,8 +32639,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30064"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20064",
@@ -32564,7 +32651,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30064"
             },
             {
                 "url": "electrum2.cipig.net:20064",
@@ -32576,7 +32664,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30064"
             },
             {
                 "url": "electrum3.cipig.net:20064",
@@ -32588,7 +32677,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30064"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -32710,8 +32800,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30068"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10068",
@@ -32722,8 +32811,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30068"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10068",
@@ -32734,8 +32822,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30068"
+                ]
             },
             {
                 "url": "testnet.aranguren.org:51001",
@@ -32751,7 +32838,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30068"
             },
             {
                 "url": "electrum2.cipig.net:20068",
@@ -32763,7 +32851,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30068"
             },
             {
                 "url": "electrum3.cipig.net:20068",
@@ -32775,7 +32864,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30068"
             }
         ],
         "explorer_block_url": "block/"
@@ -32823,8 +32913,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30068"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10068",
@@ -32835,8 +32924,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30068"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10068",
@@ -32847,8 +32935,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30068"
+                ]
             },
             {
                 "url": "testnet.aranguren.org:51001",
@@ -32864,7 +32951,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30068"
             },
             {
                 "url": "electrum2.cipig.net:20068",
@@ -32876,7 +32964,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30068"
             },
             {
                 "url": "electrum3.cipig.net:20068",
@@ -32888,7 +32977,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30068"
             }
         ],
         "explorer_block_url": "block/"
@@ -33275,8 +33365,18 @@
                     {
                         "discord": "chmex#0686"
                     }
-                ],
-                "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
+                ]
+            },
+            {
+                "url": "2.eu.tokel.electrum.dexstats.info:10077",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
             },
             {
                 "url": "1.eu.tokel.electrum.dexstats.info:11077",
@@ -33288,7 +33388,21 @@
                     {
                         "discord": "chmex#0686"
                     }
-                ]
+                ],
+                "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
+            },
+            {
+                "url": "2.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ],
+                "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
             }
         ],
         "explorer_block_url": "block/"
@@ -38053,12 +38167,12 @@
         "electrum": [
             {
                 "url": "lenoir.ecoincore.com:10891",
-                "protocol": "TCP",
-                "ws_url": "lenoir.ecoincore.com:10894"
+                "protocol": "TCP"
             },
             {
                 "url": "lenoir.ecoincore.com:10892",
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "ws_url": "lenoir.ecoincore.com:10894"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -38100,12 +38214,12 @@
         "electrum": [
             {
                 "url": "lenoir.ecoincore.com:10891",
-                "protocol": "TCP",
-                "ws_url": "lenoir.ecoincore.com:10894"
+                "protocol": "TCP"
             },
             {
                 "url": "lenoir.ecoincore.com:10892",
-                "protocol": "SSL"
+                "protocol": "SSL",
+                "ws_url": "lenoir.ecoincore.com:10894"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -38761,8 +38875,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10050",
@@ -38773,8 +38886,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10050",
@@ -38785,8 +38897,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20050",
@@ -38798,7 +38909,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
             },
             {
                 "url": "electrum2.cipig.net:20050",
@@ -38810,7 +38922,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
             },
             {
                 "url": "electrum3.cipig.net:20050",
@@ -38822,7 +38935,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
             }
         ],
         "explorer_block_url": "block/"
@@ -39447,8 +39561,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30058"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10058",
@@ -39459,8 +39572,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30058"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10058",
@@ -39471,8 +39583,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30058"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20058",
@@ -39484,7 +39595,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30058"
             },
             {
                 "url": "electrum2.cipig.net:20058",
@@ -39496,7 +39608,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30058"
             },
             {
                 "url": "electrum3.cipig.net:20058",
@@ -39508,7 +39621,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30058"
             }
         ],
         "explorer_block_url": "block/"
@@ -39556,8 +39670,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30065"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10065",
@@ -39568,8 +39681,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30065"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10065",
@@ -39580,8 +39692,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30065"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20065",
@@ -39593,7 +39704,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30065"
             },
             {
                 "url": "electrum2.cipig.net:20065",
@@ -39605,7 +39717,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30065"
             },
             {
                 "url": "electrum3.cipig.net:20065",
@@ -39617,7 +39730,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30065"
             }
         ],
         "explorer_block_url": "block/"
@@ -39717,8 +39831,7 @@
         "electrum": [
             {
                 "url": "207.180.252.200:50011",
-                "protocol": "TCP",
-                "ws_url": "207.180.252.200:50013"
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -40009,8 +40122,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10050",
@@ -40021,8 +40133,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10050",
@@ -40033,8 +40144,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20050",
@@ -40046,7 +40156,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
             },
             {
                 "url": "electrum2.cipig.net:20050",
@@ -40058,7 +40169,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
             },
             {
                 "url": "electrum3.cipig.net:20050",
@@ -40070,7 +40182,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
             }
         ],
         "explorer_block_url": "block/"
@@ -40311,8 +40424,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10050",
@@ -40323,8 +40435,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10050",
@@ -40335,8 +40446,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20050",
@@ -40348,7 +40458,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
             },
             {
                 "url": "electrum2.cipig.net:20050",
@@ -40360,7 +40471,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
             },
             {
                 "url": "electrum3.cipig.net:20050",
@@ -40372,7 +40484,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
             }
         ],
         "explorer_block_url": "block/"
@@ -40427,8 +40540,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10050",
@@ -40439,8 +40551,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10050",
@@ -40451,8 +40562,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20050",
@@ -40464,7 +40574,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
             },
             {
                 "url": "electrum2.cipig.net:20050",
@@ -40476,7 +40587,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
             },
             {
                 "url": "electrum3.cipig.net:20050",
@@ -40488,7 +40600,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
             }
         ],
         "explorer_block_url": "block/"
@@ -40543,8 +40656,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10050",
@@ -40555,8 +40667,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10050",
@@ -40567,8 +40678,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20050",
@@ -40580,7 +40690,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
             },
             {
                 "url": "electrum2.cipig.net:20050",
@@ -40592,7 +40703,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
             },
             {
                 "url": "electrum3.cipig.net:20050",
@@ -40604,7 +40716,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
             }
         ],
         "explorer_block_url": "block/"
@@ -40659,8 +40772,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10050",
@@ -40671,8 +40783,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10050",
@@ -40683,8 +40794,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20050",
@@ -40696,7 +40806,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
             },
             {
                 "url": "electrum2.cipig.net:20050",
@@ -40708,7 +40819,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
             },
             {
                 "url": "electrum3.cipig.net:20050",
@@ -40720,7 +40832,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
             }
         ],
         "explorer_block_url": "block/"
@@ -40775,8 +40888,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10050",
@@ -40787,8 +40899,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10050",
@@ -40799,8 +40910,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20050",
@@ -40812,7 +40922,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
             },
             {
                 "url": "electrum2.cipig.net:20050",
@@ -40824,7 +40935,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
             },
             {
                 "url": "electrum3.cipig.net:20050",
@@ -40836,7 +40948,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
             }
         ],
         "explorer_block_url": "block/"
@@ -40891,8 +41004,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10050",
@@ -40903,8 +41015,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10050",
@@ -40915,8 +41026,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20050",
@@ -40928,7 +41038,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
             },
             {
                 "url": "electrum2.cipig.net:20050",
@@ -40940,7 +41051,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
             },
             {
                 "url": "electrum3.cipig.net:20050",
@@ -40952,7 +41064,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
             }
         ],
         "explorer_block_url": "block/"
@@ -41007,8 +41120,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10050",
@@ -41019,8 +41131,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10050",
@@ -41031,8 +41142,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20050",
@@ -41044,7 +41154,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
             },
             {
                 "url": "electrum2.cipig.net:20050",
@@ -41056,7 +41167,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
             },
             {
                 "url": "electrum3.cipig.net:20050",
@@ -41068,7 +41180,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
             }
         ],
         "explorer_block_url": "block/"
@@ -41123,8 +41236,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10050",
@@ -41135,8 +41247,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10050",
@@ -41147,8 +41258,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20050",
@@ -41160,7 +41270,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30050"
             },
             {
                 "url": "electrum2.cipig.net:20050",
@@ -41172,7 +41283,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30050"
             },
             {
                 "url": "electrum3.cipig.net:20050",
@@ -41184,7 +41296,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30050"
             }
         ],
         "explorer_block_url": "block/"
@@ -43465,8 +43578,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum1.cipig.net:30002"
+                ]
             },
             {
                 "url": "electrum2.cipig.net:10002",
@@ -43477,8 +43589,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum2.cipig.net:30002"
+                ]
             },
             {
                 "url": "electrum3.cipig.net:10002",
@@ -43489,8 +43600,7 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ],
-                "ws_url": "electrum3.cipig.net:30002"
+                ]
             },
             {
                 "url": "electrum1.cipig.net:20002",
@@ -43502,7 +43612,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum1.cipig.net:30002"
             },
             {
                 "url": "electrum2.cipig.net:20002",
@@ -43514,7 +43625,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.cipig.net:30002"
             },
             {
                 "url": "electrum3.cipig.net:20002",
@@ -43526,7 +43638,8 @@
                     {
                         "discord": "cipi#4502"
                     }
-                ]
+                ],
+                "ws_url": "electrum3.cipig.net:30002"
             }
         ],
         "explorer_block_url": "block/"
@@ -43590,8 +43703,7 @@
                     {
                         "discord": "smk#7640"
                     }
-                ],
-                "ws_url": "zombie.dragonhound.info:30058"
+                ]
             },
             {
                 "url": "zombie.dragonhound.info:10133",
@@ -43602,8 +43714,7 @@
                     {
                         "discord": "smk#7640"
                     }
-                ],
-                "ws_url": "zombie.dragonhound.info:30059"
+                ]
             },
             {
                 "url": "zombie.dragonhound.info:20033",
@@ -44106,6 +44217,25 @@
                 ]
             },
             {
+                "url": "electrum.seed.mazanode.com:50001",
+                "contact": [
+                    {
+                        "email": "brian@mazacoin.org"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.mazacha.in:50001",
+                "contact": [
+                    {
+                        "email": "contact@mazacoin.org"
+                    },
+                    {
+                        "discord": "sherm77#5923"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx.mazanode.com:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -44127,6 +44257,29 @@
                     }
                 ],
                 "ws_url": "electrumx2.mazacha.in:50005"
+            },
+            {
+                "url": "electrum.seed.mazanode.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "brian@mazacoin.org"
+                    }
+                ],
+                "ws_url": "electrum.seed.mazanode.com:50005"
+            },
+            {
+                "url": "electrumx1.mazacha.in:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@mazacoin.org"
+                    },
+                    {
+                        "discord": "sherm77#5923"
+                    }
+                ],
+                "ws_url": "electrumx1.mazacha.in:50005"
             }
         ],
         "explorer_block_url": "block/"
