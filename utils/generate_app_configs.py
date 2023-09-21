@@ -537,6 +537,11 @@ def filter_tcp(coins_config, coins_config_ssl):
     coins_config_tcp = {}
     for coin in coins_config:
         coins_config_tcp.update({coin: coins_config[coin]})
+        # Omit gui_auth: true nodes - these are web only.
+        if 'nodes' in coins_config[coin]:
+            coins_config_tcp[coin]['nodes'] = [
+                i for i in coins_config[coin]["nodes"] if "gui_auth" not in i
+            ][:3]
         if "electrum" in coins_config[coin]:
             electrums = []
             # Prefer SSL
@@ -544,6 +549,9 @@ def filter_tcp(coins_config, coins_config_ssl):
                 if len(coins_config_ssl[coin]['electrum']) > 0:
                     electrums = coins_config_ssl[coin]['electrum']
             for i in coins_config[coin]["electrum"]:
+                if "gui_auth" in i:
+                    if i["gui_auth"] == True:
+                        continue
                 if item_exists(i, electrums) == False:
                     if 'protocol' in i:
                         # SSL is ok for legacy desktop so we allow them, else some coins with only SSL will be omited.
