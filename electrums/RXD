@@ -1,0 +1,44 @@
+[
+    {
+      "url": "electrumx-dex01.radiantexplorer.com:40001",
+      "protocol": "SSL",
+      "disable_cert_verification": true,
+      "contact": [
+        {"email": "info@radiant4people.com"}
+      ]     
+    },
+    {
+        "url": "electrumx-dex01.radiantexplorer.com:40002",
+        "protocol": "SSL",
+        "disable_cert_verification": true,
+        "contact": [
+          {"email": "info@radiant4people.com"}
+        ]     
+      },
+      {
+        "url": "electrumx-dex02.radiantexplorer.com:40001",
+        "protocol": "SSL",
+        "disable_cert_verification": true,
+        "contact": [
+          {"email": "info@radiant4people.com"}
+        ]     
+      },
+      {
+        "url": "electrumx-dex02.radiantexplorer.com:40002",
+        "protocol": "SSL",
+        "disable_cert_verification": true,
+        "contact": [
+          {"email": "info@radiant4people.com"}
+        ]     
+      },
+      {
+        "url": "electrumx-dex02.radiantexplorer.com:40001",
+        "protocol": "SSL",
+        "disable_cert_verification": true,
+        "contact": [
+          {"email": "info@radiant4people.com"}
+        ]     
+      }
+    
+    
+  ]
