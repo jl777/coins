@@ -4962,6 +4962,44 @@
     "derivation_path": "m/44'/714'"
   },
   {
+    "coin": "GAME-ERC20",
+    "name": "game_erc20",
+    "fname": "GameCredits",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x63f88A2298a5c4AEE3c216Aa6D926B184a4b2437"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "GAME-PLG20",
+    "name": "game_plg20",
+    "fname": "GameCredits",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x8d1566569d5b695d44a9a234540f68D393cDC40D"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "GFT-BEP20",
     "name": "gft_bep20",
     "fname": "Gifto",
