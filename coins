@@ -7781,6 +7781,25 @@
     "derivation_path": "m/44'/641'"
   },
   {
+    "coin": "MKR-PLG20",
+    "name": "mkr_plg20",
+    "fname": "Maker",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x6f7C932e7684666C9fd1d44527765433e01fF61d"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "MM-ERC20",
     "name": "mm_erc20",
     "fname": "Million",
