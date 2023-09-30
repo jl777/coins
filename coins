@@ -628,6 +628,25 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "ARPA-PLG20",
+    "name": "arpa_plg20",
+    "fname": "ARPA Chain",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xEE800B277A96B0f490a1A732e1D6395FAD960A26"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "ARRR",
     "asset": "PIRATE",
     "fname": "Pirate",
