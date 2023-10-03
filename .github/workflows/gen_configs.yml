@@ -5,6 +5,9 @@ on:
     branches: [ "master" ]
     paths-ignore:
       - 'utils/coins_config.json'
+      - 'utils/coins_config_ssl.json'
+      - 'utils/coins_config_tcp.json'
+      - 'utils/coins_config_wss.json'
   schedule:
     - cron:  '0 0 * * *'
 
