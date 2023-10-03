@@ -746,9 +746,9 @@
     "derivation_path": "m/44'/85'"
   },
   {
-    "coin": "AVA-BEP20",
-    "name": "ava_bep20",
-    "fname": "Travala.com",
+    "coin": "AVA-BEP20_OLD",
+    "name": "ava_bep20_old",
+    "fname": "Travala.com (OLD)",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
@@ -762,6 +762,26 @@
       }
     },
     "derivation_path": "m/44'/714'"
+  },
+  {
+    "coin": "AVA-ERC20",
+    "name": "ava_erc20",
+    "fname": "AVA",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0xa6C0c097741D55ECd9a3A7DeF3A8253fD022ceB9"
+      }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "AVAXT",
