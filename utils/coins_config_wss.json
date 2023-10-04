@@ -9373,6 +9373,10 @@
             {
                 "url": "holland.ecoincore.com:11019",
                 "protocol": "WSS"
+            },
+            {
+                "url": "lenoir.ecoincore.com:11019",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -30974,10 +30978,6 @@
         },
         "derivation_path": "m/44'/19167'",
         "electrum": [
-            {
-                "url": "electrumx2.runonflux.io:50004",
-                "protocol": "WSS"
-            },
             {
                 "url": "electrumx.runonflux.io:50004",
                 "protocol": "WSS"
