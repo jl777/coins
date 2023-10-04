@@ -2028,6 +2028,11 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "failover.aur.ewmcx.biz:50003"
+            },
+            {
+                "url": "lenoir.ecoincore.com:12343",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -9941,6 +9946,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "holland.ecoincore.com:11019"
+            },
+            {
+                "url": "lenoir.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:11019"
             }
         ],
         "explorer_block_url": "block.dws?"
