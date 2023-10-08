@@ -975,6 +975,25 @@
     "derivation_path": "m/44'/357'"
   },
   {
+    "coin": "AYA-BEP20",
+    "name": "aya_bep20",
+    "fname": "Aryacoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 8,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x86e5775F5c46304939c40959812bC220dD1c0333"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "BABYDOGE-BEP20",
     "name": "babydoge_bep20",
     "fname": "Baby Doge Coin",
