@@ -628,6 +628,25 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "ARPA-PLG20",
+    "name": "arpa_plg20",
+    "fname": "ARPA Chain",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xEE800B277A96B0f490a1A732e1D6395FAD960A26"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "ARRR",
     "asset": "PIRATE",
     "fname": "Pirate",
@@ -954,6 +973,25 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/357'"
+  },
+  {
+    "coin": "AYA-BEP20",
+    "name": "aya_bep20",
+    "fname": "Aryacoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 8,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x86e5775F5c46304939c40959812bC220dD1c0333"
+      }
+    },
+    "derivation_path": "m/44'/714'"
   },
   {
     "coin": "BABYDOGE-BEP20",
@@ -4943,6 +4981,44 @@
     "derivation_path": "m/44'/714'"
   },
   {
+    "coin": "GAME-ERC20",
+    "name": "game_erc20",
+    "fname": "GameCredits",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x63f88A2298a5c4AEE3c216Aa6D926B184a4b2437"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "GAME-PLG20",
+    "name": "game_plg20",
+    "fname": "GameCredits",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x8d1566569d5b695d44a9a234540f68D393cDC40D"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "GFT-BEP20",
     "name": "gft_bep20",
     "fname": "Gifto",
@@ -7781,6 +7857,25 @@
     "derivation_path": "m/44'/641'"
   },
   {
+    "coin": "MKR-PLG20",
+    "name": "mkr_plg20",
+    "fname": "Maker",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x6f7C932e7684666C9fd1d44527765433e01fF61d"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "MM-ERC20",
     "name": "mm_erc20",
     "fname": "Million",
@@ -8993,6 +9088,25 @@
       }
     },
     "derivation_path": "m/44'/641'"
+  },
+  {
+    "coin": "SHIB-PLG20",
+    "name": "shib_plg20",
+    "fname": "Shiba Inu",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x6f8a06447Ff6FcF75d803135a7de15CE88C1d4ec"
+      }
+    },
+    "derivation_path": "m/44'/966'"
   },
   {
     "coin": "QC-QRC20",
