@@ -5038,6 +5038,49 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "GBX",
+    "name": "gobyte",
+    "fname": "GoByte",
+    "confpath": "USERHOME/.gobytecore/gobyte.conf",
+    "rpcport": 12454,
+    "pubtype": 38,
+    "p2shtype": 10,
+    "wiftype": 198,
+    "segwit": false,
+    "txfee": 10000,
+    "mm2": 1,
+    "sign_message_prefix": "DarkCoin Signed Message:\n",
+    "required_confirmations": 3,
+    "avg_blocktime": 150,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/176'",
+    "links": {
+      "github": "https://github.com/gobytecoin/gobyte",
+      "homepage": "https://gobyte.network"
+    }
+  },
+  {
+    "coin": "GBX-BEP20",
+    "name": "gbx_bep20",
+    "fname": "GoByte",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x8E10F08C9A56a93B6adbfBcFda421919B3357596"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "GFT-BEP20",
     "name": "gft_bep20",
     "fname": "Gifto",
