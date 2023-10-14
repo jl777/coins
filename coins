@@ -9093,6 +9093,44 @@
     }
   },
   {
+    "coin": "PYR-ERC20",
+    "name": "pyr_erc20",
+    "fname": "Vulcan Forged",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x430EF9263E76DAE63c84292C3409D61c598E9682"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "PYR-PLG20",
+    "name": "pyr_plg20",
+    "fname": "Vulcan Forged",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x430EF9263E76DAE63c84292C3409D61c598E9682"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "SHIB-BEP20",
     "name": "shib_bep20",
     "fname": "Shiba Inu",
