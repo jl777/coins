@@ -5447,172 +5447,6 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "BTE": {
-        "coin": "BTE",
-        "type": "UTXO",
-        "name": "Bitweb",
-        "coinpaprika_id": "bte-bitweb",
-        "coingecko_id": "bitweb",
-        "livecoinwatch_id": "_BTE",
-        "explorer_url": "https://explorer.bitwebcore.net/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Bitweb",
-        "rpcport": 1605,
-        "pubtype": 33,
-        "p2shtype": 30,
-        "wiftype": 128,
-        "segwit": true,
-        "bech32_hrp": "web",
-        "txfee": 20000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "electrumx.bitwebcore.net:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx.bitwebcore.net:20003"
-            },
-            {
-                "url": "electrumx6.scalaris.info:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx6.scalaris.info:20003"
-            },
-            {
-                "url": "electrumx7.scalaris.info:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx7.scalaris.info:20003"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "BTE-segwit": {
-        "coin": "BTE-segwit",
-        "type": "UTXO",
-        "name": "Bitweb",
-        "coinpaprika_id": "bte-bitweb",
-        "coingecko_id": "bitweb",
-        "livecoinwatch_id": "_BTE",
-        "explorer_url": "https://explorer.bitwebcore.net/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Bitweb",
-        "rpcport": 1605,
-        "pubtype": 33,
-        "p2shtype": 30,
-        "wiftype": 128,
-        "segwit": true,
-        "bech32_hrp": "web",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "BTE",
-        "txfee": 20000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "electrumx.bitwebcore.net:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx.bitwebcore.net:20003"
-            },
-            {
-                "url": "electrumx6.scalaris.info:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx6.scalaris.info:20003"
-            },
-            {
-                "url": "electrumx7.scalaris.info:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll#0596"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ],
-                "ws_url": "electrumx7.scalaris.info:20003"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "BTT-BEP20": {
         "coin": "BTT-BEP20",
         "type": "BEP-20",
@@ -9241,6 +9075,74 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
+    "DIMI": {
+        "coin": "DIMI",
+        "type": "UTXO",
+        "name": "Diminutive Coin",
+        "coinpaprika_id": "dimi-diminutive-coin",
+        "coingecko_id": "diminutive-coin",
+        "livecoinwatch_id": "DIMI",
+        "explorer_url": "https://explorer.diminutivecoin.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Diminutive Coin",
+        "rpcport": 49122,
+        "pubtype": 32,
+        "p2shtype": 30,
+        "wiftype": 181,
+        "isPoS": 1,
+        "txfee": 1000,
+        "segwit": false,
+        "mm2": 1,
+        "mature_confirmations": 75,
+        "required_confirmations": 7,
+        "avg_blocktime": 75,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx1.diminutivecoin.com:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    },
+                    {
+                        "twitter": "coin_dimi"
+                    },
+                    {
+                        "reddit": "DiminutiveCoin_DIMI"
+                    },
+                    {
+                        "github": "MadCatMining"
+                    },
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "electrumx1.diminutivecoin.com:50013"
+            },
+            {
+                "url": "electrumx2.diminutivecoin.com:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    }
+                ],
+                "ws_url": "electrumx2.diminutivecoin.com:50013"
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "DIMI-BEP20": {
@@ -13057,6 +12959,58 @@
         ],
         "explorer_block_url": "block/"
     },
+    "GBX-BEP20": {
+        "coin": "GBX-BEP20",
+        "type": "BEP-20",
+        "name": "GoByte",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "GBX",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "GoByte",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0x8E10F08C9A56a93B6adbfBcFda421919B3357596"
+            }
+        },
+        "derivation_path": "m/44'/714'",
+        "contract_address": "0x8E10F08C9A56a93B6adbfBcFda421919B3357596",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/binance",
+                "gui_auth": true
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
     "GFT-BEP20": {
         "coin": "GFT-BEP20",
         "type": "BEP-20",
@@ -13644,6 +13598,16 @@
         "derivation_path": "m/44'/69420'",
         "electrum": [
             {
+                "url": "au.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
                 "url": "electrum.maxpuig.com:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -13652,6 +13616,16 @@
                     }
                 ],
                 "ws_url": "electrum.maxpuig.com:50004"
+            },
+            {
+                "url": "fr.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -13837,7 +13811,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "sign_message_prefix": "GroestCoin Signed Message:\n",
         "fname": "Groestlcoin",
         "rpcport": 1441,
@@ -22968,6 +22942,170 @@
         ],
         "explorer_block_url": "block/"
     },
+    "PRUX": {
+        "coin": "PRUX",
+        "type": "UTXO",
+        "name": "PRUX",
+        "coinpaprika_id": "prux-prux-coin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.prux.info/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "PRUX",
+        "rpcport": 19595,
+        "pubtype": 55,
+        "p2shtype": 117,
+        "wiftype": 183,
+        "txfee": 10000,
+        "segwit": false,
+        "bech32_hrp": "pr",
+        "mm2": 1,
+        "required_confirmations": 9,
+        "avg_blocktime": 9,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL",
+                "ws_url": "electrumx.live:30010",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "txserver.live:50002",
+                "protocol": "SSL",
+                "ws_url": "txserver.live:30001",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "PYR-ERC20": {
+        "coin": "PYR-ERC20",
+        "type": "ERC-20",
+        "name": "Vulcan Forged",
+        "coinpaprika_id": "pyr-vulcan-forged",
+        "coingecko_id": "vulcan-forged",
+        "livecoinwatch_id": "PYR",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Vulcan Forged",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x430EF9263E76DAE63c84292C3409D61c598E9682"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x430EF9263E76DAE63c84292C3409D61c598E9682",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "PYR-PLG20": {
+        "coin": "PYR-PLG20",
+        "type": "Matic",
+        "name": "Vulcan Forged",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "PYR",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Vulcan Forged",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 137,
+        "decimals": 18,
+        "avg_blocktime": 1.8,
+        "required_confirmations": 20,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MATIC",
+                "contract_address": "0x430EF9263E76DAE63c84292C3409D61c598E9682"
+            }
+        },
+        "derivation_path": "m/44'/966'",
+        "contract_address": "0x430EF9263E76DAE63c84292C3409D61c598E9682",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://polygon.blockpi.network/v1/rpc/public"
+            },
+            {
+                "url": "https://polygon.llamarpc.com"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "SHIB-BEP20": {
         "coin": "SHIB-BEP20",
         "type": "BEP-20",
@@ -25816,7 +25954,7 @@
         "name": "Spacecoin",
         "coinpaprika_id": "space-spacecoin7367",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "__________SPACE",
         "explorer_url": "https://explorer.spaceworks.co/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -26483,7 +26621,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "fname": "Swipe",
         "rpcport": 80,
         "mm2": 1,
@@ -26534,7 +26672,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "fname": "Swipe",
         "rpcport": 80,
         "mm2": 1,
@@ -30427,7 +30565,7 @@
         "name": "GRMS",
         "coinpaprika_id": "grms-grms",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "GRMS",
         "explorer_url": "https://explorer.grms.pw/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -35187,6 +35325,15 @@
         "allow_slp_unsafe_conf": false,
         "slp_prefix": "slptest",
         "electrum": [
+            {
+                "url": "electroncash.de:50004",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
             {
                 "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",
