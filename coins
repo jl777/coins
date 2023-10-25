@@ -11531,6 +11531,25 @@
       "type": "ERC20",
       "protocol_data": {
         "platform": "MATIC",
+        "contract_address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "USDC-PLG20_OLD",
+    "name": "usdc_plg20_old",
+    "fname": "USD Coin (OLD)",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 6,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
         "contract_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
       }
     },
