@@ -4287,6 +4287,44 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "EURE-ERC20",
+    "name": "eure_erc20",
+    "fname": "Monerium EUR",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x3231Cb76718CDeF2155FC47b5286d82e6eDA273f"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "EURE-PLG20",
+    "name": "eure_plg20",
+    "fname": "Monerium EUR",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x18ec0A6E18E5bc3784fDd3a3634b31245ab704F6"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "EUROE-ERC20",
     "name": "euroe_erc20",
     "fname": "EUROe Stablecoin",
