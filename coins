@@ -1869,6 +1869,29 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "BORG-ERC20",
+    "name": "borg_erc20",
+    "fname": "SwissBorg",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x64d0f55Cd8C7133a9D7102b13987235F486F2224"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "SwissBorg",
+    "links": {
+      "homepage": "https://swissborg.com"
+    }
+  },
+  {
     "coin": "BRZ-BEP20",
     "name": "brz_bep20",
     "fname": "Brazilian Digital Token",
@@ -2738,9 +2761,9 @@
     }
   },
   {
-    "coin": "CHSB-ERC20",
-    "name": "chsb_erc20",
-    "fname": "SwissBorg",
+    "coin": "CHSB-ERC20_OLD",
+    "name": "chsb_erc20_old",
+    "fname": "SwissBorg (OLD)",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -11498,6 +11521,25 @@
     "coin": "USDC-PLG20",
     "name": "usdc_plg20",
     "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 6,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "USDC-PLG20_OLD",
+    "name": "usdc_plg20_old",
+    "fname": "USD Coin (OLD)",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 137,
