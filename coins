@@ -10313,6 +10313,34 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "SUM",
+    "name": "sumcoin",
+    "fname": "Sumcoin",
+    "isPoS": 1, 
+    "sign_message_prefix": "Sumcoin Signed Message:\n",
+    "rpcport": 3332,
+    "pubtype": 63, 
+    "p2shtype": 125, 
+    "wiftype": 187, 
+    "decimals": 6, 
+    "txfee": 0, 
+    "dust": 10000, 
+    "segwit": false, 
+    "bech32_hrp": "sum",
+    "mm2": 1,
+    "required_confirmations": 1,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/552'",
+    "trezor_coin": "Sumcoin",
+    "links": {
+      "github": "https://github.com/sumcoinlabs/sumcoin",
+      "homepage": "https://www.sumcoin.org"
+    }
+  },
+  {
     "coin": "SUPERNET",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "SUPERNET",
