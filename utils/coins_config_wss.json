@@ -2321,10 +2321,6 @@
         "derivation_path": "m/44'/921'",
         "electrum": [
             {
-                "url": "electrum-ca.avn.network:50003",
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrum-eu.avn.network:50003",
                 "protocol": "WSS"
             },
@@ -4282,10 +4278,6 @@
             {
                 "url": "electrum2.blackcoin.nl:20004",
                 "protocol": "WSS"
-            },
-            {
-                "url": "electrum3.blackcoin.nl:30004",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -4379,10 +4371,6 @@
             },
             {
                 "url": "electrum2.blackcoin.nl:20014",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum3.blackcoin.nl:30014",
                 "protocol": "WSS"
             }
         ],
@@ -4734,6 +4722,70 @@
             },
             {
                 "url": "https://polygon.llamarpc.com"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BORG-ERC20": {
+        "coin": "BORG-ERC20",
+        "type": "ERC-20",
+        "name": "SwissBorg",
+        "coinpaprika_id": "chsb-swissborg",
+        "coingecko_id": "swissborg",
+        "livecoinwatch_id": "CHSB",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "SwissBorg",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x64d0f55Cd8C7133a9D7102b13987235F486F2224"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "trezor_coin": "SwissBorg",
+        "links": {
+            "homepage": "https://swissborg.com"
+        },
+        "contract_address": "0x64d0f55Cd8C7133a9D7102b13987235F486F2224",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
             }
         ],
         "explorer_block_url": "block/"
@@ -6280,15 +6332,15 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
+                "url": "holland.ecoincore.com:34335",
+                "protocol": "WSS"
+            },
+            {
                 "url": "lenoir.ecoincore.com:34335",
                 "protocol": "WSS"
             },
             {
                 "url": "miami.ecoincore.com:34335",
-                "protocol": "WSS"
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34335",
                 "protocol": "WSS"
             }
         ],
@@ -6332,15 +6384,15 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
+                "url": "holland.ecoincore.com:34335",
+                "protocol": "WSS"
+            },
+            {
                 "url": "lenoir.ecoincore.com:34335",
                 "protocol": "WSS"
             },
             {
                 "url": "miami.ecoincore.com:34335",
-                "protocol": "WSS"
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34335",
                 "protocol": "WSS"
             }
         ],
@@ -6715,12 +6767,12 @@
         ],
         "explorer_block_url": "block/"
     },
-    "CHSB-ERC20": {
-        "coin": "CHSB-ERC20",
+    "CHSB-ERC20_OLD": {
+        "coin": "CHSB-ERC20_OLD",
         "type": "ERC-20",
-        "name": "SwissBorg",
-        "coinpaprika_id": "chsb-swissborg",
-        "coingecko_id": "swissborg",
+        "name": "SwissBorg (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
         "livecoinwatch_id": "CHSB",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "tx/",
@@ -6730,7 +6782,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "SwissBorg",
+        "fname": "SwissBorg (OLD)",
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 1,
@@ -9394,15 +9446,15 @@
         "derivation_path": "m/44'/78'",
         "electrum": [
             {
+                "url": "electrum1.egulden.org:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum3.egulden.org:50004",
                 "protocol": "WSS"
             },
             {
                 "url": "holland.ecoincore.com:11019",
-                "protocol": "WSS"
-            },
-            {
-                "url": "lenoir.ecoincore.com:11019",
                 "protocol": "WSS"
             }
         ],
@@ -10348,6 +10400,117 @@
         },
         "derivation_path": "m/44'/966'",
         "contract_address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://polygon.blockpi.network/v1/rpc/public"
+            },
+            {
+                "url": "https://polygon.llamarpc.com"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "EURE-ERC20": {
+        "coin": "EURE-ERC20",
+        "type": "ERC-20",
+        "name": "Monerium EUR",
+        "coinpaprika_id": "eure-monerium-eur-emoney",
+        "coingecko_id": "monerium-eur-money",
+        "livecoinwatch_id": "EUR",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Monerium EUR",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x3231Cb76718CDeF2155FC47b5286d82e6eDA273f"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x3231Cb76718CDeF2155FC47b5286d82e6eDA273f",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "EURE-PLG20": {
+        "coin": "EURE-PLG20",
+        "type": "Matic",
+        "name": "Monerium EUR",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "EUR",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Monerium EUR",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 137,
+        "decimals": 18,
+        "avg_blocktime": 1.8,
+        "required_confirmations": 20,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MATIC",
+                "contract_address": "0x18ec0A6E18E5bc3784fDd3a3634b31245ab704F6"
+            }
+        },
+        "derivation_path": "m/44'/966'",
+        "contract_address": "0x18ec0A6E18E5bc3784fDd3a3634b31245ab704F6",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -12883,46 +13046,6 @@
             },
             {
                 "url": "https://polygon.llamarpc.com"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "GRLC": {
-        "coin": "GRLC",
-        "type": "UTXO",
-        "name": "Garlicoin",
-        "coinpaprika_id": "grlc-garlicoin",
-        "coingecko_id": "garlicoin",
-        "livecoinwatch_id": "GRLC",
-        "explorer_url": "https://garlicblocks.com/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Garlicoin Signed Message:\n",
-        "fname": "Garlicoin",
-        "rpcport": 42068,
-        "pubtype": 38,
-        "p2shtype": 50,
-        "wiftype": 176,
-        "segwit": true,
-        "bech32_hrp": "grlc",
-        "txfee": 100000,
-        "dust": 54600,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 40,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/69420'",
-        "electrum": [
-            {
-                "url": "electrum.maxpuig.com:50004",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -18225,7 +18348,7 @@
         "pubtype": 45,
         "p2shtype": 22,
         "wiftype": 173,
-        "txfee": 0,
+        "txfee": 100000,
         "dust": 54600,
         "segwit": false,
         "mm2": 1,
@@ -22960,6 +23083,10 @@
         },
         "electrum": [
             {
+                "url": "electrum01.reddcoin.com:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum02.reddcoin.com:50004",
                 "protocol": "WSS"
             },
@@ -25893,10 +26020,6 @@
             {
                 "url": "1.eu.tokel.electrum.dexstats.info:9077",
                 "protocol": "WSS"
-            },
-            {
-                "url": "2.eu.tokel.electrum.dexstats.info:9077",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -27895,6 +28018,57 @@
             "type": "ERC20",
             "protocol_data": {
                 "platform": "MATIC",
+                "contract_address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+            }
+        },
+        "derivation_path": "m/44'/966'",
+        "contract_address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://polygon.blockpi.network/v1/rpc/public"
+            },
+            {
+                "url": "https://polygon.llamarpc.com"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "USDC-PLG20_OLD": {
+        "coin": "USDC-PLG20_OLD",
+        "type": "Matic",
+        "name": "USD Coin (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "USDC",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "USD Coin (OLD)",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 137,
+        "decimals": 6,
+        "avg_blocktime": 1.8,
+        "required_confirmations": 20,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MATIC",
                 "contract_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
             }
         },
@@ -28615,10 +28789,6 @@
             {
                 "url": "e2.validitytech.com:11004",
                 "protocol": "WSS"
-            },
-            {
-                "url": "e3.validitytech.com:11004",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -28931,10 +29101,6 @@
             },
             {
                 "url": "el1.verus.io:17488",
-                "protocol": "WSS"
-            },
-            {
-                "url": "el2.verus.io:17488",
                 "protocol": "WSS"
             }
         ],
@@ -31387,47 +31553,6 @@
             },
             {
                 "url": "electrum3.cipig.net:30050",
-                "protocol": "WSS"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "FLUX": {
-        "coin": "FLUX",
-        "type": "UTXO",
-        "name": "Flux",
-        "coinpaprika_id": "zel-zelcash",
-        "coingecko_id": "zelcash",
-        "livecoinwatch_id": "_FLUX",
-        "explorer_url": "https://explorer.runonflux.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Flux",
-        "rpcport": 16124,
-        "taddr": 28,
-        "pubtype": 184,
-        "p2shtype": 189,
-        "wiftype": 128,
-        "txversion": 4,
-        "overwintered": 1,
-        "version_group_id": "0x892f2085",
-        "consensus_branch_id": "0x76b809bb",
-        "txfee": 10000,
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/19167'",
-        "electrum": [
-            {
-                "url": "electrumx.runonflux.io:50004",
                 "protocol": "WSS"
             }
         ],
@@ -34045,10 +34170,6 @@
             "homepage": "https://coin.crionic.org"
         },
         "electrum": [
-            {
-                "url": "coin.crionic.org:50005",
-                "protocol": "WSS"
-            },
             {
                 "url": "explorer.crionic.org:50005",
                 "protocol": "WSS"
