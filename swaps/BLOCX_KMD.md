@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/f025878186f67ed17d55b749f4310ad3f33a4d8264edd6ae6742063ec762f2b5)  
+[maker payment (BLOCX)](https://explorer.blocx.space/tx/57025c8a286ee4c4e8b3f3b204827b165af83e4a97e8943ecf3fc380cc4311aa)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/9c67b9d746a54afee895cd2786b744bf269476d4b29e26867bc168538fefcc4f)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/2a94debb377c8b7a2d6b0dc83d4b1a48e0815a8dd1fd44a3a0338bf383eb7623)  
+[maker payment spent (BLOCX)](https://explorer.blocx.space/tx/aa38e083fc67044d999046a005121a3fd911eb028ac521472901a63038944eb5)  
