@@ -1713,6 +1713,28 @@
     }
   },
   {
+    "coin": "BLOCX",
+    "name": "blocx",
+    "fname": "BLOCX.",
+    "rpcport": 12973,
+    "pubtype": 25,
+    "p2shtype": 26,
+    "wiftype": 153,
+    "segwit": false,
+    "txfee": 1000,
+    "mm2": 1,
+    "sign_message_prefix": "DarkCoin Signed Message:\n",
+    "required_confirmations": 3,
+    "avg_blocktime": 180,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "links": {
+      "github": "https://github.com/BLOCXTECH/BLOCX",
+      "homepage": "https://blocx.tech"
+    }
+  },
+  {
     "coin": "BNB",
     "name": "binancesmartchain",
     "fname": "Binance Coin",
