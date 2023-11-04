@@ -2356,6 +2356,16 @@
         "derivation_path": "m/44'/921'",
         "electrum": [
             {
+                "url": "electrum-ca.avn.network:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ],
+                "ws_url": "electrum-ca.avn.network:50003"
+            },
+            {
                 "url": "electrum-eu.avn.network:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -13678,17 +13688,17 @@
                 ]
             },
             {
-                "url": "fr.garlium.crapules.org:50002",
+                "url": "electrum.maxpuig.com:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "orpheas#1503"
                     }
-                ]
+                ],
+                "ws_url": "electrum.maxpuig.com:50004"
             },
             {
-                "url": "pl.garlium.crapules.org:50002",
+                "url": "fr.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -30640,6 +30650,23 @@
                 ],
                 "disable_cert_verification": false,
                 "ws_url": "el1.verus.io:17488"
+            },
+            {
+                "url": "el2.verus.io:17486",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "0x03-ctrlc@protonmail.com"
+                    },
+                    {
+                        "discord": "0x03#8822"
+                    },
+                    {
+                        "keybase": "bloodynora"
+                    }
+                ],
+                "disable_cert_verification": false,
+                "ws_url": "el2.verus.io:17488"
             }
         ],
         "explorer_block_url": "block/"
@@ -33115,6 +33142,49 @@
         ],
         "explorer_block_url": "block/"
     },
+    "FLUX": {
+        "coin": "FLUX",
+        "type": "UTXO",
+        "name": "Flux",
+        "coinpaprika_id": "zel-zelcash",
+        "coingecko_id": "zelcash",
+        "livecoinwatch_id": "_FLUX",
+        "explorer_url": "https://explorer.runonflux.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Flux",
+        "rpcport": 16124,
+        "taddr": 28,
+        "pubtype": 184,
+        "p2shtype": 189,
+        "wiftype": 128,
+        "txversion": 4,
+        "overwintered": 1,
+        "version_group_id": "0x892f2085",
+        "consensus_branch_id": "0x76b809bb",
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 120,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/19167'",
+        "electrum": [
+            {
+                "url": "electrumx.runonflux.io:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "electrumx.runonflux.io:50004"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "FLUX-ERC20": {
         "coin": "FLUX-ERC20",
         "type": "ERC-20",
@@ -35328,24 +35398,6 @@
         "slp_prefix": "slptest",
         "electrum": [
             {
-                "url": "electroncash.de:50004",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
-                "url": "electrs.electroncash.de:60002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
@@ -35932,16 +35984,6 @@
             {
                 "url": "electrumx1.actioncoin.com:30001",
                 "ws_url": "electrumx1.actioncoin.com:20001",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@actioncoin.com"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.actioncoin.com:30001",
-                "ws_url": "electrumx2.actioncoin.com:20001",
                 "protocol": "SSL",
                 "contact": [
                     {
