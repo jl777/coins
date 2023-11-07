@@ -5373,6 +5373,100 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "BTE": {
+        "coin": "BTE",
+        "type": "UTXO",
+        "name": "Bitweb",
+        "coinpaprika_id": "bte-bitweb",
+        "coingecko_id": "bitweb",
+        "livecoinwatch_id": "_BTE",
+        "explorer_url": "https://explorer.bitwebcore.net/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Bitweb",
+        "rpcport": 1605,
+        "pubtype": 33,
+        "p2shtype": 30,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "web",
+        "txfee": 20000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx.bitwebcore.net:20003",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumx6.scalaris.info:20003",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumx7.scalaris.info:20003",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BTE-segwit": {
+        "coin": "BTE-segwit",
+        "type": "UTXO",
+        "name": "Bitweb",
+        "coinpaprika_id": "bte-bitweb",
+        "coingecko_id": "bitweb",
+        "livecoinwatch_id": "_BTE",
+        "explorer_url": "https://explorer.bitwebcore.net/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Bitweb",
+        "rpcport": 1605,
+        "pubtype": 33,
+        "p2shtype": 30,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "web",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "BTE",
+        "txfee": 20000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx.bitwebcore.net:20003",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumx6.scalaris.info:20003",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumx7.scalaris.info:20003",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "BTT-BEP20": {
         "coin": "BTT-BEP20",
         "type": "BEP-20",
@@ -26106,6 +26200,10 @@
             {
                 "url": "1.eu.tokel.electrum.dexstats.info:9077",
                 "protocol": "WSS"
+            },
+            {
+                "url": "2.eu.tokel.electrum.dexstats.info:9077",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -34000,6 +34098,10 @@
             {
                 "url": "electrumx1.actioncoin.com:20001",
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrumx2.actioncoin.com:20001",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -34297,6 +34399,10 @@
             "homepage": "https://coin.crionic.org"
         },
         "electrum": [
+            {
+                "url": "coin.crionic.org:50005",
+                "protocol": "WSS"
+            },
             {
                 "url": "explorer.crionic.org:50005",
                 "protocol": "WSS"
