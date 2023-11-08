@@ -4358,16 +4358,19 @@
         },
         "electrum": [
             {
-                "url": "164.90.162.44:50001",
-                "protocol": "TCP"
+                "url": "electrum1.blocx.space:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum1.blocx.space:50004"
             },
             {
-                "url": "165.232.86.9:50001",
-                "protocol": "TCP"
+                "url": "electrum2.blocx.space:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum2.blocx.space:50004"
             },
             {
-                "url": "67.205.145.195:50001",
-                "protocol": "TCP"
+                "url": "electrum3.blocx.space:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum3.blocx.space:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -33106,11 +33109,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
-            },
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
