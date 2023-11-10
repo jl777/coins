@@ -6677,7 +6677,7 @@
         "type": "UTXO",
         "name": "Canada eCoin",
         "coinpaprika_id": "cdn-canada-ecoin",
-        "coingecko_id": "",
+        "coingecko_id": "canada-ecoin",
         "livecoinwatch_id": "CDN",
         "explorer_url": "https://chainz.cryptoid.info/cdn/",
         "explorer_tx_url": "tx.dws?",
@@ -6730,7 +6730,7 @@
         "type": "UTXO",
         "name": "Canada eCoin",
         "coinpaprika_id": "cdn-canada-ecoin",
-        "coingecko_id": "",
+        "coingecko_id": "canada-ecoin",
         "livecoinwatch_id": "CDN",
         "explorer_url": "https://chainz.cryptoid.info/cdn/",
         "explorer_tx_url": "tx.dws?",
@@ -13896,16 +13896,6 @@
         "derivation_path": "m/44'/69420'",
         "electrum": [
             {
-                "url": "au.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
-            },
-            {
                 "url": "electrum.maxpuig.com:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -13914,16 +13904,6 @@
                     }
                 ],
                 "ws_url": "electrum.maxpuig.com:50004"
-            },
-            {
-                "url": "pl.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -23245,7 +23225,7 @@
         "type": "UTXO",
         "name": "PRUX",
         "coinpaprika_id": "prux-prux-coin",
-        "coingecko_id": "",
+        "coingecko_id": "prux-coin",
         "livecoinwatch_id": "",
         "explorer_url": "https://explorer.prux.info/",
         "explorer_tx_url": "",
