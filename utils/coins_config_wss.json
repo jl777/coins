@@ -4282,6 +4282,10 @@
             {
                 "url": "electrum2.blackcoin.nl:20004",
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrum3.blackcoin.nl:30004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -4375,6 +4379,10 @@
             },
             {
                 "url": "electrum2.blackcoin.nl:20014",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum3.blackcoin.nl:30014",
                 "protocol": "WSS"
             }
         ],
@@ -9576,7 +9584,7 @@
         "pubtype": 33,
         "p2shtype": 40,
         "wiftype": 161,
-        "txfee": 0,
+        "txfee": 10000,
         "dust": 5460,
         "txversion": 7,
         "mm2": 1,
@@ -14452,51 +14460,6 @@
             }
         ],
         "explorer_block_url": "block.dws?"
-    },
-    "ILN": {
-        "coin": "ILN",
-        "type": "Smart Chain",
-        "name": "Ilien",
-        "coinpaprika_id": "iln-ilien9195",
-        "coingecko_id": "",
-        "livecoinwatch_id": "ILN",
-        "explorer_url": "https://explorer.ilien.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "ILN",
-        "fname": "Ilien",
-        "rpcport": 12986,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "p2p": 12985,
-        "magic": "feb4cb23",
-        "nSPV": "5.9.102.210, 5.9.253.195, 5.9.253.196, 5.9.253.197, 5.9.253.198, 5.9.253.199, 5.9.253.200, 5.9.253.201, 5.9.253.202, 5.9.253.203",
-        "required_confirmations": 2,
-        "requires_notarization": true,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "electrum1.ilien.io:30069",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum2.ilien.io:30069",
-                "protocol": "WSS"
-            }
-        ],
-        "explorer_block_url": "block/"
     },
     "ILN-BEP20": {
         "coin": "ILN-BEP20",
@@ -29021,6 +28984,10 @@
             },
             {
                 "url": "e2.validitytech.com:11004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "e3.validitytech.com:11004",
                 "protocol": "WSS"
             }
         ],
