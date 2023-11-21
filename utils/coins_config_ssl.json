@@ -2356,16 +2356,6 @@
         "derivation_path": "m/44'/921'",
         "electrum": [
             {
-                "url": "electrum-ca.avn.network:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@avn.network"
-                    }
-                ],
-                "ws_url": "electrum-ca.avn.network:50003"
-            },
-            {
                 "url": "electrum-eu.avn.network:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -13382,6 +13372,53 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
+    },
+    "GLC": {
+        "coin": "GLC",
+        "type": "UTXO",
+        "name": "Goldcoin",
+        "coinpaprika_id": "glc-goldcoin",
+        "coingecko_id": "goldcoin",
+        "livecoinwatch_id": "GLC",
+        "explorer_url": "https://chainz.cryptoid.info/glc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Goldcoin Signed Message:\n",
+        "fname": "Goldcoin",
+        "rpcport": 8122,
+        "pubtype": 32,
+        "p2shtype": 50,
+        "wiftype": 160,
+        "segwit": false,
+        "txfee": 1000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 120,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "links": {
+            "github": "https://github.com/goldcoin/goldcoin",
+            "homepage": "https://www.goldcoinproject.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.netseed.net:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum1.netseed.net:50003"
+            },
+            {
+                "url": "electrum2.netseed.net:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum2.netseed.net:50003"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "GLEEC": {
         "coin": "GLEEC",
@@ -35910,19 +35947,6 @@
                     },
                     {
                         "twitter": "bytesofman"
-                    }
-                ]
-            },
-            {
-                "url": "fulcrum.pepipierre.fr:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "contact@e.cash"
-                    },
-                    {
-                        "twitter": "ecashofficial"
                     }
                 ]
             }
