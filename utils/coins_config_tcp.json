@@ -2208,16 +2208,6 @@
         "derivation_path": "m/44'/921'",
         "electrum": [
             {
-                "url": "electrum-ca.avn.network:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@avn.network"
-                    }
-                ],
-                "ws_url": "electrum-ca.avn.network:50003"
-            },
-            {
                 "url": "electrum-eu.avn.network:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -2236,6 +2226,14 @@
                     }
                 ],
                 "ws_url": "electrum-us.avn.network:50003"
+            },
+            {
+                "url": "electrum-eu.avn.network:50001",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -3845,6 +3843,10 @@
         "electrum": [
             {
                 "url": "bbk-one.ewm-cx.net:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "bbk-two.ewm-cx.net:50001",
                 "protocol": "TCP"
             }
         ],
@@ -13235,6 +13237,57 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "GLC": {
+        "coin": "GLC",
+        "type": "UTXO",
+        "name": "Goldcoin",
+        "coinpaprika_id": "glc-goldcoin",
+        "coingecko_id": "goldcoin",
+        "livecoinwatch_id": "GLC",
+        "explorer_url": "https://chainz.cryptoid.info/glc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Goldcoin Signed Message:\n",
+        "fname": "Goldcoin",
+        "rpcport": 8122,
+        "pubtype": 32,
+        "p2shtype": 50,
+        "wiftype": 160,
+        "segwit": false,
+        "txfee": 1000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 120,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "links": {
+            "github": "https://github.com/goldcoin/goldcoin",
+            "homepage": "https://www.goldcoinproject.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.netseed.net:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum1.netseed.net:50003"
+            },
+            {
+                "url": "electrum2.netseed.net:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum2.netseed.net:50003"
+            },
+            {
+                "url": "electrum1.netseed.net:50001",
+                "protocol": "TCP"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "GLEEC": {
         "coin": "GLEEC",
         "type": "Smart Chain",
@@ -14973,6 +15026,67 @@
             }
         ],
         "explorer_block_url": "block.dws?"
+    },
+    "ILN": {
+        "coin": "ILN",
+        "type": "Smart Chain",
+        "name": "Ilien",
+        "coinpaprika_id": "iln-ilien9195",
+        "coingecko_id": "",
+        "livecoinwatch_id": "ILN",
+        "explorer_url": "https://explorer.ilien.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "ILN",
+        "fname": "Ilien",
+        "rpcport": 12986,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "p2p": 12985,
+        "magic": "feb4cb23",
+        "nSPV": "5.9.102.210, 5.9.253.195, 5.9.253.196, 5.9.253.197, 5.9.253.198, 5.9.253.199, 5.9.253.200, 5.9.253.201, 5.9.253.202, 5.9.253.203",
+        "required_confirmations": 2,
+        "requires_notarization": true,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrum1.ilien.io:65011",
+                "contact": [
+                    {
+                        "email": "admin@ilien.io"
+                    },
+                    {
+                        "discord": "siu - Chainmakers#3920"
+                    }
+                ],
+                "ws_url": "electrum1.ilien.io:30069"
+            },
+            {
+                "url": "electrum2.ilien.io:65011",
+                "contact": [
+                    {
+                        "email": "admin@ilien.io"
+                    },
+                    {
+                        "discord": "siu - Chainmakers#3920"
+                    }
+                ],
+                "ws_url": "electrum2.ilien.io:30069"
+            }
+        ],
+        "explorer_block_url": "block/"
     },
     "ILN-BEP20": {
         "coin": "ILN-BEP20",
@@ -35810,19 +35924,6 @@
                     },
                     {
                         "twitter": "bytesofman"
-                    }
-                ]
-            },
-            {
-                "url": "fulcrum.pepipierre.fr:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "contact@e.cash"
-                    },
-                    {
-                        "twitter": "ecashofficial"
                     }
                 ]
             }
