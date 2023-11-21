@@ -1,0 +1,20 @@
+[
+    {
+        "url": "electrum1.netseed.net:50001",
+        "protocol": "TCP"
+    },
+    {
+        "url": "electrum2.netseed.net:50001",
+        "protocol": "TCP"
+    },
+    {
+        "url": "electrum1.netseed.net:50002",
+        "protocol": "SSL",
+        "ws_url": "electrum1.netseed.net:50003"
+    },
+    {
+        "url": "electrum2.netseed.net:50002",
+        "protocol": "SSL",
+        "ws_url": "electrum2.netseed.net:50003"
+    }
+]
