@@ -5182,18 +5182,18 @@
     },
     "derivation_path": "m/44'/714'"
   },
-{
+  {
     "coin": "GLC",
     "name": "goldcoin",
     "fname": "Goldcoin",
     "rpcport": 8122,
     "pubtype": 32,
-    "p2shtype": 50,
+    "p2shtype": 5,
     "wiftype": 160,
     "segwit": false,
-    "txfee": 1000,
+    "txfee": 100000,
     "mm2": 1,
-    "sign_message_prefix": "Goldcoin Signed Message:\n",
+    "sign_message_prefix": "Goldcoin (GLC) Signed Message:\n",
     "required_confirmations": 3,
     "avg_blocktime": 120,
     "protocol": {
