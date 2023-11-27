@@ -2208,6 +2208,16 @@
         "derivation_path": "m/44'/921'",
         "electrum": [
             {
+                "url": "electrum-ca.avn.network:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ],
+                "ws_url": "electrum-ca.avn.network:50003"
+            },
+            {
                 "url": "electrum-eu.avn.network:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -2226,14 +2236,6 @@
                     }
                 ],
                 "ws_url": "electrum-us.avn.network:50003"
-            },
-            {
-                "url": "electrum-eu.avn.network:50001",
-                "contact": [
-                    {
-                        "email": "contact@avn.network"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -9931,17 +9933,6 @@
                     }
                 ],
                 "ws-url": "big-parrot-60.doi.works:50004"
-            },
-            {
-                "url": "itchy-jellyfish-89.doi.works:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
-                    }
-                ],
-                "ws-url": "itchy-jellyfish-89.doi.works:50004"
             },
             {
                 "url": "ugly-bird-70.doi.works:50002",
@@ -26309,6 +26300,55 @@
         ],
         "explorer_block_url": "block/"
     },
+    "SUM": {
+        "coin": "SUM",
+        "type": "UTXO",
+        "name": "Sumcoin",
+        "coinpaprika_id": "sum-sumcoin",
+        "coingecko_id": "sumcoin",
+        "livecoinwatch_id": "SUM",
+        "explorer_url": "https://sumcoinexplorer.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Sumcoin Signed Message:\n",
+        "fname": "Sumcoin",
+        "isPoS": 1,
+        "rpcport": 3332,
+        "pubtype": 63,
+        "p2shtype": 125,
+        "wiftype": 187,
+        "decimals": 6,
+        "txfee": 0,
+        "dust": 10000,
+        "segwit": false,
+        "bech32_hrp": "sum",
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/552'",
+        "trezor_coin": "Sumcoin",
+        "links": {
+            "github": "https://github.com/sumcoinlabs/sumcoin",
+            "homepage": "https://www.sumcoin.org"
+        },
+        "electrum": [
+            {
+                "url": "sumpos.electrum-sum.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "sumpos.electrum-sum.org:50004"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "SUPERNET": {
         "coin": "SUPERNET",
         "type": "Smart Chain",
@@ -30776,6 +30816,22 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
+                "url": "electrum.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ],
+                "ws_url": "electrum.grms.pw:50004"
+            },
+            {
                 "url": "electrum1.grms.pw:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -30792,7 +30848,8 @@
                 "ws_url": "electrum1.grms.pw:50004"
             },
             {
-                "url": "electrum1.grms.pw:17485",
+                "url": "electrum2.grms.pw:50002",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "contact@grms.pw"
@@ -30803,7 +30860,8 @@
                     {
                         "github": "Miner113"
                     }
-                ]
+                ],
+                "ws_url": "electrum2.grms.pw:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -30891,9 +30949,6 @@
                 "url": "88.99.26.209:5028"
             },
             {
-                "url": "electrumx-brn.webhop.me:55001"
-            },
-            {
                 "url": "electrumx.javerity.com:5885",
                 "ws_url": "electrumx.javerity.com:5887",
                 "contact": [
@@ -30949,9 +31004,6 @@
         "electrum": [
             {
                 "url": "88.99.26.209:5028"
-            },
-            {
-                "url": "electrumx-brn.webhop.me:55001"
             },
             {
                 "url": "electrumx.javerity.com:5885",
@@ -35924,6 +35976,19 @@
                     },
                     {
                         "twitter": "bytesofman"
+                    }
+                ]
+            },
+            {
+                "url": "fulcrum.pepipierre.fr:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "contact@e.cash"
+                    },
+                    {
+                        "twitter": "ecashofficial"
                     }
                 ]
             }

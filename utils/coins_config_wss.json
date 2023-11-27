@@ -2321,6 +2321,10 @@
         "derivation_path": "m/44'/921'",
         "electrum": [
             {
+                "url": "electrum-ca.avn.network:50003",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum-eu.avn.network:50003",
                 "protocol": "WSS"
             },
@@ -25139,6 +25143,53 @@
         ],
         "explorer_block_url": "block/"
     },
+    "SUM": {
+        "coin": "SUM",
+        "type": "UTXO",
+        "name": "Sumcoin",
+        "coinpaprika_id": "sum-sumcoin",
+        "coingecko_id": "sumcoin",
+        "livecoinwatch_id": "SUM",
+        "explorer_url": "https://sumcoinexplorer.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Sumcoin Signed Message:\n",
+        "fname": "Sumcoin",
+        "isPoS": 1,
+        "rpcport": 3332,
+        "pubtype": 63,
+        "p2shtype": 125,
+        "wiftype": 187,
+        "decimals": 6,
+        "txfee": 0,
+        "dust": 10000,
+        "segwit": false,
+        "bech32_hrp": "sum",
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/552'",
+        "trezor_coin": "Sumcoin",
+        "links": {
+            "github": "https://github.com/sumcoinlabs/sumcoin",
+            "homepage": "https://www.sumcoin.org"
+        },
+        "electrum": [
+            {
+                "url": "sumpos.electrum-sum.org:50004",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "SUPERNET": {
         "coin": "SUPERNET",
         "type": "Smart Chain",
@@ -29427,7 +29478,15 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
+                "url": "electrum.grms.pw:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum1.grms.pw:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum2.grms.pw:50004",
                 "protocol": "WSS"
             }
         ],
