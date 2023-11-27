@@ -2,7 +2,8 @@
   {
     "url": "fulcrum.ergon.network:52138",
     "protocol": "SSL",
-    "disable_cert_verification": true
+    "ws_url": "fulcrum.ergon.network:52140",
+    "contact": [{"email": "licho@ergon.moe"}, {"telegram": "licho92karol"}]
   },
   {
     "url": "blackie.c3-soft.com:52138",
@@ -12,7 +13,8 @@
   {
     "url": "la.ask.systems:52138",
     "protocol": "SSL",
-    "disable_cert_verification": true
+    "ws_url": "la.ask.systems:52140",
+    "contact": [{"telegram": "@fsmv0"}]
   },
   {
     "url": "xrg_ful.googol.cash:52138",
