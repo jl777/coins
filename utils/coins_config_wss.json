@@ -9243,9 +9243,9 @@
         "pubtype": 30,
         "p2shtype": 22,
         "wiftype": 158,
-        "txfee": 1000000,
+        "txfee": 0,
         "force_min_relay_fee": true,
-        "dust": 1000000,
+        "dust": 100000000,
         "mm2": 1,
         "required_confirmations": 2,
         "avg_blocktime": 60,
@@ -30582,6 +30582,52 @@
         ],
         "explorer_block_url": "block/"
     },
+    "XRG": {
+        "coin": "XRG",
+        "type": "UTXO",
+        "name": "Ergon",
+        "coinpaprika_id": "xrg-ergon",
+        "coingecko_id": "",
+        "livecoinwatch_id": "XRG",
+        "explorer_url": "https://explorer.ergon.network/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Ergon",
+        "rpcport": 2137,
+        "pubtype": 0,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "txfee": 10,
+        "segwit": false,
+        "fork_id": "0x40",
+        "address_format": {
+            "format": "cashaddress",
+            "network": "ergon"
+        },
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/2137'",
+        "electrum": [
+            {
+                "url": "fulcrum.ergon.network:52140",
+                "protocol": "WSS"
+            },
+            {
+                "url": "la.ask.systems:52140",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "XRP-BEP20": {
         "coin": "XRP-BEP20",
         "type": "BEP-20",
@@ -31000,6 +31046,49 @@
             },
             {
                 "url": "electrum3.cipig.net:30050",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "XVG": {
+        "coin": "XVG",
+        "type": "UTXO",
+        "name": "Verge",
+        "coinpaprika_id": "xvg-verge",
+        "coingecko_id": "verge",
+        "livecoinwatch_id": "XVG",
+        "explorer_url": "https://xvgblockexplorer.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "VERGE Signed Message:\n",
+        "fname": "Verge",
+        "isPoS": 1,
+        "rpcport": 20102,
+        "pubtype": 30,
+        "p2shtype": 33,
+        "wiftype": 158,
+        "decimals": 6,
+        "segwit": true,
+        "bech32_hrp": "vg",
+        "txfee": 400000,
+        "dust": 400000,
+        "force_min_relay_fee": true,
+        "mm2": 1,
+        "required_confirmations": 10,
+        "avg_blocktime": 30,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/77'",
+        "electrum": [
+            {
+                "url": "electrumx-verge.cloud:50004",
                 "protocol": "WSS"
             }
         ],
