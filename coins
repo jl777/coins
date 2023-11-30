@@ -3474,6 +3474,25 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "DFX-PLG20_OLD",
+    "name": "dfx_plg20_old",
+    "fname": "DFX Finance (OLD)",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xE7804D91dfCDE7F776c90043E03eAa6Df87E6395"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "DFX-PLG20",
     "name": "dfx_plg20",
     "fname": "DFX Finance",
@@ -3487,7 +3506,7 @@
       "type": "ERC20",
       "protocol_data": {
         "platform": "MATIC",
-        "contract_address": "0xE7804D91dfCDE7F776c90043E03eAa6Df87E6395"
+        "contract_address": "0x27f485b62C4A7E635F561A87560Adf5090239E93"
       }
     },
     "derivation_path": "m/44'/966'"
