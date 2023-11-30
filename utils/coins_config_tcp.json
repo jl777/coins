@@ -5191,8 +5191,14 @@
         },
         "electrum": [
             {
-                "url": "66.172.33.56:50001",
-                "protocol": "TCP"
+                "url": "electrumserver01.globalboost.info:50014",
+                "protocol": "SSL",
+                "ws_url": "electrumserver01.globalboost.info:50013"
+            },
+            {
+                "url": "electrumserver02.globalboost.info:50014",
+                "protocol": "SSL",
+                "ws_url": "electrumserver02.globalboost.info:50013"
             }
         ],
         "explorer_block_url": "block/"
@@ -5232,8 +5238,14 @@
         },
         "electrum": [
             {
-                "url": "66.172.33.56:50001",
-                "protocol": "TCP"
+                "url": "electrumserver01.globalboost.info:50014",
+                "protocol": "SSL",
+                "ws_url": "electrumserver01.globalboost.info:50013"
+            },
+            {
+                "url": "electrumserver02.globalboost.info:50014",
+                "protocol": "SSL",
+                "ws_url": "electrumserver02.globalboost.info:50013"
             }
         ],
         "explorer_block_url": "block/"
@@ -8863,6 +8875,53 @@
         ],
         "explorer_block_url": "block/"
     },
+    "DFX-PLG20_OLD": {
+        "coin": "DFX-PLG20_OLD",
+        "type": "Matic",
+        "name": "DFX Finance (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "__DFX",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "DFX Finance (OLD)",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 137,
+        "decimals": 18,
+        "avg_blocktime": 1.8,
+        "required_confirmations": 20,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MATIC",
+                "contract_address": "0xE7804D91dfCDE7F776c90043E03eAa6Df87E6395"
+            }
+        },
+        "derivation_path": "m/44'/966'",
+        "contract_address": "0xE7804D91dfCDE7F776c90043E03eAa6Df87E6395",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://polygon.blockpi.network/v1/rpc/public"
+            },
+            {
+                "url": "https://polygon.llamarpc.com"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "DFX-PLG20": {
         "coin": "DFX-PLG20",
         "type": "Matic",
@@ -8889,11 +8948,11 @@
             "type": "ERC20",
             "protocol_data": {
                 "platform": "MATIC",
-                "contract_address": "0xE7804D91dfCDE7F776c90043E03eAa6Df87E6395"
+                "contract_address": "0x27f485b62C4A7E635F561A87560Adf5090239E93"
             }
         },
         "derivation_path": "m/44'/966'",
-        "contract_address": "0xE7804D91dfCDE7F776c90043E03eAa6Df87E6395",
+        "contract_address": "0x27f485b62C4A7E635F561A87560Adf5090239E93",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -17830,16 +17889,13 @@
                 "ws_url": "electrum1.cipig.net:30067"
             },
             {
-                "url": "electrum2.cipig.net:20067",
-                "disable_cert_verification": false,
-                "protocol": "SSL",
-                "ws_url": "electrum2.cipig.net:30067"
-            },
-            {
                 "url": "electrum3.cipig.net:20067",
                 "disable_cert_verification": false,
                 "protocol": "SSL",
                 "ws_url": "electrum3.cipig.net:30067"
+            },
+            {
+                "url": "electrum1.cipig.net:10067"
             }
         ],
         "explorer_block_url": "block/"
@@ -17887,16 +17943,13 @@
                 "ws_url": "electrum1.cipig.net:30067"
             },
             {
-                "url": "electrum2.cipig.net:20067",
-                "disable_cert_verification": false,
-                "protocol": "SSL",
-                "ws_url": "electrum2.cipig.net:30067"
-            },
-            {
                 "url": "electrum3.cipig.net:20067",
                 "disable_cert_verification": false,
                 "protocol": "SSL",
                 "ws_url": "electrum3.cipig.net:30067"
+            },
+            {
+                "url": "electrum1.cipig.net:10067"
             }
         ],
         "explorer_block_url": "block/"
@@ -30816,22 +30869,6 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "electrum.grms.pw:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@grms.pw"
-                    },
-                    {
-                        "discord": "miner113#7864"
-                    },
-                    {
-                        "github": "Miner113"
-                    }
-                ],
-                "ws_url": "electrum.grms.pw:50004"
-            },
-            {
                 "url": "electrum1.grms.pw:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -30848,7 +30885,7 @@
                 "ws_url": "electrum1.grms.pw:50004"
             },
             {
-                "url": "electrum2.grms.pw:50002",
+                "url": "electrum3.grms.pw:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -30861,7 +30898,21 @@
                         "github": "Miner113"
                     }
                 ],
-                "ws_url": "electrum2.grms.pw:50004"
+                "ws_url": "electrum3.grms.pw:50004"
+            },
+            {
+                "url": "electrum1.grms.pw:17485",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -36153,7 +36204,8 @@
         "currently_enabled": false,
         "wallet_only": false,
         "light_wallet_d_servers": [
-            "https://zombie.dragonhound.info:443"
+            "https://zombie.dragonhound.info:443",
+            "https://zombie.dragonhound.info:1443"
         ],
         "asset": "ZOMBIE",
         "fname": "Zombie",
