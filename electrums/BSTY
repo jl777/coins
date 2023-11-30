@@ -1,6 +1,18 @@
 [
     {
-        "url": "66.172.33.56:50001",
+        "url": "electrumserver01.globalboost.info:50011",
         "protocol": "TCP"
-    }
+    },
+	{
+        "url": "electrumserver01.globalboost.info:50014",
+        "protocol": "SSL"
+    },
+	{
+        "url": "electrumserver02.globalboost.info:50011",
+        "protocol": "TCP"
+    },
+	{
+        "url": "electrumserver02.globalboost.info:50014",
+        "protocol": "SSL"
+    },
 ]
