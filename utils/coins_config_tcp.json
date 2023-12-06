@@ -752,6 +752,12 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "elec-seeder-two.artbytecoin.org:50013"
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "ws_url": "electrumx-three.artbyte.live:50013"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -4149,7 +4155,7 @@
         "type": "UTXO",
         "name": "Bitnet",
         "coinpaprika_id": "bit-bitnet",
-        "coingecko_id": "",
+        "coingecko_id": "bitnet-io",
         "livecoinwatch_id": "________BIT",
         "explorer_url": "https://bitexplorer.io/",
         "explorer_tx_url": "tx/",
@@ -9994,7 +10000,7 @@
                 "ws-url": "big-parrot-60.doi.works:50004"
             },
             {
-                "url": "ugly-bird-70.doi.works:50002",
+                "url": "itchy-jellyfish-89.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -10002,7 +10008,18 @@
                         "twitter": "example_username"
                     }
                 ],
-                "ws-url": "ugly-bird-70.doi.works:50004"
+                "ws-url": "itchy-jellyfish-89.doi.works:50004"
+            },
+            {
+                "url": "pink-deer-69.doi.works:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/namecoin/electrum-nmc/issues",
+                        "twitter": "example_username"
+                    }
+                ],
+                "ws-url": "pink-deer-69.doi.works:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -17889,13 +17906,16 @@
                 "ws_url": "electrum1.cipig.net:30067"
             },
             {
+                "url": "electrum2.cipig.net:20067",
+                "disable_cert_verification": false,
+                "protocol": "SSL",
+                "ws_url": "electrum2.cipig.net:30067"
+            },
+            {
                 "url": "electrum3.cipig.net:20067",
                 "disable_cert_verification": false,
                 "protocol": "SSL",
                 "ws_url": "electrum3.cipig.net:30067"
-            },
-            {
-                "url": "electrum1.cipig.net:10067"
             }
         ],
         "explorer_block_url": "block/"
@@ -17943,13 +17963,16 @@
                 "ws_url": "electrum1.cipig.net:30067"
             },
             {
+                "url": "electrum2.cipig.net:20067",
+                "disable_cert_verification": false,
+                "protocol": "SSL",
+                "ws_url": "electrum2.cipig.net:30067"
+            },
+            {
                 "url": "electrum3.cipig.net:20067",
                 "disable_cert_verification": false,
                 "protocol": "SSL",
                 "ws_url": "electrum3.cipig.net:30067"
-            },
-            {
-                "url": "electrum1.cipig.net:10067"
             }
         ],
         "explorer_block_url": "block/"
@@ -23282,16 +23305,6 @@
                 "url": "electrumx.live:50012",
                 "protocol": "SSL",
                 "ws_url": "electrumx.live:30010",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
-                "url": "txserver.live:50002",
-                "protocol": "SSL",
-                "ws_url": "txserver.live:30001",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -30712,7 +30725,7 @@
         "type": "UTXO",
         "name": "Verium Reserve",
         "coinpaprika_id": "vrm-veriumreserve",
-        "coingecko_id": "",
+        "coingecko_id": "veriumreserve",
         "livecoinwatch_id": "VRM",
         "explorer_url": "https://explorer-vrm.vericonomy.com/",
         "explorer_tx_url": "",

@@ -796,6 +796,10 @@
             {
                 "url": "elec-seeder-two.artbytecoin.org:50013",
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50013",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -4208,7 +4212,7 @@
         "type": "UTXO",
         "name": "Bitnet",
         "coinpaprika_id": "bit-bitnet",
-        "coingecko_id": "",
+        "coingecko_id": "bitnet-io",
         "livecoinwatch_id": "________BIT",
         "explorer_url": "https://bitexplorer.io/",
         "explorer_tx_url": "tx/",
@@ -17556,6 +17560,10 @@
                 "protocol": "WSS"
             },
             {
+                "url": "electrum2.cipig.net:30067",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum3.cipig.net:30067",
                 "protocol": "WSS"
             }
@@ -17600,6 +17608,10 @@
         "electrum": [
             {
                 "url": "electrum1.cipig.net:30067",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum2.cipig.net:30067",
                 "protocol": "WSS"
             },
             {
@@ -22407,10 +22419,6 @@
         "electrum": [
             {
                 "url": "electrumx.live:30010",
-                "protocol": "WSS"
-            },
-            {
-                "url": "txserver.live:30001",
                 "protocol": "WSS"
             }
         ],
