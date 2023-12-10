@@ -4241,6 +4241,10 @@
             {
                 "url": "bitexplorer.io:50004",
                 "protocol": "WSS"
+            },
+            {
+                "url": "bitexplorer.io:50004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -13624,15 +13628,15 @@
         },
         "electrum": [
             {
-                "url": "electrum1.groestlcoin.org:50004",
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrum12.groestlcoin.org:50004",
                 "protocol": "WSS"
             },
             {
                 "url": "electrum13.groestlcoin.org:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum14.groestlcoin.org:50004",
                 "protocol": "WSS"
             }
         ],
@@ -13681,15 +13685,15 @@
         },
         "electrum": [
             {
-                "url": "electrum1.groestlcoin.org:50004",
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrum12.groestlcoin.org:50004",
                 "protocol": "WSS"
             },
             {
                 "url": "electrum13.groestlcoin.org:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum14.groestlcoin.org:50004",
                 "protocol": "WSS"
             }
         ],
@@ -22419,6 +22423,10 @@
         "electrum": [
             {
                 "url": "electrumx.live:30010",
+                "protocol": "WSS"
+            },
+            {
+                "url": "txserver.live:30001",
                 "protocol": "WSS"
             }
         ],
