@@ -5317,6 +5317,25 @@
     "derivation_path": "m/44'/714'"
   },
   {
+    "coin": "GMT-PLG20",
+    "name": "gmt_plg20",
+    "fname": "STEPN",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 8,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x714DB550b574b3E927af3D93E26127D15721D4C2"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "GMX-AVX20",
     "name": "gmx_avx20",
     "fname": "GMX",
