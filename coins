@@ -14449,5 +14449,44 @@
       "github": "https://github.com/bunkercoin/bunkercoin",
       "homepage": "https://bunkercoin.org"
     }
+  },
+  {
+    "coin": "KIIRO",
+    "name": "kiiro",
+    "fname": "Kiiro",
+    "sign_message_prefix": "Zcoin Signed Message:\n",
+    "rpcport": 8999,
+    "pubtype": 45,
+    "p2shtype": 7,
+    "wiftype": 210,
+    "txfee": 1000,
+    "mm2": 1,
+    "required_confirmations": 3,
+    "avg_blocktime": 150,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "links": {
+      "github": "https://github.com/kiirocoin/kiiro",
+      "homepage": "https://kiirocoin.org"
+    }
+  },
+  {
+    "coin": "KIIRO-BEP20",
+    "name": "kiiro_bep20",
+    "fname": "Kiiro",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x347862372f7C8f83D69025234367Ac11c5241Db3"
+      }
+    },
+    "derivation_path": "m/44'/714'"
   }
 ]
