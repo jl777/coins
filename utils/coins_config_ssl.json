@@ -12202,6 +12202,16 @@
                     }
                 ],
                 "ws_url": "electrumx1.fujicoin.org:50005"
+            },
+            {
+                "url": "electrumx2.fujicoin.org:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "motty#8318"
+                    }
+                ],
+                "ws_url": "electrumx2.fujicoin.org:50005"
             }
         ],
         "explorer_block_url": "block/"
@@ -12256,6 +12266,16 @@
                     }
                 ],
                 "ws_url": "electrumx1.fujicoin.org:50005"
+            },
+            {
+                "url": "electrumx2.fujicoin.org:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "motty#8318"
+                    }
+                ],
+                "ws_url": "electrumx2.fujicoin.org:50005"
             }
         ],
         "explorer_block_url": "block/"
@@ -14112,7 +14132,7 @@
                 "ws_url": "electrum.maxpuig.com:50004"
             },
             {
-                "url": "fr.garlium.crapules.org:50002",
+                "url": "pl.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
