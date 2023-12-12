@@ -4184,7 +4184,7 @@
             {
                 "url": "bitchair.io:50001",
                 "protocol": "TCP",
-                "ws_url": "bitexplorer.io:50004",
+                "ws_url": "bitchair.io:50004",
                 "contact": [
                     {
                         "discord": "c4pt#7855"
@@ -12004,6 +12004,16 @@
                 "ws_url": "electrumx1.fujicoin.org:50005"
             },
             {
+                "url": "electrumx2.fujicoin.org:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "motty#8318"
+                    }
+                ],
+                "ws_url": "electrumx2.fujicoin.org:50005"
+            },
+            {
                 "url": "electrumx1.fujicoin.org:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -12065,6 +12075,16 @@
                     }
                 ],
                 "ws_url": "electrumx1.fujicoin.org:50005"
+            },
+            {
+                "url": "electrumx2.fujicoin.org:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "motty#8318"
+                    }
+                ],
+                "ws_url": "electrumx2.fujicoin.org:50005"
             },
             {
                 "url": "electrumx1.fujicoin.org:50001",
@@ -13868,7 +13888,7 @@
                 "ws_url": "electrum.maxpuig.com:50004"
             },
             {
-                "url": "fr.garlium.crapules.org:50002",
+                "url": "pl.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -14037,8 +14057,8 @@
                 ]
             },
             {
-                "url": "electrum12.groestlcoin.org:50001",
-                "ws_url": "electrum12.groestlcoin.org:50004",
+                "url": "electrum1.groestlcoin.org:50001",
+                "ws_url": "electrum1.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -14049,8 +14069,8 @@
                 ]
             },
             {
-                "url": "electrum13.groestlcoin.org:50001",
-                "ws_url": "electrum13.groestlcoin.org:50004",
+                "url": "electrum12.groestlcoin.org:50001",
+                "ws_url": "electrum12.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -14120,8 +14140,8 @@
                 ]
             },
             {
-                "url": "electrum12.groestlcoin.org:50001",
-                "ws_url": "electrum12.groestlcoin.org:50004",
+                "url": "electrum1.groestlcoin.org:50001",
+                "ws_url": "electrum1.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -14132,8 +14152,8 @@
                 ]
             },
             {
-                "url": "electrum13.groestlcoin.org:50001",
-                "ws_url": "electrum13.groestlcoin.org:50004",
+                "url": "electrum12.groestlcoin.org:50001",
+                "ws_url": "electrum12.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
