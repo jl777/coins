@@ -14454,15 +14454,15 @@
     "coin": "KIIRO",
     "name": "kiiro",
     "fname": "Kiiro",
-    "sign_message_prefix": "Kiiro Signed Message:\n",
+    "sign_message_prefix": "Zcoin Signed Message:\n",
     "rpcport": 8999,
     "pubtype": 45,
     "p2shtype": 7,
     "wiftype": 210,
     "txfee": 1000,
     "mm2": 1,
-    "required_confirmations": 1,
-    "avg_blocktime": 300,
+    "required_confirmations": 3,
+    "avg_blocktime": 150,
     "protocol": {
       "type": "UTXO"
     },

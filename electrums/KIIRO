@@ -1,16 +1,18 @@
 [
   {
-    "url": "168.119.32.56:50002",
+    "url": "electrum1.kiirocoim.org:50002",
     "protocol": "SSL",
     "contact": [
-      { "github": "https://github.com/kiirocoin/electrumx-kiiro/issues" }
-    ]
+      { "github": "https://github.com/kiirocoin/electrum-kiiro/issues" }
+    ],
+    "ws_url": "electrum1.kiirocoim.org:50004"
   },
   {
-    "url": "5.78.105.104:50002",
+    "url": "electrum2.kiirocoim.org:50002",
     "protocol": "SSL",
     "contact": [
-      { "github": "https://github.com/kiirocoin/electrumx-kiiro/issues" }
-    ]
+      { "github": "https://github.com/kiirocoin/electrum-kiiro/issues" }
+    ],
+    "ws_url": "electrum2.kiirocoim.org:50004"
   }
 ]
