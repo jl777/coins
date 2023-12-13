@@ -1,0 +1,29 @@
+[
+    {
+        "url": "electrum1.blocx.space:50001",
+        "protocol": "TCP"
+    },
+    {
+        "url": "electrum2.blocx.space:50001",
+        "protocol": "TCP"
+    },
+    {
+        "url": "electrum3.blocx.space:50001",
+        "protocol": "TCP"
+    },
+    {
+        "url": "electrum1.blocx.space:50002",
+        "protocol": "SSL",
+        "ws_url": "electrum1.blocx.space:50004"
+    },
+    {
+        "url": "electrum2.blocx.space:50002",
+        "protocol": "SSL",
+        "ws_url": "electrum2.blocx.space:50004"
+    },
+    {
+        "url": "electrum3.blocx.space:50002",
+        "protocol": "SSL",
+        "ws_url": "electrum3.blocx.space:50004"
+    }
+]

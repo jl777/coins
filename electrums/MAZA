@@ -46,5 +46,41 @@
                     }
                 ],
                 "ws_url": "electrumx2.mazacha.in:50005"
+            },
+       {
+              "url": "electrumx.mazanode.com:50001",
+                "contact": [
+                    {
+                        "email": "brian@mazacoin.org"
+                    }
+               ]
+            },           
+        {
+                "url": "electrumx.mazanode.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "brian@mazacoin.org"
+                    }
+                ],
+                "ws_url": "electrumx.mazanode.com:50005"
+            },
+       {
+              "url": "electrum.seed.mazanode.com:50001",
+                "contact": [
+                    {
+                        "email": "brian@mazacoin.org"
+                    }
+               ]
+            },           
+        {
+                "url": "electrum.seed.mazanode.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "brian@mazacoin.org"
+                    }
+                ],
+                "ws_url": "electrum.seed.mazanode.com:50005"
             }
         ]

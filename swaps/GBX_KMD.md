@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/5cc9cc9346bd85dcf45347b578fbb4731f3e20ebe11387faae07b41fb34f1c73)  
+[maker payment (GBX)](https://insight.gobyte.network/tx/85a73b37a8247b3a1ea5990770e5b1fb7891946368684da285823f70a2bdb1e5)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/c128dd12d33468a30b79cf142582047a6b2e79a2619b4bbd99e4348a56fda227)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/f31009340ebe2f7e8c893341312e26dfbca7b7d3bce88fec7c50de2bb8728525)  
+[maker payment spent (GBX)](https://insight.gobyte.network/tx/58928e948c743bceddde5a9f5ddcb9400516713510285bffe1c5c4652b67b54b)  

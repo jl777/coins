@@ -3,6 +3,7 @@ import os
 import sys
 import time
 import json
+from copy import deepcopy
 import requests
 from scan_electrums import get_electrums_report
 
@@ -147,6 +148,16 @@ class CoinConfig:
                 self.data[self.ticker].update({
                     "type": self.coin_type
                 })
+            if "check_point_block" in protocol_data:
+                # ZHTLC only
+                if "height" in protocol_data["check_point_block"]:
+                    self.data[self.ticker].update({
+                        "checkpoint_height": protocol_data["check_point_block"]["height"]
+                    })
+                if "time" in protocol_data["check_point_block"]:
+                    self.data[self.ticker].update({
+                        "checkpoint_blocktime": protocol_data["check_point_block"]["time"]
+                    })
 
             if "slp_prefix" in protocol_data:
                 if self.ticker in ["BCH", "tBCH"]:
@@ -470,7 +481,7 @@ def parse_coins_repo():
             print(error)
     for coin in nodata:
         del coins_config[coin]
-    return coins_config
+    return coins_config, nodata
 
 
 def get_desktop_repo_coins_data():
@@ -484,7 +495,119 @@ def get_desktop_repo_coins_data():
     with open(f"../../atomicDEX-Desktop/assets/config/{coins_fn}", "r") as f:
         return json.load(f)
 
+
+def filter_ssl(coins_config):
+    coins_config_ssl = {}
+    for coin in coins_config:
+        coins_config_ssl.update({coin: coins_config[coin]})
+        if "electrum" in coins_config[coin]:
+            electrums = []
+            for i in coins_config[coin]["electrum"]:
+                if 'protocol' in i:
+                    # For web, we only want SSL. 
+                    if i['protocol'] == "SSL":
+                        electrums.append(i)
+            coins_config_ssl[coin]['electrum'] = electrums[:3]
+            if len(coins_config_ssl[coin]['electrum']) == 0:
+                del coins_config_ssl[coin]
+        
+        if 'nodes' in coins_config[coin]:
+            coins_config_ssl[coin]['nodes'] = [
+                i for i in coins_config[coin]["nodes"] if i['url'].startswith("https")
+            ]
+        
+        if 'light_wallet_d_servers' in coins_config[coin]:
+            coins_config_ssl[coin]['light_wallet_d_servers'] = [
+                i for i in coins_config[coin]["light_wallet_d_servers"] if i.startswith("https")
+            ]
+        
+    with open("coins_config_ssl.json", "w+") as f:
+        json.dump(coins_config_ssl, f, indent=4)
+    return coins_config_ssl
+
+
+def item_exists(i, electrums):
+    for e in electrums:
+        if i['url'] == e['url']:
+            return True
+    return False
+
+
+def filter_tcp(coins_config, coins_config_ssl):
+    coins_config_tcp = {}
+    for coin in coins_config:
+        coins_config_tcp.update({coin: coins_config[coin]})
+        # Omit gui_auth: true nodes - these are web only.
+        if 'nodes' in coins_config[coin]:
+            coins_config_tcp[coin]['nodes'] = [
+                i for i in coins_config[coin]["nodes"] if "gui_auth" not in i
+            ][:3]
+        if "electrum" in coins_config[coin]:
+            electrums = []
+            # Prefer SSL
+            if coin in coins_config_ssl:
+                if len(coins_config_ssl[coin]['electrum']) > 0:
+                    electrums = coins_config_ssl[coin]['electrum']
+            for i in coins_config[coin]["electrum"]:
+                if "gui_auth" in i:
+                    if i["gui_auth"] == True:
+                        continue
+                if item_exists(i, electrums) == False:
+                    if 'protocol' in i:
+                        # SSL is ok for legacy desktop so we allow them, else some coins with only SSL will be omited.
+                        if i['protocol'] != "WSS":
+                            electrums.append(i)
+                    else:
+                        electrums.append(i)
+     
+            coins_config_tcp[coin]['electrum'] = electrums[:3]
+            if len(coins_config_tcp[coin]['electrum']) == 0:
+                del coins_config_tcp[coin]
+
+    with open("coins_config_tcp.json", "w+") as f:
+        json.dump(coins_config_tcp, f, indent=4)
+    return coins_config_tcp
+
+
+def filter_wss(coins_config):
+    coins_config_wss = {}
+    for coin in coins_config:
+        coins_config_wss.update({coin: coins_config[coin]})
+        if "electrum" in coins_config[coin]:
+            electrums = []
+            for i in coins_config[coin]["electrum"]:
+                if "ws_url" in i:
+                    electrums.append({
+                        "url": i["ws_url"],
+                        "protocol": "WSS"
+                    })                        
+            coins_config_wss[coin]['electrum'] = electrums[:3]
+            if len(coins_config_wss[coin]['electrum']) == 0:
+                del coins_config_wss[coin]
+        
+    with open("coins_config_wss.json", "w+") as f:
+        json.dump(coins_config_wss, f, indent=4)
+    return coins_config_wss
+
+
+
 if __name__ == "__main__":
-    coins_config = parse_coins_repo()
+    coins_config, nodata = parse_coins_repo()
     with open("coins_config.json", "w+") as f:
         json.dump(coins_config, f, indent=4)
+    coins_config_ssl = filter_ssl(deepcopy(coins_config))
+    coins_config_wss = filter_wss(deepcopy(coins_config))
+    coins_config_tcp = filter_tcp(deepcopy(coins_config), coins_config_ssl)
+    for coin in coins_config:
+        if coin in coins_config_ssl and coin in coins_config_ssl and coin in coins_config_ssl:
+            color = "green"
+        else:
+            color = "blue"
+        print(colorize(f"{coin}: [SSL {coin in coins_config_ssl}] [TCP {coin in coins_config_tcp}] [WSS {coin in coins_config_wss}]", color))
+    for coin in nodata:
+        print(colorize(f"{coin}: [SSL False] [TCP False] [WSS False]", "red"))
+    print()
+    print(f"Total coins: {len(coins_config)}")
+    print(f"Total coins with SSL: {len(coins_config_ssl)}")
+    print(f"Total coins with TCP: {len(coins_config_tcp)}")
+    print(f"Total coins with WSS: {len(coins_config_wss)}")

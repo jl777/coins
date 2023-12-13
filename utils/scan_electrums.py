@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import sys
 import ssl
 import json
 import time
@@ -184,9 +185,13 @@ def get_repo_electrums():
     electrum_coins = [f for f in os.listdir(f"{repo_path}/electrums") if os.path.isfile(f"{repo_path}/electrums/{f}")]
     repo_electrums = {}
     for coin in electrum_coins:
-        with open(f"../electrums/{coin}", "r") as f:
-            electrums = json.load(f)
-            repo_electrums.update({coin: electrums})
+        try:
+            with open(f"../electrums/{coin}", "r") as f:
+                electrums = json.load(f)
+                repo_electrums.update({coin: electrums})
+        except json.decoder.JSONDecodeError:
+            print(f"{coin} electrums failed to parse, exiting.")
+            sys.exit(1)
     return repo_electrums
 
 
