@@ -2329,10 +2329,6 @@
                 "protocol": "WSS"
             },
             {
-                "url": "electrum-eu.avn.network:50003",
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrum-us.avn.network:50003",
                 "protocol": "WSS"
             }
@@ -5465,6 +5461,10 @@
         },
         "derivation_path": "m/44'/177'",
         "electrum": [
+            {
+                "url": "electrum1.btcz.rocks:50004",
+                "protocol": "WSS"
+            },
             {
                 "url": "electrum2.btcz.rocks:50004",
                 "protocol": "WSS"
