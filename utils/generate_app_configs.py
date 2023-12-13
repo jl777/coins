@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import os
-import sys
 import time
 import json
 from copy import deepcopy
@@ -18,6 +17,17 @@ lightwallet_coins = [f for f in os.listdir(f"{repo_path}/light_wallet_d") if os.
 electrum_coins = [f for f in os.listdir(f"{repo_path}/electrums") if os.path.isfile(f"{repo_path}/electrums/{f}")]
 ethereum_coins = [f for f in os.listdir(f"{repo_path}/ethereum") if os.path.isfile(f"{repo_path}/ethereum/{f}")]
 explorer_coins = [f for f in os.listdir(f"{repo_path}/explorers") if os.path.isfile(f"{repo_path}/explorers/{f}")]
+
+binance_quote_tickers = [
+    "BTC", "ETH", "BUSD",
+    "BNB", "USDT", "USDC",
+    "BIDR", "XRP", "BKRW",
+    "DUSD", "DOGE", "TRX",
+    "TRY", "EUR", "BRL",
+    "GBP", "TUSD", "PAX",
+    "AUD", "RUB", "NGN",
+    "UAH"
+]
 
 get_electrums_report()
 with open("electrum_scan_report.json", "r") as f:
@@ -589,12 +599,49 @@ def filter_wss(coins_config):
         json.dump(coins_config_wss, f, indent=4)
     return coins_config_wss
 
+def generate_binance_api_ids(coins_config):
+    mm2_coins = coins_config.keys()
+    r = requests.get("https://api.binance.com/api/v3/ticker/price")
+    binance_tickers = r.json()
+    pairs = []
+    for ticker in binance_tickers:
+        pair = ticker["symbol"]
+        for quote in binance_quote_tickers:
+            if ticker["symbol"].startswith(quote):
+                pair = (quote, ticker["symbol"].replace(quote, ""))
+                break
+            elif ticker["symbol"].endswith(quote):
+                pair = (ticker["symbol"].replace(quote, ""), quote)
+                break
+        pairs.append(pair)
+    unknown_ids = [i for i in pairs if isinstance(i, str)]
+    known_ids = [i for i in pairs if isinstance(i, tuple)]
 
+    if unknown_ids:
+        print(f"Unknown ids: {unknown_ids}")
+
+    api_ids = {}
+    known_id_coins = list(set(
+        [i[0] for i in known_ids]
+        + [i[1] for i in known_ids]
+    ))
+    for coin in mm2_coins:
+        if coin.split("-")[0] in known_id_coins:
+            api_ids.update({coin: coin.split("-")[0]})
+
+    with open('../api_ids/binance_ids.json', 'w') as f:
+        json.dump(api_ids, f, indent=4)
+
+    # To use for candlestick data, reference api_ids/binance_ids.json 
+    # to get the base and quote id for a pair then concatentate them with no separator
+    # Example candlestick url: https://api.binance.com/api/v3/klines?symbol=BNBBTC&interval=1d&limit=1000
+    # Valid interval values are listed at https://binance-docs.github.io/apidocs/spot/en/#public-api-definitions
 
 if __name__ == "__main__":
     coins_config, nodata = parse_coins_repo()
     with open("coins_config.json", "w+") as f:
         json.dump(coins_config, f, indent=4)
+    generate_binance_api_ids(coins_config)
     coins_config_ssl = filter_ssl(deepcopy(coins_config))
     coins_config_wss = filter_wss(deepcopy(coins_config))
     coins_config_tcp = filter_tcp(deepcopy(coins_config), coins_config_ssl)
