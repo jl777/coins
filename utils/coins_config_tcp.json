@@ -2224,16 +2224,6 @@
                 "ws_url": "electrum-ca.avn.network:50003"
             },
             {
-                "url": "electrum-eu.avn.network:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@avn.network"
-                    }
-                ],
-                "ws_url": "electrum-eu.avn.network:50003"
-            },
-            {
                 "url": "electrum-us.avn.network:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -2242,6 +2232,14 @@
                     }
                 ],
                 "ws_url": "electrum-us.avn.network:50003"
+            },
+            {
+                "url": "electrum-ca.avn.network:50001",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -5510,6 +5508,15 @@
         },
         "derivation_path": "m/44'/177'",
         "electrum": [
+            {
+                "url": "electrum1.btcz.rocks:50001",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "ws_url": "electrum1.btcz.rocks:50004"
+            },
             {
                 "url": "electrum2.btcz.rocks:50001",
                 "contact": [
@@ -33346,6 +33353,11 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
