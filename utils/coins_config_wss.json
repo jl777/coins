@@ -2329,10 +2329,6 @@
                 "protocol": "WSS"
             },
             {
-                "url": "electrum-eu.avn.network:50003",
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrum-us.avn.network:50003",
                 "protocol": "WSS"
             }
@@ -5465,6 +5461,10 @@
         },
         "derivation_path": "m/44'/177'",
         "electrum": [
+            {
+                "url": "electrum1.btcz.rocks:50004",
+                "protocol": "WSS"
+            },
             {
                 "url": "electrum2.btcz.rocks:50004",
                 "protocol": "WSS"
@@ -19633,7 +19633,7 @@
         "type": "Smart Chain",
         "name": "Marmara Credit Loops",
         "coinpaprika_id": "mcl-marmara-credit-loops",
-        "coingecko_id": "",
+        "coingecko_id": "marmara-credit-loops",
         "livecoinwatch_id": "_MCL",
         "explorer_url": "https://explorer.marmara.io/",
         "explorer_tx_url": "",
@@ -23562,14 +23562,6 @@
         "electrum": [
             {
                 "url": "electrum01.reddcoin.com:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum02.reddcoin.com:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum03.reddcoin.com:50004",
                 "protocol": "WSS"
             }
         ],

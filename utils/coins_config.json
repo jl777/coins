@@ -2403,14 +2403,6 @@
                 ]
             },
             {
-                "url": "electrum-eu.avn.network:50001",
-                "contact": [
-                    {
-                        "email": "contact@avn.network"
-                    }
-                ]
-            },
-            {
                 "url": "electrum-us.avn.network:50001",
                 "contact": [
                     {
@@ -2427,16 +2419,6 @@
                     }
                 ],
                 "ws_url": "electrum-ca.avn.network:50003"
-            },
-            {
-                "url": "electrum-eu.avn.network:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@avn.network"
-                    }
-                ],
-                "ws_url": "electrum-eu.avn.network:50003"
             },
             {
                 "url": "electrum-us.avn.network:50002",
@@ -6063,6 +6045,15 @@
         },
         "derivation_path": "m/44'/177'",
         "electrum": [
+            {
+                "url": "electrum1.btcz.rocks:50001",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "ws_url": "electrum1.btcz.rocks:50004"
+            },
             {
                 "url": "electrum2.btcz.rocks:50001",
                 "contact": [
@@ -22696,7 +22687,7 @@
         "type": "Smart Chain",
         "name": "Marmara Credit Loops",
         "coinpaprika_id": "mcl-marmara-credit-loops",
-        "coingecko_id": "",
+        "coingecko_id": "marmara-credit-loops",
         "livecoinwatch_id": "_MCL",
         "explorer_url": "https://explorer.marmara.io/",
         "explorer_tx_url": "",
@@ -27836,16 +27827,6 @@
                 "url": "electrum01.reddcoin.com:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum01.reddcoin.com:50004"
-            },
-            {
-                "url": "electrum02.reddcoin.com:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum02.reddcoin.com:50004"
-            },
-            {
-                "url": "electrum03.reddcoin.com:50002",
-                "protocol": "SSL",
-                "ws_url": "electrum03.reddcoin.com:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -37500,6 +37481,11 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block.dws?"
