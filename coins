@@ -3621,6 +3621,29 @@
     },
     "derivation_path": "m/44'/714'"
   },
+    {
+    "coin": "DIAC",
+    "name": "diabasecore",
+    "fname": "Diabase",
+    "confpath": "USERHOME/.diabasecore/diabase.conf",
+    "rpcport": 7676,
+    "pubtype": 76,
+    "p2shtype": 16,
+    "wiftype": 204,
+    "txfee": 1000,
+    "force_min_relay_fee": true,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 90,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/5'",
+    "links": {
+      "github": "https://github.com/diabasecoin/diabase",
+      "homepage": "https://www.diabasecoin.com"
+    }
+  },
   {
     "coin": "DIMI",
     "name": "diminutivecoin",
