@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/ca751403e61f241a2ae7cd4831aa613d4d0f8c5bec41c0b75f6d7fbed9036c6e)  
+[maker payment (DIAC)](http://explorer.diabasecoin.com/tx/8cc64db00b1bec5dc79e9ae5de0905b9cc060b102975dd9f465b18e0957a2b77)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/c55ad67bd816536d55f382ba87d2405a834e6fea6c7d750f621e4564137a9ca0)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/fba1addea1e244e81ef3792976e98e54219dfcae6fa7de8ac4ca914673edf87a)  
+[maker payment spent (DIAC)](http://explorer.diabasecoin.com/tx/3e108a7c4e865a3689e2a3de102f12246a627e1251656772ac7e38f756aa6205)  
