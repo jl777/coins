@@ -2224,6 +2224,16 @@
                 "ws_url": "electrum-ca.avn.network:50003"
             },
             {
+                "url": "electrum-eu.avn.network:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ],
+                "ws_url": "electrum-eu.avn.network:50003"
+            },
+            {
                 "url": "electrum-us.avn.network:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -2232,14 +2242,6 @@
                     }
                 ],
                 "ws_url": "electrum-us.avn.network:50003"
-            },
-            {
-                "url": "electrum-ca.avn.network:50001",
-                "contact": [
-                    {
-                        "email": "contact@avn.network"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -9300,6 +9302,60 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
+    "DIAC": {
+        "coin": "DIAC",
+        "type": "UTXO",
+        "name": "Diabase",
+        "coinpaprika_id": "diac-diabase",
+        "coingecko_id": "diabase",
+        "livecoinwatch_id": "DIAC",
+        "explorer_url": "http://explorer.diabasecoin.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Diabase",
+        "confpath": "USERHOME/.diabasecore/diabase.conf",
+        "rpcport": 7676,
+        "pubtype": 76,
+        "p2shtype": 16,
+        "wiftype": 204,
+        "txfee": 1000,
+        "force_min_relay_fee": true,
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 90,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/5'",
+        "links": {
+            "github": "https://github.com/diabasecoin/diabase",
+            "homepage": "https://www.diabasecoin.com"
+        },
+        "electrum": [
+            {
+                "url": "electrumx1.diabasecoin.com:10002",
+                "contact": [
+                    {
+                        "github": "diabasecoin"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.diabasecoin.com:10002",
+                "contact": [
+                    {
+                        "github": "diabasecoin"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "DIMI-BEP20": {
@@ -24647,6 +24703,16 @@
                 "url": "electrum01.reddcoin.com:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum01.reddcoin.com:50004"
+            },
+            {
+                "url": "electrum02.reddcoin.com:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum02.reddcoin.com:50004"
+            },
+            {
+                "url": "electrum03.reddcoin.com:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum03.reddcoin.com:50004"
             }
         ],
         "explorer_block_url": "block/"
@@ -27761,19 +27827,6 @@
                     }
                 ],
                 "ws_url": "1.eu.tokel.electrum.dexstats.info:9077"
-            },
-            {
-                "url": "2.eu.tokel.electrum.dexstats.info:11077",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ],
-                "ws_url": "2.eu.tokel.electrum.dexstats.info:9077"
             },
             {
                 "url": "1.eu.tokel.electrum.dexstats.info:10077",
@@ -30936,47 +30989,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "VPRM": {
-        "coin": "VPRM",
-        "type": "Smart Chain",
-        "name": "Vaporum",
-        "coinpaprika_id": "vprm-vaporum-coin",
-        "coingecko_id": "vaporum-coin",
-        "livecoinwatch_id": "VPRM",
-        "explorer_url": "http://explorer.vaporumcoin.us/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "VPRM",
-        "fname": "Vaporum",
-        "rpcport": 51609,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 30,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "electrumx2.vaporumcoin.us:50001",
-                "contact": [
-                    {
-                        "github": "VaporumCoin"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "VTC": {
         "coin": "VTC",
         "type": "UTXO",
@@ -33343,11 +33355,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": false
-            },
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
@@ -35807,15 +35814,6 @@
             },
             {
                 "url": "electrs.electroncash.de:60002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
-                "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
