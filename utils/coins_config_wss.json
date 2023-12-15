@@ -2329,6 +2329,10 @@
                 "protocol": "WSS"
             },
             {
+                "url": "electrum-eu.avn.network:50003",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum-us.avn.network:50003",
                 "protocol": "WSS"
             }
@@ -23563,6 +23567,14 @@
             {
                 "url": "electrum01.reddcoin.com:50004",
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrum02.reddcoin.com:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum03.reddcoin.com:50004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -26536,10 +26548,6 @@
         "electrum": [
             {
                 "url": "1.eu.tokel.electrum.dexstats.info:9077",
-                "protocol": "WSS"
-            },
-            {
-                "url": "2.eu.tokel.electrum.dexstats.info:9077",
                 "protocol": "WSS"
             }
         ],
