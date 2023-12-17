@@ -4,5 +4,11 @@
         "protocol": "SSL",
         "disable_cert_verification": false,
         "ws_url": "sumpos.electrum-sum.org:50004"
+    },
+    {
+        "url": "sumpos2.electrum-sum.org:50002",
+        "protocol": "SSL",
+        "disable_cert_verification": false,
+        "ws_url": "sumpos2.electrum-sum.org:50004"
     }
 ]
