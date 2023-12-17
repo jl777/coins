@@ -14,5 +14,13 @@
       { "github": "https://github.com/kiirocoin/electrum-kiiro/issues" }
     ],
     "ws_url": "electrum2.kiirocoin.org:50004"
+  },
+  {
+    "url": "electrum3.kiirocoin.org:50002",
+    "protocol": "SSL",
+    "contact": [
+      { "github": "https://github.com/kiirocoin/electrum-kiiro/issues" }
+    ],
+    "ws_url": "electrum3.kiirocoin.org:50004"
   }
 ]
