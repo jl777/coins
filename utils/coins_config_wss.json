@@ -9110,6 +9110,48 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "DIMI": {
+        "coin": "DIMI",
+        "type": "UTXO",
+        "name": "Diminutive Coin",
+        "coinpaprika_id": "dimi-diminutive-coin",
+        "coingecko_id": "diminutive-coin",
+        "livecoinwatch_id": "DIMI",
+        "explorer_url": "https://explorer.diminutivecoin.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Diminutive Coin",
+        "rpcport": 49122,
+        "pubtype": 32,
+        "p2shtype": 30,
+        "wiftype": 181,
+        "isPoS": 1,
+        "txfee": 1000,
+        "segwit": false,
+        "mm2": 1,
+        "mature_confirmations": 75,
+        "required_confirmations": 7,
+        "avg_blocktime": 75,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx1.diminutivecoin.com:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumx2.diminutivecoin.com:50013",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "DIMI-BEP20": {
         "coin": "DIMI-BEP20",
         "type": "BEP-20",
@@ -21893,6 +21935,10 @@
             {
                 "url": "pot-duo.ewmcx.net:50013",
                 "protocol": "WSS"
+            },
+            {
+                "url": "pot-uno.ewmcx.net:50003",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -25386,6 +25432,10 @@
             {
                 "url": "sumpos.electrum-sum.org:50004",
                 "protocol": "WSS"
+            },
+            {
+                "url": "sumpos2.electrum-sum.org:50004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -27619,6 +27669,10 @@
         "electrum": [
             {
                 "url": "failover.trc-uis.ewmcx.biz:50003",
+                "protocol": "WSS"
+            },
+            {
+                "url": "uis-uno.ewmcx.net:50003",
                 "protocol": "WSS"
             }
         ],
@@ -31132,6 +31186,10 @@
         "electrum": [
             {
                 "url": "electrumx1.vanillacash.info:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumx2.vanillacash.info:50013",
                 "protocol": "WSS"
             }
         ],
@@ -34977,6 +35035,10 @@
         "electrum": [
             {
                 "url": "electrum1.kiirocoin.org:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum3.kiirocoin.org:50004",
                 "protocol": "WSS"
             }
         ],
