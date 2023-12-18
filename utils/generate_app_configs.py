@@ -11,6 +11,13 @@ script_path = os.path.abspath(os.path.dirname(__file__))
 repo_path = script_path.replace("/utils", "")
 os.chdir(script_path)
 
+BINANCE_DELISTED_COINS = [
+    "GRS", "NAV", "BTT",
+    "BUSD", "MC", "MIR",
+    "PAX", "SRM", "VIA"
+    "YFII"   
+]
+
 # TODO: Check all coins have an icon.
 icons = [
     f
@@ -664,8 +671,10 @@ def generate_binance_api_ids(coins_config):
     api_ids = {}
     known_id_coins = list(set([i[0] for i in known_ids] + [i[1] for i in known_ids]))
     for coin in mm2_coins:
-        if coin.split("-")[0] in known_id_coins:
-            api_ids.update({coin: coin.split("-")[0]})
+        ticker = coin.split("-")[0]
+        if ticker in known_id_coins:
+            if ticker not in BINANCE_DELISTED_COINS:
+                api_ids.update({coin: ticker})
 
     with open("../api_ids/binance_ids.json", "w") as f:
         json.dump(api_ids, f, indent=4)
