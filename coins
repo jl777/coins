@@ -5524,37 +5524,6 @@
     }
   },
   {
-    "coin": "GRS-segwit",
-    "name": "groestlcoin",
-    "fname": "Groestlcoin",
-    "sign_message_prefix": "GroestCoin Signed Message:\n",
-    "rpcport": 1441,
-    "pubtype": 36,
-    "p2shtype": 5,
-    "wiftype": 128,
-    "txfee": 10000,
-    "dust": 10000,
-    "segwit": true,
-    "bech32_hrp": "grs",
-    "address_format": {
-      "format": "segwit"
-    },
-    "orderbook_ticker": "GRS",
-    "mm2": 1,
-    "wallet_only": true,
-    "required_confirmations": 5,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/17'",
-    "trezor_coin": "Groestlcoin",
-    "links": {
-      "github": "https://github.com/Groestlcoin/groestlcoin",
-      "homepage": "https://www.groestlcoin.org"
-    }
-  },
-  {
     "coin": "GRT-AVX20",
     "name": "grt_avx20",
     "fname": "The Graph",
@@ -7557,50 +7526,6 @@
     }
   },
   {
-    "coin": "LTFN",
-    "name": "litecoinfinance",
-    "fname": "Litecoin Finance",
-    "rpcport": 39327,
-    "txversion": 2,
-    "pubtype": 28,
-    "p2shtype": 53,
-    "wiftype": 176,
-    "fork_id": "0x2A40",
-    "txfee": 20000,
-    "segwit": true,
-    "bech32_hrp": "ltfn",
-    "mm2": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 150,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
-    "coin": "LTFN-segwit",
-    "name": "litecoinfinance",
-    "fname": "Litecoin Finance",
-    "rpcport": 39327,
-    "txversion": 2,
-    "pubtype": 28,
-    "p2shtype": 53,
-    "wiftype": 176,
-    "fork_id": "0x2A40",
-    "txfee": 20000,
-    "segwit": true,
-    "bech32_hrp": "ltfn",
-    "address_format": {
-      "format": "segwit"
-    },
-    "orderbook_ticker": "LTFN",
-    "mm2": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 150,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "LYNX",
     "name": "lynx",
     "fname": "Lynx",
@@ -8898,46 +8823,6 @@
     "derivation_path": "m/44'/966'"
   },
   {
-    "coin": "PIC",
-    "name": "picacoin",
-    "fname": "Picacoin",
-    "rpcport": 4332,
-    "pubtype": 0,
-    "p2shtype": 5,
-    "wiftype": 128,
-    "segwit": true,
-    "bech32_hrp": "bc",
-    "txfee": 0,
-    "mm2": 1,
-    "required_confirmations": 1,
-    "avg_blocktime": 600,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
-    "coin": "PIC-segwit",
-    "name": "picacoin",
-    "fname": "Picacoin",
-    "rpcport": 4332,
-    "pubtype": 0,
-    "p2shtype": 5,
-    "wiftype": 128,
-    "segwit": true,
-    "bech32_hrp": "bc",
-    "address_format": {
-      "format": "segwit"
-    },
-    "orderbook_ticker": "PIC",
-    "txfee": 0,
-    "mm2": 1,
-    "required_confirmations": 1,
-    "avg_blocktime": 600,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "PINK",
     "name": "pink",
     "fname": "Pinkcoin",
@@ -9580,38 +9465,6 @@
     }
   },
   {
-    "coin": "QTUM-segwit",
-    "name": "qtum",
-    "fname": "Qtum",
-    "sign_message_prefix": "Qtum Signed Message:\n",
-    "rpcport": 3889,
-    "pubtype": 58,
-    "p2shtype": 50,
-    "wiftype": 128,
-    "segwit": true,
-    "bech32_hrp": "qc",
-    "address_format": {
-      "format": "segwit"
-    },
-    "orderbook_ticker": "QTUM",
-    "txfee": 0,
-    "dust": 72800,
-    "mm2": 1,
-    "force_min_relay_fee": true,
-    "required_confirmations": 3,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 32,
-    "protocol": {
-      "type": "QTUM"
-    },
-    "derivation_path": "m/44'/2301'",
-    "trezor_coin": "Qtum",
-    "links": {
-      "github": "https://github.com/qtumproject/qtum",
-      "homepage": "https://qtum.org"
-    }
-  },
-  {
     "coin": "QTUM-ERC20",
     "name": "qtum_erc20",
     "fname": "Qtum",
@@ -9647,30 +9500,6 @@
     "bech32_hrp": "tq",
     "txfee": 400000,
     "mm2": 1,
-    "required_confirmations": 1,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 32,
-    "protocol": {
-      "type": "QTUM"
-    }
-  },
-  {
-    "coin": "tQTUM-segwit",
-    "name": "qtumtest",
-    "fname": "QTUM Testnet",
-    "rpcport": 13889,
-    "pubtype": 120,
-    "p2shtype": 110,
-    "wiftype": 239,
-    "segwit": true,
-    "bech32_hrp": "tq",
-    "address_format": {
-      "format": "segwit"
-    },
-    "orderbook_ticker": "tQTUM",
-    "txfee": 400000,
-    "mm2": 1,
-    "is_testnet": true,
     "required_confirmations": 1,
     "mature_confirmations": 2000,
     "avg_blocktime": 32,
@@ -14034,34 +13863,6 @@
     "txfee": 100000,
     "segwit": true,
     "bech32_hrp": "uf",
-    "mm2": 1,
-    "required_confirmations": 6,
-    "avg_blocktime": 1.5,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/202'",
-    "links": {
-      "github": "https://github.com/fiscalobject/ufo",
-      "homepage": "https://ufobject.com"
-    }
-  },
-  {
-    "coin": "UFO-segwit",
-    "name": "ufo",
-    "fname": "Uniform Fiscal Object",
-    "sign_message_prefix": "UFO Signed Message:\n",
-    "rpcport": 8087,
-    "pubtype": 27,
-    "p2shtype": 68,
-    "wiftype": 155,
-    "txfee": 100000,
-    "segwit": true,
-    "bech32_hrp": "uf",
-    "address_format": {
-      "format": "segwit"
-    },
-    "orderbook_ticker": "UFO",
     "mm2": 1,
     "required_confirmations": 6,
     "avg_blocktime": 1.5,
