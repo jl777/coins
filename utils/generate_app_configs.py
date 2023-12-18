@@ -649,7 +649,7 @@ def filter_wss(coins_config):
 
 def generate_binance_api_ids(coins_config):
     mm2_coins = coins_config.keys()
-    r = requests.get("https://api.binance.com/api/v3/ticker/price")
+    r = requests.get("https://test.defi-stats.komodo.earth/api/v3/binance/ticker_price")
     binance_tickers = r.json()
     pairs = []
     for ticker in binance_tickers:
