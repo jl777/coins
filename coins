@@ -2046,28 +2046,6 @@
     }
   },
   {
-    "coin": "BSTY-segwit",
-    "name": "globalboost",
-    "fname": "GlobalBoost-Y",
-    "rpcport": 8225,
-    "pubtype": 77,
-    "p2shtype": 139,
-    "wiftype": 208,
-    "txfee": 200000,
-    "segwit": true,
-    "bech32_hrp": "gb",
-    "address_format": {
-      "format": "segwit"
-    },
-    "orderbook_ticker": "BSTY",
-    "mm2": 1,
-    "required_confirmations": 1,
-    "avg_blocktime": 600,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "BTC",
     "name": "bitcoin",
     "fname": "Bitcoin",
@@ -2080,6 +2058,7 @@
     "txfee": 0,
     "estimate_fee_mode": "ECONOMICAL",
     "mm2": 1,
+    "wallet_only": true,
     "sign_message_prefix": "Bitcoin Signed Message:\n",
     "required_confirmations": 1,
     "avg_blocktime": 600,
@@ -2193,6 +2172,7 @@
     "bech32_hrp": "web",
     "txfee": 20000,
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 3,
     "avg_blocktime": 60,
     "protocol": {
@@ -2313,6 +2293,7 @@
     "bech32_hrp": "btx",
     "txfee": 20000,
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 3,
     "avg_blocktime": 150,
     "protocol": {
@@ -2596,6 +2577,7 @@
     "segwit": true,
     "bech32_hrp": "cdn",
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 2,
     "avg_blocktime": 300,
     "protocol": {
@@ -3215,6 +3197,7 @@
     "segwit": true,
     "bech32_hrp": "cy",
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 2,
     "avg_blocktime": 60,
     "protocol": {
@@ -3524,6 +3507,7 @@
     "segwit": true,
     "bech32_hrp": "dgb",
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 7,
     "avg_blocktime": 15,
     "protocol": {
@@ -4691,6 +4675,7 @@
     "bech32_hrp": "fc",
     "txfee": 0,
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 3,
     "avg_blocktime": 60,
     "protocol": {
@@ -4857,6 +4842,7 @@
     "segwit": true,
     "bech32_hrp": "fc",
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 5,
     "avg_blocktime": 60,
     "protocol": {
@@ -5524,37 +5510,6 @@
     }
   },
   {
-    "coin": "GRS-segwit",
-    "name": "groestlcoin",
-    "fname": "Groestlcoin",
-    "sign_message_prefix": "GroestCoin Signed Message:\n",
-    "rpcport": 1441,
-    "pubtype": 36,
-    "p2shtype": 5,
-    "wiftype": 128,
-    "txfee": 10000,
-    "dust": 10000,
-    "segwit": true,
-    "bech32_hrp": "grs",
-    "address_format": {
-      "format": "segwit"
-    },
-    "orderbook_ticker": "GRS",
-    "mm2": 1,
-    "wallet_only": true,
-    "required_confirmations": 5,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/17'",
-    "trezor_coin": "Groestlcoin",
-    "links": {
-      "github": "https://github.com/Groestlcoin/groestlcoin",
-      "homepage": "https://www.groestlcoin.org"
-    }
-  },
-  {
     "coin": "GRT-AVX20",
     "name": "grt_avx20",
     "fname": "The Graph",
@@ -5888,24 +5843,6 @@
       }
     },
     "derivation_path": "m/44'/966'"
-  },
-  {
-    "coin": "IC",
-    "name": "ignition",
-    "fname": "Ignition",
-    "rpcport": 44155,
-    "pubtype": 103,
-    "p2shtype": 39,
-    "wiftype": 138,
-    "txfee": 1000,
-    "dust": 1000,
-    "isPoS": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "avg_blocktime": 240,
-    "protocol": {
-      "type": "UTXO"
-    }
   },
   {
     "coin": "IL8P",
@@ -6985,6 +6922,7 @@
     "segwit": true,
     "bech32_hrp": "lbc",
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 3,
     "avg_blocktime": 150,
     "protocol": {
@@ -7009,6 +6947,7 @@
     },
     "orderbook_ticker": "LBC",
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 3,
     "avg_blocktime": 150,
     "protocol": {
@@ -7390,6 +7329,7 @@
     "segwit": true,
     "bech32_hrp": "wc",
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 2,
     "avg_blocktime": 30,
     "protocol": {
@@ -7514,6 +7454,7 @@
     "segwit": true,
     "bech32_hrp": "ltc",
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 2,
     "avg_blocktime": 150,
     "protocol": {
@@ -7554,50 +7495,6 @@
     "links": {
       "github": "https://github.com/litecoin-project/litecoin",
       "homepage": "https://litecoin.org"
-    }
-  },
-  {
-    "coin": "LTFN",
-    "name": "litecoinfinance",
-    "fname": "Litecoin Finance",
-    "rpcport": 39327,
-    "txversion": 2,
-    "pubtype": 28,
-    "p2shtype": 53,
-    "wiftype": 176,
-    "fork_id": "0x2A40",
-    "txfee": 20000,
-    "segwit": true,
-    "bech32_hrp": "ltfn",
-    "mm2": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 150,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
-    "coin": "LTFN-segwit",
-    "name": "litecoinfinance",
-    "fname": "Litecoin Finance",
-    "rpcport": 39327,
-    "txversion": 2,
-    "pubtype": 28,
-    "p2shtype": 53,
-    "wiftype": 176,
-    "fork_id": "0x2A40",
-    "txfee": 20000,
-    "segwit": true,
-    "bech32_hrp": "ltfn",
-    "address_format": {
-      "format": "segwit"
-    },
-    "orderbook_ticker": "LTFN",
-    "mm2": 1,
-    "required_confirmations": 3,
-    "avg_blocktime": 150,
-    "protocol": {
-      "type": "UTXO"
     }
   },
   {
@@ -8216,6 +8113,7 @@
     "segwit": true,
     "bech32_hrp": "mona",
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 5,
     "avg_blocktime": 90,
     "protocol": {
@@ -8460,6 +8358,7 @@
     "segwit": true,
     "bech32_hrp": "nc",
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 2,
     "avg_blocktime": 600,
     "protocol": {
@@ -8896,46 +8795,6 @@
       }
     },
     "derivation_path": "m/44'/966'"
-  },
-  {
-    "coin": "PIC",
-    "name": "picacoin",
-    "fname": "Picacoin",
-    "rpcport": 4332,
-    "pubtype": 0,
-    "p2shtype": 5,
-    "wiftype": 128,
-    "segwit": true,
-    "bech32_hrp": "bc",
-    "txfee": 0,
-    "mm2": 1,
-    "required_confirmations": 1,
-    "avg_blocktime": 600,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
-    "coin": "PIC-segwit",
-    "name": "picacoin",
-    "fname": "Picacoin",
-    "rpcport": 4332,
-    "pubtype": 0,
-    "p2shtype": 5,
-    "wiftype": 128,
-    "segwit": true,
-    "bech32_hrp": "bc",
-    "address_format": {
-      "format": "segwit"
-    },
-    "orderbook_ticker": "PIC",
-    "txfee": 0,
-    "mm2": 1,
-    "required_confirmations": 1,
-    "avg_blocktime": 600,
-    "protocol": {
-      "type": "UTXO"
-    }
   },
   {
     "coin": "PINK",
@@ -9580,38 +9439,6 @@
     }
   },
   {
-    "coin": "QTUM-segwit",
-    "name": "qtum",
-    "fname": "Qtum",
-    "sign_message_prefix": "Qtum Signed Message:\n",
-    "rpcport": 3889,
-    "pubtype": 58,
-    "p2shtype": 50,
-    "wiftype": 128,
-    "segwit": true,
-    "bech32_hrp": "qc",
-    "address_format": {
-      "format": "segwit"
-    },
-    "orderbook_ticker": "QTUM",
-    "txfee": 0,
-    "dust": 72800,
-    "mm2": 1,
-    "force_min_relay_fee": true,
-    "required_confirmations": 3,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 32,
-    "protocol": {
-      "type": "QTUM"
-    },
-    "derivation_path": "m/44'/2301'",
-    "trezor_coin": "Qtum",
-    "links": {
-      "github": "https://github.com/qtumproject/qtum",
-      "homepage": "https://qtum.org"
-    }
-  },
-  {
     "coin": "QTUM-ERC20",
     "name": "qtum_erc20",
     "fname": "Qtum",
@@ -9647,30 +9474,6 @@
     "bech32_hrp": "tq",
     "txfee": 400000,
     "mm2": 1,
-    "required_confirmations": 1,
-    "mature_confirmations": 2000,
-    "avg_blocktime": 32,
-    "protocol": {
-      "type": "QTUM"
-    }
-  },
-  {
-    "coin": "tQTUM-segwit",
-    "name": "qtumtest",
-    "fname": "QTUM Testnet",
-    "rpcport": 13889,
-    "pubtype": 120,
-    "p2shtype": 110,
-    "wiftype": 239,
-    "segwit": true,
-    "bech32_hrp": "tq",
-    "address_format": {
-      "format": "segwit"
-    },
-    "orderbook_ticker": "tQTUM",
-    "txfee": 400000,
-    "mm2": 1,
-    "is_testnet": true,
     "required_confirmations": 1,
     "mature_confirmations": 2000,
     "avg_blocktime": 32,
@@ -9821,6 +9624,7 @@
     "bech32_hrp": "ric",
     "txfee": 0,
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 4,
     "avg_blocktime": 150,
     "protocol": {
@@ -9850,24 +9654,6 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/143'"
-  },
-  {
-    "coin": "NFTX",
-    "asset": "NFTX",
-    "fname": "NFTX",
-    "rpcport": 53959,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "required_confirmations": 4,
-    "requires_notarization": false,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
   },
   {
     "coin": "DOC",
@@ -10687,6 +10473,7 @@
     "required_confirmations": 5,
     "avg_blocktime": 60,
     "mm2": 1,
+    "wallet_only": true,
     "protocol": {
       "type": "UTXO"
     },
@@ -10776,6 +10563,7 @@
     "txfee": 0,
     "estimate_fee_mode": "ECONOMICAL",
     "mm2": 1,
+    "wallet_only": true,
     "is_testnet": true,
     "required_confirmations": 0,
     "protocol": {
@@ -12097,37 +11885,6 @@
     }
   },
   {
-    "coin": "VIA-segwit",
-    "name": "viacoin",
-    "fname": "Viacoin",
-    "sign_message_prefix": "Viacoin Signed Message:\n",
-    "rpcport": 5222,
-    "pubtype": 71,
-    "p2shtype": 33,
-    "wiftype": 199,
-    "txfee": 100000,
-    "dust": 54600,
-    "required_confirmations": 7,
-    "mature_confirmations": 3600,
-    "avg_blocktime": 24,
-    "segwit": true,
-    "bech32_hrp": "via",
-    "address_format": {
-      "format": "segwit"
-    },
-    "orderbook_ticker": "VIA",
-    "mm2": 1,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/14'",
-    "trezor_coin": "Viacoin",
-    "links": {
-      "github": "https://github.com/viacoin",
-      "homepage": "https://viacoin.org"
-    }
-  },
-  {
     "coin": "VITE-BEP20",
     "name": "vite_bep20",
     "fname": "Vite",
@@ -12228,6 +11985,7 @@
     "segwit": true,
     "bech32_hrp": "vtc",
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 4,
     "avg_blocktime": 150,
     "protocol": {
@@ -12596,6 +12354,7 @@
     "segwit": true,
     "bech32_hrp": "my",
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 3,
     "avg_blocktime": 240,
     "protocol": {
@@ -14047,34 +13806,6 @@
     }
   },
   {
-    "coin": "UFO-segwit",
-    "name": "ufo",
-    "fname": "Uniform Fiscal Object",
-    "sign_message_prefix": "UFO Signed Message:\n",
-    "rpcport": 8087,
-    "pubtype": 27,
-    "p2shtype": 68,
-    "wiftype": 155,
-    "txfee": 100000,
-    "segwit": true,
-    "bech32_hrp": "uf",
-    "address_format": {
-      "format": "segwit"
-    },
-    "orderbook_ticker": "UFO",
-    "mm2": 1,
-    "required_confirmations": 6,
-    "avg_blocktime": 1.5,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/202'",
-    "links": {
-      "github": "https://github.com/fiscalobject/ufo",
-      "homepage": "https://ufobject.com"
-    }
-  },
-  {
     "coin": "USBL",
     "name": "bitdollar",
     "fname": "Balanced Dollar",
@@ -14120,6 +13851,7 @@
     "segwit": true,
     "bech32_hrp": "wv",
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 1,
     "mature_confirmations": 100,
     "avg_blocktime": 600,
