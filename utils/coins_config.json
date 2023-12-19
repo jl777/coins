@@ -15564,6 +15564,16 @@
                 ]
             },
             {
+                "url": "au.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
                 "url": "electrum.maxpuig.com:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -15572,6 +15582,36 @@
                     }
                 ],
                 "ws_url": "electrum.maxpuig.com:50004"
+            },
+            {
+                "url": "fr.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
+                "url": "pl.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
+                "url": "uk.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -29443,7 +29483,7 @@
         "segwit": false,
         "bech32_hrp": "sum",
         "mm2": 1,
-        "required_confirmations": 2,
+        "required_confirmations": 8,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
@@ -41003,17 +41043,6 @@
         },
         "electrum": [
             {
-                "url": "coin.crionic.org:50001",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
-            },
-            {
                 "url": "explorer.crionic.org:50001",
                 "contact": [
                     {
@@ -41023,19 +41052,6 @@
                         "discord": "Diabaths#1919"
                     }
                 ]
-            },
-            {
-                "url": "coin.crionic.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ],
-                "ws_url": "coin.crionic.org:50005"
             },
             {
                 "url": "explorer.crionic.org:50002",
