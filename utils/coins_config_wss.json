@@ -13723,8 +13723,7 @@
                 "protocol": "WSS"
             }
         ],
-        "explorer_block_url": "block/",
-        "binance_id": "GRS"
+        "explorer_block_url": "block/"
     },
     "GRT-AVX20": {
         "coin": "GRT-AVX20",
@@ -20524,8 +20523,7 @@
                 "protocol": "WSS"
             }
         ],
-        "explorer_block_url": "block/",
-        "binance_id": "NAV"
+        "explorer_block_url": "block/"
     },
     "NAV-BEP20": {
         "coin": "NAV-BEP20",
@@ -20577,8 +20575,7 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/",
-        "binance_id": "NAV"
+        "explorer_block_url": "block/"
     },
     "NEAR-BEP20": {
         "coin": "NEAR-BEP20",
@@ -31850,6 +31847,10 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50013",
+                "protocol": "WSS"
+            },
             {
                 "url": "zeta-seed-d.zetacoin.network:50013",
                 "protocol": "WSS"
