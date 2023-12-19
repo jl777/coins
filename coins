@@ -6970,6 +6970,7 @@
     "segwit": true,
     "bech32_hrp": "lcc",
     "mm2": 1,
+    "wallet_only": true,
     "required_confirmations": 4,
     "avg_blocktime": 150,
     "protocol": {
