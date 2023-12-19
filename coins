@@ -10219,7 +10219,7 @@
     "segwit": false, 
     "bech32_hrp": "sum",
     "mm2": 1,
-    "required_confirmations": 2,
+    "required_confirmations": 8,
     "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
