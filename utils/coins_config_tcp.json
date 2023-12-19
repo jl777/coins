@@ -1859,7 +1859,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "ATOM"
     },
     "ATOM-PLG20": {
         "coin": "ATOM-PLG20",
@@ -1906,7 +1907,8 @@
                 "url": "https://polygon.llamarpc.com"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "ATOM"
     },
     "AUR": {
         "coin": "AUR",
@@ -2130,7 +2132,8 @@
                 "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "AVAX"
     },
     "AVAX-BEP20": {
         "coin": "AVAX-BEP20",
@@ -2177,7 +2180,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "AVAX"
     },
     "AVN": {
         "coin": "AVN",
@@ -3437,7 +3441,8 @@
                 "ws_url": "electrum3.cipig.net:30055"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "BCH"
     },
     "USDT-SLP": {
         "coin": "USDT-SLP",
@@ -4007,7 +4012,8 @@
                 }
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "BCH"
     },
     "BCH-BEP20": {
         "coin": "BCH-BEP20",
@@ -4055,7 +4061,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "BCH"
     },
     "BCH-HCO20": {
         "coin": "BCH-HCO20",
@@ -4099,7 +4106,8 @@
                 "url": "https://http-mainnet-node.huobichain.com"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "BCH"
     },
     "BIDR-BEP20": {
         "coin": "BIDR-BEP20",
@@ -4482,7 +4490,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "BNB"
     },
     "BOLI": {
         "coin": "BOLI",
@@ -5217,53 +5226,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "BSTY-segwit": {
-        "coin": "BSTY-segwit",
-        "type": "UTXO",
-        "name": "GlobalBoost-Y",
-        "coinpaprika_id": "bsty-globalboost-y",
-        "coingecko_id": "globalboost",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://insight.globalboost.info/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "GlobalBoost-Y",
-        "rpcport": 8225,
-        "pubtype": 77,
-        "p2shtype": 139,
-        "wiftype": 208,
-        "txfee": 200000,
-        "segwit": true,
-        "bech32_hrp": "gb",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "BSTY",
-        "mm2": 1,
-        "required_confirmations": 1,
-        "avg_blocktime": 600,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "electrumserver01.globalboost.info:50014",
-                "protocol": "SSL",
-                "ws_url": "electrumserver01.globalboost.info:50013"
-            },
-            {
-                "url": "electrumserver02.globalboost.info:50014",
-                "protocol": "SSL",
-                "ws_url": "electrumserver02.globalboost.info:50013"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "BTC": {
         "coin": "BTC",
         "type": "UTXO",
@@ -5278,7 +5240,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "sign_message_prefix": "Bitcoin Signed Message:\n",
         "fname": "Bitcoin",
         "rpcport": 8332,
@@ -5342,7 +5304,8 @@
                 "ws_url": "electrum3.cipig.net:30000"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "BTC"
     },
     "BTC-segwit": {
         "coin": "BTC-segwit",
@@ -5426,7 +5389,8 @@
                 "ws_url": "electrum3.cipig.net:30000"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "BTC"
     },
     "BTC-BEP20": {
         "coin": "BTC-BEP20",
@@ -5473,7 +5437,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "BTC"
     },
     "BTCZ": {
         "coin": "BTCZ",
@@ -5591,7 +5556,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "fname": "Bitweb",
         "rpcport": 1605,
         "pubtype": 33,
@@ -5960,7 +5925,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "fname": "BitCore",
         "rpcport": 9469,
         "pubtype": 3,
@@ -6671,7 +6636,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "sign_message_prefix": "Canada eCoin Signed Message:\n",
         "fname": "Canada eCoin",
         "rpcport": 34330,
@@ -8200,7 +8165,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "sign_message_prefix": "Cyberyen Signed Message:\n",
         "fname": "Cyberyen",
         "rpcport": 58382,
@@ -8726,7 +8691,8 @@
                 "ws_url": "electrum3.cipig.net:30061"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "DASH"
     },
     "DDD-ERC20": {
         "coin": "DDD-ERC20",
@@ -9006,7 +8972,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "sign_message_prefix": "DigiByte Signed Message:\n",
         "fname": "DigiByte",
         "rpcport": 14022,
@@ -9069,7 +9035,8 @@
                 "ws_url": "electrum3.cipig.net:30059"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "DGB"
     },
     "DGB-segwit": {
         "coin": "DGB-segwit",
@@ -9152,7 +9119,8 @@
                 "ws_url": "electrum3.cipig.net:30059"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "DGB"
     },
     "DGC": {
         "coin": "DGC",
@@ -9777,7 +9745,8 @@
                 "ws_url": "electrum3.cipig.net:30060"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "DOGE"
     },
     "DOGE-BEP20": {
         "coin": "DOGE-BEP20",
@@ -9824,7 +9793,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "DOGE"
     },
     "DOGEC": {
         "coin": "DOGEC",
@@ -10815,7 +10785,8 @@
                 "url": "https://besu-de.etc-network.info"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "ETC"
     },
     "ETC-BEP20": {
         "coin": "ETC-BEP20",
@@ -10862,7 +10833,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "ETC"
     },
     "ETH": {
         "coin": "ETH",
@@ -10912,7 +10884,8 @@
                 }
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "ETH"
     },
     "ETH-AVX20": {
         "coin": "ETH-AVX20",
@@ -10956,7 +10929,8 @@
                 "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "ETH"
     },
     "ETH-ARB20": {
         "coin": "ETH-ARB20",
@@ -10989,7 +10963,8 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "ETH"
     },
     "ETH-BEP20": {
         "coin": "ETH-BEP20",
@@ -11036,7 +11011,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "ETH"
     },
     "ETH-FTM20": {
         "coin": "ETH-FTM20",
@@ -11080,7 +11056,8 @@
                 "url": "https://rpc2.fantom.network"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "ETH"
     },
     "ETH-HCO20": {
         "coin": "ETH-HCO20",
@@ -11124,7 +11101,8 @@
                 "url": "https://http-mainnet-node.huobichain.com"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "ETH"
     },
     "ETH-KRC20": {
         "coin": "ETH-KRC20",
@@ -11168,7 +11146,8 @@
                 "url": "https://kcc-rpc.com"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "ETH"
     },
     "ETH-PLG20": {
         "coin": "ETH-PLG20",
@@ -11215,7 +11194,8 @@
                 "url": "https://polygon.llamarpc.com"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "ETH"
     },
     "EURE-ERC20": {
         "coin": "EURE-ERC20",
@@ -12036,7 +12016,8 @@
                 ]
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "FIRO"
     },
     "FIRO-BEP20": {
         "coin": "FIRO-BEP20",
@@ -12083,7 +12064,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "FIRO"
     },
     "FJC": {
         "coin": "FJC",
@@ -12099,7 +12081,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "sign_message_prefix": "FujiCoin Signed Message:\n",
         "fname": "Fujicoin",
         "rpcport": 3776,
@@ -12486,7 +12468,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "sign_message_prefix": "Feathercoin Signed Message:\n",
         "fname": "Feathercoin",
         "rpcport": 9337,
@@ -12706,7 +12688,8 @@
                 "url": "https://rpc2.fantom.network"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "FTM"
     },
     "FTM-BEP20": {
         "coin": "FTM-BEP20",
@@ -12753,7 +12736,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "FTM"
     },
     "FTM-ERC20": {
         "coin": "FTM-ERC20",
@@ -12813,7 +12797,8 @@
                 }
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "FTM"
     },
     "FXS-BEP20": {
         "coin": "FXS-BEP20",
@@ -14246,90 +14231,8 @@
                 ]
             }
         ],
-        "explorer_block_url": "block/"
-    },
-    "GRS-segwit": {
-        "coin": "GRS-segwit",
-        "type": "UTXO",
-        "name": "Groestlcoin",
-        "coinpaprika_id": "grs-groestlcoin",
-        "coingecko_id": "groestlcoin",
-        "livecoinwatch_id": "GRS",
-        "explorer_url": "https://groestlsight.groestlcoin.org/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "sign_message_prefix": "GroestCoin Signed Message:\n",
-        "fname": "Groestlcoin",
-        "rpcport": 1441,
-        "pubtype": 36,
-        "p2shtype": 5,
-        "wiftype": 128,
-        "txfee": 10000,
-        "dust": 10000,
-        "segwit": true,
-        "bech32_hrp": "grs",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "GRS",
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/17'",
-        "trezor_coin": "Groestlcoin",
-        "links": {
-            "github": "https://github.com/Groestlcoin/groestlcoin",
-            "homepage": "https://www.groestlcoin.org"
-        },
-        "electrum": [
-            {
-                "url": "electrum11.groestlcoin.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "ws_url": "electrum11.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.groestlcoin.org:50001",
-                "ws_url": "electrum1.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum12.groestlcoin.org:50001",
-                "ws_url": "electrum12.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "GRS"
     },
     "GRT-AVX20": {
         "coin": "GRT-AVX20",
@@ -17602,7 +17505,8 @@
         ],
         "explorer_block_url": "block/",
         "is_claimable": true,
-        "minimal_claim_amount": "10"
+        "minimal_claim_amount": "10",
+        "binance_id": "KMD"
     },
     "KMD-BEP20": {
         "coin": "KMD-BEP20",
@@ -17649,7 +17553,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "KMD"
     },
     "KNC-BEP20": {
         "coin": "KNC-BEP20",
@@ -18056,7 +17961,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "sign_message_prefix": "LBRYcrd Signed Message:\n",
         "fname": "LBRY Credits",
         "rpcport": 9245,
@@ -18109,7 +18014,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "sign_message_prefix": "LBRYcrd Signed Message:\n",
         "fname": "LBRY Credits",
         "rpcport": 9245,
@@ -18993,7 +18898,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "fname": "Widecoin",
         "rpcport": 8552,
         "pubtype": 73,
@@ -19293,7 +19198,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "sign_message_prefix": "Litecoin Signed Message:\n",
         "fname": "Litecoin",
         "rpcport": 9332,
@@ -19357,7 +19262,8 @@
                 "ws_url": "electrum3.cipig.net:30063"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "LTC"
     },
     "LTC-segwit": {
         "coin": "LTC-segwit",
@@ -19441,7 +19347,8 @@
                 "ws_url": "electrum3.cipig.net:30063"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "LTC"
     },
     "LYNX": {
         "coin": "LYNX",
@@ -19924,7 +19831,8 @@
                 "url": "https://polygon.llamarpc.com"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "MATIC"
     },
     "MATIC-BEP20": {
         "coin": "MATIC-BEP20",
@@ -19971,7 +19879,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "MATIC"
     },
     "MATIC-ERC20": {
         "coin": "MATIC-ERC20",
@@ -20031,7 +19940,8 @@
                 }
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "MATIC"
     },
     "MATIC-HCO20": {
         "coin": "MATIC-HCO20",
@@ -20075,7 +19985,8 @@
                 "url": "https://http-mainnet-node.huobichain.com"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "MATIC"
     },
     "MATIC-KRC20": {
         "coin": "MATIC-KRC20",
@@ -20119,7 +20030,8 @@
                 "url": "https://kcc-rpc.com"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "MATIC"
     },
     "MC-ERC20": {
         "coin": "MC-ERC20",
@@ -21034,7 +20946,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "sign_message_prefix": "Monacoin Signed Message:\n",
         "fname": "MonaCoin",
         "rpcport": 9402,
@@ -21163,7 +21075,8 @@
                 "url": "https://rpc.api.moonriver.moonbeam.network"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "MOVR"
     },
     "GLMR": {
         "coin": "GLMR",
@@ -21204,7 +21117,8 @@
                 "url": "https://moonbeam.public.blastapi.io"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "GLMR"
     },
     "NAV": {
         "coin": "NAV",
@@ -21250,7 +21164,8 @@
                 "ws_url": "electrum3.nav.community:40004"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "NAV"
     },
     "NAV-BEP20": {
         "coin": "NAV-BEP20",
@@ -21298,7 +21213,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "NAV"
     },
     "NEAR-BEP20": {
         "coin": "NEAR-BEP20",
@@ -21647,7 +21563,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "fname": "Namecoin",
         "rpcport": 8336,
         "pubtype": 52,
@@ -22343,7 +22259,8 @@
                 "url": "https://api.s0.t.hmny.io"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "ONE"
     },
     "ONT-BEP20": {
         "coin": "ONT-BEP20",
@@ -22839,7 +22756,8 @@
                 ]
             }
         ],
-        "explorer_block_url": "block.dws?"
+        "explorer_block_url": "block.dws?",
+        "binance_id": "PIVX"
     },
     "PND": {
         "coin": "PND",
@@ -24426,93 +24344,8 @@
                 "ws_url": "electrum3.cipig.net:30050"
             }
         ],
-        "explorer_block_url": "block/"
-    },
-    "QTUM-segwit": {
-        "coin": "QTUM-segwit",
-        "type": "QTUM",
-        "name": "Qtum",
-        "coinpaprika_id": "qtum-qtum",
-        "coingecko_id": "qtum",
-        "livecoinwatch_id": "QTUM",
-        "explorer_url": "https://explorer.qtum.org/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Qtum Signed Message:\n",
-        "fname": "Qtum",
-        "rpcport": 3889,
-        "pubtype": 58,
-        "p2shtype": 50,
-        "wiftype": 128,
-        "segwit": true,
-        "bech32_hrp": "qc",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "QTUM",
-        "txfee": 0,
-        "dust": 72800,
-        "mm2": 1,
-        "force_min_relay_fee": true,
-        "required_confirmations": 3,
-        "mature_confirmations": 2000,
-        "avg_blocktime": 32,
-        "protocol": {
-            "type": "QTUM"
-        },
-        "derivation_path": "m/44'/2301'",
-        "trezor_coin": "Qtum",
-        "links": {
-            "github": "https://github.com/qtumproject/qtum",
-            "homepage": "https://qtum.org"
-        },
-        "electrum": [
-            {
-                "url": "electrum1.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum1.cipig.net:30050"
-            },
-            {
-                "url": "electrum2.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30050"
-            },
-            {
-                "url": "electrum3.cipig.net:20050",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum3.cipig.net:30050"
-            }
-        ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "QTUM"
     },
     "QTUM-ERC20": {
         "coin": "QTUM-ERC20",
@@ -24572,7 +24405,8 @@
                 }
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "QTUM"
     },
     "tQTUM": {
         "coin": "tQTUM",
@@ -24606,83 +24440,6 @@
         },
         "swap_contract_address": "0xba8b71f3544b93e2f681f996da519a98ace0107a",
         "fallback_swap_contract": "0xba8b71f3544b93e2f681f996da519a98ace0107a",
-        "electrum": [
-            {
-                "url": "electrum1.cipig.net:20071",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum1.cipig.net:30071"
-            },
-            {
-                "url": "electrum2.cipig.net:20071",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30071"
-            },
-            {
-                "url": "electrum3.cipig.net:20071",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum3.cipig.net:30071"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "tQTUM-segwit": {
-        "coin": "tQTUM-segwit",
-        "type": "QTUM",
-        "name": "QTUM Testnet",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://testnet.qtum.info/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": true,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "QTUM Testnet",
-        "rpcport": 13889,
-        "pubtype": 120,
-        "p2shtype": 110,
-        "wiftype": 239,
-        "segwit": true,
-        "bech32_hrp": "tq",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "tQTUM",
-        "txfee": 400000,
-        "mm2": 1,
-        "required_confirmations": 1,
-        "mature_confirmations": 2000,
-        "avg_blocktime": 32,
-        "protocol": {
-            "type": "QTUM"
-        },
         "electrum": [
             {
                 "url": "electrum1.cipig.net:20071",
@@ -25689,7 +25446,8 @@
                 "ws_url": "electrum3.cipig.net:30051"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "RVN"
     },
     "SAND-ERC20": {
         "coin": "SAND-ERC20",
@@ -27217,7 +26975,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "sign_message_prefix": "Syscoin Signed Message:\n",
         "fname": "Syscoin",
         "rpcport": 8370,
@@ -27281,7 +27039,8 @@
                 "ws_url": "electrum3.cipig.net:30064"
             }
         ],
-        "explorer_block_url": "block.dws?"
+        "explorer_block_url": "block.dws?",
+        "binance_id": "SYS"
     },
     "SYS-segwit": {
         "coin": "SYS-segwit",
@@ -27365,7 +27124,8 @@
                 "ws_url": "electrum3.cipig.net:30064"
             }
         ],
-        "explorer_block_url": "block.dws?"
+        "explorer_block_url": "block.dws?",
+        "binance_id": "SYS"
     },
     "TAMA-ERC20": {
         "coin": "TAMA-ERC20",
@@ -27437,7 +27197,7 @@
         "active": false,
         "is_testnet": true,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "fname": "BTC Testnet",
         "rpcport": 18332,
         "pubtype": 111,
@@ -30806,56 +30566,8 @@
                 "url": "88.99.26.209:5102"
             }
         ],
-        "explorer_block_url": "block/"
-    },
-    "VIA-segwit": {
-        "coin": "VIA-segwit",
-        "type": "UTXO",
-        "name": "Viacoin",
-        "coinpaprika_id": "via-viacoin",
-        "coingecko_id": "viacoin",
-        "livecoinwatch_id": "VIA",
-        "explorer_url": "https://explorer.viacoin.org/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Viacoin Signed Message:\n",
-        "fname": "Viacoin",
-        "rpcport": 5222,
-        "pubtype": 71,
-        "p2shtype": 33,
-        "wiftype": 199,
-        "txfee": 100000,
-        "dust": 54600,
-        "required_confirmations": 7,
-        "mature_confirmations": 3600,
-        "avg_blocktime": 24,
-        "segwit": true,
-        "bech32_hrp": "via",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "VIA",
-        "mm2": 1,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/14'",
-        "trezor_coin": "Viacoin",
-        "links": {
-            "github": "https://github.com/viacoin",
-            "homepage": "https://viacoin.org"
-        },
-        "electrum": [
-            {
-                "url": "88.99.26.209:5102"
-            }
-        ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "VIA"
     },
     "VITE-BEP20": {
         "coin": "VITE-BEP20",
@@ -31130,7 +30842,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "sign_message_prefix": "Vertcoin Signed Message:\n",
         "fname": "Vertcoin",
         "rpcport": 5888,
@@ -32061,7 +31773,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "fname": "Myriad",
         "rpcport": 8332,
         "pubtype": 50,
@@ -32803,7 +32515,8 @@
                 "protocol": "TCP"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "XVG"
     },
     "XVS-BEP20": {
         "coin": "XVS-BEP20",
@@ -33328,7 +33041,8 @@
                 "ws_url": "electrum3.cipig.net:30058"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "ZEC"
     },
     "ZER": {
         "coin": "ZER",
@@ -33486,11 +33200,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "ws_url": "zeta-seed-c.zetacoin.tech:50013"
-            },
             {
                 "url": "zeta-seed-d.zetacoin.network:50012",
                 "protocol": "SSL",
@@ -33826,7 +33535,8 @@
                 "ws_url": "electrumx.runonflux.io:50004"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "FLUX"
     },
     "FLUX-ERC20": {
         "coin": "FLUX-ERC20",
@@ -33882,7 +33592,8 @@
                 }
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "FLUX"
     },
     "FLUX-BEP20": {
         "coin": "FLUX-BEP20",
@@ -33929,7 +33640,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "FLUX"
     },
     "HPY-QRC20": {
         "coin": "HPY-QRC20",
@@ -35961,6 +35673,15 @@
                         "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
                     }
                 ]
+            },
+            {
+                "url": "tbch.loping.net:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -36012,7 +35733,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "fname": "Whive",
         "rpcport": 1867,
         "pubtype": 73,
@@ -36229,7 +35950,8 @@
                 ]
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "XEC"
     },
     "SIBM-BEP20": {
         "coin": "SIBM-BEP20",
@@ -36704,7 +36426,8 @@
                 "url": "https://cosmos.komodo.earth/"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "ATOM"
     },
     "IRIS": {
         "coin": "IRIS",
@@ -36743,7 +36466,8 @@
                 "url": "https://rpc.irishub-1.irisnet.org"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "IRIS"
     },
     "OSMO": {
         "coin": "OSMO",
@@ -36781,7 +36505,8 @@
                 "url": "https://osmosis-mainnet-rpc.allthatnode.com:26657/"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "OSMO"
     },
     "ATOM-IBC_IRIS": {
         "coin": "ATOM-IBC_IRIS",
@@ -36820,7 +36545,8 @@
                 "url": "https://rpc.irishub-1.irisnet.org"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "ATOM"
     },
     "MAZA": {
         "coin": "MAZA",
