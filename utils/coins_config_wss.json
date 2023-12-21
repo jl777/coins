@@ -29566,11 +29566,15 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
+                "url": "electrum.grms.pw:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum1.grms.pw:50004",
                 "protocol": "WSS"
             },
             {
-                "url": "electrum3.grms.pw:50004",
+                "url": "electrum2.grms.pw:50004",
                 "protocol": "WSS"
             }
         ],
@@ -34791,6 +34795,10 @@
             "homepage": "https://coin.crionic.org"
         },
         "electrum": [
+            {
+                "url": "coin.crionic.org:50005",
+                "protocol": "WSS"
+            },
             {
                 "url": "explorer.crionic.org:50005",
                 "protocol": "WSS"
