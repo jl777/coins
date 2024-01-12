@@ -611,10 +611,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -1557,10 +1557,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -3343,10 +3343,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -4205,10 +4205,6 @@
         "electrum": [
             {
                 "url": "bbk-one.ewm-cx.net:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "bbk-two.ewm-cx.net:50001",
                 "protocol": "TCP"
             }
         ],
@@ -6026,15 +6022,6 @@
         },
         "derivation_path": "m/44'/177'",
         "electrum": [
-            {
-                "url": "electrum1.btcz.rocks:50001",
-                "contact": [
-                    {
-                        "discord": "VandarGR#6065"
-                    }
-                ],
-                "ws_url": "electrum1.btcz.rocks:50004"
-            },
             {
                 "url": "electrum2.btcz.rocks:50001",
                 "contact": [
@@ -8805,10 +8792,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -9356,10 +9343,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -11414,12 +11401,6 @@
                 "ws_url": "electrum3.egulden.org:50004"
             },
             {
-                "url": "holland.ecoincore.com:11017",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "holland.ecoincore.com:11019"
-            },
-            {
                 "url": "lenoir.ecoincore.com:11017",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -12307,10 +12288,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/",
@@ -14125,10 +14106,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/",
@@ -14546,10 +14527,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -15609,16 +15590,6 @@
                 ]
             },
             {
-                "url": "au.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
-            },
-            {
                 "url": "electrum.maxpuig.com:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -15630,26 +15601,6 @@
             },
             {
                 "url": "fr.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
-            },
-            {
-                "url": "pl.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
-            },
-            {
-                "url": "uk.garlium.crapules.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -16066,18 +16017,6 @@
             {
                 "url": "electrum40.groestlcoin.org:50001",
                 "ws_url": "electrum40.groestlcoin.org:50004",
-                "contact": [
-                    {
-                        "email": "jackielove4u@hotmail.com"
-                    },
-                    {
-                        "discord": "jackielove4u#0412"
-                    }
-                ]
-            },
-            {
-                "url": "electrum9.groestlcoin.org:50001",
-                "ws_url": "electrum9.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -20808,10 +20747,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -21769,6 +21708,11 @@
                 "url": "electrum7.getlynx.io:50002",
                 "protocol": "SSL",
                 "ws_url": "electrum7.getlynx.io:50004"
+            },
+            {
+                "url": "electrum8.getlynx.io:50002",
+                "protocol": "SSL",
+                "ws_url": "electrum8.getlynx.io:50004"
             },
             {
                 "url": "electrum9.getlynx.io:50002",
@@ -25376,10 +25320,6 @@
             {
                 "url": "pink-one.ewm-cx.net:50001",
                 "protocol": "TCP"
-            },
-            {
-                "url": "pink-two.ewm-cx.net:50001",
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -25416,15 +25356,6 @@
             {
                 "url": "electrum01.chainster.org:50001",
                 "ws_url": "electrum01.chainster.org:50003",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ]
-            },
-            {
-                "url": "electrum02.chainster.org:50001",
-                "ws_url": "electrum02.chainster.org:50003",
                 "contact": [
                     {
                         "discord": "312541186793406465"
@@ -25514,11 +25445,6 @@
                 "url": "pot-duo.ewmcx.net:50012",
                 "protocol": "SSL",
                 "ws_url": "pot-duo.ewmcx.net:50013"
-            },
-            {
-                "url": "pot-uno.ewmcx.net:50002",
-                "protocol": "SSL",
-                "ws_url": "pot-uno.ewmcx.net:50003"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -26116,28 +26042,9 @@
                 ]
             },
             {
-                "url": "txserver.live:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx.live:50012",
                 "protocol": "SSL",
                 "ws_url": "electrumx.live:30010",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
-                "url": "txserver.live:50002",
-                "protocol": "SSL",
-                "ws_url": "txserver.live:30001",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -29018,10 +28925,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -29865,10 +29772,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -31202,46 +31109,6 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "TRC": {
-        "coin": "TRC",
-        "type": "UTXO",
-        "name": "Terracoin",
-        "coinpaprika_id": "trc-terracoin",
-        "coingecko_id": "terracoin",
-        "livecoinwatch_id": "TRC",
-        "explorer_url": "https://chainz.cryptoid.info/trc/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Terracoin",
-        "confpath": "USERHOME/.terracoincore/terracoin.conf",
-        "rpcport": 13332,
-        "pubtype": 0,
-        "p2shtype": 5,
-        "wiftype": 128,
-        "txfee": 10000,
-        "dust": 5460,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 120,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/83'",
-        "electrum": [
-            {
-                "url": "failover.trc-uis.ewmcx.biz:50006",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "failover.trc-uis.ewmcx.biz:50007"
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
     "TRX-BEP20_OLD": {
         "coin": "TRX-BEP20_OLD",
         "type": "BEP-20",
@@ -31813,10 +31680,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -32932,10 +32799,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -33370,10 +33237,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -35106,10 +34973,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -35558,96 +35425,6 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
-    },
-    "XMY": {
-        "coin": "XMY",
-        "type": "UTXO",
-        "name": "Myriad",
-        "coinpaprika_id": "xmy-myriad",
-        "coingecko_id": "myriadcoin",
-        "livecoinwatch_id": "XMY",
-        "explorer_url": "https://chainz.cryptoid.info/xmy/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "fname": "Myriad",
-        "rpcport": 8332,
-        "pubtype": 50,
-        "p2shtype": 9,
-        "wiftype": 178,
-        "txfee": 10000,
-        "segwit": true,
-        "bech32_hrp": "my",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 240,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/90'",
-        "electrum": [
-            {
-                "url": "lenoir.ecoincore.com:10891",
-                "protocol": "TCP"
-            },
-            {
-                "url": "lenoir.ecoincore.com:10892",
-                "protocol": "SSL",
-                "ws_url": "lenoir.ecoincore.com:10894"
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
-    "XMY-segwit": {
-        "coin": "XMY-segwit",
-        "type": "UTXO",
-        "name": "Myriad",
-        "coinpaprika_id": "xmy-myriad",
-        "coingecko_id": "myriadcoin",
-        "livecoinwatch_id": "XMY",
-        "explorer_url": "https://chainz.cryptoid.info/xmy/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Myriad",
-        "rpcport": 8332,
-        "pubtype": 50,
-        "p2shtype": 9,
-        "wiftype": 178,
-        "txfee": 10000,
-        "segwit": true,
-        "bech32_hrp": "my",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "XMY",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 240,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/90'",
-        "electrum": [
-            {
-                "url": "lenoir.ecoincore.com:10891",
-                "protocol": "TCP"
-            },
-            {
-                "url": "lenoir.ecoincore.com:10892",
-                "protocol": "SSL",
-                "ws_url": "lenoir.ecoincore.com:10894"
-            }
-        ],
-        "explorer_block_url": "block.dws?"
     },
     "XNA": {
         "coin": "XNA",
@@ -36630,10 +36407,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -37162,16 +36939,6 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "ws_url": "zeta-seed-c.zetacoin.tech:50013"
-            },
-            {
-                "url": "zeta-seed-d.zetacoin.network:50012",
-                "protocol": "SSL",
-                "ws_url": "zeta-seed-d.zetacoin.network:50013"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -40697,18 +40464,6 @@
         },
         "electrum": [
             {
-                "url": "electrum1.runebase.io:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
                 "url": "electrum3.runebase.io:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -41153,17 +40908,6 @@
         },
         "electrum": [
             {
-                "url": "coin.crionic.org:50001",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
-            },
-            {
                 "url": "explorer.crionic.org:50001",
                 "contact": [
                     {
@@ -41173,19 +40917,6 @@
                         "discord": "Diabaths#1919"
                     }
                 ]
-            },
-            {
-                "url": "coin.crionic.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ],
-                "ws_url": "coin.crionic.org:50005"
             },
             {
                 "url": "explorer.crionic.org:50002",
