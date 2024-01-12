@@ -611,10 +611,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -1553,10 +1553,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -3135,10 +3135,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -5432,10 +5432,6 @@
         },
         "derivation_path": "m/44'/177'",
         "electrum": [
-            {
-                "url": "electrum1.btcz.rocks:50004",
-                "protocol": "WSS"
-            },
             {
                 "url": "electrum2.btcz.rocks:50004",
                 "protocol": "WSS"
@@ -7819,10 +7815,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -8334,10 +8330,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -9814,7 +9810,7 @@
                 "protocol": "WSS"
             },
             {
-                "url": "holland.ecoincore.com:11019",
+                "url": "lenoir.ecoincore.com:11019",
                 "protocol": "WSS"
             }
         ],
@@ -10639,10 +10635,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/",
@@ -12194,10 +12190,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/",
@@ -12615,10 +12611,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -18077,10 +18073,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -21790,10 +21786,6 @@
             {
                 "url": "electrum01.chainster.org:50003",
                 "protocol": "WSS"
-            },
-            {
-                "url": "electrum02.chainster.org:50003",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?",
@@ -21876,10 +21868,6 @@
         "electrum": [
             {
                 "url": "pot-duo.ewmcx.net:50013",
-                "protocol": "WSS"
-            },
-            {
-                "url": "pot-uno.ewmcx.net:50003",
                 "protocol": "WSS"
             }
         ],
@@ -22466,10 +22454,6 @@
         "electrum": [
             {
                 "url": "electrumx.live:30010",
-                "protocol": "WSS"
-            },
-            {
-                "url": "txserver.live:30001",
                 "protocol": "WSS"
             }
         ],
@@ -24803,10 +24787,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -25526,10 +25510,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -26553,44 +26537,6 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "TRC": {
-        "coin": "TRC",
-        "type": "UTXO",
-        "name": "Terracoin",
-        "coinpaprika_id": "trc-terracoin",
-        "coingecko_id": "terracoin",
-        "livecoinwatch_id": "TRC",
-        "explorer_url": "https://chainz.cryptoid.info/trc/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Terracoin",
-        "confpath": "USERHOME/.terracoincore/terracoin.conf",
-        "rpcport": 13332,
-        "pubtype": 0,
-        "p2shtype": 5,
-        "wiftype": 128,
-        "txfee": 10000,
-        "dust": 5460,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 120,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/83'",
-        "electrum": [
-            {
-                "url": "failover.trc-uis.ewmcx.biz:50007",
-                "protocol": "WSS"
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
     "TRX-BEP20_OLD": {
         "coin": "TRX-BEP20_OLD",
         "type": "BEP-20",
@@ -27162,10 +27108,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -28273,10 +28219,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -28711,10 +28657,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -30102,10 +30048,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -30539,86 +30485,6 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
-    },
-    "XMY": {
-        "coin": "XMY",
-        "type": "UTXO",
-        "name": "Myriad",
-        "coinpaprika_id": "xmy-myriad",
-        "coingecko_id": "myriadcoin",
-        "livecoinwatch_id": "XMY",
-        "explorer_url": "https://chainz.cryptoid.info/xmy/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "fname": "Myriad",
-        "rpcport": 8332,
-        "pubtype": 50,
-        "p2shtype": 9,
-        "wiftype": 178,
-        "txfee": 10000,
-        "segwit": true,
-        "bech32_hrp": "my",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 240,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/90'",
-        "electrum": [
-            {
-                "url": "lenoir.ecoincore.com:10894",
-                "protocol": "WSS"
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
-    "XMY-segwit": {
-        "coin": "XMY-segwit",
-        "type": "UTXO",
-        "name": "Myriad",
-        "coinpaprika_id": "xmy-myriad",
-        "coingecko_id": "myriadcoin",
-        "livecoinwatch_id": "XMY",
-        "explorer_url": "https://chainz.cryptoid.info/xmy/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Myriad",
-        "rpcport": 8332,
-        "pubtype": 50,
-        "p2shtype": 9,
-        "wiftype": 178,
-        "txfee": 10000,
-        "segwit": true,
-        "bech32_hrp": "my",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "XMY",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 240,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/90'",
-        "electrum": [
-            {
-                "url": "lenoir.ecoincore.com:10894",
-                "protocol": "WSS"
-            }
-        ],
-        "explorer_block_url": "block.dws?"
     },
     "XNA": {
         "coin": "XNA",
@@ -31442,10 +31308,10 @@
                 "gui_auth": true
             },
             {
-                "url": "https://rpc.fantom.network"
+                "url": "https://fantom.drpc.org"
             },
             {
-                "url": "https://rpc2.fantom.network"
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -31818,49 +31684,6 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
-    },
-    "ZET": {
-        "coin": "ZET",
-        "type": "UTXO",
-        "name": "Zetacoin",
-        "coinpaprika_id": "zet-zetacoin",
-        "coingecko_id": "zetacoin",
-        "livecoinwatch_id": "ZET",
-        "explorer_url": "https://chainz.cryptoid.info/zet/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Zetacoin Signed Message:\n",
-        "fname": "Zetacoin",
-        "isPoS": 1,
-        "rpcport": 22014,
-        "pubtype": 20,
-        "p2shtype": 85,
-        "wiftype": 153,
-        "txfee": 100000,
-        "dust": 100000,
-        "mm2": 1,
-        "mature_confirmations": 500,
-        "required_confirmations": 7,
-        "avg_blocktime": 45,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50013",
-                "protocol": "WSS"
-            },
-            {
-                "url": "zeta-seed-d.zetacoin.network:50013",
-                "protocol": "WSS"
-            }
-        ],
-        "explorer_block_url": "block.dws?"
     },
     "ZIL-BEP20": {
         "coin": "ZIL-BEP20",
@@ -34795,10 +34618,6 @@
             "homepage": "https://coin.crionic.org"
         },
         "electrum": [
-            {
-                "url": "coin.crionic.org:50005",
-                "protocol": "WSS"
-            },
             {
                 "url": "explorer.crionic.org:50005",
                 "protocol": "WSS"
