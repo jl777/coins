@@ -7084,6 +7084,54 @@
         ],
         "explorer_block_url": "block/"
     },
+    "CHTA-BEP20": {
+        "coin": "CHTA-BEP20",
+        "type": "BEP-20",
+        "name": "Cheetahcoin",
+        "coinpaprika_id": "chta-cheetahcoin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "CHTA",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Cheetahcoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0xb096DF47073A39041D9ffeD5d4E1d1b0D5D6b8E7"
+            }
+        },
+        "derivation_path": "m/44'/714'",
+        "contract_address": "0xb096DF47073A39041D9ffeD5d4E1d1b0D5D6b8E7",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
     "CHIPS": {
         "coin": "CHIPS",
         "type": "UTXO",
@@ -9388,29 +9436,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.diminutivecoin.com:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "support@diminutivecoin.com"
-                    },
-                    {
-                        "twitter": "coin_dimi"
-                    },
-                    {
-                        "reddit": "DiminutiveCoin_DIMI"
-                    },
-                    {
-                        "github": "MadCatMining"
-                    },
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ],
-                "ws_url": "electrumx1.diminutivecoin.com:50013"
-            },
-            {
                 "url": "electrumx2.diminutivecoin.com:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -10281,12 +10306,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "electrum3.egulden.org:50004"
-            },
-            {
-                "url": "lenoir.ecoincore.com:11017",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "lenoir.ecoincore.com:11019"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -14071,16 +14090,6 @@
                 "ws_url": "electrum.maxpuig.com:50004"
             },
             {
-                "url": "fr.garlium.crapules.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ]
-            },
-            {
                 "url": "electrum.maxpuig.com:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -15164,29 +15173,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "il8p.electrumx.transcenders.name:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "coins@ewmci.com"
-                    },
-                    {
-                        "discord": "[CryptoStan]#9341"
-                    },
-                    {
-                        "twitter": "EwmciL"
-                    },
-                    {
-                        "reddit": "InfiniLooP"
-                    },
-                    {
-                        "github": "WikiMin3R"
-                    }
-                ],
-                "ws_url": "il8p.electrumx.transcenders.name:50003"
-            },
             {
                 "url": "il9p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
@@ -21367,6 +21353,54 @@
         ],
         "explorer_block_url": "block/"
     },
+    "NENG-BEP20": {
+        "coin": "NENG-BEP20",
+        "type": "BEP-20",
+        "name": "Nengcoin",
+        "coinpaprika_id": "neng-nengcoin",
+        "coingecko_id": "nengcoin",
+        "livecoinwatch_id": "NENG",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Nengcoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0xaD2c0B5ee5424C6b6f9C06E4fEF3FD7CD9FF0264"
+            }
+        },
+        "derivation_path": "m/44'/714'",
+        "contract_address": "0xaD2c0B5ee5424C6b6f9C06E4fEF3FD7CD9FF0264",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
     "NEXO-ERC20": {
         "coin": "NEXO-ERC20",
         "type": "ERC-20",
@@ -22000,6 +22034,54 @@
         ],
         "explorer_block_url": "block/",
         "forex_id": "NZD"
+    },
+    "NYC-BEP20": {
+        "coin": "NYC-BEP20",
+        "type": "BEP-20",
+        "name": "NewYorkCoin",
+        "coinpaprika_id": "nyc-newyorkcoin",
+        "coingecko_id": "newyorkcoin",
+        "livecoinwatch_id": "NYC",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "NewYorkCoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0x6c015277B0f9b8c24B20BD8BbbD29FDb25738A69"
+            }
+        },
+        "derivation_path": "m/44'/714'",
+        "contract_address": "0x6c015277B0f9b8c24B20BD8BbbD29FDb25738A69",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
     },
     "OCEAN-BEP20": {
         "coin": "OCEAN-BEP20",
@@ -23419,6 +23501,16 @@
                 "url": "electrumx.live:50012",
                 "protocol": "SSL",
                 "ws_url": "electrumx.live:30010",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "txserver.live:50002",
+                "protocol": "SSL",
+                "ws_url": "txserver.live:30001",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -27788,6 +27880,46 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
+    },
+    "TRC": {
+        "coin": "TRC",
+        "type": "UTXO",
+        "name": "Terracoin",
+        "coinpaprika_id": "trc-terracoin",
+        "coingecko_id": "terracoin",
+        "livecoinwatch_id": "TRC",
+        "explorer_url": "https://chainz.cryptoid.info/trc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Terracoin",
+        "confpath": "USERHOME/.terracoincore/terracoin.conf",
+        "rpcport": 13332,
+        "pubtype": 0,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "txfee": 10000,
+        "dust": 5460,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 120,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/83'",
+        "electrum": [
+            {
+                "url": "failover.trc-uis.ewmcx.biz:50006",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "failover.trc-uis.ewmcx.biz:50007"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "TRX-BEP20_OLD": {
         "coin": "TRX-BEP20_OLD",
@@ -33084,6 +33216,11 @@
         },
         "electrum": [
             {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "ws_url": "zeta-seed-c.zetacoin.tech:50013"
+            },
+            {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
             }
@@ -36527,6 +36664,19 @@
         },
         "electrum": [
             {
+                "url": "coin.crionic.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ],
+                "ws_url": "coin.crionic.org:50005"
+            },
+            {
                 "url": "explorer.crionic.org:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -36540,7 +36690,7 @@
                 "ws_url": "explorer.crionic.org:50005"
             },
             {
-                "url": "explorer.crionic.org:50001",
+                "url": "coin.crionic.org:50001",
                 "contact": [
                     {
                         "email": "diabatiis@gmail.com"
