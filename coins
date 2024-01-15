@@ -2747,6 +2747,25 @@
     "derivation_path": "m/44'/682'"
   },
   {
+    "coin": "CHTA-BEP20",
+    "name": "chta_bep20",
+    "fname": "Cheetahcoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xb096DF47073A39041D9ffeD5d4E1d1b0D5D6b8E7"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "CHIPS",
     "name": "chips",
     "fname": "Chips",
@@ -8266,6 +8285,25 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/681'"
+  },
+  {
+    "coin": "NENG-BEP20",
+    "name": "neng_bep20",
+    "fname": "Nengcoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xaD2c0B5ee5424C6b6f9C06E4fEF3FD7CD9FF0264"
+      }
+    },
+    "derivation_path": "m/44'/714'"
   },
   {
     "coin": "NEXO-ERC20",
