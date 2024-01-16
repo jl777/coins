@@ -2611,6 +2611,62 @@
     "derivation_path": "m/44'/34'"
   },
   {
+    "coin": "CDS-AVX20",
+    "name": "cds_avx20",
+    "fname": "Crypto Development Services",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "required_confirmations": 3,
+    "avg_blocktime": 2.4,
+    "decimals": 8,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
+      }
+    },
+    "derivation_path": "m/44'/9000'"
+  },
+  {
+    "coin": "CDS-BEP20",
+    "name": "cds_bep20",
+    "fname": "Crypto Development Services",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
+    "coin": "CDS-PLG20",
+    "name": "cds_plg20",
+    "fname": "Crypto Development Services",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 8,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "CEL-ERC20",
     "name": "cel_erc20",
     "fname": "Celsius",
@@ -2901,6 +2957,24 @@
     "trezor_coin": "Komodo"
   },
   {
+    "coin": "CLP-BEP20",
+    "name": "clp_bep20",
+    "fname": "Crypto Lover Productions",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x3039e86d39A5BCF38E96D78fF93FD0aBe753212c"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "COLX",
     "name": "ColossusXT",
     "fname": "ColossusXT",
@@ -3165,6 +3239,24 @@
       }
     },
     "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "CST-BEP20",
+    "name": "cst_bep20",
+    "fname": "Crypto Swap Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xcC4b3EA1F25c8772D390dA1DB507832aBE4a9740"
+      }
+    },
+    "derivation_path": "m/44'/714'"
   },
   {
     "coin": "CUMMIES-BEP20",
