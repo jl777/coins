@@ -2216,26 +2216,6 @@
         "derivation_path": "m/44'/921'",
         "electrum": [
             {
-                "url": "electrum-ca.avn.network:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@avn.network"
-                    }
-                ],
-                "ws_url": "electrum-ca.avn.network:50003"
-            },
-            {
-                "url": "electrum-eu.avn.network:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@avn.network"
-                    }
-                ],
-                "ws_url": "electrum-eu.avn.network:50003"
-            },
-            {
                 "url": "electrum-us.avn.network:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -2244,6 +2224,14 @@
                     }
                 ],
                 "ws_url": "electrum-us.avn.network:50003"
+            },
+            {
+                "url": "electrum-us.avn.network:50001",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -4488,49 +4476,6 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/",
         "binance_id": "BNB"
-    },
-    "BOLI": {
-        "coin": "BOLI",
-        "type": "UTXO",
-        "name": "Bolivarcoin",
-        "coinpaprika_id": "boli-bolivarcoin",
-        "coingecko_id": "bolivarcoin",
-        "livecoinwatch_id": "BOLI",
-        "explorer_url": "https://chainz.cryptoid.info/boli/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "DarkCoin Signed Message:\n",
-        "fname": "Bolivarcoin",
-        "confpath": "USERHOME/.bolivarcoincore/bolivarcoin.conf",
-        "rpcport": 3563,
-        "pubtype": 85,
-        "p2shtype": 5,
-        "wiftype": 213,
-        "segwit": false,
-        "txfee": 10000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 180,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/278'",
-        "links": {
-            "github": "https://github.com/BOLI-Project/BolivarCoin",
-            "homepage": "https://bolis.info"
-        },
-        "electrum": [
-            {
-                "url": "electrum2.bolivarcoin.tech:23001",
-                "protocol": "TCP"
-            }
-        ],
-        "explorer_block_url": "block.dws?"
     },
     "BONE-ERC20": {
         "coin": "BONE-ERC20",
@@ -14080,21 +14025,11 @@
         "derivation_path": "m/44'/69420'",
         "electrum": [
             {
-                "url": "electrum.maxpuig.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "orpheas#1503"
-                    }
-                ],
-                "ws_url": "electrum.maxpuig.com:50004"
-            },
-            {
-                "url": "electrum.maxpuig.com:50001",
+                "url": "electrum.niftybakes.com:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
-                        "discord": "mecs#4770"
+                        "discord": "405566674448810005"
                     }
                 ]
             }
@@ -17900,78 +17835,6 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "LABS": {
-        "coin": "LABS",
-        "type": "Smart Chain",
-        "name": "KMD Labs",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://labs.explorer.dexstats.info/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "LABS",
-        "fname": "KMD Labs",
-        "rpcport": 40265,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "electrum1.cipig.net:20019",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum3.cipig.net:30019"
-            },
-            {
-                "url": "electrum2.cipig.net:20019",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum2.cipig.net:30019"
-            },
-            {
-                "url": "electrum3.cipig.net:20019",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "ws_url": "electrum3.cipig.net:30019"
-            }
-        ],
         "explorer_block_url": "block/"
     },
     "LBC": {
@@ -23508,16 +23371,6 @@
                 ]
             },
             {
-                "url": "txserver.live:50002",
-                "protocol": "SSL",
-                "ws_url": "txserver.live:30001",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx.live:50010",
                 "protocol": "TCP",
                 "contact": [
@@ -26419,7 +26272,7 @@
         "coinpaprika_id": "sum-sumcoin",
         "coingecko_id": "sumcoin",
         "livecoinwatch_id": "SUM",
-        "explorer_url": "https://sumcoinexplorer.com/",
+        "explorer_url": "https://sumexplorer.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
         "supported": [],
@@ -26440,7 +26293,7 @@
         "segwit": false,
         "bech32_hrp": "sum",
         "mm2": 1,
-        "required_confirmations": 8,
+        "required_confirmations": 3,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
