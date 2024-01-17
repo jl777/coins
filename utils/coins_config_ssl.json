@@ -6727,6 +6727,152 @@
         ],
         "explorer_block_url": "block.dws?"
     },
+    "CDS-AVX20": {
+        "coin": "CDS-AVX20",
+        "type": "AVX-20",
+        "name": "Crypto Development Services",
+        "coinpaprika_id": "cds-crypto-development-services",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://snowtrace.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Crypto Development Services",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 43114,
+        "required_confirmations": 3,
+        "avg_blocktime": 2.4,
+        "decimals": 8,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "AVAX",
+                "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
+            }
+        },
+        "derivation_path": "m/44'/9000'",
+        "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5",
+        "parent_coin": "AVAX",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "gui_auth": true
+            },
+            {
+                "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "CDS-BEP20": {
+        "coin": "CDS-BEP20",
+        "type": "BEP-20",
+        "name": "Crypto Development Services",
+        "coinpaprika_id": "cds-crypto-development-services",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Crypto Development Services",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
+            }
+        },
+        "derivation_path": "m/44'/714'",
+        "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
+    "CDS-PLG20": {
+        "coin": "CDS-PLG20",
+        "type": "Matic",
+        "name": "Crypto Development Services",
+        "coinpaprika_id": "cds-crypto-development-services",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Crypto Development Services",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 137,
+        "decimals": 8,
+        "avg_blocktime": 1.8,
+        "required_confirmations": 20,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MATIC",
+                "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5"
+            }
+        },
+        "derivation_path": "m/44'/966'",
+        "contract_address": "0x23f07a1C03e7C6D0C88e0E05E79B6E3511073fD5",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://polygon.blockpi.network/v1/rpc/public"
+            },
+            {
+                "url": "https://polygon.llamarpc.com"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "CEL-ERC20": {
         "coin": "CEL-ERC20",
         "type": "ERC-20",
@@ -7433,6 +7579,53 @@
         ],
         "explorer_block_url": "block/"
     },
+    "CLP-BEP20": {
+        "coin": "CLP-BEP20",
+        "type": "BEP-20",
+        "name": "Crypto Lover Productions",
+        "coinpaprika_id": "clp-crypto-lover-productions",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Crypto Lover Productions",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0x3039e86d39A5BCF38E96D78fF93FD0aBe753212c"
+            }
+        },
+        "derivation_path": "m/44'/714'",
+        "contract_address": "0x3039e86d39A5BCF38E96D78fF93FD0aBe753212c",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
     "COMP-AVX20": {
         "coin": "COMP-AVX20",
         "type": "AVX-20",
@@ -8092,6 +8285,53 @@
                 "url": "https://polygon.llamarpc.com"
             }
         ],
+        "explorer_block_url": "block/"
+    },
+    "CST-BEP20": {
+        "coin": "CST-BEP20",
+        "type": "BEP-20",
+        "name": "Crypto Swap Token",
+        "coinpaprika_id": "cst-cryptoswaptoken",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Crypto Swap Token",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0xcC4b3EA1F25c8772D390dA1DB507832aBE4a9740"
+            }
+        },
+        "derivation_path": "m/44'/714'",
+        "contract_address": "0xcC4b3EA1F25c8772D390dA1DB507832aBE4a9740",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
     "CUMMIES-BEP20": {
@@ -32829,6 +33069,46 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
+    },
+    "ZET": {
+        "coin": "ZET",
+        "type": "UTXO",
+        "name": "Zetacoin",
+        "coinpaprika_id": "zet-zetacoin",
+        "coingecko_id": "zetacoin",
+        "livecoinwatch_id": "ZET",
+        "explorer_url": "https://chainz.cryptoid.info/zet/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Zetacoin Signed Message:\n",
+        "fname": "Zetacoin",
+        "isPoS": 1,
+        "rpcport": 22014,
+        "pubtype": 20,
+        "p2shtype": 85,
+        "wiftype": 153,
+        "txfee": 100000,
+        "dust": 100000,
+        "mm2": 1,
+        "mature_confirmations": 500,
+        "required_confirmations": 7,
+        "avg_blocktime": 45,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "ws_url": "zeta-seed-c.zetacoin.tech:50013"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "ZIL-BEP20": {
         "coin": "ZIL-BEP20",
