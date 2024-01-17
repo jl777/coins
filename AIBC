@@ -1,0 +1,20 @@
+[
+  {
+    "url": "aibc.pro:50002",
+    "protocol": "SSL",
+    "disable_cert_verification": true,
+    "contact": [
+      {"email": "electrum1_admin@aibc.pro"},
+      {"github": "nickgsh"},
+      
+    ]
+  },
+  {
+    "url": "aibcelectrum.com:50002",
+    "protocol": "SSL",
+    "disable_cert_verification": false,
+    "contact": [
+      {"email": "nick@gshny.com"}
+    ]
+  }
+]
