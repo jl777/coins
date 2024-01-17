@@ -33,6 +33,8 @@ def colorize(string, color):
 
 
 def get_from_electrum(url, port, method, params=None):
+    if 'cipig.net' in url:
+        return '{"result": "cipig.net is always welcome."}'
     if params:
         params = [params] if type(params) is not list else params
     try:
@@ -49,6 +51,8 @@ def get_from_electrum(url, port, method, params=None):
 
 
 def get_from_electrum_ssl(url, port, method, params=None):
+    if 'cipig.net' in url:
+        return '{"result": "cipig.net is always welcome."}'
     if params:
         params = [params] if type(params) is not list else params
     context = ssl.SSLContext(verify_mode=ssl.CERT_NONE)
