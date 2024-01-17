@@ -784,10 +784,6 @@
             {
                 "url": "elec-seeder-two.artbytecoin.org:50013",
                 "protocol": "WSS"
-            },
-            {
-                "url": "electrumx-three.artbyte.live:50013",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -5145,7 +5141,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "sign_message_prefix": "Bitcoin Signed Message:\n",
         "fname": "Bitcoin",
         "rpcport": 8332,
@@ -5393,7 +5389,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "fname": "Bitweb",
         "rpcport": 1605,
         "pubtype": 33,
@@ -5698,7 +5694,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "fname": "BitCore",
         "rpcport": 9469,
         "pubtype": 3,
@@ -6392,7 +6388,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "sign_message_prefix": "Canada eCoin Signed Message:\n",
         "fname": "Canada eCoin",
         "rpcport": 34330,
@@ -8179,7 +8175,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "sign_message_prefix": "Cyberyen Signed Message:\n",
         "fname": "Cyberyen",
         "rpcport": 58382,
@@ -8959,7 +8955,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "sign_message_prefix": "DigiByte Signed Message:\n",
         "fname": "DigiByte",
         "rpcport": 14022,
@@ -11729,7 +11725,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "sign_message_prefix": "FujiCoin Signed Message:\n",
         "fname": "Fujicoin",
         "rpcport": 3776,
@@ -12078,7 +12074,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "sign_message_prefix": "Feathercoin Signed Message:\n",
         "fname": "Feathercoin",
         "rpcport": 9337,
@@ -17462,6 +17458,51 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "LABS": {
+        "coin": "LABS",
+        "type": "Smart Chain",
+        "name": "KMD Labs",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://labs.explorer.dexstats.info/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "LABS",
+        "fname": "KMD Labs",
+        "rpcport": 40265,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "electrum3.cipig.net:30019",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum2.cipig.net:30019",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum3.cipig.net:30019",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "LBC": {
         "coin": "LBC",
         "type": "UTXO",
@@ -17476,7 +17517,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "sign_message_prefix": "LBRYcrd Signed Message:\n",
         "fname": "LBRY Credits",
         "rpcport": 9245,
@@ -18573,7 +18614,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "sign_message_prefix": "Litecoin Signed Message:\n",
         "fname": "Litecoin",
         "rpcport": 9332,
@@ -22384,10 +22425,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx.live:30010",
-                "protocol": "WSS"
-            },
-            {
                 "url": "txserver.live:30001",
                 "protocol": "WSS"
             }
@@ -25767,7 +25804,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "sign_message_prefix": "Syscoin Signed Message:\n",
         "fname": "Syscoin",
         "rpcport": 8370,
@@ -25939,7 +25976,7 @@
         "active": false,
         "is_testnet": true,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "fname": "BTC Testnet",
         "rpcport": 18332,
         "pubtype": 111,
@@ -30255,7 +30292,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": true,
+        "wallet_only": false,
         "fname": "Myriad",
         "rpcport": 8332,
         "pubtype": 50,
