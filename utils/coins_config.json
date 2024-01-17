@@ -2349,12 +2349,48 @@
         "derivation_path": "m/44'/921'",
         "electrum": [
             {
+                "url": "electrum-ca.avn.network:50001",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ]
+            },
+            {
+                "url": "electrum-eu.avn.network:50001",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ]
+            },
+            {
                 "url": "electrum-us.avn.network:50001",
                 "contact": [
                     {
                         "email": "contact@avn.network"
                     }
                 ]
+            },
+            {
+                "url": "electrum-ca.avn.network:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ],
+                "ws_url": "electrum-ca.avn.network:50003"
+            },
+            {
+                "url": "electrum-eu.avn.network:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@avn.network"
+                    }
+                ],
+                "ws_url": "electrum-eu.avn.network:50003"
             },
             {
                 "url": "electrum-us.avn.network:50002",
@@ -7097,12 +7133,6 @@
                 "ws_url": "miami.ecoincore.com:34335"
             },
             {
-                "url": "mumbai.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "mumbai.ecoincore.com:34335"
-            },
-            {
                 "url": "oakland.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -7180,12 +7210,6 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "miami.ecoincore.com:34335"
-            },
-            {
-                "url": "mumbai.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "ws_url": "mumbai.ecoincore.com:34335"
             },
             {
                 "url": "oakland.ecoincore.com:34333",
@@ -7553,17 +7577,6 @@
         "electrum": [
             {
                 "url": "electrum.shorelinecrypto.com:10007",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.mooo.com:10007",
                 "contact": [
                     {
                         "email": "support@shorelinecrypto.com"
@@ -10167,6 +10180,29 @@
         },
         "electrum": [
             {
+                "url": "electrumx1.diminutivecoin.com:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    },
+                    {
+                        "twitter": "coin_dimi"
+                    },
+                    {
+                        "reddit": "DiminutiveCoin_DIMI"
+                    },
+                    {
+                        "github": "MadCatMining"
+                    },
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "electrumx1.diminutivecoin.com:50013"
+            },
+            {
                 "url": "electrumx2.diminutivecoin.com:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -11161,6 +11197,18 @@
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "ws_url": "electrum3.egulden.org:50004"
+            },
+            {
+                "url": "holland.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "holland.ecoincore.com:11019"
+            },
+            {
+                "url": "lenoir.ecoincore.com:11017",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "ws_url": "lenoir.ecoincore.com:11019"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -15257,11 +15305,50 @@
         "derivation_path": "m/44'/69420'",
         "electrum": [
             {
+                "url": "electrum.maxpuig.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "mecs#4770"
+                    }
+                ]
+            },
+            {
                 "url": "electrum.niftybakes.com:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
                         "discord": "405566674448810005"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.maxpuig.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ],
+                "ws_url": "electrum.maxpuig.com:50004"
+            },
+            {
+                "url": "fr.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
+                    }
+                ]
+            },
+            {
+                "url": "uk.garlium.crapules.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "orpheas#1503"
                     }
                 ]
             }
@@ -15439,6 +15526,18 @@
                 ]
             },
             {
+                "url": "electrum13.groestlcoin.org:50001",
+                "ws_url": "electrum13.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
                 "url": "electrum14.groestlcoin.org:50001",
                 "ws_url": "electrum14.groestlcoin.org:50004",
                 "contact": [
@@ -15477,6 +15576,18 @@
             {
                 "url": "electrum17.groestlcoin.org:50001",
                 "ws_url": "electrum17.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum18.groestlcoin.org:50001",
+                "ws_url": "electrum18.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -15583,6 +15694,18 @@
                 ]
             },
             {
+                "url": "electrum26.groestlcoin.org:50001",
+                "ws_url": "electrum26.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
                 "url": "electrum27.groestlcoin.org:50001",
                 "ws_url": "electrum27.groestlcoin.org:50004",
                 "contact": [
@@ -15597,6 +15720,78 @@
             {
                 "url": "electrum28.groestlcoin.org:50001",
                 "ws_url": "electrum28.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum29.groestlcoin.org:50001",
+                "ws_url": "electrum29.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum30.groestlcoin.org:50001",
+                "ws_url": "electrum30.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum31.groestlcoin.org:50001",
+                "ws_url": "electrum31.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum32.groestlcoin.org:50001",
+                "ws_url": "electrum32.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum33.groestlcoin.org:50001",
+                "ws_url": "electrum33.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ]
+            },
+            {
+                "url": "electrum34.groestlcoin.org:50001",
+                "ws_url": "electrum34.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -23194,17 +23389,6 @@
                 ]
             },
             {
-                "url": "electrum1.mooo.com:10001",
-                "contact": [
-                    {
-                        "email": "support@shorelinecrypto.com"
-                    },
-                    {
-                        "discord": "honglu69#5911"
-                    }
-                ]
-            },
-            {
                 "url": "electrum2.mooo.com:10001",
                 "contact": [
                     {
@@ -24929,6 +25113,11 @@
                 "url": "pot-duo.ewmcx.net:50012",
                 "protocol": "SSL",
                 "ws_url": "pot-duo.ewmcx.net:50013"
+            },
+            {
+                "url": "pot-uno.ewmcx.net:50002",
+                "protocol": "SSL",
+                "ws_url": "pot-uno.ewmcx.net:50003"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -25522,9 +25711,28 @@
                 ]
             },
             {
+                "url": "txserver.live:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx.live:50012",
                 "protocol": "SSL",
                 "ws_url": "electrumx.live:30010",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "txserver.live:50002",
+                "protocol": "SSL",
+                "ws_url": "txserver.live:30001",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -29916,6 +30124,10 @@
                 ]
             },
             {
+                "url": "testnet.aranguren.org:51001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum1.cipig.net:20068",
                 "protocol": "SSL",
                 "contact": [
@@ -30023,6 +30235,10 @@
                         "discord": "cipi#4502"
                     }
                 ]
+            },
+            {
+                "url": "testnet.aranguren.org:51001",
+                "protocol": "TCP"
             },
             {
                 "url": "electrum1.cipig.net:20068",
@@ -34814,6 +35030,96 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "XMY": {
+        "coin": "XMY",
+        "type": "UTXO",
+        "name": "Myriad",
+        "coinpaprika_id": "xmy-myriad",
+        "coingecko_id": "myriadcoin",
+        "livecoinwatch_id": "XMY",
+        "explorer_url": "https://chainz.cryptoid.info/xmy/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "Myriad",
+        "rpcport": 8332,
+        "pubtype": 50,
+        "p2shtype": 9,
+        "wiftype": 178,
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "my",
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 240,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/90'",
+        "electrum": [
+            {
+                "url": "lenoir.ecoincore.com:10891",
+                "protocol": "TCP"
+            },
+            {
+                "url": "lenoir.ecoincore.com:10892",
+                "protocol": "SSL",
+                "ws_url": "lenoir.ecoincore.com:10894"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
+    "XMY-segwit": {
+        "coin": "XMY-segwit",
+        "type": "UTXO",
+        "name": "Myriad",
+        "coinpaprika_id": "xmy-myriad",
+        "coingecko_id": "myriadcoin",
+        "livecoinwatch_id": "XMY",
+        "explorer_url": "https://chainz.cryptoid.info/xmy/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Myriad",
+        "rpcport": 8332,
+        "pubtype": 50,
+        "p2shtype": 9,
+        "wiftype": 178,
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "my",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "XMY",
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 240,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/90'",
+        "electrum": [
+            {
+                "url": "lenoir.ecoincore.com:10891",
+                "protocol": "TCP"
+            },
+            {
+                "url": "lenoir.ecoincore.com:10892",
+                "protocol": "SSL",
+                "ws_url": "lenoir.ecoincore.com:10894"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "XNA": {
         "coin": "XNA",
         "type": "UTXO",
@@ -36299,11 +36605,6 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "ws_url": "zeta-seed-c.zetacoin.tech:50013"
             }
         ],
         "explorer_block_url": "block.dws?"
