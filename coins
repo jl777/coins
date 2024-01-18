@@ -1,27 +1,4 @@
 [
-{
-   "coin": "AIBC",
-   "name": "aiblockchain",
-   "fname": "Aiblockchain",
-   "rpcport": 7772,
-   "pubtype": 23,
-   "p2shtype": 23,
-   "wiftype": 176,
-   "txfee": 0,
-   "dust": 5460,
-   "segwit": true,
-   "mm2": 1,
-   "required_confirmations": 11,
-   "avg_blocktime": 30,
-   "protocol": {
-    "type": "UTXO",
-    "bip44": "m/44'/2'/0'/0/0"
-   },
-   "links": {
-      "github": "https://github.com/nickgsh/AiBlockChain/tree/main",
-      "homepage": "https://aibc.space/"
-    }
-  },
   {
     "coin": "1INCH-AVX20",
     "name": "1inch_avx20",
@@ -482,6 +459,29 @@
       }
     },
     "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "AIBC",
+    "name": "aiblockchain",
+    "fname": "Aiblockchain",
+    "rpcport": 7772,
+    "pubtype": 23,
+    "p2shtype": 23,
+    "wiftype": 176,
+    "txfee": 0,
+    "dust": 5460,
+    "segwit": true,
+    "mm2": 1,
+    "required_confirmations": 11,
+    "avg_blocktime": 30,
+    "protocol": {
+      "type": "UTXO",
+      "bip44": "m/44'/2'/0'/0/0"
+    },
+   "links": {
+      "github": "https://github.com/nickgsh/AiBlockChain",
+      "homepage": "https://aibc.space/"
+    }
   },
   {
     "coin": "ANKR-BEP20",
@@ -7518,29 +7518,6 @@
     "links": {
       "github": "https://github.com/litecoin-project/litecoin",
       "homepage": "https://litecoin.org"
-    }
-  },
- {
-   "coin": "AIBC",
-   "name": "aiblockchain",
-   "fname": "Aiblockchain",
-   "rpcport": 7772,
-   "pubtype": 23,
-   "p2shtype": 23,
-   "wiftype": 176,
-   "txfee": 0,
-   "dust": 5460,
-   "segwit": true,
-   "mm2": 1,
-   "required_confirmations": 11,
-   "avg_blocktime": 30,
-   "protocol": {
-    "type": "UTXO",
-    "bip44": "m/44'/2'/0'/0/0"
-   },
-   "links": {
-      "github": "https://github.com/nickgsh/AiBlockChain/tree/main",
-      "homepage": "https://aibc.space/"
     }
   },
   {
