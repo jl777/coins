@@ -4462,16 +4462,6 @@
         },
         "electrum": [
             {
-                "url": "bitchair.io:50001",
-                "protocol": "TCP",
-                "ws_url": "bitchair.io:50004",
-                "contact": [
-                    {
-                        "discord": "c4pt#7855"
-                    }
-                ]
-            },
-            {
                 "url": "bitexplorer.io:50001",
                 "protocol": "TCP",
                 "ws_url": "bitexplorer.io:50004",
@@ -26064,8 +26054,27 @@
         },
         "electrum": [
             {
+                "url": "electrumx.live:50010",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
                 "url": "txserver.live:50001",
                 "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "PRUX-Coin#1668"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.live:50012",
+                "protocol": "SSL",
+                "ws_url": "electrumx.live:30010",
                 "contact": [
                     {
                         "discord": "PRUX-Coin#1668"
@@ -29430,7 +29439,7 @@
         "wiftype": 187,
         "decimals": 6,
         "txfee": 0,
-        "dust": 10000,
+        "dust": 1000,
         "segwit": false,
         "bech32_hrp": "sum",
         "mm2": 1,
@@ -34442,6 +34451,15 @@
         "electrum": [
             {
                 "url": "88.99.26.209:5028"
+            },
+            {
+                "url": "electrumx.javerity.com:5885",
+                "ws_url": "electrumx.javerity.com:5887",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -34490,6 +34508,15 @@
         "electrum": [
             {
                 "url": "88.99.26.209:5028"
+            },
+            {
+                "url": "electrumx.javerity.com:5885",
+                "ws_url": "electrumx.javerity.com:5887",
+                "contact": [
+                    {
+                        "discord": "cruelnovo#4936"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -36930,11 +36957,6 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "ws_url": "zeta-seed-c.zetacoin.tech:50013"
             }
         ],
         "explorer_block_url": "block.dws?"
