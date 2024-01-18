@@ -1219,6 +1219,67 @@
         ],
         "explorer_block_url": "block/"
     },
+    "AIBC": {
+        "coin": "AIBC",
+        "type": "UTXO",
+        "name": "Aiblockchain",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "http://95.111.231.8:3001/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Aiblockchain",
+        "rpcport": 7772,
+        "pubtype": 23,
+        "p2shtype": 23,
+        "wiftype": 176,
+        "txfee": 0,
+        "dust": 5460,
+        "segwit": true,
+        "mm2": 1,
+        "required_confirmations": 11,
+        "avg_blocktime": 30,
+        "protocol": {
+            "type": "UTXO",
+            "bip44": "m/44'/2'/0'/0/0"
+        },
+        "links": {
+            "github": "https://github.com/nickgsh/AiBlockChain",
+            "homepage": "https://aibc.space/"
+        },
+        "electrum": [
+            {
+                "url": "aibc.pro:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "electrum1_admin@aibc.pro"
+                    },
+                    {
+                        "github": "nickgsh"
+                    }
+                ],
+                "ws_url": "aibc.pro:50002"
+            },
+            {
+                "url": "aibcelectrum.com:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "nick@gshny.com"
+                    }
+                ],
+                "ws_url": "aibcelectrum.com:50002"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "ANKR-BEP20": {
         "coin": "ANKR-BEP20",
         "type": "BEP-20",
@@ -29439,7 +29500,7 @@
         "wiftype": 187,
         "decimals": 6,
         "txfee": 0,
-        "dust": 1000,
+        "dust": 10000,
         "segwit": false,
         "bech32_hrp": "sum",
         "mm2": 1,
