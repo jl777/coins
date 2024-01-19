@@ -4535,6 +4535,49 @@
         "explorer_block_url": "block/",
         "binance_id": "BNB"
     },
+    "BOLI": {
+        "coin": "BOLI",
+        "type": "UTXO",
+        "name": "Bolivarcoin",
+        "coinpaprika_id": "boli-bolivarcoin",
+        "coingecko_id": "bolivarcoin",
+        "livecoinwatch_id": "BOLI",
+        "explorer_url": "https://chainz.cryptoid.info/boli/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "DarkCoin Signed Message:\n",
+        "fname": "Bolivarcoin",
+        "confpath": "USERHOME/.bolivarcoincore/bolivarcoin.conf",
+        "rpcport": 3563,
+        "pubtype": 85,
+        "p2shtype": 5,
+        "wiftype": 213,
+        "segwit": false,
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 180,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/278'",
+        "links": {
+            "github": "https://github.com/BOLI-Project/BolivarCoin",
+            "homepage": "https://bolis.info"
+        },
+        "electrum": [
+            {
+                "url": "electrum2.bolivarcoin.tech:23001",
+                "protocol": "TCP"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "BONE-ERC20": {
         "coin": "BONE-ERC20",
         "type": "ERC-20",
