@@ -10723,6 +10723,25 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "TAZ-BEP20",
+    "name": "taz_bep20",
+    "fname": "Taz",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x83BC92dcfC1F62Ba5dbd0f3537032f83a004300A"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "tBTC",
     "name": "tbitcoin",
     "fname": "BTC Testnet",
