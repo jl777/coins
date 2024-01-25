@@ -4186,6 +4186,10 @@
             {
                 "url": "bbk-one.ewm-cx.net:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "bbk-two.ewm-cx.net:50001",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -10313,11 +10317,6 @@
         "derivation_path": "m/44'/18'",
         "electrum": [
             {
-                "url": "electrumx.dgc.ewmcx.org:50001",
-                "protocol": "TCP",
-                "ws_url": "electrumx.dgc.ewmcx.org:50003"
-            },
-            {
                 "url": "failover.dgc.ewmcx.biz:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -10519,29 +10518,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "electrumx1.diminutivecoin.com:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "support@diminutivecoin.com"
-                    },
-                    {
-                        "twitter": "coin_dimi"
-                    },
-                    {
-                        "reddit": "DiminutiveCoin_DIMI"
-                    },
-                    {
-                        "github": "MadCatMining"
-                    },
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ],
-                "ws_url": "electrumx1.diminutivecoin.com:50013"
-            },
             {
                 "url": "electrumx2.diminutivecoin.com:50012",
                 "protocol": "SSL",
@@ -21238,10 +21214,6 @@
         "derivation_path": "m/44'/613'",
         "electrum": [
             {
-                "url": "electrumx.widecoin.org:50001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx2.widecoin.org:50001",
                 "protocol": "TCP"
             }
@@ -21283,10 +21255,6 @@
         },
         "derivation_path": "m/44'/613'",
         "electrum": [
-            {
-                "url": "electrumx.widecoin.org:50001",
-                "protocol": "TCP"
-            },
             {
                 "url": "electrumx2.widecoin.org:50001",
                 "protocol": "TCP"
@@ -30941,96 +30909,6 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "THC": {
-        "coin": "THC",
-        "type": "Smart Chain",
-        "name": "HempCoin",
-        "coinpaprika_id": "thc-hempcoin",
-        "coingecko_id": "hempcoin-thc",
-        "livecoinwatch_id": "THC",
-        "explorer_url": "https://thc.explorer.dexstats.info/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "THC",
-        "fname": "HempCoin",
-        "rpcport": 36790,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 2,
-        "requires_notarization": true,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "2.eu.thc.electrum.dexstats.info:10020",
-                "contact": [
-                    {
-                        "discord": "CHMEX#0686"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "THC-BEP20": {
-        "coin": "THC-BEP20",
-        "type": "BEP-20",
-        "name": "HempCoin",
-        "coinpaprika_id": "thc-hempcoin",
-        "coingecko_id": "hempcoin-thc",
-        "livecoinwatch_id": "THC",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "HempCoin",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "decimals": 18,
-        "avg_blocktime": 3,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0xBD9a8CA934e673b874937761D7CFa7084ecBdd53"
-            }
-        },
-        "derivation_path": "m/44'/714'",
-        "contract_address": "0xBD9a8CA934e673b874937761D7CFa7084ecBdd53",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc1.cipig.net:18655"
-            },
-            {
-                "url": "https://bsc2.cipig.net:18655"
-            },
-            {
-                "url": "https://bsc3.cipig.net:18655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
     "TKL": {
         "coin": "TKL",
         "type": "Smart Chain",
@@ -37061,6 +36939,16 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL",
+                "ws_url": "zeta-seed-c.zetacoin.tech:50013"
+            },
+            {
+                "url": "zeta-seed-d.zetacoin.network:50012",
+                "protocol": "SSL",
+                "ws_url": "zeta-seed-d.zetacoin.network:50013"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -41013,17 +40901,6 @@
                 ]
             },
             {
-                "url": "explorer.crionic.org:50001",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
-            },
-            {
                 "url": "coin.crionic.org:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -41035,19 +40912,6 @@
                     }
                 ],
                 "ws_url": "coin.crionic.org:50005"
-            },
-            {
-                "url": "explorer.crionic.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ],
-                "ws_url": "explorer.crionic.org:50005"
             }
         ],
         "explorer_block_url": "block/"

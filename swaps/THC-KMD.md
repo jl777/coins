@@ -1,5 +1,0 @@
-[taker fee (KMD)](https://kmdexplorer.io/tx/5fdfd34f7b544ba748d17ae5938d96a175f498a61b9c709136525fcb8e0ac3ef)  
-[maker payment (THC)](https://thc.explorer.dexstats.info/tx/e31faacae49a51bff8f48cd13946ea27914576be2bd95d5e133d22177ea69052)  
-[taker payment (KMD)](https://kmdexplorer.io/tx/55145d80a3e86a982f4ad2fa5138e4dff9f47b31cacf27df1bf60ac38da67d9b)  
-[taker payment spent (KMD)](https://kmdexplorer.io/tx/3f8fe1a17672208d73ffc6e436afae3f3f3e366b8f6e7acc38b50d93cb242880)  
-[maker payment spent (THC)](https://thc.explorer.dexstats.info/tx/447d6a7e22b09e0adaa5979ab05591ebef1d8dbd11d9042d38d36f49ac89d23d)  
