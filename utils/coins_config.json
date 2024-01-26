@@ -10317,6 +10317,11 @@
         "derivation_path": "m/44'/18'",
         "electrum": [
             {
+                "url": "electrumx.dgc.ewmcx.org:50001",
+                "protocol": "TCP",
+                "ws_url": "electrumx.dgc.ewmcx.org:50003"
+            },
+            {
                 "url": "failover.dgc.ewmcx.biz:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -10518,6 +10523,29 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "electrumx1.diminutivecoin.com:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "support@diminutivecoin.com"
+                    },
+                    {
+                        "twitter": "coin_dimi"
+                    },
+                    {
+                        "reddit": "DiminutiveCoin_DIMI"
+                    },
+                    {
+                        "github": "MadCatMining"
+                    },
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ],
+                "ws_url": "electrumx1.diminutivecoin.com:50013"
+            },
             {
                 "url": "electrumx2.diminutivecoin.com:50012",
                 "protocol": "SSL",
@@ -17144,6 +17172,29 @@
         },
         "electrum": [
             {
+                "url": "il8p.electrumx.transcenders.name:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "email": "coins@ewmci.com"
+                    },
+                    {
+                        "discord": "[CryptoStan]#9341"
+                    },
+                    {
+                        "twitter": "EwmciL"
+                    },
+                    {
+                        "reddit": "InfiniLooP"
+                    },
+                    {
+                        "github": "WikiMin3R"
+                    }
+                ],
+                "ws_url": "il8p.electrumx.transcenders.name:50003"
+            },
+            {
                 "url": "il9p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
@@ -21214,6 +21265,10 @@
         "derivation_path": "m/44'/613'",
         "electrum": [
             {
+                "url": "electrumx.widecoin.org:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx2.widecoin.org:50001",
                 "protocol": "TCP"
             }
@@ -21255,6 +21310,10 @@
         },
         "derivation_path": "m/44'/613'",
         "electrum": [
+            {
+                "url": "electrumx.widecoin.org:50001",
+                "protocol": "TCP"
+            },
             {
                 "url": "electrumx2.widecoin.org:50001",
                 "protocol": "TCP"
@@ -25437,6 +25496,7 @@
         "p2shtype": 13,
         "wiftype": 212,
         "txfee": 100000,
+        "dust": 5460,
         "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
@@ -36939,11 +36999,6 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL",
-                "ws_url": "zeta-seed-c.zetacoin.tech:50013"
             },
             {
                 "url": "zeta-seed-d.zetacoin.network:50012",

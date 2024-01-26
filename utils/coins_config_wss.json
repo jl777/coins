@@ -9124,6 +9124,10 @@
         "derivation_path": "m/44'/18'",
         "electrum": [
             {
+                "url": "electrumx.dgc.ewmcx.org:50003",
+                "protocol": "WSS"
+            },
+            {
                 "url": "failover.dgc.ewmcx.biz:50003",
                 "protocol": "WSS"
             }
@@ -9269,6 +9273,10 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "electrumx1.diminutivecoin.com:50013",
+                "protocol": "WSS"
+            },
             {
                 "url": "electrumx2.diminutivecoin.com:50013",
                 "protocol": "WSS"
@@ -14708,6 +14716,10 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "il8p.electrumx.transcenders.name:50003",
+                "protocol": "WSS"
+            },
             {
                 "url": "il9p.electrumx.transcenders.name:50003",
                 "protocol": "WSS"
@@ -21781,6 +21793,7 @@
         "p2shtype": 13,
         "wiftype": 212,
         "txfee": 100000,
+        "dust": 5460,
         "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
@@ -31645,10 +31658,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50013",
-                "protocol": "WSS"
-            },
             {
                 "url": "zeta-seed-d.zetacoin.network:50013",
                 "protocol": "WSS"
