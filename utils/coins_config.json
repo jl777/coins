@@ -37398,7 +37398,7 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 1,
-        "decimals": 18,
+        "decimals": 8,
         "avg_blocktime": 15,
         "required_confirmations": 3,
         "protocol": {
@@ -37459,6 +37459,7 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 56,
+        "decimals": 8,
         "avg_blocktime": 3,
         "required_confirmations": 3,
         "protocol": {
@@ -39845,15 +39846,6 @@
         "allow_slp_unsafe_conf": false,
         "slp_prefix": "slptest",
         "electrum": [
-            {
-                "url": "electroncash.de:50004",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
             {
                 "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",
