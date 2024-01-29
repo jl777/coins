@@ -4,29 +4,29 @@
     "protocol": "SSL",
     "contact": [
           { "email": "mraksoll@gmail.com" },
-          { "discord": "mraksoll#0596" },
+          { "discord": "mraksoll" },
           { "github": "https://github.com/bitweb-project/electrumx/issues" }
     ],
     "ws_url": "electrumx.bitwebcore.net:20003"
   },
   {
-    "url": "electrumx6.scalaris.info:20002",
+    "url": "electrumx1.bitwebcore.net:20002",
     "protocol": "SSL",
     "contact": [
         { "email": "mraksoll@gmail.com" },
-        { "discord": "mraksoll#0596" },
+        { "discord": "mraksoll" },
         { "github": "https://github.com/bitweb-project/electrumx/issues" }
     ],
-    "ws_url": "electrumx6.scalaris.info:20003"
+    "ws_url": "electrumx1.scalaris.info:20003"
   },
   {
-    "url": "electrumx7.scalaris.info:20002",
+    "url": "electrumx2.bitwebcore.net:20002",
     "protocol": "SSL",
     "contact": [
         { "email": "mraksoll@gmail.com" },
-        { "discord": "mraksoll#0596" },
+        { "discord": "mraksoll" },
         { "github": "https://github.com/bitweb-project/electrumx/issues" }
     ],
-    "ws_url": "electrumx7.scalaris.info:20003"
+    "ws_url": "electrumx2.scalaris.info:20003"
   }
 ]
