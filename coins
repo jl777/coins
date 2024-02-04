@@ -9989,6 +9989,23 @@
       "homepage": "https://reserve.org"
     }
   },
+{
+    "coin": "RTB",
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "asset": "RTB",
+    "fname": "RideTheBullCoin",
+    "rpcport": 29403,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 5,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
+  },
   {
     "coin": "RTM",
     "name": "raptoreum",
