@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/fbc32c114d6edbf9625dceec6e150c6a8479792acaba4fa58e7e1c97e0c3acd3)  
+[maker payment (RTB)](https://explorer1.ridethebullcoin.com/tx/64a19d253eb49990f49b4441d7501df8070f1e41a4a73961b0f6d5a60c8aa25f)  
+[taker payment (KMD)](https://kmdexplorer.io/tx/3d38641f62318e17f99d6e667b0879d3eadf7b853eeb937cb3d62295983e9f68)  
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/56ef8b44a5ff55c40f3767806d79e1ff025fa2884f3660578fcd36816ec18bb4)  
+[maker payment spent (RTB)](https://explorer1.ridethebullcoin.com/tx/c2bc235f29e7d5c5d6085cbeb998689f8c7f5c4f4b2147ec0ba37bcecec8ed80)  
