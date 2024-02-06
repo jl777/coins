@@ -409,16 +409,21 @@ class CoinConfig:
             with open(f"../electrums/{coin}", "r") as f:
                 electrums = json.load(f)
                 valid_electrums = []
-                for x in ["tcp", "ssl"]:
+                for x in ["tcp", "ssl", "wss"]:
                     # This also filers ws with tcp/ssl server it is grouped with if valid.
                     for k, v in electrum_scan_report[coin][x].items():
                         if (
                             current_time - v["last_connection"] < 604800
                         ):  # 1 week grace period
                             for electrum in electrums:
-                                if electrum["url"] == k:
-                                    valid_electrums.append(electrum)
+                                if 'url' in electrum:
+                                    if electrum["url"] == k:
+                                        valid_electrums.append(electrum)
+                                if 'ws_url' in electrum:
+                                    if electrum["ws_url"] == k:
+                                        valid_electrums.append(electrum)
 
+                    
                 self.data[self.ticker].update({"electrum": valid_electrums})
 
     def get_bchd_urls(self):
@@ -588,8 +593,12 @@ def filter_ssl(coins_config):
 
 def item_exists(i, electrums):
     for e in electrums:
-        if i["url"] == e["url"]:
-            return True
+        if "url" in e and "url" in i:
+            if i["url"] == e["url"]:
+                return True
+        if "ws_url" in e and "ws_url" in i:
+            if i["ws_url"] == e["ws_url"]:
+                return True
     return False
 
 
