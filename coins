@@ -9989,7 +9989,7 @@
       "homepage": "https://reserve.org"
     }
   },
-{
+  {
     "coin": "RTB",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "RTB",
@@ -10004,7 +10004,11 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
+    "trezor_coin": "Komodo",
+    "links": {
+      "github": "https://github.com/RTBCoin",
+      "homepage": "https://ridethebullcoin.com"
+    }
   },
   {
     "coin": "RTM",
