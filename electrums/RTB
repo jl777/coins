@@ -1,0 +1,44 @@
+[
+    {
+        "url": "electrumx1.ridethebullcoin.com:10002",
+        "protocol": "TCP",
+        "contact": [
+            {
+                "email": "rtbadmin@ridethebullcoin.com"},
+            {  "github": "RTBCoin"},
+            {  "discord": "rtbcoin"}
+        ]
+    },
+    {
+        "url": "electrumx2.ridethebullcoin.com:10002",
+        "protocol": "TCP",
+        "contact": [
+            {
+                "email": "rtbadmin@ridethebullcoin.com"},
+            {  "github": "RTBCoin"},
+           {  "discord": "rtbcoin"}
+        ]
+    },
+    {
+        "url": "electrumx1.ridethebullcoin.com:20053",
+        "protocol": "SSL",
+        "contact": [
+            {
+                "email": "rtbadmin@ridethebullcoin.com"},
+            {  "github": "RTBCoin"},
+            {  "discord": "rtbcoin"}
+        ],
+        "ws_url": "electrumx1.ridethebullcoin.com:20052"
+    },
+    {
+        "url": "electrumx2.ridethebullcoin.com:20053",
+        "protocol": "SSL",
+        "contact": [
+            {
+                "email": "rtbadmin@ridethebullcoin.com"},
+            {  "github": "RTBCoin"},
+            {  "discord": "rtbcoin"}
+        ],
+        "ws_url": "electrumx2.ridethebullcoin.com:20052"
+    }
+]

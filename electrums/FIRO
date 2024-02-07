@@ -33,5 +33,12 @@
     "contact": [
       { "github": "https://github.com/firoorg/electrumx-firo/issues" }
     ]
+  },
+  {
+    "protocol": "WSS",
+    "contact": [
+      {  "github": "https://github.com/firoorg/electrumx-firo/issues" }
+    ],
+    "ws_url": "electrumx01.firo.org:50004"
   }
 ]

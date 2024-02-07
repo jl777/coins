@@ -6,16 +6,22 @@ from copy import deepcopy
 import requests
 from scan_electrums import get_electrums_report
 
+
 current_time = time.time()
 script_path = os.path.abspath(os.path.dirname(__file__))
 repo_path = script_path.replace("/utils", "")
 os.chdir(script_path)
 
 BINANCE_DELISTED_COINS = [
-    "GRS", "NAV", "BTT",
-    "BUSD", "MC", "MIR",
-    "PAX", "SRM", "VIA"
-    "YFII"   
+    "GRS",
+    "NAV",
+    "BTT",
+    "BUSD",
+    "MC",
+    "MIR",
+    "PAX",
+    "SRM",
+    "VIA" "YFII",
 ]
 
 # TODO: Check all coins have an icon.
@@ -409,15 +415,27 @@ class CoinConfig:
             with open(f"../electrums/{coin}", "r") as f:
                 electrums = json.load(f)
                 valid_electrums = []
-                for x in ["tcp", "ssl"]:
+                for x in ["tcp", "ssl", "wss"]:
                     # This also filers ws with tcp/ssl server it is grouped with if valid.
                     for k, v in electrum_scan_report[coin][x].items():
                         if (
                             current_time - v["last_connection"] < 604800
                         ):  # 1 week grace period
                             for electrum in electrums:
-                                if electrum["url"] == k:
-                                    valid_electrums.append(electrum)
+                                electrum["protocol"] = x.upper()
+                                e = deepcopy(electrum)
+                                if "url" in e:
+                                    if e["url"] == k:
+                                        if "ws_url" in e:
+                                            del e["ws_url"]
+                                        valid_electrums.append(e)
+                                e = deepcopy(electrum)
+                                if "ws_url" in e:
+                                    e["protocol"] = "WSS"
+                                    if e["ws_url"] == k:
+                                        e["url"] = k
+                                        del e["ws_url"]
+                                        valid_electrums.append(e)
 
                 self.data[self.ticker].update({"electrum": valid_electrums})
 
@@ -588,8 +606,12 @@ def filter_ssl(coins_config):
 
 def item_exists(i, electrums):
     for e in electrums:
-        if i["url"] == e["url"]:
-            return True
+        if "url" in e and "url" in i:
+            if i["url"] == e["url"]:
+                return True
+        if "ws_url" in e and "ws_url" in i:
+            if i["ws_url"] == e["ws_url"]:
+                return True
     return False
 
 
@@ -636,8 +658,11 @@ def filter_wss(coins_config):
         if "electrum" in coins_config[coin]:
             electrums = []
             for i in coins_config[coin]["electrum"]:
-                if "ws_url" in i:
-                    electrums.append({"url": i["ws_url"], "protocol": "WSS"})
+                if "protocol" in i:
+                    if i["protocol"] == "WSS":
+                        electrums.append(i)
+                else:
+                    print(i)
             coins_config_wss[coin]["electrum"] = electrums[:3]
             if len(coins_config_wss[coin]["electrum"]) == 0:
                 del coins_config_wss[coin]

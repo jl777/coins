@@ -1748,7 +1748,7 @@
     "mm2": 1,
     "sign_message_prefix": "DarkCoin Signed Message:\n",
     "required_confirmations": 3,
-    "avg_blocktime": 180,
+    "avg_blocktime": 90,
     "protocol": {
       "type": "UTXO"
     },
@@ -9990,6 +9990,27 @@
     }
   },
   {
+    "coin": "RTB",
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "asset": "RTB",
+    "fname": "RideTheBullCoin",
+    "rpcport": 29403,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 5,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo",
+    "links": {
+      "github": "https://github.com/RTBCoin",
+      "homepage": "https://ridethebullcoin.com"
+    }
+  },
+  {
     "coin": "RTM",
     "name": "raptoreum",
     "fname": "Raptoreum",
@@ -10321,7 +10342,7 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "SPACE",
+    "coin": "SPACECOIN",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "SPACE",
     "fname": "Spacecoin",
