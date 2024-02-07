@@ -196,6 +196,11 @@ def scan_electrums(electrum_dict):
 
     for coin in electrum_dict:
         for electrum in electrum_dict[coin]:
+            if "ws_url" in electrum:
+                url, port = electrum["ws_url"].split(":")
+                wss_list.append(coin)
+                thread_list.append(scan_thread(coin, url, port, "blockchain.block.headers", [1,2], "wss"))
+                
             if 'url' in electrum:
                 url, port = electrum["url"].split(":")
                 if "protocol" in electrum:
@@ -205,11 +210,6 @@ def scan_electrums(electrum_dict):
                         continue
                 non_ssl_list.append(coin)
                 thread_list.append(scan_thread(coin, url, port, "blockchain.block.headers", [1,2], "tcp"))
-
-            if "ws_url" in electrum:
-                url, port = electrum["ws_url"].split(":")
-                wss_list.append(coin)
-                thread_list.append(scan_thread(coin, url, port, "blockchain.block.headers", [1,2], "wss"))
 
     for thread in thread_list:
         thread.start()

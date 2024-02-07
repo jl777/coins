@@ -6,6 +6,7 @@ from copy import deepcopy
 import requests
 from scan_electrums import get_electrums_report
 
+
 current_time = time.time()
 script_path = os.path.abspath(os.path.dirname(__file__))
 repo_path = script_path.replace("/utils", "")
@@ -430,6 +431,7 @@ class CoinConfig:
                                         valid_electrums.append(e)
                                 e = deepcopy(electrum)
                                 if "ws_url" in e:
+                                    e["protocol"] = "WSS"
                                     if e["ws_url"] == k:
                                         e["url"] = k
                                         del e["ws_url"]
