@@ -86,13 +86,13 @@ def get_from_electrum_wss(url, port, method, params=None):
 
     try:
         async def connect_and_query():
-            async with websockets.connect(f"wss://{url}:{port}", ssl=ssl_context, ) as websocket:
+            async with websockets.connect(f"wss://{url}:{port}", ssl=ssl_context, timeout=10) as websocket:
                 payload = {"id": 0, "method": method}
                 if params:
                     payload.update({"params": params})
                 await websocket.send(json.dumps(payload))
                 await asyncio.sleep(3)
-                resp = await asyncio.wait_for(websocket.recv(), timeout=8)
+                resp = await asyncio.wait_for(websocket.recv(), timeout=7)
                 return resp
         
         loop = asyncio.new_event_loop()
@@ -267,7 +267,7 @@ def get_electrums_report():
             if electrums_ssl_set == electrum_coins_ssl:
                 if electrums_wss_set == electrum_coins_wss:
                     break
-        if i > 60:
+        if i > 10:
             print("Loop expired incomplete after 60 iterations.")
             break
         i += 1
@@ -374,7 +374,7 @@ def get_electrums_report():
 
     with open("electrum_scan_report.json", "w+") as f:
         f.write(json.dumps(results, indent=4))
-
+    
     # print(json.dumps(results, indent=4))
 
 if __name__ == '__main__':

@@ -12,10 +12,15 @@ repo_path = script_path.replace("/utils", "")
 os.chdir(script_path)
 
 BINANCE_DELISTED_COINS = [
-    "GRS", "NAV", "BTT",
-    "BUSD", "MC", "MIR",
-    "PAX", "SRM", "VIA"
-    "YFII"   
+    "GRS",
+    "NAV",
+    "BTT",
+    "BUSD",
+    "MC",
+    "MIR",
+    "PAX",
+    "SRM",
+    "VIA" "YFII",
 ]
 
 # TODO: Check all coins have an icon.
@@ -416,14 +421,20 @@ class CoinConfig:
                             current_time - v["last_connection"] < 604800
                         ):  # 1 week grace period
                             for electrum in electrums:
-                                if 'url' in electrum:
-                                    if electrum["url"] == k:
-                                        valid_electrums.append(electrum)
-                                if 'ws_url' in electrum:
-                                    if electrum["ws_url"] == k:
-                                        valid_electrums.append(electrum)
+                                electrum["protocol"] = x.upper()
+                                e = deepcopy(electrum)
+                                if "url" in e:
+                                    if e["url"] == k:
+                                        if "ws_url" in e:
+                                            del e["ws_url"]
+                                        valid_electrums.append(e)
+                                e = deepcopy(electrum)
+                                if "ws_url" in e:
+                                    if e["ws_url"] == k:
+                                        e["url"] = k
+                                        del e["ws_url"]
+                                        valid_electrums.append(e)
 
-                    
                 self.data[self.ticker].update({"electrum": valid_electrums})
 
     def get_bchd_urls(self):
@@ -645,8 +656,11 @@ def filter_wss(coins_config):
         if "electrum" in coins_config[coin]:
             electrums = []
             for i in coins_config[coin]["electrum"]:
-                if "ws_url" in i:
-                    electrums.append({"url": i["ws_url"], "protocol": "WSS"})
+                if "protocol" in i:
+                    if i["protocol"] == "WSS":
+                        electrums.append(i)
+                else:
+                    print(i)
             coins_config_wss[coin]["electrum"] = electrums[:3]
             if len(coins_config_wss[coin]["electrum"]) == 0:
                 del coins_config_wss[coin]
