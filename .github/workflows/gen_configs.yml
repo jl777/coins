@@ -23,7 +23,7 @@ jobs:
 
       - name: Generate configs
         shell: bash
-        run:  ${GITHUB_WORKSPACE}/utils/generate_app_configs.py
+        run:  pip3 install websockets && ${GITHUB_WORKSPACE}/utils/generate_app_configs.py
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
