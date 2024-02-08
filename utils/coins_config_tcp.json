@@ -3444,40 +3444,16 @@
         "slp_prefix": "simpleledger",
         "electrum": [
             {
-                "url": "electrum1.cipig.net:20055",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
+                "url": "bch.imaginary.cash:50002",
+                "protocol": "SSL"
             },
             {
-                "url": "electrum2.cipig.net:20055",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
+                "url": "bch.soul-dev.com:50002",
+                "protocol": "SSL"
             },
             {
-                "url": "electrum3.cipig.net:20055",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
+                "url": "cashnode.bch.ninja:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
@@ -33541,10 +33517,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL"
-            },
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
