@@ -38462,6 +38462,10 @@
         },
         "electrum": [
             {
+                "url": "electrumx.mainnet.primecoin.org:50011",
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrumx.primecoin.org:50001",
                 "protocol": "TCP"
             }
