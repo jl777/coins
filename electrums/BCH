@@ -1,74 +1,17 @@
 [
     {
-        "url": "electrum1.cipig.net:10055",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ]
-    },
-    {
-        "url": "electrum1.cipig.net:20055",
+        "url": "bch.imaginary.cash:50002",
         "protocol": "SSL",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ],
-        "ws_url": "electrum1.cipig.net:30055"
+        "ws_url": "bch.imaginary.cash:50004"
     },
     {
-        "url": "electrum2.cipig.net:10055",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ]
-    },
-    {
-        "url": "electrum2.cipig.net:20055",
+        "url": "bch.soul-dev.com:50002",
         "protocol": "SSL",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ],
-        "ws_url": "electrum2.cipig.net:30055"
+        "ws_url": "bch.soul-dev.com:50004"
     },
     {
-        "url": "electrum3.cipig.net:20055",
+        "url": "btc.electroncash.dk:50002",
         "protocol": "SSL",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ],
-        "ws_url": "electrum3.cipig.net:30055"
-    },
-    {
-        "url": "electrum3.cipig.net:10055",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ]
+        "ws_url": "btc.electroncash.dk:50004"
     }
 ]
