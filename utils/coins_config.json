@@ -3826,112 +3826,28 @@
         "slp_prefix": "simpleledger",
         "electrum": [
             {
-                "url": "electrum1.cipig.net:10055",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "protocol": "TCP"
+                "url": "bch.imaginary.cash:50002",
+                "protocol": "SSL"
             },
             {
-                "url": "electrum2.cipig.net:10055",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "protocol": "TCP"
+                "url": "bch.soul-dev.com:50002",
+                "protocol": "SSL"
             },
             {
-                "url": "electrum3.cipig.net:10055",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ],
-                "protocol": "TCP"
+                "url": "cashnode.bch.ninja:50002",
+                "protocol": "SSL"
             },
             {
-                "url": "electrum1.cipig.net:20055",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
+                "url": "bch.imaginary.cash:50004",
+                "protocol": "WSS"
             },
             {
-                "url": "electrum2.cipig.net:20055",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
+                "url": "bch.soul-dev.com:50004",
+                "protocol": "WSS"
             },
             {
-                "url": "electrum3.cipig.net:20055",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.cipig.net:30055",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.cipig.net:30055",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.cipig.net:30055",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
+                "url": "cashnode.bch.ninja:50004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/",
@@ -39975,14 +39891,6 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL"
-            },
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50013",
-                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
