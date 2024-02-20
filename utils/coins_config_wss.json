@@ -13696,6 +13696,7 @@
         "wiftype": 160,
         "segwit": false,
         "txfee": 100000,
+        "dust": 54600,
         "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 120,
@@ -33481,10 +33482,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "zeta-seed-c.zetacoin.tech:50013",
-                "protocol": "WSS"
-            },
             {
                 "url": "zeta-seed-d.zetacoin.network:50013",
                 "protocol": "WSS"
