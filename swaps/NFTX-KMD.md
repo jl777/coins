@@ -1,5 +1,0 @@
-[taker fee (KMD)](https://kmdexplorer.io/tx/cbac1ecf0684e9ceb37c75e4001ab4bec635e7c1c5f3036ffe90d122462b3e2b)  
-[maker payment (NFTX)](https://explorer.nftx.pw/tx/760abba1d27117b36f5b0f8868e8b6c6ed3f508b9e0308e5d7619af384e2ffb8)  
-[taker payment (KMD)](https://kmdexplorer.io/tx/62ea5c7c66fa1a7ac2f3832af80668144fde271f19327e38dee38f01c95f096f)  
-[taker payment spent (KMD)](https://kmdexplorer.io/tx/e8cb9243e205da1d641557555a745b386d0afada057da3245d7714ea898179d8)  
-[maker payment spent (NFTX)](https://explorer.nftx.pw/tx/dbe43f2b176971be938d92700dffec3cbd6c5e12c6719e1d7e17c2fa3dbe3caa) 
