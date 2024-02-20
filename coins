@@ -10959,6 +10959,43 @@
     "derivation_path": "m/44'/714'"
   },
   {
+    "coin": "THC",
+    "sign_message_prefix": "Komodo Signed Message:\n",
+    "asset": "THC",
+    "fname": "HempCoin",
+    "rpcport": 36790,
+    "txversion": 4,
+    "overwintered": 1,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "requires_notarization": true,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/141'",
+    "trezor_coin": "Komodo"
+  },
+  {
+    "coin": "THC-BEP20",
+    "name": "thc_bep20",
+    "fname": "HempCoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xBD9a8CA934e673b874937761D7CFa7084ecBdd53"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "TKL",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "TOKEL",
