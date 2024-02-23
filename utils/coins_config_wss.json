@@ -12288,7 +12288,25 @@
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
                     }
                 ],
+                "url": "electrumx.firo.org:50004"
+            },
+            {
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ],
                 "url": "electrumx01.firo.org:50004"
+            },
+            {
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ],
+                "url": "electrumx02.firo.org:50004"
             }
         ],
         "explorer_block_url": "block/",
@@ -15511,18 +15529,6 @@
         "electrum": [
             {
                 "url": "electrum1.ilien.io:30069",
-                "contact": [
-                    {
-                        "email": "admin@ilien.io"
-                    },
-                    {
-                        "discord": "siu - Chainmakers#3920"
-                    }
-                ],
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum2.ilien.io:30069",
                 "contact": [
                     {
                         "email": "admin@ilien.io"
@@ -22772,6 +22778,15 @@
                     }
                 ],
                 "protocol": "WSS"
+            },
+            {
+                "url": "electrum02.chainster.org:50003",
+                "contact": [
+                    {
+                        "discord": "312541186793406465"
+                    }
+                ],
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?",
@@ -24573,10 +24588,6 @@
             },
             {
                 "url": "electrum02.reddcoin.com:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum03.reddcoin.com:50004",
                 "protocol": "WSS"
             }
         ],
@@ -31322,6 +31333,52 @@
         ],
         "explorer_block_url": "block.dws?"
     },
+    "WAF": {
+        "coin": "WAF",
+        "type": "UTXO",
+        "name": "Waifu",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://waifu-explorer.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Waifu Signed Message:\n",
+        "fname": "Waifu",
+        "rpcport": 18332,
+        "pubtype": 73,
+        "p2shtype": 22,
+        "wiftype": 158,
+        "segwit": true,
+        "bech32_hrp": "waf",
+        "txfee": 1000,
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 210,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "links": {
+            "github": "https://github.com/waifu-core/waifu-core"
+        },
+        "electrum": [
+            {
+                "url": "waifu-explorer.io:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "376197863346274307"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "WAVES-BEP20": {
         "coin": "WAVES-BEP20",
         "type": "BEP-20",
@@ -33577,10 +33634,6 @@
         "electrum": [
             {
                 "url": "zeta-seed-c.zetacoin.tech:50013",
-                "protocol": "WSS"
-            },
-            {
-                "url": "zeta-seed-d.zetacoin.network:50013",
                 "protocol": "WSS"
             }
         ],

@@ -3868,10 +3868,6 @@
         },
         "electrum": [
             {
-                "url": "bbk-one.ewm-cx.net:50001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "bbk-two.ewm-cx.net:50001",
                 "protocol": "TCP"
             }
@@ -15432,18 +15428,6 @@
                     }
                 ],
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrum2.ilien.io:65011",
-                "contact": [
-                    {
-                        "email": "admin@ilien.io"
-                    },
-                    {
-                        "discord": "siu - Chainmakers#3920"
-                    }
-                ],
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -18293,6 +18277,10 @@
         "derivation_path": "m/44'/192'",
         "electrum": [
             {
+                "url": "188.166.117.139:50001",
+                "protocol": "TCP"
+            },
+            {
                 "url": "88.99.26.209:5140",
                 "protocol": "TCP"
             }
@@ -18338,6 +18326,10 @@
         },
         "derivation_path": "m/44'/192'",
         "electrum": [
+            {
+                "url": "188.166.117.139:50001",
+                "protocol": "TCP"
+            },
             {
                 "url": "88.99.26.209:5140",
                 "protocol": "TCP"
@@ -22985,6 +22977,10 @@
             {
                 "url": "pink-one.ewm-cx.net:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "pink-two.ewm-cx.net:50001",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -23021,6 +23017,15 @@
         "electrum": [
             {
                 "url": "electrum01.chainster.org:50001",
+                "contact": [
+                    {
+                        "discord": "312541186793406465"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum02.chainster.org:50001",
                 "contact": [
                     {
                         "discord": "312541186793406465"
@@ -24777,10 +24782,6 @@
             },
             {
                 "url": "electrum02.reddcoin.com:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum03.reddcoin.com:50002",
                 "protocol": "SSL"
             }
         ],
@@ -31446,6 +31447,52 @@
         ],
         "explorer_block_url": "block.dws?"
     },
+    "WAF": {
+        "coin": "WAF",
+        "type": "UTXO",
+        "name": "Waifu",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://waifu-explorer.io/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Waifu Signed Message:\n",
+        "fname": "Waifu",
+        "rpcport": 18332,
+        "pubtype": 73,
+        "p2shtype": 22,
+        "wiftype": 158,
+        "segwit": true,
+        "bech32_hrp": "waf",
+        "txfee": 1000,
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 210,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "links": {
+            "github": "https://github.com/waifu-core/waifu-core"
+        },
+        "electrum": [
+            {
+                "url": "waifu-explorer.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "376197863346274307"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "WAVES-BEP20": {
         "coin": "WAVES-BEP20",
         "type": "BEP-20",
@@ -33696,10 +33743,6 @@
         "electrum": [
             {
                 "url": "zeta-seed-c.zetacoin.tech:50012",
-                "protocol": "SSL"
-            },
-            {
-                "url": "zeta-seed-d.zetacoin.network:50012",
                 "protocol": "SSL"
             },
             {
