@@ -12318,6 +12318,28 @@
     }
   },
   {
+    "coin": "WAF",
+    "name": "waifu",
+    "fname": "Waifu",
+    "rpcport": 18332,
+    "pubtype": 73,
+    "p2shtype": 22,
+    "wiftype": 158,
+    "segwit": true,
+    "bech32_hrp": "waf",
+    "txfee": 1000,
+    "mm2": 1,
+    "sign_message_prefix": "Waifu Signed Message:\n",
+    "required_confirmations": 4,
+    "avg_blocktime": 210,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "links": {
+      "github": "https://github.com/waifu-core/waifu-core"
+    }
+  },
+  {
     "coin": "WAVES-BEP20",
     "name": "waves_bep20",
     "fname": "Waves",
