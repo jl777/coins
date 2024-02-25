@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
+import os
 import requests
 import json
 
-with open('../coins', 'r') as f:
+script_path = os.path.abspath(os.path.dirname(__file__))
+repo_path = script_path.replace("/utils", "")
+
+with open(f'{repo_path}/coins', 'r') as f:
 	coins_data = json.load(f)
 
 
@@ -66,5 +70,5 @@ for ticker in clean_trezor_data:
 					})
 			break
 
-with open('../coins', 'w') as f:
+with open(f'{repo_path}/coins', 'w') as f:
 	json.dump(coins_data, f, indent=2)

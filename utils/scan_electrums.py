@@ -222,7 +222,7 @@ def get_repo_electrums():
     repo_electrums = {}
     for coin in electrum_coins:
         try:
-            with open(f"../electrums/{coin}", "r") as f:
+            with open(f"{repo_path}/electrums/{coin}", "r") as f:
                 electrums = json.load(f)
                 repo_electrums.update({coin: electrums})
         except json.decoder.JSONDecodeError:
@@ -233,7 +233,7 @@ def get_repo_electrums():
 
 def get_existing_report():
     if os.path.exists("electrum_scan_report.json"):
-        with open("electrum_scan_report.json", "r") as f:
+        with open(f"{script_path}/electrum_scan_report.json", "r") as f:
             return json.load(f)
     return {}
 
@@ -372,7 +372,7 @@ def get_electrums_report():
                     }
                 })
 
-    with open("electrum_scan_report.json", "w+") as f:
+    with open(f"{script_path}/electrum_scan_report.json", "w+") as f:
         f.write(json.dumps(results, indent=4))
     
     # print(json.dumps(results, indent=4))
