@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 import json
 
-with open('../coins', "r") as f:
+script_dir = os.path.abspath(os.path.dirname( __file__ ))
+repo_path = script_path.replace("/utils", "")
+
+with open(f'{repo_path}/coins', "r") as f:
     coins = json.load(f)
 
-with open('protocol_derivation_paths.json', "r") as f:
+with open(f'{script_path}/protocol_derivation_paths.json', "r") as f:
     paths = json.load(f)
 
 not_processed = {}
@@ -90,5 +93,5 @@ print(f'The following coins were not processed')
 for proto in not_processed:
     print(f"{proto}: {not_processed[proto]}")
 
-with open("../coins", 'w') as f:
+with open(f"{repo_path}/coins", 'w') as f:
     json.dump(coins, f, indent=2)
