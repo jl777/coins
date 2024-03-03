@@ -25,13 +25,20 @@
         "disable_cert_verification": true
     },
     {
-        "url": "82.119.233.36:50001",
-        "protocol": "TCP",
-        "contact": [
-            {
-                "github": "https://github.com/namecoin/electrum-nmc/issues"
-            }
-        ]
+        "url": "198.50.223.25:50001",
+        "protocol": "TCP"
+    },
+    {
+        "url": "198.50.223.27:50001",
+        "protocol": "TCP"
+    },
+    {
+        "url": "electrumx2.nmc.dotbit.zone:50001",
+        "protocol": "TCP"
+    },
+    {
+        "url": "electrumx4.nmc.dotbit.zone:50001",
+        "protocol": "TCP"
     },
     {
         "url": "46.229.238.187:57001"
