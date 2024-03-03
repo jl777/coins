@@ -484,6 +484,30 @@
     }
   },
   {
+    "coin": "AIPG",
+    "name": "aipowergrid",
+    "fname": "AIPowerGrid",
+    "sign_message_prefix": "Aipg Signed Message:\n",
+    "rpcport": 9788,
+    "pubtype": 23,
+    "p2shtype": 23,
+    "wiftype": 128,
+    "segwit": true,
+    "txfee": 1000000,
+    "dust": 1000000,
+    "mm2": 1,
+    "required_confirmations": 6,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/1669'/0'/0",
+    "links": {
+      "github": "https://github.com/AIPowerGrid/AI-Power-Grid-Core",
+      "homepage": "aipowergrid.io"
+    }
+  },
+  {
     "coin": "ANKR-BEP20",
     "name": "ankr_bep20",
     "fname": "Ankr",
