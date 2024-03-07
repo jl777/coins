@@ -8284,7 +8284,7 @@
         "type": "UTXO",
         "name": "Cheetahcoin",
         "coinpaprika_id": "chta-cheetahcoin",
-        "coingecko_id": "",
+        "coingecko_id": "cheetahcoin",
         "livecoinwatch_id": "CHTA",
         "explorer_url": "http://chtaexplorer.mooo.com:3002/",
         "explorer_tx_url": "",
@@ -8352,7 +8352,7 @@
         "type": "BEP-20",
         "name": "Cheetahcoin",
         "coinpaprika_id": "chta-cheetahcoin",
-        "coingecko_id": "",
+        "coingecko_id": "cheetahcoin",
         "livecoinwatch_id": "CHTA",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
@@ -29401,11 +29401,19 @@
                 "protocol": "SSL"
             },
             {
+                "url": "electrum03.reddcoin.com:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum01.reddcoin.com:50004",
                 "protocol": "WSS"
             },
             {
                 "url": "electrum02.reddcoin.com:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum03.reddcoin.com:50004",
                 "protocol": "WSS"
             }
         ],
@@ -31866,17 +31874,7 @@
                 "disable_cert_verification": false
             },
             {
-                "url": "sumpos2.electrum-sum.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false
-            },
-            {
                 "url": "sumpos.electrum-sum.org:50004",
-                "protocol": "WSS",
-                "disable_cert_verification": false
-            },
-            {
-                "url": "sumpos2.electrum-sum.org:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": false
             }
@@ -32555,9 +32553,9 @@
         "fallback_swap_contract": "0x25bF2AAB8749AD2e4360b3e0B738f3Cd700C4D68",
         "nodes": [
             {
-                "url": "https://smartbch.fountainhead.cash/mainnet",
+                "url": "https://rpc.smartbch.org",
                 "contact": {
-                    "email": "blockparty-sh@yandex.com"
+                    "email": "contact@smartbch.org"
                 }
             },
             {
@@ -39955,6 +39953,22 @@
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "zeta-seed-d.zetacoin.network:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "zeta-seed-c.zetacoin.tech:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "zeta-seed-d.zetacoin.network:50013",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -43122,6 +43136,15 @@
         "electrum": [
             {
                 "url": "electroncash.de:50004",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
+                "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
