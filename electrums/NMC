@@ -1,11 +1,13 @@
 [
     {
-        "url": "nmc2.bitcoins.sk:57002",
-        "protocol": "SSL",
+        "url": "nmc2.bitcoins.sk:57001",
+        "protocol": "TCP",
         "disable_cert_verification": true
     },
     {
-        "url": "46.229.238.187:57001"
+        "url": "nmc2.bitcoins.sk:57002",
+        "protocol": "SSL",
+        "disable_cert_verification": true
     },
     {
         "url": "electrumx1.nmc.dotbit.zone:50001",
