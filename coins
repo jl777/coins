@@ -12173,6 +12173,37 @@
       "homepage": "https://viacoin.org"
     }
   },
+  { 
+    "coin": "VIA-segwit",
+    "name": "viacoin",
+    "fname": "Viacoin",
+    "sign_message_prefix": "Viacoin Signed Message:\n",
+    "rpcport": 5222,
+    "pubtype": 71,
+    "p2shtype": 33,
+    "wiftype": 199,
+    "txfee": 100000, 
+    "dust": 54600,
+    "required_confirmations": 7,
+    "mature_confirmations": 3600,
+    "avg_blocktime": 24,
+    "segwit": true,
+    "bech32_hrp": "via",
+    "address_format": {
+      "format": "segwit"
+    },
+    "orderbook_ticker": "VIA",
+    "mm2": 1,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/14'",
+    "trezor_coin": "Viacoin",
+    "links": {
+      "github": "https://github.com/viacoin",
+      "homepage": "https://viacoin.org"
+    }
+  },
   {
     "coin": "VITE-BEP20",
     "name": "vite_bep20",
