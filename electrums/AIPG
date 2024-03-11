@@ -1,0 +1,20 @@
+[
+  {
+    "url": "electrumx1.aipowergrid.io:50002",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "482101557383528448" } 
+    ],
+    "ws_url": "electrumx1.aipowergrid.io:50004"
+  },
+  {
+    "url": "electrumx2.aipowergrid.io:50002",
+    "protocol": "SSL",
+    "contact": [
+        {
+            "discord": "482101557383528448"
+        }
+    ],
+    "ws_url": "electrumx2.aipowergrid.io:50004"
+}
+]
