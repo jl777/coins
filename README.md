@@ -8,7 +8,7 @@ This repository is the coins database which is used to define parameters for coi
     <a href="https://github.com/KomodoPlatform/komodo-wallet-desktop"><img src="https://user-images.githubusercontent.com/35845239/226103576-a0336fcb-0d8e-47db-bf66-6ec779c35f1c.png" alt="Komodo Wallet Desktop"></a>
 </p>
 
-Refer to the [coin listing guide](https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/listing-a-coin-on-atomicdex.html) on the Komodo Developer Documentation website for details about the information required for a successful listing.
+Refer to the [coin listing guide](https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/listing-a-coin-on-atomicdex.html) on the Komodo Developer Documentation website for details about the information required for a successful listing. **To avoid SSL certificate validation issues, it is highly recommended to use [EFF's Certbot](https://certbot.eff.org/) to generate SSL certificates for ElectrumX servers.**
 
 The status of currently listed [ElectrumX](https://electrumx.readthedocs.io/en/latest/) servers is monitored via a public [API](https://electrum-status.dragonhound.info/api/v1/electrums_status) and [Dashboard](https://stats.kmd.io/atomicdex/electrum_status/). Discord status alerts are available in the [AtomicDEX Electrum Status channel](https://discord.gg/rTkjADfnjt) (please contact smk to register and recieve pings when your servers have an issue).
 

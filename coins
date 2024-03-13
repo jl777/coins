@@ -484,6 +484,30 @@
     }
   },
   {
+    "coin": "AIPG",
+    "name": "aipowergrid",
+    "fname": "AIPowerGrid",
+    "sign_message_prefix": "Aipg Signed Message:\n",
+    "rpcport": 9788,
+    "pubtype": 23,
+    "p2shtype": 23,
+    "wiftype": 128,
+    "segwit": true,
+    "txfee": 1000000,
+    "dust": 1000000,
+    "mm2": 1,
+    "required_confirmations": 6,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/2686'",
+    "links": {
+      "github": "https://github.com/AIPowerGrid/AI-Power-Grid-Core",
+      "homepage": "aipowergrid.io"
+    }
+  },
+  {
     "coin": "ANKR-BEP20",
     "name": "ankr_bep20",
     "fname": "Ankr",
@@ -3890,7 +3914,7 @@
     "wiftype": 158,
     "txfee": 0,
     "force_min_relay_fee": true,
-    "dust": 100000000,
+    "dust": 1000000,
     "mm2": 1,
     "required_confirmations": 2,
     "avg_blocktime": 60,
@@ -12173,6 +12197,37 @@
       "homepage": "https://viacoin.org"
     }
   },
+  { 
+    "coin": "VIA-segwit",
+    "name": "viacoin",
+    "fname": "Viacoin",
+    "sign_message_prefix": "Viacoin Signed Message:\n",
+    "rpcport": 5222,
+    "pubtype": 71,
+    "p2shtype": 33,
+    "wiftype": 199,
+    "txfee": 100000, 
+    "dust": 54600,
+    "required_confirmations": 7,
+    "mature_confirmations": 3600,
+    "avg_blocktime": 24,
+    "segwit": true,
+    "bech32_hrp": "via",
+    "address_format": {
+      "format": "segwit"
+    },
+    "orderbook_ticker": "VIA",
+    "mm2": 1,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/14'",
+    "trezor_coin": "Viacoin",
+    "links": {
+      "github": "https://github.com/viacoin",
+      "homepage": "https://viacoin.org"
+    }
+  },
   {
     "coin": "VITE-BEP20",
     "name": "vite_bep20",
@@ -14502,7 +14557,7 @@
     "txfee": 1000000,
     "mm2": 1,
     "required_confirmations": 3,
-    "avg_blocktime": 1,
+    "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
