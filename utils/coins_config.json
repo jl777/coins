@@ -16142,24 +16142,12 @@
         },
         "electrum": [
             {
-                "url": "electrum1.netseed.net:50001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrum2.netseed.net:50001",
                 "protocol": "TCP"
             },
             {
-                "url": "electrum1.netseed.net:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum2.netseed.net:50002",
                 "protocol": "SSL"
-            },
-            {
-                "url": "electrum1.netseed.net:50003",
-                "protocol": "WSS"
             },
             {
                 "url": "electrum2.netseed.net:50003",
@@ -38762,6 +38750,18 @@
                 ]
             },
             {
+                "url": "electrumx3.neurai.top:50001",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "alarm@neurai.org"
+                    },
+                    {
+                        "discord": "456566604809895947"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx1.neurai.top:50002",
                 "protocol": "WSS",
                 "contact": [
@@ -38775,6 +38775,18 @@
             },
             {
                 "url": "electrumx2.neurai.top:50002",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "alarm@neurai.org"
+                    },
+                    {
+                        "discord": "456566604809895947"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx3.neurai.top:50002",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -39228,6 +39240,24 @@
             {
                 "url": "electrumx2.vanillacash.info:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "xvc-ex-seven.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "xvc-ex-seven.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             },
             {
                 "url": "electrumx1.vanillacash.info:50013",
@@ -44984,6 +45014,15 @@
         },
         "electrum": [
             {
+                "url": "electrum1.kiirocoin.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "1155906841625239684"
+                    }
+                ]
+            },
+            {
                 "url": "electrum1.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -44993,25 +45032,7 @@
                 ]
             },
             {
-                "url": "electrum3.kiirocoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
-            {
                 "url": "electrum1.kiirocoin.org:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.kiirocoin.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
