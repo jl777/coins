@@ -13643,10 +13643,6 @@
         },
         "electrum": [
             {
-                "url": "electrum1.netseed.net:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum2.netseed.net:50002",
                 "protocol": "SSL"
             }
@@ -32243,6 +32239,18 @@
                         "discord": "456566604809895947"
                     }
                 ]
+            },
+            {
+                "url": "electrumx3.neurai.top:50001",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "alarm@neurai.org"
+                    },
+                    {
+                        "discord": "456566604809895947"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -32582,6 +32590,48 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
+    },
+    "XVC": {
+        "coin": "XVC",
+        "type": "UTXO",
+        "name": "VanillaCash",
+        "coinpaprika_id": "xvc-vcash",
+        "coingecko_id": "vcash",
+        "livecoinwatch_id": "XVC",
+        "explorer_url": "https://chainz.cryptoid.info/xvc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "VanillaCash",
+        "isPoS": 1,
+        "rpcport": 48888,
+        "pubtype": 18,
+        "p2shtype": 30,
+        "wiftype": 181,
+        "txfee": 1000,
+        "dust": 10000,
+        "mm2": 1,
+        "required_confirmations": 7,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "xvc-ex-seven.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "XVC-BEP20": {
         "coin": "XVC-BEP20",
@@ -36980,15 +37030,6 @@
         "electrum": [
             {
                 "url": "electrum1.kiirocoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
