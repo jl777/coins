@@ -4498,12 +4498,12 @@
                 "protocol": "SSL"
             },
             {
-                "url": "electrum2.blocx.space:50002",
+                "url": "electrum3.blocx.space:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "electrum3.blocx.space:50002",
-                "protocol": "SSL"
+                "url": "electrum1.blocx.space:50001",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -13795,11 +13795,15 @@
         },
         "electrum": [
             {
+                "url": "electrum1.netseed.net:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum2.netseed.net:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "electrum2.netseed.net:50001",
+                "url": "electrum1.netseed.net:50001",
                 "protocol": "TCP"
             }
         ],
@@ -33980,12 +33984,12 @@
                 ]
             },
             {
-                "url": "zeta-seed-d.zetacoin.network:50012",
+                "url": "zeta-seed-c.zetacoin.tech:50012",
                 "protocol": "SSL"
             },
             {
-                "url": "207.180.252.200:50011",
-                "protocol": "TCP"
+                "url": "zeta-seed-d.zetacoin.network:50012",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -37550,6 +37554,15 @@
                 ]
             },
             {
+                "url": "electrum3.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrum1.kiirocoin.org:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -37606,6 +37619,63 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
+    "MEWC": {
+        "coin": "MEWC",
+        "type": "UTXO",
+        "name": "Meowcoin",
+        "coinpaprika_id": "mewc-meowcoin",
+        "coingecko_id": "meowcoin",
+        "livecoinwatch_id": "MEWC",
+        "explorer_url": "https://mewc.cryptoscope.io/",
+        "explorer_tx_url": "tx/?txid=",
+        "explorer_address_url": "address/?address=",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Meowcoin Signed Message:\n",
+        "fname": "Meowcoin",
+        "rpcport": 9766,
+        "pubtype": 50,
+        "p2shtype": 122,
+        "wiftype": 112,
+        "segwit": false,
+        "txfee": 1000000,
+        "dust": 1000000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/1669'",
+        "links": {
+            "github": "https://github.com/Meowcoin-Foundation/Meowcoin",
+            "homepage": "https://www.mewccrypto.com/"
+        },
+        "electrum": [
+            {
+                "url": "meowcoinelectrum.xyz:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "Meowmancer#2099"
+                    }
+                ]
+            },
+            {
+                "url": "meowelectrum.xyz:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "Meowmancer#2099"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     }
 }
