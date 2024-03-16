@@ -12638,6 +12638,7 @@
     "wiftype": 162,
     "txversion": 2,
     "txfee": 100000,
+    "dust": 100000,
     "mm2": 1,
     "segwit": true,
     "signature_version": "witness_v0",
@@ -14649,5 +14650,29 @@
       }
     },
     "derivation_path": "m/44'/714'"
+  },
+  {
+    "coin": "MEWC",
+    "name": "meowcoin",
+    "fname": "Meowcoin",
+    "sign_message_prefix": "Meowcoin Signed Message:\n",
+    "rpcport": 9766,
+    "pubtype": 50,
+    "p2shtype": 122,
+    "wiftype": 112,
+    "segwit": false,
+    "txfee": 1000000,
+    "dust": 1000000,
+    "mm2": 1,
+    "required_confirmations": 3,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/1669'",
+    "links": {
+      "github": "https://github.com/Meowcoin-Foundation/Meowcoin",
+      "homepage": "https://www.mewccrypto.com/"
+    }
   }
 ]
