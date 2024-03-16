@@ -8024,6 +8024,26 @@
     }
   },
   {
+    "coin": "MINU-BEP20",
+    "name": "minu_bep20",
+    "fname": "Minu",
+    "rpcport": 80,
+    "mm2": 1,
+    "wallet_only": true,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xf48f91df403976060cC05dBbf8A0901b09fdeFd4"
+      }
+    },
+    "derivation_path": "m/44'/714'"
+  },
+  {
     "coin": "MIR-ERC20",
     "name": "mir_erc20",
     "fname": "Mirror Protocol",
