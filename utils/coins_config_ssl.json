@@ -5237,6 +5237,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/664'",
         "electrum": [
             {
                 "url": "electrumserver01.globalboost.info:50014",
@@ -32298,7 +32299,7 @@
         "protocol": {
             "type": "UTXO"
         },
-        "derivation_path": "m/44'/0'",
+        "derivation_path": "m/44'/1900'",
         "links": {
             "github": "https://github.com/NeuraiProject/Neurai",
             "homepage": "https://neurai.org"
