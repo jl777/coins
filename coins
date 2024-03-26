@@ -10928,9 +10928,47 @@
     "derivation_path": "m/44'/714'"
   },
   {
-    "coin": "tBTC",
+    "coin": "TBTC-ERC20",
+    "name": "tbtc_erc20",
+    "fname": "tBTC",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "TBTC-PLG20",
+    "name": "tbtc_plg20",
+    "fname": "tBTC",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
+    "coin": "TESTBTC",
     "name": "tbitcoin",
-    "fname": "BTC Testnet",
+    "fname": "Bitcoin Testnet",
     "rpcport": 18332,
     "pubtype": 111,
     "p2shtype": 196,
@@ -10940,7 +10978,6 @@
     "txfee": 0,
     "estimate_fee_mode": "ECONOMICAL",
     "mm2": 1,
-    "wallet_only": false,
     "is_testnet": true,
     "required_confirmations": 0,
     "protocol": {
@@ -10948,9 +10985,9 @@
     }
   },
   {
-    "coin": "tBTC-segwit",
+    "coin": "TESTBTC-segwit",
     "name": "tbitcoin",
-    "fname": "tBitcoin",
+    "fname": "Bitcoin Testnet",
     "rpcport": 18332,
     "pubtype": 111,
     "p2shtype": 196,
