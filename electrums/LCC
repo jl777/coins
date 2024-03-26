@@ -1,5 +1,20 @@
 [
   {
+    "url": "lcc-ex-one.ewmci.online:50002",
+    "ws_url": "lcc-ex-one.ewmci.online:50003",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "475820011634819072" }
+    ]
+  },
+  {
+    "url": "lcc-ex-one.ewmci.online:50001",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "475820011634819072" }
+    ]
+  },
+  {
     "url": "188.166.117.139:50001",
     "protocol": "TCP"
   },

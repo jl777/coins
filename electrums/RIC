@@ -1,0 +1,26 @@
+[
+  {
+    "url": "ric-ex-two.ewmci.online:50002",
+    "ws_url": "ric-ex-two.ewmci.online:50003",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "475820011634819072" }
+    ]
+  },
+  {
+    "url": "ric-ex-two.ewmci.online:50001",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "475820011634819072" }
+    ]
+  },
+  {
+    "url": "electrum3.cipig.net:20074",
+    "ws_url": "electrum3.cipig.net:30074",
+    "protocol": "SSL",
+    "contact": [
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
+    ]
+  }
+]
