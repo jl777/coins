@@ -3194,6 +3194,30 @@
     "derivation_path": "m/44'/966'"
   },
   {
+    "coin": "CRT-QRC20",
+    "name": "qtum",
+    "fname": "CRT Token",
+    "rpcport": 3889,
+    "pubtype": 58,
+    "p2shtype": 50,
+    "wiftype": 128,
+    "segwit": false,
+    "txfee": 0,
+    "dust": 72800,
+    "mm2": 1,
+    "required_confirmations": 3,
+    "mature_confirmations": 2000,
+    "avg_blocktime": 32,
+    "protocol": {
+      "type": "QRC20",
+      "protocol_data": {
+        "platform": "QTUM",
+        "contract_address": "0x0f80aa32ba51e0acf171e106a1cfcd1eb9a9c3a5"
+      }
+    },
+    "derivation_path": "m/44'/2301'"
+  },
+  {
     "coin": "CRV-ERC20",
     "name": "crv_erc20",
     "fname": "Curve DAO Token",
