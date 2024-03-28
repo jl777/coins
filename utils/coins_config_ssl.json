@@ -93,7 +93,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -343,7 +343,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -394,7 +394,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -741,7 +741,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -777,20 +777,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "aby-ex-four.ewmci.online:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
             {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
@@ -1110,7 +1096,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -1221,7 +1207,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -1435,7 +1421,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -1642,7 +1628,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -1799,7 +1785,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -2052,7 +2038,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -2090,11 +2076,6 @@
         },
         "derivation_path": "m/44'/85'",
         "electrum": [
-            {
-                "url": "electrumx.aur.ewmcx.info:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
             {
                 "url": "failover.aur.ewmcx.biz:50002",
                 "protocol": "SSL",
@@ -2379,15 +2360,6 @@
                 ]
             },
             {
-                "url": "electrum-eu.avn.network:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@avn.network"
-                    }
-                ]
-            },
-            {
                 "url": "electrum-us.avn.network:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -2445,7 +2417,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -2992,7 +2964,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -3245,7 +3217,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -3498,7 +3470,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -3915,7 +3887,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -4048,7 +4020,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -4817,7 +4789,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -5102,7 +5074,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -5153,7 +5125,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -5506,166 +5478,6 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "BTE": {
-        "coin": "BTE",
-        "type": "UTXO",
-        "name": "Bitweb",
-        "coinpaprika_id": "bte-bitweb",
-        "coingecko_id": "bitweb",
-        "livecoinwatch_id": "_BTE",
-        "explorer_url": "https://explorer.bitwebcore.net/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Bitweb",
-        "rpcport": 1605,
-        "pubtype": 33,
-        "p2shtype": 30,
-        "wiftype": 128,
-        "segwit": true,
-        "bech32_hrp": "web",
-        "txfee": 20000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "electrumx.bitwebcore.net:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx1.bitwebcore.net:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.bitwebcore.net:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "BTE-segwit": {
-        "coin": "BTE-segwit",
-        "type": "UTXO",
-        "name": "Bitweb",
-        "coinpaprika_id": "bte-bitweb",
-        "coingecko_id": "bitweb",
-        "livecoinwatch_id": "_BTE",
-        "explorer_url": "https://explorer.bitwebcore.net/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Bitweb",
-        "rpcport": 1605,
-        "pubtype": 33,
-        "p2shtype": 30,
-        "wiftype": 128,
-        "segwit": true,
-        "bech32_hrp": "web",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "BTE",
-        "txfee": 20000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "electrumx.bitwebcore.net:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx1.bitwebcore.net:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.bitwebcore.net:20002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "mraksoll@gmail.com"
-                    },
-                    {
-                        "discord": "mraksoll"
-                    },
-                    {
-                        "github": "https://github.com/bitweb-project/electrumx/issues"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "BTT-BEP20": {
         "coin": "BTT-BEP20",
         "type": "BEP-20",
@@ -5872,7 +5684,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -6324,7 +6136,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -6436,7 +6248,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -6854,7 +6666,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -6965,7 +6777,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -7402,7 +7214,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -7557,7 +7369,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -7859,7 +7671,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -8014,7 +7826,86 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "CRT-QRC20": {
+        "coin": "CRT-QRC20",
+        "type": "QRC-20",
+        "name": "CRT Token",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.qtum.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "CRT Token",
+        "rpcport": 3889,
+        "pubtype": 58,
+        "p2shtype": 50,
+        "wiftype": 128,
+        "segwit": false,
+        "txfee": 0,
+        "dust": 72800,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "mature_confirmations": 2000,
+        "avg_blocktime": 32,
+        "protocol": {
+            "type": "QRC20",
+            "protocol_data": {
+                "platform": "QTUM",
+                "contract_address": "0x0f80aa32ba51e0acf171e106a1cfcd1eb9a9c3a5"
+            }
+        },
+        "derivation_path": "m/44'/2301'",
+        "contract_address": "0x0f80aa32ba51e0acf171e106a1cfcd1eb9a9c3a5",
+        "parent_coin": "QTUM",
+        "swap_contract_address": "0x2f754733acd6d753731c00fee32cb484551cc15d",
+        "fallback_swap_contract": "0x2f754733acd6d753731c00fee32cb484551cc15d",
+        "electrum": [
+            {
+                "url": "electrum1.cipig.net:20050",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.cipig.net:20050",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.cipig.net:20050",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -8265,7 +8156,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -8895,7 +8786,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -9204,7 +9095,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -9255,7 +9146,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -10899,7 +10790,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -11422,7 +11313,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -11534,7 +11425,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -11646,7 +11537,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -11763,7 +11654,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -12069,7 +11960,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -13144,7 +13035,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -13503,7 +13394,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -13826,7 +13717,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -13972,7 +13863,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -14135,7 +14026,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -14186,7 +14077,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -14621,7 +14512,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -14905,7 +14796,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -15016,7 +14907,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -15319,7 +15210,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -15505,7 +15396,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -15556,7 +15447,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -15975,7 +15866,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -16073,7 +15964,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -16174,7 +16065,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -16226,7 +16117,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -16435,7 +16326,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -16487,7 +16378,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -16695,7 +16586,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -16855,7 +16746,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -16907,7 +16798,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -16959,7 +16850,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -17011,7 +16902,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -17063,7 +16954,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -17115,7 +17006,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -17167,7 +17058,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -17219,7 +17110,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -17320,7 +17211,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -17431,7 +17322,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -17482,7 +17373,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -17534,7 +17425,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -17586,7 +17477,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -17638,7 +17529,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -18018,7 +17909,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -18362,6 +18253,104 @@
         ],
         "explorer_block_url": "block/"
     },
+    "LCC": {
+        "coin": "LCC",
+        "type": "UTXO",
+        "name": "Litecoin Cash",
+        "coinpaprika_id": "lcc-litecoin-cash",
+        "coingecko_id": "litecoin-cash",
+        "livecoinwatch_id": "LCC",
+        "explorer_url": "https://chainz.cryptoid.info/lcc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Litecoin Signed Message:\n",
+        "fname": "Litecoin Cash",
+        "rpcport": 62457,
+        "pubtype": 28,
+        "p2shtype": 50,
+        "wiftype": 176,
+        "decimals": 7,
+        "fork_id": "0x40",
+        "signature_version": "base",
+        "txfee": 20000,
+        "segwit": true,
+        "bech32_hrp": "lcc",
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/192'",
+        "electrum": [
+            {
+                "url": "lcc-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
+    "LCC-segwit": {
+        "coin": "LCC-segwit",
+        "type": "UTXO",
+        "name": "Litecoin Cash",
+        "coinpaprika_id": "lcc-litecoin-cash",
+        "coingecko_id": "litecoin-cash",
+        "livecoinwatch_id": "LCC",
+        "explorer_url": "https://chainz.cryptoid.info/lcc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Litecoin Signed Message:\n",
+        "fname": "Litecoin Cash",
+        "rpcport": 62457,
+        "pubtype": 28,
+        "p2shtype": 50,
+        "wiftype": 176,
+        "decimals": 7,
+        "fork_id": "0x40",
+        "signature_version": "base",
+        "txfee": 20000,
+        "segwit": true,
+        "bech32_hrp": "lcc",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "LCC",
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/192'",
+        "electrum": [
+            {
+                "url": "lcc-ex-one.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "LDO-ERC20": {
         "coin": "LDO-ERC20",
         "type": "ERC-20",
@@ -18468,7 +18457,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -18583,7 +18572,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -18924,7 +18913,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -19136,7 +19125,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -19771,7 +19760,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -19930,7 +19919,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -20016,7 +20005,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -20943,7 +20932,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -21197,7 +21186,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -21627,7 +21616,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -22152,7 +22141,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -22363,7 +22352,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -22479,7 +22468,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -22774,7 +22763,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -22937,7 +22926,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -23093,7 +23082,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -23208,7 +23197,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -23371,7 +23360,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -23529,7 +23518,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -23691,7 +23680,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -23896,7 +23885,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -24932,9 +24921,171 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
+        "explorer_block_url": "block/"
+    },
+    "RIC": {
+        "coin": "RIC",
+        "type": "UTXO",
+        "name": "Riecoin",
+        "coinpaprika_id": "ric-riecoin",
+        "coingecko_id": "riecoin",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://chainz.cryptoid.info/ric/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Riecoin",
+        "rpcport": 28332,
+        "pubtype": 60,
+        "p2shtype": 65,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "ric",
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/143'",
+        "electrum": [
+            {
+                "url": "electrum3.cipig.net:20074",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "ric-ex-two.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
+    "RIC-segwit": {
+        "coin": "RIC-segwit",
+        "type": "UTXO",
+        "name": "Riecoin",
+        "coinpaprika_id": "ric-riecoin",
+        "coingecko_id": "riecoin",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://chainz.cryptoid.info/ric/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Riecoin",
+        "rpcport": 28332,
+        "pubtype": 60,
+        "p2shtype": 65,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "ric",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "RIC",
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/143'",
+        "electrum": [
+            {
+                "url": "electrum3.cipig.net:20074",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "ric-ex-two.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
+    "RIC-BEP20": {
+        "coin": "RIC-BEP20",
+        "type": "BEP-20",
+        "name": "Riecoin",
+        "coinpaprika_id": "ric-riecoin",
+        "coingecko_id": "riecoin",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Riecoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0xc2097531d6Cd4A712AE08f398283a92631DC39F9"
+            }
+        },
+        "derivation_path": "m/44'/714'",
+        "contract_address": "0xc2097531d6Cd4A712AE08f398283a92631DC39F9",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
     "DOC": {
@@ -25187,7 +25338,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -25298,7 +25449,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -25434,7 +25585,7 @@
         "name": "RideTheBullCoin",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "RTB",
         "explorer_url": "https://explorer1.ridethebullcoin.com/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -25774,7 +25925,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -26173,7 +26324,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -26272,7 +26423,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -26595,7 +26746,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -26706,7 +26857,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -27176,7 +27327,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -27646,10 +27797,121 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "tBTC": {
-        "coin": "tBTC",
+    "TBTC-ERC20": {
+        "coin": "TBTC-ERC20",
+        "type": "ERC-20",
+        "name": "tBTC",
+        "coinpaprika_id": "tbtc-tbtc",
+        "coingecko_id": "tbtc",
+        "livecoinwatch_id": "TBTC",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "tBTC",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "TBTC-PLG20": {
+        "coin": "TBTC-PLG20",
+        "type": "Matic",
+        "name": "tBTC",
+        "coinpaprika_id": "tbtc-tbtc",
+        "coingecko_id": "tbtc",
+        "livecoinwatch_id": "TBTC",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "tBTC",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 137,
+        "decimals": 18,
+        "avg_blocktime": 1.8,
+        "required_confirmations": 20,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MATIC",
+                "contract_address": "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b"
+            }
+        },
+        "derivation_path": "m/44'/966'",
+        "contract_address": "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://polygon.blockpi.network/v1/rpc/public"
+            },
+            {
+                "url": "https://electrum3.cipig.net:18755"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "TESTBTC": {
+        "coin": "TESTBTC",
         "type": "UTXO",
-        "name": "BTC Testnet",
+        "name": "Bitcoin Testnet",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -27661,7 +27923,7 @@
         "is_testnet": true,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "BTC Testnet",
+        "fname": "Bitcoin Testnet",
         "rpcport": 18332,
         "pubtype": 111,
         "p2shtype": 196,
@@ -27691,10 +27953,10 @@
         ],
         "explorer_block_url": "block/"
     },
-    "tBTC-segwit": {
-        "coin": "tBTC-segwit",
+    "TESTBTC-segwit": {
+        "coin": "TESTBTC-segwit",
         "type": "UTXO",
-        "name": "tBitcoin",
+        "name": "Bitcoin Testnet",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -27706,7 +27968,7 @@
         "is_testnet": true,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "tBitcoin",
+        "fname": "Bitcoin Testnet",
         "rpcport": 18332,
         "pubtype": 111,
         "p2shtype": 196,
@@ -27890,7 +28152,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -28434,7 +28696,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -28889,7 +29151,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -29052,7 +29314,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -29253,7 +29515,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -29551,7 +29813,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -30036,7 +30298,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -30087,7 +30349,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -30426,7 +30688,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -31017,7 +31279,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -31072,10 +31334,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50002",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
@@ -31135,10 +31393,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "via-ex-one.ewmci.online:50002",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/",
@@ -31354,9 +31608,9 @@
         "coin": "WAF",
         "type": "UTXO",
         "name": "Waifu",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "waf-waifu-core",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "_WAF",
         "explorer_url": "https://waifu-explorer.io/",
         "explorer_tx_url": "",
         "explorer_address_url": "",
@@ -31555,7 +31809,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -31870,7 +32124,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -32138,7 +32392,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -32627,7 +32881,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/",
@@ -33237,7 +33491,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -33596,10 +33850,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "zeta-seed-d.zetacoin.network:50012",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -33810,7 +34060,7 @@
                 "url": "https://polygon.blockpi.network/v1/rpc/public"
             },
             {
-                "url": "https://polygon.llamarpc.com"
+                "url": "https://electrum3.cipig.net:18755"
             }
         ],
         "explorer_block_url": "block/"
@@ -36665,15 +36915,6 @@
         "electrum": [
             {
                 "url": "electrumx1.actioncoin.com:30001",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@actioncoin.com"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.actioncoin.com:30001",
                 "protocol": "SSL",
                 "contact": [
                     {
