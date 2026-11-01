@@ -3574,15 +3574,6 @@
         },
         "electrum": [
             {
-                "url": "bit-e.minethepla.net:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
                 "url": "bit-e.outsidethebox.top:50004",
                 "protocol": "WSS",
                 "contact": [
@@ -14997,63 +14988,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "HTH": {
-        "coin": "HTH",
-        "type": "UTXO",
-        "name": "Help The Homeless",
-        "coinpaprika_id": "hth-help-the-homeless-coin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "HTH",
-        "explorer_url": "https://explorer.hthcoin.r4nd0m.us/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "HomelessCoin Signed Message:\n",
-        "fname": "Help The Homeless",
-        "is_privacy_coin": true,
-        "rpcport": 9998,
-        "pubtype": 100,
-        "p2shtype": 40,
-        "wiftype": 228,
-        "txfee": 10000,
-        "dust": 5460,
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/231'",
-        "links": {
-            "github": "https://github.com/HTHcoin/helpthehomelesscoin",
-            "homepage": "https://hth.foundation"
-        },
-        "electrum": [
-            {
-                "url": "electrum.hth.foundation:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx.wattxchange.app:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "HYPE": {
         "coin": "HYPE",
         "type": "HyperEVM",
@@ -24491,7 +24425,7 @@
         "coinpaprika_id": "rin-rincoin",
         "coingecko_id": "",
         "livecoinwatch_id": "_RIN",
-        "explorer_url": "https://explorer.rincoin.org/",
+        "explorer_url": "https://explorer.rincoin.tech/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
         "supported": [],
@@ -24518,12 +24452,12 @@
         },
         "derivation_path": "m/44'/9555'",
         "links": {
-            "github": "https://github.com/Rin-coin/rincoin",
-            "homepage": "https://rincoin.org"
+            "github": "https://github.com/rincoin-community/rincoin-core",
+            "homepage": "https://www.rincoin.tech"
         },
         "electrum": [
             {
-                "url": "peer1.rincoin.tech:50004",
+                "url": "peer1.rincoin.online:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -24535,7 +24469,7 @@
                 ]
             },
             {
-                "url": "peer2.rincoin.tech:50004",
+                "url": "peer2.rincoin.online:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -24547,7 +24481,43 @@
                 ]
             },
             {
-                "url": "peer3.rincoin.tech:50004",
+                "url": "peer3.rincoin.online:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer4.rincoin.online:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer5.rincoin.online:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer6.rincoin.online:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -24568,7 +24538,7 @@
         "coinpaprika_id": "rin-rincoin",
         "coingecko_id": "",
         "livecoinwatch_id": "_RIN",
-        "explorer_url": "https://explorer.rincoin.org/",
+        "explorer_url": "https://explorer.rincoin.tech/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
         "supported": [],
@@ -24599,12 +24569,12 @@
         },
         "derivation_path": "m/84'/9555'",
         "links": {
-            "github": "https://github.com/Rin-coin/rincoin",
-            "homepage": "https://rincoin.org"
+            "github": "https://github.com/rincoin-community/rincoin-core",
+            "homepage": "https://www.rincoin.tech"
         },
         "electrum": [
             {
-                "url": "peer1.rincoin.tech:50004",
+                "url": "peer1.rincoin.online:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -24616,7 +24586,7 @@
                 ]
             },
             {
-                "url": "peer2.rincoin.tech:50004",
+                "url": "peer2.rincoin.online:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -24628,7 +24598,43 @@
                 ]
             },
             {
-                "url": "peer3.rincoin.tech:50004",
+                "url": "peer3.rincoin.online:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer4.rincoin.online:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer5.rincoin.online:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer6.rincoin.online:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -28127,6 +28133,42 @@
         "explorer_block_url": "block/",
         "binance_id": "TRX"
     },
+    "TRX": {
+        "coin": "TRX",
+        "type": "TRX",
+        "name": "TRON",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "TRX",
+        "explorer_url": "https://tronscan.org/",
+        "explorer_tx_url": "#/transaction/",
+        "explorer_address_url": "#/address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "TRON",
+        "mm2": 1,
+        "decimals": 6,
+        "avg_blocktime": 0.45,
+        "required_confirmations": 1,
+        "derivation_path": "m/44'/195'",
+        "protocol": {
+            "type": "TRX",
+            "protocol_data": {
+                "network": "Mainnet"
+            }
+        },
+        "nodes": [
+            {
+                "url": "https://tron.drpc.org",
+                "ws_url": "wss://tron.drpc.org"
+            }
+        ],
+        "explorer_block_url": "#/block/",
+        "binance_id": "TRX"
+    },
     "USDT-TRC20": {
         "coin": "USDT-TRC20",
         "type": "TRC-20",
@@ -29187,54 +29229,6 @@
             }
         ],
         "explorer_block_url": "block/"
-    },
-    "UNO": {
-        "coin": "UNO",
-        "type": "UTXO",
-        "name": "Unobtanium",
-        "coinpaprika_id": "uno-unobtanium",
-        "coingecko_id": "unobtanium",
-        "livecoinwatch_id": "UNO",
-        "explorer_url": "https://chainz.cryptoid.info/uno/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Unobtanium Signed Message:\n",
-        "fname": "Unobtanium",
-        "rpcport": 65535,
-        "pubtype": 130,
-        "p2shtype": 30,
-        "wiftype": 224,
-        "txfee": 0,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 150,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/92'",
-        "trezor_coin": "Unobtanium",
-        "links": {
-            "github": "https://github.com/unobtanium-official/unobtanium",
-            "homepage": "https://unobtanium.uno"
-        },
-        "electrum": [
-            {
-                "url": "uno-bkp.coinmunity.gold:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "uno-main.coinmunity.gold:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            }
-        ],
-        "explorer_block_url": "block.dws?"
     },
     "USD1-ERC20": {
         "coin": "USD1-ERC20",

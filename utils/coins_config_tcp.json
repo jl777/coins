@@ -3560,6 +3560,51 @@
         "explorer_block_url": "block/",
         "binance_id": "BCH"
     },
+    "BBK": {
+        "coin": "BBK",
+        "type": "UTXO",
+        "name": "BitBlocks",
+        "coinpaprika_id": "bbk-bitblocks",
+        "coingecko_id": "",
+        "livecoinwatch_id": "BBK",
+        "explorer_url": "https://chainz.cryptoid.info/bbk/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "sign_message_prefix": "DarkNet Signed Message:\n",
+        "fname": "BitBlocks",
+        "rpcport": 59768,
+        "pubtype": 25,
+        "p2shtype": 85,
+        "wiftype": 107,
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "links": {
+            "github": "https://github.com/BitBlocksProject/BitBlocks",
+            "homepage": "https://bitblocksproject.com"
+        },
+        "electrum": [
+            {
+                "url": "bbk-ex-three.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "BBK-BEP20": {
         "coin": "BBK-BEP20",
         "type": "BEP-20",
@@ -4046,15 +4091,6 @@
         "electrum": [
             {
                 "url": "bit-e.minethepla.net:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
-                "url": "bit-e.outsidethebox.top:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -11248,9 +11284,6 @@
                 "ws_url": "wss://0xrpc.io/etc"
             },
             {
-                "url": "https://etc.etcdesktop.com"
-            },
-            {
                 "url": "https://rpc.etcmc.xyz"
             },
             {
@@ -16649,63 +16682,6 @@
             {
                 "url": "electrumx2.hypercoin.network:50002",
                 "protocol": "SSL"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "HTH": {
-        "coin": "HTH",
-        "type": "UTXO",
-        "name": "Help The Homeless",
-        "coinpaprika_id": "hth-help-the-homeless-coin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "HTH",
-        "explorer_url": "https://explorer.hthcoin.r4nd0m.us/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "HomelessCoin Signed Message:\n",
-        "fname": "Help The Homeless",
-        "is_privacy_coin": true,
-        "rpcport": 9998,
-        "pubtype": 100,
-        "p2shtype": 40,
-        "wiftype": 228,
-        "txfee": 10000,
-        "dust": 5460,
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/231'",
-        "links": {
-            "github": "https://github.com/HTHcoin/helpthehomelesscoin",
-            "homepage": "https://hth.foundation"
-        },
-        "electrum": [
-            {
-                "url": "electrum.hth.foundation:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx.wattxchange.app:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "nucash"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -22819,6 +22795,9 @@
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
             {
+                "url": "https://lb.routeme.sh/rpc/evm/1284"
+            },
+            {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
             },
@@ -27216,7 +27195,7 @@
         "coinpaprika_id": "rin-rincoin",
         "coingecko_id": "",
         "livecoinwatch_id": "_RIN",
-        "explorer_url": "https://explorer.rincoin.org/",
+        "explorer_url": "https://explorer.rincoin.tech/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
         "supported": [],
@@ -27243,12 +27222,12 @@
         },
         "derivation_path": "m/44'/9555'",
         "links": {
-            "github": "https://github.com/Rin-coin/rincoin",
-            "homepage": "https://rincoin.org"
+            "github": "https://github.com/rincoin-community/rincoin-core",
+            "homepage": "https://www.rincoin.tech"
         },
         "electrum": [
             {
-                "url": "peer1.rincoin.tech:50002",
+                "url": "peer1.rincoin.online:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -27260,7 +27239,7 @@
                 ]
             },
             {
-                "url": "peer2.rincoin.tech:50002",
+                "url": "peer2.rincoin.online:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -27272,7 +27251,43 @@
                 ]
             },
             {
-                "url": "peer3.rincoin.tech:50002",
+                "url": "peer3.rincoin.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer4.rincoin.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer5.rincoin.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer6.rincoin.online:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -27293,7 +27308,7 @@
         "coinpaprika_id": "rin-rincoin",
         "coingecko_id": "",
         "livecoinwatch_id": "_RIN",
-        "explorer_url": "https://explorer.rincoin.org/",
+        "explorer_url": "https://explorer.rincoin.tech/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
         "supported": [],
@@ -27324,12 +27339,12 @@
         },
         "derivation_path": "m/84'/9555'",
         "links": {
-            "github": "https://github.com/Rin-coin/rincoin",
-            "homepage": "https://rincoin.org"
+            "github": "https://github.com/rincoin-community/rincoin-core",
+            "homepage": "https://www.rincoin.tech"
         },
         "electrum": [
             {
-                "url": "peer1.rincoin.tech:50002",
+                "url": "peer1.rincoin.online:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -27341,7 +27356,7 @@
                 ]
             },
             {
-                "url": "peer2.rincoin.tech:50002",
+                "url": "peer2.rincoin.online:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -27353,7 +27368,43 @@
                 ]
             },
             {
-                "url": "peer3.rincoin.tech:50002",
+                "url": "peer3.rincoin.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer4.rincoin.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer5.rincoin.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer6.rincoin.online:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -31470,6 +31521,10 @@
             },
             {
                 "url": "https://tron.api.pocket.network"
+            },
+            {
+                "url": "https://tron.drpc.org",
+                "ws_url": "wss://tron.drpc.org"
             }
         ],
         "explorer_block_url": "#/block/",
@@ -32822,18 +32877,8 @@
         },
         "electrum": [
             {
-                "url": "uno-bkp.coinmunity.gold:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "uno-ex-one.ewmci.online:50002",
                 "protocol": "SSL"
-            },
-            {
-                "url": "uno-main.coinmunity.gold:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
