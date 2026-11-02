@@ -1553,13 +1553,10 @@
         "parent_coin": "IRIS",
         "rpc_urls": [
             {
-                "url": "https://iris-rpc.publicnode.com"
+                "url": "https://mainnet-iris-rpc.konsortech.xyz"
             },
             {
-                "url": "https://rpc.cosmos.directory/irisnet"
-            },
-            {
-                "url": "https://rpc.irishub-1.irisnet.org"
+                "url": "https://rpc-iris.keplr.app"
             }
         ],
         "explorer_block_url": "block/",
@@ -3588,6 +3585,15 @@
                 "contact": [
                     {
                         "discord": "nucash"
+                    }
+                ]
+            },
+            {
+                "url": "bitnet.outsidethebox.top:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "def#4726"
                     }
                 ]
             }
@@ -8906,7 +8912,7 @@
         "name": "Doriancoin",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "DSV",
         "explorer_url": "https://blocks.doriancoin.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -8974,7 +8980,7 @@
         "name": "Doriancoin",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "DSV",
         "explorer_url": "https://blocks.doriancoin.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -15712,6 +15718,51 @@
         ],
         "explorer_block_url": "block/"
     },
+    "IRIS": {
+        "coin": "IRIS",
+        "type": "TENDERMINT",
+        "name": "IRISnet",
+        "coinpaprika_id": "iris-irisnet",
+        "coingecko_id": "iris-network",
+        "livecoinwatch_id": "IRIS",
+        "explorer_url": "https://irishub.iobscan.io/",
+        "explorer_tx_url": "#/txs/",
+        "explorer_address_url": "#/address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "avg_blocktime": 7,
+        "fname": "IRISnet",
+        "chain_id": 6688,
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "uiris",
+                "account_prefix": "iaa",
+                "chain_id": "irishub-1",
+                "chain_registry_name": "irishub",
+                "gas_price": 0.5,
+                "ibc_channels": {
+                    "cosmos": 0,
+                    "osmo": 3
+                }
+            }
+        },
+        "derivation_path": "m/44'/118'",
+        "rpc_urls": [
+            {
+                "url": "https://mainnet-iris-rpc.konsortech.xyz"
+            },
+            {
+                "url": "https://rpc-iris.keplr.app"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "IRIS-BEP20": {
         "coin": "IRIS-BEP20",
         "type": "BEP-20",
@@ -16060,6 +16111,212 @@
             {
                 "url": "electrum1.jumpcoin.net:50003",
                 "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "KCN": {
+        "coin": "KCN",
+        "type": "UTXO",
+        "name": "Kylacoin",
+        "coinpaprika_id": "kcn-kylacoin",
+        "coingecko_id": "kylacoin",
+        "livecoinwatch_id": "KCN",
+        "explorer_url": "https://kcnxp.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "sign_message_prefix": "Kylacoin Signed Message:\n",
+        "fname": "Kylacoin",
+        "rpcport": 5110,
+        "pubtype": 28,
+        "p2shtype": 26,
+        "wiftype": 65,
+        "segwit": true,
+        "bech32_hrp": "kc",
+        "txfee": 1000,
+        "decimals": 12,
+        "mm2": 1,
+        "required_confirmations": 10,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/0'",
+        "trezor_coin": "Kylacoin",
+        "links": {
+            "github": "https://github.com/kylacoin/kylacoin",
+            "homepage": "https://kylacoin.com"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.kcnxp.com:51004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.kcnxp.com:51004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.kcnxp.com:51004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum4.kcnxp.com:51004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum5.kcnxp.com:51004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "KCN-segwit": {
+        "coin": "KCN-segwit",
+        "type": "UTXO",
+        "name": "Kylacoin",
+        "coinpaprika_id": "kcn-kylacoin",
+        "coingecko_id": "kylacoin",
+        "livecoinwatch_id": "KCN",
+        "explorer_url": "https://kcnxp.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "sign_message_prefix": "Kylacoin Signed Message:\n",
+        "fname": "Kylacoin",
+        "rpcport": 5110,
+        "pubtype": 28,
+        "p2shtype": 26,
+        "wiftype": 65,
+        "segwit": true,
+        "bech32_hrp": "kc",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "KCN",
+        "txfee": 1000,
+        "decimals": 12,
+        "mm2": 1,
+        "required_confirmations": 10,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/84'/0'",
+        "trezor_coin": "Kylacoin",
+        "links": {
+            "github": "https://github.com/kylacoin/kylacoin",
+            "homepage": "https://kylacoin.com"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.kcnxp.com:51004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.kcnxp.com:51004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.kcnxp.com:51004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum4.kcnxp.com:51004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum5.kcnxp.com:51004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -19902,10 +20159,6 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
-                "url": "https://gm.monad.at.htw.tech",
-                "ws_url": "wss://gm.monad.at.htw.tech"
-            },
-            {
                 "url": "https://monad-rpc.huginn.tech",
                 "ws_url": "wss://wss.monad-rpc.huginn.tech"
             }
@@ -20298,6 +20551,10 @@
             {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
+            },
+            {
+                "url": "https://moonbeam.drpc.org",
+                "ws_url": "wss://moonbeam.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -27862,8 +28119,8 @@
         },
         "nodes": [
             {
-                "url": "https://tron.drpc.org",
-                "ws_url": "wss://tron.drpc.org"
+                "url": "https://tron.rpc.sentio.xyz",
+                "ws_url": "wss://tron.rpc.sentio.xyz"
             }
         ],
         "explorer_block_url": "#/block/",
@@ -28930,6 +29187,54 @@
         ],
         "explorer_block_url": "block/"
     },
+    "UNO": {
+        "coin": "UNO",
+        "type": "UTXO",
+        "name": "Unobtanium",
+        "coinpaprika_id": "uno-unobtanium",
+        "coingecko_id": "unobtanium",
+        "livecoinwatch_id": "UNO",
+        "explorer_url": "https://chainz.cryptoid.info/uno/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Unobtanium Signed Message:\n",
+        "fname": "Unobtanium",
+        "rpcport": 65535,
+        "pubtype": 130,
+        "p2shtype": 30,
+        "wiftype": 224,
+        "txfee": 0,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/92'",
+        "trezor_coin": "Unobtanium",
+        "links": {
+            "github": "https://github.com/unobtanium-official/unobtanium",
+            "homepage": "https://unobtanium.uno"
+        },
+        "electrum": [
+            {
+                "url": "uno-bkp.coinmunity.gold:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "uno-main.coinmunity.gold:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "USD1-ERC20": {
         "coin": "USD1-ERC20",
         "type": "ERC-20",
@@ -29461,10 +29766,6 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
-                "url": "https://gm.monad.at.htw.tech",
-                "ws_url": "wss://gm.monad.at.htw.tech"
-            },
-            {
                 "url": "https://monad-rpc.huginn.tech",
                 "ws_url": "wss://wss.monad-rpc.huginn.tech"
             }
@@ -29581,48 +29882,6 @@
             {
                 "url": "https://polygon.gateway.tenderly.co",
                 "ws_url": "wss://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "USDC-XDC": {
-        "coin": "USDC-XDC",
-        "type": "XDC",
-        "name": "USD Coin",
-        "coinpaprika_id": "usdc-usd-coin",
-        "coingecko_id": "usd-coin",
-        "livecoinwatch_id": "USDC",
-        "explorer_url": "https://xdcscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "USD Coin",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 50,
-        "decimals": 6,
-        "avg_blocktime": 2,
-        "required_confirmations": 5,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "XDC",
-                "contract_address": "0xfA2958CB79b0491CC627c1557F441eF849Ca8eb1"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xfA2958CB79b0491CC627c1557F441eF849Ca8eb1",
-        "parent_coin": "XDC",
-        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
-        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
-        "nodes": [
-            {
-                "url": "https://rpc.plugin.global/xdcmainnet",
-                "ws_url": "wss://rpc.plugin.global/ws/xdcmainnet"
             }
         ],
         "explorer_block_url": "block/"
@@ -30096,10 +30355,6 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
-                "url": "https://gm.monad.at.htw.tech",
-                "ws_url": "wss://gm.monad.at.htw.tech"
-            },
-            {
                 "url": "https://monad-rpc.huginn.tech",
                 "ws_url": "wss://wss.monad-rpc.huginn.tech"
             }
@@ -30396,10 +30651,6 @@
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
-            {
-                "url": "https://gm.monad.at.htw.tech",
-                "ws_url": "wss://gm.monad.at.htw.tech"
-            },
             {
                 "url": "https://monad-rpc.huginn.tech",
                 "ws_url": "wss://wss.monad-rpc.huginn.tech"
@@ -31744,10 +31995,6 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
-                "url": "https://gm.monad.at.htw.tech",
-                "ws_url": "wss://gm.monad.at.htw.tech"
-            },
-            {
                 "url": "https://monad-rpc.huginn.tech",
                 "ws_url": "wss://wss.monad-rpc.huginn.tech"
             }
@@ -32549,49 +32796,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "XDC": {
-        "coin": "XDC",
-        "type": "XDC",
-        "name": "XDC Network",
-        "coinpaprika_id": "xdc-xdc-network",
-        "coingecko_id": "xdce-crowd-sale",
-        "livecoinwatch_id": "XDC",
-        "explorer_url": "https://xdcscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "XDC Network",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 50,
-        "required_confirmations": 5,
-        "avg_blocktime": 2,
-        "protocol": {
-            "type": "ETH",
-            "protocol_data": {
-                "chain_id": 50
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "max_eth_tx_type": 2,
-        "swap_gas_fee_policy": "Medium",
-        "links": {
-            "homepage": "https://xinfin.org"
-        },
-        "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
-        "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
-        "nodes": [
-            {
-                "url": "https://rpc.plugin.global/xdcmainnet",
-                "ws_url": "wss://rpc.plugin.global/ws/xdcmainnet"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "XEP-BEP20": {
         "coin": "XEP-BEP20",
         "type": "BEP-20",
@@ -33365,6 +33569,53 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
+    },
+    "XVC": {
+        "coin": "XVC",
+        "type": "UTXO",
+        "name": "VanillaCash",
+        "coinpaprika_id": "xvc-vcash",
+        "coingecko_id": "vcash",
+        "livecoinwatch_id": "XVC",
+        "explorer_url": "https://chainz.cryptoid.info/xvc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Vanillacash Signed Message:\n",
+        "fname": "VanillaCash",
+        "isPoS": 1,
+        "rpcport": 48888,
+        "pubtype": 18,
+        "p2shtype": 30,
+        "wiftype": 181,
+        "txfee": 10000,
+        "dust": 10000,
+        "mm2": 1,
+        "required_confirmations": 4,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/724'",
+        "links": {
+            "github": "https://github.com/WikiMin3R/Vanillacash",
+            "homepage": "https://vanillacash.org"
+        },
+        "electrum": [
+            {
+                "url": "electrumx1.vanillacash.info:50013",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumx2.vanillacash.info:50013",
+                "protocol": "WSS"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "XVC-BEP20": {
         "coin": "XVC-BEP20",
@@ -36081,6 +36332,42 @@
         "explorer_block_url": "block/",
         "binance_id": "OSMO"
     },
+    "IRISTEST": {
+        "coin": "IRISTEST",
+        "type": "TENDERMINT",
+        "name": "Iris Test",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://nyancat.iobscan.io/",
+        "explorer_tx_url": "#/txs/",
+        "explorer_address_url": "#/address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": true,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "avg_blocktime": 7,
+        "fname": "Iris Test",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "unyan",
+                "account_prefix": "iaa",
+                "chain_id": "nyancat-9",
+                "gas_price": 0.5
+            }
+        },
+        "derivation_path": "m/44'/118'",
+        "rpc_urls": [
+            {
+                "url": "https://lcd.nyancat.irisnet.org"
+            }
+        ],
+        "explorer_block_url": "#/blocks/"
+    },
     "IRISTEST-IBC_NUCLEUSTEST": {
         "coin": "IRISTEST-IBC_NUCLEUSTEST",
         "type": "TENDERMINTTOKEN",
@@ -36111,7 +36398,7 @@
         "parent_coin": "IRISTEST",
         "rpc_urls": [
             {
-                "url": "http://34.80.202.172:26657"
+                "url": "https://lcd.nyancat.irisnet.org"
             }
         ],
         "explorer_block_url": "#/blocks/"
@@ -36402,7 +36689,7 @@
         "name": "Tarcoin",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "_TAR",
         "explorer_url": "https://explorer.tarcoin.org/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -36446,7 +36733,7 @@
         "name": "Tarcoin",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "_TAR",
         "explorer_url": "https://explorer.tarcoin.org/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
