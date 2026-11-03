@@ -3499,6 +3499,7 @@
         "txfee": 1000,
         "segwit": false,
         "fork_id": "0x40",
+        "signature_version": "fork_id",
         "address_format": {
             "format": "cashaddress",
             "network": "bitcoincash"
@@ -21196,8 +21197,6 @@
         "pubtype": 50,
         "p2shtype": 9,
         "wiftype": 244,
-        "decimals": 8,
-        "signature_version": "base",
         "txfee": 10000,
         "segwit": true,
         "bech32_hrp": "maza",
@@ -22411,10 +22410,6 @@
         },
         "electrum": [
             {
-                "url": "133.167.67.203:50001",
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx.tamami-foundation.org:50001",
                 "protocol": "TCP"
             },
@@ -22467,10 +22462,6 @@
             "homepage": "https://monacoin.org"
         },
         "electrum": [
-            {
-                "url": "133.167.67.203:50001",
-                "protocol": "TCP"
-            },
             {
                 "url": "electrumx.tamami-foundation.org:50001",
                 "protocol": "TCP"
@@ -31514,6 +31505,10 @@
             },
             {
                 "url": "https://tron.api.pocket.network"
+            },
+            {
+                "url": "https://tron.drpc.org",
+                "ws_url": "wss://tron.drpc.org"
             }
         ],
         "explorer_block_url": "#/block/",
@@ -37254,7 +37249,6 @@
         "dust": 100000,
         "mm2": 1,
         "segwit": true,
-        "signature_version": "witness_v0",
         "bech32_hrp": "ep",
         "address_format": {
             "format": "segwit"
@@ -37813,6 +37807,7 @@
         "txfee": 10,
         "segwit": false,
         "fork_id": "0x40",
+        "signature_version": "fork_id",
         "address_format": {
             "format": "cashaddress",
             "network": "ergon"
@@ -41046,6 +41041,7 @@
         "estimate_fee_blocks": 2,
         "segwit": false,
         "fork_id": "0x40",
+        "signature_version": "fork_id",
         "address_format": {
             "format": "cashaddress",
             "network": "bchtest"
@@ -41300,6 +41296,7 @@
         "estimate_fee_blocks": 2,
         "segwit": false,
         "fork_id": "0x40",
+        "signature_version": "fork_id",
         "address_format": {
             "format": "cashaddress",
             "network": "ecash"
