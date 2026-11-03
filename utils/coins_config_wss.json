@@ -3064,6 +3064,7 @@
         "txfee": 1000,
         "segwit": false,
         "fork_id": "0x40",
+        "signature_version": "fork_id",
         "address_format": {
             "format": "cashaddress",
             "network": "bitcoincash"
@@ -3615,15 +3616,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "bit-e.outsidethebox.top:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
             {
                 "url": "bitn-electrumx.wattxchange.app:50014",
                 "protocol": "WSS",
@@ -19147,8 +19139,6 @@
         "pubtype": 50,
         "p2shtype": 9,
         "wiftype": 244,
-        "decimals": 8,
-        "signature_version": "base",
         "txfee": 10000,
         "segwit": true,
         "bech32_hrp": "maza",
@@ -28184,6 +28174,42 @@
         "explorer_block_url": "block/",
         "binance_id": "TRX"
     },
+    "TRX": {
+        "coin": "TRX",
+        "type": "TRX",
+        "name": "TRON",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "TRX",
+        "explorer_url": "https://tronscan.org/",
+        "explorer_tx_url": "#/transaction/",
+        "explorer_address_url": "#/address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "TRON",
+        "mm2": 1,
+        "decimals": 6,
+        "avg_blocktime": 0.45,
+        "required_confirmations": 1,
+        "derivation_path": "m/44'/195'",
+        "protocol": {
+            "type": "TRX",
+            "protocol_data": {
+                "network": "Mainnet"
+            }
+        },
+        "nodes": [
+            {
+                "url": "https://tron.drpc.org",
+                "ws_url": "wss://tron.drpc.org"
+            }
+        ],
+        "explorer_block_url": "#/block/",
+        "binance_id": "TRX"
+    },
     "USDT-TRC20": {
         "coin": "USDT-TRC20",
         "type": "TRC-20",
@@ -33322,6 +33348,7 @@
         "txfee": 10,
         "segwit": false,
         "fork_id": "0x40",
+        "signature_version": "fork_id",
         "address_format": {
             "format": "cashaddress",
             "network": "ergon"
@@ -36352,6 +36379,7 @@
         "estimate_fee_blocks": 2,
         "segwit": false,
         "fork_id": "0x40",
+        "signature_version": "fork_id",
         "address_format": {
             "format": "cashaddress",
             "network": "ecash"
