@@ -2184,6 +2184,7 @@
         "derivation_path": "m/44'/60'",
         "max_eth_tx_type": 2,
         "swap_gas_fee_policy": "Medium",
+        "fee_model": "avalanche",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
@@ -13947,6 +13948,7 @@
         "derivation_path": "m/44'/60'",
         "max_eth_tx_type": 2,
         "swap_gas_fee_policy": "Medium",
+        "fee_model": "op_stack",
         "estimate_gas_mult": 1.3,
         "swap_contract_address": "0x4C54808911817402a0871c3C93D8790c19CAe75b",
         "fallback_swap_contract": "0x4C54808911817402a0871c3C93D8790c19CAe75b",
@@ -26326,6 +26328,7 @@
         "derivation_path": "m/44'/60'",
         "max_eth_tx_type": 2,
         "swap_gas_fee_policy": "Medium",
+        "fee_model": "mantle",
         "links": {
             "homepage": "https://group.mantle.xyz"
         },
@@ -26379,6 +26382,7 @@
         "derivation_path": "m/44'/60'",
         "max_eth_tx_type": 2,
         "swap_gas_fee_policy": "Medium",
+        "fee_model": "monad",
         "estimate_gas_mult": 1.3,
         "links": {
             "homepage": "https://monad.xyz"
