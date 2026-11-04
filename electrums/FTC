@@ -1,74 +1,50 @@
 [
-    {
-        "url": "ftc.electrum3.cipig.net:10054",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ]
-    },
-    {
-        "url": "ftc.electrum1.cipig.net:10054",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ]
-    },
-    {
-        "url": "ftc.electrum1.cipig.net:20054",
-        "protocol": "SSL",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ],
-        "ws_url": "ftc.electrum1.cipig.net:30054"
-    },
-    {
-        "url": "ftc.electrum2.cipig.net:20054",
-        "protocol": "SSL",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ],
-        "ws_url": "ftc.electrum2.cipig.net:30054"
-    },
-    {
-        "url": "ftc.electrum2.cipig.net:10054",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ]
-    },
-    {
-        "url": "ftc.electrum3.cipig.net:20054",
-        "protocol": "SSL",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ],
-        "ws_url": "ftc.electrum3.cipig.net:30054"
-    }
+  {
+    "url": "ftc.electrum1.cipig.net:10054",
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
+    ]
+  },
+  {
+    "url": "ftc.electrum1.cipig.net:20054",
+    "protocol": "SSL",
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
+    ],
+    "ws_url": "ftc.electrum1.cipig.net:30054"
+  },
+  {
+    "url": "ftc.electrum2.cipig.net:20054",
+    "protocol": "SSL",
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
+    ],
+    "ws_url": "ftc.electrum2.cipig.net:30054"
+  },
+  {
+    "url": "ftc.electrum2.cipig.net:10054",
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
+    ]
+  }
 ]

@@ -249,10 +249,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -265,7 +261,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -300,6 +297,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "trezor_coin": "A29 (GRC20)",
         "contract_address": "0x08E8F49921C9650f13473cCadb948B3cf3C6c4F9",
         "parent_coin": "GLEEC",
         "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
@@ -567,10 +565,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -583,7 +577,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -1017,10 +1012,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -1033,7 +1024,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -1238,10 +1230,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -1254,7 +1242,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -1514,10 +1503,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -1530,7 +1515,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -1542,7 +1528,7 @@
         "coinpaprika_id": "arrr-pirate",
         "coingecko_id": "pirate-chain",
         "livecoinwatch_id": "ARRR",
-        "explorer_url": "https://pirate.explorer.dexstats.info/",
+        "explorer_url": "https://explorer.piratechain.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
         "supported": [],
@@ -1551,19 +1537,19 @@
         "currently_enabled": false,
         "wallet_only": false,
         "light_wallet_d_servers": [
+            "https://lightwalletd1.cryptoforge.cc:443",
+            "https://lightwalletd2.cryptoforge.cc:443",
+            "https://pirate.mathnodes.com:443",
+            "https://arrr.qortal.link:443",
+            "https://arrr2.qortal.link:443",
+            "https://arrr3.qortal.link:443",
             "https://lightd1.pirate.black:443",
-            "https://piratelightd1.cryptoforge.cc:443",
-            "https://piratelightd2.cryptoforge.cc:443",
-            "https://piratelightd3.cryptoforge.cc:443",
-            "https://piratelightd4.cryptoforge.cc:443",
             "https://electrum1.cipig.net:9447",
-            "https://electrum2.cipig.net:9447",
-            "https://electrum3.cipig.net:9447"
+            "https://electrum2.cipig.net:9447"
         ],
         "light_wallet_d_servers_wss": [
             "https://electrum1.cipig.net:19447",
-            "https://electrum2.cipig.net:19447",
-            "https://electrum3.cipig.net:19447"
+            "https://electrum2.cipig.net:19447"
         ],
         "asset": "PIRATE",
         "fname": "Pirate",
@@ -1578,6 +1564,7 @@
                 "consensus_params": {
                     "overwinter_activation_height": 152855,
                     "sapling_activation_height": 152855,
+                    "ironwood_activation_height": 4161185,
                     "blossom_activation_height": null,
                     "heartwood_activation_height": null,
                     "canopy_activation_height": null,
@@ -1768,13 +1755,10 @@
         "parent_coin": "IRIS",
         "rpc_urls": [
             {
-                "url": "https://iris-rpc.publicnode.com"
+                "url": "https://mainnet-iris-rpc.konsortech.xyz"
             },
             {
-                "url": "https://rpc.cosmos.directory/irisnet"
-            },
-            {
-                "url": "https://rpc.irishub-1.irisnet.org"
+                "url": "https://rpc-iris.keplr.app"
             }
         ],
         "explorer_block_url": "block/",
@@ -1878,10 +1862,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -1894,7 +1874,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -2265,10 +2246,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -2281,7 +2258,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -2877,10 +2855,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -2893,7 +2867,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -3321,10 +3296,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -3337,7 +3308,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -3490,6 +3462,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "trezor_coin": "B-CASH (GRC20)",
         "contract_address": "0x90E100a7fdad752c97ae5B5F2De76EbacfA5f6b5",
         "parent_coin": "GLEEC",
         "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
@@ -3526,6 +3499,7 @@
         "txfee": 1000,
         "segwit": false,
         "fork_id": "0x40",
+        "signature_version": "fork_id",
         "address_format": {
             "format": "cashaddress",
             "network": "bitcoincash"
@@ -3721,10 +3695,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -3737,7 +3707,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -4117,6 +4088,15 @@
         },
         "electrum": [
             {
+                "url": "bitn-electrumx.wattxchange.app:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "nucash"
+                    }
+                ]
+            },
+            {
                 "url": "bitnet.outsidethebox.top:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -4222,6 +4202,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "trezor_coin": "Buggyra Coin Zero (GRC20)",
         "contract_address": "0x48579AE77db4f0Ec8A747919e670a74fd71Bb783",
         "parent_coin": "GLEEC",
         "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
@@ -4427,9 +4408,9 @@
         "coin": "BLOZ",
         "type": "UTXO",
         "name": "Blockzero",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "bloz-block-zero",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "BLOZ",
         "explorer_url": "https://explorer.bloz.org/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -4492,9 +4473,9 @@
         "coin": "BLOZ-segwit",
         "type": "UTXO",
         "name": "Blockzero",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "bloz-block-zero",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "BLOZ",
         "explorer_url": "https://explorer.bloz.org/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -4910,10 +4891,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -4926,7 +4903,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -5075,10 +5053,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -5091,7 +5065,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -5242,10 +5217,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -5258,7 +5229,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -5859,110 +5831,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "BTGS": {
-        "coin": "BTGS",
-        "type": "UTXO",
-        "name": "Bitcoin Gold BTGS",
-        "coinpaprika_id": "btgs-bitcoingold",
-        "coingecko_id": "",
-        "livecoinwatch_id": "BTGS",
-        "explorer_url": "https://explore.btgscoin.site/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "BitcoinGold Signed Message:\n",
-        "fname": "Bitcoin Gold BTGS",
-        "rpcport": 18888,
-        "pubtype": 38,
-        "p2shtype": 22,
-        "wiftype": 176,
-        "fork_id": "0x00",
-        "signature_version": "base",
-        "txfee": 1000,
-        "segwit": true,
-        "bech32_hrp": "bcg",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 600,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/18888'",
-        "links": {
-            "github": "https://github.com/BTGSCOINDEV/BTGS",
-            "homepage": "https://bitcoingold.site",
-            "homepage2": "https://btgscoin.site"
-        },
-        "electrum": [
-            {
-                "url": "electrum.bitcoingold.site:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum.btgscoin.site:50002",
-                "protocol": "SSL"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "BTGS-segwit": {
-        "coin": "BTGS-segwit",
-        "type": "UTXO",
-        "name": "Bitcoin Gold BTGS",
-        "coinpaprika_id": "btgs-bitcoingold",
-        "coingecko_id": "",
-        "livecoinwatch_id": "BTGS",
-        "explorer_url": "https://explore.btgscoin.site/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "BitcoinGold Signed Message:\n",
-        "fname": "Bitcoin Gold BTGS",
-        "rpcport": 18888,
-        "pubtype": 38,
-        "p2shtype": 22,
-        "wiftype": 176,
-        "fork_id": "0x00",
-        "signature_version": "base",
-        "txfee": 1000,
-        "segwit": true,
-        "bech32_hrp": "bcg",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "BTGS",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 600,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/84'/18888'",
-        "links": {
-            "github": "https://github.com/BTGSCOINDEV/BTGS",
-            "homepage": "https://bitcoingold.site",
-            "homepage2": "https://btgscoin.site"
-        },
-        "electrum": [
-            {
-                "url": "electrum.bitcoingold.site:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum.btgscoin.site:50002",
-                "protocol": "SSL"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "BTTC-BEP20": {
         "coin": "BTTC-BEP20",
         "type": "BEP-20",
@@ -6120,10 +5988,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -6136,7 +6000,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -6542,10 +6407,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -6558,7 +6419,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -6936,10 +6798,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -6952,7 +6810,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -7047,10 +6906,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -7063,7 +6918,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -7629,10 +7485,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -7645,58 +7497,11 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
-    },
-    "CLAM": {
-        "coin": "CLAM",
-        "type": "UTXO",
-        "name": "Clams",
-        "coinpaprika_id": "clam-clams",
-        "coingecko_id": "clams",
-        "livecoinwatch_id": "CLAM",
-        "explorer_url": "https://chainz.cryptoid.info/clam/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Clam Signed Message:\n",
-        "fname": "Clams",
-        "isPoS": 1,
-        "rpcport": 30174,
-        "pubtype": 137,
-        "p2shtype": 13,
-        "wiftype": 133,
-        "segwit": false,
-        "txfee": 100000,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/23'",
-        "links": {
-            "github": "https://github.com/nochowderforyou/clams",
-            "homepage": "http://clamclient.com"
-        },
-        "electrum": [
-            {
-                "url": "clam-ex-one.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?"
     },
     "CLP-BEP20": {
         "coin": "CLP-BEP20",
@@ -8008,10 +7813,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -8024,60 +7825,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "CRNC": {
-        "coin": "CRNC",
-        "type": "UTXO",
-        "name": "CrionicCoin",
-        "coinpaprika_id": "crnc-crionic",
-        "coingecko_id": "crionic",
-        "livecoinwatch_id": "CRNC",
-        "explorer_url": "https://crncexplorer.nostrweb.gleeze.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Crioniccoin Signed Message:\n",
-        "fname": "CrionicCoin",
-        "rpcport": 4466,
-        "pubtype": 28,
-        "p2shtype": 45,
-        "wiftype": 176,
-        "decimals": 8,
-        "signature_version": "base",
-        "txfee": 10000,
-        "segwit": true,
-        "bech32_hrp": "crnc",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 20,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/192'",
-        "links": {
-            "github": "https://github.com/diabaths/Crionic-Coin",
-            "homepage": "https://coin.crionic.org"
-        },
-        "electrum": [
-            {
-                "url": "explorer.crionic.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -8216,10 +7965,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -8232,7 +7977,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -8545,10 +8291,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -8561,7 +8303,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -8726,124 +8469,6 @@
             {
                 "url": "https://mainnet.gateway.tenderly.co",
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "CY": {
-        "coin": "CY",
-        "type": "UTXO",
-        "name": "Cyberyen",
-        "coinpaprika_id": "cy-cyberyen-c",
-        "coingecko_id": "cyberyen",
-        "livecoinwatch_id": "CY",
-        "explorer_url": "https://cyberyen.work/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Cyberyen Signed Message:\n",
-        "fname": "Cyberyen",
-        "rpcport": 58382,
-        "pubtype": 28,
-        "p2shtype": 77,
-        "wiftype": 156,
-        "txfee": 0,
-        "segwit": true,
-        "bech32_hrp": "cy",
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/802'",
-        "links": {
-            "github": "https://github.com/cyberyen/cyberyen",
-            "homepage": "https://cyberyen.org"
-        },
-        "electrum": [
-            {
-                "url": "electrum02.cyberyen.work:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "support_chat": "https://matrix.to/#/#cyberyen-support:matrix.org"
-                    }
-                ]
-            },
-            {
-                "url": "electrum03.cyberyen.work:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "support_chat": "https://matrix.to/#/#cyberyen-support:matrix.org"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "CY-segwit": {
-        "coin": "CY-segwit",
-        "type": "UTXO",
-        "name": "Cyberyen",
-        "coinpaprika_id": "cy-cyberyen-c",
-        "coingecko_id": "cyberyen",
-        "livecoinwatch_id": "CY",
-        "explorer_url": "https://cyberyen.work/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Cyberyen Signed Message:\n",
-        "fname": "Cyberyen",
-        "rpcport": 58382,
-        "pubtype": 28,
-        "p2shtype": 77,
-        "wiftype": 156,
-        "txfee": 0,
-        "segwit": true,
-        "bech32_hrp": "cy",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "CY",
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/84'/802'",
-        "links": {
-            "github": "https://github.com/cyberyen/cyberyen",
-            "homepage": "https://cyberyen.org"
-        },
-        "electrum": [
-            {
-                "url": "electrum02.cyberyen.work:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "support_chat": "https://matrix.to/#/#cyberyen-support:matrix.org"
-                    }
-                ]
-            },
-            {
-                "url": "electrum03.cyberyen.work:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "support_chat": "https://matrix.to/#/#cyberyen-support:matrix.org"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -9058,10 +8683,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -9074,7 +8695,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -9291,10 +8913,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -9307,7 +8925,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -9478,6 +9097,24 @@
         },
         "derivation_path": "m/44'/18'",
         "electrum": [
+            {
+                "url": "electrum1.getlynx.io:8002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.getlynx.io:8002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
+            },
             {
                 "url": "electrumx.dgc.ewmcx.org:50002",
                 "protocol": "SSL"
@@ -10354,7 +9991,7 @@
         "name": "Doriancoin",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "DSV",
         "explorer_url": "https://blocks.doriancoin.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -10422,7 +10059,7 @@
         "name": "Doriancoin",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "DSV",
         "explorer_url": "https://blocks.doriancoin.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -10544,55 +10181,6 @@
             }
         ],
         "explorer_block_url": "block/"
-    },
-    "MWC": {
-        "coin": "MWC",
-        "type": "UTXO",
-        "name": "MinersWorldCoin",
-        "coinpaprika_id": "mwc-minersworldcoin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "__MWC",
-        "explorer_url": "https://miners-world-coin-mwc.github.io/explorer/",
-        "explorer_tx_url": "#/transaction/",
-        "explorer_address_url": "#/address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "MinersWorldCoin Signed Message:\n",
-        "fname": "MinersWorldCoin",
-        "rpcport": 5579,
-        "pubtype": 20,
-        "p2shtype": 10,
-        "wiftype": 123,
-        "txfee": 100000,
-        "dust": 100000,
-        "segwit": true,
-        "bech32_hrp": "mwc",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 120,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/5579'",
-        "links": {
-            "github": "https://github.com/Miners-World-Coin-MWC/MinersWorldCoin",
-            "homepage": "https://minersworld.org"
-        },
-        "electrum": [
-            {
-                "url": "electrum.minersworld.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "danny_utxo"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "#/block/"
     },
     "MYDOGE": {
         "coin": "MYDOGE",
@@ -11698,6 +11286,9 @@
             },
             {
                 "url": "https://rpc.etcmc.xyz"
+            },
+            {
+                "url": "https://rpc.swiftnodes.io/rpc/etc"
             }
         ],
         "explorer_block_url": "block/",
@@ -12119,10 +11710,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -12135,7 +11722,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -12662,10 +12250,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -12678,7 +12262,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -12778,10 +12363,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -12794,7 +12375,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -13284,10 +12866,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -13300,7 +12878,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -14756,10 +14335,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -14772,7 +14347,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -14976,10 +14552,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -14992,7 +14564,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -15360,6 +14933,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "trezor_coin": "Gleec",
         "max_eth_tx_type": 2,
         "swap_gas_fee_policy": "Medium",
         "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
@@ -15402,6 +14976,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "trezor_coin": "KMD Testnet (GRC20)",
         "contract_address": "0xB749CEC294d460ae75ec4efEe227fE0baFcb6ACd",
         "parent_coin": "GLEECT",
         "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
@@ -15503,10 +15078,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -15519,7 +15090,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -15671,10 +15243,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -15687,7 +15255,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -16002,10 +15571,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -16018,7 +15583,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -16110,10 +15676,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -16126,7 +15688,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -16580,10 +16143,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -16596,7 +16155,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -16919,10 +16479,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -16935,7 +16491,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -17030,10 +16587,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -17046,7 +16599,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -17136,11 +16690,11 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
-                "url": "https://hyperliquid.drpc.org",
-                "ws_url": "wss://hyperliquid.drpc.org"
+                "url": "https://hyperevm.rpc.sentio.xyz"
             },
             {
-                "url": "https://hyperliquid.rpc.blxrbdn.com"
+                "url": "https://hyperliquid.drpc.org",
+                "ws_url": "wss://hyperliquid.drpc.org"
             },
             {
                 "url": "https://rpc.hyperliquid.xyz/evm"
@@ -17298,10 +16852,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -17314,7 +16864,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -17336,7 +16887,6 @@
         "wallet_only": false,
         "sign_message_prefix": "InfiniLooP Signed Message:\n",
         "fname": "InfiniLooP",
-        "isPoS": 1,
         "rpcport": 9459,
         "pubtype": 33,
         "p2shtype": 85,
@@ -17344,9 +16894,9 @@
         "txfee": 100000,
         "dust": 100000,
         "mm2": 1,
-        "mature_confirmations": 500,
-        "required_confirmations": 7,
-        "avg_blocktime": 45,
+        "mature_confirmations": 30,
+        "required_confirmations": 3,
+        "avg_blocktime": 300,
         "protocol": {
             "type": "UTXO"
         },
@@ -17356,6 +16906,24 @@
             "homepage": "https://infiniloop.io"
         },
         "electrum": [
+            {
+                "url": "electrum1.getlynx.io:9452",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.getlynx.io:9452",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
+            },
             {
                 "url": "il8p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
@@ -17845,10 +17413,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -17861,7 +17425,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -17903,7 +17468,10 @@
         "derivation_path": "m/44'/118'",
         "rpc_urls": [
             {
-                "url": "https://rpc.irishub-1.irisnet.org"
+                "url": "https://mainnet-iris-rpc.konsortech.xyz"
+            },
+            {
+                "url": "https://rpc-iris.keplr.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -18171,10 +17739,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -18187,7 +17751,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -18922,55 +18487,6 @@
         "is_claimable": true,
         "minimal_claim_amount": "10"
     },
-    "KMDCL": {
-        "coin": "KMDCL",
-        "type": "Smart Chain",
-        "name": "KomodoClassic",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://explorer.kmdclassic.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "fname": "KomodoClassic",
-        "rpcport": 7771,
-        "pubtype": 60,
-        "p2shtype": 85,
-        "wiftype": 188,
-        "txversion": 4,
-        "overwintered": 1,
-        "version_group_id": "0x892f2085",
-        "consensus_branch_id": "0x64726d6e",
-        "txfee": 1000,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "requires_notarization": false,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "links": {
-            "github": "https://github.com/kmdclassic/KmdClassic",
-            "homepage": "https://kmdclassic.com/"
-        },
-        "electrum": [
-            {
-                "url": "electrum.kmdclassic.com:50002",
-                "protocol": "SSL"
-            }
-        ],
-        "explorer_block_url": "block/",
-        "is_claimable": true,
-        "minimal_claim_amount": "10"
-    },
     "KMD-BEP20": {
         "coin": "KMD-BEP20",
         "type": "BEP-20",
@@ -19062,6 +18578,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "trezor_coin": "Komodo (GRC20)",
         "contract_address": "0x3341acA97C71E12A80D1e01D8c86bE93ba669752",
         "parent_coin": "GLEEC",
         "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
@@ -19223,10 +18740,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -19239,7 +18752,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -19500,15 +19014,6 @@
                         "discord": "808803920818208801"
                     }
                 ]
-            },
-            {
-                "url": "lcc-ex-one.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -19560,18 +19065,215 @@
                         "discord": "808803920818208801"
                     }
                 ]
-            },
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
+    "LCN": {
+        "coin": "LCN",
+        "type": "UTXO",
+        "name": "Lyncoin",
+        "coinpaprika_id": "lcn-lyncoin",
+        "coingecko_id": "lyncoin",
+        "livecoinwatch_id": "LCN",
+        "explorer_url": "https://lcnxp.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "sign_message_prefix": "Lyncoin Signed Message:\n",
+        "fname": "Lyncoin",
+        "rpcport": 5053,
+        "pubtype": 234,
+        "p2shtype": 55,
+        "wiftype": 126,
+        "segwit": true,
+        "bech32_hrp": "lc",
+        "txfee": 1000,
+        "decimals": 8,
+        "mm2": 1,
+        "required_confirmations": 10,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/0'",
+        "trezor_coin": "Lyncoin",
+        "links": {
+            "github": "https://github.com/lyncoin/lyncoin",
+            "homepage": "https://lyncoin.com"
+        },
+        "electrum": [
             {
-                "url": "lcc-ex-one.ewmci.online:50002",
+                "url": "electrum1.lcnxp.com:52002",
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "discord": "475820011634819072"
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum4.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum5.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
                     }
                 ]
             }
         ],
-        "explorer_block_url": "block.dws?"
+        "explorer_block_url": "block/"
+    },
+    "LCN-segwit": {
+        "coin": "LCN-segwit",
+        "type": "UTXO",
+        "name": "Lyncoin",
+        "coinpaprika_id": "lcn-lyncoin",
+        "coingecko_id": "lyncoin",
+        "livecoinwatch_id": "LCN",
+        "explorer_url": "https://lcnxp.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "sign_message_prefix": "Lyncoin Signed Message:\n",
+        "fname": "Lyncoin",
+        "rpcport": 5053,
+        "pubtype": 234,
+        "p2shtype": 55,
+        "wiftype": 126,
+        "segwit": true,
+        "bech32_hrp": "lc",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "LCN",
+        "txfee": 1000,
+        "decimals": 8,
+        "mm2": 1,
+        "required_confirmations": 10,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/84'/0'",
+        "trezor_coin": "Lyncoin",
+        "links": {
+            "github": "https://github.com/lyncoin/lyncoin",
+            "homepage": "https://lyncoin.com"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum4.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum5.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
     },
     "LCN-BEP20": {
         "coin": "LCN-BEP20",
@@ -19725,10 +19427,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -19741,7 +19439,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -20047,10 +19746,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -20063,7 +19758,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -20805,32 +20501,35 @@
         "dust": 54600,
         "segwit": false,
         "mm2": 1,
-        "required_confirmations": 1,
-        "avg_blocktime": 1200,
+        "required_confirmations": 3,
+        "mature_confirmations": 30,
+        "avg_blocktime": 300,
         "protocol": {
             "type": "UTXO"
         },
         "derivation_path": "m/44'/191'",
+        "links": {
+            "github": "https://github.com/getlynx/Lynx",
+            "homepage": "https://getlynx.io"
+        },
         "electrum": [
             {
-                "url": "electrum5.getlynx.io:50002",
-                "protocol": "SSL"
+                "url": "electrum1.getlynx.io:22569",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
             },
             {
-                "url": "electrum6.getlynx.io:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum7.getlynx.io:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum8.getlynx.io:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum9.getlynx.io:50002",
-                "protocol": "SSL"
+                "url": "electrum2.getlynx.io:22569",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "668310974083629056"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -21030,10 +20729,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -21046,7 +20741,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -21197,10 +20893,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -21213,7 +20905,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -21256,10 +20949,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -21272,7 +20961,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/",
@@ -21477,8 +21167,6 @@
         "pubtype": 50,
         "p2shtype": 9,
         "wiftype": 244,
-        "decimals": 8,
-        "signature_version": "base",
         "txfee": 10000,
         "segwit": true,
         "bech32_hrp": "maza",
@@ -21682,6 +21370,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "trezor_coin": "Mandala (GRC20)",
         "contract_address": "0xcF53f0Efe6967259E582335502D3E17Fe8720FB8",
         "parent_coin": "GLEEC",
         "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
@@ -22306,10 +21995,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -22322,7 +22007,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -22531,10 +22217,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -22547,7 +22229,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -22635,12 +22318,16 @@
         "derivation_path": "m/44'/60'",
         "max_eth_tx_type": 2,
         "swap_gas_fee_policy": "Medium",
+        "estimate_gas_mult": 1.3,
         "links": {
             "homepage": "https://monad.xyz"
         },
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
+            {
+                "url": "https://infra.originstake.com/monad/evm"
+            },
             {
                 "url": "https://monad-mainnet-rpc.spidernode.net"
             },
@@ -22649,13 +22336,7 @@
                 "ws_url": "wss://wss.monad-rpc.huginn.tech"
             },
             {
-                "url": "https://rpc-mainnet.monadinfra.com"
-            },
-            {
                 "url": "https://rpc.monad.xyz"
-            },
-            {
-                "url": "https://rpc3.monad.xyz"
             }
         ],
         "explorer_block_url": "block/"
@@ -23003,6 +22684,10 @@
             {
                 "url": "https://moonriver.api.onfinality.io/public",
                 "ws_url": "wss://moonriver.api.onfinality.io/public-ws"
+            },
+            {
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -23045,14 +22730,15 @@
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
             {
-                "url": "https://lb.routeme.sh/rpc/evm/1284"
-            },
-            {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
             },
             {
-                "url": "https://public.1rpc.io/glmr"
+                "url": "https://moonbeam.api.pocket.network"
+            },
+            {
+                "url": "https://moonbeam.drpc.org",
+                "ws_url": "wss://moonbeam.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -23487,10 +23173,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -23503,7 +23185,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -24187,10 +23870,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -24203,7 +23882,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -24357,13 +24037,14 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://1rpc.io/one"
-            },
-            {
                 "url": "https://api.harmony.one"
             },
             {
                 "url": "https://api.s0.t.hmny.io"
+            },
+            {
+                "url": "https://harmony-0.drpc.org",
+                "ws_url": "wss://harmony-0.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -24525,10 +24206,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -24541,7 +24218,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -25106,10 +24784,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -25122,7 +24796,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -25405,10 +25080,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -25421,7 +25092,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -25526,6 +25198,11 @@
         },
         "electrum": [
             {
+                "url": "allingas.peercoinexplorer.net:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false
+            },
+            {
                 "url": "electrum.peercoinexplorer.net:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": false
@@ -25623,10 +25300,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -25639,7 +25312,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -25789,10 +25463,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -25805,7 +25475,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -25900,10 +25571,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -25916,7 +25583,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -26221,10 +25889,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -26237,7 +25901,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -27020,6 +26685,7 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "trezor_coin": "Raphael (GRC20)",
         "contract_address": "0x37C66A3855e23F80fA8073937B486d9f99619D3c",
         "parent_coin": "GLEEC",
         "swap_contract_address": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
@@ -27293,10 +26959,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -27309,7 +26971,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -27463,7 +27126,7 @@
         "coinpaprika_id": "rin-rincoin",
         "coingecko_id": "",
         "livecoinwatch_id": "_RIN",
-        "explorer_url": "https://explorer.rincoin.org/",
+        "explorer_url": "https://explorer.rincoin.tech/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
         "supported": [],
@@ -27490,12 +27153,12 @@
         },
         "derivation_path": "m/44'/9555'",
         "links": {
-            "github": "https://github.com/Rin-coin/rincoin",
-            "homepage": "https://rincoin.org"
+            "github": "https://github.com/rincoin-community/rincoin-core",
+            "homepage": "https://www.rincoin.tech"
         },
         "electrum": [
             {
-                "url": "peer1.rincoin.tech:50002",
+                "url": "peer1.rincoin.online:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -27507,7 +27170,7 @@
                 ]
             },
             {
-                "url": "peer2.rincoin.tech:50002",
+                "url": "peer2.rincoin.online:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -27519,7 +27182,43 @@
                 ]
             },
             {
-                "url": "peer3.rincoin.tech:50002",
+                "url": "peer3.rincoin.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer4.rincoin.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer5.rincoin.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer6.rincoin.online:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -27540,7 +27239,7 @@
         "coinpaprika_id": "rin-rincoin",
         "coingecko_id": "",
         "livecoinwatch_id": "_RIN",
-        "explorer_url": "https://explorer.rincoin.org/",
+        "explorer_url": "https://explorer.rincoin.tech/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
         "supported": [],
@@ -27571,12 +27270,12 @@
         },
         "derivation_path": "m/84'/9555'",
         "links": {
-            "github": "https://github.com/Rin-coin/rincoin",
-            "homepage": "https://rincoin.org"
+            "github": "https://github.com/rincoin-community/rincoin-core",
+            "homepage": "https://www.rincoin.tech"
         },
         "electrum": [
             {
-                "url": "peer1.rincoin.tech:50002",
+                "url": "peer1.rincoin.online:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -27588,7 +27287,7 @@
                 ]
             },
             {
-                "url": "peer2.rincoin.tech:50002",
+                "url": "peer2.rincoin.online:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -27600,7 +27299,43 @@
                 ]
             },
             {
-                "url": "peer3.rincoin.tech:50002",
+                "url": "peer3.rincoin.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer4.rincoin.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer5.rincoin.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer6.rincoin.online:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -27941,10 +27676,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -27957,7 +27688,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -28614,10 +28346,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -28630,7 +28358,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -29123,10 +28852,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -29139,7 +28864,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -29236,10 +28962,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -29252,7 +28974,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -29507,10 +29230,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -29523,7 +29242,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -30050,10 +29770,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -30066,7 +29782,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -30431,10 +30148,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -30447,7 +30160,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -30841,9 +30555,6 @@
         "fallback_swap_contract": "0xDB3d24F21745B9C1953BD643E1a6CA8A34C4F47c",
         "nodes": [
             {
-                "url": "https://lb.routeme.sh/rpc/evm/964"
-            },
-            {
                 "url": "https://lite.chain.opentensor.ai"
             },
             {
@@ -31102,9 +30813,168 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
+                "url": "https://poly.api.pocket.network",
+                "ws_url": "wss://poly.api.pocket.network"
             },
+            {
+                "url": "https://polygon-bor-rpc.publicnode.com",
+                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
+            },
+            {
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "TEL-ERC20": {
+        "coin": "TEL-ERC20",
+        "type": "ERC-20",
+        "name": "Telcoin",
+        "coinpaprika_id": "tel-telcoin",
+        "coingecko_id": "telcoin-2",
+        "livecoinwatch_id": "TEL",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Telcoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x7E13B43065380aCdeC1c2d138c579cbBbafA0731"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "links": {
+            "homepage": "https://www.telco.in"
+        },
+        "contract_address": "0x7E13B43065380aCdeC1c2d138c579cbBbafA0731",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "nodes": [
+            {
+                "url": "https://eth.api.pocket.network",
+                "ws_url": "wss://eth.api.pocket.network"
+            },
+            {
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "TEL-BASE": {
+        "coin": "TEL-BASE",
+        "type": "Base",
+        "name": "Telcoin",
+        "coinpaprika_id": "tel-telcoin",
+        "coingecko_id": "telcoin-2",
+        "livecoinwatch_id": "TEL",
+        "explorer_url": "https://basescan.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Telcoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 8453,
+        "decimals": 18,
+        "avg_blocktime": 0.2,
+        "required_confirmations": 10,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH-BASE",
+                "contract_address": "0x7E13B43065380aCdeC1c2d138c579cbBbafA0731"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x7E13B43065380aCdeC1c2d138c579cbBbafA0731",
+        "parent_coin": "ETH-BASE",
+        "swap_contract_address": "0x4C54808911817402a0871c3C93D8790c19CAe75b",
+        "fallback_swap_contract": "0x4C54808911817402a0871c3C93D8790c19CAe75b",
+        "nodes": [
+            {
+                "url": "https://base-rpc.publicnode.com",
+                "ws_url": "wss://base-rpc.publicnode.com"
+            },
+            {
+                "url": "https://base.api.pocket.network",
+                "ws_url": "wss://base.api.pocket.network"
+            },
+            {
+                "url": "https://base.public.blockpi.network/v1/rpc/public"
+            },
+            {
+                "url": "https://mainnet.base.org"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "TEL-PLG20": {
+        "coin": "TEL-PLG20",
+        "type": "Polygon",
+        "name": "Telcoin",
+        "coinpaprika_id": "tel-telcoin",
+        "coingecko_id": "telcoin-2",
+        "livecoinwatch_id": "TEL",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Telcoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 137,
+        "decimals": 18,
+        "avg_blocktime": 1.8,
+        "required_confirmations": 20,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "POL",
+                "contract_address": "0x7E13B43065380aCdeC1c2d138c579cbBbafA0731"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x7E13B43065380aCdeC1c2d138c579cbBbafA0731",
+        "parent_coin": "POL",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
             {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
@@ -31118,7 +30988,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -31193,161 +31064,6 @@
         },
         "derivation_path": "m/84'/1'",
         "electrum": [],
-        "explorer_block_url": "block/"
-    },
-    "TEL-ERC20": {
-        "coin": "TEL-ERC20",
-        "type": "ERC-20",
-        "name": "Telcoin",
-        "coinpaprika_id": "tel-telcoin",
-        "coingecko_id": "telcoin",
-        "livecoinwatch_id": "TEL",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Telcoin",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 1,
-        "decimals": 2,
-        "avg_blocktime": 15,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "ETH",
-                "contract_address": "0x467Bccd9d29f223BcE8043b84E8C8B282827790F"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x467Bccd9d29f223BcE8043b84E8C8B282827790F",
-        "parent_coin": "ETH",
-        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            {
-                "url": "https://eth.api.pocket.network",
-                "ws_url": "wss://eth.api.pocket.network"
-            },
-            {
-                "url": "https://eth.drpc.org",
-                "ws_url": "wss://eth.drpc.org"
-            },
-            {
-                "url": "https://ethereum-rpc.publicnode.com",
-                "ws_url": "wss://ethereum-rpc.publicnode.com"
-            },
-            {
-                "url": "https://mainnet.gateway.tenderly.co",
-                "ws_url": "wss://mainnet.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "TEL-KRC20": {
-        "coin": "TEL-KRC20",
-        "type": "KRC-20",
-        "name": "Telcoin",
-        "coinpaprika_id": "tel-telcoin",
-        "coingecko_id": "telcoin",
-        "livecoinwatch_id": "TEL",
-        "explorer_url": "https://explorer.kcc.io/en/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Telcoin",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 321,
-        "decimals": 18,
-        "avg_blocktime": 3,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "KCS",
-                "contract_address": "0x621C1E8610e4B9b7fc9F043203C008EDe52E92F5"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x621C1E8610e4B9b7fc9F043203C008EDe52E92F5",
-        "parent_coin": "KCS",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://kcc-rpc.com"
-            },
-            {
-                "url": "https://rpc-mainnet.kcc.network"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "TEL-PLG20": {
-        "coin": "TEL-PLG20",
-        "type": "Polygon",
-        "name": "Telcoin",
-        "coinpaprika_id": "tel-telcoin",
-        "coingecko_id": "telcoin",
-        "livecoinwatch_id": "TEL",
-        "explorer_url": "https://polygonscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Telcoin",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 137,
-        "decimals": 2,
-        "avg_blocktime": 1.8,
-        "required_confirmations": 20,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "POL",
-                "contract_address": "0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32",
-        "parent_coin": "POL",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
-                "url": "https://poly.api.pocket.network",
-                "ws_url": "wss://poly.api.pocket.network"
-            },
-            {
-                "url": "https://polygon-bor-rpc.publicnode.com",
-                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
-            },
-            {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
-                "url": "https://polygon.gateway.tenderly.co"
-            }
-        ],
         "explorer_block_url": "block/"
     },
     "TFT-BEP20": {
@@ -31714,6 +31430,10 @@
             },
             {
                 "url": "https://tron.api.pocket.network"
+            },
+            {
+                "url": "https://tron.drpc.org",
+                "ws_url": "wss://tron.drpc.org"
             }
         ],
         "explorer_block_url": "#/block/",
@@ -31758,7 +31478,12 @@
                 "url": "https://tron.api.pocket.network"
             },
             {
-                "url": "https://tron.rpc.sentio.xyz"
+                "url": "https://tron.drpc.org",
+                "ws_url": "wss://tron.drpc.org"
+            },
+            {
+                "url": "https://tron.rpc.sentio.xyz",
+                "ws_url": "wss://tron.rpc.sentio.xyz"
             }
         ],
         "explorer_block_url": "#/block/"
@@ -32042,10 +31767,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -32058,7 +31779,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -32365,10 +32087,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -32381,7 +32099,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -32536,10 +32255,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -32552,7 +32267,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -32750,10 +32466,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -32766,7 +32478,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -33019,10 +32732,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -33035,7 +32744,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -33615,11 +33325,11 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
-                "url": "https://hyperliquid.drpc.org",
-                "ws_url": "wss://hyperliquid.drpc.org"
+                "url": "https://hyperevm.rpc.sentio.xyz"
             },
             {
-                "url": "https://hyperliquid.rpc.blxrbdn.com"
+                "url": "https://hyperliquid.drpc.org",
+                "ws_url": "wss://hyperliquid.drpc.org"
             },
             {
                 "url": "https://rpc.hyperliquid.xyz/evm"
@@ -33712,11 +33422,20 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
         "contract_address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
         "parent_coin": "MON",
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
+            {
+                "url": "https://infra.originstake.com/monad/evm"
+            },
             {
                 "url": "https://monad-mainnet-rpc.spidernode.net"
             },
@@ -33725,13 +33444,7 @@
                 "ws_url": "wss://wss.monad-rpc.huginn.tech"
             },
             {
-                "url": "https://rpc-mainnet.monadinfra.com"
-            },
-            {
                 "url": "https://rpc.monad.xyz"
-            },
-            {
-                "url": "https://rpc3.monad.xyz"
             }
         ],
         "explorer_block_url": "block/"
@@ -33778,10 +33491,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -33794,7 +33503,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -33835,10 +33545,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -33851,7 +33557,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -33891,9 +33598,6 @@
         "swap_contract_address": "0xDB3d24F21745B9C1953BD643E1a6CA8A34C4F47c",
         "fallback_swap_contract": "0xDB3d24F21745B9C1953BD643E1a6CA8A34C4F47c",
         "nodes": [
-            {
-                "url": "https://lb.routeme.sh/rpc/evm/964"
-            },
             {
                 "url": "https://lite.chain.opentensor.ai"
             },
@@ -33945,11 +33649,11 @@
                 "url": "https://rpc.ankr.com/xdc"
             },
             {
-                "url": "https://rpc.xdc.network"
+                "url": "https://rpc.plugin.global/xdcmainnet",
+                "ws_url": "wss://rpc.plugin.global/ws/xdcmainnet"
             },
             {
-                "url": "https://rpc.xdcrpc.com",
-                "ws_url": "wss://rpc.xdcrpc.com/ws"
+                "url": "https://rpc.xdc.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -34314,11 +34018,11 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
-                "url": "https://hyperliquid.drpc.org",
-                "ws_url": "wss://hyperliquid.drpc.org"
+                "url": "https://hyperevm.rpc.sentio.xyz"
             },
             {
-                "url": "https://hyperliquid.rpc.blxrbdn.com"
+                "url": "https://hyperliquid.drpc.org",
+                "ws_url": "wss://hyperliquid.drpc.org"
             },
             {
                 "url": "https://rpc.hyperliquid.xyz/evm"
@@ -34568,11 +34272,20 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
         "contract_address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
         "parent_coin": "MON",
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
+            {
+                "url": "https://infra.originstake.com/monad/evm"
+            },
             {
                 "url": "https://monad-mainnet-rpc.spidernode.net"
             },
@@ -34581,13 +34294,7 @@
                 "ws_url": "wss://wss.monad-rpc.huginn.tech"
             },
             {
-                "url": "https://rpc-mainnet.monadinfra.com"
-            },
-            {
                 "url": "https://rpc.monad.xyz"
-            },
-            {
-                "url": "https://rpc3.monad.xyz"
             }
         ],
         "explorer_block_url": "block/"
@@ -34939,11 +34646,20 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
         "contract_address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D",
         "parent_coin": "MON",
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
+            {
+                "url": "https://infra.originstake.com/monad/evm"
+            },
             {
                 "url": "https://monad-mainnet-rpc.spidernode.net"
             },
@@ -34952,13 +34668,7 @@
                 "ws_url": "wss://wss.monad-rpc.huginn.tech"
             },
             {
-                "url": "https://rpc-mainnet.monadinfra.com"
-            },
-            {
                 "url": "https://rpc.monad.xyz"
-            },
-            {
-                "url": "https://rpc3.monad.xyz"
             }
         ],
         "explorer_block_url": "block/"
@@ -35005,10 +34715,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -35021,7 +34727,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -35344,11 +35051,11 @@
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
             {
-                "url": "https://hyperliquid.drpc.org",
-                "ws_url": "wss://hyperliquid.drpc.org"
+                "url": "https://hyperevm.rpc.sentio.xyz"
             },
             {
-                "url": "https://hyperliquid.rpc.blxrbdn.com"
+                "url": "https://hyperliquid.drpc.org",
+                "ws_url": "wss://hyperliquid.drpc.org"
             },
             {
                 "url": "https://rpc.hyperliquid.xyz/evm"
@@ -36440,11 +36147,20 @@
             }
         },
         "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 150000,
+            "erc20_payment": 250000,
+            "erc20_receiver_spend": 200000,
+            "erc20_sender_refund": 200000
+        },
         "contract_address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
         "parent_coin": "MON",
         "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
         "nodes": [
+            {
+                "url": "https://infra.originstake.com/monad/evm"
+            },
             {
                 "url": "https://monad-mainnet-rpc.spidernode.net"
             },
@@ -36453,13 +36169,7 @@
                 "ws_url": "wss://wss.monad-rpc.huginn.tech"
             },
             {
-                "url": "https://rpc-mainnet.monadinfra.com"
-            },
-            {
                 "url": "https://rpc.monad.xyz"
-            },
-            {
-                "url": "https://rpc3.monad.xyz"
             }
         ],
         "explorer_block_url": "block/"
@@ -36500,10 +36210,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -36516,7 +36222,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -36827,10 +36534,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -36843,7 +36546,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -36997,10 +36701,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -37013,7 +36713,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -37430,11 +37131,11 @@
                 "url": "https://rpc.ankr.com/xdc"
             },
             {
-                "url": "https://rpc.xdc.network"
+                "url": "https://rpc.plugin.global/xdcmainnet",
+                "ws_url": "wss://rpc.plugin.global/ws/xdcmainnet"
             },
             {
-                "url": "https://rpc.xdcrpc.com",
-                "ws_url": "wss://rpc.xdcrpc.com/ws"
+                "url": "https://rpc.xdc.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -37465,7 +37166,6 @@
         "dust": 100000,
         "mm2": 1,
         "segwit": true,
-        "signature_version": "witness_v0",
         "bech32_hrp": "ep",
         "address_format": {
             "format": "segwit"
@@ -37654,10 +37354,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -37670,7 +37366,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -37883,18 +37580,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx-dex-02.neuraiexplorer.com:50001",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "alarm@neurai.org"
-                    },
-                    {
-                        "discord": "456566604809895947"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx3.neurai.top:50001",
                 "protocol": "SSL",
                 "contact": [
@@ -38027,6 +37712,7 @@
         "txfee": 10,
         "segwit": false,
         "fork_id": "0x40",
+        "signature_version": "fork_id",
         "address_format": {
             "format": "cashaddress",
             "network": "ergon"
@@ -38377,10 +38063,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -38393,7 +38075,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -38502,15 +38185,6 @@
             {
                 "url": "electrumx2.vanillacash.info:50012",
                 "protocol": "SSL"
-            },
-            {
-                "url": "xvc-ex-seven.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -39002,10 +38676,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -39018,7 +38688,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -39133,6 +38804,106 @@
             {
                 "url": "https://mainnet.gateway.tenderly.co",
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "YTN": {
+        "coin": "YTN",
+        "type": "UTXO",
+        "name": "Yenten",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.yentencoin.info/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Yenten Signed Message:\n",
+        "fname": "Yenten",
+        "rpcport": 9982,
+        "pubtype": 78,
+        "p2shtype": 10,
+        "wiftype": 123,
+        "txfee": 10000,
+        "dust": 5460,
+        "segwit": true,
+        "bech32_hrp": "ytn",
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 120,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/9981'",
+        "links": {
+            "github": "https://github.com/yentencoin/yenten",
+            "homepage": "https://yentencoin.info"
+        },
+        "electrum": [
+            {
+                "url": "peer1.rincoin.online:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer2.rincoin.online:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer4.rincoin.online:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer5.rincoin.online:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer6.rincoin.online:51002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -39551,10 +39322,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -39567,7 +39334,8 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -41270,6 +41038,7 @@
         "estimate_fee_blocks": 2,
         "segwit": false,
         "fork_id": "0x40",
+        "signature_version": "fork_id",
         "address_format": {
             "format": "cashaddress",
             "network": "bchtest"
@@ -41299,9 +41068,9 @@
         "coin": "WAM",
         "type": "UTXO",
         "name": "WAM Coin",
-        "coinpaprika_id": "wam-wam",
+        "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "WAM",
+        "livecoinwatch_id": "",
         "explorer_url": "https://explorer.wamcoin.org/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -41328,7 +41097,7 @@
         },
         "derivation_path": "m/44'/5718349'",
         "links": {
-            "github": "https://github.com/wamcoin-core-dev/wam-coin",
+            "github": "https://github.com/wamcoin-Project/wam-coin",
             "homepage": "https://wamcoin.org"
         },
         "electrum": [
@@ -41347,6 +41116,18 @@
                 "contact": [
                     {
                         "email": "wam.coin.official@proton.me"
+                    }
+                ]
+            },
+            {
+                "url": "wam.zcd.lol:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "cup"
+                    },
+                    {
+                        "email": "bobbyning@foxmail.com"
                     }
                 ]
             }
@@ -41524,6 +41305,7 @@
         "estimate_fee_blocks": 2,
         "segwit": false,
         "fork_id": "0x40",
+        "signature_version": "fork_id",
         "address_format": {
             "format": "cashaddress",
             "network": "ecash"
@@ -41669,6 +41451,42 @@
         "explorer_block_url": "block/",
         "binance_id": "OSMO"
     },
+    "IRISTEST": {
+        "coin": "IRISTEST",
+        "type": "TENDERMINT",
+        "name": "Iris Test",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://nyancat.iobscan.io/",
+        "explorer_tx_url": "#/txs/",
+        "explorer_address_url": "#/address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": true,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "avg_blocktime": 7,
+        "fname": "Iris Test",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "unyan",
+                "account_prefix": "iaa",
+                "chain_id": "nyancat-9",
+                "gas_price": 0.5
+            }
+        },
+        "derivation_path": "m/44'/118'",
+        "rpc_urls": [
+            {
+                "url": "https://lcd.nyancat.irisnet.org"
+            }
+        ],
+        "explorer_block_url": "#/blocks/"
+    },
     "IRISTEST-IBC_NUCLEUSTEST": {
         "coin": "IRISTEST-IBC_NUCLEUSTEST",
         "type": "TENDERMINTTOKEN",
@@ -41699,7 +41517,7 @@
         "parent_coin": "IRISTEST",
         "rpc_urls": [
             {
-                "url": "http://34.80.202.172:26657"
+                "url": "https://lcd.nyancat.irisnet.org"
             }
         ],
         "explorer_block_url": "#/blocks/"
@@ -41984,10 +41802,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://poly.api.pocket.network",
                 "ws_url": "wss://poly.api.pocket.network"
             },
@@ -42000,7 +41814,108 @@
                 "ws_url": "wss://polygon.drpc.org"
             },
             {
-                "url": "https://polygon.gateway.tenderly.co"
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "TAR": {
+        "coin": "TAR",
+        "type": "UTXO",
+        "name": "Tarcoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "_TAR",
+        "explorer_url": "https://explorer.tarcoin.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Tarcoin Signed Message:\n",
+        "fname": "Tarcoin",
+        "rpcport": 19332,
+        "pubtype": 65,
+        "p2shtype": 127,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "tar",
+        "txfee": 1000,
+        "mm2": 1,
+        "mature_confirmations": 100,
+        "required_confirmations": 1,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/5050'",
+        "links": {
+            "github": "https://github.com/Tarcoin/tarcoin",
+            "homepage": "https://tarcoin.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum.tarcoin.org:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "node1.electrum.tarcoin.org:50002",
+                "protocol": "SSL"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "TAR-segwit": {
+        "coin": "TAR-segwit",
+        "type": "UTXO",
+        "name": "Tarcoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "_TAR",
+        "explorer_url": "https://explorer.tarcoin.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Tarcoin Signed Message:\n",
+        "fname": "Tarcoin",
+        "rpcport": 19332,
+        "pubtype": 65,
+        "p2shtype": 127,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "tar",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "TAR",
+        "txfee": 1000,
+        "mm2": 1,
+        "mature_confirmations": 100,
+        "required_confirmations": 1,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/84'/5050'",
+        "links": {
+            "github": "https://github.com/Tarcoin/tarcoin",
+            "homepage": "https://tarcoin.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum.tarcoin.org:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "node1.electrum.tarcoin.org:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"

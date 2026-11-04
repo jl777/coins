@@ -1,27 +1,18 @@
 [
     {
-        "url": "electrum5.getlynx.io:50002",
+        "url": "electrum1.getlynx.io:22569",
         "protocol": "SSL",
-        "ws_url": "electrum5.getlynx.io:50004"
+        "ws_url": "electrum1.getlynx.io:22570",
+        "contact": [
+            { "discord": "668310974083629056" }
+        ]
     },
     {
-        "url": "electrum6.getlynx.io:50002",
+        "url": "electrum2.getlynx.io:22569",
         "protocol": "SSL",
-        "ws_url": "electrum6.getlynx.io:50004"
-    },
-    {
-        "url": "electrum7.getlynx.io:50002",
-        "protocol": "SSL",
-        "ws_url": "electrum7.getlynx.io:50004"
-    },
-    {
-        "url": "electrum8.getlynx.io:50002",
-        "protocol": "SSL",
-        "ws_url": "electrum8.getlynx.io:50004"
-    },
-    {
-        "url": "electrum9.getlynx.io:50002",
-        "protocol": "SSL",
-        "ws_url": "electrum9.getlynx.io:50004"
+        "ws_url": "electrum2.getlynx.io:22570",
+        "contact": [
+            { "discord": "668310974083629056" }
+        ]
     }
 ]

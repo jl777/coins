@@ -1,74 +1,50 @@
 [
-    {
-        "url": "btc.electrum1.cipig.net:10000",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ]
-    },
-    {
-        "url": "btc.electrum3.cipig.net:10000",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ]
-    },
-    {
-        "url": "btc.electrum1.cipig.net:20000",
-        "protocol": "SSL",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ],
-        "ws_url": "btc.electrum1.cipig.net:30000"
-    },
-    {
-        "url": "btc.electrum2.cipig.net:20000",
-        "protocol": "SSL",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ],
-        "ws_url": "btc.electrum2.cipig.net:30000"
-    },
-    {
-        "url": "btc.electrum2.cipig.net:10000",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ]
-    },
-    {
-        "url": "btc.electrum3.cipig.net:20000",
-        "protocol": "SSL",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ],
-        "ws_url": "btc.electrum3.cipig.net:30000"
-    }
+  {
+    "url": "btc.electrum1.cipig.net:10000",
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
+    ]
+  },
+  {
+    "url": "btc.electrum1.cipig.net:20000",
+    "protocol": "SSL",
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
+    ],
+    "ws_url": "btc.electrum1.cipig.net:30000"
+  },
+  {
+    "url": "btc.electrum2.cipig.net:20000",
+    "protocol": "SSL",
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
+    ],
+    "ws_url": "btc.electrum2.cipig.net:30000"
+  },
+  {
+    "url": "btc.electrum2.cipig.net:10000",
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
+    ]
+  }
 ]

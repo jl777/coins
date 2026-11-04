@@ -1,43 +1,19 @@
 [
-    {
-        "url": "s6.electrum.qtum.site:51001",
-        "contact": [
-            {
-                "github": "https://github.com/qtumproject/qtum-electrum"
-            }
-        ]
-    },
-    {
-        "url": "s6.electrum.qtum.site:51002",
-        "protocol": "SSL",
-        "contact": [
-            {
-                "github": "https://github.com/qtumproject/qtum-electrum"
-            }
-        ]
-    },
-    {
-        "url": "tqtum.electrum3.cipig.net:20071",
-        "protocol": "SSL",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ],
-        "ws_url": "tqtum.electrum3.cipig.net:30071"
-    },
-    {
-        "url": "tqtum.electrum3.cipig.net:10071",
-        "contact": [
-            {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
-            }
-        ]
-    }
+  {
+    "url": "s6.electrum.qtum.site:51001",
+    "contact": [
+      {
+        "github": "https://github.com/qtumproject/qtum-electrum"
+      }
+    ]
+  },
+  {
+    "url": "s6.electrum.qtum.site:51002",
+    "protocol": "SSL",
+    "contact": [
+      {
+        "github": "https://github.com/qtumproject/qtum-electrum"
+      }
+    ]
+  }
 ]

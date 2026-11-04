@@ -1,22 +1,10 @@
 [
     {
-        "name": "seed-kmdefi-1",
-        "host": "seed01.kmdefi.net",
+        "name": "seed-cipig-2",
+        "host": "seed02.cipig.net",
         "type": "domain",
         "wss": true,
         "netid": 6133,
-        "contact": [
-            {
-                "email": ""
-            }
-        ]
-    },
-    {
-        "name": "seed-kmdefi-2",
-        "host": "seed02.kmdefi.net",
-        "type": "domain",
-        "wss": true,
-        "netid": 8762,
         "contact": [
             {
                 "email": ""
@@ -29,18 +17,6 @@
         "type": "domain",
         "wss": true,
         "netid": 6133,
-        "contact": [
-            {
-                "email": ""
-            }
-        ]
-    },
-    {
-        "name": "seed-kmdefi-4",
-        "host": "seed04.kmdefi.net",
-        "type": "domain",
-        "wss": true,
-        "netid": 8762,
         "contact": [
             {
                 "email": ""

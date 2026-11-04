@@ -4,23 +4,18 @@
     "ws_url": "clam-ex-one.ewmci.online:50003",
     "protocol": "SSL",
     "contact": [
-      { "discord": "475820011634819072" }
+      {
+        "discord": "475820011634819072"
+      }
     ]
   },
   {
     "url": "clam-ex-one.ewmci.online:50001",
     "protocol": "TCP",
     "contact": [
-      { "discord": "475820011634819072" }
-    ]
-  },
-  {
-    "url": "clam.electrum3.cipig.net:20075",
-    "ws_url": "clam.electrum3.cipig.net:30075",
-    "protocol": "SSL",
-    "contact": [
-      { "email": "cipi@komodoplatform.com" },
-      { "discord": "cipi#4502" }
+      {
+        "discord": "475820011634819072"
+      }
     ]
   }
 ]

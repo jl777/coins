@@ -1,50 +1,50 @@
 [
-    {
-        "url": "bczero.electrum1.cipig.net:10003",
-        "contact": [
-            { "email": "cipi@komodoplatform.com" },
-            { "discord": "cipi#4502" }
-        ]
-    },
-    {
-        "url": "bczero.electrum2.cipig.net:10003",
-        "contact": [
-            { "email": "cipi@komodoplatform.com" },
-            { "discord": "cipi#4502" }
-        ]
-    },
-    {
-        "url": "bczero.electrum3.cipig.net:10003",
-        "contact": [
-            { "email": "cipi@komodoplatform.com" },
-            { "discord": "cipi#4502" }
-        ]
-    },
-    {
-        "url": "bczero.electrum1.cipig.net:20003",
-        "protocol": "SSL",
-        "ws_url": "bczero.electrum1.cipig.net:30003",
-        "contact": [
-            { "email": "cipi@komodoplatform.com" },
-            { "discord": "cipi#4502" }
-        ]
-    },
-    {
-        "url": "bczero.electrum2.cipig.net:20003",
-        "protocol": "SSL",
-        "ws_url": "bczero.electrum2.cipig.net:30003",
-        "contact": [
-            { "email": "cipi@komodoplatform.com" },
-            { "discord": "cipi#4502" }
-        ]
-    },
-    {
-        "url": "bczero.electrum3.cipig.net:20003",
-        "protocol": "SSL",
-        "ws_url": "bczero.electrum3.cipig.net:30003",
-        "contact": [
-            { "email": "cipi@komodoplatform.com" },
-            { "discord": "cipi#4502" }
-        ]
-    }
+  {
+    "url": "bczero.electrum1.cipig.net:10003",
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
+    ]
+  },
+  {
+    "url": "bczero.electrum2.cipig.net:10003",
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
+    ]
+  },
+  {
+    "url": "bczero.electrum1.cipig.net:20003",
+    "protocol": "SSL",
+    "ws_url": "bczero.electrum1.cipig.net:30003",
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
+    ]
+  },
+  {
+    "url": "bczero.electrum2.cipig.net:20003",
+    "protocol": "SSL",
+    "ws_url": "bczero.electrum2.cipig.net:30003",
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
+    ]
+  }
 ]

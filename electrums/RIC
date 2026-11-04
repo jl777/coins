@@ -4,8 +4,12 @@
     "ws_url": "ric.electrum2.cipig.net:30074",
     "protocol": "SSL",
     "contact": [
-      { "email": "cipi@komodoplatform.com" },
-      { "discord": "cipi#4502" }
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
     ]
   },
   {
@@ -13,8 +17,12 @@
     "ws_url": "ric.electrum1.cipig.net:30074",
     "protocol": "SSL",
     "contact": [
-      { "email": "cipi@komodoplatform.com" },
-      { "discord": "cipi#4502" }
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
     ]
   },
   {
@@ -22,23 +30,18 @@
     "ws_url": "ric-ex-two.ewmci.online:50003",
     "protocol": "SSL",
     "contact": [
-      { "discord": "475820011634819072" }
+      {
+        "discord": "475820011634819072"
+      }
     ]
   },
   {
     "url": "ric-ex-two.ewmci.online:50001",
     "protocol": "TCP",
     "contact": [
-      { "discord": "475820011634819072" }
-    ]
-  },
-  {
-    "url": "ric.electrum3.cipig.net:20074",
-    "ws_url": "ric.electrum3.cipig.net:30074",
-    "protocol": "SSL",
-    "contact": [
-      { "email": "cipi@komodoplatform.com" },
-      { "discord": "cipi#4502" }
+      {
+        "discord": "475820011634819072"
+      }
     ]
   }
 ]

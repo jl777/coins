@@ -4,8 +4,12 @@
     "ws_url": "btx.electrum2.cipig.net:30069",
     "protocol": "SSL",
     "contact": [
-      { "email": "cipi@komodoplatform.com" },
-      { "discord": "cipi#4502" }
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
     ]
   },
   {
@@ -13,28 +17,23 @@
     "ws_url": "btx.electrum1.cipig.net:30069",
     "protocol": "SSL",
     "contact": [
-      { "email": "cipi@komodoplatform.com" },
-      { "discord": "cipi#4502" }
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
     ]
   },
   {
-    "url": "btx.electrum3.cipig.net:20069",
-    "ws_url": "btx.electrum3.cipig.net:30069",
+    "url": "btx-electrumx.coinsmunity.com:50002",
     "protocol": "SSL",
+    "disable_cert_verification": true,
     "contact": [
-      { "email": "cipi@komodoplatform.com" },
-      { "discord": "cipi#4502" }
-    ]
-  },
-    {
-        "url": "btx-electrumx.coinsmunity.com:50002",
-        "protocol": "SSL",
-        "disable_cert_verification": true,
-        "contact": [
-            {
-                "discord": "[MadCatMining]#0677"
-            }
-        ],
-        "ws_url": "btx-electrumx.coinsmunity.com:50003"
-    }
+      {
+        "discord": "[MadCatMining]#0677"
+      }
+    ],
+    "ws_url": "btx-electrumx.coinsmunity.com:50003"
+  }
 ]

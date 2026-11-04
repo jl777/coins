@@ -7,7 +7,12 @@
       "url": "https://api.trongrid.io"
     },
     {
-      "url": "https://tron.rpc.sentio.xyz"
+      "url": "https://tron.rpc.sentio.xyz",
+      "ws_url": "wss://tron.rpc.sentio.xyz"
+    },
+    {
+      "url": "https://tron.drpc.org",
+      "ws_url": "wss://tron.drpc.org"
     },
     {
       "url": "https://tron-rpc.publicnode.com"

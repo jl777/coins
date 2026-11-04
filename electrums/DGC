@@ -14,34 +14,20 @@
         "protocol": "SSL",
         "ws_url": "electrumx.dgc.ewmcx.org:50003"
     },
-  {
-    "url": "dgc-ex-three.ewmci.online:50002",
-    "ws_url": "dgc-ex-three.ewmci.online:50003",
-    "protocol": "SSL",
-    "contact": [
-      { "discord": "475820011634819072" }
-    ]
-  },
-  {
-    "url": "dgc-ex-three.ewmci.online:50001",
-    "protocol": "TCP",
-    "contact": [
-      { "discord": "475820011634819072" }
-    ]
-  },
-  {
-    "url": "dgc-ex-four.ewmci.online:50002",
-    "ws_url": "dgc-ex-four.ewmci.online:50003",
-    "protocol": "SSL",
-    "contact": [
-      { "discord": "475820011634819072" }
-    ]
-  },
-  {
-    "url": "dgc-ex-four.ewmci.online:50001",
-    "protocol": "TCP",
-    "contact": [
-      { "discord": "475820011634819072" }
-    ]
-  }
+    {
+        "url": "electrum1.getlynx.io:8002",
+        "protocol": "SSL",
+        "ws_url": "electrum1.getlynx.io:8003",
+        "contact": [
+            { "discord": "668310974083629056" }
+        ]
+    },
+    {
+        "url": "electrum2.getlynx.io:8002",
+        "protocol": "SSL",
+        "ws_url": "electrum2.getlynx.io:8003",
+        "contact": [
+            { "discord": "668310974083629056" }
+        ]
+    }
 ]

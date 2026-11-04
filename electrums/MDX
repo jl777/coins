@@ -1,50 +1,50 @@
 [
-    {
-        "url": "mdx.electrum1.cipig.net:10005",
-        "contact": [
-            { "email": "cipi@komodoplatform.com" },
-            { "discord": "cipi#4502" }
-        ]
-    },
-    {
-        "url": "mdx.electrum2.cipig.net:10005",
-        "contact": [
-            { "email": "cipi@komodoplatform.com" },
-            { "discord": "cipi#4502" }
-        ]
-    },
-    {
-        "url": "mdx.electrum3.cipig.net:10005",
-        "contact": [
-            { "email": "cipi@komodoplatform.com" },
-            { "discord": "cipi#4502" }
-        ]
-    },
-    {
-        "url": "mdx.electrum1.cipig.net:20005",
-        "protocol": "SSL",
-        "ws_url": "mdx.electrum1.cipig.net:30005",
-        "contact": [
-            { "email": "cipi@komodoplatform.com" },
-            { "discord": "cipi#4502" }
-        ]
-    },
-    {
-        "url": "mdx.electrum2.cipig.net:20005",
-        "protocol": "SSL",
-        "ws_url": "mdx.electrum2.cipig.net:30005",
-        "contact": [
-            { "email": "cipi@komodoplatform.com" },
-            { "discord": "cipi#4502" }
-        ]
-    },
-    {
-        "url": "mdx.electrum3.cipig.net:20005",
-        "protocol": "SSL",
-        "ws_url": "mdx.electrum3.cipig.net:30005",
-        "contact": [
-            { "email": "cipi@komodoplatform.com" },
-            { "discord": "cipi#4502" }
-        ]
-    }
+  {
+    "url": "mdx.electrum1.cipig.net:10005",
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
+    ]
+  },
+  {
+    "url": "mdx.electrum2.cipig.net:10005",
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
+    ]
+  },
+  {
+    "url": "mdx.electrum1.cipig.net:20005",
+    "protocol": "SSL",
+    "ws_url": "mdx.electrum1.cipig.net:30005",
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
+    ]
+  },
+  {
+    "url": "mdx.electrum2.cipig.net:20005",
+    "protocol": "SSL",
+    "ws_url": "mdx.electrum2.cipig.net:30005",
+    "contact": [
+      {
+        "email": "cipi@komodoplatform.com"
+      },
+      {
+        "discord": "cipi#4502"
+      }
+    ]
+  }
 ]

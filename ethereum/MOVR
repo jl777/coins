@@ -7,7 +7,8 @@
       "ws_url": "wss://moonriver.api.onfinality.io/public-ws"
     },
     {
-      "url": "https://lb.routeme.sh/rpc/evm/1285"
+      "url": "https://moonriver.drpc.org",
+      "ws_url": "wss://moonriver.drpc.org"
     }
   ]
 }

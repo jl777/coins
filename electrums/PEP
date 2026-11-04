@@ -1,49 +1,40 @@
 [
-    {
-      "url": "pep.electrum3.cipig.net:20076",
-      "ws_url": "pep.electrum3.cipig.net:30076",
-      "protocol": "SSL",
-      "contact": [
-          { "email": "cipi@komodoplatform.com" },
-          { "discord": "cipi#4502" }
-      ]
-    },
-    {
-        "url": "electrum.pepeblocks.com:50001",
-        "protocol": "TCP",
-        "contact": [
-            {
-                "discord": "realmasterkush"
-            }
-        ]
-    },
-    {
-        "url": "electrum.pepeblocks.com:50002",
-        "protocol": "SSL",
-        "ws_url": "electrum.pepeblocks.com:50004",
-        "contact": [
-            {
-                "discord": "realmasterkush"
-            }
-        ]
-    },
-    {
-        "url": "electrum.pepe.tips:50001",
-        "protocol": "TCP",
-        "contact": [
-            {
-                "discord": "squidicuz"
-            }
-        ]
-    },
-    {
-        "url": "electrum.pepe.tips:50002",
-        "protocol": "SSL",
-        "ws_url": "electrum.pepe.tips:50004",
-        "contact": [
-            {
-                "discord": "squidicuz"
-            }
-        ]
-    }
+  {
+    "url": "electrum.pepeblocks.com:50001",
+    "protocol": "TCP",
+    "contact": [
+      {
+        "discord": "realmasterkush"
+      }
+    ]
+  },
+  {
+    "url": "electrum.pepeblocks.com:50002",
+    "protocol": "SSL",
+    "ws_url": "electrum.pepeblocks.com:50004",
+    "contact": [
+      {
+        "discord": "realmasterkush"
+      }
+    ]
+  },
+  {
+    "url": "electrum.pepe.tips:50001",
+    "protocol": "TCP",
+    "contact": [
+      {
+        "discord": "squidicuz"
+      }
+    ]
+  },
+  {
+    "url": "electrum.pepe.tips:50002",
+    "protocol": "SSL",
+    "ws_url": "electrum.pepe.tips:50004",
+    "contact": [
+      {
+        "discord": "squidicuz"
+      }
+    ]
+  }
 ]
