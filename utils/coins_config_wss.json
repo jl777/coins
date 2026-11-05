@@ -3618,6 +3618,15 @@
         },
         "electrum": [
             {
+                "url": "bit-e.outsidethebox.top:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bitn-electrumx.wattxchange.app:50014",
                 "protocol": "WSS",
                 "contact": [
@@ -16193,7 +16202,7 @@
         },
         "electrum": [
             {
-                "url": "electrum1.kcnxp.com:51004",
+                "url": "electrum1.kcnxp.com:5104",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -16205,7 +16214,7 @@
                 ]
             },
             {
-                "url": "electrum2.kcnxp.com:51004",
+                "url": "electrum2.kcnxp.com:5104",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -16217,7 +16226,7 @@
                 ]
             },
             {
-                "url": "electrum3.kcnxp.com:51004",
+                "url": "electrum3.kcnxp.com:5104",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -16229,7 +16238,7 @@
                 ]
             },
             {
-                "url": "electrum4.kcnxp.com:51004",
+                "url": "electrum4.kcnxp.com:5104",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -16241,7 +16250,7 @@
                 ]
             },
             {
-                "url": "electrum5.kcnxp.com:51004",
+                "url": "electrum5.kcnxp.com:5104",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -16298,7 +16307,7 @@
         },
         "electrum": [
             {
-                "url": "electrum1.kcnxp.com:51004",
+                "url": "electrum1.kcnxp.com:5104",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -16310,7 +16319,7 @@
                 ]
             },
             {
-                "url": "electrum2.kcnxp.com:51004",
+                "url": "electrum2.kcnxp.com:5104",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -16322,7 +16331,7 @@
                 ]
             },
             {
-                "url": "electrum3.kcnxp.com:51004",
+                "url": "electrum3.kcnxp.com:5104",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -16334,7 +16343,7 @@
                 ]
             },
             {
-                "url": "electrum4.kcnxp.com:51004",
+                "url": "electrum4.kcnxp.com:5104",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -16346,7 +16355,7 @@
                 ]
             },
             {
-                "url": "electrum5.kcnxp.com:51004",
+                "url": "electrum5.kcnxp.com:5104",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -17278,7 +17287,7 @@
         },
         "electrum": [
             {
-                "url": "electrum1.lcnxp.com:52004",
+                "url": "electrum1.lcnxp.com:5204",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -17290,7 +17299,7 @@
                 ]
             },
             {
-                "url": "electrum2.lcnxp.com:52004",
+                "url": "electrum2.lcnxp.com:5204",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -17302,7 +17311,7 @@
                 ]
             },
             {
-                "url": "electrum3.lcnxp.com:52004",
+                "url": "electrum3.lcnxp.com:5204",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -17314,7 +17323,7 @@
                 ]
             },
             {
-                "url": "electrum4.lcnxp.com:52004",
+                "url": "electrum4.lcnxp.com:5204",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -17326,7 +17335,7 @@
                 ]
             },
             {
-                "url": "electrum5.lcnxp.com:52004",
+                "url": "electrum5.lcnxp.com:5204",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -17383,7 +17392,7 @@
         },
         "electrum": [
             {
-                "url": "electrum1.lcnxp.com:52004",
+                "url": "electrum1.lcnxp.com:5204",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -17395,7 +17404,7 @@
                 ]
             },
             {
-                "url": "electrum2.lcnxp.com:52004",
+                "url": "electrum2.lcnxp.com:5204",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -17407,7 +17416,7 @@
                 ]
             },
             {
-                "url": "electrum3.lcnxp.com:52004",
+                "url": "electrum3.lcnxp.com:5204",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -17419,7 +17428,7 @@
                 ]
             },
             {
-                "url": "electrum4.lcnxp.com:52004",
+                "url": "electrum4.lcnxp.com:5204",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -17431,7 +17440,7 @@
                 ]
             },
             {
-                "url": "electrum5.lcnxp.com:52004",
+                "url": "electrum5.lcnxp.com:5204",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -24355,15 +24364,6 @@
         "derivation_path": "m/44'/143'",
         "electrum": [
             {
-                "url": "ric-ex-two.ewmci.online:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "ric.electrum1.cipig.net:30074",
                 "protocol": "WSS",
                 "contact": [
@@ -24427,15 +24427,6 @@
         },
         "derivation_path": "m/84'/143'",
         "electrum": [
-            {
-                "url": "ric-ex-two.ewmci.online:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
             {
                 "url": "ric.electrum1.cipig.net:30074",
                 "protocol": "WSS",
@@ -28176,42 +28167,6 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/",
-        "binance_id": "TRX"
-    },
-    "TRX": {
-        "coin": "TRX",
-        "type": "TRX",
-        "name": "TRON",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "TRX",
-        "explorer_url": "https://tronscan.org/",
-        "explorer_tx_url": "#/transaction/",
-        "explorer_address_url": "#/address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "fname": "TRON",
-        "mm2": 1,
-        "decimals": 6,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 1,
-        "derivation_path": "m/44'/195'",
-        "protocol": {
-            "type": "TRX",
-            "protocol_data": {
-                "network": "Mainnet"
-            }
-        },
-        "nodes": [
-            {
-                "url": "https://tron.drpc.org",
-                "ws_url": "wss://tron.drpc.org"
-            }
-        ],
-        "explorer_block_url": "#/block/",
         "binance_id": "TRX"
     },
     "USDT-TRC20": {
