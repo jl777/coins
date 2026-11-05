@@ -17935,7 +17935,7 @@
         },
         "electrum": [
             {
-                "url": "electrum1.kcnxp.com:51002",
+                "url": "electrum1.kcnxp.com:5102",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -17947,7 +17947,7 @@
                 ]
             },
             {
-                "url": "electrum2.kcnxp.com:51002",
+                "url": "electrum2.kcnxp.com:5102",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -17959,7 +17959,7 @@
                 ]
             },
             {
-                "url": "electrum3.kcnxp.com:51002",
+                "url": "electrum3.kcnxp.com:5102",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -17971,7 +17971,7 @@
                 ]
             },
             {
-                "url": "electrum4.kcnxp.com:51002",
+                "url": "electrum4.kcnxp.com:5102",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -17983,7 +17983,7 @@
                 ]
             },
             {
-                "url": "electrum5.kcnxp.com:51002",
+                "url": "electrum5.kcnxp.com:5102",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -18040,7 +18040,7 @@
         },
         "electrum": [
             {
-                "url": "electrum1.kcnxp.com:51002",
+                "url": "electrum1.kcnxp.com:5102",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -18052,7 +18052,7 @@
                 ]
             },
             {
-                "url": "electrum2.kcnxp.com:51002",
+                "url": "electrum2.kcnxp.com:5102",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -18064,7 +18064,7 @@
                 ]
             },
             {
-                "url": "electrum3.kcnxp.com:51002",
+                "url": "electrum3.kcnxp.com:5102",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -18076,7 +18076,7 @@
                 ]
             },
             {
-                "url": "electrum4.kcnxp.com:51002",
+                "url": "electrum4.kcnxp.com:5102",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -18088,7 +18088,7 @@
                 ]
             },
             {
-                "url": "electrum5.kcnxp.com:51002",
+                "url": "electrum5.kcnxp.com:5102",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -19140,7 +19140,7 @@
         },
         "electrum": [
             {
-                "url": "electrum1.lcnxp.com:52002",
+                "url": "electrum1.lcnxp.com:5202",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -19152,7 +19152,7 @@
                 ]
             },
             {
-                "url": "electrum2.lcnxp.com:52002",
+                "url": "electrum2.lcnxp.com:5202",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -19164,7 +19164,7 @@
                 ]
             },
             {
-                "url": "electrum3.lcnxp.com:52002",
+                "url": "electrum3.lcnxp.com:5202",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -19176,7 +19176,7 @@
                 ]
             },
             {
-                "url": "electrum4.lcnxp.com:52002",
+                "url": "electrum4.lcnxp.com:5202",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -19188,7 +19188,7 @@
                 ]
             },
             {
-                "url": "electrum5.lcnxp.com:52002",
+                "url": "electrum5.lcnxp.com:5202",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -19245,7 +19245,7 @@
         },
         "electrum": [
             {
-                "url": "electrum1.lcnxp.com:52002",
+                "url": "electrum1.lcnxp.com:5202",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -19257,7 +19257,7 @@
                 ]
             },
             {
-                "url": "electrum2.lcnxp.com:52002",
+                "url": "electrum2.lcnxp.com:5202",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -19269,7 +19269,7 @@
                 ]
             },
             {
-                "url": "electrum3.lcnxp.com:52002",
+                "url": "electrum3.lcnxp.com:5202",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -19281,7 +19281,7 @@
                 ]
             },
             {
-                "url": "electrum4.lcnxp.com:52002",
+                "url": "electrum4.lcnxp.com:5202",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -19293,7 +19293,7 @@
                 ]
             },
             {
-                "url": "electrum5.lcnxp.com:52002",
+                "url": "electrum5.lcnxp.com:5202",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -27068,15 +27068,6 @@
         "derivation_path": "m/44'/143'",
         "electrum": [
             {
-                "url": "ric-ex-two.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "ric.electrum1.cipig.net:20074",
                 "protocol": "SSL",
                 "contact": [
@@ -27140,15 +27131,6 @@
         },
         "derivation_path": "m/84'/143'",
         "electrum": [
-            {
-                "url": "ric-ex-two.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
             {
                 "url": "ric.electrum1.cipig.net:20074",
                 "protocol": "SSL",
@@ -31509,10 +31491,6 @@
             },
             {
                 "url": "https://tron.api.pocket.network"
-            },
-            {
-                "url": "https://tron.drpc.org",
-                "ws_url": "wss://tron.drpc.org"
             }
         ],
         "explorer_block_url": "#/block/",
