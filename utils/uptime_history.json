@@ -665,17 +665,20 @@
       "bit-e.minethepla.net:50002": {
         "1792993807": "offline",
         "1793203949": "online",
-        "1793553574": "offline"
+        "1793553574": "offline",
+        "1794100527": "online"
       },
       "bit-e.minethepla.net:50004": {
         "1792993807": "offline",
         "1793312302": "online",
-        "1793516861": "offline"
+        "1793516861": "offline",
+        "1794100527": "online"
       },
       "bit-e.outsidethebox.top:50002": {
         "1792993807": "offline",
         "1793312302": "online",
-        "1793516861": "offline"
+        "1793516861": "offline",
+        "1794100527": "online"
       },
       "bit-e.outsidethebox.top:50004": {
         "1792993807": "offline",
@@ -704,7 +707,8 @@
       },
       "bitnet.outsidethebox.top:50004": {
         "1792993807": "offline",
-        "1793625583": "online"
+        "1793625583": "online",
+        "1794100527": "offline"
       }
     }
   },
@@ -2855,14 +2859,40 @@
       "1792993807": "online"
     },
     "by_server": {
+      "_metadata": {
+        "electrum-flc.hashboard.space:50001": {
+          "contact": [
+            {
+              "email": "listing@hashboard.space"
+            }
+          ]
+        },
+        "electrum-flc.hashboard.space:50002": {
+          "contact": [
+            {
+              "email": "listing@hashboard.space"
+            }
+          ]
+        },
+        "electrum-flc.hashboard.space:50004": {
+          "contact": [
+            {
+              "email": "listing@hashboard.space"
+            }
+          ]
+        }
+      },
       "electrum-flc.hashboard.space:50001": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1794100527": "offline"
       },
       "electrum-flc.hashboard.space:50002": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1794100527": "offline"
       },
       "electrum-flc.hashboard.space:50004": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1794100527": "offline"
       },
       "electrum.myfloki.com:50001": {
         "1792993807": "online"
@@ -2880,14 +2910,40 @@
       "1792993807": "online"
     },
     "by_server": {
+      "_metadata": {
+        "electrum-flc.hashboard.space:50001": {
+          "contact": [
+            {
+              "email": "listing@hashboard.space"
+            }
+          ]
+        },
+        "electrum-flc.hashboard.space:50002": {
+          "contact": [
+            {
+              "email": "listing@hashboard.space"
+            }
+          ]
+        },
+        "electrum-flc.hashboard.space:50004": {
+          "contact": [
+            {
+              "email": "listing@hashboard.space"
+            }
+          ]
+        }
+      },
       "electrum-flc.hashboard.space:50001": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1794100527": "offline"
       },
       "electrum-flc.hashboard.space:50002": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1794100527": "offline"
       },
       "electrum-flc.hashboard.space:50004": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1794100527": "offline"
       },
       "electrum.myfloki.com:50001": {
         "1792993807": "online"
@@ -3186,6 +3242,22 @@
       }
     }
   },
+  "GSPC": {
+    "all": {
+      "1794100527": "online"
+    },
+    "by_server": {
+      "electrum.gspcoin.us:50001": {
+        "1794100527": "online"
+      },
+      "electrum.gspcoin.us:50002": {
+        "1794100527": "online"
+      },
+      "electrum.gspcoin.us:50003": {
+        "1794100527": "online"
+      }
+    }
+  },
   "HRC": {
     "all": {
       "1792993807": "online"
@@ -3398,7 +3470,8 @@
         "1792993807": "offline"
       },
       "https://lcd.nyancat.irisnet.org": {
-        "1793625583": "online"
+        "1793625583": "online",
+        "1794100527": "offline"
       }
     }
   },
@@ -5285,15 +5358,18 @@
       },
       "electrum.pepeblocks.com:50001": {
         "1792993807": "offline",
-        "1793312302": "online"
+        "1793312302": "online",
+        "1794100527": "offline"
       },
       "electrum.pepeblocks.com:50002": {
         "1792993807": "offline",
-        "1793312302": "online"
+        "1793312302": "online",
+        "1794100527": "offline"
       },
       "electrum.pepeblocks.com:50004": {
         "1792993807": "offline",
-        "1793312302": "online"
+        "1793312302": "online",
+        "1794100527": "offline"
       }
     }
   },
