@@ -9110,7 +9110,8 @@
         "txfee": 10000,
         "mm2": 1,
         "required_confirmations": 3,
-        "avg_blocktime": 36,
+        "mature_confirmations": 30,
+        "avg_blocktime": 300,
         "protocol": {
             "type": "UTXO"
         },
@@ -9133,15 +9134,6 @@
                         "discord": "668310974083629056"
                     }
                 ]
-            },
-            {
-                "url": "electrumx.dgc.ewmcx.org:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "failover.dgc.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -31482,6 +31474,10 @@
             },
             {
                 "url": "https://tron.api.pocket.network"
+            },
+            {
+                "url": "https://tron.drpc.org",
+                "ws_url": "wss://tron.drpc.org"
             }
         ],
         "explorer_block_url": "#/block/",
