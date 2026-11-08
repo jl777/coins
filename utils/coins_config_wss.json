@@ -3643,6 +3643,15 @@
                         "discord": "nucash"
                     }
                 ]
+            },
+            {
+                "url": "bitnet.outsidethebox.top:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -34255,7 +34264,7 @@
         "name": "Yenten",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "YTN",
         "explorer_url": "https://explorer.yentencoin.info/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -36960,7 +36969,7 @@
         "name": "GSP Coin",
         "coinpaprika_id": "",
         "coingecko_id": "",
-        "livecoinwatch_id": "",
+        "livecoinwatch_id": "GSPC",
         "explorer_url": "https://explorer.gspcoin.us/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
