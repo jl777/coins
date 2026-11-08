@@ -4523,6 +4523,33 @@
         },
         "electrum": [
             {
+                "url": "bit-e.minethepla.net:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
+                "url": "bit-e.minethepla.net:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
+                "url": "bit-e.outsidethebox.top:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bit-e.outsidethebox.top:50004",
                 "protocol": "WSS",
                 "contact": [
@@ -4561,15 +4588,6 @@
             {
                 "url": "bitnet.outsidethebox.top:50002",
                 "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
-                "url": "bitnet.outsidethebox.top:50004",
-                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "def#4726"
@@ -16180,33 +16198,6 @@
         },
         "electrum": [
             {
-                "url": "electrum-flc.hashboard.space:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "listing@hashboard.space"
-                    }
-                ]
-            },
-            {
-                "url": "electrum-flc.hashboard.space:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "listing@hashboard.space"
-                    }
-                ]
-            },
-            {
-                "url": "electrum-flc.hashboard.space:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "listing@hashboard.space"
-                    }
-                ]
-            },
-            {
                 "url": "electrum.myfloki.com:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -16277,33 +16268,6 @@
             "homepage": "https://flokicoin.org"
         },
         "electrum": [
-            {
-                "url": "electrum-flc.hashboard.space:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "listing@hashboard.space"
-                    }
-                ]
-            },
-            {
-                "url": "electrum-flc.hashboard.space:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "listing@hashboard.space"
-                    }
-                ]
-            },
-            {
-                "url": "electrum-flc.hashboard.space:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "listing@hashboard.space"
-                    }
-                ]
-            },
             {
                 "url": "electrum.myfloki.com:50001",
                 "protocol": "TCP",
@@ -28805,33 +28769,6 @@
                 "contact": [
                     {
                         "discord": "squidicuz"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.pepeblocks.com:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "realmasterkush"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.pepeblocks.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "realmasterkush"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.pepeblocks.com:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "realmasterkush"
                     }
                 ]
             }
@@ -47882,11 +47819,8 @@
             }
         },
         "derivation_path": "m/44'/118'",
-        "rpc_urls": [
-            {
-                "url": "https://lcd.nyancat.irisnet.org"
-            }
-        ],
+        "rpc_urls": [],
+        "delisted": true,
         "explorer_block_url": "#/blocks/"
     },
     "NUCLEUSTEST": {
@@ -48358,6 +48292,80 @@
             {
                 "url": "node1.electrum.tarcoin.org:50002",
                 "protocol": "SSL"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "GSPC": {
+        "coin": "GSPC",
+        "type": "UTXO",
+        "name": "GSP Coin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.gspcoin.us/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "DarkCoin Signed Message:\n",
+        "fname": "GSP Coin",
+        "rpcport": 15167,
+        "pubtype": 38,
+        "p2shtype": 102,
+        "wiftype": 205,
+        "txfee": 10000,
+        "mm2": 1,
+        "confpath": "USERHOME/.gspcoincore/gspcoin.conf",
+        "required_confirmations": 2,
+        "avg_blocktime": 240,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/200'",
+        "links": {
+            "github": "https://github.com/gamgsp/gspcoin",
+            "homepage": "https://gspcoin.us"
+        },
+        "electrum": [
+            {
+                "url": "electrum.gspcoin.us:50001",
+                "contact": [
+                    {
+                        "email": "info@globaladsmedia.us"
+                    },
+                    {
+                        "github": "gamgsp"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum.gspcoin.us:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "info@globaladsmedia.us"
+                    },
+                    {
+                        "github": "gamgsp"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.gspcoin.us:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "info@globaladsmedia.us"
+                    },
+                    {
+                        "github": "gamgsp"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
