@@ -498,8 +498,7 @@
         "electrum": [
             {
                 "url": "elec-seeder-one.artbytecoin.org:50013",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "protocol": "WSS"
             },
             {
                 "url": "elec-seeder-two.artbytecoin.org:50013",
@@ -1713,13 +1712,11 @@
             },
             {
                 "url": "electrumx.aur.ewmcx.info:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "protocol": "WSS"
             },
             {
                 "url": "failover.aur.ewmcx.biz:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -3800,7 +3797,6 @@
             {
                 "url": "electrum1.blackcoin.nl:10004",
                 "protocol": "WSS",
-                "disable_cert_verification": false,
                 "contact": [
                     {
                         "discord": "michelvankessel#7656"
@@ -3810,7 +3806,6 @@
             {
                 "url": "electrum2.blackcoin.nl:20004",
                 "protocol": "WSS",
-                "disable_cert_verification": false,
                 "contact": [
                     {
                         "discord": "michelvankessel#7656"
@@ -3820,7 +3815,6 @@
             {
                 "url": "electrum3.blackcoin.nl:30004",
                 "protocol": "WSS",
-                "disable_cert_verification": false,
                 "contact": [
                     {
                         "discord": "michelvankessel#7656"
@@ -3913,7 +3907,6 @@
             {
                 "url": "electrum1.blackcoin.nl:10014",
                 "protocol": "WSS",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "michelvankessel#7656"
@@ -3923,7 +3916,6 @@
             {
                 "url": "electrum2.blackcoin.nl:20014",
                 "protocol": "WSS",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "michelvankessel#7656"
@@ -3933,7 +3925,6 @@
             {
                 "url": "electrum3.blackcoin.nl:30014",
                 "protocol": "WSS",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "michelvankessel#7656"
@@ -5477,7 +5468,6 @@
             {
                 "url": "btx-electrumx.coinsmunity.com:50003",
                 "protocol": "WSS",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "[MadCatMining]#0677"
@@ -5555,7 +5545,6 @@
             {
                 "url": "btx-electrumx.coinsmunity.com:50003",
                 "protocol": "WSS",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "[MadCatMining]#0677"
@@ -6029,29 +6018,24 @@
         "derivation_path": "m/44'/34'",
         "electrum": [
             {
+                "url": "chicago.ecoincore.com:34335",
+                "protocol": "WSS"
+            },
+            {
                 "url": "holland.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "protocol": "WSS"
             },
             {
-                "url": "lenoir.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "url": "oakland.ecoincore.com:34335",
+                "protocol": "WSS"
             },
             {
-                "url": "miami.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "url": "seattle.ecoincore.com:34335",
+                "protocol": "WSS"
             },
             {
-                "url": "mumbai.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "url": "toronto.ecoincore.com:34335",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -6094,29 +6078,24 @@
         "derivation_path": "m/84'/34'",
         "electrum": [
             {
+                "url": "chicago.ecoincore.com:34335",
+                "protocol": "WSS"
+            },
+            {
                 "url": "holland.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "protocol": "WSS"
             },
             {
-                "url": "lenoir.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "url": "oakland.ecoincore.com:34335",
+                "protocol": "WSS"
             },
             {
-                "url": "miami.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "url": "seattle.ecoincore.com:34335",
+                "protocol": "WSS"
             },
             {
-                "url": "mumbai.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34335",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "url": "toronto.ecoincore.com:34335",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -8466,7 +8445,6 @@
             {
                 "url": "electrumx1.diminutivecoin.com:50013",
                 "protocol": "WSS",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "email": "support@diminutivecoin.com"
@@ -8488,7 +8466,6 @@
             {
                 "url": "electrumx2.diminutivecoin.com:50013",
                 "protocol": "WSS",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "email": "support@diminutivecoin.com"
@@ -9500,13 +9477,11 @@
         "electrum": [
             {
                 "url": "electrum1.egulden.org:50004",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "protocol": "WSS"
             },
             {
                 "url": "electrum3.egulden.org:50004",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -11921,7 +11896,6 @@
             {
                 "url": "electrumx.fixedcoin.org:50004",
                 "protocol": "WSS",
-                "disable_cert_verification": false,
                 "contact": [
                     {
                         "email": "support@fixedcoin.org"
@@ -11976,7 +11950,6 @@
             {
                 "url": "electrumx.fixedcoin.org:50004",
                 "protocol": "WSS",
-                "disable_cert_verification": false,
                 "contact": [
                     {
                         "email": "support@fixedcoin.org"
@@ -15281,7 +15254,6 @@
             {
                 "url": "il8p.electrumx.transcenders.name:50003",
                 "protocol": "WSS",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "email": "coins@ewmci.com"
@@ -15303,7 +15275,6 @@
             {
                 "url": "il9p.electrumx.transcenders.name:50003",
                 "protocol": "WSS",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "email": "coins@ewmci.com"
@@ -17072,12 +17043,10 @@
         "electrum": [
             {
                 "url": "lbc.electrum1.cipig.net:30067",
-                "disable_cert_verification": false,
                 "protocol": "WSS"
             },
             {
                 "url": "lbc.electrum2.cipig.net:30067",
-                "disable_cert_verification": false,
                 "protocol": "WSS"
             }
         ],
@@ -17122,12 +17091,10 @@
         "electrum": [
             {
                 "url": "lbc.electrum1.cipig.net:30067",
-                "disable_cert_verification": false,
                 "protocol": "WSS"
             },
             {
                 "url": "lbc.electrum2.cipig.net:30067",
-                "disable_cert_verification": false,
                 "protocol": "WSS"
             }
         ],
@@ -21008,7 +20975,6 @@
             {
                 "url": "electrum1.nito.network:50005",
                 "protocol": "WSS",
-                "disable_cert_verification": false,
                 "contact": [
                     {
                         "email": "biigbang0001@zemzar.net"
@@ -21066,7 +21032,6 @@
             {
                 "url": "electrum1.nito.network:50005",
                 "protocol": "WSS",
-                "disable_cert_verification": false,
                 "contact": [
                     {
                         "email": "biigbang0001@zemzar.net"
@@ -22034,6 +21999,15 @@
                 "contact": [
                     {
                         "discord": "squidicuz"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.pepeblocks.com:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "realmasterkush"
                     }
                 ]
             }
@@ -28081,8 +28055,7 @@
         "electrum": [
             {
                 "url": "failover.trc-uis.ewmcx.biz:50007",
-                "protocol": "WSS",
-                "disable_cert_verification": true
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -28139,42 +28112,6 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/",
-        "binance_id": "TRX"
-    },
-    "TRX": {
-        "coin": "TRX",
-        "type": "TRX",
-        "name": "TRON",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "TRX",
-        "explorer_url": "https://tronscan.org/",
-        "explorer_tx_url": "#/transaction/",
-        "explorer_address_url": "#/address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "fname": "TRON",
-        "mm2": 1,
-        "decimals": 6,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 1,
-        "derivation_path": "m/44'/195'",
-        "protocol": {
-            "type": "TRX",
-            "protocol_data": {
-                "network": "Mainnet"
-            }
-        },
-        "nodes": [
-            {
-                "url": "https://tron.drpc.org",
-                "ws_url": "wss://tron.drpc.org"
-            }
-        ],
-        "explorer_block_url": "#/block/",
         "binance_id": "TRX"
     },
     "USDT-TRC20": {
@@ -31315,7 +31252,6 @@
             {
                 "url": "e1.validitytech.com:11004",
                 "protocol": "WSS",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "michelvankessel#7656"
@@ -31325,7 +31261,6 @@
             {
                 "url": "e2.validitytech.com:11004",
                 "protocol": "WSS",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "michelvankessel#7656"
@@ -31335,7 +31270,6 @@
             {
                 "url": "e3.validitytech.com:11004",
                 "protocol": "WSS",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "discord": "michelvankessel#7656"
@@ -32926,6 +32860,7 @@
         "dust": 100000,
         "mm2": 1,
         "segwit": true,
+        "signature_version": "witness_v0",
         "bech32_hrp": "ep",
         "address_format": {
             "format": "segwit"
@@ -36617,6 +36552,42 @@
         ],
         "explorer_block_url": "block/",
         "binance_id": "OSMO"
+    },
+    "IRISTEST": {
+        "coin": "IRISTEST",
+        "type": "TENDERMINT",
+        "name": "Iris Test",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://nyancat.iobscan.io/",
+        "explorer_tx_url": "#/txs/",
+        "explorer_address_url": "#/address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": true,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "avg_blocktime": 7,
+        "fname": "Iris Test",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "unyan",
+                "account_prefix": "iaa",
+                "chain_id": "nyancat-9",
+                "gas_price": 0.5
+            }
+        },
+        "derivation_path": "m/44'/118'",
+        "rpc_urls": [
+            {
+                "url": "https://lcd.nyancat.irisnet.org"
+            }
+        ],
+        "explorer_block_url": "#/blocks/"
     },
     "IRISTEST-IBC_NUCLEUSTEST": {
         "coin": "IRISTEST-IBC_NUCLEUSTEST",
