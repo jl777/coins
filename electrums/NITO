@@ -10,7 +10,6 @@
     {
         "url": "electrum1.nito.network:50003",
         "protocol": "SSL",
-        "disable_cert_verification": false,
         "contact": [
             {"email": "biigbang0001@zemzar.net"},
             {"discord": "biigbang0001"}
@@ -28,7 +27,6 @@
     {
         "url": "electrum1.nitopool.fr:50003",
         "protocol": "SSL",
-        "disable_cert_verification": false,
         "contact": [
             {"email": "biigbang0001@zemzar.net"},
             {"discord": "biigbang0001"}
