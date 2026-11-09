@@ -29612,23 +29612,19 @@
         "electrum": [
             {
                 "url": "allingas.peercoinexplorer.net:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false
+                "protocol": "SSL"
             },
             {
                 "url": "allingas.peercoinexplorer.net:50004",
-                "protocol": "WSS",
-                "disable_cert_verification": false
+                "protocol": "WSS"
             },
             {
                 "url": "electrum.peercoinexplorer.net:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false
+                "protocol": "SSL"
             },
             {
                 "url": "electrum.peercoinexplorer.net:50004",
-                "protocol": "WSS",
-                "disable_cert_verification": false
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -36254,6 +36250,10 @@
         "derivation_path": "m/44'/1'",
         "electrum": [
             {
+                "url": "blackie.c3-soft.com:57006",
+                "protocol": "SSL"
+            },
+            {
                 "url": "testnet.aranguren.org:51001",
                 "protocol": "TCP"
             }
@@ -36296,6 +36296,10 @@
         },
         "derivation_path": "m/84'/1'",
         "electrum": [
+            {
+                "url": "blackie.c3-soft.com:57006",
+                "protocol": "SSL"
+            },
             {
                 "url": "testnet.aranguren.org:51001",
                 "protocol": "TCP"
@@ -41346,145 +41350,36 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "el0.verus.io:17485",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "el0.verus.io:17486",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false
+                "protocol": "SSL"
             },
             {
                 "url": "el0.verus.io:17488",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false
-            },
-            {
-                "url": "el1.verus.io:17485",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "protocol": "TCP"
+                "protocol": "WSS"
             },
             {
                 "url": "el1.verus.io:17486",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false
+                "protocol": "SSL"
             },
             {
                 "url": "el1.verus.io:17488",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false
-            },
-            {
-                "url": "el2.verus.io:17485",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "protocol": "TCP"
+                "protocol": "WSS"
             },
             {
                 "url": "el2.verus.io:17486",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false
+                "protocol": "SSL"
             },
             {
                 "url": "el2.verus.io:17488",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false
+                "protocol": "WSS"
+            },
+            {
+                "url": "el3.verus.io:17486",
+                "protocol": "SSL"
+            },
+            {
+                "url": "el3.verus.io:17488",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"
@@ -47250,6 +47145,15 @@
         },
         "derivation_path": "m/44'/1'",
         "electrum": [
+            {
+                "url": "blackie.c3-soft.com:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
             {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
