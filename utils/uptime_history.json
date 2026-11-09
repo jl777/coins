@@ -6135,6 +6135,9 @@
       "1792993807": "online"
     },
     "by_server": {
+      "blackie.c3-soft.com:57006": {
+        "1794199902": "online"
+      },
       "testnet.aranguren.org:51001": {
         "1792993807": "online"
       }
@@ -6145,6 +6148,9 @@
       "1792993807": "online"
     },
     "by_server": {
+      "blackie.c3-soft.com:57006": {
+        "1794199902": "online"
+      },
       "testnet.aranguren.org:51001": {
         "1792993807": "online"
       }
@@ -6783,6 +6789,12 @@
       },
       "el2.verus.io:17488": {
         "1792993807": "online"
+      },
+      "el3.verus.io:17486": {
+        "1794199902": "online"
+      },
+      "el3.verus.io:17488": {
+        "1794199902": "online"
       }
     }
   },
@@ -7058,6 +7070,13 @@
             }
           ]
         },
+        "electrumx1.electraprotocol.eu:50004": {
+          "contact": [
+            {
+              "discord": "287952234317348865"
+            }
+          ]
+        },
         "electrumx2.electraprotocol.eu:50003": {
           "contact": [
             {
@@ -7065,7 +7084,21 @@
             }
           ]
         },
+        "electrumx2.electraprotocol.eu:50004": {
+          "contact": [
+            {
+              "discord": "287952234317348865"
+            }
+          ]
+        },
         "electrumx3.electraprotocol.eu:50003": {
+          "contact": [
+            {
+              "discord": "287952234317348865"
+            }
+          ]
+        },
+        "electrumx3.electraprotocol.eu:50004": {
           "contact": [
             {
               "discord": "287952234317348865"
@@ -7082,6 +7115,9 @@
       "electrumx1.electraprotocol.eu:50003": {
         "1792993807": "offline"
       },
+      "electrumx1.electraprotocol.eu:50004": {
+        "1794199902": "offline"
+      },
       "electrumx2.electraprotocol.eu:50001": {
         "1792993807": "online"
       },
@@ -7091,6 +7127,9 @@
       "electrumx2.electraprotocol.eu:50003": {
         "1792993807": "offline"
       },
+      "electrumx2.electraprotocol.eu:50004": {
+        "1794199902": "offline"
+      },
       "electrumx3.electraprotocol.eu:50001": {
         "1792993807": "online"
       },
@@ -7099,6 +7138,9 @@
       },
       "electrumx3.electraprotocol.eu:50003": {
         "1792993807": "offline"
+      },
+      "electrumx3.electraprotocol.eu:50004": {
+        "1794199902": "offline"
       }
     }
   },
@@ -7594,6 +7636,9 @@
             }
           ]
         }
+      },
+      "blackie.c3-soft.com:60002": {
+        "1794199902": "online"
       },
       "tbch.loping.net:60002": {
         "1792993807": "online"
