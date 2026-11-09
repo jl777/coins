@@ -2,7 +2,6 @@
     {
         "url": "electrumx2.diminutivecoin.com:50012",
         "protocol": "SSL",
-        "disable_cert_verification": true,
         "contact": [
             {
                 "email": "support@diminutivecoin.com"
@@ -13,7 +12,6 @@
     {
         "url": "electrumx1.diminutivecoin.com:50012",
         "protocol": "SSL",
-        "disable_cert_verification": true,
         "contact": [
             {
                 "email": "support@diminutivecoin.com"
