@@ -666,13 +666,15 @@
         "1792993807": "offline",
         "1793203949": "online",
         "1793553574": "offline",
-        "1794100527": "online"
+        "1794100527": "online",
+        "1794293453": "offline"
       },
       "bit-e.minethepla.net:50004": {
         "1792993807": "offline",
         "1793312302": "online",
         "1793516861": "offline",
-        "1794100527": "online"
+        "1794100527": "online",
+        "1794293453": "offline"
       },
       "bit-e.outsidethebox.top:50002": {
         "1792993807": "offline",
@@ -684,7 +686,8 @@
         "1792993807": "offline",
         "1793203949": "online",
         "1793726278": "offline",
-        "1793906931": "online"
+        "1793906931": "online",
+        "1794293453": "offline"
       },
       "bitn-electrumx.wattxchange.app:50011": {
         "1792993807": "online",
@@ -1993,10 +1996,12 @@
         "1792993807": "online"
       },
       "failover.dgc.ewmcx.biz:50002": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1794293453": "offline"
       },
       "failover.dgc.ewmcx.biz:50003": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1794293453": "offline"
       }
     }
   },
@@ -3397,8 +3402,14 @@
       "https://hyperevm.rpc.sentio.xyz": {
         "1792993807": "online"
       },
+      "https://hyperliquid-rpc.publicnode.com": {
+        "1794293453": "online"
+      },
       "https://hyperliquid.drpc.org": {
         "1792993807": "online"
+      },
+      "https://hyperliquid.rpc.blxrbdn.com": {
+        "1794293453": "online"
       },
       "https://rpc.hyperliquid.xyz/evm": {
         "1792993807": "online"
@@ -6121,6 +6132,12 @@
   "TAO": {
     "all": {},
     "by_server": {
+      "https://bittensor-finney.api.onfinality.io/public": {
+        "1794293453": "online"
+      },
+      "https://bittensor.web3cdn.rest": {
+        "1794293453": "online"
+      },
       "https://lb.routeme.sh/rpc/evm/964": {
         "1792993807": "offline",
         "1794236238": "online",
@@ -6131,6 +6148,15 @@
       },
       "https://rpc.blockmachine.io": {
         "1792993807": "online"
+      },
+      "wss://bittensor-finney.api.onfinality.io/public-ws": {
+        "1794293453": "online"
+      },
+      "wss://bittensor.web3cdn.rest": {
+        "1794293453": "offline"
+      },
+      "wss://rpc.blockmachine.io": {
+        "1794293453": "online"
       }
     }
   },
@@ -6421,7 +6447,8 @@
         "1793726278": "online",
         "1793906931": "offline",
         "1794139621": "online",
-        "1794236238": "offline"
+        "1794236238": "offline",
+        "1794293453": "online"
       },
       "https://tron.rpc.sentio.xyz": {
         "1792993807": "offline",
@@ -6438,7 +6465,8 @@
         "1793726278": "online",
         "1793906931": "offline",
         "1794139621": "online",
-        "1794236238": "offline"
+        "1794236238": "offline",
+        "1794293453": "online"
       },
       "wss://tron.rpc.sentio.xyz": {
         "1793026562": "online",
@@ -6638,6 +6666,12 @@
   "USDC-TAO": {
     "all": {},
     "by_server": {
+      "https://bittensor-finney.api.onfinality.io/public": {
+        "1794293453": "online"
+      },
+      "https://bittensor.web3cdn.rest": {
+        "1794293453": "online"
+      },
       "https://lb.routeme.sh/rpc/evm/964": {
         "1792993807": "offline",
         "1794236238": "online",
@@ -6648,6 +6682,15 @@
       },
       "https://rpc.blockmachine.io": {
         "1792993807": "online"
+      },
+      "wss://bittensor-finney.api.onfinality.io/public-ws": {
+        "1794293453": "online"
+      },
+      "wss://bittensor.web3cdn.rest": {
+        "1794293453": "offline"
+      },
+      "wss://rpc.blockmachine.io": {
+        "1794293453": "online"
       }
     }
   },
@@ -7328,11 +7371,17 @@
       "https://plasma.drpc.org": {
         "1793026562": "offline"
       },
+      "https://plasma.gateway.tenderly.co": {
+        "1794293453": "online"
+      },
       "https://rpc.plasma.to": {
         "1792993807": "online"
       },
       "https://rpc.swiftnodes.io/rpc/plasma": {
         "1792993807": "online"
+      },
+      "wss://plasma.api.onfinality.io/public-ws": {
+        "1794293453": "offline"
       },
       "wss://plasma.drpc.org": {
         "1793026562": "offline"
