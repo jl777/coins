@@ -12,7 +12,11 @@
       "url": "https://9745.rpc.thirdweb.com"
     },
     {
-      "url": "https://plasma.api.onfinality.io/public"
+      "url": "https://plasma.gateway.tenderly.co"
+    },
+    {
+      "url": "https://plasma.api.onfinality.io/public",
+      "ws_url": "wss://plasma.api.onfinality.io/public-ws"
     }
   ]
 }
