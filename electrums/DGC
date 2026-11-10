@@ -1,5 +1,19 @@
 [
     {
+        "url": "failover.dgc.ewmcx.biz:50002",
+        "protocol": "SSL",
+        "ws_url": "failover.dgc.ewmcx.biz:50003"
+    },
+    {
+        "url": "electrumx.dgc.ewmcx.org:50001",
+        "protocol": "TCP"
+    },
+    {
+        "url": "electrumx.dgc.ewmcx.org:50002",
+        "protocol": "SSL",
+        "ws_url": "electrumx.dgc.ewmcx.org:50003"
+    },
+    {
         "url": "electrum1.getlynx.io:8002",
         "protocol": "SSL",
         "ws_url": "electrum1.getlynx.io:8003",
