@@ -4086,15 +4086,6 @@
         },
         "electrum": [
             {
-                "url": "bit-e.minethepla.net:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
                 "url": "bit-e.outsidethebox.top:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -9083,6 +9074,10 @@
                         "discord": "668310974083629056"
                     }
                 ]
+            },
+            {
+                "url": "electrumx.dgc.ewmcx.org:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -16660,11 +16655,14 @@
                 "url": "https://hyperevm.rpc.sentio.xyz"
             },
             {
+                "url": "https://hyperliquid-rpc.publicnode.com"
+            },
+            {
                 "url": "https://hyperliquid.drpc.org",
                 "ws_url": "wss://hyperliquid.drpc.org"
             },
             {
-                "url": "https://rpc.hyperliquid.xyz/evm"
+                "url": "https://hyperliquid.rpc.blxrbdn.com"
             },
             {
                 "url": "https://rpc.hypurrscan.io"
@@ -30531,10 +30529,19 @@
         "fallback_swap_contract": "0xDB3d24F21745B9C1953BD643E1a6CA8A34C4F47c",
         "nodes": [
             {
+                "url": "https://bittensor-finney.api.onfinality.io/public",
+                "ws_url": "wss://bittensor-finney.api.onfinality.io/public-ws"
+            },
+            {
+                "url": "https://bittensor.web3cdn.rest",
+                "ws_url": "wss://bittensor.web3cdn.rest"
+            },
+            {
                 "url": "https://lite.chain.opentensor.ai"
             },
             {
-                "url": "https://rpc.blockmachine.io"
+                "url": "https://rpc.blockmachine.io",
+                "ws_url": "wss://rpc.blockmachine.io"
             }
         ],
         "explorer_block_url": "block/",
@@ -31423,6 +31430,10 @@
             },
             {
                 "url": "https://tron.api.pocket.network"
+            },
+            {
+                "url": "https://tron.drpc.org",
+                "ws_url": "wss://tron.drpc.org"
             }
         ],
         "explorer_block_url": "#/block/",
@@ -32776,8 +32787,7 @@
         "electrum": [
             {
                 "url": "uno-bkp.coinmunity.gold:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
+                "protocol": "SSL"
             },
             {
                 "url": "uno-ex-one.ewmci.online:50002",
@@ -32785,8 +32795,7 @@
             },
             {
                 "url": "uno-main.coinmunity.gold:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -33317,11 +33326,14 @@
                 "url": "https://hyperevm.rpc.sentio.xyz"
             },
             {
+                "url": "https://hyperliquid-rpc.publicnode.com"
+            },
+            {
                 "url": "https://hyperliquid.drpc.org",
                 "ws_url": "wss://hyperliquid.drpc.org"
             },
             {
-                "url": "https://rpc.hyperliquid.xyz/evm"
+                "url": "https://hyperliquid.rpc.blxrbdn.com"
             },
             {
                 "url": "https://rpc.hypurrscan.io"
@@ -33588,10 +33600,19 @@
         "fallback_swap_contract": "0xDB3d24F21745B9C1953BD643E1a6CA8A34C4F47c",
         "nodes": [
             {
+                "url": "https://bittensor-finney.api.onfinality.io/public",
+                "ws_url": "wss://bittensor-finney.api.onfinality.io/public-ws"
+            },
+            {
+                "url": "https://bittensor.web3cdn.rest",
+                "ws_url": "wss://bittensor.web3cdn.rest"
+            },
+            {
                 "url": "https://lite.chain.opentensor.ai"
             },
             {
-                "url": "https://rpc.blockmachine.io"
+                "url": "https://rpc.blockmachine.io",
+                "ws_url": "wss://rpc.blockmachine.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -33686,7 +33707,11 @@
                 "url": "https://9745.rpc.thirdweb.com"
             },
             {
-                "url": "https://plasma.api.onfinality.io/public"
+                "url": "https://plasma.api.onfinality.io/public",
+                "ws_url": "wss://plasma.api.onfinality.io/public-ws"
+            },
+            {
+                "url": "https://plasma.gateway.tenderly.co"
             },
             {
                 "url": "https://rpc.plasma.to"
@@ -34010,11 +34035,14 @@
                 "url": "https://hyperevm.rpc.sentio.xyz"
             },
             {
+                "url": "https://hyperliquid-rpc.publicnode.com"
+            },
+            {
                 "url": "https://hyperliquid.drpc.org",
                 "ws_url": "wss://hyperliquid.drpc.org"
             },
             {
-                "url": "https://rpc.hyperliquid.xyz/evm"
+                "url": "https://hyperliquid.rpc.blxrbdn.com"
             },
             {
                 "url": "https://rpc.hypurrscan.io"
@@ -34168,7 +34196,11 @@
                 "url": "https://9745.rpc.thirdweb.com"
             },
             {
-                "url": "https://plasma.api.onfinality.io/public"
+                "url": "https://plasma.api.onfinality.io/public",
+                "ws_url": "wss://plasma.api.onfinality.io/public-ws"
+            },
+            {
+                "url": "https://plasma.gateway.tenderly.co"
             },
             {
                 "url": "https://rpc.plasma.to"
@@ -35043,11 +35075,14 @@
                 "url": "https://hyperevm.rpc.sentio.xyz"
             },
             {
+                "url": "https://hyperliquid-rpc.publicnode.com"
+            },
+            {
                 "url": "https://hyperliquid.drpc.org",
                 "ws_url": "wss://hyperliquid.drpc.org"
             },
             {
-                "url": "https://rpc.hyperliquid.xyz/evm"
+                "url": "https://hyperliquid.rpc.blxrbdn.com"
             },
             {
                 "url": "https://rpc.hypurrscan.io"
@@ -35094,7 +35129,11 @@
                 "url": "https://9745.rpc.thirdweb.com"
             },
             {
-                "url": "https://plasma.api.onfinality.io/public"
+                "url": "https://plasma.api.onfinality.io/public",
+                "ws_url": "wss://plasma.api.onfinality.io/public-ws"
+            },
+            {
+                "url": "https://plasma.gateway.tenderly.co"
             },
             {
                 "url": "https://rpc.plasma.to"
@@ -36818,7 +36857,11 @@
                 "url": "https://9745.rpc.thirdweb.com"
             },
             {
-                "url": "https://plasma.api.onfinality.io/public"
+                "url": "https://plasma.api.onfinality.io/public",
+                "ws_url": "wss://plasma.api.onfinality.io/public-ws"
+            },
+            {
+                "url": "https://plasma.gateway.tenderly.co"
             },
             {
                 "url": "https://rpc.plasma.to"
@@ -37589,7 +37632,11 @@
                 "url": "https://9745.rpc.thirdweb.com"
             },
             {
-                "url": "https://plasma.api.onfinality.io/public"
+                "url": "https://plasma.api.onfinality.io/public",
+                "ws_url": "wss://plasma.api.onfinality.io/public-ws"
+            },
+            {
+                "url": "https://plasma.gateway.tenderly.co"
             },
             {
                 "url": "https://rpc.plasma.to"
