@@ -11696,7 +11696,7 @@
         "txfee": 1000,
         "mm2": 1,
         "required_confirmations": 1,
-        "avg_blocktime": 300,
+        "avg_blocktime": 150,
         "protocol": {
             "type": "UTXO"
         },
@@ -28203,8 +28203,8 @@
         },
         "nodes": [
             {
-                "url": "https://tron.rpc.sentio.xyz",
-                "ws_url": "wss://tron.rpc.sentio.xyz"
+                "url": "https://tron.drpc.org",
+                "ws_url": "wss://tron.drpc.org"
             }
         ],
         "explorer_block_url": "#/block/",
