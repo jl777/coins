@@ -4086,6 +4086,15 @@
         },
         "electrum": [
             {
+                "url": "bit-e.minethepla.net:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bit-e.outsidethebox.top:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -7204,7 +7213,7 @@
         "wiftype": 128,
         "txfee": 40000,
         "mm2": 1,
-        "required_confirmations": 2,
+        "required_confirmations": 3,
         "avg_blocktime": 120,
         "protocol": {
             "type": "UTXO"
@@ -9077,6 +9086,10 @@
             },
             {
                 "url": "electrumx.dgc.ewmcx.org:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "failover.dgc.ewmcx.biz:50002",
                 "protocol": "SSL"
             }
         ],
@@ -22860,7 +22873,7 @@
         "wiftype": 176,
         "txfee": 200000,
         "mm2": 1,
-        "required_confirmations": 2,
+        "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
@@ -31359,8 +31372,8 @@
                 "url": "https://tron.api.pocket.network"
             },
             {
-                "url": "https://tron.drpc.org",
-                "ws_url": "wss://tron.drpc.org"
+                "url": "https://tron.rpc.sentio.xyz",
+                "ws_url": "wss://tron.rpc.sentio.xyz"
             }
         ],
         "explorer_block_url": "#/block/",
