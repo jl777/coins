@@ -2877,7 +2877,7 @@
     "wiftype": 128,
     "txfee": 40000,
     "mm2": 1,
-    "required_confirmations": 2,
+    "required_confirmations": 3,
     "avg_blocktime": 120,
     "protocol": {
       "type": "UTXO"
@@ -9212,7 +9212,7 @@
     "wiftype": 176,
     "txfee": 200000,
     "mm2": 1,
-    "required_confirmations": 2,
+    "required_confirmations": 5,
     "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
