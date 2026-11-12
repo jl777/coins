@@ -4587,15 +4587,6 @@
                         "discord": "def#4726"
                     }
                 ]
-            },
-            {
-                "url": "bitnet.outsidethebox.top:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -16120,35 +16111,8 @@
             "github": "https://github.com/flokiorg/go-flokicoin",
             "homepage": "https://flokicoin.org"
         },
-        "electrum": [
-            {
-                "url": "electrum.myfloki.com:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "electrum@myfloki.com"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.myfloki.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "electrum@myfloki.com"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.myfloki.com:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "electrum@myfloki.com"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "FLC-segwit": {
@@ -16191,35 +16155,8 @@
             "github": "https://github.com/flokiorg/go-flokicoin",
             "homepage": "https://flokicoin.org"
         },
-        "electrum": [
-            {
-                "url": "electrum.myfloki.com:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "electrum@myfloki.com"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.myfloki.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "electrum@myfloki.com"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.myfloki.com:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "electrum@myfloki.com"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "FLOKI-BEP20": {
@@ -20578,9 +20515,6 @@
         },
         "derivation_path": "m/44'/118'",
         "rpc_urls": [
-            {
-                "url": "https://mainnet-iris-rpc.konsortech.xyz"
-            },
             {
                 "url": "https://rpc-iris.keplr.app"
             }
@@ -28247,18 +28181,8 @@
         "derivation_path": "m/44'/60'",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://api.harmony.one"
-            },
-            {
-                "url": "https://api.s0.t.hmny.io"
-            },
-            {
-                "url": "https://harmony-0.drpc.org",
-                "ws_url": "wss://harmony-0.drpc.org"
-            }
-        ],
+        "nodes": [],
+        "delisted": true,
         "explorer_block_url": "block/",
         "binance_id": "ONE"
     },
@@ -28657,33 +28581,6 @@
         },
         "electrum": [
             {
-                "url": "electrum.pepe.tips:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "squidicuz"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.pepe.tips:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "squidicuz"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.pepe.tips:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "squidicuz"
-                    }
-                ]
-            },
-            {
                 "url": "electrum.pepeblocks.com:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -28707,6 +28604,33 @@
                 "contact": [
                     {
                         "discord": "realmasterkush"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.pepecoinservice.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "lostinbtc"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.pepecoinservice.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "lostinbtc"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.pepecoinservice.org:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "lostinbtc"
                     }
                 ]
             }
@@ -29177,7 +29101,7 @@
                 "url": "electrum01.chainster.org:50001",
                 "contact": [
                     {
-                        "discord": "312541186793406465"
+                        "discord": "504986115221225502"
                     }
                 ],
                 "protocol": "TCP"
@@ -29187,7 +29111,7 @@
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "discord": "312541186793406465"
+                        "discord": "504986115221225502"
                     }
                 ]
             },
@@ -29196,7 +29120,7 @@
                 "protocol": "WSS",
                 "contact": [
                     {
-                        "discord": "312541186793406465"
+                        "discord": "504986115221225502"
                     }
                 ]
             },
@@ -29204,7 +29128,7 @@
                 "url": "electrum02.chainster.org:50001",
                 "contact": [
                     {
-                        "discord": "312541186793406465"
+                        "discord": "504986115221225502"
                     }
                 ],
                 "protocol": "TCP"
@@ -29214,12 +29138,39 @@
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "discord": "312541186793406465"
+                        "discord": "504986115221225502"
                     }
                 ]
             },
             {
                 "url": "electrum02.chainster.org:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "504986115221225502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum03.chainster.org:50001",
+                "contact": [
+                    {
+                        "discord": "312541186793406465"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum03.chainster.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "312541186793406465"
+                    }
+                ]
+            },
+            {
+                "url": "electrum03.chainster.org:50003",
                 "protocol": "WSS",
                 "contact": [
                     {

@@ -13444,108 +13444,6 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "FLC": {
-        "coin": "FLC",
-        "type": "UTXO",
-        "name": "Flokicoin",
-        "coinpaprika_id": "flc-flokicoin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "_____FLC",
-        "explorer_url": "https://flokichain.info/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Flokicoin Signed Message:\n",
-        "fname": "Flokicoin",
-        "rpcport": 15213,
-        "pubtype": 35,
-        "p2shtype": 5,
-        "wiftype": 128,
-        "segwit": true,
-        "bech32_hrp": "fc",
-        "txfee": 0,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "dust": 1000,
-        "derivation_path": "m/44'/0'",
-        "links": {
-            "github": "https://github.com/flokiorg/go-flokicoin",
-            "homepage": "https://flokicoin.org"
-        },
-        "electrum": [
-            {
-                "url": "electrum.myfloki.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "electrum@myfloki.com"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "FLC-segwit": {
-        "coin": "FLC-segwit",
-        "type": "UTXO",
-        "name": "Flokicoin",
-        "coinpaprika_id": "flc-flokicoin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "_____FLC",
-        "explorer_url": "https://flokichain.info/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Flokicoin Signed Message:\n",
-        "fname": "Flokicoin",
-        "rpcport": 15213,
-        "pubtype": 35,
-        "p2shtype": 5,
-        "wiftype": 128,
-        "segwit": true,
-        "bech32_hrp": "fc",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "FLC",
-        "txfee": 0,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "dust": 1000,
-        "derivation_path": "m/84'/0'",
-        "links": {
-            "github": "https://github.com/flokiorg/go-flokicoin",
-            "homepage": "https://flokicoin.org"
-        },
-        "electrum": [
-            {
-                "url": "electrum.myfloki.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "electrum@myfloki.com"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "FLOKI-BEP20": {
         "coin": "FLOKI-BEP20",
         "type": "BEP-20",
@@ -17413,9 +17311,6 @@
         },
         "derivation_path": "m/44'/118'",
         "rpc_urls": [
-            {
-                "url": "https://mainnet-iris-rpc.konsortech.xyz"
-            },
             {
                 "url": "https://rpc-iris.keplr.app"
             }
@@ -23946,52 +23841,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "ONE": {
-        "coin": "ONE",
-        "type": "HRC-20",
-        "name": "Harmony",
-        "coinpaprika_id": "one-harmony",
-        "coingecko_id": "harmony",
-        "livecoinwatch_id": "ONE",
-        "explorer_url": "https://explorer.harmony.one/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Harmony",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 1666600000,
-        "max_eth_tx_type": 2,
-        "required_confirmations": 3,
-        "avg_blocktime": 15,
-        "protocol": {
-            "type": "ETH",
-            "protocol_data": {
-                "chain_id": 1666600000
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://api.harmony.one"
-            },
-            {
-                "url": "https://api.s0.t.hmny.io"
-            },
-            {
-                "url": "https://harmony-0.drpc.org",
-                "ws_url": "wss://harmony-0.drpc.org"
-            }
-        ],
-        "explorer_block_url": "block/",
-        "binance_id": "ONE"
-    },
     "ONT-BEP20": {
         "coin": "ONT-BEP20",
         "type": "BEP-20",
@@ -24339,20 +24188,20 @@
         },
         "electrum": [
             {
-                "url": "electrum.pepe.tips:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "squidicuz"
-                    }
-                ]
-            },
-            {
                 "url": "electrum.pepeblocks.com:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "realmasterkush"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.pepecoinservice.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "lostinbtc"
                     }
                 ]
             }
@@ -24819,12 +24668,21 @@
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "discord": "312541186793406465"
+                        "discord": "504986115221225502"
                     }
                 ]
             },
             {
                 "url": "electrum02.chainster.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "504986115221225502"
+                    }
+                ]
+            },
+            {
+                "url": "electrum03.chainster.org:50002",
                 "protocol": "SSL",
                 "contact": [
                     {

@@ -715,7 +715,8 @@
         "1792993807": "offline",
         "1793625583": "online",
         "1794100527": "offline",
-        "1794104145": "online"
+        "1794104145": "online",
+        "1794471816": "offline"
       }
     }
   },
@@ -2899,7 +2900,8 @@
   },
   "FLC": {
     "all": {
-      "1792993807": "online"
+      "1792993807": "online",
+      "1794471816": "offline"
     },
     "by_server": {
       "_metadata": {
@@ -2923,6 +2925,27 @@
               "email": "listing@hashboard.space"
             }
           ]
+        },
+        "electrum.myfloki.com:50001": {
+          "contact": [
+            {
+              "email": "electrum@myfloki.com"
+            }
+          ]
+        },
+        "electrum.myfloki.com:50002": {
+          "contact": [
+            {
+              "email": "electrum@myfloki.com"
+            }
+          ]
+        },
+        "electrum.myfloki.com:50004": {
+          "contact": [
+            {
+              "email": "electrum@myfloki.com"
+            }
+          ]
         }
       },
       "electrum-flc.hashboard.space:50001": {
@@ -2938,19 +2961,23 @@
         "1794100527": "offline"
       },
       "electrum.myfloki.com:50001": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1794471816": "offline"
       },
       "electrum.myfloki.com:50002": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1794471816": "offline"
       },
       "electrum.myfloki.com:50004": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1794471816": "offline"
       }
     }
   },
   "FLC-segwit": {
     "all": {
-      "1792993807": "online"
+      "1792993807": "online",
+      "1794471816": "offline"
     },
     "by_server": {
       "_metadata": {
@@ -2974,6 +3001,27 @@
               "email": "listing@hashboard.space"
             }
           ]
+        },
+        "electrum.myfloki.com:50001": {
+          "contact": [
+            {
+              "email": "electrum@myfloki.com"
+            }
+          ]
+        },
+        "electrum.myfloki.com:50002": {
+          "contact": [
+            {
+              "email": "electrum@myfloki.com"
+            }
+          ]
+        },
+        "electrum.myfloki.com:50004": {
+          "contact": [
+            {
+              "email": "electrum@myfloki.com"
+            }
+          ]
         }
       },
       "electrum-flc.hashboard.space:50001": {
@@ -2989,13 +3037,16 @@
         "1794100527": "offline"
       },
       "electrum.myfloki.com:50001": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1794471816": "offline"
       },
       "electrum.myfloki.com:50002": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1794471816": "offline"
       },
       "electrum.myfloki.com:50004": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1794471816": "offline"
       }
     }
   },
@@ -3499,7 +3550,8 @@
         "1792993807": "offline"
       },
       "https://mainnet-iris-rpc.konsortech.xyz": {
-        "1793625583": "online"
+        "1793625583": "online",
+        "1794471816": "offline"
       },
       "https://rpc-iris.keplr.app": {
         "1793625583": "online"
@@ -5267,18 +5319,22 @@
       "https://api.harmony.one": {
         "1792993807": "online",
         "1793203949": "offline",
-        "1793312302": "online"
+        "1793312302": "online",
+        "1794471816": "offline"
       },
       "https://api.s0.t.hmny.io": {
         "1792993807": "online",
         "1793203949": "offline",
-        "1793312302": "online"
+        "1793312302": "online",
+        "1794471816": "offline"
       },
       "https://harmony-0.drpc.org": {
-        "1793026562": "online"
+        "1793026562": "online",
+        "1794471816": "offline"
       },
       "wss://harmony-0.drpc.org": {
-        "1793026562": "online"
+        "1793026562": "online",
+        "1794471816": "offline"
       }
     }
   },
@@ -5423,6 +5479,15 @@
         "1793312302": "online",
         "1794100527": "offline",
         "1794236238": "online"
+      },
+      "electrum.pepecoinservice.org:50001": {
+        "1794471816": "online"
+      },
+      "electrum.pepecoinservice.org:50002": {
+        "1794471816": "online"
+      },
+      "electrum.pepecoinservice.org:50004": {
+        "1794471816": "online"
       }
     }
   },
@@ -5461,6 +5526,15 @@
       },
       "electrum02.chainster.org:50003": {
         "1792993807": "online"
+      },
+      "electrum03.chainster.org:50001": {
+        "1794471816": "online"
+      },
+      "electrum03.chainster.org:50002": {
+        "1794471816": "online"
+      },
+      "electrum03.chainster.org:50003": {
+        "1794471816": "online"
       }
     }
   },
