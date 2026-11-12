@@ -1758,6 +1758,9 @@
             },
             {
                 "url": "https://rpc-iris.keplr.app"
+            },
+            {
+                "url": "https://rpc.irishub-2.irisnet.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -17330,7 +17333,7 @@
                 "decimals": 6,
                 "denom": "uiris",
                 "account_prefix": "iaa",
-                "chain_id": "irishub-1",
+                "chain_id": "irishub-2",
                 "chain_registry_name": "irishub",
                 "gas_price": 0.5,
                 "ibc_channels": {
@@ -17342,7 +17345,13 @@
         "derivation_path": "m/44'/118'",
         "rpc_urls": [
             {
+                "url": "https://mainnet-iris-rpc.konsortech.xyz"
+            },
+            {
                 "url": "https://rpc-iris.keplr.app"
+            },
+            {
+                "url": "https://rpc.irishub-2.irisnet.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -31305,6 +31314,10 @@
             {
                 "url": "https://tron.drpc.org",
                 "ws_url": "wss://tron.drpc.org"
+            },
+            {
+                "url": "https://tron.rpc.sentio.xyz",
+                "ws_url": "wss://tron.rpc.sentio.xyz"
             }
         ],
         "explorer_block_url": "#/block/",
