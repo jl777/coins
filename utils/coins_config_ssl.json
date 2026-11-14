@@ -3348,7 +3348,7 @@
         },
         "derivation_path": "m/44'/0'",
         "links": {
-            "github": "https://github.com/BitcoinII-Dev/BitcoinII",
+            "github": "https://github.com/Bitcoin-II/BitcoinII-Core",
             "homepage": "https://bitcoin-ii.org"
         },
         "electrum": [
@@ -3410,7 +3410,7 @@
         },
         "derivation_path": "m/84'/0'",
         "links": {
-            "github": "https://github.com/BitcoinII-Dev/BitcoinII",
+            "github": "https://github.com/Bitcoin-II/BitcoinII-Core",
             "homepage": "https://bitcoin-ii.org"
         },
         "electrum": [
@@ -4201,6 +4201,24 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "bit-e.minethepla.net:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
+                "url": "bit-e.outsidethebox.top:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
             {
                 "url": "bitn-electrumx.wattxchange.app:50012",
                 "protocol": "SSL",
@@ -31323,6 +31341,10 @@
             },
             {
                 "url": "https://tron.api.pocket.network"
+            },
+            {
+                "url": "https://tron.drpc.org",
+                "ws_url": "wss://tron.drpc.org"
             },
             {
                 "url": "https://tron.rpc.sentio.xyz",
