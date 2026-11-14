@@ -3542,6 +3542,7 @@
         "p2shtype": 5,
         "wiftype": 128,
         "segwit": true,
+        "sighash_suffix": "0x01324342",
         "bech32_hrp": "bc",
         "txfee": 1000,
         "mm2": 1,
@@ -3635,6 +3636,7 @@
         "p2shtype": 5,
         "wiftype": 128,
         "segwit": true,
+        "sighash_suffix": "0x01324342",
         "bech32_hrp": "bc",
         "address_format": {
             "format": "segwit"
@@ -4614,15 +4616,6 @@
                 "contact": [
                     {
                         "discord": "nucash"
-                    }
-                ]
-            },
-            {
-                "url": "bitnet.outsidethebox.top:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
                     }
                 ]
             }
@@ -38092,14 +38085,6 @@
             "homepage": "https://unobtanium.uno"
         },
         "electrum": [
-            {
-                "url": "uno-bkp.coinmunity.gold:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "uno-bkp.coinmunity.gold:50003",
-                "protocol": "WSS"
-            },
             {
                 "url": "uno-ex-one.ewmci.online:50001",
                 "protocol": "TCP"
