@@ -499,6 +499,38 @@
       }
     }
   },
+  "BCA": {
+    "all": {
+      "1794616783": "online"
+    },
+    "by_server": {
+      "bca-main-2.swaps.org:54002": {
+        "1794616783": "online"
+      },
+      "bca-main.swaps.org:54002": {
+        "1794616783": "online"
+      },
+      "electrumx.bitcoinatom.io:50002": {
+        "1794616783": "online"
+      }
+    }
+  },
+  "BCA-segwit": {
+    "all": {
+      "1794616783": "online"
+    },
+    "by_server": {
+      "bca-main-2.swaps.org:54002": {
+        "1794616783": "online"
+      },
+      "bca-main.swaps.org:54002": {
+        "1794616783": "online"
+      },
+      "electrumx.bitcoinatom.io:50002": {
+        "1794616783": "online"
+      }
+    }
+  },
   "BCH": {
     "all": {
       "1792993807": "online"
@@ -668,7 +700,8 @@
         "1793553574": "offline",
         "1794100527": "online",
         "1794293453": "offline",
-        "1794359738": "online"
+        "1794359738": "online",
+        "1794616783": "offline"
       },
       "bit-e.minethepla.net:50004": {
         "1792993807": "offline",
@@ -676,13 +709,15 @@
         "1793516861": "offline",
         "1794100527": "online",
         "1794293453": "offline",
-        "1794359738": "online"
+        "1794359738": "online",
+        "1794616783": "offline"
       },
       "bit-e.outsidethebox.top:50002": {
         "1792993807": "offline",
         "1793312302": "online",
         "1793516861": "offline",
-        "1794100527": "online"
+        "1794100527": "online",
+        "1794616783": "offline"
       },
       "bit-e.outsidethebox.top:50004": {
         "1792993807": "offline",
@@ -690,7 +725,8 @@
         "1793726278": "offline",
         "1793906931": "online",
         "1794293453": "offline",
-        "1794359738": "online"
+        "1794359738": "online",
+        "1794616783": "offline"
       },
       "bitn-electrumx.wattxchange.app:50011": {
         "1792993807": "online",
@@ -6535,7 +6571,8 @@
         "1794236238": "offline",
         "1794293453": "online",
         "1794359738": "offline",
-        "1794380539": "online"
+        "1794380539": "online",
+        "1794616783": "offline"
       },
       "https://tron.rpc.sentio.xyz": {
         "1792993807": "offline",
@@ -6558,7 +6595,8 @@
         "1794236238": "offline",
         "1794293453": "online",
         "1794359738": "offline",
-        "1794380539": "online"
+        "1794380539": "online",
+        "1794616783": "offline"
       },
       "wss://tron.rpc.sentio.xyz": {
         "1793026562": "online",

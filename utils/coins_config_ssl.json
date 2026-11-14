@@ -3433,6 +3433,117 @@
         ],
         "explorer_block_url": "block/"
     },
+    "BCA": {
+        "coin": "BCA",
+        "type": "UTXO",
+        "name": "Bitcoin Atom",
+        "coinpaprika_id": "bca-bitcoin-atom",
+        "coingecko_id": "bitcoin-atom",
+        "livecoinwatch_id": "BCA",
+        "explorer_url": "https://bitcoinatom.net/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bitcoin Signed Message:\n",
+        "fname": "Bitcoin Atom",
+        "rpcport": 7332,
+        "pubtype": 23,
+        "p2shtype": 10,
+        "wiftype": 128,
+        "segwit": true,
+        "fork_id": "0x5D40",
+        "bech32_hrp": "bca",
+        "txfee": 1000,
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO",
+            "chain_variant": "BTC"
+        },
+        "derivation_path": "m/44'/185'",
+        "links": {
+            "github": "https://github.com/bitcoin-atom/bitcoin-atom",
+            "homepage": "https://bitcoinatom.io"
+        },
+        "electrum": [
+            {
+                "url": "bca-main-2.swaps.org:54002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "bca-main.swaps.org:54002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumx.bitcoinatom.io:50002",
+                "protocol": "SSL"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BCA-segwit": {
+        "coin": "BCA-segwit",
+        "type": "UTXO",
+        "name": "Bitcoin Atom",
+        "coinpaprika_id": "bca-bitcoin-atom",
+        "coingecko_id": "bitcoin-atom",
+        "livecoinwatch_id": "BCA",
+        "explorer_url": "https://bitcoinatom.net/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bitcoin Signed Message:\n",
+        "fname": "Bitcoin Atom",
+        "rpcport": 7332,
+        "pubtype": 23,
+        "p2shtype": 10,
+        "wiftype": 128,
+        "segwit": true,
+        "fork_id": "0x5D40",
+        "signature_version": "witness_v0",
+        "bech32_hrp": "bca",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "BCA",
+        "txfee": 1000,
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO",
+            "chain_variant": "BTC"
+        },
+        "derivation_path": "m/84'/185'",
+        "links": {
+            "github": "https://github.com/bitcoin-atom/bitcoin-atom",
+            "homepage": "https://bitcoinatom.io"
+        },
+        "electrum": [
+            {
+                "url": "bca-main-2.swaps.org:54002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "bca-main.swaps.org:54002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumx.bitcoinatom.io:50002",
+                "protocol": "SSL"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "BCASH-GRC20": {
         "coin": "BCASH-GRC20",
         "type": "GRC-20",
@@ -4088,24 +4199,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "bit-e.minethepla.net:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
-                "url": "bit-e.outsidethebox.top:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
             {
                 "url": "bitn-electrumx.wattxchange.app:50012",
                 "protocol": "SSL",
@@ -31237,10 +31330,6 @@
             },
             {
                 "url": "https://tron.api.pocket.network"
-            },
-            {
-                "url": "https://tron.drpc.org",
-                "ws_url": "wss://tron.drpc.org"
             },
             {
                 "url": "https://tron.rpc.sentio.xyz",
