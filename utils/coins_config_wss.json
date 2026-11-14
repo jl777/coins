@@ -2902,6 +2902,7 @@
         "p2shtype": 5,
         "wiftype": 128,
         "segwit": true,
+        "sighash_suffix": "0x01324342",
         "bech32_hrp": "bc",
         "txfee": 1000,
         "mm2": 1,
@@ -2959,6 +2960,7 @@
         "p2shtype": 5,
         "wiftype": 128,
         "segwit": true,
+        "sighash_suffix": "0x01324342",
         "bech32_hrp": "bc",
         "address_format": {
             "format": "segwit"
@@ -29152,10 +29154,6 @@
             "homepage": "https://unobtanium.uno"
         },
         "electrum": [
-            {
-                "url": "uno-bkp.coinmunity.gold:50003",
-                "protocol": "WSS"
-            },
             {
                 "url": "uno-main.coinmunity.gold:50003",
                 "protocol": "WSS"
